@@ -1,6 +1,6 @@
 ## Interface: 20506
 ## Title: Yonder (journal handover)
-## Notes: Brings Explorer's Field Journal's journal into Yonder, its new name, at your next login. Nothing else; a later update removes it.
+## Notes: Brings Explorer's Field Journal's journal into Yonder, its new name, at your next login. Nothing else. A later update removes it.
 ## Author: salty-max
 ## Version: 0.12.1
 ## SavedVariablesPerCharacter: FieldJournalChar
