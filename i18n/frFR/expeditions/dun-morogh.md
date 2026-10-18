@@ -1,5 +1,5 @@
 ---
-source: 391a7fa34134
+source: ac12165ef2db
 zone: 1426
 ---
 ## dun-morogh-empty-camp
@@ -38,7 +38,7 @@ Sur la route qui sort de la vallée où débutent les jeunes nains,
 un armurier tient un camp, et à côté un champ de tir.
 Deux fusiliers se chamaillent, mais le mortier a le dernier mot.
 Dix doigts font de piètres bouchons d'oreilles, mais vous n'avez que ça.
-? Le camp de Hegnar Rumbleshot, sur la route de la passe des Frigères à Kharanos. Bouchez-vous les oreilles au champ de tir avec /oreilles.
+? Le camp de Hegnar Rumbleshot, sur la route de la passe des Frigères à Kharanos. Bouchez-vous les oreilles au champ de tir.
 = Le champ de tir de Rumbleshot. De temps à autre, les cinq nains du camp s'y rendent. D'abord les fusiliers Middlecamp et Wheeler, qui tirent sur une cible orc et une rangée de bouteilles. Puis l'équipe de mortier, Angus et Shorty, fait feu tour à tour sur trois mannequins, pendant que l'éclaireur Klemmy court dans tous les sens.
 + Middlecamp manque deux fois la cible orc et deux fois les bouteilles, tandis que Wheeler touche la cible sans même essayer, et la cible du milieu en plein centre. Puis Wheeler ne touche que le flanc de la caisse des bouteilles, et c'est Middlecamp qui abat le mannequin orc, se tourne vers la cible en papier et tire de la hanche sur les bouteilles.
 ! Calme

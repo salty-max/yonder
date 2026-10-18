@@ -4,7 +4,7 @@ sources:
   - 2771 bc268990a7eb
   - 2775 4a151a932c5b
   - 2772 1e767cd5c6f7
-  - 2776 584f9990d506
+  - 2776 585bc3eaeb9b
   - 3858 70885f3ada2d
   - 7911 967027ff8147
   - 10620 c38f793eef89
@@ -69,7 +69,7 @@ Les enchanteurs emploient aussi le minerai lui-même pour des gants qui facilite
 
 L'or fournit les bâtonnets dont les enchanteurs ont besoin. Ses barres entrent aussi dans l'offrande réclamée par le Calice spectral, sous le Mont Rochenoire.
 
-Il faut d'abord fondre le minerai. Même un tribut accepté par les morts commence par quelqu'un qui entretient un fourneau.
+Il faut d'abord fondre le minerai. Le calice accepte les barres, pas le minerai.
 
 ## 3858 Minerai de mithril
 

@@ -1,5 +1,5 @@
 ---
-source: c59e8312cf2a
+source: cceb2f2bf2a0
 zone: 1450
 ---
 ## moonglade-flight-masters
@@ -16,7 +16,7 @@ Al noroeste del pueblo, un oso no necesita un cuerpo de carne.
 Su voz te llega, aunque su boca no da señal de hablar.
 Tiene algo que enseñar sobre una fuerza que no se mide solo por las garras.
 Préstale un oído atento.
-? Al noroeste de Amparo de la Noche, entre los árboles. Haz el gesto de escuchar al Espíritu del gran oso. No necesitas formación de druida para esta visita.
+? Al noroeste de Amparo de la Noche, entre los árboles. Escucha al Espíritu del gran oso. No necesitas formación de druida para esta visita.
 = El Espíritu del gran oso. Una voz te llega sin que el oso parezca hablar. Los druidas vienen aquí a aprender qué significa adoptar su forma.
 + La fuerza del corazón, enseña, es la determinación de una madre que defiende a sus crías o de un oso anciano que protege su guarida. Un cuerpo grande es solo la mitad de la lección.
 ! Tranquilo

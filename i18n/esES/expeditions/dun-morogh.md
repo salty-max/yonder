@@ -1,5 +1,5 @@
 ---
-source: 391a7fa34134
+source: ac12165ef2db
 zone: 1426
 ---
 ## dun-morogh-empty-camp
@@ -38,7 +38,7 @@ En el camino que sale del valle donde empiezan los jóvenes enanos,
 un armero tiene un campamento y, a su lado, un campo de tiro.
 Dos fusileros discuten y el mortero tiene la última palabra.
 Diez dedos son malos tapones, pero es todo lo que has traído.
-? El campamento de Hegnar Estruendo, junto al camino del Desfiladero de Crestanevada a Kharanos. Tápate los oídos en el campo de tiro con /coverears.
+? El campamento de Hegnar Estruendo, junto al camino del Desfiladero de Crestanevada a Kharanos. Tápate los oídos en el campo de tiro.
 = El campo de prácticas de Hegnar Estruendo. De vez en cuando, los cinco enanos del campamento se acercan a él. Primero llegan el Fusilero de mediocampo y el Fusilero Trapis, que disparan a una diana de orco y una fila de botellas. Después, Angus y Enanín disparan el mortero por turnos a tres muñecos diana, mientras el Avistador Klemmy corre de un lado a otro.
 + Fusilero de mediocampo falla dos veces la diana de orco y dos las botellas, mientras Fusilero Trapis acierta sin esfuerzo al orco y al centro de la diana central. Después Fusilero Trapis solo da en el lateral de la caja de botellas, y es Fusilero de mediocampo quien dispara al muñeco orco, se vuelve hacia la diana de papel y dispara desde la cadera a las botellas.
 ! Tranquilo

@@ -4,7 +4,7 @@ sources:
   - 2771 bc268990a7eb
   - 2775 4a151a932c5b
   - 2772 1e767cd5c6f7
-  - 2776 584f9990d506
+  - 2776 585bc3eaeb9b
   - 3858 70885f3ada2d
   - 7911 967027ff8147
   - 10620 c38f793eef89
@@ -69,7 +69,7 @@ Verzauberer verwenden auch das Erz selbst für Handschuhe, die den Bergbau erlei
 
 Aus Gold entstehen die Ruten, die Verzauberer für ihre Arbeit brauchen. Seine Barren gehören auch zu der Opfergabe, die der Spektrale Kelch unter dem Blackrock verlangt.
 
-Zunächst muss das Erz geschmolzen werden. Selbst eine Gabe für die Toten beginnt damit, dass jemand einen Schmelzofen betreut.
+Zunächst muss das Erz geschmolzen werden. Der Kelch nimmt die Barren an, nicht das Erz.
 
 ## 3858 Mithrilerz
 

@@ -1,5 +1,5 @@
 ---
-source: c59e8312cf2a
+source: cceb2f2bf2a0
 zone: 1450
 ---
 ## moonglade-flight-masters
@@ -16,7 +16,7 @@ Au nord-ouest de la ville, un ours se passe de chair.
 Sa voix vous parvient, mais sa gueule ne semble rien prononcer.
 Il a quelque chose à enseigner sur une force qui ne tient pas qu'aux griffes.
 Prêtez-lui une oreille attentive.
-? Au nord-ouest de Havrenuit, parmi les arbres. Faites le geste d'écouter l'Esprit du Grand ours. Nul besoin d'une formation de druide pour cette visite.
+? Au nord-ouest de Havrenuit, parmi les arbres. Écoutez l'Esprit du Grand ours. Nul besoin d'une formation de druide pour cette visite.
 = L'Esprit du Grand ours. Une voix vous parvient sans que l'ours semble parler. Les druides viennent ici apprendre ce que signifie prendre sa forme.
 + La force du cœur, enseigne-t-il, est la détermination d'une mère qui défend ses petits ou d'un vieil ours qui protège sa tanière. Un corps imposant ne fait que la moitié de la leçon.
 ! Tranquille
