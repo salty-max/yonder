@@ -134,11 +134,15 @@ function ns.refreshFindsProfessions()
   c.finds.unlocked, c.finds.announced = c.finds.unlocked or {}, c.finds.announced or {}
   unlock("cloth")
   -- Upgrade migration: old catches and herbs remain readable even when the
-  -- character no longer has their profession. Their saved records stay put.
-  if c.fish and next(c.fish) then unlock("fish") end
-  if c.plants and next(c.plants) then unlock("plants") end
+  -- character no longer has their profession. Their saved records stay put,
+  -- and a collection the journal already held is no news: never announced.
+  local function held(family)
+    if unlock(family) then c.finds.announced[family] = true end
+  end
+  if c.fish and next(c.fish) then held("fish") end
+  if c.plants and next(c.plants) then held("plants") end
   for id in pairs(c.materials or {}) do
-    if M.items[id] then unlock(M.items[id].family) end
+    if M.items[id] then held(M.items[id].family) end
   end
   for family in pairs(professions()) do
     unlock(family)
@@ -150,7 +154,24 @@ function ns.refreshFindsProfessions()
 end
 ns.on("PLAYER_LOGIN", ns.refreshFindsProfessions)
 ns.on("SKILL_LINES_CHANGED", ns.refreshFindsProfessions)
-ns.on("SPELLS_CHANGED", ns.refreshFindsProfessions)
+-- (the spellbook changes at every form, stance and lesson: looked at again
+-- only when the professions themselves differ, never the skills pane folded
+-- and unfolded each time)
+local professionsSeen
+ns.on("SPELLS_CHANGED", function()
+  local seen = { tostring(GetNumSkillLines and GetNumSkillLines()) }
+  if GetProfessions then
+    -- (a list with holes: no first trade, then Fishing)
+    local list, n = { GetProfessions() }, select("#", GetProfessions())
+    for i = 1, n do
+      seen[#seen + 1] = tostring(list[i])
+    end
+  end
+  seen = table.concat(seen, ",")
+  if seen == professionsSeen then return end
+  professionsSeen = seen
+  ns.refreshFindsProfessions()
+end)
 
 local function entity(guid)
   if not guid or secret(guid) then return end

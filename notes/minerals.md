@@ -32,7 +32,7 @@ Enchanters also use the ore itself for gloves that improve mining. There is a pl
 
 Gold supplies the rods enchanters need for their work. Its bars also form part of the offering asked by the Spectral Chalice beneath Blackrock Mountain.
 
-The ore must first be smelted. Even a tribute accepted by the dead begins with somebody tending a furnace.
+The ore must first be smelted. It is the bars, not the ore, that the chalice will accept.
 
 ## 3858 Mithril Ore
 

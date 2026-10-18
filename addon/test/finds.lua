@@ -217,10 +217,15 @@ return function(g)
     { first = { at = time(), level = 10, how = "gathered" }, n = 9, gathered = 8, looted = 1, zones = {} }
   c.finds, c.fish, c.plants = nil, { [6291] = oldFish }, { [2447] = oldPlant }
   state.professions, state.bags = {}, {}
+  local fishBefore, plantsBefore = announcements("fish"), announcements("plants")
   fire("SKILL_LINES_CHANGED")
   check(
     ns.findsUnlocked("fish") and ns.findsUnlocked("plants") and c.fish[6291] == oldFish and c.plants[2447] == oldPlant,
     "Finds: upgrade migration preserves old catches and herbs without a current profession"
+  )
+  check(
+    announcements("fish") == fishBefore and announcements("plants") == plantsBefore,
+    "Finds: a collection the journal already held is not announced as new"
   )
   from(785, g.creature(1131), 2)
   check(

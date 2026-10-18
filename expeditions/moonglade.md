@@ -37,6 +37,6 @@ North-west of the town, a bear has no need of flesh.
 Its voice reaches you, though its mouth gives no sign.
 It has something to teach about strength beyond the size of one's claws.
 Give it an attentive ear.
-? North-west of Nighthaven, among the trees. Listen to the Great Bear Spirit with a gesture. No druid training is needed for this visit.
+? North-west of Nighthaven, among the trees. Listen to the Great Bear Spirit. No druid training is needed for this visit.
 = The Great Bear Spirit. A voice reaches you without any sign that the bear is speaking. Druids come here to learn what it means to take its form.
 + Strength of heart, it teaches, is the resolve of a mother defending her cubs or an elder protecting its den. A large body is only half the lesson.
