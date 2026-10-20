@@ -270,6 +270,11 @@
    "forever": "Silithides",
    "use": "Silithides"
   },
+  "Southsea Freebooters": {
+   "classic": "Flibustiers des Mers du sud",
+   "forever": "Flibustiers des Mers du sud",
+   "use": "Flibustiers des Mers du sud"
+  },
   "Spirit": {
    "classic": "Esprit",
    "forever": "Esprit",
@@ -357,10 +362,19 @@
    "forever": "Akubar le Prophète",
    "use": "Akubar le Prophète"
   },
+  "Alexi Barov": {
+   "classic": "Alexi Barov",
+   "forever": "Alexi Barov",
+   "use": "Alexi Barov"
+  },
   "Alexia Ironknife": {
    "classic": "Alexia Ironknife",
    "forever": "Alexia Ironknife",
    "use": "Alexia Ironknife"
+  },
+  "Alvarion Windfield": {
+   "forever": "Alvarion Champ-des-Vents",
+   "use": "Alvarion Champ-des-Vents"
   },
   "Ancient Protector": {
    "classic": "Ancien Protecteur",
@@ -396,6 +410,16 @@
    "forever": "Bardu Sharpeye",
    "use": "Bardu Sharpeye"
   },
+  "Baron Longshore": {
+   "classic": "Baron de Longrivage",
+   "forever": "Baron de Longrivage",
+   "use": "Baron de Longrivage"
+  },
+  "Bera Stonehammer": {
+   "classic": "Bera Stonehammer",
+   "forever": "Bera Stonehammer",
+   "use": "Bera Stonehammer"
+  },
   "Boss Galgosh": {
    "classic": "Boss Galgosh",
    "forever": "Boss Galgosh",
@@ -405,6 +429,11 @@
    "classic": "Rochecoeur",
    "forever": "Rochecoeur",
    "use": "Rochecoeur"
+  },
+  "Bowen Brisboise": {
+   "classic": "Bowen Brisboise",
+   "forever": "Bowen Brisboise",
+   "use": "Bowen Brisboise"
   },
   "Brimgore": {
    "classic": "Soufresang",
@@ -494,6 +523,11 @@
    "forever": "Donni Anthania",
    "use": "Donni Anthania"
   },
+  "Doomguard Commander": {
+   "classic": "Commandant de la Garde funeste",
+   "forever": "Commandant de la Garde funeste",
+   "use": "Commandant de la Garde funeste"
+  },
   "Dream Vision": {
    "classic": "Vision de rêve",
    "forever": "Vision de rêve",
@@ -558,6 +592,11 @@
    "classic": "Franclorn Forgewright",
    "forever": "Franclorn Forgewright",
    "use": "Franclorn Forgewright"
+  },
+  "Frankal Stonebridge": {
+   "classic": "Frankal Stonebridge",
+   "forever": "Frankal Stonebridge",
+   "use": "Frankal Stonebridge"
   },
   "Galvan the Ancient": {
    "classic": "Galvan l'Ancien",
@@ -648,6 +687,15 @@
    "forever": "Hegnar Rumbleshot",
    "use": "Hegnar Rumbleshot"
   },
+  "Henze Faulk": {
+   "classic": "Henze Faulk",
+   "forever": "Henze Faulk",
+   "use": "Henze Faulk"
+  },
+  "Herak the Pillager": {
+   "forever": "Herak le Pilleur",
+   "use": "Herak le Pilleur"
+  },
   "Hgarth": {
    "classic": "Hgarth",
    "forever": "Hgarth",
@@ -692,6 +740,16 @@
    "classic": "Keldamyr l'aubergiste",
    "forever": "Keldamyr l'aubergiste",
    "use": "Keldamyr l'aubergiste"
+  },
+  "Isaac Pearson": {
+   "classic": "Isaac Pearson",
+   "forever": "Isaac Pearson",
+   "use": "Isaac Pearson"
+  },
+  "Isha Awak": {
+   "classic": "Isha Awak",
+   "forever": "Isha Awak",
+   "use": "Isha Awak"
   },
   "Jordan Stilwell": {
    "classic": "Jordan Stilwell",
@@ -742,6 +800,11 @@
    "classic": "Licillin",
    "forever": "Licillin",
    "use": "Licillin"
+  },
+  "Lieutenant Benedict": {
+   "classic": "Lieutenant Benedict",
+   "forever": "Lieutenant Benedict",
+   "use": "Lieutenant Benedict"
   },
   "Lil Timmy": {
    "classic": "Jeune Timmy",
@@ -821,6 +884,11 @@
    "classic": "Ecureuil mécanique",
    "forever": "Ecureuil mécanique",
    "use": "Ecureuil mécanique"
+  },
+  "Minor Manifestation of Fire": {
+   "classic": "Manifestation de feu mineure",
+   "forever": "Manifestation de feu mineure",
+   "use": "Manifestation de feu mineure"
   },
   "Mirador": {
    "classic": "Mirador",
@@ -996,6 +1064,16 @@
    "forever": "Rokar Bladeshadow",
    "use": "Rokar Bladeshadow"
   },
+  "Rutgar Glyphshaper": {
+   "classic": "Rutgar Glyphshaper",
+   "forever": "Rutgar Glyphshaper",
+   "use": "Rutgar Glyphshaper"
+  },
+  "Salma Saldean": {
+   "classic": "Salma Saldean",
+   "forever": "Salma Saldean",
+   "use": "Salma Saldean"
+  },
   "Sergeant Carnes": {
    "classic": "Sergent Carnes",
    "forever": "Sergent Carnes",
@@ -1005,6 +1083,11 @@
    "classic": "Serviteur d'Azora",
    "forever": "Serviteur d'Azora",
    "use": "Serviteur d'Azora"
+  },
+  "Servant of Sevine": {
+   "classic": "Serviteur de Sevine",
+   "forever": "Serviteur de Sevine",
+   "use": "Serviteur de Sevine"
   },
   "Shadowmaw Panther": {
    "classic": "Panthère Ombregueule",
@@ -1168,6 +1251,11 @@
    "classic": "Tundra MacGrann",
    "forever": "Tundra MacGrann",
    "use": "Tundra MacGrann"
+  },
+  "Twilight Corrupter": {
+   "classic": "Corrupteur du crépuscule",
+   "forever": "Corrupteur du crépuscule",
+   "use": "Corrupteur du crépuscule"
   },
   "Umi Rumplesnicker": {
    "classic": "Umi Rumplesnicker",
@@ -2150,6 +2238,11 @@
    "classic": "Crique des Gréements",
    "forever": "Crique des Gréements",
    "use": "Crique des Gréements"
+  },
+  "Lushwater Oasis": {
+   "classic": "Oasis luxuriante",
+   "forever": "Oasis luxuriante",
+   "use": "Oasis luxuriante"
   },
   "Malaka'jin": {
    "classic": "Malaka'jin",
@@ -3351,6 +3444,11 @@
    "classic": "Fille au départ de la course",
    "forever": "Fille au départ de la course",
    "use": "Fille au départ de la course"
+  },
+  "Southsea Freebooters": {
+   "classic": "Flibustiers des mers du sud",
+   "forever": "Flibustiers des mers du sud",
+   "use": "Flibustiers des mers du sud"
   },
   "Stonesplinter Chieftain": {
    "classic": "Chef des Brisepierres",
