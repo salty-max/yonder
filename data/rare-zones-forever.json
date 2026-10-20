@@ -1,24 +1,4 @@
 {
-  "203079": {
-    "name": "Wandering Swordsman",
-    "zone": 1429
-  },
-  "204070": {
-    "name": "Soboz",
-    "zone": 1458
-  },
-  "208124": {
-    "name": "Raluk",
-    "zone": 1411
-  },
-  "208812": {
-    "name": "Jorul",
-    "zone": 1426
-  },
-  "209928": {
-    "name": "Mowgh",
-    "zone": 1438
-  },
   "210107": {
     "name": "Kackle",
     "zone": 1432
@@ -30,10 +10,6 @@
   "211965": {
     "name": "Carrodin",
     "zone": 1437
-  },
-  "221333": {
-    "name": "Doomkin",
-    "zone": 1425
   },
   "222726": {
     "name": "Tyrant of the Hive",
