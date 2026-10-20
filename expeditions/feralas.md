@@ -13,6 +13,8 @@ riddles:
     anchor: { creature: 14395 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 61.0, y: 32.0, r: 4 }
     danger: "Perilous (the Gordok ogres, and a pit where anyone may fight anyone)"
+    quest_overlap: [5247]
+    quest_context: "Fragments of the Past fills a vial at the Dire Pool by the Maul. Yonder asks only a show of strength in the ogres' arena, with no kill and no quest."
     sources: "the WoWWiki archive's Griniblix the Spectator and The Maul pages; the client's AreaTable; the dump's spawn and his words"
   - id: feralas-feathermoon
     tier: town

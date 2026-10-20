@@ -13,6 +13,8 @@ riddles:
     creature: 4965   # Pained, dump 66.2, 49.1, at Lady Jaina Proudmoore's side
     hint_area: { x: 66.0, y: 48.0, r: 3 }
     danger: "Quiet"
+    quest_overlap: [558]
+    quest_context: "Jaina's Autograph, in Children's Week, takes an orphan to Lady Jaina, who stands beside Pained. Yonder asks only a salute to Pained, with no quest."
     sources: "the dump's spawn; the client's display tables (a night elf); the WoWWiki archive's Pained page (Jaina's guard, beside Archmage Tervosh)"
   - id: dustwallow-marsh-brackenwall
     tier: town

@@ -21,6 +21,8 @@ riddles:
     found: target   # in the city: only by speaking to her
     hint_area: { x: 64.5, y: 21.5, r: 3 }
     danger: "Quiet"
+    quest_overlap: [97950]
+    quest_context: "Forever's Camping 101: Tailoring sends players to speak with Trianna, the tailoring trainer near her. Yonder asks only a cheer for Darianna herself, with no quest."
     sources: "the dump's spawns and their words"
   - id: darnassus-world-tree
     tier: off

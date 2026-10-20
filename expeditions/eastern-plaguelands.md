@@ -12,6 +12,8 @@ riddles:
     creature: 11710   # Mirador, dump 7.4, 43.5, outside Tirion Fordring's cottage
     hint_area: { x: 9.0, y: 45.0, r: 4 }
     danger: "Quiet"
+    quest_overlap: [5742]
+    quest_context: "Redemption, and the chain after it, is Tirion Fordring's story, told beside his horse. Yonder asks only a hand on Mirador, with no quest."
     sources: "the WoWWiki archive's Mirador page; Of Blood and Honor (2001: Tirion, Eitrigg, the exile); the dump's spawn"
   - id: eastern-plaguelands-adon
     tier: hidden

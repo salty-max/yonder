@@ -12,6 +12,8 @@ riddles:
     area: Valley of Kings   # placed: the client's overlay: 20.5, 73.7, half-size 5.5 by 13.8
     hint_area: { x: 22.0, y: 71.0, r: 14 }
     danger: "Quiet"
+    quest_overlap: [224, 1526, 94467]
+    quest_context: "In Defense of the King's Lands hunts the Stonesplinter troggs in the valley, and Forever's Call of Fire, a dwarf shaman's, defeats a Minor Manifestation of Fire there. Yonder asks only a bow to the stone kings, with no kill and no quest."
     sources: "the Codex's valley-of-kings page; object 175739's text"
   - id: loch-modan-horde-runners
     tier: hidden

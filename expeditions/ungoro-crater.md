@@ -20,8 +20,8 @@ riddles:
     area: Lakkari Tar Pits   # placed: the client's overlay
     hint_area: { x: 49.5, y: 21.5, r: 9 }
     danger: "Perilous (tar elementals, to level 54)"
-    quest_overlap: [4504]
-    quest_context: "Super Sticky asks for tar from the elementals of the pits. Yonder asks only a look at what the tar has kept, with no kill and no quest."
+    quest_overlap: [4504, 4642]
+    quest_context: "Super Sticky asks for tar from the elementals of the pits, and Melding of Influences for a sample from the Gargantuan Oozes beside them. Yonder asks only a look at what the tar has kept, with no kill and no quest."
     sources: "warcraft.wiki.gg's Lakkari Tar Pits page (the lakes of black tar south of Marshal's Refuge, the bones of hundreds of beasts jutting from the surface, scavengers waiting for the tar's prey); the dump's spawns (Tar Beasts, Creepers, Lurkers and Lords: elementals); the client's AreaTable and overlay"
 quarry:
   id: 6584   # King Mosh

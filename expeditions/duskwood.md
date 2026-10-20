@@ -13,6 +13,8 @@ riddles:
     area: Twilight Grove   # placed: the client's overlay: 47.7, 40.4, half-size 10.7 by 18.7
     hint_area: { x: 46.0, y: 43.0, r: 14 }
     danger: "Quiet, but perilous when a dragon of the Nightmare is there"
+    quest_overlap: [8735]
+    quest_context: "The Nightmare's Corruption takes a fragment of the Nightmare from the Twilight Corrupter at the grove's portal. Yonder asks only a sleep under the Dream's trees, with no kill and no quest."
     sources: "the WoWWiki archive's Duskwood page (the crater, the twilight of its own); the Codex's dragons-of-nightmare page"
   - id: duskwood-callahan
     tier: off

@@ -12,6 +12,8 @@ riddles:
     area: The Dark Portal   # placed: the client's overlay: 58.4, 56.5, half-size 6.5 by 7.9
     hint_area: { x: 57.0, y: 54.0, r: 10 }
     danger: "Guarded (demons and ogres)"
+    quest_overlap: [2681, 7602, 8423]
+    quest_context: "The Stones That Bind Us frees Razelikh's servants at the Portal's foot, Flawless Fel Essence takes an essence from its demons, and Warrior Kinship hunts the Helboar about it. Yonder asks only a salute to the Dark Portal itself, with no kill and no quest."
     sources: "object 21582's text (Beyond the Dark Portal); the Codex's the-dark-portal page"
   - id: blasted-lands-tainted-scar
     tier: hidden

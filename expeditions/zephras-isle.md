@@ -12,6 +12,8 @@ riddles:
     found: target   # in the town: only by speaking to him
     hint_area: { x: 62.0, y: 74.0, r: 4 }
     danger: "Quiet"
+    quest_overlap: [92679]
+    quest_context: "Forever's Blood Tithe starts with Alvarion Windfield, who stands near Swimmers in the Calmbreeze Inn. Yonder asks only a nod to Swimmers' tale, with no quest."
     sources: "warcraft.wiki.gg's Sirocca Swimmers Starfeather page (his gossip, the innkeeper Donaal Downbreeze); Wowhead Forever's npc=254149 (his words about the forest); the QuestieDB traces and Wowhead (no quest of his)"
   - id: zephras-isle-gustjumpers
     tier: off

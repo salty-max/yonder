@@ -12,6 +12,8 @@ riddles:
     object: 175856   # dump 27.8, 77.3, in Booty Bay
     hint_area: { x: 27.0, y: 76.0, r: 4 }
     danger: "Quiet"
+    quest_overlap: [2843]
+    quest_context: "Gnomer-gooooone! waits on Scooty and his transponder beside the shelf. Yonder asks only that the book be read, with no quest."
     sources: "object 175856's text"
   - id: stranglethorn-vale-emperors-tomb
     tier: hidden

@@ -23,6 +23,8 @@ riddles:
     anchor: { object: 20923 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 75.0, y: 55.7, r: 8 }
     danger: "Guarded (the Defias Rogue Wizards)"
+    quest_overlap: [1786, 1787, 5545, 91724]
+    quest_context: "The Tome of Divinity, a paladin's quest, raises Henze Faulk nearby and takes a Defias Script from the Rogue Wizards about Stone Cairn Lake, A Bundle of Trouble gathers wood about it, and Forever's Delicate Instruments hunts the same wizards. Yonder asks only a salute to the fallen named on the stone, with no kill and no quest."
     sources: "the WoWWiki archive's Heroes' Vigil, Stone of Remembrance and Stone Cairn Lake pages; object 20923"
 quarry:
   id: 471   # Mother Fang

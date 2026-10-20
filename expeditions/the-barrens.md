@@ -12,6 +12,8 @@ riddles:
     object: 175731   # dump 61.9, 38.7; Wowhead 62.0, 38.7
     hint_area: { x: 63.4, y: 42.4, r: 8 }
     danger: "Quiet"
+    quest_overlap: [65593]
+    quest_context: "Hearts of the Lovers, a warlock's quest, takes Isaac Pearson's heart in Ratchet, near the shelf. Yonder asks only that the book be read, with no kill and no quest."
     sources: "object 175731's text"
   - id: the-barrens-lizzarik
     tier: near
@@ -42,6 +44,8 @@ riddles:
     anchor: { creature: 12034 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 49.9, y: 28.1, r: 6 }
     danger: "Quiet"
+    quest_overlap: [871, 959, 1486, 1491, 1503, 1525, 94466]
+    quest_context: "The hint's wide circle takes in the Razormane camps (Disrupt the Attacks, Call of Fire's Fire Tar), Lushwater Oasis and the caverns' outer cave (Deviate Hides, Smart Drinks, Trouble at the Docks) and Forged Steel's bars. None is the shrine's own. Yonder asks only a salute at the fallen warrior's grave, with no kill and no quest."
     sources: "the wiki's Shrine of the Fallen Warrior; Koiter (creature 12034) places the hint"
 quarry:
   id: 5828   # Humar the Pridelord

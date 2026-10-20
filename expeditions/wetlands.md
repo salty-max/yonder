@@ -29,6 +29,8 @@ riddles:
     object: 175750   # dump 10.8, 60.8; Wowhead's page alike
     hint_area: { x: 9.0, y: 64.4, r: 8 }
     danger: "Quiet"
+    quest_overlap: [1249]
+    quest_context: "The Missing Diplomat ends in a brawl with Tapoke Jahn by the shelf. Yonder asks only that the book be read, with no quest."
     sources: "object 175750's text"
 quarry:
   id: 1140   # Razormaw Matriarch

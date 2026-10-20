@@ -13,6 +13,8 @@ riddles:
     area: The Rolling Plains   # placed: the client's overlay: 62.9, 67.7
     hint_area: { x: 60.5, y: 65.0, r: 7 }
     danger: "Quiet (prairie wolves, and centaur outriders now and then)"
+    quest_overlap: [99080]
+    quest_context: "Forever's Drive Them Out hunts the Galak centaurs and Herak the Pillager on the plains. Yonder asks only a long look across them, with no kill and no quest."
     sources: "the WoWWiki archive's The Rolling Plains and The Golden Plains pages"
   - id: mulgore-three-hammers
     tier: hidden

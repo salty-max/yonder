@@ -33,6 +33,8 @@ riddles:
     creature: 15172   # Glibb, Brann Bronzebeard's Pet Monkey, dump 41.1, 88.6
     hint_area: { x: 41.0, y: 87.0, r: 4 }
     danger: "Perilous (the silithid near the wall)"
+    quest_overlap: [8304]
+    quest_context: "Dearest Natalia questions Rutgar Glyphshaper and Frankal Stonebridge at Bronzebeard's Encampment, beside Glibb. Yonder asks only a greeting for Glibb, with no quest."
     sources: "the dump's spawn and faction (friendly to all); the WoWWiki archive's Glibb page"
 quarry:
   id: 14478   # Huricanian

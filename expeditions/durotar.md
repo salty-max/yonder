@@ -20,6 +20,8 @@ riddles:
     object: 175742   # dump 59.6, 58.1; Wowhead 59.6, 58.2
     hint_area: { x: 61.2, y: 54.4, r: 8 }
     danger: "Guarded (Kul Tiran soldiers)"
+    quest_overlap: [784]
+    quest_context: "Vanquish the Betrayers sends players to kill the keep's sailors, marines and Lieutenant Benedict, who stands by the book. Yonder asks only that the book be read, with no kill and no quest."
     sources: "object 175742's text; Warcraft III: Reign of Chaos (Durotar named for Durotan); the dump (the keep's Kul Tirans)"
 quarry:
   id: 5824   # Captain Flat Tusk

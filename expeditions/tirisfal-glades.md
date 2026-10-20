@@ -21,6 +21,8 @@ riddles:
     area: Stillwater Pond   # placed: the client's overlay: 48.0, 51.3
     hint_area: { x: 50.0, y: 53.5, r: 6 }
     danger: "Quiet (darkhounds about, and Bayne, a rare one, roaming near)"
+    quest_overlap: [404, 5481, 92909, 92911, 97961]
+    quest_context: "A Putrid Task takes Putrid Claws from the dead about the pond, Gordo's Task gathers Gloom Weed there, Forever's Harvesting the Harvesters takes isosprings from the Decrepit Harvesters there, and Camping 101: Tailoring sends players to Bowen Brisboise on the road beside it. Yonder asks only a sigh over the still water, with no kill and no quest."
     sources: "the WoWWiki archive's Stillwater Pond page"
   - id: tirisfal-glades-whispering-gardens
     tier: hidden
@@ -28,6 +30,8 @@ riddles:
     area: Whispering Gardens   # placed: the client's overlay: 84.8, 32.9 (the Terrace of Repose's too)
     hint_area: { x: 82.0, y: 36.0, r: 7 }
     danger: "Perilous (the Scarlet Crusade's elites, level 29 to 31)"
+    quest_overlap: [1113, 99156]
+    quest_context: "Hearts of Zeal takes hearts from the Scarlet Crusade about the monastery's gardens, and Forever's Rear Guard Patrol hunts Riptear there. Yonder asks only a moment's listening in the gardens, with no kill and no quest."
     sources: "the WoWWiki archive's Whispering Gardens page"
   - id: tirisfal-glades-terrace
     tier: hidden
@@ -35,6 +39,8 @@ riddles:
     area: Terrace of Repose   # placed: the client's overlay: 84.8, 32.9 (the Whispering Gardens' too)
     hint_area: { x: 87.0, y: 30.0, r: 7 }
     danger: "Perilous (the Scarlet Crusade's elites, level 29 to 31)"
+    quest_overlap: [1113]
+    quest_context: "Hearts of Zeal takes hearts from the Scarlet Crusade about the monastery's terrace. Yonder asks only a drink there, with no kill and no quest."
     sources: "the WoWWiki archive's Terrace of Repose page"
   - id: tirisfal-glades-faols-rest
     tier: hidden
@@ -43,6 +49,8 @@ riddles:
     anchor: { grave: 429 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 80.5, y: 38.5, r: 8 }
     danger: "Perilous (the Scarlet Crusade)"
+    quest_overlap: [1113, 99156]
+    quest_context: "Hearts of Zeal takes hearts from the Scarlet Crusade about Faol's Rest, and Forever's Rear Guard Patrol hunts Riptear near it. Yonder asks only a prayer at Faol's grave, with no kill and no quest."
     sources: "the game's Faol's Rest; Warcraft II: Tides of Darkness's manual (Faol and the Knights of the Silver Hand); object 177199"
   - id: tirisfal-glades-bulwark
     tier: off
@@ -50,6 +58,8 @@ riddles:
     found: target   # in the camp: only by speaking to him
     hint_area: { x: 83.0, y: 71.0, r: 3 }
     danger: "Quiet"
+    quest_overlap: [5344]
+    quest_context: "The Last Barov sends Alliance players to kill Alexi Barov at the Bulwark, near Bardu Sharpeye. Yonder asks only a word with Bardu, with no kill and no quest."
     sources: "the dump's spawn and his words"
 quarry:
   id: 10357   # Ressan the Needler

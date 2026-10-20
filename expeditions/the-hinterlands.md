@@ -19,6 +19,8 @@ riddles:
     area: Seradane   # placed: the client's overlay: 64.1, 25.4, half-size 8.2 by 12.0
     hint_area: { x: 63.0, y: 26.0, r: 9 }
     danger: "Deadly (Dreamtracker, Rothos and the green dragonkin, levels 60 to 62)"
+    quest_overlap: [8735]
+    quest_context: "The Nightmare's Corruption takes a fragment of the Nightmare from Seradane's Verdantine treants. Yonder asks only a sleep under the Dream's trees, with no kill and no quest."
     sources: "the WoWWiki archive's Seradane, Dreamtracker and Rothos pages (the portal, its guardians, the dragon's skull)"
   - id: the-hinterlands-revantusk
     tier: town

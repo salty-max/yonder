@@ -12,6 +12,8 @@ riddles:
     found: target   # he never stops walking
     hint_area: { x: 54.0, y: 37.0, r: 6 }
     danger: "Contested (the road between the two towns)"
+    quest_overlap: [9389]
+    quest_context: "In the Midsummer Fire Festival, Flickering Flames in the Eastern Kingdoms visits the Flame of Hillsbrad on Zixil's road. Yonder asks only a word with the travelling merchant, with no quest."
     sources: "the dump's spawn, path, link (his robot) and wares (one of each at a time); the WoWWiki archive's Overwatch Mark I page; https://www.wowhead.com/classic/item=7148/goblin-jumper-cables (chance to revive a player)"
   - id: hillsbrad-foothills-gryphons
     tier: off
@@ -44,6 +46,8 @@ riddles:
     object: 175734   # dump 62.6, 20.4; Wowhead's page alike
     hint_area: { x: 59.7, y: 17.7, r: 8 }
     danger: "Quiet"
+    quest_overlap: [1536]
+    quest_context: "Call of Water, a shaman's quest, fills a waterskin at Tarren Mill's well, beside the book. Yonder asks only that the book be read, with no quest."
     sources: "object 175734's text"
 quarry:
   id: 14277

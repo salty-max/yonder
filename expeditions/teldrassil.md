@@ -27,6 +27,8 @@ riddles:
     position_check: questie
     hint_area: { x: 57.2, y: 57.4, r: 3 }
     danger: "Quiet"
+    quest_overlap: [95998, 96101, 96604, 96605, 96606, 96607, 96608, 96634]
+    quest_context: "Forever's The Great Outdoors has players sit by a campfire on the Ancient Protector's road, and Camping 101: Cooking sends them to Zarrin in Dolanaar. Yonder asks only a salute to the Ancient Protector as it walks, with no quest."
     sources: "Classic spawn 49855 and its 43-point patrol, independently placed by Questie at 57.24, 57.41; Felbound Ancients (4441), treant allies of the night elves; https://lurkerlounge.com/forums/thread-8185-post-52244.html, original-era firsthand Dolanaar visit"
   - id: teldrassil-shadowglen-moonwell
     tier: near
