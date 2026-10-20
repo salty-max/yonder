@@ -11,7 +11,9 @@ the addon's folder, for every language the addon ships:
 """
 import json, os, re, sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "wow-data", "py"))
+from root import family_path  # noqa: E402  (scripts/root.py, the kit's copy: the family folder, from a worktree too)
+
+sys.path.insert(0, family_path("wow-data", "py"))
 from wowdata import db  # noqa: E402
 
 locale = sys.argv[1]

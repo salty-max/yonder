@@ -38,7 +38,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import zones as zones_script  # the client's tables from wow-data's database
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-sys.path.insert(0, os.path.join(ROOT, "..", "wow-data", "py"))
+from root import family_path  # noqa: E402  (scripts/root.py, the kit's copy: the family folder, from a worktree too)
+
+sys.path.insert(0, family_path("wow-data", "py"))
 from wowdata import db  # noqa: E402
 OUT = os.path.join(ROOT, "data", "flora.json")
 

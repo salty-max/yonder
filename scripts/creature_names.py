@@ -8,7 +8,9 @@ folder:
   python3 scripts/creature_names.py frFR
 """
 import json, os, re, sys
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "addon-kit"))
+from root import family_path  # noqa: E402  (scripts/root.py, the kit's copy: the family folder, from a worktree too)
+
+sys.path.insert(0, family_path("addon-kit"))
 from glossary import bare, creature
 from wowdata import db  # noqa: E402  (the path glossary set)
 

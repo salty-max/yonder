@@ -164,7 +164,12 @@ class Keepers(unittest.TestCase):
         self.assertEqual(e.unanswered_keepers(both, "Quiet", [(1, "Ghoul", {"alliance", "horde"})]), [])
 
 
-WOWDATA = HERE.parent.parent / "wow-data" / ".cache" / "db" / "classic.db"
+try:  # (the family folder's wow-data, from a worktree too: scripts/root.py; none in CI)
+    from root import family_path
+
+    WOWDATA = pathlib.Path(family_path("wow-data", ".cache", "db", "classic.db"))
+except RuntimeError:
+    WOWDATA = pathlib.Path(os.devnull, "classic.db")
 
 
 @unittest.skipUnless(WOWDATA.exists() or os.environ.get("WOW_DATA_CACHE"), "wow-data's databases are not here")

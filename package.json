@@ -12,7 +12,7 @@
     "flora": "python3 scripts/flora.py",
     "lint:lua": "stylua --check addon && selene addon/Yonder",
     "format:lua": "stylua addon",
-    "kit:sync": "bun ../addon-kit/sync.ts addon/Yonder",
-    "kit:check": "bun ../addon-kit/sync.ts --check addon/Yonder"
+    "kit:sync": "bun scripts/root.ts --run addon-kit/sync.ts addon/Yonder",
+    "kit:check": "bun scripts/root.ts --run addon-kit/sync.ts --check addon/Yonder"
   }
 }

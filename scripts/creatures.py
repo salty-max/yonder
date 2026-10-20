@@ -19,7 +19,9 @@ helpers (triggers, dummies, markers, unused entries).
 import json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-sys.path.insert(0, os.path.join(ROOT, "..", "wow-data", "py"))
+from root import family_path  # noqa: E402  (scripts/root.py, the kit's copy: the family folder, from a worktree too)
+
+sys.path.insert(0, family_path("wow-data", "py"))
 from wowdata import client, db  # noqa: E402
 
 OUT = os.path.join(ROOT, "data", "creatures.json")

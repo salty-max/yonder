@@ -103,7 +103,12 @@ alone, on expeditions/ or another folder of riddle files).
 import collections, json, math, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
-sys.path.insert(0, os.path.join(ROOT, "..", "wow-data", "py"))
+from root import family_path  # noqa: E402  (scripts/root.py, the kit's copy: the family folder, from a worktree too)
+
+try:  # (wowdata is imported only when a database is opened: CI's tests run without the family folder)
+    sys.path.insert(0, family_path("wow-data", "py"))
+except RuntimeError:
+    pass
 
 EXPEDITIONS = os.path.join(ROOT, "expeditions")
 DRY = "--dry" in sys.argv
