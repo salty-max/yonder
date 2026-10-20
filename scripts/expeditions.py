@@ -87,8 +87,9 @@ Then the riddles are checked as a reader meets them:
     zone's spawns of it there at least): an area's place is its hint circle,
     a spot's where it is solved and NEAR yards about. A spawn of the Classic
     database's is the zone's only where Questie or Wowhead place the thing
-    in the zone too (a zone's map holds Blackrock Mountain under Searing
-    Gorge). The same exact quest_overlap and quest_context answer it;
+    in the zone too, or on no map that holds it (a zone's map holds
+    Blackrock Mountain under Searing Gorge). The same exact quest_overlap
+    and quest_context answer it;
   - keepers and guards: on a riddle open to both sides, no creature within
     NEAR yards of its spot (or its area's anchor) attacks one side only (by
     its faction template, else, for Forever's new creatures, which have none
@@ -879,22 +880,36 @@ def main():
     for a in table("UiMapAssignment", "forever"):
         forever_maps[int(a["UiMapID"])].append(a)
     world, seen = {}, {}
-    # what Questie and Wowhead place somewhere: a spawn of the Classic
-    # database's counts on a zone's map only where they place it in the zone
-    # too (the map's rectangle holds what is under it: Overmaster Pyron, deep
-    # in Blackrock Mountain, is no neighbour of Searing Gorge's caves)
-    elsewhere = collections.defaultdict(set)
+    # the maps Questie and Wowhead place each thing on: its zones' (by their
+    # area ids, the client's UiMapAssignment), else, where they name no zone,
+    # the continent's. A spawn of the Classic database's on a zone's map is
+    # another's when they don't place the thing in this zone and a map they
+    # do place it on holds the spawn: a zone's rectangle holds what lies under
+    # it (Overmaster Pyron, whom they place on the continent alone, in
+    # Blackrock Mountain under Searing Gorge) and the cities inside it
+    # (Darnassus's wisps), never a copy elsewhere (an inn's book)
+    maps_of = collections.defaultdict(set)
+    for u, rows in assignments.items():
+        for a in rows:
+            if int(a["AreaID"]):
+                maps_of[int(a["AreaID"])].add(u)
+    placed_on = collections.defaultdict(set)
     for k, i, area, ui in cdb.execute("SELECT DISTINCT kind, entity_id, area_id, ui_map_id FROM spawn WHERE source IN ('questie', 'wowhead')"):
-        elsewhere[(k, i)].add(area or ui)
+        placed_on[(k, i)] |= maps_of.get(area, set()) if area else {ui}
 
     def world_on(uimap):
         """The Classic database's creatures and objects on the zone's map (one
         world on both games): {(kind, id, x, y, far, at its spawn)}, each
         creature a spawn may be, at its spawn and along its path; far: how far
-        it wanders, in yards. Not one Questie and Wowhead place elsewhere only."""
+        it wanders, in yards. Not one Questie and Wowhead place in another
+        zone that holds the spawn."""
         if uimap not in world:
-            out, here = set(), {zone_area(uimap), uimap}
-            ours = lambda k, i: not elsewhere[(k, i)] or bool(elsewhere[(k, i)] & here)
+            out = set()
+
+            def ours(k, i, m, x, y):
+                maps = placed_on.get((k, i))
+                return not maps or uimap in maps or not any(on(u, m, x, y) for u in maps)
+
             for a in assignments[uimap]:
                 m = int(a["MapID"])
                 x0, y0, x1, y1 = (float(a[k]) for k in ("Region_0", "Region_1", "Region_3", "Region_4"))
@@ -906,14 +921,14 @@ def main():
                     if not p:
                         continue
                     if kind == "object":
-                        if ours("object", i):
+                        if ours("object", i, m, x, y):
                             out.add(("object", i, *p, 0, True))
                         continue
                     d = spawn[guid]
                     far = float(d["spawndist"] or 0) if d["MovementType"] == "1" else 0
                     walk = [(q, False) for q in (on(uimap, m, u, v) for u, v in path(d)) if q]
                     for q, at in [(p, True)] + walk:
-                        out |= {("creature", c, *q, far, at) for c in may_be[guid] | {i} if ours("creature", c)}
+                        out |= {("creature", c, *q, far, at) for c in may_be[guid] | {i} if ours("creature", c, m, x, y)}
             world[uimap] = out
         return world[uimap]
 

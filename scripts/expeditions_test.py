@@ -154,6 +154,7 @@ class TheReviewUndone(unittest.TestCase):
         # a spot riddle: its place is the book and ten yards about, not its hint circle
         "durotar.md": [r"^    quest_overlap: \[.*\b784\b.*\]\n", r"^    quest_context: .*Vanquish the Betrayers.*\n"],
         # as it is: Overmaster Pyron stands under the gorge, in Blackrock Mountain
+        # (Questie places him on the continent's map alone, which holds his spawn)
         "searing-gorge.md": [],
     }
 
