@@ -1,0 +1,19 @@
+{
+  "//": "The tables naming the ids a journal keeps (creatures, flights, places, catches, finds; Classic's names Forever's with its own laid over, Locale.lua): a regeneration never drops one (bun run ids, in check). An id leaves on purpose only with the user's go: under removed, with why and approved.",
+  "tables": {
+    "creatures (Forever)": { "json": "i18n/*/creatures.json", "at": "forever" },
+    "creatures (Classic)": { "json": "i18n/*/creatures.json", "at": ["forever", "classic"] },
+    "flight points (Forever)": { "json": "i18n/*/taxi.json", "at": "forever" },
+    "flight points (Classic)": { "json": "i18n/*/taxi.json", "at": ["forever", "classic"] },
+    "catches": { "json": "i18n/*/catches.json", "at": "" },
+    "building areas (Forever)": { "json": "i18n/*/subzones.json", "at": "forever" },
+    "building areas (Classic)": { "json": "i18n/*/subzones.json", "at": "classic" },
+    "the bestiary's creatures": { "lua": "addon/Yonder/Data_*.lua", "at": "data.creatures" },
+    "areas' English names": { "lua": "addon/Yonder/Data_*.lua", "at": "data.atlas.areaNames" },
+    "flight points' zones": { "lua": "addon/Yonder/Data_*.lua", "at": "data.atlas.taxiZone" },
+    "fish": { "lua": "addon/Yonder/Data_*.lua", "at": "data.flora.fish" },
+    "herbs": { "lua": "addon/Yonder/Data_*.lua", "at": "data.flora.herbs" },
+    "materials": { "lua": "addon/Yonder/Data_*.lua", "at": "data.materials.items" }
+  },
+  "removed": []
+}

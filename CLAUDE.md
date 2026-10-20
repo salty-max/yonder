@@ -31,6 +31,7 @@ docs above included.
 ```bash
 bun run build | check | package
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the check, quiet, stamping the tree for the push
+bun run ids          # every table saved-ids.json lists keeps the ids it had at the fork point from origin/main (addon-kit's ids.ts)
 python3 scripts/expeditions.py [--dry [folder]]   # resolve the riddles' spots into data/expeditions.json; --dry: the checks alone
 bun scripts/root.ts --run wow-data/bin/card.ts <npc|object|place> <id or name> [--game forever]  # a riddle's subject, before writing it
 bun run creatures          # regenerate data/creatures.json (pinned database)
@@ -57,7 +58,8 @@ Writing or vetting a riddle: the `wow-riddles` skill (addon-kit's
   the emote. Answers ship as fingerprints only.
 - The journal keeps ids only, never a game name (a player's excepted); the
   game names things by id in the client's language. A regenerated table
-  keeps every id a journal may hold.
+  keeps every id a journal may hold (`saved-ids.json`, `bun run ids` in the
+  check): an id leaves only with the user's go, under `removed`.
 - No spoilers: families appear once met, no totals of what remains.
 - The voices: the League's naturalist (Bestiary, herbs, fish, materials),
   a dwarf surveyor (Atlas). Plain ASCII in the English files, no semicolons
