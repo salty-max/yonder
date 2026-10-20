@@ -2,6 +2,8 @@
 """Where each riddle of expeditions/*.md is solved: data/expeditions.json.
 
   python3 scripts/expeditions.py
+  python3 scripts/expeditions.py --dry [folder]   the checks alone, nothing
+                   written: expeditions/, or another folder of riddle files
 
 A riddle names its spot by what the game's data pins down:
 
@@ -77,9 +79,21 @@ Then the riddles are checked as a reader meets them:
     creature's), none names it in its title or its objectives, and none
     sends a player (its giver, its ender, what it asks for, where Questie
     places them) within FOREVER_NEAR of a riddle solved by arriving. An exact
-    quest_overlap list and quest_context acknowledge a reviewed separate experience.
+    quest_overlap list and quest_context acknowledge a reviewed separate experience;
+  - its twin for every quest of both games (Classic's are Forever's too):
+    none gives, ends or asks for the riddle's subject (or an item it drops
+    on the quest), and none asks for what stands at the riddle's place (a
+    creature, an object, or an item they drop on the quest, SHARE of the
+    zone's spawns of it there at least): an area's place is its hint circle,
+    a spot's where it is solved and NEAR yards about. The same exact
+    quest_overlap and quest_context answer it;
+  - keepers and guards: on a riddle open to both sides, no creature within
+    NEAR yards of its spot (or its area's anchor) attacks one side only,
+    unless the riddle is that side's riddle no more (faction:) or its
+    danger line names it (its name, or its kind: "the refugees").
 
-Anything that fails is printed and nothing is written.
+Anything that fails is printed and nothing is written (--dry: the checks
+alone, on expeditions/ or another folder of riddle files).
 """
 import collections, json, math, os, re, sys
 
@@ -87,6 +101,9 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 sys.path.insert(0, os.path.join(ROOT, "..", "wow-data", "py"))
 
 EXPEDITIONS = os.path.join(ROOT, "expeditions")
+DRY = "--dry" in sys.argv
+if DRY and sys.argv[-1] != "--dry":
+    EXPEDITIONS = os.path.abspath(sys.argv[-1])
 OUT = os.path.join(ROOT, "data", "expeditions.json")
 
 # How near the spot counts, in yards: an object or a creature stood beside
@@ -161,6 +178,61 @@ def forever_quests(classic):
         d["ids"] |= set(f.execute("SELECT kind, entity_id FROM quest_relation WHERE quest_id = ?", (q,)))
         d["ids"] |= {("item" if k == "source" else k, i) for k, i in f.execute("SELECT kind, target_id FROM quest_objective WHERE quest_id = ? AND target_id > 0", (q,))}
     return out
+
+
+def quest_index(c):
+    """What a game's quests touch (wow-data's database c, every source's rows):
+    "gives" {(kind, id): {quest}}, a creature or object that starts or ends
+    it; "asks" {(kind, id): {quest}}, a creature, object or item its
+    objectives ask for; "drops" {(kind, id): {item}}, the quest items a
+    creature or object yields: the Classic database's loot by the entity's
+    templates, its references followed, where it drops only on its quest (a
+    negative chance: an item dropped by every humanoid, cloth, a herb, sends
+    nobody anywhere); Questie's and Wowhead's (a quest item's sources) by the
+    entity's own id; "sources" {item: {(kind, id)}}, the same the other way;
+    "names" {quest: its English title}."""
+    gives, asks, drops = (collections.defaultdict(set) for _ in range(3))
+    for q, kind, i in c.execute("SELECT quest_id, kind, entity_id FROM quest_relation WHERE kind IN ('creature', 'object')"):
+        gives[(kind, i)].add(q)
+    for q, kind, i in c.execute("SELECT quest_id, kind, target_id FROM quest_objective WHERE kind IN ('creature', 'object', 'item') AND target_id > 0"):
+        asks[(kind, i)].add(q)
+    wanted = {i for k, i in asks if k == "item"}
+    # a Classic template (its loot kind, its id): the creatures and objects it is
+    owners = collections.defaultdict(set)
+    for i, loot, skin, pick in c.execute("SELECT id, loot_id, skin_loot_id, pick_loot_id FROM creature"):
+        for k, t in (("creature", loot), ("skinning", skin), ("pickpocket", pick)):
+            if t:
+                owners[(k, t)].add(("creature", i))
+    for i, t in c.execute("SELECT id, loot_id FROM object WHERE loot_id"):
+        owners[("object", t)].add(("object", i))
+    rows = collections.defaultdict(list)
+    for kind, src, item, ref, chance, source in c.execute(
+        "SELECT kind, source_id, item_id, ref_id, chance, source FROM loot WHERE kind IN ('creature', 'object', 'skinning', 'pickpocket', 'reference')"
+    ):
+        template = source == "classicdb"
+        if ref or not template or (chance or 0) < 0:
+            rows[(kind, src, template)].append((item, ref))
+
+    def items(key, seen=frozenset()):
+        out = set()
+        for item, ref in rows.get(key, ()):
+            if item in wanted:
+                out.add(item)
+            if ref and ("reference", ref, True) not in seen:
+                out |= items(("reference", ref, True), seen | {key})
+        return out
+
+    for (kind, src, template) in list(rows):
+        got = kind != "reference" and items((kind, src, template))
+        if got:
+            for owner in owners[(kind, src)] if template else [("object" if kind == "object" else "creature", src)]:
+                drops[owner] |= got
+    sources = collections.defaultdict(set)
+    for owner, got in drops.items():
+        for item in got:
+            sources[item].add(owner)
+    names = dict(c.execute("SELECT id, name FROM name WHERE kind = 'quest' AND locale = 'enUS'"))
+    return {"gives": gives, "asks": asks, "drops": drops, "sources": sources, "names": names}
 
 
 def wowhead(kind, id, area, game="classic"):
@@ -264,6 +336,75 @@ def repeated_sites(rs, resolved, width, height):
                    for x, y in sa.get("spots", []) for u, v in sb.get("spots", [])):
                 errors.append(f"{a['id']} and {b['id']} have overlapping arrival footprints")
     return errors
+
+
+# A quest asks for what stands at a riddle's place when at least this share
+# of the things in the zone that answer it (its creature or object, or every
+# one that drops the item it asks for) spawn there: the place is its errand,
+# not a corner of a zone-wide hunt (the yetis of all Winterspring).
+SHARE = 0.5
+
+
+def quest_ties(subject, inside, total, index):
+    """The quests a riddle is tied to, {quest: why}: one that gives, ends or
+    asks for its subject (the (kind, id) of its creature or object, its
+    companions, its anchor) or an item the subject drops on it, and one that
+    asks for what stands at the riddle's place, SHARE of it at least (inside
+    and total: the spawns of each (kind, id) there and on the zone's map).
+    index: quest_index()'s. Each must be a reviewed quest_overlap, as
+    Forever's new quests are."""
+    gives, asks, drops, sources = index["gives"], index["asks"], index["drops"], index["sources"]
+    out = {}
+    for k, i in subject:
+        for q in gives.get((k, i), ()):
+            out.setdefault(q, f"gives or ends at the riddle's {k} {i}")
+        for q in asks.get((k, i), ()):
+            out.setdefault(q, f"asks for the riddle's {k} {i}")
+        for item in sorted(drops.get((k, i), ())):
+            for q in asks.get(("item", item), ()):
+                out.setdefault(q, f"asks for item {item}, which the riddle's {k} {i} drops")
+    wanted = {t for s in inside for t in [s] + [("item", item) for item in drops.get(s, ())] if t in asks}
+    for t in sorted(wanted):
+        answers = [t] if t[0] != "item" else sorted(sources.get(t[1], ()))
+        there = sum(inside.get(s, 0) for s in answers)
+        n = max(there, sum(total.get(s, 0) for s in answers))
+        if there and there >= SHARE * n:
+            for q in asks[t]:
+                out.setdefault(q, f"asks for {t[0]} {t[1]}: {there} of the zone's {n} spawns {'dropping it ' if t[0] == 'item' else ''}are at the riddle's place")
+    return out
+
+
+# The players' sides: their FactionGroup bit, their races' and capitals' factions.
+SIDES = {"alliance": (2, {469, 72, 47, 54, 69, 1}), "horde": (4, {67, 76, 81, 68, 530, 2})}
+
+
+def attacks(t, side):
+    """A creature of this faction template (the client's FactionTemplate row)
+    attacks the side's players."""
+    group, factions = SIDES[side]
+    enemies = {int(t[k]) for k in t if k.startswith("Enemies_")}
+    friends = {int(t[k]) for k in t if k.startswith("Friend_")}
+    if friends & factions:
+        return False
+    return bool(int(t["EnemyGroup"]) & (1 | group)) or bool(enemies & factions)
+
+
+def names_it(danger, name):
+    """A danger line names a creature: its whole name, or its kind, the name's
+    last word, alone or in the plural ("the refugees": a Haggard Refugee)."""
+    said = (danger or "").lower()
+    return bool(name) and (name.lower() in said or bool(re.search(r"\b" + re.escape(name.split()[-1].lower()) + r"(e?s)?\b", said)))
+
+
+def unanswered_keepers(sides, danger, near):
+    """The creatures near a riddle's spot that attack one side's players, on a
+    riddle open to both, that its danger line doesn't name: [(id, name,
+    side)]. sides: the sides that may solve it; near: [(id, name, the sides it
+    attacks)]. A riddle answers one with faction: (then one side alone may
+    solve it) or by naming it in its danger line."""
+    if len(sides) < 2:
+        return []
+    return [(i, n, next(iter(a))) for i, n, a in near if len(a) == 1 and not names_it(danger, n)]
 
 
 # ── placing on a zone's map ────────────────────────────────────────────────
@@ -611,19 +752,11 @@ def main():
     # ── as a reader meets them ──────────────────────────────────────────────
     ct = {i: {"Faction": faction or 0, "Name": names.get(("creature", i))} for i, faction in cdb.execute("SELECT id, faction_id FROM creature")}
     ft = {int(d["ID"]): d for d in table("FactionTemplate")}
-    SIDES = {"alliance": (2, {469, 72, 47, 54, 69, 1}), "horde": (4, {67, 76, 81, 68, 530, 2})}
 
     def hostile(template, side, templates=None):
         """A creature of this faction template attacks the side's players."""
         t = (ft if templates is None else templates).get(template)
-        if not t:
-            return False
-        group, factions = SIDES[side]
-        enemies = {int(t[k]) for k in t if k.startswith("Enemies_")}
-        friends = {int(t[k]) for k in t if k.startswith("Friend_")}
-        if friends & factions:
-            return False
-        return bool(int(t["EnemyGroup"]) & (1 | group)) or bool(enemies & factions)
+        return bool(t) and attacks(t, side)
 
     def deed(r):
         if "reading" in r:
@@ -685,6 +818,7 @@ def main():
     npcs, objs = traces("Npc"), traces("Object")
     # (Forever's own zones: their riddles' creatures and objects, against its quests too)
     own = [(f, uimap, r, []) for f, uimap, client, rs, _ in files if client == "forever" for r in rs]
+    told = set()  # (riddle, quest): Forever's new quests already said, not said twice below
     for f, uimap, r, points in placed + own:
         where = f"{f}: {r['id']}"
         try:
@@ -702,9 +836,11 @@ def main():
             hit = [i for i in subject if i in d["ids"]]
             if hit:
                 errors.append(f"{where}: Forever's new quest {q} gives, ends or asks for {hit[0][0]} {hit[0][1]}")
+                told.add((r["id"], q))
             said = [n for n in named if re.search(r"\b" + re.escape(n.lower()) + r"\b", d["text"])]
             if said:
                 errors.append(f"{where}: Forever's new quest {q} names {said[0]!r}")
+                told.add((r["id"], q))
             if deed(r) != "arrival" or not points:
                 continue
             near = lambda x, y: any(((x - a) ** 2 + ((y - b) * ASPECT) ** 2) ** 0.5 <= FOREVER_NEAR for a, b in points)
@@ -716,10 +852,132 @@ def main():
             close = [(x, y) for x, y in mine if near(x, y)]
             if close:
                 errors.append(f"{where}: arriving here is Forever's new quest {q}'s road (a point at {close[0][0]:.1f}, {close[0][1]:.1f})")
+                told.add((r["id"], q))
+
+    # ── each game's quests tied to a riddle, and who keeps its spot ─────────
+    # The Forever road's twin for every quest of both games (Classic's are
+    # Forever's too): one that gives, ends or asks for the riddle's subject,
+    # or asks for what stands at its place. And on a riddle open to both
+    # sides, a creature by its spot (or its area's anchor) that attacks one.
+    games = ("classic", "forever")
+    indexes = {g: quest_index(db(g)) for g in games}
+    templates = {g: {int(t["ID"]): t for t in table("FactionTemplate", g)} for g in games}
+    kin = {g: dict(db(g).execute("SELECT id, faction_id FROM creature")) for g in games}
+    cnames = {g: dict(db(g).execute("SELECT id, name FROM name WHERE kind = 'creature' AND locale = 'enUS'")) for g in games}
+    may_be = collections.defaultdict(set)  # a spawn's guid: every creature it may be
+    for c, guids in takes.items():
+        for g in guids:
+            may_be[g].add(c)
+    forever_maps = collections.defaultdict(list)
+    for a in table("UiMapAssignment", "forever"):
+        forever_maps[int(a["UiMapID"])].append(a)
+    world, seen = {}, {}
+
+    def world_on(uimap):
+        """The Classic database's creatures and objects on the zone's map (one
+        world on both games): {(kind, id, x, y, far, at its spawn)}, each
+        creature a spawn may be, at its spawn and along its path; far: how far
+        it wanders, in yards."""
+        if uimap not in world:
+            out = set()
+            for a in assignments[uimap]:
+                m = int(a["MapID"])
+                x0, y0, x1, y1 = (float(a[k]) for k in ("Region_0", "Region_1", "Region_3", "Region_4"))
+                for kind, i, guid, x, y in cdb.execute(
+                    "SELECT kind, entity_id, spawn_id, x, y FROM spawn WHERE source = 'classicdb' AND map_id = ? AND x BETWEEN ? AND ? AND y BETWEEN ? AND ?",
+                    (m, x0, x1, y0, y1),
+                ):
+                    p = on(uimap, m, x, y)
+                    if not p:
+                        continue
+                    if kind == "object":
+                        out.add(("object", i, *p, 0, True))
+                        continue
+                    d = spawn[guid]
+                    far = float(d["spawndist"] or 0) if d["MovementType"] == "1" else 0
+                    walk = [(q, False) for q in (on(uimap, m, u, v) for u, v in path(d)) if q]
+                    for q, at in [(p, True)] + walk:
+                        out |= {("creature", c, *q, far, at) for c in may_be[guid] | {i}}
+            world[uimap] = out
+        return world[uimap]
+
+    def traced(game, area):
+        """The game's Questie and Wowhead points in a zone (its area id): {(kind, id, x, y, 0, True)}."""
+        if (game, area) not in seen:
+            seen[(game, area)] = {(k, i, x, y, 0, True) for k, i, x, y in db(game).execute(
+                "SELECT kind, entity_id, ux, uy FROM spawn WHERE source IN ('questie', 'wowhead') AND area_id = ? AND ux IS NOT NULL", (area,))}
+        return seen[(game, area)]
+
+    told_on = lambda gs: " and ".join({"classic": "Classic Era", "forever": "Forever"}[g] for g in gs)
+    gated = [(f, uimap, "both", r, points) for f, uimap, r, points in placed]
+    gated += [(f, uimap, "forever", r, None) for f, uimap, r, _ in own]
+    for f, uimap, client, r, points in gated:
+        where, ha = f"{f}: {r['id']}", r.get("hint_area")
+        if not ha or str(uimap) not in zones:
+            continue  # said above
+        try:
+            reviewed = reviewed_quests(r, known_quests)
+        except ValueError:
+            reviewed = set()  # said above
+        held = lambda x, y: (x - ha["x"]) ** 2 + ((y - ha["y"]) * ASPECT) ** 2 <= ha["r"] ** 2
+        if client == "forever":
+            on_games, mine = ("forever",), set()
+            area = collections.Counter(int(a["AreaID"]) for a in forever_maps[uimap] if int(a["AreaID"])).most_common(1)[0][0]
+        else:
+            on_games, mine, area = games, world_on(uimap), zone_area(uimap)
+        on_map = {(k, i) for k, i, *_ in mine}
+        subject = [(k, int(r[k])) for k in ("creature", "object") if k in r]
+        subject += [("creature", i) for i in r.get("companions", [])]
+        subject += [(k, int(v)) for k, v in (r.get("anchor") or {}).items() if k in ("creature", "object")]
+        spots = points or (riddles.get(r["id"]) or {}).get("spots") or [
+            (x, y) for k, i, x, y, _, _ in traced("forever", area) if (k, i) == ("creature", r.get("creature")) and held(x, y)]
+        w, h = zones[str(uimap)]["w"], zones[str(uimap)]["h"]
+        yards = lambda x, y: min((math.hypot((x - u) * w / 100, (y - v) * h / 100) for u, v in spots), default=math.inf)
+        # the riddle's place: an area's is its hint circle; a spot's, where it
+        # is solved and NEAR yards about (a wide hint circle holds far more)
+        reach = ((riddles.get(r["id"]) or {}).get("r") or NEAR) + NEAR
+        there = held if "area" in r else lambda x, y: yards(x, y) <= reach
+        ties = {}
+        for game in on_games:
+            # the spawns on the zone's map and at the place: the Classic
+            # database's, else (a thing it doesn't place here: one of
+            # Forever's, or moved by Forever) the game's points
+            zone = collections.Counter((k, i, x, y) for k, i, x, y, _, at in mine if at)
+            zone.update((k, i, x, y) for k, i, x, y, _, _ in traced(game, area) if (k, i) not in on_map)
+            total, inside = collections.Counter(), collections.Counter()
+            for (k, i, x, y), n in zone.items():
+                total[(k, i)] += n
+                if there(x, y):
+                    inside[(k, i)] += n
+            for q, why in quest_ties(subject, inside, total, indexes[game]).items():
+                if q not in reviewed and (r["id"], q) not in told:
+                    ties.setdefault(q, (why, []))[1].append(game)
+        for q, (why, gs) in sorted(ties.items()):
+            errors.append(f"{where}: quest {q} ({indexes[gs[0]]['names'].get(q)}) {why}, on {told_on(gs)}: a reviewed quest_overlap with its quest_context")
+        # who keeps the spot: a keeper the riddle asks for is the never-a-kill check's above
+        sides = [r["faction"]] if r.get("faction") else ([homes[f]] if homes.get(f) else list(SIDES))
+        place_only = r.get("found") == "place" and r.get("name") and not r.get("gestures")
+        asked = set(r.get("companions", [])) | ({r["creature"]} if "creature" in r and client != "forever" and not place_only else set())
+        keep = {}
+        # an area placed by its overlay has no spot to stand by: its overlay's centre is the map's
+        for game in on_games if len(sides) > 1 and ("area" not in r or "anchor" in r) else ():
+            near = set()
+            for k, i, x, y, far, _ in mine | {t for t in traced(game, area) if t[:2] not in on_map}:
+                if k == "creature" and i not in asked and yards(x, y) <= NEAR + far:
+                    near.add(i)
+            ft_of = lambda i: templates[game].get(kin[game].get(i) or 0)
+            near = [(i, cnames[game].get(i), {s for s in SIDES if ft_of(i) and attacks(ft_of(i), s)}) for i in sorted(near)]
+            for i, n, side in unanswered_keepers(sides, r.get("danger"), near):
+                keep.setdefault(i, (n, side, []))[2].append(game)
+        for i, (n, side, gs) in sorted(keep.items()):
+            errors.append(f"{where}: {n} ({i}), by the spot, attacks the {side}'s players on {told_on(gs)}: faction: (the other side's riddle), or a danger line that names it")
 
     if errors:
         print("\n".join(f"x {e}" for e in errors))
         sys.exit(1)
+    if DRY:
+        print(f"{len(riddles)} riddles pass, nothing written (--dry)")
+        return
     with open(OUT, "w") as f:
         f.write("{\n")
         f.write(' "zones": {\n' + ",\n".join(f'  "{k}": {json.dumps(v)}' for k, v in sorted(zones.items(), key=lambda kv: int(kv[0]))) + "\n },\n")
