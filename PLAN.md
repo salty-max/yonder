@@ -132,6 +132,16 @@ discovery's source were corrected. Corrections,
 sources and the remaining in-game question: the expeditions review, kept
 outside the repository (it gives the answers away).
 
+**Eight more (20 October 2026, the user's ask).** Four of the faction towns
+that had no riddle got one, and four of the zones that had only one got a
+second, each checked against the data and the lore first: no kill, no
+quest's own prop, objective or destination, a reviewed `quest_overlap` where
+a quest works nearby. Of the thirteen proposed, four were dropped (a quest's
+turn-in object, a quest's meeting place, two towns with nothing untied to
+show) and one kept back: Forever rebuilds the place, so its riddle waits for
+a riddle of one client's own (no such field yet). **123 riddles** on Classic
+Era, **127** on Forever, and the 39 quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

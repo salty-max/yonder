@@ -180,6 +180,11 @@
    "forever": "Ogro",
    "use": "Ogro"
   },
+  "Order of the Silver Hand": {
+   "classic": "Orden de la Mano de Plata",
+   "forever": "Orden de la Mano de Plata",
+   "use": "Orden de la Mano de Plata"
+  },
   "Orgrimmar": {
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
@@ -307,6 +312,16 @@
    "forever": "Alexia Filoférreo",
    "use": "Alexia Filoférreo"
   },
+  "Ancient Protector": {
+   "classic": "Protector anciano",
+   "forever": "Protector anciano",
+   "use": "Protector anciano"
+  },
+  "Anguished Highborne": {
+   "classic": "Altonato angustiada",
+   "forever": "Altonato angustiada",
+   "use": "Altonato angustiada"
+  },
   "Araga": {
    "classic": "Araga",
    "forever": "Araga",
@@ -407,6 +422,11 @@
    "forever": "Maestro de embarcadero Baren",
    "use": "Maestro de embarcadero Baren"
   },
+  "Dog": {
+   "classic": "Perro",
+   "forever": "Perro",
+   "use": "Perro"
+  },
   "Donni Anthania": {
    "classic": "Donni Anthania",
    "forever": "Donni Anthania",
@@ -432,6 +452,11 @@
    "forever": "Demonio del polvo",
    "use": "Demonio del polvo"
   },
+  "Dwarven Farmer": {
+   "classic": "Granjero enano",
+   "forever": "Granjero enano",
+   "use": "Granjero enano"
+  },
   "Edwin VanCleef": {
    "classic": "Edwin VanCleef",
    "forever": "Edwin VanCleef",
@@ -441,6 +466,11 @@
    "classic": "Ancestro Vetaferro",
    "forever": "Ancestro Vetaferro",
    "use": "Ancestro Vetaferro"
+  },
+  "Elder Shadowmaw Panther": {
+   "classic": "Pantera Faucesombría vieja",
+   "forever": "Pantera Faucesombría vieja",
+   "use": "Pantera Faucesombría vieja"
   },
   "Father Lankester": {
    "classic": "Padre Lankester",
@@ -492,6 +522,11 @@
    "forever": "Glibb",
    "use": "Glibb"
   },
+  "Golhine the Hooded": {
+   "classic": "Golhine el Encapuchado",
+   "forever": "Golhine el Encapuchado",
+   "use": "Golhine el Encapuchado"
+  },
   "Granistad": {
    "classic": "Granistad",
    "forever": "Granistad",
@@ -517,9 +552,19 @@
    "forever": "Gubber Blump",
    "use": "Gubber Blump"
   },
+  "Gwyn Farrow": {
+   "classic": "Gwyn Paritera",
+   "forever": "Gwyn Paritera",
+   "use": "Gwyn Paritera"
+  },
   "Haal": {
    "forever": "Haal",
    "use": "Haal"
+  },
+  "Hagar Lightninghoof": {
+   "classic": "Hagar Pezuña del Rayo",
+   "forever": "Hagar Pezuña del Rayo",
+   "use": "Hagar Pezuña del Rayo"
   },
   "Haggrum Bloodfist": {
    "classic": "Haggrum Puñosangre",
@@ -546,6 +591,11 @@
    "forever": "Hgarth",
    "use": "Hgarth"
   },
+  "High Priest Thel'danis": {
+   "classic": "Sumo sacerdote Thel'danis",
+   "forever": "Sumo sacerdote Thel'danis",
+   "use": "Sumo sacerdote Thel'danis"
+  },
   "Hin Denburg": {
    "classic": "Hin Denburg",
    "forever": "Hin Denburg",
@@ -570,6 +620,11 @@
    "classic": "Immolatus",
    "forever": "Immolatus",
    "use": "Immolatus"
+  },
+  "Innkeeper Keldamyr": {
+   "classic": "Tabernero Keldamyr",
+   "forever": "Tabernero Keldamyr",
+   "use": "Tabernero Keldamyr"
   },
   "Jordan Stilwell": {
    "classic": "Jordan Fontana",
@@ -730,6 +785,11 @@
    "forever": "Nadyia Tejecrín",
    "use": "Nadyia Tejecrín"
   },
+  "Nalesette Wildbringer": {
+   "classic": "Nalesette Asilvestra",
+   "forever": "Nalesette Asilvestra",
+   "use": "Nalesette Asilvestra"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -755,6 +815,11 @@
    "forever": "Fragmento de obsidiana",
    "use": "Fragmento de obsidiana"
   },
+  "Ogg'marr": {
+   "classic": "Ogg'marr",
+   "forever": "Ogg'marr",
+   "use": "Ogg'marr"
+  },
   "Omgorn the Lost": {
    "classic": "Omgorn el Perdido",
    "forever": "Omgorn el Perdido",
@@ -769,6 +834,11 @@
    "classic": "Felino naranja",
    "forever": "Felino naranja",
    "use": "Felino naranja"
+  },
+  "Overlord Mok'Morokk": {
+   "classic": "Señor supremo Mok'Morokk",
+   "forever": "Señor supremo Mok'Morokk",
+   "use": "Señor supremo Mok'Morokk"
   },
   "Overwatch Mark I": {
    "classic": "Robovigilante Mark I",
@@ -805,10 +875,20 @@
    "forever": "Ralo'shan la Vigía Eterna",
    "use": "Ralo'shan la Vigía Eterna"
   },
+  "Ram": {
+   "classic": "Carnero",
+   "forever": "Carnero",
+   "use": "Carnero"
+  },
   "Razormaw Matriarch": {
    "classic": "Matriarca Tajobuche",
    "forever": "Matriarca Tajobuche",
    "use": "Matriarca Tajobuche"
+  },
+  "Remorseful Highborne": {
+   "classic": "Altonato arrepentido",
+   "forever": "Altonato arrepentido",
+   "use": "Altonato arrepentido"
   },
   "Ressan the Needler": {
    "classic": "Ressan el Agujas",
@@ -855,10 +935,25 @@
    "forever": "Vasallo de Azora",
    "use": "Vasallo de Azora"
   },
+  "Shadowmaw Panther": {
+   "classic": "Pantera Faucesombría",
+   "forever": "Pantera Faucesombría",
+   "use": "Pantera Faucesombría"
+  },
+  "Shi'alune": {
+   "classic": "Shi'alune",
+   "forever": "Shi'alune",
+   "use": "Shi'alune"
+  },
   "Shleipnarr": {
    "classic": "Shleipnarr",
    "forever": "Shleipnarr",
    "use": "Shleipnarr"
+  },
+  "Sigrun Ironhew": {
+   "classic": "Sigrun Extracero",
+   "forever": "Sigrun Extracero",
+   "use": "Sigrun Extracero"
   },
   "Silva Fil'naveth": {
    "classic": "Silva Fil'naveth",
@@ -934,6 +1029,11 @@
    "classic": "Profeta Grutacanto",
    "forever": "Profeta Grutacanto",
    "use": "Profeta Grutacanto"
+  },
+  "Suffering Highborne": {
+   "classic": "Altonato sufrido",
+   "forever": "Altonato sufrido",
+   "use": "Altonato sufrido"
   },
   "Target Dummy": {
    "classic": "Muñeco-diana",
@@ -1097,6 +1197,11 @@
    "classic": "Yarlyn Semperámbar",
    "forever": "Yarlyn Semperámbar",
    "use": "Yarlyn Semperámbar"
+  },
+  "Young Arikara": {
+   "classic": "Arikara joven",
+   "forever": "Arikara joven",
+   "use": "Arikara joven"
   },
   "Zalashji": {
    "classic": "Zalashji",
@@ -1606,6 +1711,11 @@
    "forever": "Distrito de los Enanos",
    "use": "Distrito de los Enanos"
   },
+  "Eastern Kingdoms": {
+   "classic": "Reinos del Este",
+   "forever": "Reinos del Este",
+   "use": "Reinos del Este"
+  },
   "Eastern Plaguelands": {
    "classic": "Tierras de la Peste del Este",
    "forever": "Tierras de la Peste del Este",
@@ -1930,6 +2040,11 @@
    "classic": "Villa del Lago",
    "forever": "Villa del Lago",
    "use": "Villa del Lago"
+  },
+  "Lakkari Tar Pits": {
+   "classic": "Fosas de Alquitrán Lakkari",
+   "forever": "Fosas de Alquitrán Lakkari",
+   "use": "Fosas de Alquitrán Lakkari"
   },
   "Lethlor Ravine": {
    "classic": "Barranco Lethlor",
@@ -2343,6 +2458,11 @@
    "forever": "Muro Celeste",
    "use": "Muro Celeste"
   },
+  "Sorrow Hill": {
+   "classic": "Colina de las Penas",
+   "forever": "Colina de las Penas",
+   "use": "Colina de las Penas"
+  },
   "Sorrowmurk": {
    "classic": "Tinieblas de las Penas",
    "forever": "Tinieblas de las Penas",
@@ -2708,6 +2828,11 @@
    "forever": "El Vergel Pútrido",
    "use": "El Vergel Pútrido"
   },
+  "The Ruins of Kel'Theril": {
+   "classic": "Las Ruinas de Kel'Theril",
+   "forever": "Las Ruinas de Kel'Theril",
+   "use": "Las Ruinas de Kel'Theril"
+  },
   "The Savage Coast": {
    "classic": "La Costa Salvaje",
    "forever": "La Costa Salvaje",
@@ -2889,6 +3014,11 @@
    "forever": "Entrañas",
    "use": "Entrañas"
   },
+  "Uther's Tomb": {
+   "classic": "Tumba de Uther",
+   "forever": "Tumba de Uther",
+   "use": "Tumba de Uther"
+  },
   "Valanaar": {
    "forever": "Valanaar",
    "use": "Valanaar"
@@ -3058,6 +3188,11 @@
    "forever": "Culto de los Malditos",
    "use": "Culto de los Malditos"
   },
+  "Druid Trainer": {
+   "classic": "Instructor de druidas",
+   "forever": "Instructor de druidas",
+   "use": "Instructor de druidas"
+  },
   "Druid of the Fang": {
    "classic": "Druida del Colmillo",
    "forever": "Druida del Colmillo",
@@ -3083,10 +3218,20 @@
    "forever": "Corredor de la Horda",
    "use": "Corredor de la Horda"
   },
+  "Hunter Trainer": {
+   "classic": "Instructor de cazadores",
+   "forever": "Instructor de cazadores",
+   "use": "Instructor de cazadores"
+  },
   "Journeyman Leatherworker": {
    "classic": "Oficial peletero",
    "forever": "Oficial peletero",
    "use": "Oficial peletero"
+  },
+  "Kaerbrus' Pet": {
+   "classic": "Mascota de Kaerbrus",
+   "forever": "Mascota de Kaerbrus",
+   "use": "Mascota de Kaerbrus"
   },
   "Kirin Tor": {
    "classic": "Kirin Tor",
@@ -3102,6 +3247,21 @@
    "classic": "Mercader supremo",
    "forever": "Mercader supremo",
    "use": "Mercader supremo"
+  },
+  "Mushroom Merchant": {
+   "classic": "Mercader de champiñones",
+   "forever": "Mercader de champiñones",
+   "use": "Mercader de champiñones"
+  },
+  "Order of the Silver Hand": {
+   "classic": "Orden de la Mano de Plata",
+   "forever": "Orden de la Mano de Plata",
+   "use": "Orden de la Mano de Plata"
+  },
+  "Pet Trainer": {
+   "classic": "Instructor de mascotas",
+   "forever": "Instructor de mascotas",
+   "use": "Instructor de mascotas"
   },
   "Prairie Dog": {
    "classic": "Perro de pradera",

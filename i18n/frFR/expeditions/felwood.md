@@ -1,5 +1,5 @@
 ---
-source: 96f00c95346c
+source: 42ba33c06017
 zone: 1448
 ---
 ## felwood-morlos-aran
@@ -11,6 +11,16 @@ Souvenez-vous des villes auxquelles son nom fait écho, et de ce qu'il est adven
 + Un druide du Cercle d'émeraude veille près des ruines. Le bois autour de lui est toujours malade.
 ! Gardé (loups Gangrepatte, ours de la griffe colérique et chouettes Bec-de-fer, niveaux 47 et 48)
 @ Morlos'Aran
+
+## felwood-talonbranch
+Au bord de la forêt corrompue, trois maîtres de la nature se partagent une clairière :
+l'un pour les druides, l'un pour les chasseurs, l'un pour les bêtes que gardent les chasseurs.
+Le maître des chasseurs ne travaille jamais seul. Un grand félin se tient à ses côtés.
+Il a mérité la douceur que son maître apprend aux autres à montrer à leurs bêtes.
+? La clairière de Griffebranche, près du maître des chasseurs : caressez le sabre-de-nuit à ses côtés.
+= Shi'alune, le sabre-de-nuit que Kaerbrus garde comme compagnon pendant qu'il forme les chasseurs de la clairière de Griffebranche et les accueille au sein du Cercle cénarien.
++ La clairière de Griffebranche réunit les trois maîtres de la nature en un seul camp : Golhine l'Encapuchonné pour les druides, Kaerbrus pour les chasseurs, et Nalesette Wildbringer pour les familiers des chasseurs.
+! Calme
 
 ## quarry
 Dans le val balafré où le feu tomba jadis sur la forêt,

@@ -14,6 +14,15 @@ riddles:
     hint_area: { x: 35.0, y: 45.0, r: 5 }
     danger: "Deadly if provoked (she answers a blow with blows that fell a hero), otherwise quiet"
     sources: "the dump's spawn, path and words; the client's display tables (a troll); the WoWWiki archive's Simone the Inconspicuous page (the succubus beneath, Precious, Fool's Plight)"
+  - id: ungoro-crater-lakkari
+    tier: near
+    gestures: [PEER, LOOK, GAZE]
+    area: Lakkari Tar Pits   # placed: the client's overlay
+    hint_area: { x: 49.5, y: 21.5, r: 9 }
+    danger: "Perilous (tar elementals, to level 54)"
+    quest_overlap: [4504]
+    quest_context: "Super Sticky asks for tar from the elementals of the pits. Yonder asks only a look at what the tar has kept, with no kill and no quest."
+    sources: "warcraft.wiki.gg's Lakkari Tar Pits page (the lakes of black tar south of Marshal's Refuge, the bones of hundreds of beasts jutting from the surface, scavengers waiting for the tar's prey); the dump's spawns (Tar Beasts, Creepers, Lurkers and Lords: elementals); the client's AreaTable and overlay"
 quarry:
   id: 6584   # King Mosh
   sources: "the WoWWiki archive's King Mosh page (the infamous devilsaur of the north-west); https://www.wowhead.com/classic/npc=6584/king-mosh (period accounts of fear); the pinned dump's path and creature_ai_scripts (14100 Terrifying Roar); the dump's loot (raptor skulls and feathers)"
@@ -25,6 +34,15 @@ Be pleasant to her, and only pleasant.
 ? Golakka Hot Springs, in western Un'Goro. She walks south from there and back. Wave to the troll woman as she passes.
 = Simone the Inconspicuous, with Precious, her wolf: 'What a wonderful day to be alive! Look at the beauty that surrounds you, friend.'
 + She is not what she seems: hunters on the trail of an ancient bow know her as Simone the Seductress, a succubus. Strike her as she is, and she answers with blows that fell a hero in one.
+
+## ungoro-crater-lakkari
+South of the explorers' refuge, the floor of the crater turns to black lakes
+that keep whatever walks into them.
+The bones of hundreds of beasts still break their surface,
+and what rises from the tar is tar too. Go and see what it has kept.
+? The Lakkari Tar Pits, just south of Marshal's Refuge: look out over the tar from its shore.
+= The Lakkari Tar Pits: lakes of thick black tar that trap whatever wanders in, the bones of hundreds of beasts jutting from the surface, and elementals of the tar rising out of it.
++ The scavengers know the pits too. They wait at the edges for the tar to catch their next meal.
 
 ## quarry
 Between the river and the great lakes of the crater's north-west,

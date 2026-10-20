@@ -13,6 +13,14 @@ riddles:
     hint_area: { x: 45.0, y: 84.0, r: 5 }
     danger: "Guarded for the Horde (the refugees, levels 18 to 20, are Lordaeron's own), quiet for the Alliance"
     sources: "the dump's spawns and factions (Wallace friendly to all, the refugees to the Alliance alone); the WoWWiki archive's Greymane Wall and Wallace the Blind pages; Warcraft II: Beyond the Dark Portal's manual (the wall)"
+  - id: silverpine-forest-sepulcher
+    tier: town
+    faction: horde   # its town's: for that faction alone
+    creature: 5886   # Gwyn Farrow <Mushroom Merchant>, dump 44.0, 39.8; Wowhead alike
+    found: target   # in the town: only by speaking to her
+    hint_area: { x: 43.4, y: 40.6, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn and her wares (npc_vendor: Forest Mushroom Cap, Red-speckled Mushroom, Spongy Morel, Delicious Cave Mold, Raw Black Truffle, Dried King Bolete); warcraft.wiki.gg's Gwyn Farrow and The Sepulcher pages (a graveyard along the road across Silverpine, the old crypt the Forsaken took for their base)"
 quarry:
   id: 1948   # Snarlmane
   sources: "the WoWWiki archive's Snarlmane page; Warcraft III: The Frozen Throne, 'The Dark Lady' (Snarlmane possessed); the dump's spawn"
@@ -25,6 +33,15 @@ he cannot see which side you are on. Don't bother waving.
 ? Under the Greymane Wall, at the south end of Silverpine, among the refugees. Say hello to the smith. A wave is no use to a blind man.
 = Wallace the Blind, weaponsmith to Horde and Alliance alike, under the Greymane Wall: Gilneas keeps its gate shut on the refugees at its foot.
 + Gilneas raised the wall after the Second War, when Genn Greymane quit the Alliance over the cost of the orcs' internment camps.
+
+## silverpine-forest-sepulcher
+Where the road through the pines passes a graveyard, the dead have made a town of it.
+One of them keeps a stall of nothing but mushrooms, molds and truffles,
+from the caves and from the forest floor.
+Ask her what she has.
+? The Sepulcher, among its merchants: speak to the one who sells mushrooms.
+= Gwyn Farrow, the Sepulcher's mushroom merchant. Her stall holds fungi only: Forest Mushroom Cap, Red-speckled Mushroom, Spongy Morel, Delicious Cave Mold, Raw Black Truffle and Dried King Bolete.
++ The Sepulcher was nothing more than a graveyard by the road across Silverpine before the Forsaken took its old crypt for their base in the forest.
 
 ## quarry
 On the isle in the lake, the Rot Hide dead hold an old keep.

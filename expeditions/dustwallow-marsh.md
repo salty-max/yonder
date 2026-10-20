@@ -14,6 +14,14 @@ riddles:
     hint_area: { x: 66.0, y: 48.0, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawn; the client's display tables (a night elf); the WoWWiki archive's Pained page (Jaina's guard, beside Archmage Tervosh)"
+  - id: dustwallow-marsh-brackenwall
+    tier: town
+    faction: horde   # its town's: for that faction alone
+    creature: 4879   # Ogg'marr <Butcher>, dump 36.7, 31.0; Wowhead 36.6, 31.0
+    found: target   # in the town: only by speaking to him
+    hint_area: { x: 36.0, y: 31.6, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his wares (npc_vendor: the meats and drinks, Recipe: Roast Raptor, Heavy Crocolisk Stew, Dragonbreath Chili, Carrion Surprise); warcraft.wiki.gg's Ogg'marr (an ogre of the Stonemaul) and Brackenwall Village pages (Stonemaul Village destroyed by the black dragonflight, Overlord Mok'Morokk, Rexxar's successor, leading the survivors north)"
 quarry:
   id: 4339   # Brimgore
   sources: "https://www.wowhead.com/classic/npc=4339/brimgore (period accounts of Flame Breath); the WoWWiki archive's Brimgore page (a black drake); the pinned dump's path and creature_ai_scripts (8873 Flame Breath); his spawn in the Wyrmbog (42.1, 75.9); the Codex's onyxias-lair page"
@@ -25,6 +33,15 @@ an elf should guard an archmage of the humans. Pay her a soldier's respect.
 ? Theramore Isle, in the tower, at Lady Jaina Proudmoore's side. Salute the elven guard.
 = Pained, a night elf, Jaina Proudmoore's bodyguard in the tower of Theramore.
 + She shares the Lady's tower with Archmage Tervosh. Between them, Jaina is seldom alone.
+
+## dustwallow-marsh-brackenwall
+The ogres of the south of the marsh lost their village to the black dragons,
+and their survivors came north to raise a new one beside the Horde.
+One of them now cuts the meat the village sells to travellers.
+Ask him what is on the block.
+? Brackenwall Village: speak to the ogre butcher.
+= Ogg'marr, the Stonemaul's butcher at Brackenwall Village. When the black dragonflight destroyed Stonemaul Village in the south of the marsh, Overlord Mok'Morokk, Rexxar's successor, led the survivors north to build this one.
++ He sells the recipes as well as the meat: Roast Raptor, Heavy Crocolisk Stew, Dragonbreath Chili and Carrion Surprise.
 
 ## quarry
 In the south of the marsh, where the black dragonflight breeds its young,

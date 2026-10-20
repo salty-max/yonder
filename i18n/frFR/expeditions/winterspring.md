@@ -1,5 +1,5 @@
 ---
-source: 697c61bcbabf
+source: 626cf48d0405
 zone: 1452
 ---
 ## winterspring-farflinger
@@ -10,6 +10,16 @@ Trouvez l'inventeur dont le titre vous donne une raison d'hésiter.
 = Zap Farflinger, ingénieur déséquilibré. Son plan de transport instantané commence par réduire le voyageur en morceaux, puis réassemble les particules à Long-guet.
 + Il apprend aux ingénieurs gobelins chevronnés à fabriquer le Déchiquetteur dimensionnel qui se branche sur sa machine. Aux doutes sur la sécurité, il répond que la survie passe après l'ingénierie.
 ! Calme
+
+## winterspring-kel-theril
+Au bord d'un lac du nord, une cité elfique se dressait avant que le monde ne soit brisé.
+La Fracture la laissa en ruines, et l'hiver vint ensuite.
+Son peuple ne l'a jamais quittée. Il y erre encore, et il n'est pas en paix.
+On lui doit un moment de recueillement.
+? Les ruines de Kel'Theril, au bord du lac : pleurez les morts de la cité.
+= Les ruines de Kel'Theril, une cité des Bien-nés elfes de la nuit, détruite lors de la Grande Fracture. Ses esprits tourmentés, les Bien-nés souffrants et les Bien-nées angoissées, la hantent encore.
++ Les Bien-nés étaient les nobles de la reine Azshara. Leur magie imprudente attira la Légion ardente dans le monde et mena à la Fracture qui brisa leur propre cité.
+! Périlleux (les esprits tourmentés des Bien-nés, jusqu'au niveau 56, et pour la Horde la Bien-née pénitente)
 
 ## quarry
 Sous le roc des Sabres-de-Givre, la robe d'un sabre met un peu de couleur dans la neige :

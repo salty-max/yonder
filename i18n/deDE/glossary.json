@@ -232,6 +232,11 @@
    "forever": "Oger",
    "use": "Oger"
   },
+  "Order of the Silver Hand": {
+   "classic": "Orden der Silbernen Hand",
+   "forever": "Orden der Silbernen Hand",
+   "use": "Orden der Silbernen Hand"
+  },
   "Orgrimmar": {
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
@@ -364,6 +369,11 @@
    "forever": "Urtumbeschützer",
    "use": "Urtumbeschützer"
   },
+  "Anguished Highborne": {
+   "classic": "Gepeinigter Hochgeborener",
+   "forever": "Gepeinigter Hochgeborener",
+   "use": "Gepeinigter Hochgeborener"
+  },
   "Araga": {
    "classic": "Araga",
    "forever": "Araga",
@@ -472,6 +482,11 @@
    "forever": "Dockmeister Baren",
    "use": "Dockmeister Baren"
   },
+  "Dog": {
+   "classic": "Hund",
+   "forever": "Hund",
+   "use": "Hund"
+  },
   "Donaal Downbreeze": {
    "forever": "Donaal Downbreeze",
    "use": "Donaal Downbreeze"
@@ -515,6 +530,11 @@
    "classic": "Urahne Ironband",
    "forever": "Urahne Ironband",
    "use": "Urahne Ironband"
+  },
+  "Elder Shadowmaw Panther": {
+   "classic": "Alter Schattentatzenpanther",
+   "forever": "Alter Schattentatzenpanther",
+   "use": "Alter Schattentatzenpanther"
   },
   "Father Lankester": {
    "classic": "Vater Lankester",
@@ -566,6 +586,11 @@
    "forever": "Glibb",
    "use": "Glibb"
   },
+  "Golhine the Hooded": {
+   "classic": "Golhine der Kapuzenträger",
+   "forever": "Golhine der Kapuzenträger",
+   "use": "Golhine der Kapuzenträger"
+  },
   "Granistad": {
    "classic": "Granistad",
    "forever": "Granistad",
@@ -591,9 +616,19 @@
    "forever": "Gubber Blump",
    "use": "Gubber Blump"
   },
+  "Gwyn Farrow": {
+   "classic": "Gwyn Farrow",
+   "forever": "Gwyn Farrow",
+   "use": "Gwyn Farrow"
+  },
   "Haal": {
    "forever": "Haal",
    "use": "Haal"
+  },
+  "Hagar Lightninghoof": {
+   "classic": "Hagar Lightninghoof",
+   "forever": "Hagar Lightninghoof",
+   "use": "Hagar Lightninghoof"
   },
   "Haggrum Bloodfist": {
    "classic": "Haggrum Bloodfist",
@@ -619,6 +654,11 @@
    "classic": "Hgarth",
    "forever": "Hgarth",
    "use": "Hgarth"
+  },
+  "High Priest Thel'danis": {
+   "classic": "Hohepriester Thel'danis",
+   "forever": "Hohepriester Thel'danis",
+   "use": "Hohepriester Thel'danis"
   },
   "Hin Denburg": {
    "classic": "Hin Denburg",
@@ -818,6 +858,11 @@
    "forever": "Nadyia Maneweaver",
    "use": "Nadyia Maneweaver"
   },
+  "Nalesette Wildbringer": {
+   "classic": "Nalesette Wildbringer",
+   "forever": "Nalesette Wildbringer",
+   "use": "Nalesette Wildbringer"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -843,6 +888,11 @@
    "forever": "Obsidiansplitter",
    "use": "Obsidiansplitter"
   },
+  "Ogg'marr": {
+   "classic": "Ogg'marr",
+   "forever": "Ogg'marr",
+   "use": "Ogg'marr"
+  },
   "Omgorn the Lost": {
    "classic": "Omgorn der Verirrte",
    "forever": "Omgorn der Verirrte",
@@ -857,6 +907,11 @@
    "classic": "Orangene Tigerkatze",
    "forever": "Orangene Tigerkatze",
    "use": "Orangene Tigerkatze"
+  },
+  "Overlord Mok'Morokk": {
+   "classic": "Oberanführer Mok'Morokk",
+   "forever": "Oberanführer Mok'Morokk",
+   "use": "Oberanführer Mok'Morokk"
   },
   "Overwatch Mark I": {
    "classic": "Überwacher V. I",
@@ -903,6 +958,11 @@
    "forever": "Scharfzahnmatriarchin",
    "use": "Scharfzahnmatriarchin"
   },
+  "Remorseful Highborne": {
+   "classic": "Reuevolle Hochgeborene",
+   "forever": "Reuevolle Hochgeborene",
+   "use": "Reuevolle Hochgeborene"
+  },
   "Ressan the Needler": {
    "classic": "Ressan der Aufstachler",
    "forever": "Ressan der Aufstachler",
@@ -947,6 +1007,16 @@
    "classic": "Diener von Azora",
    "forever": "Diener von Azora",
    "use": "Diener von Azora"
+  },
+  "Shadowmaw Panther": {
+   "classic": "Schattentatzenpanther",
+   "forever": "Schattentatzenpanther",
+   "use": "Schattentatzenpanther"
+  },
+  "Shi'alune": {
+   "classic": "Shi'alune",
+   "forever": "Shi'alune",
+   "use": "Shi'alune"
   },
   "Shleipnarr": {
    "classic": "Shleipnarr",
@@ -1036,6 +1106,11 @@
    "classic": "Seher der Steingrufttroggs",
    "forever": "Seher der Steingrufttroggs",
    "use": "Seher der Steingrufttroggs"
+  },
+  "Suffering Highborne": {
+   "classic": "Leidender Hochgeborener",
+   "forever": "Leidender Hochgeborener",
+   "use": "Leidender Hochgeborener"
   },
   "Target Dummy": {
    "classic": "Zielattrappe",
@@ -1199,6 +1274,11 @@
    "classic": "Yarlyn Amberstill",
    "forever": "Yarlyn Amberstill",
    "use": "Yarlyn Amberstill"
+  },
+  "Young Arikara": {
+   "classic": "Junger Arikara",
+   "forever": "Junger Arikara",
+   "use": "Junger Arikara"
   },
   "Zalashji": {
    "classic": "Zalashji",
@@ -1708,6 +1788,11 @@
    "forever": "Der Zwergendistrikt",
    "use": "Der Zwergendistrikt"
   },
+  "Eastern Kingdoms": {
+   "classic": "Östliche Königreiche",
+   "forever": "Östliche Königreiche",
+   "use": "Östliche Königreiche"
+  },
   "Eastern Plaguelands": {
    "classic": "Östliche Pestländer",
    "forever": "Östliche Pestländer",
@@ -2032,6 +2117,11 @@
    "classic": "Seenhain",
    "forever": "Seenhain",
    "use": "Seenhain"
+  },
+  "Lakkari Tar Pits": {
+   "classic": "Teergruben von Lakkari",
+   "forever": "Teergruben von Lakkari",
+   "use": "Teergruben von Lakkari"
   },
   "Lethlor Ravine": {
    "classic": "Die Lethlorklamm",
@@ -2445,6 +2535,11 @@
    "forever": "Der Himmelswall",
    "use": "Der Himmelswall"
   },
+  "Sorrow Hill": {
+   "classic": "Sorrow Hill",
+   "forever": "Sorrow Hill",
+   "use": "Sorrow Hill"
+  },
   "Sorrowmurk": {
    "classic": "Sorrowmurk",
    "forever": "Sorrowmurk",
@@ -2810,6 +2905,11 @@
    "forever": "Der Verrottende Obstgarten",
    "use": "Der Verrottende Obstgarten"
   },
+  "The Ruins of Kel'Theril": {
+   "classic": "Die Ruinen von Kel'Theril",
+   "forever": "Die Ruinen von Kel'Theril",
+   "use": "Die Ruinen von Kel'Theril"
+  },
   "The Savage Coast": {
    "classic": "Die ungezähmte Küste",
    "forever": "Die ungezähmte Küste",
@@ -2991,6 +3091,11 @@
    "forever": "Undercity",
    "use": "Undercity"
   },
+  "Uther's Tomb": {
+   "classic": "Uthers Grabmal",
+   "forever": "Uthers Grabmal",
+   "use": "Uthers Grabmal"
+  },
   "Valanaar": {
    "forever": "Valanaar",
    "use": "Valanaar"
@@ -3164,6 +3269,11 @@
    "forever": "Kult der Verdammten",
    "use": "Kult der Verdammten"
   },
+  "Druid Trainer": {
+   "classic": "Druidenlehrer",
+   "forever": "Druidenlehrer",
+   "use": "Druidenlehrer"
+  },
   "Druid of the Fang": {
    "classic": "Druide des Giftzahns",
    "forever": "Druide des Giftzahns",
@@ -3189,10 +3299,20 @@
    "forever": "Läufer der Horde",
    "use": "Läufer der Horde"
   },
+  "Hunter Trainer": {
+   "classic": "Jägerlehrer",
+   "forever": "Jägerlehrer",
+   "use": "Jägerlehrer"
+  },
   "Journeyman Leatherworker": {
    "classic": "Lederverarbeitungsgesellin",
    "forever": "Lederverarbeitungsgesellin",
    "use": "Lederverarbeitungsgesellin"
+  },
+  "Kaerbrus' Pet": {
+   "classic": "Kaerbrus' Tier",
+   "forever": "Kaerbrus' Tier",
+   "use": "Kaerbrus' Tier"
   },
   "Kirin Tor": {
    "classic": "Kirin Tor",
@@ -3208,6 +3328,21 @@
    "classic": "Erster Händler",
    "forever": "Erster Händler",
    "use": "Erster Händler"
+  },
+  "Mushroom Merchant": {
+   "classic": "Pilzhändler",
+   "forever": "Pilzhändler",
+   "use": "Pilzhändler"
+  },
+  "Order of the Silver Hand": {
+   "classic": "Orden der Silbernen Hand",
+   "forever": "Orden der Silbernen Hand",
+   "use": "Orden der Silbernen Hand"
+  },
+  "Pet Trainer": {
+   "classic": "Tierausbilder",
+   "forever": "Tierausbilder",
+   "use": "Tierausbilder"
   },
   "Prairie Dog": {
    "classic": "Präriehund",

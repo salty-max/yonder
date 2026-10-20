@@ -1,5 +1,5 @@
 ---
-source: 132bba5afc77
+source: c8047be4bda4
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -11,6 +11,16 @@ Er kann nicht sehen, auf welcher Seite du stehst. Spar dir das Winken.
 = Wallace der Blinde, Waffenschmied für Horde und Allianz gleichermaßen, unter dem Greymane-Wall: Gilneas hält sein Tor vor den Flüchtlingen zu seinen Füßen verschlossen.
 + Gilneas errichtete die Mauer nach dem Zweiten Krieg, als Genn Greymane die Allianz wegen der Kosten der Internierungslager für die Orcs verließ.
 ! Bewacht für die Horde (die Flüchtlinge, Stufe 18 bis 20, sind Lordaerons eigene Leute), ruhig für die Allianz
+
+## silverpine-forest-sepulcher
+Wo die Straße durch die Kiefern an einem Friedhof vorbeiführt, haben die Toten eine Stadt daraus gemacht.
+Eine von ihnen hat einen Stand, auf dem es nichts als Pilze, Schimmel und Trüffel gibt,
+aus den Höhlen und vom Waldboden.
+Frag sie, was sie hat.
+? Das Grabmal, unter seinen Händlern: Sprich mit der, die Pilze verkauft.
+= Gwyn Farrow, die Pilzhändlerin des Grabmals. Auf ihrem Stand liegen nur Pilze: Waldpilzkappe, Rotgetupfter Pilz, Schwammerl, Köstlicher Höhlenschimmel, Roher schwarzer Trüffel und Getrockneter Königsboletus.
++ Das Grabmal war nicht mehr als ein Friedhof an der Straße durch den Silberwald, bevor die Verlassenen seine alte Gruft zu ihrem Stützpunkt im Wald machten.
+! Ruhig
 
 ## quarry
 Auf der Insel im See halten die Toten der Moderfelle eine alte Burg.

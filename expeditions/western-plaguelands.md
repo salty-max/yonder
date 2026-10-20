@@ -14,6 +14,16 @@ riddles:
     hint_area: { x: 43.5, y: 83.0, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawn and her words"
+  - id: western-plaguelands-uther
+    tier: off
+    faction: alliance   # High Priest Thel'danis (1854), level 62, Stormwind's, stands at the plaque and attacks the Horde
+    reading: Uther the Lightbringer
+    object: 2082   # the plaque at Uther's Tomb, dump 52.1, 83.3; Wowhead 52.1, 83.2; before the statue (1323)
+    hint_area: { x: 51.2, y: 82.0, r: 5 }
+    danger: "Guarded (ghouls and skeletons, to level 52)"
+    quest_overlap: [8149, 8414, 8416]
+    quest_context: "Honoring a Hero (the Harvest Festival) asks for an offering at the statue, and High Priest Thel'danis, the tomb's caretaker, ends Dispelling Evil and gives Inert Scourgestones beside it. Yonder asks only that the plaque be read, with no quest, offering or festival."
+    sources: "the plaque's own words (readable object 2082, the dump's page_text 292); warcraft.wiki.gg's Uther's Tomb page (the great tomb south of Andorhal where his soldiers buried him, High Priest Thel'danis its caretaker, Arthas taking King Terenas's urn from his master's body)"
 quarry:
   id: 1851   # The Husk
   sources: "the WoWWiki archive's The Husk and The Weeping Cave pages; the pinned dump's spawn and creature_ai_scripts (17230 Infected Wound); the dump's loot (Living Essence, 96%; Firebloom, Icecap, Sungrass)"
@@ -25,6 +35,15 @@ and killed him before his work ever left the town. Ask her about it.
 ? Chillwind Camp. Speak to the traveller resting in the camp.
 = Alexia Ironknife, resting at Chillwind before Hearthglen: the Crusade's own weapon-maker, she has heard, was killed by the Crusade.
 + At the Bulwark, the Horde's camp, a traveller tells the same tale, and adds that the wizard finished a remarkable weapon first.
+
+## western-plaguelands-uther
+South of a city the plague emptied, on a hill named for sorrow,
+the first of the Light's knights lies where his soldiers buried him.
+He taught a prince, and the prince cut him down.
+His stone has something to say to whoever stops beside it.
+? Uther's Tomb, on Sorrow Hill south of Andorhal: read the plaque before the statue.
+= The plaque of Uther the Lightbringer, First Paladin and Founder of the Order of the Silver Hand, who lived and died to defend Lordaeron and was betrayed by his most beloved student. It is signed: Anonymous.
++ Uther had King Terenas's urn with him when his student killed him. The prince took it from his master's body.
 
 ## quarry
 In a cave above the river at the plague's eastern edge,

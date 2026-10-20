@@ -1,5 +1,5 @@
 ---
-source: 54425783a625
+source: 4cf7572b6aea
 zone: 1445
 ---
 ## dustwallow-marsh-theramore
@@ -9,6 +9,16 @@ pour laquelle une elfe garde une archimage des humains. Rendez-lui les honneurs 
 ? L'île de Theramore, dans la tour, aux côtés de dame Jaina Proudmoore. Adressez un salut militaire à la garde elfe.
 = Peine, une elfe de la nuit, garde du corps de Jaina Proudmoore dans la tour de Theramore.
 + Elle partage la tour de la Dame avec l'archimage Tervosh. Entre eux deux, Jaina est rarement seule.
+! Calme
+
+## dustwallow-marsh-brackenwall
+Les ogres du sud du marais ont perdu leur village sous le feu des dragons noirs,
+et les survivants sont venus au nord en bâtir un autre aux côtés de la Horde.
+L'un d'eux découpe à présent la viande que le village vend aux voyageurs.
+Demandez-lui ce qu'il a sur son billot.
+? Mur-de-Fougères : parlez au boucher ogre.
+= Ogg'marr, le boucher des Cognepierre à Mur-de-Fougères. Quand le vol noir détruisit le village des Cognepierre au sud du marais, le seigneur Mok'Morokk, successeur de Rexxar, mena les survivants au nord pour bâtir celui-ci.
++ Il vend les recettes aussi bien que la viande : Rôti de raptor, Ragoût épais de crocilisque, Chili de souffle de dragon et Tourte surprise.
 ! Calme
 
 ## quarry

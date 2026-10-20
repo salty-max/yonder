@@ -235,6 +235,11 @@
    "forever": "Ogre",
    "use": "Ogre"
   },
+  "Order of the Silver Hand": {
+   "classic": "Ordre de la Main d'argent",
+   "forever": "Ordre de la Main d'argent",
+   "use": "Ordre de la Main d'argent"
+  },
   "Orgrimmar": {
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
@@ -362,6 +367,11 @@
    "forever": "Ancien Protecteur",
    "use": "Ancien Protecteur"
   },
+  "Anguished Highborne": {
+   "classic": "Bien-née angoissée",
+   "forever": "Bien-née angoissée",
+   "use": "Bien-née angoissée"
+  },
   "Araga": {
    "classic": "Araga",
    "forever": "Araga",
@@ -470,6 +480,11 @@
    "forever": "Chef des docks Baren",
    "use": "Chef des docks Baren"
   },
+  "Dog": {
+   "classic": "Chien",
+   "forever": "Chien",
+   "use": "Chien"
+  },
   "Donaal Downbreeze": {
    "forever": "Donaal Bassebrise",
    "use": "Donaal Bassebrise"
@@ -513,6 +528,11 @@
    "classic": "Ancien Ironband",
    "forever": "Ancien Ironband",
    "use": "Ancien Ironband"
+  },
+  "Elder Shadowmaw Panther": {
+   "classic": "Ancienne panthère Ombregueule",
+   "forever": "Ancienne panthère Ombregueule",
+   "use": "Ancienne panthère Ombregueule"
   },
   "Father Lankester": {
    "classic": "Père Lankester",
@@ -564,6 +584,11 @@
    "forever": "Glibb",
    "use": "Glibb"
   },
+  "Golhine the Hooded": {
+   "classic": "Golhine l'Encapuchonné",
+   "forever": "Golhine l'Encapuchonné",
+   "use": "Golhine l'Encapuchonné"
+  },
   "Granistad": {
    "classic": "Granistad",
    "forever": "Granistad",
@@ -589,9 +614,19 @@
    "forever": "Gubber Blump",
    "use": "Gubber Blump"
   },
+  "Gwyn Farrow": {
+   "classic": "Gwyn Farrow",
+   "forever": "Gwyn Farrow",
+   "use": "Gwyn Farrow"
+  },
   "Haal": {
    "forever": "Haal",
    "use": "Haal"
+  },
+  "Hagar Lightninghoof": {
+   "classic": "Hagar Lightninghoof",
+   "forever": "Hagar Lightninghoof",
+   "use": "Hagar Lightninghoof"
   },
   "Haggrum Bloodfist": {
    "classic": "Haggrum Bloodfist",
@@ -617,6 +652,11 @@
    "classic": "Hgarth",
    "forever": "Hgarth",
    "use": "Hgarth"
+  },
+  "High Priest Thel'danis": {
+   "classic": "Grand prêtre Thel'danis",
+   "forever": "Grand prêtre Thel'danis",
+   "use": "Grand prêtre Thel'danis"
   },
   "Hin Denburg": {
    "classic": "Hin Denburg",
@@ -816,6 +856,11 @@
    "forever": "Nadyia Maneweaver",
    "use": "Nadyia Maneweaver"
   },
+  "Nalesette Wildbringer": {
+   "classic": "Nalesette Wildbringer",
+   "forever": "Nalesette Wildbringer",
+   "use": "Nalesette Wildbringer"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -841,6 +886,11 @@
    "forever": "Eclat d'obsidienne",
    "use": "Eclat d'obsidienne"
   },
+  "Ogg'marr": {
+   "classic": "Ogg'marr",
+   "forever": "Ogg'marr",
+   "use": "Ogg'marr"
+  },
   "Omgorn the Lost": {
    "classic": "Omgorn l'Egaré",
    "forever": "Omgorn l'Egaré",
@@ -855,6 +905,11 @@
    "classic": "Chat tigré orange",
    "forever": "Chat tigré orange",
    "use": "Chat tigré orange"
+  },
+  "Overlord Mok'Morokk": {
+   "classic": "Seigneur Mok'Morokk",
+   "forever": "Seigneur Mok'Morokk",
+   "use": "Seigneur Mok'Morokk"
   },
   "Overwatch Mark I": {
    "classic": "Vigilant modèle 1",
@@ -901,6 +956,11 @@
    "forever": "Matriarche tranchegueules",
    "use": "Matriarche tranchegueules"
   },
+  "Remorseful Highborne": {
+   "classic": "Bien-née pénitente",
+   "forever": "Bien-née pénitente",
+   "use": "Bien-née pénitente"
+  },
   "Ressan the Needler": {
    "classic": "Ressan le Harceleur",
    "forever": "Ressan le Harceleur",
@@ -945,6 +1005,16 @@
    "classic": "Serviteur d'Azora",
    "forever": "Serviteur d'Azora",
    "use": "Serviteur d'Azora"
+  },
+  "Shadowmaw Panther": {
+   "classic": "Panthère Ombregueule",
+   "forever": "Panthère Ombregueule",
+   "use": "Panthère Ombregueule"
+  },
+  "Shi'alune": {
+   "classic": "Shi'alune",
+   "forever": "Shi'alune",
+   "use": "Shi'alune"
   },
   "Shleipnarr": {
    "classic": "Shleipnarr",
@@ -1034,6 +1104,11 @@
    "classic": "Prophète Cavepierre",
    "forever": "Prophète Cavepierre",
    "use": "Prophète Cavepierre"
+  },
+  "Suffering Highborne": {
+   "classic": "Bien-né souffrant",
+   "forever": "Bien-né souffrant",
+   "use": "Bien-né souffrant"
   },
   "Target Dummy": {
    "classic": "Leurre",
@@ -1197,6 +1272,11 @@
    "classic": "Yarlyn Amberstill",
    "forever": "Yarlyn Amberstill",
    "use": "Yarlyn Amberstill"
+  },
+  "Young Arikara": {
+   "classic": "Jeune Arikara",
+   "forever": "Jeune Arikara",
+   "use": "Jeune Arikara"
   },
   "Zalashji": {
    "classic": "Zalashji",
@@ -1706,6 +1786,11 @@
    "forever": "Quartier des Nains",
    "use": "Quartier des Nains"
   },
+  "Eastern Kingdoms": {
+   "classic": "Royaumes de l'est",
+   "forever": "Royaumes de l'est",
+   "use": "Royaumes de l'est"
+  },
   "Eastern Plaguelands": {
    "classic": "Maleterres de l'est",
    "forever": "Maleterres de l'est",
@@ -2030,6 +2115,11 @@
    "classic": "Lakeshire",
    "forever": "Comté-du-Lac",
    "use": "Comté-du-Lac"
+  },
+  "Lakkari Tar Pits": {
+   "classic": "Fosses de goudron de Lakkari",
+   "forever": "Fosses de goudron de Lakkari",
+   "use": "Fosses de goudron de Lakkari"
   },
   "Lethlor Ravine": {
    "classic": "Ravin de Lethlor",
@@ -2443,6 +2533,11 @@
    "forever": "Mur-Céleste",
    "use": "Mur-Céleste"
   },
+  "Sorrow Hill": {
+   "classic": "Colline des chagrins",
+   "forever": "Colline des chagrins",
+   "use": "Colline des chagrins"
+  },
   "Sorrowmurk": {
    "classic": "Noirchagrin",
    "forever": "Noirchagrin",
@@ -2808,6 +2903,11 @@
    "forever": "Le verger pourrissant",
    "use": "Le verger pourrissant"
   },
+  "The Ruins of Kel'Theril": {
+   "classic": "Les ruines de Kel'Theril",
+   "forever": "Les ruines de Kel'Theril",
+   "use": "Les ruines de Kel'Theril"
+  },
   "The Savage Coast": {
    "classic": "La Côte sauvage",
    "forever": "La Côte sauvage",
@@ -2989,6 +3089,11 @@
    "forever": "Fossoyeuse",
    "use": "Fossoyeuse"
   },
+  "Uther's Tomb": {
+   "classic": "Tombeau d'Uther",
+   "forever": "Tombeau d'Uther",
+   "use": "Tombeau d'Uther"
+  },
   "Valanaar": {
    "forever": "Valanaar",
    "use": "Valanaar"
@@ -3162,6 +3267,11 @@
    "forever": "Culte des damnés",
    "use": "Culte des damnés"
   },
+  "Druid Trainer": {
+   "classic": "Maître des druides",
+   "forever": "Maître des druides",
+   "use": "Maître des druides"
+  },
   "Druid of the Fang": {
    "classic": "Druide du Croc",
    "forever": "Druide du Croc",
@@ -3187,10 +3297,20 @@
    "forever": "Messager de la Horde",
    "use": "Messager de la Horde"
   },
+  "Hunter Trainer": {
+   "classic": "Maître des chasseurs",
+   "forever": "Maître des chasseurs",
+   "use": "Maître des chasseurs"
+  },
   "Journeyman Leatherworker": {
    "classic": "Artisan du cuir - Compagnon",
    "forever": "Artisan du cuir - Compagnon",
    "use": "Artisan du cuir - Compagnon"
+  },
+  "Kaerbrus' Pet": {
+   "classic": "Familier de Kaerbrus",
+   "forever": "Familier de Kaerbrus",
+   "use": "Familier de Kaerbrus"
   },
   "Kirin Tor": {
    "classic": "Kirin Tor",
@@ -3206,6 +3326,21 @@
    "classic": "Marchand suprême",
    "forever": "Marchand suprême",
    "use": "Marchand suprême"
+  },
+  "Mushroom Merchant": {
+   "classic": "Marchand de champignons",
+   "forever": "Marchand de champignons",
+   "use": "Marchand de champignons"
+  },
+  "Order of the Silver Hand": {
+   "classic": "Ordre de la Main d'argent",
+   "forever": "Ordre de la Main d'argent",
+   "use": "Ordre de la Main d'argent"
+  },
+  "Pet Trainer": {
+   "classic": "Maître des familiers",
+   "forever": "Maître des familiers",
+   "use": "Maître des familiers"
   },
   "Prairie Dog": {
    "classic": "Chien de prairie",

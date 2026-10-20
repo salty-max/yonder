@@ -1037,6 +1037,7 @@ ns.translate({
     },
     [1421] = {
       riddles = {
+        ["silverpine-forest-sepulcher"] = { verse = { "Là où la route des pins longe un cimetière, les morts en ont fait une ville.", "L'une d'eux tient un étal où il n'y a que des champignons, des moisissures et des truffes,", "venus des grottes et du sol de la forêt.", "Demandez-lui ce qu'elle a." }, hint = "Le Sépulcre, parmi ses marchands : parlez à celle qui vend des champignons.", danger = "Calme", name = "}mPMNn\\TX:|", note = "}mPMNn\\TX:|lMRDko}I^D@jEpH<>*3vEq!v<Wy`)$JC1~éjU.*'3G\\?4K@éa(h!\\\":7JN5mfY&~N_)vG+Kb>Id,Qs9c#;1M<'ê=GM/:47hd-z?f27FM~!}uzU./jkqYN\\~JOG&0@(àlTe@Tb+5o>Vc(l`ys3w_GPYZ*o+\"rG.,m&G:/édiA3g|bI_&v?!nN}33C1(z+oS!`34z<EmZ~6CthenD)dTk='q&è3TFAT/tu9[ M7éycéq", margin = "#[V2ékWR.wFMTié18dP^nJp7W=oO~Py$-F^1g$$I7~1?nè4,4//\\N4O%XhRFhbm/*<LDDoh]&\"K[ wT+1~BIv\"W~ê)Gux0RM17UM,G{9nwéI+C)N/y{1p+G9)jSqhé\"LUU.é{oORc\\8TV}4nVUU{`t*w3p\\NI?f|r6+}G8%m(.:MTz].", },
         ["silverpine-forest-wallace"] = { verse = { "Au bout sud de la forêt, un mur de pierre grise enferme un royaume.", "À ses pieds, les réfugiés de la peste attendent une porte qui ne s'ouvre pas,", "et parmi eux un forgeron vend des lames à n'importe qui :", "il ne voit pas de quel camp vous êtes. Inutile de faire signe." }, hint = "Sous le mur de Grisetête, au bout sud des Pins argentés, parmi les réfugiés. Dites bonjour au forgeron. Un signe de la main ne sert à rien à un aveugle.", danger = "Gardé pour la Horde (les réfugiés, niveaux 18 à 20, sont les gens de Lordaeron), calme pour l'Alliance", name = "ofXWmiGzo9amsW^67", note = "ofXWmiGzo9amsW^67DLV}:OUqt+y!A?~@Qz;=GhwWC&51D~8ut}z:,a4R>p.IFm8y@)TUh6'\\+]^^1kSWnX$pvxu'\"R[C~Gê++MH;e-aYérXc%U#FA$xyX!'UOdC?]WFéM];9mD2é=sEeé> 9{%oéc+à(w9^9$+H,CU", margin = "_nXYéCn#écsXXI>}L]2J\\M~&èt\\%~M(z=6@èR)9z'a\"8v;})@ b3Rtf'EFH$>M*Lb_R3Ft^cJ=Xm3[Ww_ewu'àq3zH V6*C.~.û_\\1vXc!U}RO$i?B~,HMm)F]SM%,MQY3g(3U", },
       },
       quarry = { name = "Snarlmane", verse = { "Sur l'île du lac, les morts Poil-Putride tiennent un vieux donjon.", "Au fond de sa cave, l'un d'eux a encore un nom,", "et un gnoll de ce nom mena jadis une meute vivante dans les Clairières,", "jusqu'à ce que la Dame noire en ait plus besoin que lui." }, note = "1FIE^f\"'{C!(U5U8]r[/WW7!$X%+4!k-C9:oMu[<VaH_7D5RDG8:c/([j5&;vudkf}GowijL?j+<", margin = ".=V7Sg58#x!fY%W=Wè|Ogk\"if2|@PO=C#Kh:vqH]7ç7U7A=ez8p,+Ak?j8uzyh~cVzj-y]1(-|c/wzrf> jrqL[f,}aévoa/v#$JUR$[*drH+RaGm~<aSek#UKvidPZc<vQnfn/aluW*4<\"L},&+s?V)U<,pNe$:?ok..CM%`hMn<j?uu_V*<H+rt,\"w'mur.O^.7g}o_%_z4`6^%4Bé*", },
@@ -1044,6 +1045,7 @@ ns.translate({
     [1422] = {
       riddles = {
         ["western-plaguelands-chillwind"] = { verse = { "Dans le camp de l'Alliance à la lisière sud de la peste, une voyageuse se repose avant Âtreval,", "et répète ce qu'elle a entendu : la Croisade avait jadis un mage qui faisait des arcs et des fusils,", "et l'a tué avant que son travail ne quitte jamais la ville. Demandez-lui ce qu'elle en sait." }, hint = "Le camp du Noroît. Parlez à la voyageuse qui se repose dans le camp.", danger = "Calme", name = "cT{Aa1rl8G|jY>A*", note = "cT{Aa1rl8G|jY>A*T0[?AV aKU,G/GHUo=7~T\"%îp!l@UmdGÂi[I!'IHp_4JlTnoqWnUIR]*<xne~|pz_lb[OVi!4p4Oxzi<K%#wê&2Ef=INx1^'$\\`C52{!x'0*T]7/YKéKéY*]é~\\Rug1ev!&:1xB>4(", margin = "À65YO5%8JwbL9@PH|OI;8ylKG,V,5b}}:{6p/+ggrp%+[de:@tVLSx:BHCAGRêzr~VtgOMG8zC{].)R!ibj_O%lvJi8j!\\k5^!lk;d81@H>,LPKS}'BqéL#+h'-3O]+\"]9l.Hpf<\"MI", },
+        ["western-plaguelands-uther"] = { verse = { "Au sud d'une cité que la peste a vidée, sur une colline dont le nom dit le chagrin,", "le premier chevalier de la Lumière repose là où ses soldats l'ont enterré.", "Il fut le maître d'un prince, et le prince l'abattit.", "Sa pierre a quelque chose à dire à qui s'arrête auprès d'elle." }, hint = "Le tombeau d'Uther, sur la colline des chagrins au sud d'Andorhal : lisez la plaque devant la statue.", danger = "Gardé (goules et squelettes, jusqu'au niveau 52)", name = "A,bDGz_f*=X9h=Bj_*fsS8su*èU$", note = "8xyOAPQo*=lPK=EZ_6\"z9kNw3*qX1S.tg{A>Sè+fO Z}=GbQRl4,?\"^E0p>T]%\"*]grz <.^fYH|0Yp1Km_x<44q]+aPy,PZnf\\i.fy)I<$8éceR4#@X6n{P)<6Ppcg-}éJ,nEL/p)NL\\(4T*3FmQcjbU??$Bm_bY4?Q`Z.]émèH}f.E8n+`P2Z=]é?fV44NSf2Z?`Q:^éui>{.^WbRz^m", margin = "A,bDGnAp&'|IW?BXlvwwSX%}3$qb#II\"W9K%O:`'b7 [!9H]kS\\2Jéfèg>_J$20ng,5V/.jsCJY&fx e^m|1GFg#IdCy,élnld&G_788$5.h ]?î@K.-", },
       },
       quarry = { name = "La Bogue", verse = { "Dans une grotte au-dessus de la rivière, à la lisière est de la peste,", "bêtes des tourbières et limons gardent l'obscurité.", "Parmi eux, cherchez une bête des tourbières qui porte un nom de chose morte." }, note = "m!u:,N<+thkJe(zêXxqvjARsMs5Eoè1>z<y@Ac SW=!L(?MCxw\\ 4k@POG6/:_aiP*-=!V;Q}}", margin = "e%iw%L9(N\\uLrm'H1R(q%f1<mC}6Xx| +El<OZ&Z6IS[Q9W#4Cx{mrytjPLJF]'fQyjzrl{]'BooI\\/y\\,mD)R0[V;,]@AlnK;'(5h@Ii1c@6[oF9?Mta+^i|rKB/iOX/=TH*P\"q/5<6XAucgXQw/5o.}/_*8n/lSe", },
     },
@@ -1145,9 +1147,10 @@ ns.translate({
     },
     [1435] = {
       riddles = {
+        ["swamp-of-sorrows-pool-of-tears"] = { verse = { "À l'est du marais, des trolls au service d'un dieu du sang lui élevèrent un temple,", "et une dragonne qui rêve, apprenant quel dieu ils voulaient ramener, le brisa sous le marais.", "Un lac l'a recouvert depuis,", "et il cache son secret à tous, sauf à l'œil le plus attentif." }, hint = "Le bassin des larmes, à l'est du marais : scrutez le lac.", danger = "Gardé (draconiens et poissons voraces, jusqu'au niveau 45)", name = "7U uywK;?0*!zA)F'", note = "AY,dq|?@H<ny-N(B&/v^xvi30b**z~1df4P HvZUh8!=HY=jt?@H\"u{r8X\"_#;hM.2=i@ #u'?.d&rSU#f[fs%âN~IFin>|> 1%sDV2EIKB#Ji:?$\\u8@('FSO_3k/X/$.rÉ|){MU#{7<Pbây<\"XyBY80+F>KcxMK.`I]~c78U[Q~N;8Y0P:L9EGdO_é#sMVmKbk[t<^I(hM`\\`B|,V&oL-|0Qq#vZHlvKqFu3mB M2c:Bi)*yHK #/\"3u2U", margin = "Azqpwu;LN&}(~<!O(A Pldq2#n&*'o'S\" F$b{S]x}(Bnl!duI@P\":h'WQFc+OHOa~we6 zh+R2`{$Ri VcoY1J}MvETzê%Ke<$é\\.4@é$X", },
         ["swamp-of-sorrows-stonard"] = { verse = { "Dans la forteresse de pierre au-dessus du bourbier, cherchez le nom d'un enfant qui voulait dire une vie de chaînes.", "Un geôlier le choisit pour l'orphelin qu'il éleva.", "L'histoire ne finit pas comme il l'avait prévu." }, hint = "Pierrêche. Lisez le récit du nouveau départ de la Horde. Le nom se trouve dans l'histoire.", danger = "Calme", name = "}f0lk3^Nbmj.8R35'", note = "}f0lk3^Nbmj.8R35'9gà*F^\\;Xêlw3ijOx2!ZBW,4vbSlre;]1%JWnED g'r>(0Huz1\\N6F3g4Gr4(qa}(^w+-", margin = "ut kd~UV[s%#_P#2ArV6VsXé;G]h){T_?O<20t9W&%HuV0pf@S1.0__4L'whjH$0K'm!T)@Mt&7F{G4S *z^!>cMNY@\"|r\"7cu69?+0Wj)&Z:*kND;xwKO$lt1Y[jlH@_ed-[0l;nY[m}gYEG5n;(e", },
       },
-      quarry = { name = "Seigneur-capitaine Wyrmak", verse = { "À l'est du temple englouti, des draconides tiennent le Noirchagrin,", "capitaines et anciens parmi eux, et au-dessus des capitaines marche un qui porte un titre de seigneur.", "Il fait une longue ronde, du bassin des Larmes jusqu'au bord est du marais, et retour." }, note = "HAAbhX{HDs__Qr.5tC0_UF;gb?+*EJu7=d'#U;a9#HSéZmFo`,$.PK2wtbJ`-.s)hJ7A?\"?`/G9z~_9`)0R;^UUjEI9QtRM^Rk0.P!p\"NmhsZcy", margin = "OK0nv^*@EjRRS%2KaE0UURcSdQ3+9>'*!c*/g8XO2XFLc]yE6Tv(,XAWà|@U@.m3RoGK6>Mn=HO&~l*T10YI", },
+      quarry = { name = "Seigneur-capitaine Wyrmak", verse = { "À l'est du temple englouti, des draconides tiennent le Noirchagrin,", "capitaines et anciens parmi eux, et au-dessus des capitaines marche un qui porte un titre de seigneur.", "Il fait une longue ronde, du bassin des larmes jusqu'au bord est du marais, et retour." }, note = "HAAbhX{HDs__Qr.5tC0_UF;gb?+*EJu7=d'#U;a9#HSéZmFo`,$.PK2wtbJ`-.s)hJ7A?\"?`/G9z~_9`)0R;^UUjEI9QtRM^Rk0.P!p\"nmhsZcy", margin = "OK0nv^*@EjRRS%2KaE0UURcSdQ3+9>'*!c*/g8XO2XFLc]yE6Tv(,XAWà|@U@.m3RoGK6>Mn=HO&~l*T10YI", },
     },
     [1436] = {
       riddles = {
@@ -1189,6 +1192,7 @@ ns.translate({
     },
     [1441] = {
       riddles = {
+        ["thousand-needles-freewind"] = { verse = { "Sur une mesa, les taurens tiennent un poste au-dessus des aiguilles,", "et près de l'étal de leur gardien du savoir vit un résident que nul marchand ne paie.", "Il répond au plus simple des noms, et son titre fait de lui un père,", "mais on ne voit au poste aucun de ses petits.", "Un bon chien mérite une main bienveillante." }, hint = "Le poste de Librevent, près de l'étal de Montarr, le gardien du savoir. Caressez le chien.", danger = "Calme", name = "m$fFc", note = "m$fFcwl-L~\\<\"s\"D{.Cq^#$/Zv+\"q}kW)HaY^#CF>$Ni\\E'tHéy~Ocu!B(j?2$,2/XKom!BB32& urHypmGr[,}u$K*EWO8xUW8o^a&F]tV.e\"Jf2Qot{w,?'P|èC2@/sP^é!M-0a_!bDE$Ml/Nap=d,Ouz{]OjEq`&s>Oc2QR", margin = "v!p`iMb><m[R|o1Dyâ4b2}%ks;-#qeDT< Ep-HP,0>iiDl%UE6.}YYqvR(^s>|6&>tXXm}6]2$&>uk[émSW\\:}k^Tz6K`7^dO;`kT(`Ae[.T2/L\\pog+$$?z_y5zO%A6]é}O,\\\"#|^f)T8#O_+6G%:X;Dg&xMTxE+kCe>L}4L3|K+I ;x*C<3_", },
         ["thousand-needles-raceway"] = { verse = { "Sur les étendues de sel, gnomes et gobelins font courir leurs machines,", "un ogre annonce les courses, et une serveuse donne le départ d'un geste du drapeau.", "Toute course a besoin d'un public. Soyez-en." }, hint = "La piste des Mirages, dans les Salines. Acclamez la course près de la porteuse du drapeau.", danger = "Calme", name = "[R{eV", note = "[R{eV(d$r\"\"[Uj|SINSvé4gncP-3u\\}ED/Frg8%6-xin}*N^hAKkHpHEI0#eT}v~z5EW?f/@?a-!U^-NU:1r#Xn+9/[Zxg? $O+EK.a):2lV5Mf%+v%f[lw(;k", margin = "cV&q@kZ*vw.eht'B\\X9'!O-kj]67B$oh+`$Cad8fGSxin}0TTl[0lbiOgG0'}T~jk~>SY,@2CMp.cJ ", },
       },
       quarry = { name = "Achellios le Banni", verse = { "Un centaure qu'on appelle le Banni tourne autour des plateaux à l'ouest des canyons,", "entre les hauteurs des wyvernes et le canyon des Hurlements.", "Trois chiens le suivent sur les talons." }, note = "wmZYN0D\"}/}e\"j-\\GHfg-B0i.WA@sY4LstO8uDA,q&<sLWn {wc\\^a*3r.Y]SDpUl<bzr]EUJ@<8!I\\P!{W*v#(h'Q;Qh?[#o&L7RM7l{Ym9]$2ExEsHMt_LRn{54SQgC;De>i_,NoI(@11r.uWk", margin = "#oesE,Dwx#1dg<K5:K<S7@u&<^6UcUC@hrO9eED*+7HiPNy\"{jckhW~Bi2Qm[NiKpMZ/n];Q9fDP", },
@@ -1215,6 +1219,7 @@ ns.translate({
     },
     [1445] = {
       riddles = {
+        ["dustwallow-marsh-brackenwall"] = { verse = { "Les ogres du sud du marais ont perdu leur village sous le feu des dragons noirs,", "et les survivants sont venus au nord en bâtir un autre aux côtés de la Horde.", "L'un d'eux découpe à présent la viande que le village vend aux voyageurs.", "Demandez-lui ce qu'il a sur son billot." }, hint = "Mur-de-Fougères : parlez au boucher ogre.", danger = "Calme", name = "JQYgVo/K", note = "JQYgVo/KM8)dhew7I4cJew[O_cj{R0/oBlpdAà:FfbR%4D2O,jèi\\f'39X\\693pkE2:x_2])3&RélEg#phJN4n&3#VPoJ>tW;MmK ?(NC%-233~X7TFLKm@+f*!n6o7^2U>)fs@SZ1&Iz6gycR8Z\\3~G(l7)a@h;8E%FrJ=$ L@#m%@QO/ls1?m=V~>cLZl2mS\"qW/?oui/x5c)cyâD)496.#6WT8JW", margin = "DVqWN|!X.}0~[hk'Z@cKetkOS*zvM0-&Noc~.W)1bR^*&NQk2ô>_v[Xx&ISo7G?$X'#:û8mévO6bw7W9`qE21uo0+_I:b{]\\BCmluW-XH\".,&Mc\\A9E8N]J5L1?PD{6GwhL~e~IU_1>", },
         ["dustwallow-marsh-theramore"] = { verse = { "Dans la tour de l'île des humains, une elfe de la nuit se tient à l'épaule de la Dame,", "une épée lumineuse à la main, et ne dit rien de la raison", "pour laquelle une elfe garde une archimage des humains. Rendez-lui les honneurs d'un soldat." }, hint = "L'île de Theramore, dans la tour, aux côtés de dame Jaina Proudmoore. Adressez un salut militaire à la garde elfe.", danger = "Calme", name = "t;-<h", note = "t;-<hg)5C'$f3vy_#nO3|nT+d&.:Pb;W$q(eR+>1g`I!9tbyk(/l5ikkD'y@irnVb:Xn frm3U[hNHQ7JU&vf.~{\\", margin = "iB03#Lj2I#kfF|u_3xE9;SK5gr\"^Jn.r h)SR4U iP2&AV }\"m3_[fo^m9O?k TqfA]nwjhqO_3JSQ3bGc(5k ~{<(5?v/.f.R%", },
       },
       quarry = { name = "Soufresang", verse = { "Au sud du marais, là où le vol draconique noir élève ses petits,", "cherchez un drake parmi les dragonnets.", "Trouvez-le sans vous mettre toute la couvée à dos." }, note = "jXy9w\\#Y,%yp&OU6Q]UQ}apx`#éL'`pM?,N0MY-ZKÂeWO2P_sn`", margin = "cNwRiip_-,\\V%TU7S{VQqre\"OnuF_\"Q+1@+C\"Wi|k7Hvè\\1nd{wGyc|!,,6;éb5CeujyKg0})s9C3{oHEmo^*%v%w/<7}^9H[Cr(+\\e_tV,~%H'4m4?]9T0êi9\"!wdTKWèAGp%|BN 6D", },
@@ -1238,11 +1243,13 @@ ns.translate({
     [1448] = {
       riddles = {
         ["felwood-morlos-aran"] = { verse = { "À la lisière sud du bois empoisonné, les pierres d'une ville elfe tiennent encore debout,", "et son nom finit comme ceux du rivage sombre et de la forêt du sud.", "Souvenez-vous des villes auxquelles son nom fait écho, et de ce qu'il est advenu de celle-ci." }, hint = "Morlos'Aran, à la lisière sud de Gangrebois. Au milieu des ruines, songez au sort de la ville.", danger = "Gardé (loups Gangrepatte, ours de la griffe colérique et chouettes Bec-de-fer, niveaux 47 et 48)", name = "E&u!c(Tlc9V", note = "E&u!c(Tlc9V.aS(J=4xtaI#+?^gcH8R&Eua`;;R:b`GhW.C42AkW,GUXDv=@*8Pe4@SQBu4g0zOlA=a%Qo[ P:@8RxG4!.'jlB/z]?__5|VBtiDM(mdà,N =isVJSY`)!PU1omyj<lili;4?Vw~[KBIe5][ismBM#)QP@>ozTéx):AicO", margin = "M%#xf*70VWLwa*fG2!y/RPéIZtVJ|A<OnieB-REhèhW.C(ERaR%CTf_S4Kl;Te43YX>k@}&v[eQ8ljT#h/VC+mHJMNy'l+^FN", },
+        ["felwood-talonbranch"] = { verse = { "Au bord de la forêt corrompue, trois maîtres de la nature se partagent une clairière :", "l'un pour les druides, l'un pour les chasseurs, l'un pour les bêtes que gardent les chasseurs.", "Le maître des chasseurs ne travaille jamais seul. Un grand félin se tient à ses côtés.", "Il a mérité la douceur que son maître apprend aux autres à montrer à leurs bêtes." }, hint = "La clairière de Griffebranche, près du maître des chasseurs : caressez le sabre-de-nuit à ses côtés.", danger = "Calme", name = "s\":l^w~up", note = "s\":l^w~up)jCjyO0CBSAryQ+))=!$E;TVT5\"r8T2B@Z3JG(=0jCg?#-NcQw_B7vKG}BsCK5dSeXq_LG;i^y)S|'lX~W$9#,BU3`]EA>x?iarUèhq_0-r4)1/JWTvp_;A5m\\OJFWA|&WDYuz&-eB@/w~;lte20%:S,}>).Aé9WqwQEo", margin = "lzPIilrytèIjy@4`v`}tz*~&!7dz5UGéE}y:^+(Lx5XQqM@j7î40FfotVR5XZPpR(G<5XL^ds_Y=>hx]}[y'CodS|<v(4U;\"#GC &Hk`oZré,P;=el#-<cVdyxU=L[mB<0LT@r8sQS&$9-e6^|`lIvk[@.1vS.: %zCUc?jd.C@NYUG8Lp+n+L_sUy9]$0*$qJ#1,&XkoICSD#$:`8U==%", },
       },
       quarry = { name = "Immolatus", verse = { "Dans le val balafré où le feu tomba jadis sur la forêt,", "un infernal brûle encore.", "Cherchez le démon nommé parmi les blessures de la forêt." }, note = "*S~%kk,/c1%X=E00WPdM-:Sé:\"vE{B/;au^eW<êEék", margin = "2[r$c*$~okjXN2,Ab`[S@3_UhT}uT{B~;wuqVy/J`>\\1S)TH0`^p'%V4gU3<#L5#3/3[(Nut%KD=m!d'U]hE?2i'e8(]\\PwED9`SjA_.F5KB8't 5CgjuS)oyQ#)7RsJK9N$;0)^MN>q", },
     },
     [1449] = {
       riddles = {
+        ["ungoro-crater-lakkari"] = { verse = { "Au sud du refuge des explorateurs, le fond du cratère se change en lacs noirs", "qui gardent tout ce qui y entre.", "Les os de centaines de bêtes en percent encore la surface,", "et ce qui en sort est goudron lui aussi. Allez voir ce que le goudron a gardé." }, hint = "Les fosses de goudron de Lakkari, juste au sud du refuge des Marshal : contemplez le goudron depuis la rive.", danger = "Périlleux (élémentaires de goudron, jusqu'au niveau 54)", name = "$@ NAjwh<<*4=cL8tSn}$\\+j:Os6", note = "*6 ZBfkw<0B)-~A8{8|(r0.dN:b8j{2a{(3G$~3=$}&NJGE|%C~>`]0vp?+e/Fyév|wKeQ<`f+Eè^F%B>vg,d/k7UfR,3(RwcX3qPfFz6T.+|'JIF3q|Rig!j+}[)_bbRhpêitSH#h:l72@|\\BD[Y->)C}OoLT,@fFf hnaV2.écé 0}@hxJxxD~gBT&+u.fdE<4/pGfjDU~8Z6n[\"Qt", margin = "*6 Z?_YvF$1&:cMHiCx'ey=r4\\uL`03kem H2+y@6.wBsan\")M{@eT~lfD-e=GlT6k/.:UR+jf,Q5XcF65.w\\)_}(3JiO$$yKjIl/,Rd@k9*w-7&0J4';", },
         ["ungoro-crater-simone"] = { verse = { "Près des sources chaudes à l'ouest du cratère, une trolle se promène avec son loup", "et trouve tout ravissant : la vapeur, les fougères, les bêtes qui voudraient la manger.", "Soyez agréable avec elle, et seulement agréable." }, hint = "Les sources de Golakka, à l'ouest d'Un'Goro. Elle marche vers le sud depuis là, puis revient. Faites un signe de la main à la trolle quand elle passe.", danger = "Mortel si on la provoque (elle répond à un coup par des coups qui abattent un héros), calme sinon", name = "la9T~Dwi$v'4~4eèrb", note = "la9T~Dwi$v'4~4eèrb]M\"J'k$2c]'7VRS7[Yj},'%ZF\\\"<R?-5KwFbI/Kd:kw/éIF|G`-Xê4A%kKygr`F}ET<PR}|x?hP5cup?cfé|;>3V2bsA[0o]hUOrGhl]j\\%|2tg;N)uoQ}i", margin = "^d8J0Q~b6kb;lDrr*}nGT&@.m$`[exîG_alFc\"6ym\":N6<_F@CA(`b>I<c>jj@tYY5,9]}XRw#8%ZewI{ZPl36d_Xyx(D\\SIW3wCm`mX|..I*%`m<=JmJx3é ^bbnFdz\\'soR;  yS]`[<#KUicj\\Y'pm8aCD;^-cm~*6xS`{L$_'#9pF>W2\\1éln8W@iJ>S~<tX~KbO3$<k$o9N%?'@I}5ugg ét\"UnN$55]@ZcO-", },
       },
       quarry = { name = "Roi Mosh", verse = { "Entre la rivière et les grands lacs du nord-ouest du cratère,", "marche le roi des diablosaures.", "Le cratère tremble pour lui." }, note = "h!ZAEein70;z/MD3~EaQ0^,Z+?6Aé+èrE0lqzF98Xgm;,mk&78flnK| f=w,x{4RgsG$duH", margin = "`!NN9nâ6\"FntU^woFwN(n,Z0JzCNp l; EVl$!NCàsxL~{_'0-abhfTup;i7j-4lglt'a{1+5=0\"HmvHe", },
@@ -1265,6 +1272,7 @@ ns.translate({
     [1452] = {
       riddles = {
         ["winterspring-farflinger"] = { verse = { "Dans la ville gobeline au milieu de la neige, un ingénieur a terminé une machine", "et attend que quelqu'un d'autre l'essaie.", "Trouvez l'inventeur dont le titre vous donne une raison d'hésiter." }, hint = "Long-guet. Parlez à l'ingénieur. Essayer sa machine est une autre affaire.", danger = "Calme", name = "B|]^xe\"JGm|a+;", note = "B|]^xe\"JGm|a+;L;=fgéU\"aI![véyé'K^R+wJéu<L+Uxk~(]Q5Z53X?WUF`Zun~/%X]4J@Lé;wYv[IUl:InqHCpé\"O==CF,\"jbX2Ar~Jtz+LH~B+:i6MY5`NPO+@mé)I1;|\"XffydO{\\qgb_Y>gOH{à<U)auB61U-0", margin = "1(l@Ct\"IIh.[;A@%B_éVP}qF\"[ynTkKw$ItI*zN9&V+éZxàFU33g~0[C[aBVgEé$yMm;;SR<M.4Nr[IU|>9l~;0}rF'YG0])2}YOQ}_~/G\"n']6r6!@r:e`JVVZJ'6o&fGI3H/,M!Zé?q^yié\"HdVTné-x(W.'D!o%c 6WeWnx]36`_aKA)+è(UKcw`(é>UG*)SI", },
+        ["winterspring-kel-theril"] = { verse = { "Au bord d'un lac du nord, une cité elfique se dressait avant que le monde ne soit brisé.", "La Fracture la laissa en ruines, et l'hiver vint ensuite.", "Son peuple ne l'a jamais quittée. Il y erre encore, et il n'est pas en paix.", "On lui doit un moment de recueillement." }, hint = "Les ruines de Kel'Theril, au bord du lac : pleurez les morts de la cité.", danger = "Périlleux (les esprits tourmentés des Bien-nés, jusqu'au niveau 56, et pour la Horde la Bien-née pénitente)", name = ";y,<m\\,zj^Ods7ZIG0XR8bAW", note = ";y,<m\\,zj^Ods7ZIG0XR8bAW1o2eB\";T=éqT7l-07H%ouéDwl9Co1Wjs&WqNKxbMVbQér*,MFiwKY3,JFPPhp}>x5(iJ[rtB}:'V9e~\"CI*h>G>19:qiG}Cb}R\"é+>&ai)Qdu,\\+6é:1H94tXg($4Stzvp0?IaTc(GPQé]wP-\"d% y5é/Z?0TpReQkA2[4Q*rUCGU}", margin = ";y,<=P(z2Yé\"7éOjmOAdWWjc<eLdDP<7bWo>Z-`3L%H'_HD`h?>8=$k$xj}0Dl^X4P]Q&b|%X7$YS^*+,aW2{[ém=)sd=?fF):vc89mB]Bo#8F:,*FWiWu6cycà\\$s&;vv57\"9S}9R}FsG32oqa,+2_e(qa6?UE{néQ", },
       },
       quarry = { name = "Rak'shiri", verse = { "Sous le roc des Sabres-de-Givre, la robe d'un sabre met un peu de couleur dans la neige :", "turquoise sous les rayures, parmi le blanc et le lavande de ses voisins.", "Fouillez les pentes et le terrain au bord du lac gelé." }, note = "H6/$zy6dnXq]Gh/%.Gw$àssXq/bGt.miv+x^I.}$jvVV:1'WS47%skw[#!naf*&n'è[?(a9PsB5aO^%nI_yeZUNa$-6nl\"=", margin = "KCCpl'9qfBfZ>h\"éA{r1,cykW<_F/!hVi9wdR,.sot<4n>vZkK\\0#@xb", },
     },
@@ -1403,11 +1411,13 @@ ns.names({
     ["duskwood-callahan"] = "ZU!wc5^/-CX#Ps1p",
     ["duskwood-darkshire"] = "3hWhQ21DLaA`'0%F)?",
     ["duskwood-twilight-grove"] = "o4dvS3~F2S`lnéY(xo!V)",
+    ["dustwallow-marsh-brackenwall"] = "JQYgVo/K",
     ["dustwallow-marsh-theramore"] = "t;-<h",
     ["eastern-plaguelands-adon"] = "QwK]",
     ["eastern-plaguelands-mirador"] = "'$6N_ 9",
     ["elwynn-forest-heroes-vigil"] = "q c|dé _tg%Dzé1Lg",
     ["felwood-morlos-aran"] = "E&u!c(Tlc9V",
+    ["felwood-talonbranch"] = "s\":l^w~up",
     ["feralas-feathermoon"] = "dW{\\[s\\z.\\([v;HMNTTUm#GS&}az/$>\"!'V",
     ["feralas-the-maul"] = ";\"fb@k&1hI",
     ["hillsbrad-foothills-gryphons"] = "JyEiU-R|$",
@@ -1435,6 +1445,7 @@ ns.names({
     ["silithus-glibb"] = "tag7p",
     ["silithus-raloshan"] = "\\Bo;~@:7t(^G]<8R.i#s' O éEZ;F]]dV",
     ["silithus-scarab-wall"] = "rJxfm+;J|asx&P{|é6",
+    ["silverpine-forest-sepulcher"] = "}mPMNn\\TX:|",
     ["silverpine-forest-wallace"] = "ofXWmiGzo9amsW^67",
     ["stonetalon-mountains-sun-rock"] = "[=`r?$",
     ["stormwind-city-faol-plaque"] = "Rgys)hêLS>WDif]};mn';|t",
@@ -1443,6 +1454,7 @@ ns.names({
     ["stranglethorn-vale-booty-bay"] = "\"];]/mèZ\\.)x0tCéxMLI=<_âP&+",
     ["stranglethorn-vale-emperors-tomb"] = "t;BH<>B4+9b,GHwE:mDHWv",
     ["stranglethorn-vale-gromgol"] = "9.:z8?L",
+    ["swamp-of-sorrows-pool-of-tears"] = "7U uywK;?0*!zA)F'",
     ["swamp-of-sorrows-stonard"] = "}f0lk3^Nbmj.8R35'",
     ["tanaris-gadgetzan"] = "?1Zq|&z9CTIHOiNxRBP[[?N\":k[)Y{,..uZJr/`?a-O8.h",
     ["tanaris-winkey"] = "Ku?sIb",
@@ -1458,6 +1470,7 @@ ns.names({
     ["the-hinterlands-plaguemist"] = ":r{&.#*by7(.e~;`eOg",
     ["the-hinterlands-revantusk"] = "<1x6H+X5^%aG!q4[x",
     ["the-hinterlands-seradane"] = "wS$hd[eX",
+    ["thousand-needles-freewind"] = "m$fFc",
     ["thousand-needles-raceway"] = "[R{eV",
     ["thunder-bluff-nibbles"] = "~H[l(o\"Q",
     ["thunder-bluff-white-stag"] = "gi=,AScLnE,hOGi~'3)o%MKv",
@@ -1470,14 +1483,17 @@ ns.names({
     ["undercity-kelthuzad-book"] = ",oc3|zcN+B,v7c}#SJèM5e\"uzUd5An~ézK",
     ["undercity-terenas"] = "gS[4î$q&7Cx]J*y)V'e'Qu1p\\|3Gj\\PW@",
     ["undercity-theresa"] = "e^sl<Y8",
+    ["ungoro-crater-lakkari"] = "$@ NAjwh<<*4=cL8tSn}$\\+j:Os6",
     ["ungoro-crater-simone"] = "la9T~Dwi$v'4~4eèrb",
     ["western-plaguelands-chillwind"] = "cT{Aa1rl8G|jY>A*",
+    ["western-plaguelands-uther"] = "A,bDGz_f*=X9h=Bj_*fsS8su*èU$",
     ["westfall-aegwynn"] = "Ml{(3yt6X_5AN5g$g;36a[}b#ijd@5",
     ["westfall-dead-acre"] = "!#;k}A)\"0wd",
     ["wetlands-menethil"] = "QK1O_-ONF~#F()T-s\\JP.UwG%",
     ["wetlands-sundown-marsh"] = "B<M8Oj9-0}S\"X+!",
     ["wetlands-terl"] = "K\\6L 1QS1+x",
     ["winterspring-farflinger"] = "B|]^xe\"JGm|a+;",
+    ["winterspring-kel-theril"] = ";y,<m\\,zj^Ods7ZIG0XR8bAW",
     ["zephras-isle-swimmers"] = "=Owc'i*d« @1um[_N J »I.8iné!QA:b",
     ["zephras-isle-zendraas"] = "~[è`C8a1?]>{xA",
   },

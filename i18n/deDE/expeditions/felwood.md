@@ -1,5 +1,5 @@
 ---
-source: 96f00c95346c
+source: 42ba33c06017
 zone: 1448
 ---
 ## felwood-morlos-aran
@@ -11,6 +11,16 @@ Erinnere dich an die Städte, deren Namen sie anklingen lässt, und daran, was a
 + Ein Druide des Smaragdkreises hält bei den Ruinen Wache. Der Wald um ihn herum ist noch immer krank.
 ! Bewacht (Teufelspfotenwölfe, Wutklauenbären und Eisenschnabeleulen, Stufe 47 und 48)
 @ Morlos'Aran
+
+## felwood-talonbranch
+Am Rand des verderbten Waldes halten drei Lehrer der Wildnis gemeinsam eine Lichtung:
+einer für Druiden, einer für Jäger, einer für die Tiere der Jäger.
+Der Lehrer der Jäger arbeitet nie allein. Eine große Katze bleibt an seiner Seite.
+Sie hat die Freundlichkeit verdient, die er andere lehrt, ihren eigenen Tieren zu erweisen.
+? Die Nachtlaublichtung, beim Jägerlehrer: Streichle den Nachtsäbler an seiner Seite.
+= Shi'alune, der Nachtsäbler, den Kaerbrus als eigenen Begleiter hält, während er die Jäger der Nachtlaublichtung ausbildet, die er im Zirkel des Cenarius willkommen heißt.
++ Die Nachtlaublichtung vereint alle drei Lehrer der Wildnis in einem Lager: Golhine der Kapuzenträger für die Druiden, Kaerbrus für die Jäger und Nalesette Wildbringer für die Tiere der Jäger.
+! Ruhig
 
 ## quarry
 Im vernarbten Tal, wo einst Feuer auf den Wald fiel,

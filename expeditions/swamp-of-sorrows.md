@@ -14,6 +14,15 @@ riddles:
     hint_area: { x: 51.2, y: 53.2, r: 8 }
     danger: "Quiet"
     sources: "object 175752's text"
+  - id: swamp-of-sorrows-pool-of-tears
+    tier: off
+    gestures: [PEER, LOOK, GAZE]
+    area: Pool of Tears   # placed: the client's overlay
+    hint_area: { x: 70.0, y: 51.5, r: 9 }
+    danger: "Guarded (dragonkin and sawfin frenzies, to level 45)"
+    quest_overlap: [1424, 1475]
+    quest_context: "Pool of Tears and Into The Temple of Atal'Hakkar ask for artifacts and tablets from the temple's stones around the lake. Yonder asks only a look into the water, with no item and no quest."
+    sources: "warcraft.wiki.gg's Temple of Atal'Hakkar page (the Atal'ai's temple for Hakkar's return, Ysera smashing it beneath the marshes, her dragons guarding the ruins, the sinking leaving the rituals undisturbed); the client's AreaTable and overlay"
 quarry:
   id: 14445   # Lord Captain Wyrmak
   sources: "the WoWWiki archive's Lord Captain Wyrmak and Sorrowmurk pages (the dragonspawn, the acid breath); the dump's path"
@@ -25,6 +34,15 @@ The story did not end as he intended.
 ? Stonard. Read the account of the Horde's new beginning. The name belongs to its story.
 = The New Horde, in Stonard: Aedelas Blackmoore and the orphan he called Thrall.
 + Doomhammer fell freeing one of the camps. Thrall took up his warhammer and his black plate, and became warchief of the Horde.
+
+## swamp-of-sorrows-pool-of-tears
+In the east of the swamp, trolls who served a blood god raised him a temple,
+and a dragon who dreams, learning whom they meant to call back, broke it beneath the marsh.
+A lake has lain over it ever since,
+and it keeps what it covers from all but the most attentive eye.
+? The Pool of Tears, in the east of the swamp: peer into the lake.
+= The Pool of Tears, over the sunken Temple of Atal'Hakkar. The Atal'ai trolls built the temple for the return of Hakkar the Soulflayer, and Ysera, learning of their plans, smashed it beneath the marshes. Her green dragons keep watch over the ruins.
++ The sinking did not end the rituals. Under the water, the Atal'ai went on with them undisturbed.
 
 ## quarry
 East of the sunken temple, dragonspawn hold the Sorrowmurk,
