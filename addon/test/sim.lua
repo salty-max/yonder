@@ -2092,22 +2092,22 @@ state.mouseover, state.target = nil, 1352
 DoEmote("SOOTHE")
 state.target = nil
 check(solvedRiddle("dun-morogh-fluffy"), "Fluffy, the rabbit Yarlyn chases round the ranch: calmed where it ran")
--- A place found by arriving: the Emperor's Tomb at Zul'Kunda, never from a
--- taxi flying over it; and, made a riddle of the night here (none of the
--- book's is one now), answering only after dark.
-local tomb = ns.riddleById["stranglethorn-vale-emperors-tomb"]
-at(1434, 0.247, 0.0893)
+-- A place found by arriving: the Badlands' hidden crypt, never from a taxi
+-- flying over it; and, made a riddle of the night here (none of the book's
+-- is one now), answering only after dark.
+local crypt = ns.riddleById["badlands-hidden-crypt"]
+at(1418, 0.5725, 0.4003)
 state.taxi = true
 ns.expeditionAttempt()
-check(not solvedRiddle(tomb.id), "a place flown over on a taxi: nothing")
+check(not solvedRiddle(crypt.id), "a place flown over on a taxi: nothing")
 state.taxi = false
-tomb.night, state.hour = true, 12
+crypt.night, state.hour = true, 12
 ns.expeditionAttempt()
-check(not solvedRiddle(tomb.id), "a night's riddle by day: nothing")
+check(not solvedRiddle(crypt.id), "a night's riddle by day: nothing")
 state.hour = 22
 ns.expeditionAttempt()
-check(solvedRiddle(tomb.id), "… by night, by being there: solved")
-tomb.night, state.hour = nil, 12
+check(solvedRiddle(crypt.id), "… by night, by being there: solved")
+crypt.night, state.hour = nil, 12
 -- Forever's own isle (Data_Forever alone): Zephras Isle's riddles and its
 -- quarry, a creature the data doesn't know; the children in the tree, looked
 -- at with them.
@@ -2366,7 +2366,7 @@ check(
 )
 YonderFrame:Hide()
 SlashCmdList.YONDER("where")
-check(said("(map 1434): 24.70, 8.93."), "/yonder where tells the map and the position")
+check(said("(map 1418): 57.25, 40.03."), "/yonder where tells the map and the position")
 check(
   said("  hint circles: ") and said(" when last drawn, minimap: "),
   "… and the maps' circles: this zone's, the world map's last drawing, the minimap's"

@@ -1,5 +1,5 @@
 ---
-source: 5e5ef1141058
+source: a551a3583807
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -25,8 +25,8 @@ Erwisch den Händler auf der Straße.
 Südlich des Hafens der Goblins steigen große Stufen aus uraltem Stein aus dem Meer,
 oder hinab hinein: Die Wellen bedecken alle bis auf die höchsten.
 Zwei Tauren angeln von ihnen aus, als wäre nichts Seltsames daran.
-Setz deinen Fuß auf die Treppe.
-? Südöstlich von Ratchet, an der Küste.
+Stell dich auf die Treppe und versuche zu sehen, wohin sie führt.
+? Südöstlich von Ratchet, an der Küste. Späh von der Treppe hinab ins Wasser.
 = Die Tidusstaffel: eine Riesentreppe aus uraltem Stein, vom Strand hinab unter die Wellen.
 + Manche sagen, sie führe hinab zu einer Stadt der Kaldorei, die das Meer nahm, als der Brunnen der Ewigkeit zerstört wurde. Wer so tief tauchte, wie er konnte, fand nur weitere Stufen.
 ! Ruhig auf den Stufen, tiefes Wasser darunter

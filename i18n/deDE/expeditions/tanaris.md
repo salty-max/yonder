@@ -1,5 +1,5 @@
 ---
-source: f97aecb61964
+source: 57027b7100cd
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -9,7 +9,7 @@ Die Stadt bewahrt den Bericht unter ihren Büchern.
 ? Gadgetzan. Lies den Bericht über die Tochter und den Krieg ihres Vaters.
 = Alter Hass - Die Kolonialisierung von Kalimdor, in Gadgetzan: Durotar, nach Thralls Vater benannt, und Jaina Proudmoore gegen ihren Vater, den Großadmiral.
 + Er starb, bevor sie sich mit ihm versöhnen konnte. Für ihre Treue ließen die Orcs ihre Streitkräfte in Frieden nach Theramore heimkehren.
-! Ruhig
+! Bewacht für die Horde (Bera Stonehammer, die Greifenmeisterin der Allianz, Stufe 55, steht ganz in der Nähe), ruhig für die Allianz
 
 ## tanaris-zalashji
 Östlich der Stadt der Goblins hat ein Naga einen Bau in den Felsen

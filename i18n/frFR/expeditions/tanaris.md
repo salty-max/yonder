@@ -1,5 +1,5 @@
 ---
-source: f97aecb61964
+source: 57027b7100cd
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -9,7 +9,7 @@ La ville en garde le récit parmi ses livres.
 ? Gadgetzan. Lisez le récit de la fille et de la guerre menée par son père.
 = Anciennes haines - La colonisation de Kalimdor, à Gadgetzan : Durotar, nommé d'après le père de Thrall, et Jaina Proudmoore contre son père, le grand amiral.
 + Il mourut avant qu'elle ne puisse se réconcilier avec lui. "En remerciement de sa loyauté, les orcs permirent à Jaina et à ses forces de revenir en toute sécurité à Theramore."
-! Calme
+! Gardé pour la Horde (Bera Stonehammer, maîtresse des gryphons de l'Alliance, niveau 55, se tient tout près), calme pour l'Alliance
 
 ## tanaris-zalashji
 À l'est de la ville des gobelins, un naga tient une tanière dans les rochers,

@@ -1,5 +1,5 @@
 ---
-source: 28e62b1a89ca
+source: e3247e4647b1
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -14,8 +14,8 @@ cuando ya no pudieron pagar lo que exigía.
 ## stranglethorn-vale-emperors-tomb
 En las ruinas del noroeste del imperio trol que dominó el sur
 antes de los reinos humanos, una tumba es todo lo que queda
-de uno de sus emperadores. Encuéntrala.
-? Las Ruinas de Zul'Kunda, en el noroeste de Vega de Tuercespina.
+de uno de sus emperadores. Encuéntrala y ríndele el homenaje que le debían sus súbditos.
+? Las Ruinas de Zul'Kunda, en el noroeste de Vega de Tuercespina. Inclínate ante la tumba.
 = La Tumba del Emperador, en Zul'Kunda.
 + El imperio Gurubashi se extendió por todo el sur. Sus descendientes ocupan ahora las ruinas y Hakkar ha vuelto a Zul'Gurub.
 ! Peligroso (los Cabellesangre)

@@ -24,10 +24,13 @@ riddles:
     sources: "the dump's spawn, path and wares; the WoWWiki archive's Lizzarik page (his road, Jorb)"
   - id: the-barrens-tidus-stair
     tier: off
+    gestures: [PEER, LOOK, GAZE]
     area: The Tidus Stair   # placed: Mahren Skyseer, who fishes on it (creature 3388), dump 65.8, 43.9
     anchor: { creature: 3388 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 65.0, y: 45.0, r: 4 }
     danger: "Quiet on the stairs, deep water below"
+    quest_overlap: [873, 874, 887, 888, 895, 1963, 2381, 92706, 97253]
+    quest_context: "Mahren Skyseer, who fishes from the stair, gives Isha Awak and ends Mahren Skyseer. The pirate camp and the coast at its foot are the errand of Southsea Freebooters, Stolen Booty, WANTED: Baron Longshore, The Shattered Hand, Plundering the Plunderers, and Forever's WANTED: Bruuz and Parts and Pieces. Yonder asks only a look down where the stair goes, with no kill and no quest."
     sources: "Warcraft: The Roleplaying Game, p. 192 (the stairs beneath the waves, the legend, the divers); the client's AreaTable"
   - id: the-barrens-pooka
     tier: off
@@ -72,8 +75,8 @@ Catch the peddler on the road.
 South of the goblins' port, great steps of ancient stone come up out of the sea,
 or go down into it: the waves cover all but the highest of them.
 Two tauren fish from them, as if nothing were strange about it.
-Set foot on the stair.
-? South-east of Ratchet, on the coast.
+Stand on the stair, and try to see where it leads.
+? South-east of Ratchet, on the coast. From the stair, peer down into the water.
 = The Tidus Stair: a giant's stairway of ancient stone, from the beach down beneath the waves.
 + Some say it goes down to a kaldorei city the sea took when the Well of Eternity was destroyed. Those who have dived as deep as they could found only more stairs.
 

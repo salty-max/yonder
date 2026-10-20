@@ -1,5 +1,5 @@
 ---
-source: 28e62b1a89ca
+source: e3247e4647b1
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -14,8 +14,8 @@ quand ils ne purent plus payer ce qu'il exigeait.
 ## stranglethorn-vale-emperors-tomb
 Dans les ruines du nord-ouest de l'empire troll qui régnait sur le sud
 avant qu'il y ait des royaumes humains, une tombe est tout ce qui reste
-de l'un de ses empereurs. Trouvez-la.
-? Les ruines de Zul'Kunda, au nord-ouest de Strangleronce.
+de l'un de ses empereurs. Trouvez-la, et rendez-lui l'hommage que lui devaient ses sujets.
+? Les ruines de Zul'Kunda, au nord-ouest de Strangleronce. Inclinez-vous devant la tombe.
 = La tombe de l'empereur, à Zul'Kunda.
 + L'empire gurubashi s'étendait jadis sur tout le sud. Ses descendants en tiennent aujourd'hui les ruines, et Hakkar est de retour à Zul'Gurub.
 ! Périlleux (les Bloodscalp)

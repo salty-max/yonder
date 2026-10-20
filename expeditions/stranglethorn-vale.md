@@ -17,9 +17,12 @@ riddles:
     sources: "object 175856's text"
   - id: stranglethorn-vale-emperors-tomb
     tier: hidden
+    gestures: [BOW, KNEEL]
     object: 54   # dump 24.7, 8.9; Wowhead 24.7, 9.0
     hint_area: { x: 26.6, y: 12.4, r: 8 }
     danger: "Perilous (the Bloodscalp)"
+    quest_overlap: [207]
+    quest_context: "Kurzen's Mystery takes the Fourth Troll Legend from the tomb. Yonder asks only a bow to the emperor, with no item and no quest."
     sources: "object 54 (its name); the Codex's gurubashi-empire and zulgurub pages"
   - id: stranglethorn-vale-gromgol
     tier: town
@@ -44,8 +47,8 @@ when they could no longer pay what he demanded.
 ## stranglethorn-vale-emperors-tomb
 In the north-western ruins of the troll empire that ruled the south
 before there were kingdoms of men, a tomb is all that is left
-of one of its emperors. Find it.
-? The Ruins of Zul'Kunda, in Stranglethorn's north-west.
+of one of its emperors. Find it, and pay him the homage his subjects once owed.
+? The Ruins of Zul'Kunda, in Stranglethorn's north-west. Bow before the tomb.
 = The Emperor's Tomb, at Zul'Kunda.
 + The Gurubashi empire once stretched across the south. Its descendants hold its ruins now, and Hakkar is back in Zul'Gurub.
 

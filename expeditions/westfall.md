@@ -8,6 +8,7 @@ client: both
 riddles:
   - id: westfall-aegwynn
     tier: near
+    faction: alliance   # Salma Saldean (235), level 20, stands by the shelf and attacks the Horde: the Alliance's riddle (the user's call, 20 Oct 2026)
     reading: Aegwynn and the Dragon Hunt
     object: 175738   # dump 56.5, 30.2; Wowhead 56.4, 30.2
     hint_area: { x: 60.1, y: 31.9, r: 8 }

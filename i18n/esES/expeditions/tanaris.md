@@ -1,5 +1,5 @@
 ---
-source: f97aecb61964
+source: 57027b7100cd
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -9,7 +9,7 @@ El pueblo guarda el relato entre sus libros.
 ? Gadgetzan. Lee el relato de la hija y la guerra de su padre.
 = Antiguas rencillas: la colonización de Kalimdor, en Gadgetzan: Durotar, llamado así por el padre de Thrall, y Jaina Valiente contra su padre, el gran almirante.
 + Él murió antes de que ella pudiera reconciliarse con él. Por su lealtad, los orcos dejaron que sus fuerzas volvieran en paz a Isla de Theramore.
-! Tranquilo
+! Vigilado para la Horda (Bera Rocamartillo, maestra de grifos de la Alianza, de nivel 55, está muy cerca), tranquilo para la Alianza
 
 ## tanaris-zalashji
 Al este del pueblo goblin, un naga tiene una guarida entre las rocas

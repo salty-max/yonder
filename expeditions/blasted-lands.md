@@ -17,9 +17,12 @@ riddles:
     sources: "object 21582's text (Beyond the Dark Portal); the Codex's the-dark-portal page"
   - id: blasted-lands-tainted-scar
     tier: hidden
+    gestures: [GAZE, LOOK, PEER]
     area: The Tainted Scar   # placed: the client's overlay: 37.9, 62.5, half-size 11.5 by 18.3
     hint_area: { x: 40.0, y: 60.0, r: 16 }
     danger: "Perilous (Lord Kazzak and his felguard)"
+    quest_overlap: [2681, 7583, 8423]
+    quest_context: "Suppression sends players into the Scar to bind a Doomguard Commander, The Stones That Bind Us frees a Servant of Sevine there, and Warrior Kinship hunts its Helboar. Yonder asks only a long look over Kazzak's ground from its edge, with no kill and no quest."
     sources: "the Codex's lord-kazzak page; the Lord Kazzak (tactics) pages of Warcraft Wiki and Wowpedia (Capture Soul, his supreme fury)"
   - id: blasted-lands-nethergarde
     tier: town
@@ -46,8 +49,8 @@ and nobody knows whether they came home. Honour them as soldiers honour their ow
 In the south-west of the waste, a great demon who stayed behind
 holds a scar in the land with his host,
 and every life lost near him gives him back his own.
-Find his ground, and do not linger.
-? The Tainted Scar, in the Blasted Lands' south-west.
+Take in his ground from its edge, and do not linger.
+? The Tainted Scar, in the Blasted Lands' south-west: step just inside its edge and gaze over it.
 = The Tainted Scar, Lord Kazzak's ground.
 + Each death near him heals him for seventy thousand. And if he still stands three minutes after the first blow, his fury leaves no one standing.
 

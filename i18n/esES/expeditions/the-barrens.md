@@ -1,5 +1,5 @@
 ---
-source: 5e5ef1141058
+source: a551a3583807
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -25,9 +25,9 @@ Encuentra al vendedor en el camino.
 Al sur del puerto goblin, grandes escalones de piedra antigua salen del mar,
 o se hunden en él: las olas cubren todos salvo los más altos.
 Dos tauren pescan desde ellos como si no hubiera nada extraño.
-Pon el pie en la escalera.
-? Al sureste de Trinquete, en la costa.
-= Lal Escalón de la Marea: una escalera de gigantes de piedra antigua, desde la playa hasta debajo de las olas.
+Ponte en la escalera e intenta ver adónde lleva.
+? Al sureste de Trinquete, en la costa. Desde la escalera, escudriña el agua.
+= El Escalón de la Marea: una escalera de gigantes de piedra antigua, desde la playa hasta debajo de las olas.
 + Algunos dicen que baja a una ciudad kaldorei que el mar se llevó cuando se destruyó el Pozo de la Eternidad. Quienes han buceado cuanto podían solo han encontrado más escalones.
 ! Tranquilo en la escalera, agua profunda debajo
 

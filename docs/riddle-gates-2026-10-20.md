@@ -42,50 +42,30 @@ template in the data nor Questie's friendly sides, so the keepers check
 can't judge them. No source we have gives them (the 736 Questie does give
 are judged). Zephras Isle's people are all friendly to both, or unknown.
 
-## Waiting on you (5)
+## Settled with the user (5)
 
-The resolver still fails on these, so `data/expeditions.json` can't be
-rebuilt until they're settled. Nothing is pushed, and the checks shouldn't
-be until these are answered: the daily game-data job runs the resolver
-under `set -e`, so every generator after it would stop.
+These five failed the first run, and the user chose on 20 October 2026:
 
-1. **blasted-lands-tainted-scar.** An arrival ("Find his ground, and do not
-   linger"), and Suppression (7583) sends players into the Scar to bind a
-   Doomguard Commander. The Stones That Bind Us (2681) frees a servant
-   there, and Warrior Kinship (8423) hunts its Helboar. Doing the quest
-   solves the riddle in passing.
-   *Recommendation:* make it a look at the scar from its edge (LOOK, GAZE,
-   PEER: "look upon his ground, and do not linger"), new verse and hint in
-   four languages, then the overlap [2681, 7583, 8423] with a context.
-2. **stranglethorn-vale-emperors-tomb.** An arrival ("Find it"), and the
-   tomb itself (object 54) is the chest of Kurzen's Mystery (207): the
-   Fourth Troll Legend drops from it. Every Alliance player on that quest
-   solves the riddle.
-   *Recommendation:* a gesture of respect at the tomb (BOW, KNEEL), and the
-   overlap [207]: "Kurzen's Mystery takes the fourth troll legend from the
-   tomb. Yonder asks only a bow to the emperor, with no quest."
-3. **the-barrens-tidus-stair.** An arrival ("Set foot on the stair")
-   anchored on Mahren Skyseer, who gives and ends Isha Awak (873) and is
-   the destination of Mahren Skyseer (874, "Speak with Mahren Skyseer").
-   The Merchant Coast's pirate quests (887, 888, 895, 1963, 2381, and
-   Forever's 92706 and 97253) fall inside its 405-yard circle too.
-   *Recommendation:* a gesture on the stair (PEER or LOOK down where it goes
-   under the sea, as the margin's drowned city invites), then the overlap
-   with a context. A smaller hint circle doesn't help: at r 2, Southsea
-   Freebooters (17 of the 24 brigands) and Plundering the Plunderers are
-   still there. The pirates camp at the stair's foot.
-4. **tanaris-gadgetzan.** Bera Stonehammer (7823), the Alliance's gryphon
-   master, stands within 10 yards of the book, and her faction attacks the
-   Horde. The data can't say whether she pulls (her flags are PvP and immune
-   to NPCs, nothing on aggression).
-   *Recommendation:* name her in the danger line, in four languages, e.g.
-   "Quiet, but for the Horde, Bera Stonehammer, the Alliance's gryphon
-   master, stands close". Worth a look with a Horde character either way.
-5. **westfall-aegwynn.** Salma Saldean (235, level 20) stands by the shelf
-   at Saldean's Farm and attacks the Horde.
-   *Recommendation:* the danger line, in four languages: "Quiet for the
-   Alliance. For the Horde, the Saldeans defend their farm". `faction:
-   alliance` would take a book from Horde readers for one farmer.
+1. **blasted-lands-tainted-scar**: an arrival that Suppression (7583) solved
+   in passing. Now a long look over Kazzak's ground from just inside its
+   edge (GAZE, LOOK, PEER), with the overlap [2681, 7583, 8423].
+2. **stranglethorn-vale-emperors-tomb**: an arrival at Kurzen's Mystery's
+   own chest (207). Now a bow at the tomb (BOW, KNEEL), with the overlap
+   [207]. The sim's arrival test moved to the Badlands' hidden crypt.
+3. **the-barrens-tidus-stair**: an arrival on Mahren Skyseer, the
+   destination of his own quest (874). Now a look down where the stair goes
+   (PEER, LOOK, GAZE), with all nine quests in the overlap. A narrower hint
+   wouldn't have helped: the pirates camp at the stair's foot.
+4. **tanaris-gadgetzan**: Bera Stonehammer (7823), the Alliance's gryphon
+   master, stands by the book. Her danger line names her in all four
+   languages ("Guarded for the Horde (Bera Stonehammer...), quiet for the
+   Alliance"). Whether she actually pulls is still worth a look in game.
+5. **westfall-aegwynn**: Salma Saldean (235) stands by the shelf at
+   Saldean's Farm. Now the Alliance's riddle (`faction: alliance`).
+
+Verses and hints changed in English, French, German and Spanish, each
+translation restamped (the Spanish Tidus Stair note also lost a typo,
+"Lal Escalon").
 
 ## Drafted for your review (26)
 

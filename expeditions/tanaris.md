@@ -11,7 +11,7 @@ riddles:
     reading: Old Hatreds - The Colonization of Kalimdor
     object: 175763   # dump 51.0, 29.4, in Gadgetzan
     hint_area: { x: 51.5, y: 28.5, r: 3 }
-    danger: "Quiet"
+    danger: "Guarded for the Horde (Bera Stonehammer, the Alliance's gryphon master, level 55, stands close), quiet for the Alliance"
     sources: "object 175763's text"
   - id: tanaris-zalashji
     tier: off

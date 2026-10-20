@@ -1,5 +1,5 @@
 ---
-source: 5e5ef1141058
+source: a551a3583807
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -25,8 +25,8 @@ Attrapez le colporteur sur la route.
 Au sud du port des gobelins, de grandes marches de pierre ancienne sortent de la mer,
 ou y descendent : les vagues les couvrent toutes sauf les plus hautes.
 Deux taurens y pêchent, comme si cela n'avait rien d'étrange.
-Posez le pied sur l'escalier.
-? Au sud-est de Cabestan, sur la côte.
+Tenez-vous sur l'escalier, et tâchez de voir où il mène.
+? Au sud-est de Cabestan, sur la côte. Depuis l'escalier, scrutez l'eau en contrebas.
 = L'Escalier des marées : un escalier de géant en pierre ancienne, qui descend de la plage sous les vagues.
 + Certains disent qu'il mène à une cité kaldorei que la mer engloutit quand le Puits d'éternité fut détruit. Ceux qui ont plongé aussi profond qu'ils le pouvaient n'ont trouvé que d'autres marches.
 ! Calme sur les marches, eau profonde en contrebas
