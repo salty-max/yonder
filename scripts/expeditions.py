@@ -401,6 +401,15 @@ def names_it(danger, name):
     return bool(name) and (name.lower() in said or bool(re.search(r"\b" + re.escape(name.split()[-1].lower()) + r"(e?s)?\b", said)))
 
 
+def zones_own(maps, uimap, holds):
+    """A spawn of the Classic database's on this zone's map (uimap) is the
+    zone's: Questie and Wowhead place the thing on no map (maps), or on this
+    one, or on none that holds the spawn (holds(u): map u holds it). A map
+    that holds it is another zone's under this one's rectangle, or a city's
+    inside it. A copy they list only elsewhere (an inn's book) stays."""
+    return not maps or uimap in maps or not any(holds(u) for u in maps)
+
+
 def unanswered_keepers(sides, danger, near):
     """The creatures near a riddle's spot that attack one side's players, on a
     riddle open to both, that its danger line doesn't name: [(id, name,
@@ -907,8 +916,7 @@ def main():
             out = set()
 
             def ours(k, i, m, x, y):
-                maps = placed_on.get((k, i))
-                return not maps or uimap in maps or not any(on(u, m, x, y) for u in maps)
+                return zones_own(placed_on.get((k, i)), uimap, lambda u: on(u, m, x, y))
 
             for a in assignments[uimap]:
                 m = int(a["MapID"])

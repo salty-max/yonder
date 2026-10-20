@@ -110,6 +110,32 @@ class QuestIndex(unittest.TestCase):
         self.assertEqual(drops[("object", 500)], {8})
 
 
+class ZonesOwn(unittest.TestCase):
+    """Whose a spawn on a zone's map is, from the maps Questie and Wowhead
+    place the thing on (UiMaps) and which of them hold the spawn."""
+
+    def test_pyron_is_blackrock_mountains(self):
+        # Overmaster Pyron (9026): Questie places him on the Eastern Kingdoms'
+        # map alone (1415), which holds his spawn under Searing Gorge (1427).
+        self.assertFalse(e.zones_own({1415}, 1427, lambda u: u == 1415))
+
+    def test_a_wisp_in_darnassus_is_darnassuss(self):
+        # Wisp (3681): Questie places it in Darnassus (1457) only, whose map
+        # lies inside Teldrassil's (1438). One in the city is Darnassus's.
+        self.assertFalse(e.zones_own({1457}, 1438, lambda u: u == 1457))
+        # one out in the forest, which Darnassus's map doesn't hold, is Teldrassil's
+        self.assertTrue(e.zones_own({1457}, 1438, lambda u: False))
+
+    def test_an_inns_book_stays(self):
+        # Book 175854: Questie lists only Tanaris's copy (1446). Booty Bay's
+        # copy, on Stranglethorn's map (1434), is on no map Questie names.
+        self.assertTrue(e.zones_own({1446}, 1434, lambda u: False))
+
+    def test_placed_here_or_nowhere(self):
+        self.assertTrue(e.zones_own({1434, 1446}, 1434, lambda u: True))
+        self.assertTrue(e.zones_own(None, 1434, lambda u: True))
+
+
 class Keepers(unittest.TestCase):
     # Stormwind's faction template (12), High Priest Thel'danis's (1854), as
     # Classic Era's client has it.
