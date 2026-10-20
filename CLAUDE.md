@@ -40,8 +40,8 @@ bun run kit:sync           # after a change to the kit (Kit.lua, Media, scripts/
 scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # check, tag, push; Actions publish
 ```
 
-Writing or vetting a riddle: the `wow-riddles` skill (the root's
-`.claude/skills/`).
+Writing or vetting a riddle: the `wow-riddles` skill (addon-kit's
+`skills/`, linked into `~/.claude/skills/`).
 
 ## Hard rules
 
