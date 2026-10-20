@@ -32,11 +32,22 @@ the Pool of Tears, 4504 at the Lakkari Tar Pits, 5245 at Kel'Theril.
 - **Item ties count quest-only drops** (the Classic database's negative
   chances, Questie's quest items). Counting every drop gave 6,448 ties:
   linen cloth from every humanoid, herbs from every node.
+- **A Classic spawn belongs to a zone only where Questie or Wowhead place it
+  in that zone too.** A zone's map rectangle also holds what lies beneath
+  it: Overmaster Pyron, deep in Blackrock Mountain, came out as a neighbour
+  of Searing Gorge's Blackchar Cave (the reviewer caught it).
+
+Not covered: 2,452 of Forever's new creatures have neither a faction
+template in the data nor Questie's friendly sides, so the keepers check
+can't judge them. No source we have gives them (the 736 Questie does give
+are judged). Zephras Isle's people are all friendly to both, or unknown.
 
 ## Waiting on you (5)
 
 The resolver still fails on these, so `data/expeditions.json` can't be
-rebuilt until they're settled. Nothing is pushed.
+rebuilt until they're settled. Nothing is pushed, and the checks shouldn't
+be until these are answered: the daily game-data job runs the resolver
+under `set -e`, so every generator after it would stop.
 
 1. **blasted-lands-tainted-scar.** An arrival ("Find his ground, and do not
    linger"), and Suppression (7583) sends players into the Scar to bind a
@@ -76,10 +87,10 @@ rebuilt until they're settled. Nothing is pushed.
    Alliance. For the Horde, the Saldeans defend their farm". `faction:
    alliance` would take a book from Horde readers for one farmer.
 
-## Drafted for your review (27)
+## Drafted for your review (26)
 
-Each one is now in its file (commit `0bf0662`, easy to drop) with a drafted
-`quest_context`. Two are worth a second look:
+Each one is now in its file (commits `0bf0662` and `bbf6aa8`, easy to drop)
+with a drafted `quest_context`. Two are worth a second look:
 
 - **the-barrens-fallen-warrior**: all seven quests are inside its 608-yard
   circle, none at the shrine. Tried on a copy: at r 3 (about 300 yards)
@@ -103,9 +114,8 @@ The rest are a separate deed at a quest's place, kept as the rules allow:
 | feralas-the-maul | 5247 | a vial from the Dire Pool |
 | hillsbrad-foothills-tarren-mill | 1536 | shaman's Call of Water at the well |
 | hillsbrad-foothills-zixil | 9389 | Midsummer's Flame of Hillsbrad on his road |
-| loch-modan-valley-of-kings | 224, 1526 and 94467 (Forever) | troggs, Forever's dwarf shaman Call of Fire |
+| loch-modan-valley-of-kings | 224, 1526 and 94467 (Forever) | troggs, both Call of Fire quests' fire and brazier on Forever |
 | mulgore-rolling-plains | 99080 (Forever) | Galak centaurs |
-| searing-gorge-blackchar | 3906, 4262 | Overmaster Pyron killed near the cave |
 | silithus-glibb | 8304 | Dearest Natalia's two dwarves |
 | stranglethorn-vale-booty-bay | 2843 | Scooty's transponder |
 | teldrassil-tree-on-watch | 95998, 96101, 96604-96608, 96634 (Forever) | The Great Outdoors' campfire, Zarrin |
@@ -118,6 +128,13 @@ The rest are a separate deed at a quest's place, kept as the rules allow:
 | ungoro-crater-lakkari | 4642 added to 4504 | Melding of Influences' ooze |
 | wetlands-menethil | 1249 | The Missing Diplomat's brawl |
 | zephras-isle-swimmers | 92679 (Forever) | Blood Tithe starts beside Swimmers |
+
+## Fixed by the run
+
+- **swamp-of-sorrows-pool-of-tears**: The Temple of Atal'Hakkar (1445) was
+  missing. Within the Swamp proper, its Fetish of Hakkar drops only from the
+  Atal'ai at the Pool (11 of the zone's 19). Added to the overlap, and its
+  context gained one clause.
 
 ## Answered by the rule
 
