@@ -1,5 +1,5 @@
 ---
-source: 4876fbd37fba
+source: e0935b89bb76
 zone: 1419
 ---
 ## blasted-lands-dark-portal
@@ -16,7 +16,7 @@ y nadie sabe si regresaron a casa. Hónralos como los soldados honran a los suyo
 Al suroeste del yermo, un gran demonio que se quedó atrás
 domina con su hueste una cicatriz en la tierra,
 y cada vida perdida cerca de él le devuelve la suya.
-Abarca sus dominios con la vista desde el borde y no te entretengas.
+Pisa sus dominios, abárcalos con la vista y no te entretengas.
 ? La Escara Impía, en el suroeste de Las Tierras Devastadas: entra apenas por su borde y contémplala.
 = La Escara Impía, los dominios del Lord Kazzak.
 + Cada muerte cerca de él lo sana setenta mil puntos. Y si sigue en pie tres minutos después del primer golpe, su furia no deja a nadie con vida.

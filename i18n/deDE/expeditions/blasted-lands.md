@@ -1,5 +1,5 @@
 ---
-source: 4876fbd37fba
+source: e0935b89bb76
 zone: 1419
 ---
 ## blasted-lands-dark-portal
@@ -17,7 +17,7 @@ und niemand weiß, ob sie heimgekehrt sind. Ehre sie, wie Soldaten die Ihren ehr
 Im Südwesten der Öde hält ein großer Dämon, der zurückblieb,
 mit seinem Heer eine Narbe im Land,
 und jedes Leben, das in seiner Nähe endet, gibt ihm sein eigenes zurück.
-Betrachte seinen Boden vom Rand aus, und verweile nicht.
+Betritt seinen Boden, betrachte ihn, und verweile nicht.
 ? Die faulende Narbe, im Südwesten der Verwüsteten Lande: Tritt knapp über ihren Rand und lass den Blick über sie schweifen.
 = Die faulende Narbe, der Boden von Lord Kazzak.
 + Jeder Tod in seiner Nähe heilt ihn um siebzigtausend. Und steht er drei Minuten nach dem ersten Schlag noch, lässt seine Raserei niemanden mehr stehen.

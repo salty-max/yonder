@@ -1,5 +1,5 @@
 ---
-source: 4876fbd37fba
+source: e0935b89bb76
 zone: 1419
 ---
 ## blasted-lands-dark-portal
@@ -17,7 +17,7 @@ et nul ne sait s'ils sont rentrés. Honorez-les comme des soldats honorent les l
 Au sud-ouest de l'étendue, un grand démon resté en arrière
 tient une balafre dans la terre avec son armée,
 et chaque vie perdue près de lui lui rend la sienne.
-Embrassez son terrain du regard depuis le bord, et ne vous attardez pas.
+Avancez sur son terrain, embrassez-le du regard, et ne vous attardez pas.
 ? La Balafre impure, au sud-ouest des Terres foudroyées : franchissez-en à peine le bord et contemplez-la.
 = La Balafre impure, le terrain du seigneur Kazzak.
 + Chaque mort près de lui le soigne de soixante-dix mille points. Et s'il tient encore debout trois minutes après le premier coup, sa fureur ne laisse personne debout.

@@ -32,10 +32,13 @@ the Pool of Tears, 4504 at the Lakkari Tar Pits, 5245 at Kel'Theril.
 - **Item ties count quest-only drops** (the Classic database's negative
   chances, Questie's quest items). Counting every drop gave 6,448 ties:
   linen cloth from every humanoid, herbs from every node.
-- **A Classic spawn belongs to a zone only where Questie or Wowhead place it
-  in that zone too.** A zone's map rectangle also holds what lies beneath
-  it: Overmaster Pyron, deep in Blackrock Mountain, came out as a neighbour
-  of Searing Gorge's Blackchar Cave (the reviewer caught it).
+- **A Classic spawn is another zone's when Questie or Wowhead don't place
+  the thing in this zone, and a map they do place it on holds the spawn.** A
+  zone's map rectangle also holds what lies beneath it and the cities inside
+  it: Overmaster Pyron, deep in Blackrock Mountain (Questie places him on the
+  continent's map alone), came out as a neighbour of Searing Gorge's
+  Blackchar Cave (the reviewer caught it). A book copied in several inns
+  stays where it is, even where Questie lists only the other inns.
 
 Not covered: 2,452 of Forever's new creatures have neither a faction
 template in the data nor Questie's friendly sides, so the keepers check
@@ -47,8 +50,9 @@ are judged). Zephras Isle's people are all friendly to both, or unknown.
 These five failed the first run, and the user chose on 20 October 2026:
 
 1. **blasted-lands-tainted-scar**: an arrival that Suppression (7583) solved
-   in passing. Now a long look over Kazzak's ground from just inside its
-   edge (GAZE, LOOK, PEER), with the overlap [2681, 7583, 8423].
+   in passing. Now a long look over Kazzak's ground from just inside it
+   (GAZE, LOOK, PEER: the addon counts it inside the sub-area only), with
+   the overlap [2681, 7583, 8423].
 2. **stranglethorn-vale-emperors-tomb**: an arrival at Kurzen's Mystery's
    own chest (207). Now a bow at the tomb (BOW, KNEEL), with the overlap
    [207]. The sim's arrival test moved to the Badlands' hidden crypt.
