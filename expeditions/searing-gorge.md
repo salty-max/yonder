@@ -19,8 +19,6 @@ riddles:
     area: Blackchar Cave   # placed: the client's overlay: 23.0, 73.4; its mouth by Elder Ironband's Lunar Festival spot, dump 21.5, 79.0
     hint_area: { x: 22.5, y: 77.0, r: 5 }
     danger: "Perilous (lava spiders and fire elementals, levels 46 to 48)"
-    quest_overlap: [3906, 4262]
-    quest_context: "Disharmony of Flame and Overmaster Pyron send players to kill Overmaster Pyron, who stands near the cave. Yonder asks only for the cave's own surprise, with no kill and no quest."
     sources: "the WoWWiki archive's Blackchar Cave page (the face on the minimap); Engadget, 'A face in Searing Gorge' (2007); the dump's Lunar Festival spawn"
 quarry:
   id: 8280   # Shleipnarr

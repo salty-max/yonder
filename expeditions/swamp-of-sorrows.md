@@ -20,8 +20,8 @@ riddles:
     area: Pool of Tears   # placed: the client's overlay
     hint_area: { x: 70.0, y: 51.5, r: 9 }
     danger: "Guarded (dragonkin and sawfin frenzies, to level 45)"
-    quest_overlap: [1424, 1475]
-    quest_context: "Pool of Tears and Into The Temple of Atal'Hakkar ask for artifacts and tablets from the temple's stones around the lake. Yonder asks only a look into the water, with no item and no quest."
+    quest_overlap: [1424, 1445, 1475]
+    quest_context: "Pool of Tears and Into The Temple of Atal'Hakkar ask for artifacts and tablets from the temple's stones around the lake, and The Temple of Atal'Hakkar for fetishes from the Atal'ai who haunt it. Yonder asks only a look into the water, with no item and no quest."
     sources: "warcraft.wiki.gg's Temple of Atal'Hakkar page (the Atal'ai's temple for Hakkar's return, Ysera smashing it beneath the marshes, her dragons guarding the ruins, the sinking leaving the rituals undisturbed); the client's AreaTable and overlay"
 quarry:
   id: 14445   # Lord Captain Wyrmak
