@@ -37,6 +37,16 @@ for (fid,) in db("forever").execute("SELECT id FROM creature WHERE removed IS NO
     fv = creature("forever", fid, locale)
     if fv and not re.match(r"^\s*[\[(<]", fv):
         out["forever"][str(fid)] = bare(fv)
+# what wow-data's build leaves out of Forever though a source had it (Season
+# of Discovery's, its left_out): a journal may have met one by its id, its
+# name dropped then for this list's, so its name stays (names only: the
+# Bestiary knows nothing else of it, and nothing here finds an id by a name)
+for (lid,) in db("forever").execute("SELECT id FROM left_out WHERE kind = 'creature' ORDER BY id"):
+    if lid in classic_ids or str(lid) in out["forever"]:
+        continue
+    fv = creature("forever", lid, locale)
+    if fv and not re.match(r"^\s*[\[(<]", fv):
+        out["forever"][str(lid)] = bare(fv)
 os.makedirs(f"i18n/{locale}", exist_ok=True)
 with open(f"i18n/{locale}/creatures.json", "w", encoding="utf-8") as f:
     json.dump({k: dict(sorted(v.items(), key=lambda kv: int(kv[0]))) for k, v in out.items()}, f, ensure_ascii=False, indent=1)

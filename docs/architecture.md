@@ -217,7 +217,10 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   `check`) writes them from `i18n/<locale>/`. Every language, English one of
   them, has its name files, each complete (no "only what differs from the
   English", no English fallback): `creatures.json` (every creature by id,
-  each game's, `python3 scripts/creature_names.py <locale>`), `taxi.json`
+  each game's, `python3 scripts/creature_names.py <locale>`; Forever's
+  holds what wow-data's build leaves out, Season of Discovery's `left_out`,
+  by name alone: a journal met it by its id, nothing finds an id by a
+  name), `taxi.json`
   (the flight points, `python3 scripts/taxi_names.py <locale>`),
   `subzones.json` (the building areas, `python3 ../addon-kit/subzones.py
   <locale>`), `catches.json` (the weighed catches' kinds, `python3
