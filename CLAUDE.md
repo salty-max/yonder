@@ -122,8 +122,11 @@ Plan and decisions: PLAN.md. Sister project: Lorekeeper's Codex
   or a temporary quest prop. A reviewed overlap records `quest_overlap: [ids]`
   and `quest_context` explaining the separate discovery. Never a kill, never
   the same discovery twice in a zone. New unreviewed Forever quest overlaps
-  still fail, and either game's quest tied to the subject or the place (an area's hint circle, a spot's NEAR yards: half the zone's spawns of its target there),
-  and a creature by the spot of a riddle open to both that attacks one side, unless `faction:` or the danger line names it (`--dry [folder]`, expeditions_test.py)
+  still fail, as do either game's quests tied to the subject or the place (an
+  area's hint circle, a spot's solving radius and NEAR yards about: half the
+  zone's spawns of what they ask for there), and a creature by the spot of a
+  riddle open to both that attacks one side, unless `faction:` or the danger
+  line names it (`--dry [folder]`, `scripts/expeditions_test.py`)
   (the resolver checks these safeguards:
   PLAN.md, Reworked and After the first test), then `## <id>` sections: the verse, `? ` the
   first hint, `= ` the note, `+ ` the margin; `## quarry`: its poster (verse,

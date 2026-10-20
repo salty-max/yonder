@@ -85,12 +85,16 @@ Then the riddles are checked as a reader meets them:
     on the quest), and none asks for what stands at the riddle's place (a
     creature, an object, or an item they drop on the quest, SHARE of the
     zone's spawns of it there at least): an area's place is its hint circle,
-    a spot's where it is solved and NEAR yards about. The same exact
-    quest_overlap and quest_context answer it;
+    a spot's where it is solved and NEAR yards about. A spawn of the Classic
+    database's is the zone's only where Questie or Wowhead place the thing
+    in the zone too (a zone's map holds Blackrock Mountain under Searing
+    Gorge). The same exact quest_overlap and quest_context answer it;
   - keepers and guards: on a riddle open to both sides, no creature within
-    NEAR yards of its spot (or its area's anchor) attacks one side only,
-    unless the riddle is that side's riddle no more (faction:) or its
-    danger line names it (its name, or its kind: "the refugees").
+    NEAR yards of its spot (or its area's anchor) attacks one side only (by
+    its faction template, else, for Forever's new creatures, which have none
+    in the data, by the sides Questie says it is friendly to), unless the
+    riddle is that side's riddle no more (faction:) or its danger line names
+    it (its name, or its kind: "the refugees").
 
 Anything that fails is printed and nothing is written (--dry: the checks
 alone, on expeditions/ or another folder of riddle files).
@@ -863,6 +867,9 @@ def main():
     indexes = {g: quest_index(db(g)) for g in games}
     templates = {g: {int(t["ID"]): t for t in table("FactionTemplate", g)} for g in games}
     kin = {g: dict(db(g).execute("SELECT id, faction_id FROM creature")) for g in games}
+    # the sides Questie says a creature is friendly to (A, H, AH): Forever's
+    # new creatures have no faction template in the data, only this
+    friendly = {g: dict(db(g).execute("SELECT id, friendly FROM creature WHERE friendly IS NOT NULL")) for g in games}
     cnames = {g: dict(db(g).execute("SELECT id, name FROM name WHERE kind = 'creature' AND locale = 'enUS'")) for g in games}
     may_be = collections.defaultdict(set)  # a spawn's guid: every creature it may be
     for c, guids in takes.items():
@@ -872,14 +879,22 @@ def main():
     for a in table("UiMapAssignment", "forever"):
         forever_maps[int(a["UiMapID"])].append(a)
     world, seen = {}, {}
+    # what Questie and Wowhead place somewhere: a spawn of the Classic
+    # database's counts on a zone's map only where they place it in the zone
+    # too (the map's rectangle holds what is under it: Overmaster Pyron, deep
+    # in Blackrock Mountain, is no neighbour of Searing Gorge's caves)
+    elsewhere = collections.defaultdict(set)
+    for k, i, area, ui in cdb.execute("SELECT DISTINCT kind, entity_id, area_id, ui_map_id FROM spawn WHERE source IN ('questie', 'wowhead')"):
+        elsewhere[(k, i)].add(area or ui)
 
     def world_on(uimap):
         """The Classic database's creatures and objects on the zone's map (one
         world on both games): {(kind, id, x, y, far, at its spawn)}, each
         creature a spawn may be, at its spawn and along its path; far: how far
-        it wanders, in yards."""
+        it wanders, in yards. Not one Questie and Wowhead place elsewhere only."""
         if uimap not in world:
-            out = set()
+            out, here = set(), {zone_area(uimap), uimap}
+            ours = lambda k, i: not elsewhere[(k, i)] or bool(elsewhere[(k, i)] & here)
             for a in assignments[uimap]:
                 m = int(a["MapID"])
                 x0, y0, x1, y1 = (float(a[k]) for k in ("Region_0", "Region_1", "Region_3", "Region_4"))
@@ -891,13 +906,14 @@ def main():
                     if not p:
                         continue
                     if kind == "object":
-                        out.add(("object", i, *p, 0, True))
+                        if ours("object", i):
+                            out.add(("object", i, *p, 0, True))
                         continue
                     d = spawn[guid]
                     far = float(d["spawndist"] or 0) if d["MovementType"] == "1" else 0
                     walk = [(q, False) for q in (on(uimap, m, u, v) for u, v in path(d)) if q]
                     for q, at in [(p, True)] + walk:
-                        out |= {("creature", c, *q, far, at) for c in may_be[guid] | {i}}
+                        out |= {("creature", c, *q, far, at) for c in may_be[guid] | {i} if ours("creature", c)}
             world[uimap] = out
         return world[uimap]
 
@@ -965,8 +981,13 @@ def main():
             for k, i, x, y, far, _ in mine | {t for t in traced(game, area) if t[:2] not in on_map}:
                 if k == "creature" and i not in asked and yards(x, y) <= NEAR + far:
                     near.add(i)
-            ft_of = lambda i: templates[game].get(kin[game].get(i) or 0)
-            near = [(i, cnames[game].get(i), {s for s in SIDES if ft_of(i) and attacks(ft_of(i), s)}) for i in sorted(near)]
+            def attacked(i):
+                t = templates[game].get(kin[game].get(i) or 0)
+                if t:
+                    return {s for s in SIDES if attacks(t, s)}
+                # friendly to one side only: a keeper of that side's
+                return {"A": {"horde"}, "H": {"alliance"}}.get(friendly[game].get(i), set())
+            near = [(i, cnames[game].get(i), attacked(i)) for i in sorted(near)]
             for i, n, side in unanswered_keepers(sides, r.get("danger"), near):
                 keep.setdefault(i, (n, side, []))[2].append(game)
         for i, (n, side, gs) in sorted(keep.items()):

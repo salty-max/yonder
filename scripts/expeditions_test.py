@@ -9,6 +9,7 @@ the four zones with the review's fixes undone, where wow-data's database is.
 import os
 import pathlib
 import re
+import sqlite3
 import subprocess
 import sys
 import tempfile
@@ -75,6 +76,40 @@ class QuestTies(unittest.TestCase):
         self.assertEqual(e.quest_ties([], {}, {("creature", 1161): 40}, idx), {})
 
 
+class QuestIndex(unittest.TestCase):
+    def test_drops_are_the_quests_own(self):
+        c = sqlite3.connect(":memory:")
+        c.executescript("""
+            CREATE TABLE quest_relation (quest_id, role, kind, entity_id, source);
+            CREATE TABLE quest_objective (quest_id, kind, target_id);
+            CREATE TABLE creature (id, loot_id, skin_loot_id, pick_loot_id);
+            CREATE TABLE object (id, loot_id);
+            CREATE TABLE loot (kind, source_id, item_id, ref_id, chance, source);
+            CREATE TABLE name (kind, id, locale, name);
+            INSERT INTO quest_objective VALUES (4504, 'item', 11834), (1, 'item', 2589), (1445, 'item', 6181),
+                (65593, 'item', 190180), (2, 'item', 7), (3, 'item', 8);
+            -- a Tar Lurker's own template: Super Sticky Tar only on its quest
+            INSERT INTO creature VALUES (6518, 6518, NULL, NULL), (40, 100, NULL, NULL), (5243, 200, NULL, NULL);
+            INSERT INTO loot VALUES ('creature', 6518, 11834, NULL, -33, 'classicdb');
+            -- linen cloth from any humanoid sends nobody anywhere
+            INSERT INTO loot VALUES ('creature', 100, 2589, NULL, 20, 'classicdb');
+            -- a quest drop behind a reference
+            INSERT INTO loot VALUES ('creature', 200, NULL, 300, 100, 'classicdb'), ('reference', 300, 6181, NULL, -50, 'classicdb'),
+                ('reference', 300, NULL, 300, 100, 'classicdb');
+            -- Questie's quest items, by the creature's own id
+            INSERT INTO loot VALUES ('creature', 185334, 190180, NULL, NULL, 'questie');
+            -- an object's template is its loot_id, never its own id
+            INSERT INTO object VALUES (500, 600);
+            INSERT INTO loot VALUES ('object', 500, 7, NULL, -100, 'classicdb'), ('object', 600, 8, NULL, -100, 'classicdb');
+        """)
+        drops = e.quest_index(c)["drops"]
+        self.assertEqual(drops[("creature", 6518)], {11834})
+        self.assertNotIn(("creature", 40), drops)
+        self.assertEqual(drops[("creature", 5243)], {6181})
+        self.assertEqual(drops[("creature", 185334)], {190180})
+        self.assertEqual(drops[("object", 500)], {8})
+
+
 class Keepers(unittest.TestCase):
     # Stormwind's faction template (12), High Priest Thel'danis's (1854), as
     # Classic Era's client has it.
@@ -112,10 +147,14 @@ class TheReviewUndone(unittest.TestCase):
     names every finding again."""
 
     UNDO = {
-        "swamp-of-sorrows.md": [r"^    quest_overlap: \[.*\b1424, 1475\b.*\]\n", r"^    quest_context: .*Atal'Hakkar.*\n"],
+        "swamp-of-sorrows.md": [r"^    quest_overlap: \[.*\b1424\b.*\]\n", r"^    quest_context: .*Atal'Hakkar.*\n"],
         "ungoro-crater.md": [r"^    quest_overlap: \[.*\b4504\b.*\]\n", r"^    quest_context: .*Super Sticky.*\n"],
         "winterspring.md": [r"^    quest_overlap: \[.*\b5245\b.*\]\n", r"^    quest_context: .*Kel'Theril.*\n"],
         "western-plaguelands.md": [r"^    faction: alliance   # High Priest Thel'danis.*\n"],
+        # a spot riddle: its place is the book and ten yards about, not its hint circle
+        "durotar.md": [r"^    quest_overlap: \[.*\b784\b.*\]\n", r"^    quest_context: .*Vanquish the Betrayers.*\n"],
+        # as it is: Overmaster Pyron stands under the gorge, in Blackrock Mountain
+        "searing-gorge.md": [],
     }
 
     def test_the_findings_come_back(self):
@@ -132,6 +171,8 @@ class TheReviewUndone(unittest.TestCase):
                                 ("ungoro-crater-lakkari", "quest 4504 "), ("winterspring-kel-theril", "quest 5245 "),
                                 ("western-plaguelands-uther", "High Priest Thel'danis (1854)")]:
             self.assertRegex(run.stdout, rf"{riddle}: {re.escape(finding)}")
+        self.assertRegex(run.stdout, r"durotar-tiragarde: quest 784 .* at the riddle's place")
+        self.assertNotIn("searing-gorge-blackchar: quest", run.stdout)
 
 
 if __name__ == "__main__":
