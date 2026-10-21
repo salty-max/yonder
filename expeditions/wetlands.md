@@ -6,6 +6,13 @@ client: both
 # trigger) or area (a sub-area of the game's; its hint placed by its map overlay, or an anchor inside
 # it: a creature, an object, a graveyard). gestures: the emotes it accepts, the story's own first.
 riddles:
+  - id: wetlands-dun-modr
+    tier: near
+    creature: 3180   # the Dark Iron Entrepreneur, Speciality Goods, dump 46.6, 18.4, in Dun Modr's inn; Wowhead's points alike
+    found: target   # among his kin: only by speaking to him
+    hint_area: { x: 47.5, y: 19.5, r: 4 }
+    danger: "Perilous (Dark Iron elites, levels 28 to 31)"
+    sources: "the dump's spawns, faction (friendly to all) and wares; the client's display tables (a dwarf); the WoWWiki archive's Dark Iron Entrepreneur page (the inn) and Dun Modr page (Lands of Conflict, p. 80: the Dark Irons kill anything that enters their territory; Warcraft II: Tides of Darkness, the battle to retake Dun Modr from the Horde)"
   - id: wetlands-sundown-marsh
     tier: off
     faction: alliance   # its keeper attacks the other side: this side's alone
@@ -36,6 +43,15 @@ quarry:
   id: 1140   # Razormaw Matriarch
   sources: "the WoWWiki archive's Razormaw Matriarch and Raptor Ridge pages (her brood, the cavern); the dump's path"
 ---
+## wetlands-dun-modr
+On the road north to the great bridge, the Dark Irons hold a fallen dwarven town,
+and they kill whoever comes up the road.
+One of them has found a better use for strangers.
+Find him at the inn, open for business.
+? Dun Modr, on the road to the Thandol Span. In the ruined town's inn, speak to the Dark Iron who sells instead of fighting.
+= The Dark Iron Entrepreneur, in Dun Modr's inn: friendly to every traveller, among kin who are friendly to none. He sells heavy dynamite, a red firework, and whatever fine gear has come his way.
++ Dun Modr was a dwarven town before the Dark Irons claimed it. In the Second War, the Alliance fought here to take it back from the Horde.
+
 ## wetlands-sundown-marsh
 Deep in the marsh, where the crocolisks own the water,
 a dwarf and a gnome keep a stone house with a windmill,

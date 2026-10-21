@@ -1,7 +1,17 @@
 ---
-source: 059351186607
+source: 3a71fc994c09
 zone: 1443
 ---
+## desolace-narv
+Wo die alten Kodos der Öde hingehen, um sich ein letztes Mal niederzulegen,
+halten die Tauren einen Posten am Rand der Knochen,
+und ihr Lederverarbeiter weiß, woher die besten Häute kommen.
+Frag ihn.
+? Der Geistwandlerposten, am Rand des Kodofriedhofs mitten in Desolace. Sprich mit dem Lehrer für Lederverarbeitung.
+= Narv Hidecrafter, vom Geistwandlerposten: 'Die stärksten Bälge kommen von Kodos, die sich zum Sterben in diese Einöde begeben haben.'
++ Der Friedhof ist ein Feld aus Kodoknochen, und noch immer kommen welche: gealterte, sterbende und alte Kodos wandern zwischen ihnen umher.
+! Ruhig
+
 ## desolace-tethris-aran
 Nördlich der Festung der Burning Blade liegen die Steine einer Elfenstadt verstreut im Staub.
 Kein Elf hat dort gelebt, seit die Welt zerbrach.

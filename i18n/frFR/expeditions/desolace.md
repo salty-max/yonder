@@ -1,7 +1,17 @@
 ---
-source: 059351186607
+source: 3a71fc994c09
 zone: 1443
 ---
+## desolace-narv
+Là où les vieux kodos du désert viennent se coucher une dernière fois,
+les taurens tiennent un poste au bord des ossements,
+et leur artisan du cuir a son idée sur l'origine des plus belles peaux.
+Demandez-lui.
+? Le Poste de Rôdeur-fantôme, au bord du Cimetière des kodos, au milieu de Désolace. Parlez au maître du travail du cuir.
+= Narv Hidecrafter, du Poste de Rôdeur-fantôme : "Les cuirs les plus solides proviennent des kodos qui se sont installés dans ce désert."
++ Le cimetière est un champ d'os de kodos, et il en vient toujours : vieux kodos, kodos mourants et anciens kodos marchent parmi les os.
+! Calme
+
 ## desolace-tethris-aran
 Au nord de la forteresse de la Lame ardente, les pierres d'une ville elfe gisent éparpillées dans la poussière.
 Aucun elfe n'y a vécu depuis que le monde s'est brisé.

@@ -1,7 +1,17 @@
 ---
-source: 95ee773c71b9
+source: 292946f74c63
 zone: 1456
 ---
+## thunder-bluff-mak
+Sur le piton où le Grand chef a sa loge, un artisan du cuir lui confectionne un présent.
+Il a seulement entendu dire que Cairne vit ici. Il compte aller voir par lui-même
+quand l'ouvrage sera digne d'être offert, et peut-être entendre une parole de sagesse.
+La loge est à une courte marche, de l'autre côté du plateau. Demandez-lui où en est son ouvrage.
+? Le piton central de Thunder Bluff, parmi les artisans du cuir de son côté ouest. Parlez au compagnon.
+= Mak, Artisan du cuir - Compagnon : "On dit que Cairne lui-même vit ici. Lorsque j'aurai confectionné une offrande convenable, je partirai à sa recherche. Il aura peut-être des paroles de sagesse à partager avec moi."
++ La loge de Cairne Bloodhoof se dresse à l'autre bout du même piton. Mak ne l'a pas encore traversé.
+! Calme
+
 ## thunder-bluff-white-stag
 Sur la cime des anciens, un conte parle d'un cerf blanc
 dont les bois s'emmêlèrent dans les étoiles alors qu'il fuyait les chasseurs,

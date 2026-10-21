@@ -1,5 +1,5 @@
 ---
-source: bab9480bf0f4
+source: 92c062fcc9ca
 zone: 1411
 ---
 ## durotar-rokar
@@ -11,6 +11,16 @@ Ríndele el respeto que sus años se han ganado.
 = Rokar Filosombra, un anciano granjero orco, y Harroc, su peón: "¿Qué hace alguien tan joven como tú visitando a un viejo granjero como yo?".
 + Harroc trabaja el huerto. Rokar Filosombra se queda en la casa y guarda para sí lo que fue antes de ser granjero.
 ! Tranquilo (jabalíes y raptores cerca)
+
+## durotar-miaozan
+En el poblado que los Lanza Negra levantaron en la costa sur de Durotar,
+un alquimista trol vivió todas las aventuras que quería en el camino de su pueblo hasta aquí.
+Ahora se queda junto a sus frascos y deja que otros vayan a buscar problemas.
+Pregúntale qué opina de la aventura.
+? Poblado Sen'jin, en la costa al sur de Cerrotajo. Habla con el trol que enseña alquimia.
+= Miao'zan, alquimista del Poblado Sen'jin: "Parece que andas en busca de aventuras. Yo ya tuve bastantes cuando los trols vinimos aquí. Ahora me dedico a pasar los días tal y como vienen, e instruyo a otros para que pasen aventuras por mí.".
++ El poblado lleva el nombre de Sen'jin, padre de Vol'jin, el líder de los Lanza Negra que no llegó a ver esta costa.
+! Tranquilo
 
 ## durotar-tiragarde
 En la fortaleza recuperada de la costa roja, encuentra a los jefes reunidos para beber de una misma copa.

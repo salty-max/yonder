@@ -142,6 +142,18 @@ show) and one kept back: Forever rebuilds the place, so its riddle waits for
 a riddle of one client's own (no such field yet). **123 riddles** on Classic
 Era, **127** on Forever, and the 39 quarries.
 
+**Nine more (21 October 2026, the user's ask).** Where the book was thinnest:
+the Horde reader (82 riddles against the Alliance reader's 93), the two Horde
+capitals one short of their three, Durotar, and the shared zones that gave a
+Horde reader nothing or nearly nothing. The user picked eleven from a
+shortlist the gates had passed on scratch copies. Two were dropped once
+their sources were read: a keeper seen only by those wearing a quest's
+reward, and one whose only road is a quest's teleport. Forever's new
+profession quests (Camping 101) now send players to most trainers, and the
+gates turned seven of the first candidates away for it. **132 riddles** on
+Classic Era, **136** on Forever (91 for a Horde reader, 98 for an Alliance
+one), and the 39 quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

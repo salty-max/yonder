@@ -1,7 +1,17 @@
 ---
-source: 97fe1fc76930
+source: 74b24a610ac8
 zone: 1442
 ---
+## stonetalon-mountains-nizzik
+En estas montañas de piedra, Ventura y Cía. tala el bosque y explota el lago,
+y sus obreros toman a cada visitante por un ladrón.
+Allá en la gran rueda de la compañía, uno de los suyos vende armaduras a quien llegue.
+Los negocios son los negocios. Encuentra al vendedor.
+? Risco Cortaviento, en el Lago del Peñasco. Cruza hasta la plataforma más alejada de la rueda hidráulica de Ventura y Cía. y habla con el goblin que vende armaduras.
+= Nizzik, Vendedor de armaduras de Ventura y Cía., en la rueda hidráulica del Lago del Peñasco: amistoso con todo viajero, entre obreros de la compañía que los atacan a todos.
++ Más abajo, en la Senda de las Tejedoras, la compañía ha plantado un cartel donde terminan sus tierras.
+! Vigilado (ingenieros, constructores y maquinistas de Ventura y Cía., niveles 20 a 22)
+
 ## stonetalon-mountains-sun-rock
 En el refugio de la Horda entre montañas de piedra enseña un encantador,
 tan bueno como cualquiera en el mundo salvo una.

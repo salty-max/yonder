@@ -1,7 +1,17 @@
 ---
-source: 9dfb8f17003b
+source: 479e772ce774
 zone: 1437
 ---
+## wetlands-dun-modr
+An der Straße nach Norden zur großen Brücke halten die Dunkeleisenzwerge eine gefallene Zwergenstadt,
+und töten jeden, der die Straße heraufkommt.
+Einer von ihnen hat für Fremde eine bessere Verwendung gefunden.
+Finde ihn im Gasthaus, wo er seinen Laden hat.
+? Dun Modr, an der Straße zum Thandolübergang. Sprich im Gasthaus der zerstörten Stadt mit dem Dunkeleisenzwerg, der verkauft, statt zu kämpfen.
+= Der Unternehmer der Dunkeleisenzwerge, im Gasthaus von Dun Modr: freundlich zu jedem Reisenden, unter Verwandten, die zu niemandem freundlich sind. Er verkauft schweres Dynamit, eine rote Feuerwerksrakete und jede gute Ausrüstung, die ihm in die Hände fällt.
++ Dun Modr war eine Zwergenstadt, bevor die Dunkeleisenzwerge sie in Besitz nahmen. Im Zweiten Krieg kämpfte die Allianz hier, um sie der Horde wieder abzunehmen.
+! Gefährlich (Elite der Dunkeleisenzwerge, Stufe 28 bis 31)
+
 ## wetlands-sundown-marsh
 Tief in der Marsch, wo die Krokilisken das Wasser beherrschen,
 haben eine Zwergin und ein Gnom ein Steinhaus mit einer Windmühle

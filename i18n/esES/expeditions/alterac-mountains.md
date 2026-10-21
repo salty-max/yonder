@@ -1,7 +1,17 @@
 ---
-source: 98fbb8836044
+source: cfc509b85e01
 zone: 1416
 ---
+## alterac-mountains-rizz
+Los ogros Aplastacresta guardan una hondonada en las colinas para todo lo que arrastran a casa,
+y una de las cosas que arrastraron todavía habla, y todavía comercia.
+Un pequeño ingeniero vende las herramientas de su oficio entre los barrotes.
+Encuéntralo y mira lo que tiene que ofrecer.
+? En el centro de las Montañas de Alterac, junto a los ogros Aplastacresta. En su cueva, habla con el gnomo de la jaula.
+= Rizz Tornillosuelto, un ingeniero gnomo en una jaula de los Aplastacresta, que aún vende fundente, tubos, pólvora y piezas, y los únicos planos del mundo de un deflector de hielo.
++ Ninguna misión lo libera. Los viajeros compran lo que necesitan entre los barrotes y lo dejan con los ogros.
+! Vigilado (ogros y toscos Aplastacresta, niveles 34 a 36)
+
 ## alterac-mountains-simone
 En las colinas sobre las laderas, una mansión se esconde de quien no conoce el camino,
 un salón para quienes obran sin ser vistos.

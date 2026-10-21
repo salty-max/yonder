@@ -1,5 +1,5 @@
 ---
-source: 68f1d1802748
+source: 3690f61b0f60
 zone: 1454
 ---
 ## orgrimmar-mannoroth-armor
@@ -9,6 +9,16 @@ vaincue par le geste d'un seul orc brave. Trouvez-les.
 ? Dans la vallée de la Force, au milieu d'Orgrimmar. Lisez l'inscription près de l'armure exposée.
 = L'armure de Mannoroth.
 + "Que ces plaques nous rappellent toujours jusqu'où nous nous sommes égarés et combien il nous fallut combattre pour recouvrer notre honneur." - Thrall. Le monument de Grom se dresse en Orneval, là où il est mort.
+! Calme
+
+## orgrimmar-snarl
+Dans la vallée qu'Orgrimmar a nommée pour l'honneur, un maître tient la grande forge,
+et l'un des forgerons devant sa porte frappe l'enclume pour autre chose que l'acier.
+Le maître a des filles. Le forgeron a des projets.
+Demandez-lui pour quoi il travaille.
+? La Vallée de l'Honneur, à la grande forge. Parlez au forgeron expert qui travaille devant la forge du maître.
+= Snarl, Forgeron - Expert : "Si je montre ma valeur à Saru il n'aura pas d'autre choix que de me laisser combattre pour une des ses filles. Et rira bien qui rira le dernier."
++ Saru Steelfury le traite de "serpent dans ma maison". Et Snarl éloigne les visiteurs de Sumi et Tumi, qui vendent à côté de Saru : "Elles... ne sont pas libres."
 ! Calme
 
 ## orgrimmar-orphanage

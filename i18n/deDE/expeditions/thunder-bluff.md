@@ -1,7 +1,17 @@
 ---
-source: 95ee773c71b9
+source: 292946f74c63
 zone: 1456
 ---
+## thunder-bluff-mak
+Auf dem Felsen, wo der Oberhäuptling seine Halle hat, fertigt ein Lederverarbeiter ein Geschenk für ihn.
+Der Geselle hat nur gehört, dass Cairne hier lebt. Er will selbst nachsehen,
+sobald die Arbeit gut genug zum Schenken ist, und vielleicht ein Wort der Weisheit hören.
+Es ist nur ein kurzer Weg über die Anhöhe. Frag ihn, wie die Arbeit vorangeht.
+? Die mittlere Anhöhe von Thunder Bluff, bei den Lederverarbeitern auf ihrer Westseite. Sprich mit dem Gesellen.
+= Mak, Lederverarbeitungsgeselle: 'Cairne selbst lebt hier, sagt man. Wenn ich ein passendes Geschenk angefertigt habe, werde ich ihn aufsuchen. Vielleicht hat er Worte der Weisheit für mich.'
++ Cairne Bloodhoofs Halle steht am anderen Ende derselben Anhöhe. Mak hat den Weg dorthin noch nicht gemacht.
+! Ruhig
+
 ## thunder-bluff-white-stag
 Auf der Anhöhe der Ältesten erzählt eine Geschichte von einem weißen Hirsch,
 dessen Geweih sich in den Sternen verfing, als er vor den Jägern floh,

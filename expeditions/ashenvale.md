@@ -13,6 +13,13 @@ riddles:
     hint_area: { x: 81.8, y: 83.0, r: 8 }
     danger: "Perilous (the Legion's servants)"
     sources: "object 21004's text; object 175742's text; the Codex's demon-fall-canyon page"
+  - id: ashenvale-howling-vale
+    tier: hidden
+    reading: Ancient Inscription
+    object: 19025   # dump 50.3, 39.6, in the Howling Vale; Wowhead 50.3, 39.6
+    hint_area: { x: 51.5, y: 38.0, r: 4 }
+    danger: "Perilous (Terrowulf worgen and their packlord, levels 28 to 32)"
+    sources: "object 19025's text; the dump's spawns (the Terrowulf, the packlord a rare beside the shrine); the WoWWiki archive's Howling Vale page (the ruined Shrine of Mel'Thandris, the worgen's howls that named the vale) and Ancient Inscription page"
   - id: ashenvale-astranaar
     tier: town
     faction: alliance   # its town's: for that faction alone
@@ -34,6 +41,15 @@ Leave him what a warrior is owed.
 ? Demon Fall Canyon, in Ashenvale's south-east. A soldier's salute belongs at this monument.
 = 'Lok'Tar ogar, big brother. May the Warsong never fade.' Thrall wrote it.
 + Grom was the first chieftain to drink Mannoroth's blood, and the one who killed the demon: 'the curse of our people began and ended with Grom.'
+
+## ashenvale-howling-vale
+North of the forest's heart, a vale the elves once kept for the moon
+now rings with the howling of the beasts that took it.
+The elves' prayer is still carved in the stone of their shrine.
+Find it, and read what they asked of her.
+? The Howling Vale, in Ashenvale's north, toward Felwood. Among the worgen, read the old inscription of the shrine.
+= The Ancient Inscription of the Shrine of Mel'Thandris: 'May the light of Elune shine upon this vale eternal and illuminate the ways of the forest as it has for time immemorial.'
++ The worgen who hold it are the Terrowulf. Their packlord, rarely seen, keeps close to the shrine.
 
 ## ashenvale-astranaar
 One of the world's five keepers was given a duty she could fulfil only in sleep.

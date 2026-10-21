@@ -1,5 +1,5 @@
 ---
-source: a551a3583807
+source: dec4790b92af
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -40,6 +40,16 @@ und ihr kleiner Sohn spielt vor ihrer Tür. Sei freundlich.
 = Pooka und ihr Sohn Mogg, am Mor'shan-Schutzwall: eine Familie, in einem Kriegslager.
 + Über den Vater des Jungen sagt der Schutzwall nichts.
 ! Ruhig für die Horde, die Wachen des Schutzwalls für die Allianz
+
+## the-barrens-northwatch
+An der Südküste der Ebenen halten Theramores Soldaten eine Festung gegen die Horde,
+und darin bewahrt die Allianz ihren eigenen Bericht über die Lager, in denen sie einst die Orcs festhielt,
+und über die Krankheit, die kein Aufseher erklären konnte.
+Finde die Seite, die sagt, welches Heilmittel nötig wäre.
+? Die Feste Northwatch, an der Küste südlich von Ratchet. Lies in der Festung den Bericht über die Lethargie der Orcs.
+= Die Lethargie der Orcs, in der Feste Northwatch. Antonidas von Dalaran hielt die Lethargie für keine Krankheit, sondern für den Entzug der dämonischen Magie in ihrem Blut, und schloss, dass ihr Heilmittel ein geistiges sein müsse.
++ So war es. Thrall, als Sklave in Burg Durnholde aufgewachsen, erlernte den vergessenen Schamanismus seines Volkes und gab ihm 'eine neue spirituelle Identität', wie es der eigene Bericht der Horde, Die neue Horde, erzählt.
+! Bewacht (Marinesoldaten und Bewahrerinnen von Theramore, Stufe 15 bis 17, die die Horde angreifen)
 
 ## the-barrens-fallen-warrior
 Nicht weit von der belebtesten Straße der Ebenen steigt ein kurzer Pfad einen Hügel hinauf

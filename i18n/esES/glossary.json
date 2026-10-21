@@ -580,6 +580,11 @@
    "forever": "Bunthen Ventollano",
    "use": "Bunthen Ventollano"
   },
+  "Cairne Bloodhoof": {
+   "classic": "Cairne Pezuña de Sangre",
+   "forever": "Cairne Pezuña de Sangre",
+   "use": "Cairne Pezuña de Sangre"
+  },
   "Captain Flat Tusk": {
    "classic": "Capitán Colmillo Plano",
    "forever": "Capitán Colmillo Plano",
@@ -629,6 +634,11 @@
    "classic": "Darianna",
    "forever": "Darianna",
    "use": "Darianna"
+  },
+  "Dark Iron Entrepreneur": {
+   "classic": "Emprendedor Hierro Negro",
+   "forever": "Emprendedor Hierro Negro",
+   "use": "Emprendedor Hierro Negro"
   },
   "Dockmaster Baren": {
    "classic": "Maestro de embarcadero Baren",
@@ -743,6 +753,11 @@
    "classic": "Gerald Abernati",
    "forever": "Gerald Abernati",
    "use": "Gerald Abernati"
+  },
+  "Gilthares Firebough": {
+   "classic": "Gilthares Ramafuego",
+   "forever": "Gilthares Ramafuego",
+   "use": "Gilthares Ramafuego"
   },
   "Glibb": {
    "classic": "Glibb",
@@ -991,6 +1006,11 @@
    "forever": "Mahren Videncielo",
    "use": "Mahren Videncielo"
   },
+  "Mak": {
+   "classic": "Mak",
+   "forever": "Mak",
+   "use": "Mak"
+  },
   "Master Smith Burninate": {
    "classic": "Maestro herrero Cremación",
    "forever": "Maestro herrero Cremación",
@@ -1010,6 +1030,11 @@
    "classic": "Ardilla mecánica",
    "forever": "Ardilla mecánica",
    "use": "Ardilla mecánica"
+  },
+  "Miao'zan": {
+   "classic": "Miao'zan",
+   "forever": "Miao'zan",
+   "use": "Miao'zan"
   },
   "Minor Manifestation of Fire": {
    "classic": "Manifestación de fuego menor",
@@ -1055,6 +1080,11 @@
    "forever": "Nalesette Asilvestra",
    "use": "Nalesette Asilvestra"
   },
+  "Narv Hidecrafter": {
+   "classic": "Narv Curtepieles",
+   "forever": "Narv Curtepieles",
+   "use": "Narv Curtepieles"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -1074,6 +1104,11 @@
    "classic": "Horrocrusto pesadilla",
    "forever": "Horrocrusto pesadilla",
    "use": "Horrocrusto pesadilla"
+  },
+  "Nizzik": {
+   "classic": "Nizzik",
+   "forever": "Nizzik",
+   "use": "Nizzik"
   },
   "Obsidian Shard": {
    "classic": "Fragmento de obsidiana",
@@ -1099,6 +1134,11 @@
    "classic": "Felino naranja",
    "forever": "Felino naranja",
    "use": "Felino naranja"
+  },
+  "Orokk Omosh": {
+   "classic": "Orokk Omosh",
+   "forever": "Orokk Omosh",
+   "use": "Orokk Omosh"
   },
   "Overlord Mok'Morokk": {
    "classic": "Señor Supremo Mok'Morkk",
@@ -1180,6 +1220,11 @@
    "forever": "Rippa",
    "use": "Rippa"
   },
+  "Rizz Loosebolt": {
+   "classic": "Rizz Tornillosuelto",
+   "forever": "Rizz Tornillosuelto",
+   "use": "Rizz Tornillosuelto"
+  },
   "Roger": {
    "classic": "Roger",
    "forever": "Roger",
@@ -1199,6 +1244,11 @@
    "classic": "Salma Saldean",
    "forever": "Salma Saldean",
    "use": "Salma Saldean"
+  },
+  "Saru Steelfury": {
+   "classic": "Saru Furiacerada",
+   "forever": "Saru Furiacerada",
+   "use": "Saru Furiacerada"
   },
   "Sergeant Carnes": {
    "classic": "Sargento Carnes",
@@ -1278,6 +1328,11 @@
    "classic": "Herrero esquelético",
    "forever": "Herrero esquelético",
    "use": "Herrero esquelético"
+  },
+  "Snarl": {
+   "classic": "Gruños",
+   "forever": "Gruños",
+   "use": "Gruños"
   },
   "Snarlmane": {
    "classic": "Melegruños",
@@ -1726,6 +1781,11 @@
    "forever": "Cumbre de Roca Negra",
    "use": "Cumbre de Roca Negra"
   },
+  "Blacksmith": {
+   "classic": "Herrería",
+   "forever": "Herrería",
+   "use": "Herrería"
+  },
   "Blasted Lands": {
    "classic": "Las Tierras Devastadas",
    "forever": "Las Tierras Devastadas",
@@ -1834,6 +1894,11 @@
    "classic": "Bancal del Artesano",
    "forever": "Bancal del Artesano",
    "use": "Bancal del Artesano"
+  },
+  "Cragpool Lake": {
+   "classic": "Lago del Peñasco",
+   "forever": "Lago del Peñasco",
+   "use": "Lago del Peñasco"
   },
   "Crown Guard Tower": {
    "classic": "Torre de la Corona",
@@ -2020,6 +2085,11 @@
    "forever": "Ruinas de Lunaeste",
    "use": "Ruinas de Lunaeste"
   },
+  "Eastvale Logging Camp": {
+   "classic": "Aserradero de la Vega del Este",
+   "forever": "Aserradero de la Vega del Este",
+   "use": "Aserradero de la Vega del Este"
+  },
   "Eastwall Tower": {
    "classic": "Torre de la Muralla del Este",
    "forever": "Torre de la Muralla del Este",
@@ -2133,6 +2203,11 @@
    "classic": "Saliente de Gavin",
    "forever": "Saliente de Gavin",
    "use": "Saliente de Gavin"
+  },
+  "Ghost Walker Post": {
+   "classic": "Campamento del Espíritu Errante",
+   "forever": "Campamento del Espíritu Errante",
+   "use": "Campamento del Espíritu Errante"
   },
   "Gilneas": {
    "forever": "Gilneas",
@@ -2494,6 +2569,11 @@
    "forever": "Torre del Paso Norte",
    "use": "Torre del Paso Norte"
   },
+  "Northwatch Hold": {
+   "classic": "Fuerte del Norte",
+   "forever": "Fuerte del Norte",
+   "use": "Fuerte del Norte"
+  },
   "Old Ironforge": {
    "classic": "Antigua Forjaz",
    "use": "Antigua Forjaz"
@@ -2751,6 +2831,11 @@
   "Skywall": {
    "forever": "Muro Celeste",
    "use": "Muro Celeste"
+  },
+  "Slaughter Hollow": {
+   "classic": "Cuenca de la Matanza",
+   "forever": "Cuenca de la Matanza",
+   "use": "Cuenca de la Matanza"
   },
   "Sorrow Hill": {
    "classic": "Colina de las Penas",
@@ -3073,6 +3158,11 @@
    "forever": "Tierras del Interior",
    "use": "Tierras del Interior"
   },
+  "The Howling Vale": {
+   "classic": "Vega del Aullido",
+   "forever": "Vega del Aullido",
+   "use": "Vega del Aullido"
+  },
   "The Loch": {
    "classic": "Loch Modan",
    "forever": "Loch Modan",
@@ -3322,6 +3412,11 @@
    "forever": "Valle de los Héroes",
    "use": "Valle de los Héroes"
   },
+  "Valley of Honor": {
+   "classic": "Valle del Honor",
+   "forever": "Valle del Honor",
+   "use": "Valle del Honor"
+  },
   "Valley of Kings": {
    "classic": "Valle de los Reyes",
    "forever": "Valle de los Reyes",
@@ -3401,6 +3496,11 @@
    "classic": "Cresta Viento Furioso",
    "forever": "Cresta Viento Furioso",
    "use": "Cresta Viento Furioso"
+  },
+  "Windshear Crag": {
+   "classic": "Risco Cortaviento",
+   "forever": "Risco Cortaviento",
+   "use": "Risco Cortaviento"
   },
   "Windsong Lake": {
    "forever": "Lago Canzalvaje",
@@ -3501,10 +3601,30 @@
    "forever": "Círculo Esmeralda",
    "use": "Círculo Esmeralda"
   },
+  "Engineering Supplies": {
+   "classic": "Suministros de ingeniería",
+   "forever": "Suministros de ingeniería",
+   "use": "Suministros de ingeniería"
+  },
+  "Expert Blacksmith": {
+   "classic": "Experto herrero",
+   "forever": "Experto herrero",
+   "use": "Experto herrero"
+  },
+  "Expert Leathercrafter": {
+   "classic": "Experto peletero",
+   "forever": "Experto peletero",
+   "use": "Experto peletero"
+  },
   "Gerard's Mindslave": {
    "classic": "Cazamentes de Gerard",
    "forever": "Cazamentes de Gerard",
    "use": "Cazamentes de Gerard"
+  },
+  "High Chieftain": {
+   "classic": "Gran jefe",
+   "forever": "Gran jefe",
+   "use": "Gran jefe"
   },
   "High Priest": {
    "classic": "Sumo sacerdote",
@@ -3520,6 +3640,11 @@
    "classic": "Instructor de caza",
    "forever": "Instructor de caza",
    "use": "Instructor de caza"
+  },
+  "Journeyman Alchemist": {
+   "classic": "Oficial alquimista",
+   "forever": "Oficial alquimista",
+   "use": "Oficial alquimista"
   },
   "Journeyman Leatherworker": {
    "classic": "Oficial peletero",
@@ -3576,6 +3701,11 @@
    "forever": "Filibusteros del Mar del Sur",
    "use": "Filibusteros del Mar del Sur"
   },
+  "Speciality Goods": {
+   "classic": "Artículos especiales",
+   "forever": "Artículos especiales",
+   "use": "Artículos especiales"
+  },
   "Stonesplinter Chieftain": {
    "classic": "Jefe Rompecantos",
    "forever": "Jefe Rompecantos",
@@ -3625,6 +3755,16 @@
    "classic": "Ingeniero trastornado",
    "forever": "Ingeniero trastornado",
    "use": "Ingeniero trastornado"
+  },
+  "Venture Armor Salesman": {
+   "classic": "Vendedor de armaduras de Ventura y Cía.",
+   "forever": "Vendedor de armaduras de Ventura y Cía.",
+   "use": "Vendedor de armaduras de Ventura y Cía."
+  },
+  "Venture Co.": {
+   "classic": "Ventura y Cía.",
+   "forever": "Ventura y Cía.",
+   "use": "Ventura y Cía."
   },
   "Weapon Dealer": {
    "classic": "Vendedor de armas",

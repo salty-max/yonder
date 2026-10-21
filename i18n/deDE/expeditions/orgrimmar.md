@@ -1,5 +1,5 @@
 ---
-source: 68f1d1802748
+source: 3690f61b0f60
 zone: 1454
 ---
 ## orgrimmar-mannoroth-armor
@@ -9,6 +9,16 @@ besiegt durch die Tat eines tapferen Orcs. Finde sie.
 ? Im Tal der Stärke, in der Mitte von Orgrimmar. Lies die Inschrift bei der ausgestellten Rüstung.
 = Die Rüstung von Mannoroth.
 + 'Mögen uns diese Platten daran erinnern, wie weit wir gekommen sind und wie hart wir kämpften, um unsere Ehre zurückzuerobern.' - Thrall. Groms Denkmal steht in Ashenvale, wo er starb.
+! Ruhig
+
+## orgrimmar-snarl
+In Orgrimmars Tal, das den Namen der Ehre trägt, führt ein Meister die große Schmiede,
+und einer der Schmiede vor seiner Tür hämmert für mehr als nur Stahl.
+Der Meister hat Töchter. Der Schmied hat Pläne.
+Frag ihn, wofür er arbeitet.
+? Das Tal der Ehre, an der großen Schmiede. Sprich mit dem Schmiedekunstexperten draußen vor der Schmiede des Meisters.
+= Snarl, Schmiedekunstexperte: 'Wenn ich mich Saru beweise, hat er keine andere Wahl, als mich um eine seiner Töchter kämpfen zu lassen. Dann werden wir sehen, wer zuletzt lacht.'
++ Saru Steelfury nennt ihn 'eine Schlange in meinem Unterschlupf'. Und Snarl hält Besucher von Sumi und Tumi fern, die neben Saru verkaufen: 'Sie sind... versprochen.'
 ! Ruhig
 
 ## orgrimmar-orphanage

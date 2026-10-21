@@ -1,7 +1,17 @@
 ---
-source: 95ee773c71b9
+source: 292946f74c63
 zone: 1456
 ---
+## thunder-bluff-mak
+En la cima donde el Gran jefe tiene su cabaña, un peletero le está fabricando un regalo.
+Solo ha oído decir que Cairne vive aquí. Piensa ir a verlo con sus propios ojos
+cuando el trabajo sea digno de regalarse, y quizá escuchar una palabra sabia.
+Es un paseo corto por la meseta. Pregúntale cómo va el trabajo.
+? La meseta central de Cima del Trueno, entre los peleteros de su lado oeste. Habla con el oficial.
+= Mak, Oficial peletero: "Dicen que el mismísimo Cairne vive aquí. Cuando haya terminado de fabricar un regalo digno de él, iré a buscarle. Quizás tenga alguna palabra sabia que decirme.".
++ La cabaña de Cairne Pezuña de Sangre está al otro extremo de la misma meseta. Mak aún no la ha cruzado.
+! Tranquilo
+
 ## thunder-bluff-white-stag
 En el alto de los ancestros, un relato habla de un venado blanco
 cuyas astas se enredaron en las estrellas al huir de los cazadores,

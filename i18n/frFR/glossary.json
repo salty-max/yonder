@@ -454,6 +454,11 @@
    "forever": "Bunthen Plainswind",
    "use": "Bunthen Plainswind"
   },
+  "Cairne Bloodhoof": {
+   "classic": "Cairne Bloodhoof",
+   "forever": "Cairne Bloodhoof",
+   "use": "Cairne Bloodhoof"
+  },
   "Captain Flat Tusk": {
    "classic": "Capitaine Plate-défense",
    "forever": "Capitaine Plate-défense",
@@ -503,6 +508,11 @@
    "classic": "Darianna",
    "forever": "Darianna",
    "use": "Darianna"
+  },
+  "Dark Iron Entrepreneur": {
+   "classic": "Entrepreneur Sombrefer",
+   "forever": "Entrepreneur Sombrefer",
+   "use": "Entrepreneur Sombrefer"
   },
   "Dockmaster Baren": {
    "classic": "Chef des docks Baren",
@@ -617,6 +627,11 @@
    "classic": "Gerard Abernathy",
    "forever": "Gerard Abernathy",
    "use": "Gerard Abernathy"
+  },
+  "Gilthares Firebough": {
+   "classic": "Gilthares Firebough",
+   "forever": "Gilthares Firebough",
+   "use": "Gilthares Firebough"
   },
   "Glibb": {
    "classic": "Glibb",
@@ -865,6 +880,11 @@
    "forever": "Mahren Skyseer",
    "use": "Mahren Skyseer"
   },
+  "Mak": {
+   "classic": "Mak",
+   "forever": "Mak",
+   "use": "Mak"
+  },
   "Master Smith Burninate": {
    "classic": "Maître forgeron Burninate",
    "forever": "Maître forgeron Burninate",
@@ -884,6 +904,11 @@
    "classic": "Ecureuil mécanique",
    "forever": "Ecureuil mécanique",
    "use": "Ecureuil mécanique"
+  },
+  "Miao'zan": {
+   "classic": "Miao'zan",
+   "forever": "Miao'zan",
+   "use": "Miao'zan"
   },
   "Minor Manifestation of Fire": {
    "classic": "Manifestation de feu mineure",
@@ -929,6 +954,11 @@
    "forever": "Nalesette Wildbringer",
    "use": "Nalesette Wildbringer"
   },
+  "Narv Hidecrafter": {
+   "classic": "Narv Hidecrafter",
+   "forever": "Narv Hidecrafter",
+   "use": "Narv Hidecrafter"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -948,6 +978,11 @@
    "classic": "Cavale de cauchemar Plaiedécaille",
    "forever": "Cavale de cauchemar Plaiedécaille",
    "use": "Cavale de cauchemar Plaiedécaille"
+  },
+  "Nizzik": {
+   "classic": "Nizzik",
+   "forever": "Nizzik",
+   "use": "Nizzik"
   },
   "Obsidian Shard": {
    "classic": "Eclat d'obsidienne",
@@ -973,6 +1008,11 @@
    "classic": "Chat tigré orange",
    "forever": "Chat tigré orange",
    "use": "Chat tigré orange"
+  },
+  "Orokk Omosh": {
+   "classic": "Orokk Omosh",
+   "forever": "Orokk Omosh",
+   "use": "Orokk Omosh"
   },
   "Overlord Mok'Morokk": {
    "classic": "Seigneur Mok'Morokk",
@@ -1054,6 +1094,11 @@
    "forever": "Rippa",
    "use": "Rippa"
   },
+  "Rizz Loosebolt": {
+   "classic": "Rizz Loosebolt",
+   "forever": "Rizz Loosebolt",
+   "use": "Rizz Loosebolt"
+  },
   "Roger": {
    "classic": "Roger",
    "forever": "Roger",
@@ -1073,6 +1118,11 @@
    "classic": "Salma Saldean",
    "forever": "Salma Saldean",
    "use": "Salma Saldean"
+  },
+  "Saru Steelfury": {
+   "classic": "Saru Steelfury",
+   "forever": "Saru Steelfury",
+   "use": "Saru Steelfury"
   },
   "Sergeant Carnes": {
    "classic": "Sergent Carnes",
@@ -1152,6 +1202,11 @@
    "classic": "Forgeron squelettique",
    "forever": "Forgeron squelettique",
    "use": "Forgeron squelettique"
+  },
+  "Snarl": {
+   "classic": "Snarl",
+   "forever": "Snarl",
+   "use": "Snarl"
   },
   "Snarlmane": {
    "classic": "Snarlmane",
@@ -1600,6 +1655,11 @@
    "forever": "Pic Rochenoire",
    "use": "Pic Rochenoire"
   },
+  "Blacksmith": {
+   "classic": "Forge",
+   "forever": "Forge",
+   "use": "Forge"
+  },
   "Blasted Lands": {
    "classic": "Terres foudroyées",
    "forever": "Terres foudroyées",
@@ -1708,6 +1768,11 @@
    "classic": "Terrasse des Artisans",
    "forever": "Terrasse des Artisans",
    "use": "Terrasse des Artisans"
+  },
+  "Cragpool Lake": {
+   "classic": "Lac de la Combe",
+   "forever": "Lac de la Combe",
+   "use": "Lac de la Combe"
   },
   "Crown Guard Tower": {
    "classic": "Tour de garde de la couronne",
@@ -1894,6 +1959,11 @@
    "forever": "Ruines d'Estelune",
    "use": "Ruines d'Estelune"
   },
+  "Eastvale Logging Camp": {
+   "classic": "Camp de bûcherons du Val d'est",
+   "forever": "Camp de bûcherons du Val d'est",
+   "use": "Camp de bûcherons du Val d'est"
+  },
   "Eastwall Tower": {
    "classic": "Tour du Mur d'est",
    "forever": "Tour du Mur d'est",
@@ -2007,6 +2077,11 @@
    "classic": "Promontoire de Gavin",
    "forever": "Promontoire de Gavin",
    "use": "Promontoire de Gavin"
+  },
+  "Ghost Walker Post": {
+   "classic": "Poste de Rôdeur-fantôme",
+   "forever": "Poste de Rôdeur-fantôme",
+   "use": "Poste de Rôdeur-fantôme"
   },
   "Gilneas": {
    "forever": "Gilnéas",
@@ -2368,6 +2443,11 @@
    "forever": "Tour du Col du nord",
    "use": "Tour du Col du nord"
   },
+  "Northwatch Hold": {
+   "classic": "Fort du Nord",
+   "forever": "Fort de Guet-du-Nord",
+   "use": "Fort de Guet-du-Nord"
+  },
   "Old Ironforge": {
    "classic": "Vieil Ironforge",
    "use": "Vieil Ironforge"
@@ -2625,6 +2705,11 @@
   "Skywall": {
    "forever": "Mur-Céleste",
    "use": "Mur-Céleste"
+  },
+  "Slaughter Hollow": {
+   "classic": "Creux du massacre",
+   "forever": "Creux du massacre",
+   "use": "Creux du massacre"
   },
   "Sorrow Hill": {
    "classic": "Colline des chagrins",
@@ -2947,6 +3032,11 @@
    "forever": "Les Hinterlands",
    "use": "Les Hinterlands"
   },
+  "The Howling Vale": {
+   "classic": "Le Val hurlant",
+   "forever": "Le Val hurlant",
+   "use": "Le Val hurlant"
+  },
   "The Loch": {
    "classic": "Le Loch",
    "forever": "Le Loch",
@@ -3196,6 +3286,11 @@
    "forever": "Vallée des héros",
    "use": "Vallée des héros"
   },
+  "Valley of Honor": {
+   "classic": "Vallée de l'Honneur",
+   "forever": "Vallée de l'Honneur",
+   "use": "Vallée de l'Honneur"
+  },
   "Valley of Kings": {
    "classic": "Vallée des rois",
    "forever": "Vallée des rois",
@@ -3275,6 +3370,11 @@
    "classic": "Crête des Furies-des-vents",
    "forever": "Crête des Furies-des-vents",
    "use": "Crête des Furies-des-vents"
+  },
+  "Windshear Crag": {
+   "classic": "Combe des Cisailles",
+   "forever": "Combe des Cisailles",
+   "use": "Combe des Cisailles"
   },
   "Windsong Lake": {
    "forever": "Lac Chantevent",
@@ -3375,10 +3475,30 @@
    "forever": "Cercle d'émeraude",
    "use": "Cercle d'émeraude"
   },
+  "Engineering Supplies": {
+   "classic": "Fournitures d'ingénieur",
+   "forever": "Fournitures d'ingénieur",
+   "use": "Fournitures d'ingénieur"
+  },
+  "Expert Blacksmith": {
+   "classic": "Forgeron - Expert",
+   "forever": "Forgeron - Expert",
+   "use": "Forgeron - Expert"
+  },
+  "Expert Leathercrafter": {
+   "classic": "Artisan du cuir - Expert",
+   "forever": "Artisan du cuir - Expert",
+   "use": "Artisan du cuir - Expert"
+  },
   "Gerard's Mindslave": {
    "classic": "Expérience de Gerard",
    "forever": "Expérience de Gerard",
    "use": "Expérience de Gerard"
+  },
+  "High Chieftain": {
+   "classic": "Grand chef",
+   "forever": "Grand chef",
+   "use": "Grand chef"
   },
   "High Priest": {
    "classic": "Grand prêtre",
@@ -3394,6 +3514,11 @@
    "classic": "Maître des chasseurs",
    "forever": "Maître des chasseurs",
    "use": "Maître des chasseurs"
+  },
+  "Journeyman Alchemist": {
+   "classic": "Alchimiste - Compagnon",
+   "forever": "Alchimiste - Compagnon",
+   "use": "Alchimiste - Compagnon"
   },
   "Journeyman Leatherworker": {
    "classic": "Artisan du cuir - Compagnon",
@@ -3450,6 +3575,11 @@
    "forever": "Flibustiers des mers du sud",
    "use": "Flibustiers des mers du sud"
   },
+  "Speciality Goods": {
+   "classic": "Fournitures spéciales",
+   "forever": "Fournitures spéciales",
+   "use": "Fournitures spéciales"
+  },
   "Stonesplinter Chieftain": {
    "classic": "Chef des Brisepierres",
    "forever": "Chef des Brisepierres",
@@ -3499,6 +3629,16 @@
    "classic": "Ingénieur déséquilibré",
    "forever": "Ingénieur déséquilibré",
    "use": "Ingénieur déséquilibré"
+  },
+  "Venture Armor Salesman": {
+   "classic": "Marchand d'armures de la KapitalRisk",
+   "forever": "Marchand d'armures de la KapitalRisk",
+   "use": "Marchand d'armures de la KapitalRisk"
+  },
+  "Venture Co.": {
+   "classic": "KapitalRisk",
+   "forever": "KapitalRisk",
+   "use": "KapitalRisk"
   },
   "Weapon Dealer": {
    "classic": "Marchand d'armes",

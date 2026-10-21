@@ -1,7 +1,17 @@
 ---
-source: 9dfb8f17003b
+source: 479e772ce774
 zone: 1437
 ---
+## wetlands-dun-modr
+En el camino del norte hacia el gran puente, los Hierro Negro ocupan una ciudad enana caída,
+y matan a quien sube por el camino.
+Uno de ellos ha encontrado un uso mejor para los forasteros.
+Búscalo en la posada, con el negocio abierto.
+? Dun Modr, en el camino al Puente Thandol. En la posada de la ciudad en ruinas, habla con el Hierro Negro que vende en lugar de luchar.
+= El Emprendedor Hierro Negro, en la posada de Dun Modr: amistoso con todo viajero, entre los suyos, que no lo son con nadie. Vende dinamita pesada, un cohete de fuegos artificiales rojo y todo el buen equipo que le llega a las manos.
++ Dun Modr fue una ciudad enana antes de que los Hierro Negro la tomaran. En la Segunda Guerra, la Alianza luchó aquí para arrebatársela a la Horda.
+! Peligroso (élites Hierro Negro, niveles 28 a 31)
+
 ## wetlands-sundown-marsh
 En lo profundo del pantano, donde los crocoliscos dominan el agua,
 una enana y un gnomo tienen una casa de piedra con un molino

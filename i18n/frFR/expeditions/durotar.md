@@ -1,5 +1,5 @@
 ---
-source: bab9480bf0f4
+source: 92c062fcc9ca
 zone: 1411
 ---
 ## durotar-rokar
@@ -11,6 +11,16 @@ Rendez-lui le respect que ses années lui ont valu.
 = Rokar Bladeshadow, un vieux fermier orc, et Harroc, son valet de ferme : "Qu'est-ce qu'un jeune comme toi vient faire chez un vieux fermier comme moi ?"
 + Harroc travaille le jardin dehors. Rokar reste dans la maison, et dans ce qu'il était avant d'être fermier.
 ! Calme (sangliers et raptors aux alentours)
+
+## durotar-miaozan
+Dans le village que les Darkspear ont bâti sur la rive sud de Durotar,
+un alchimiste troll a eu tout son content d'aventure sur la route qui a mené son peuple ici.
+Désormais, il reste près de ses fioles et laisse les autres aller chercher les ennuis.
+Demandez-lui ce qu'il pense de l'aventure.
+? Le Village de Sen'jin, sur la côte au sud de Tranchecolline. Parlez au troll qui enseigne l'alchimie.
+= Miao'zan, alchimiste du Village de Sen'jin : "Vous avez tout l'air de quelqu'un qui cherche l'aventure. Moi, j'en avais déjà assez à l'époque où les trolls sont arrivés. Aujourd'hui, je prends les jours comme ils viennent. Et j'entraîne les autres à courir l'aventure à ma place."
++ Le village porte le nom de Sen'jin, le père de Vol'jin, le chef des Darkspear qui ne vécut pas assez longtemps pour voir ce rivage.
+! Calme
 
 ## durotar-tiragarde
 Dans le donjon repris sur la côte rouge, trouvez les chefs réunis pour boire à la même coupe.

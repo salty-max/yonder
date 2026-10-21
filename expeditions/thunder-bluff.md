@@ -7,6 +7,13 @@ client: both
 # trigger) or area (a sub-area of the game's; its hint placed by its map overlay, or an anchor inside
 # it: a creature, an object, a graveyard). gestures: the emotes it accepts, the story's own first.
 riddles:
+  - id: thunder-bluff-mak
+    tier: near
+    creature: 3008   # Mak, Journeyman Leatherworker, dump 42.1, 43.5, beside Tarn (11084) and Una (3007); Wowhead's points alike
+    found: target   # in the city: only by speaking to him
+    hint_area: { x: 43.5, y: 42.0, r: 4 }
+    danger: "Quiet"
+    sources: "Mak's own words (his gossip); the dump's spawns (Cairne Bloodhoof at 60.3, 51.7, on the same rise); the WoWWiki archive's Mak page"
   - id: thunder-bluff-white-stag
     tier: off
     reading: The White Stag and the Moon
@@ -23,6 +30,15 @@ riddles:
     sources: "the dump's spawns and Halpa's wares (the prairie dog whistle)"
 # no quarry: a capital has riddles alone
 ---
+## thunder-bluff-mak
+On the bluff where the High Chieftain keeps his lodge, a leatherworker is making him a gift.
+He has only heard that Cairne lives here. He means to go and see for himself
+when the work is fine enough to give, and perhaps hear a word of wisdom.
+It is a short walk across the rise. Ask him how the work is going.
+? Thunder Bluff's central rise, among the leatherworkers on its western side. Speak to the journeyman.
+= Mak, a journeyman leatherworker: 'Cairne himself lives here, they say. Once I have finished crafting a fitting gift, I will seek him out. Perhaps he will have words of wisdom for me.'
++ Cairne Bloodhoof's lodge stands at the other end of the same rise. Mak has not crossed it yet.
+
 ## thunder-bluff-white-stag
 On the rise of the elders, a tale tells of a white stag
 whose antlers tangled in the stars as he fled the hunters,

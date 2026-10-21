@@ -1,5 +1,5 @@
 ---
-source: bab9480bf0f4
+source: 92c062fcc9ca
 zone: 1411
 ---
 ## durotar-rokar
@@ -11,6 +11,16 @@ Erweise ihm den Respekt, den seine Jahre verdient haben.
 = Rokar Bladeshadow, ein betagter Orc-Bauer, und Harroc, sein Knecht: 'Was führt einen jungen Spund wie dich zu einem alten Bauern wie mir?'
 + Harroc arbeitet draußen im Garten. Rokar bleibt im Haus, und bei dem, was er war, bevor er Bauer wurde.
 ! Ruhig (Eber und Raptoren in der Nähe)
+
+## durotar-miaozan
+Im Dorf, das die Darkspear an Durotars Südküste errichtet haben,
+hat ein Trollalchimist auf dem Weg seines Volkes hierher alle Abenteuer erlebt, die er je wollte.
+Jetzt bleibt er bei seinen Fläschchen und lässt andere den Ärger suchen.
+Frag ihn, was er vom Abenteuer hält.
+? Sen'jin, an der Küste südlich vom Klingenhügel. Sprich mit dem Troll, der Alchemie lehrt.
+= Miao'zan, Alchimist in Sen'jin: 'Ihr seht aus wie jemand, der auf Abenteuer aus is'. Also ich hatt davon schon genug, als wir Trolle hierher kamen. Jetzt nehm ich jeden Tag, wie er kommt, und bilde andere Leute darin aus, mit den Abenteuern fertig zu werden.'
++ Das Dorf trägt den Namen von Sen'jin, Vol'jins Vater, dem Anführer der Darkspear, der diese Küste nicht mehr erleben sollte.
+! Ruhig
 
 ## durotar-tiragarde
 Finde in der zurückeroberten Burg an der roten Küste die Häuptlinge, die versammelt sind, um aus einem Becher zu trinken.

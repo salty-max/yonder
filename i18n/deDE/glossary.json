@@ -456,6 +456,11 @@
    "forever": "Bunthen Plainswind",
    "use": "Bunthen Plainswind"
   },
+  "Cairne Bloodhoof": {
+   "classic": "Cairne Bloodhoof",
+   "forever": "Cairne Bloodhoof",
+   "use": "Cairne Bloodhoof"
+  },
   "Captain Flat Tusk": {
    "classic": "Captain Stumpfhauer",
    "forever": "Captain Stumpfhauer",
@@ -505,6 +510,11 @@
    "classic": "Darianna",
    "forever": "Darianna",
    "use": "Darianna"
+  },
+  "Dark Iron Entrepreneur": {
+   "classic": "Unternehmer der Dunkeleisenzwerge",
+   "forever": "Unternehmer der Dunkeleisenzwerge",
+   "use": "Unternehmer der Dunkeleisenzwerge"
   },
   "Dockmaster Baren": {
    "classic": "Dockmeister Baren",
@@ -619,6 +629,11 @@
    "classic": "Gerard Abernathy",
    "forever": "Gerard Abernathy",
    "use": "Gerard Abernathy"
+  },
+  "Gilthares Firebough": {
+   "classic": "Gilthares Firebough",
+   "forever": "Gilthares Firebough",
+   "use": "Gilthares Firebough"
   },
   "Glibb": {
    "classic": "Glibb",
@@ -867,6 +882,11 @@
    "forever": "Mahren Skyseer",
    "use": "Mahren Skyseer"
   },
+  "Mak": {
+   "classic": "Mak",
+   "forever": "Mak",
+   "use": "Mak"
+  },
   "Master Smith Burninate": {
    "classic": "Meisterschmied Burninate",
    "forever": "Meisterschmied Burninate",
@@ -886,6 +906,11 @@
    "classic": "Mechanisches Eichhörnchen",
    "forever": "Mechanisches Eichhörnchen",
    "use": "Mechanisches Eichhörnchen"
+  },
+  "Miao'zan": {
+   "classic": "Miao'zan",
+   "forever": "Miao'zan",
+   "use": "Miao'zan"
   },
   "Minor Manifestation of Fire": {
    "classic": "Schwache Feuermanifestation",
@@ -931,6 +956,11 @@
    "forever": "Nalesette Wildbringer",
    "use": "Nalesette Wildbringer"
   },
+  "Narv Hidecrafter": {
+   "classic": "Narv Hidecrafter",
+   "forever": "Narv Hidecrafter",
+   "use": "Narv Hidecrafter"
+  },
   "Nat Pagle": {
    "classic": "Nat Pagle",
    "forever": "Nat Pagle",
@@ -950,6 +980,11 @@
    "classic": "Nachtmahrbannschuppe",
    "forever": "Nachtmahrbannschuppe",
    "use": "Nachtmahrbannschuppe"
+  },
+  "Nizzik": {
+   "classic": "Nizzik",
+   "forever": "Nizzik",
+   "use": "Nizzik"
   },
   "Obsidian Shard": {
    "classic": "Obsidiansplitter",
@@ -975,6 +1010,11 @@
    "classic": "Orangene Tigerkatze",
    "forever": "Orangene Tigerkatze",
    "use": "Orangene Tigerkatze"
+  },
+  "Orokk Omosh": {
+   "classic": "Orokk Omosh",
+   "forever": "Orokk Omosh",
+   "use": "Orokk Omosh"
   },
   "Overlord Mok'Morokk": {
    "classic": "Oberanführer Mok'Morokk",
@@ -1056,6 +1096,11 @@
    "forever": "Rippa",
    "use": "Rippa"
   },
+  "Rizz Loosebolt": {
+   "classic": "Rizz Loosebolt",
+   "forever": "Rizz Loosebolt",
+   "use": "Rizz Loosebolt"
+  },
   "Roger": {
    "classic": "Roger",
    "forever": "Roger",
@@ -1075,6 +1120,11 @@
    "classic": "Salma Saldean",
    "forever": "Salma Saldean",
    "use": "Salma Saldean"
+  },
+  "Saru Steelfury": {
+   "classic": "Saru Steelfury",
+   "forever": "Saru Steelfury",
+   "use": "Saru Steelfury"
   },
   "Sergeant Carnes": {
    "classic": "Sergeant Carnes",
@@ -1154,6 +1204,11 @@
    "classic": "Skelettschmied",
    "forever": "Skelettschmied",
    "use": "Skelettschmied"
+  },
+  "Snarl": {
+   "classic": "Snarl",
+   "forever": "Snarl",
+   "use": "Snarl"
   },
   "Snarlmane": {
    "classic": "Knurrmähne",
@@ -1602,6 +1657,11 @@
    "forever": "Blackrockspitze",
    "use": "Blackrockspitze"
   },
+  "Blacksmith": {
+   "classic": "Schmiede",
+   "forever": "Schmiede",
+   "use": "Schmiede"
+  },
   "Blasted Lands": {
    "classic": "Verwüstete Lande",
    "forever": "Verwüstete Lande",
@@ -1710,6 +1770,11 @@
    "classic": "Die Terrasse der Handwerker",
    "forever": "Die Terrasse der Handwerker",
    "use": "Die Terrasse der Handwerker"
+  },
+  "Cragpool Lake": {
+   "classic": "Felskesselsee",
+   "forever": "Felskesselsee",
+   "use": "Felskesselsee"
   },
   "Crown Guard Tower": {
    "classic": "Turm der Kronenwache",
@@ -1896,6 +1961,11 @@
    "forever": "Eastmoon-Ruinen",
    "use": "Eastmoon-Ruinen"
   },
+  "Eastvale Logging Camp": {
+   "classic": "Holzfällerlager des Osttals",
+   "forever": "Holzfällerlager des Osttals",
+   "use": "Holzfällerlager des Osttals"
+  },
   "Eastwall Tower": {
    "classic": "Ostwallturm",
    "forever": "Ostwallturm",
@@ -2009,6 +2079,11 @@
    "classic": "Gavins Landspitze",
    "forever": "Gavins Landspitze",
    "use": "Gavins Landspitze"
+  },
+  "Ghost Walker Post": {
+   "classic": "Geistwandlerposten",
+   "forever": "Geistwandlerposten",
+   "use": "Geistwandlerposten"
   },
   "Gilneas": {
    "forever": "Gilneas",
@@ -2370,6 +2445,11 @@
    "forever": "Nordpassturm",
    "use": "Nordpassturm"
   },
+  "Northwatch Hold": {
+   "classic": "Die Feste Northwatch",
+   "forever": "Die Feste Northwatch",
+   "use": "Die Feste Northwatch"
+  },
   "Old Ironforge": {
    "classic": "Alt-Ironforge",
    "use": "Alt-Ironforge"
@@ -2627,6 +2707,11 @@
   "Skywall": {
    "forever": "Der Himmelswall",
    "use": "Der Himmelswall"
+  },
+  "Slaughter Hollow": {
+   "classic": "Slaughter Hollow",
+   "forever": "Slaughter Hollow",
+   "use": "Slaughter Hollow"
   },
   "Sorrow Hill": {
    "classic": "Sorrow Hill",
@@ -2949,6 +3034,11 @@
    "forever": "Hinterland",
    "use": "Hinterland"
   },
+  "The Howling Vale": {
+   "classic": "Das heulende Tal",
+   "forever": "Das Heulende Tal",
+   "use": "Das Heulende Tal"
+  },
   "The Loch": {
    "classic": "Der Loch",
    "forever": "Der Loch",
@@ -3198,6 +3288,11 @@
    "forever": "Das Tal der Helden",
    "use": "Das Tal der Helden"
   },
+  "Valley of Honor": {
+   "classic": "Tal der Ehre",
+   "forever": "Das Tal der Ehre",
+   "use": "Das Tal der Ehre"
+  },
   "Valley of Kings": {
    "classic": "Tal der Könige",
    "forever": "Tal der Könige",
@@ -3277,6 +3372,11 @@
    "classic": "Windfurienkamm",
    "forever": "Windfurienkamm",
    "use": "Windfurienkamm"
+  },
+  "Windshear Crag": {
+   "classic": "Die Scherwindklippe",
+   "forever": "Die Scherwindklippe",
+   "use": "Die Scherwindklippe"
   },
   "Windsong Lake": {
    "forever": "Windweisensee",
@@ -3377,10 +3477,30 @@
    "forever": "Smaragdkreis",
    "use": "Smaragdkreis"
   },
+  "Engineering Supplies": {
+   "classic": "Ingenieursbedarf",
+   "forever": "Ingenieursbedarf",
+   "use": "Ingenieursbedarf"
+  },
+  "Expert Blacksmith": {
+   "classic": "Schmiedekunstexperte",
+   "forever": "Schmiedekunstexperte",
+   "use": "Schmiedekunstexperte"
+  },
+  "Expert Leathercrafter": {
+   "classic": "Ledermacherexperte",
+   "forever": "Ledermacherexperte",
+   "use": "Ledermacherexperte"
+  },
   "Gerard's Mindslave": {
    "classic": "Gerards Experiment",
    "forever": "Gerards Experiment",
    "use": "Gerards Experiment"
+  },
+  "High Chieftain": {
+   "classic": "Oberhäuptling",
+   "forever": "Oberhäuptling",
+   "use": "Oberhäuptling"
   },
   "High Priest": {
    "classic": "Hohepriester",
@@ -3396,6 +3516,11 @@
    "classic": "Jägerlehrer",
    "forever": "Jägerlehrer",
    "use": "Jägerlehrer"
+  },
+  "Journeyman Alchemist": {
+   "classic": "Alchimiegeselle",
+   "forever": "Alchimiegeselle",
+   "use": "Alchimiegeselle"
   },
   "Journeyman Leatherworker": {
    "classic": "Lederverarbeitungsgesellin",
@@ -3452,6 +3577,11 @@
    "forever": "Südmeerfreibeuter",
    "use": "Südmeerfreibeuter"
   },
+  "Speciality Goods": {
+   "classic": "Spezialwaren",
+   "forever": "Spezialwaren",
+   "use": "Spezialwaren"
+  },
   "Stonesplinter Chieftain": {
    "classic": "Häuptling der Splittersteintroggs",
    "forever": "Häuptling der Splittersteintroggs",
@@ -3501,6 +3631,16 @@
    "classic": "Unausgeglichener Ingenieur",
    "forever": "Unausgeglichener Ingenieur",
    "use": "Unausgeglichener Ingenieur"
+  },
+  "Venture Armor Salesman": {
+   "classic": "Vertreter der Venture Co. für Rüstungen",
+   "forever": "Vertreter der Venture Co. für Rüstungen",
+   "use": "Vertreter der Venture Co. für Rüstungen"
+  },
+  "Venture Co.": {
+   "classic": "Venture Co.",
+   "forever": "Venture Co.",
+   "use": "Venture Co."
   },
   "Weapon Dealer": {
    "classic": "Waffenanbieter",

@@ -1,7 +1,17 @@
 ---
-source: 059351186607
+source: 3a71fc994c09
 zone: 1443
 ---
+## desolace-narv
+Donde los viejos kodos del páramo van a echarse por última vez,
+los tauren mantienen un campamento al borde de los huesos,
+y su peletero tiene su propia opinión sobre el origen de las mejores pieles.
+Pregúntale.
+? El Campamento del Espíritu Errante, al borde del Cementerio de Kodos, en el centro de Desolace. Habla con el instructor de peletería.
+= Narv Curtepieles, del Campamento del Espíritu Errante: "Los mejores pellejos son las de los kodos que han venido a descansar en esta tierra yerma.".
++ El cementerio es un campo de huesos de kodo, y los viejos siguen llegando: kodos envejecidos, moribundos y ancianos caminan entre ellos.
+! Tranquilo
+
 ## desolace-tethris-aran
 Al norte de la fortaleza del Filo Ardiente, las piedras de un pueblo élfico yacen dispersas en el polvo.
 Ningún elfo vive allí desde que el mundo se quebró.

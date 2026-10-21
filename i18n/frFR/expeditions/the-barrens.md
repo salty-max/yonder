@@ -1,5 +1,5 @@
 ---
-source: a551a3583807
+source: dec4790b92af
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -40,6 +40,16 @@ et son petit garçon joue devant sa porte. Soyez $gamical:amicale;.
 = Pooka et son fils Mogg, au Rempart de Mor'shan : une famille, dans un camp de guerre.
 + Du père du garçon, le rempart ne dit rien.
 ! Calme pour la Horde, les gardes du rempart pour l'Alliance
+
+## the-barrens-northwatch
+Sur la côte sud des plaines, les soldats de Theramore tiennent un fort face à la Horde,
+et dans ses murs l'Alliance garde son propre récit des camps où elle retenait jadis les orcs,
+et du mal qu'aucun geôlier ne sut expliquer.
+Trouvez la page qui dit quel remède il faudrait.
+? Le Fort de Guet-du-Nord, sur la côte au sud de Cabestan. Dans le fort, lisez le récit de la léthargie des orcs.
+= La léthargie des orcs, au Fort de Guet-du-Nord. Antonidas de Dalaran jugea que cette léthargie n'était pas une maladie mais le sevrage des orcs, privés de la magie démoniaque qui coulait dans leur sang, et conclut que leur remède devrait être spirituel.
++ Et il le fut. Thrall, élevé en esclave à Fort-de-Durn, étudia le chamanisme oublié de son peuple et lui donna "une nouvelle identité spirituelle", comme le raconte le propre récit de la Horde, La nouvelle Horde.
+! Gardé (soldats de marine et protectrices de Theramore, niveaux 15 à 17, qui attaquent la Horde)
 
 ## the-barrens-fallen-warrior
 Non loin de la route la plus fréquentée des plaines, un court sentier gravit une colline

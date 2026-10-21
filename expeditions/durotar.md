@@ -14,6 +14,13 @@ riddles:
     hint_area: { x: 57.5, y: 36.5, r: 5 }
     danger: "Quiet (boars and raptors about)"
     sources: "Rokar Bladeshadow's own words (his gossip); the WoWWiki archive's Rokar Bladeshadow and Harroc pages; the dump (no quest)"
+  - id: durotar-miaozan
+    tier: near
+    creature: 3184   # Miao'zan, Journeyman Alchemist, dump 55.4, 74.0, in Sen'jin Village; Wowhead's point alike
+    found: target   # in the village: only by speaking to him
+    hint_area: { x: 56.5, y: 73.0, r: 3 }
+    danger: "Quiet"
+    sources: "Miao'zan's own words (his gossip); the client's display tables (a troll); Warcraft III: Reign of Chaos, Exodus of the Horde (the Darkspear's crossing, Sen'jin's death); the WoWWiki archive's Sen'jin Village and Sen'jin pages"
   - id: durotar-tiragarde
     tier: off
     reading: Rise of the Horde
@@ -35,6 +42,15 @@ Pay him the respect his years have earned.
 ? North-east of Razor Hill, east of Razorwind Canyon: a farmhouse, an old orc, and his farmhand in the garden. Bow to the old orc. He has earned it.
 = Rokar Bladeshadow, an aged orc farmer, and Harroc, his farmhand: 'What's a young one like you out visiting an old farmer like me?'
 + Harroc works the garden outside. Rokar keeps to the house, and to whatever he was before he was a farmer.
+
+## durotar-miaozan
+In the village the Darkspear raised on Durotar's southern shore,
+a troll alchemist had all the adventure he ever wanted on his people's way here.
+Now he stays by his bottles and lets others go looking for trouble.
+Ask him what he thinks of adventure.
+? Sen'jin Village, on the coast south of Razor Hill. Speak to the troll who teaches alchemy.
+= Miao'zan, alchemist of Sen'jin Village: 'You got the look of someone wantin' adventure. Me, I had enough of that by the time we trolls came here. Now I take each day as it comes, an' I train other folks to handle adventures for me.'
++ The village bears the name of Sen'jin, Vol'jin's father, the Darkspear leader who did not live to see this shore.
 
 ## durotar-tiragarde
 In the retaken keep on the red coast, find the chieftains gathered to drink from one cup.

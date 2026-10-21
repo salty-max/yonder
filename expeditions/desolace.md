@@ -6,6 +6,14 @@ client: both
 # trigger) or area (a sub-area of the game's; its hint placed by its map overlay, or an anchor inside
 # it: a creature, an object, a graveyard). gestures: the emotes it accepts, the story's own first.
 riddles:
+  - id: desolace-narv
+    tier: near
+    faction: horde   # its keeper attacks the other side: this side's alone
+    creature: 8153   # Narv Hidecrafter, Expert Leathercrafter, dump 55.3, 56.3, at Ghost Walker Post on the graveyard's edge; Wowhead's point alike
+    found: target   # in the camp: only by speaking to him
+    hint_area: { x: 56.5, y: 58.0, r: 4 }
+    danger: "Quiet"
+    sources: "Narv Hidecrafter's own words (his gossip); the dump's spawns and objects of the Kodo Graveyard (Kodo Bones, aged, dying and ancient kodo); the WoWWiki archive's Narv Hidecrafter page (Ghost Walker Post)"
   - id: desolace-tethris-aran
     tier: off
     gestures: [PONDER, THINK, SIGH, MOURN]
@@ -24,6 +32,15 @@ quarry:
   id: 14227   # Hissperak
   sources: "the dump's spawns and kind (a basilisk); Wowhead's sightings by the Kodo Graveyard and toward the Valley of Spears"
 ---
+## desolace-narv
+Where the old kodo of the waste walk to lie down for the last time,
+the tauren keep a post at the edge of the bones,
+and their leatherworker has an opinion on where the finest hides come from.
+Ask him.
+? Ghost Walker Post, on the edge of the Kodo Graveyard in the middle of Desolace. Speak to the leatherworking trainer.
+= Narv Hidecrafter, of Ghost Walker Post: 'The strongest hides come from those kodo that have laid themselves to rest in this wasteland.'
++ The graveyard is a field of kodo bones, and the old ones still come: aged, dying and ancient kodo walk among them.
+
 ## desolace-tethris-aran
 North of the Burning Blade's fortress, the stones of an elven town lie scattered in the dust.
 No elf has lived there since the world broke.

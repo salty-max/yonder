@@ -40,6 +40,13 @@ riddles:
     hint_area: { x: 47.5, y: 10.0, r: 3 }
     danger: "Quiet for the Horde, the rampart's guards for the Alliance"
     sources: "the WoWWiki archive's Pooka page (her son Mogg); the dump's spawns"
+  - id: the-barrens-northwatch
+    tier: off
+    reading: Lethargy of the Orcs
+    object: 175751   # dump 61.9, 55.2, in Northwatch Hold; Wowhead 61.8, 55.1 (another copy in Elwynn's Eastvale Logging Camp)
+    hint_area: { x: 61.0, y: 54.0, r: 4 }
+    danger: "Guarded (Theramore's marines and preservers, levels 15 to 17, who attack the Horde)"
+    sources: "object 175751's text; object 175752's text (The New Horde: Thrall's shamanism, a new spiritual identity); the dump's spawns of the hold (Gilthares Firebough, the captive of the Horde's Free From the Hold, 17 yards off, beyond the gates' reach); the WoWWiki archive's Northwatch Hold page"
   - id: the-barrens-fallen-warrior
     tier: hidden
     gestures: [SALUTE, BOW]
@@ -87,6 +94,15 @@ and her small son plays outside her door. Be friendly.
 ? The Mor'shan Rampart, at the Barrens' northern edge. Greet the child with a wave.
 = Pooka and her son Mogg, at the Mor'shan Rampart: a family, in a war camp.
 + Of the boy's father, the rampart says nothing.
+
+## the-barrens-northwatch
+On the plains' southern coast, Theramore's soldiers hold a fort against the Horde,
+and inside it the Alliance keeps its own account of the camps where it once held the orcs,
+and of the sickness no warden could explain.
+Find the page that says what kind of cure it would take.
+? Northwatch Hold, on the coast south of Ratchet. Inside the fort, read the account of the orcs' lethargy.
+= Lethargy of the Orcs, in Northwatch Hold. Antonidas of Dalaran judged the lethargy no disease but the orcs' withdrawal from the demonic magic in their blood, and concluded that their cure would have to be a spiritual one.
++ It was. Thrall, raised a slave in Durnholde, studied his people's forgotten shamanism and gave them 'a new spiritual identity', as the Horde's own account, The New Horde, tells it.
 
 ## the-barrens-fallen-warrior
 Not far from the busiest road of the plains, a short trail climbs a hill

@@ -1,5 +1,5 @@
 ---
-source: a551a3583807
+source: dec4790b92af
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -39,6 +39,16 @@ y su hijo pequeño juega ante la puerta. Sé amable.
 = Poká y su hijo Mogg, en la Empalizada de Mor'shan: una familia en un campamento militar.
 + Del padre del niño, la empalizada no dice nada.
 ! Tranquilo para la Horda, guardias de la empalizada para la Alianza
+
+## the-barrens-northwatch
+En la costa sur de las llanuras, los soldados de Theramore mantienen un fuerte frente a la Horda,
+y dentro guarda la Alianza su propio relato de los campos donde un día retuvo a los orcos,
+y del mal que ningún carcelero supo explicar.
+Encuentra la página que dice qué clase de cura haría falta.
+? Fuerte del Norte, en la costa al sur de Trinquete. Dentro del fuerte, lee el relato del letargo de los orcos.
+= El letargo de los orcos, en el Fuerte del Norte. Antonidas de Dalaran juzgó que el letargo no era una enfermedad sino la abstinencia de la magia demoníaca que corría por la sangre de los orcos, y concluyó que su cura tendría que ser espiritual.
++ Lo fue. Thrall, criado como esclavo en el Castillo de Durnholde, estudió el chamanismo olvidado de su pueblo y le dio "una nueva identidad espiritual", como cuenta el propio relato de la Horda, La nueva Horda.
+! Vigilado (marinos y valedoras de Theramore, niveles 15 a 17, que atacan a la Horda)
 
 ## the-barrens-fallen-warrior
 No lejos del camino más transitado de las llanuras, una senda sube por una colina

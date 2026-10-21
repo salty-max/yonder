@@ -6,6 +6,13 @@ client: both
 # trigger) or area (a sub-area of the game's; its hint placed by its map overlay, or an anchor inside
 # it: a creature, an object, a graveyard). gestures: the emotes it accepts, the story's own first.
 riddles:
+  - id: stonetalon-mountains-nizzik
+    tier: off
+    creature: 4085   # Nizzik, Venture Armor Salesman, dump 62.7, 40.2, on the Cragpool Lake waterwheel; Wowhead's point alike
+    found: target   # among the company's workers: only by speaking to him
+    hint_area: { x: 61.5, y: 41.5, r: 4 }
+    danger: "Guarded (Venture Co. engineers, builders and machine smiths, levels 20 to 22)"
+    sources: "the dump's spawns, faction (friendly to all) and wares; the client's display tables (a goblin); the WoWWiki archive's Nizzik page (the far platform of the Cragpool Lake waterwheel); object 19569 (the sign on the Webwinder Path)"
   - id: stonetalon-mountains-sun-rock
     tier: town
     faction: horde   # its town's: for that faction alone
@@ -18,6 +25,15 @@ quarry:
   id: 4030   # Vengeful Ancient
   sources: "the WoWWiki archive's Vengeful Ancient page (a treant roaming the Charred Vale); the dump's spawn and the flame spirits and burning destroyers of the vale"
 ---
+## stonetalon-mountains-nizzik
+In the stone mountains, the Venture Company fells the forest and works the lake,
+and its workers take every visitor for a thief.
+Out on the company's great wheel, one of its own sells armour to all comers.
+Business is business. Find the salesman.
+? Windshear Crag, at Cragpool Lake. Cross to the far platform of the Venture Co.'s waterwheel and speak to the goblin selling armour.
+= Nizzik, the Venture Co.'s armour salesman, on the waterwheel at Cragpool Lake: friendly to every traveller, among company workers who attack them all.
++ Down the Webwinder Path, the company has signposted where its claim stops: 'End of Venture Co. Lands'.
+
 ## stonetalon-mountains-sun-rock
 In the Horde's retreat among the stone mountains, an enchanter teaches,
 and he is as good as any in the world but one.

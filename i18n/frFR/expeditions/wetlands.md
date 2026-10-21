@@ -1,7 +1,17 @@
 ---
-source: 9dfb8f17003b
+source: 479e772ce774
 zone: 1437
 ---
+## wetlands-dun-modr
+Sur la route du nord vers le grand viaduc, les Sombrefer tiennent une ville naine déchue,
+et ils tuent quiconque monte par la route.
+L'un d'eux a trouvé un meilleur usage aux étrangers.
+Trouvez-le à l'auberge, où il tient boutique.
+? Dun Modr, sur la route du Viaduc de Thandol. Dans l'auberge de la ville en ruine, parlez au Sombrefer qui vend au lieu de se battre.
+= L'Entrepreneur Sombrefer, dans l'auberge de Dun Modr : amical envers tout voyageur, parmi les siens, qui ne le sont envers personne. Il vend de la dynamite puissante, une fusée de feu d'artifice rouge et tout le bel équipement qui lui passe entre les mains.
++ Dun Modr était une ville naine avant que les Sombrefer ne s'en emparent. Pendant la Seconde Guerre, l'Alliance s'y battit pour la reprendre à la Horde.
+! Périlleux (élites Sombrefer, niveaux 28 à 31)
+
 ## wetlands-sundown-marsh
 Au fond du marais, là où les crocilisques règnent sur l'eau,
 une naine et un gnome tiennent une maison de pierre avec un moulin à vent,
