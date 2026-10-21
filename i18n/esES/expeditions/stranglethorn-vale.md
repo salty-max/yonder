@@ -1,5 +1,5 @@
 ---
-source: e3247e4647b1
+source: 12d2d1caa3a1
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -9,6 +9,16 @@ cuando ya no pudieron pagar lo que exigía.
 ? Bahía del Botín. Abre el libro sobre el dios hambriento y sus seguidores.
 = La ira del Cazador de Almas, en Bahía del Botín. Los Gurubashi alimentaron con almas a Hakkar y después expulsaron al dios de la sangre y a los sacerdotes que aún lo servían. Estos huyeron al norte, a los pantanos.
 + Los Lanza Negra estuvieron entre las tribus que siguieron su propio camino tras aquella guerra. Y algunos hablaban de una profecía: Hakkar renacería un día y consumiría el mundo entero.
+! Tranquilo
+
+## stranglethorn-vale-brikk
+En el puerto de los goblins al final de la jungla, un goblin lleva la herrería,
+y el maestro de la forja de Orgrimmar, que no soporta a ningún goblin, le envía igualmente a sus mejores alumnos.
+No todos los que entran creen que sea el herrero.
+Pregúntale.
+? Bahía del Botín, en la herrería. Habla con el maestro herrero goblin.
+= Brikk Finoficio, Maestro herrero de Bahía del Botín: "¿Sí? Pues claro que soy un herrero. ¿Qué? ¿Crees que los enanos son los únicos que valen su peso en yunques? Muy bien, pues que así sea. ¡Encuentra a un enano que te ayude!".
++ Saru Furiacerada, que le envía a sus alumnos desde Orgrimmar: "No me gustan los goblins pero no conozco a nadie que sepa más que ellos del secreto del acero.".
 ! Tranquilo
 
 ## stranglethorn-vale-emperors-tomb

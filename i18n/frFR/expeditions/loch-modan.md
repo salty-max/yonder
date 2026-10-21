@@ -1,5 +1,5 @@
 ---
-source: f01af90f9121
+source: 3dede1683999
 zone: 1432
 ---
 ## loch-modan-valley-of-kings
@@ -12,6 +12,16 @@ face au sud, où le troisième attisait ses feux sous la voûte.
 + Toute la guerre est dans une histoire naine, La guerre des trois clans : l'invocation de Thaurissan réveilla Ragnaros, et les statues "servaient d'avertissement à quiconque voudrait attaquer les royaumes des nains et rappelaient le prix que les Sombrefer avaient payé pour leurs crimes."
 ! Calme
 @ Vallée des rois
+
+## loch-modan-stonewrought-dam
+À la tête du loch, les nains ont fermé une vallée d'un mur de pierre
+et retenu derrière lui la fonte des neiges de la montagne.
+Le lac qu'ils ont créé fait plus du double de celui qu'ils avaient trouvé.
+On compte leur mur parmi les merveilles du monde. Montez dessus et voyez pourquoi.
+? Le Barrage de Formepierre, au nord du Loch Modan. Depuis le barrage, contemplez le loch avec émerveillement.
+= Le Barrage de Formepierre, le mur des nains en travers de la tête du Loch Modan : il retient la fonte des neiges de la montagne de Forgefer et a plus que doublé le loch.
++ Peu le savent, mais le barrage est l'oeuvre d'un Sombrefer : Franclorn Forgewright, maître architecte d'avant la guerre des trois clans. "Formepierre" était le nom donné à ses ouvrages.
+! Gardé pour la Horde (les montagnards du barrage et l'Ingénieur en chef Hinderweir VII, niveau 40), saboteurs Sombrefer pour tous
 
 ## loch-modan-horde-runners
 Trois de la Horde courent sur la rive est du Loch,

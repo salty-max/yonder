@@ -1,5 +1,5 @@
 ---
-source: 0cb2563d524f
+source: 2337d6334587
 zone: 1423
 ---
 ## eastern-plaguelands-mirador
@@ -10,6 +10,16 @@ Gánate la amistad del caballo.
 = Mirador, el caballo de Tirión Vadín, fuera de la cabaña donde su amo vive exiliado.
 + Tirion perdió sus tierras y su título por salvar a un orco, Eitrigg, que antes le había perdonado la vida.
 ! Tranquilo
+
+## eastern-plaguelands-pestilent-scar
+En el este apestado, la tierra se hunde en un profundo desfiladero,
+quizá un lago que se secó cuando llegó la peste.
+Ahora solo viven cienos en su fondo.
+Encuentra su borde, cuida dónde pisas y comprueba hasta dónde cae.
+? La Cicatriz Pestilente, al sureste de las Tierras de la Peste del Este. Desde su borde, escudriña sus profundidades.
+= La Cicatriz Pestilente: un hondo precipicio en la tierra arruinada. A diferencia de La Cicatriz Purulenta, parece obra de la propia tierra: un desfiladero natural, quizá un lago que la peste secó.
++ Sus cienos son hijos de la propia peste: pútridos vivientes y lodos en podredumbre, al fondo de la caída.
+! Peligroso (la Plaga y los cienos de la cicatriz, niveles 54 a 60)
 
 ## eastern-plaguelands-adon
 En el extremo norte de la tierra muerta, donde el camino sube hacia el reino de los elfos,

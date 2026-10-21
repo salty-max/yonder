@@ -47,6 +47,14 @@ riddles:
     hint_area: { x: 61.0, y: 54.0, r: 4 }
     danger: "Guarded (Theramore's marines and preservers, levels 15 to 17, who attack the Horde)"
     sources: "object 175751's text; object 175752's text (The New Horde: Thrall's shamanism, a new spiritual identity); the dump's spawns of the hold (Gilthares Firebough, the captive of the Horde's Free From the Hold, 17 yards off, beyond the gates' reach); the WoWWiki archive's Northwatch Hold page"
+  - id: the-barrens-waldor
+    tier: off
+    creature: 5784   # Waldor, Journeyman Leatherworker, dump 46.0, 35.9, in an eye socket of the Wailing Caverns' skull
+    found: target   # among the caverns' visitors: only by speaking to him
+    position_check: questie   # Wowhead's tooltip gives no point: Questie's 46.0, 35.9 against the dump's spawn
+    hint_area: { x: 47.0, y: 36.5, r: 3 }
+    danger: "Guarded (elite deviate creepers and coilers, levels 15 and 16, at the caverns' mouth)"
+    sources: "Waldor's own words (his gossip, a novice's and an expert's); Questie's coordinates (no Wowhead point); the client's display tables (a tauren); the WoWWiki archive's Waldor page (the cave in the right eye socket of the skull at the Wailing Caverns' entrance)"
   - id: the-barrens-fallen-warrior
     tier: hidden
     gestures: [SALUTE, BOW]
@@ -103,6 +111,15 @@ Find the page that says what kind of cure it would take.
 ? Northwatch Hold, on the coast south of Ratchet. Inside the fort, read the account of the orcs' lethargy.
 = Lethargy of the Orcs, in Northwatch Hold. Antonidas of Dalaran judged the lethargy no disease but the orcs' withdrawal from the demonic magic in their blood, and concluded that their cure would have to be a spiritual one.
 + It was. Thrall, raised a slave in Durnholde, studied his people's forgotten shamanism and gave them 'a new spiritual identity', as the Horde's own account, The New Horde, tells it.
+
+## the-barrens-waldor
+In the oasis, a great skull opens its mouth onto the caverns below,
+and few travellers think to climb into its eyes.
+A leatherworker lives in one of them, and knows what the deep caves are good for.
+Ask him.
+? Lushwater Oasis, at the Wailing Caverns' great skull. Climb into one of its eyes and speak to the leatherworker there.
+= Waldor, leatherworker in the skull's eye: 'The caverns below us are a source of strange and wondrous hides, but you must take care if you venture into their depths. Remember that your own skin is far more valuable.'
++ Those whose skill outgrows his, he sends to Krulmoo Fullmoon, in Camp Taurajo.
 
 ## the-barrens-fallen-warrior
 Not far from the busiest road of the plains, a short trail climbs a hill

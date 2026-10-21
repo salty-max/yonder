@@ -1,5 +1,5 @@
 ---
-source: 57027b7100cd
+source: a59de5bd7e95
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -10,6 +10,16 @@ Die Stadt bewahrt den Bericht unter ihren Büchern.
 = Alter Hass - Die Kolonialisierung von Kalimdor, in Gadgetzan: Durotar, nach Thralls Vater benannt, und Jaina Proudmoore gegen ihren Vater, den Großadmiral.
 + Er starb, bevor sie sich mit ihm versöhnen konnte. Für ihre Treue ließen die Orcs ihre Streitkräfte in Frieden nach Theramore heimkehren.
 ! Bewacht für die Horde (Bera Stonehammer, die Greifenmeisterin der Allianz, Stufe 55, steht ganz in der Nähe), ruhig für die Allianz
+
+## tanaris-buzzek
+In der Stadt der Goblins in der Wüste hat ein Ingenieur eine große Idee:
+Öl unter der Erde von einer großen Stadt zur nächsten zu leiten.
+Alle, denen er davon erzählt, geben ihm dieselbe Antwort.
+Frag ihn, welche.
+? Gadgetzan, vor der mittleren Hütte beim Briefkasten. Sprich mit dem Meisteringenieur.
+= Buzzek Bracketswing, Meisteringenieur in Gadgetzan: 'Ich arbeite an einer Methode, Öl unter der Erde zwischen großen Städten zu transportieren, aber alle behaupten, damit würde ich in die Röhre kucken.'
++ Gadgetzan gehört zum Steamwheedle-Kartell, wie Booty Bay, Ratchet und Everlook.
+! Ruhig
 
 ## tanaris-zalashji
 Östlich der Stadt der Goblins hat ein Naga einen Bau in den Felsen

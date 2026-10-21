@@ -1,5 +1,5 @@
 ---
-source: e3247e4647b1
+source: 12d2d1caa3a1
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -9,6 +9,16 @@ als sie nicht mehr zahlen konnten, was er verlangte.
 ? Booty Bay. Öffne das Buch über den hungrigen Gott und seine Anhänger.
 = Der Zorn des Seelenschinders, in Booty Bay. Die Gurubashi fütterten Hakkar mit Seelen und vertrieben dann den Blutgott und die Priester, die ihm noch dienten. Diese Priester flohen nach Norden in die Sümpfe.
 + Die Dunkelspeer gehörten zu den Stämmen, die nach diesem Krieg ihre eigenen Wege gingen. Und manche sprachen von einer Prophezeiung, Hakkar werde eines Tages wiedergeboren und die ganze Welt verschlingen.
+! Ruhig
+
+## stranglethorn-vale-brikk
+Im Hafen der Goblins am Ende des Dschungels führt ein Goblin die Schmiede,
+und der Meister der Schmiede von Orgrimmar, der keinen Goblin leiden kann, schickt ihm trotzdem seine besten Schüler.
+Nicht jeder, der hereinkommt, glaubt, dass er der Schmied ist.
+Frag ihn.
+? Booty Bay, in der Schmiede. Sprich mit dem Goblin, der Meisterschmied ist.
+= Brikk Keencraft, Meisterschmied von Booty Bay: 'Was ist? Natürlich bin ich ein Schmied. Glaubt Ihr etwa, Zwerge wären die Einzigen, die mit einem Amboss umgehen können? Wenn Ihr das so seht, bitte sehr. Sucht einen Zwerg, der Euch hilft!'
++ Saru Steelfury, der ihm seine Schüler aus Orgrimmar schickt: 'Ich mag Goblins nicht, aber sein Wissen um das Geheimnis des Stahls ist unübertroffen.'
 ! Ruhig
 
 ## stranglethorn-vale-emperors-tomb

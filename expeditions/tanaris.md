@@ -13,6 +13,13 @@ riddles:
     hint_area: { x: 51.5, y: 28.5, r: 3 }
     danger: "Guarded for the Horde (Bera Stonehammer, the Alliance's gryphon master, level 55, stands close), quiet for the Alliance"
     sources: "object 175763's text"
+  - id: tanaris-buzzek
+    tier: near
+    creature: 8736   # Buzzek Bracketswing, Master Engineer, dump 52.3, 27.7, in Gadgetzan by the mailbox; Wowhead 52.2, 27.6
+    found: target   # in the town: only by speaking to him
+    hint_area: { x: 53.0, y: 26.5, r: 3 }
+    danger: "Quiet"
+    sources: "Buzzek Bracketswing's own words (his gossip); the client's display tables (a goblin); the WoWWiki archive's Buzzek Bracketswing page (in front of the middle hut, by the mailbox); Gadgetzan's faction (the Steamwheedle Cartel's)"
   - id: tanaris-zalashji
     tier: off
     gestures: [WAVE, HELLO, GREET, BOW, HAIL]
@@ -38,6 +45,15 @@ The town keeps the account among its books.
 ? Gadgetzan. Read the account of the daughter and her father's war.
 = Old Hatreds - The Colonization of Kalimdor, in Gadgetzan: Durotar named for Thrall's father, and Jaina Proudmoore against her father, the Grand Admiral.
 + He died before she could reconcile with him. For her loyalty, the orcs let her forces go home to Theramore in peace.
+
+## tanaris-buzzek
+In the goblins' town in the desert, an engineer has a grand idea:
+to carry oil under the ground from one great city to the next.
+Everyone he tells answers him with the same two words.
+Ask him what they are.
+? Gadgetzan, in front of the middle hut, by the mailbox. Speak to the master engineer.
+= Buzzek Bracketswing, Master Engineer of Gadgetzan: 'I've been working on a way to transport oil underground between major cities, but everyone tells me it's a pipe dream.'
++ Gadgetzan belongs to the Steamwheedle Cartel, as Booty Bay, Ratchet and Everlook do.
 
 ## tanaris-zalashji
 East of the goblins' town, a naga keeps a den in the rocks,

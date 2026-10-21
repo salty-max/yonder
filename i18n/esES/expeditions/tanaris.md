@@ -1,5 +1,5 @@
 ---
-source: 57027b7100cd
+source: a59de5bd7e95
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -10,6 +10,16 @@ El pueblo guarda el relato entre sus libros.
 = Antiguas rencillas: la colonización de Kalimdor, en Gadgetzan: Durotar, llamado así por el padre de Thrall, y Jaina Valiente contra su padre, el gran almirante.
 + Él murió antes de que ella pudiera reconciliarse con él. Por su lealtad, los orcos dejaron que sus fuerzas volvieran en paz a Isla de Theramore.
 ! Vigilado para la Horda (Bera Rocamartillo, maestra de grifos de la Alianza, de nivel 55, está muy cerca), tranquilo para la Alianza
+
+## tanaris-buzzek
+En la ciudad de los goblins en el desierto, un ingeniero tiene una gran idea:
+llevar petróleo bajo tierra de una gran ciudad a la siguiente.
+Todos a los que se lo cuenta le dan la misma respuesta.
+Pregúntale cuál.
+? Gadgetzan, delante de la cabaña del medio, junto al buzón. Habla con el maestro ingeniero.
+= Buzzek Giracorchete, Maestro ingeniero de Gadgetzan: "He estado trabajando en una forma de transportar petróleo bajo tierra entre las ciudades más importantes, pero todos dicen que son castillos en el aire.".
++ Gadgetzan pertenece al Cártel Bonvapor, como Bahía del Botín, Trinquete y Vista Eterna.
+! Tranquilo
 
 ## tanaris-zalashji
 Al este del pueblo goblin, un naga tiene una guarida entre las rocas

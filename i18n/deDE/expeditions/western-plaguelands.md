@@ -1,5 +1,5 @@
 ---
-source: f4983bc3afdd
+source: bd607e27d005
 zone: 1422
 ---
 ## western-plaguelands-chillwind
@@ -20,6 +20,16 @@ Sein Stein hat dem etwas zu sagen, der bei ihm stehen bleibt.
 = Die Tafel von Uther Lightbringer, dem Ersten Paladin und Gründer des Ordens der Silbernen Hand, der lebte und starb, um Lordaeron zu verteidigen, und von seinem liebsten Schüler verraten wurde. Sie ist unterzeichnet: Anonymus.
 + Uther hatte König Terenas' Urne bei sich, als sein Schüler ihn tötete. Der Prinz nahm sie vom Leichnam seines Meisters.
 ! Bewacht (Ghule und Skelette, bis Stufe 52)
+
+## western-plaguelands-darrowmere
+Im gefallenen Königreich liegt der größte See dieser Lande,
+in seiner Mitte eine Inselstadt und das Haus einer adligen Familie,
+und unter dem Haus eine Schule, die lehrt, Tote zu erwecken.
+Von seinem Ufer aus ist die Insel über das Wasser hinweg noch zu sehen.
+? Der Darrowmeresee, im Südosten der Westlichen Pestländer. Blicke vom Ufer aus hinüber zur Insel.
+= Der Darrowmeresee, der größte See der Östlichen Königreiche. Auf der Insel in seiner Mitte stehen Caer Darrow und das Haus Barov, tief darunter die Scholomance.
++ An seinem Ostufer hält ein Wind von den Gipfeln des Hinterlands den Pestnebel dünner als irgendwo sonst in den Pestländern, und das Wasser zeigt dort noch das Blau des Himmels.
+! Gefährlich (das Land der Geißel, Stufe 55 bis 60)
 
 ## quarry
 In einer Höhle über dem Fluss am östlichen Rand der Seuche

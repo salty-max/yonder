@@ -24,6 +24,13 @@ riddles:
     quest_overlap: [8149, 8414, 8416]
     quest_context: "Honoring a Hero (the Harvest Festival) asks for an offering at the statue, and High Priest Thel'danis, the tomb's caretaker, ends Dispelling Evil and gives Inert Scourgestones beside it. Yonder asks only that the plaque be read, with no quest, offering or festival."
     sources: "the plaque's own words (readable object 2082, the dump's page_text 292); warcraft.wiki.gg's Uther's Tomb page (the great tomb south of Andorhal where his soldiers buried him, High Priest Thel'danis its caretaker, Arthas taking King Terenas's urn from his master's body)"
+  - id: western-plaguelands-darrowmere
+    tier: hidden
+    gestures: [GAZE, LOOK, PEER, STARE]
+    area: Darrowmere Lake   # placed: the client's overlay: 68.4, 73.7 (the island in its middle)
+    hint_area: { x: 68.5, y: 74.5, r: 8 }
+    danger: "Perilous (the Scourge's lands, levels 55 to 60)"
+    sources: "the client's AreaTable and overlay; the WoWWiki archive's Darrowmere Lake page (the largest lake of the Eastern Kingdoms, Caer Darrow and the House of Barov, the Scholomance below; the plague mist thinnest on its eastern side) and Caer Darrow page"
 quarry:
   id: 1851   # The Husk
   sources: "the WoWWiki archive's The Husk and The Weeping Cave pages; the pinned dump's spawn and creature_ai_scripts (17230 Infected Wound); the dump's loot (Living Essence, 96%; Firebloom, Icecap, Sungrass)"
@@ -44,6 +51,15 @@ His stone has something to say to whoever stops beside it.
 ? Uther's Tomb, on Sorrow Hill south of Andorhal: read the plaque before the statue.
 = The plaque of Uther the Lightbringer, First Paladin and Founder of the Order of the Silver Hand, who lived and died to defend Lordaeron and was betrayed by his most beloved student. It is signed: Anonymous.
 + Uther had King Terenas's urn with him when his student killed him. The prince took it from his master's body.
+
+## western-plaguelands-darrowmere
+In the fallen kingdom lies the greatest lake of these lands,
+and in its middle an island town, and a noble family's house,
+and under the house a school that teaches the raising of the dead.
+From its shore, the island is still in sight across the water.
+? Darrowmere Lake, in the Western Plaguelands' south-east. From its shore, gaze across at the island.
+= Darrowmere Lake, the largest lake of the Eastern Kingdoms. On the island at its heart stand Caer Darrow and the House of Barov, with the Scholomance deep beneath them.
++ On its eastern side, a wind off the Hinterlands' peaks keeps the plague mist thinner than anywhere else in the Plaguelands, and the water still shows the blue of the sky.
 
 ## quarry
 In a cave above the river at the plague's eastern edge,

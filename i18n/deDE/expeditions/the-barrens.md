@@ -1,5 +1,5 @@
 ---
-source: dec4790b92af
+source: 19e7cc89ec17
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -50,6 +50,16 @@ Finde die Seite, die sagt, welches Heilmittel nötig wäre.
 = Die Lethargie der Orcs, in der Feste Northwatch. Antonidas von Dalaran hielt die Lethargie für keine Krankheit, sondern für den Entzug der dämonischen Magie in ihrem Blut, und schloss, dass ihr Heilmittel ein geistiges sein müsse.
 + So war es. Thrall, als Sklave in Burg Durnholde aufgewachsen, erlernte den vergessenen Schamanismus seines Volkes und gab ihm 'eine neue spirituelle Identität', wie es der eigene Bericht der Horde, Die neue Horde, erzählt.
 ! Bewacht (Marinesoldaten und Bewahrerinnen von Theramore, Stufe 15 bis 17, die die Horde angreifen)
+
+## the-barrens-waldor
+In der Oase öffnet ein großer Schädel sein Maul zu den Höhlen darunter,
+und nur wenige Reisende kommen darauf, in seine Augenhöhlen zu klettern.
+Ein Lederverarbeiter lebt in einer davon und weiß, was die tiefen Höhlen wert sind.
+Frag ihn.
+? Die Blühende Oase, am großen Schädel der Höhlen des Wehklagens. Klettere in eine seiner Augenhöhlen und sprich mit dem Lederverarbeiter dort.
+= Waldor, Lederverarbeiter in der Augenhöhle des Schädels: 'Die Höhlen unter uns sind eine Quelle merkwürdiger und wundersamer Bälge, aber Ihr müsst Euch in Acht nehmen, wenn Ihr in ihre Tiefen vordringt. Denkt daran, dass Eure eigene Haut viel wertvoller ist.'
++ Wem seine Lehre nicht mehr genügt, den schickt er zu Krulmoo Fullmoon nach Camp Taurajo.
+! Bewacht (elitäre Deviatkrabbler und Deviatwinder, Stufe 15 und 16, am Eingang der Höhlen)
 
 ## the-barrens-fallen-warrior
 Nicht weit von der belebtesten Straße der Ebenen steigt ein kurzer Pfad einen Hügel hinauf

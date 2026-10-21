@@ -1,5 +1,5 @@
 ---
-source: 57027b7100cd
+source: a59de5bd7e95
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -10,6 +10,16 @@ La ville en garde le récit parmi ses livres.
 = Anciennes haines - La colonisation de Kalimdor, à Gadgetzan : Durotar, nommé d'après le père de Thrall, et Jaina Proudmoore contre son père, le grand amiral.
 + Il mourut avant qu'elle ne puisse se réconcilier avec lui. "En remerciement de sa loyauté, les orcs permirent à Jaina et à ses forces de revenir en toute sécurité à Theramore."
 ! Gardé pour la Horde (Bera Stonehammer, maîtresse des gryphons de l'Alliance, niveau 55, se tient tout près), calme pour l'Alliance
+
+## tanaris-buzzek
+Dans la ville des gobelins au milieu du désert, un ingénieur a une grande idée :
+faire passer du pétrole sous terre d'une grande ville à l'autre.
+Tous ceux à qui il en parle lui font la même réponse.
+Demandez-lui laquelle.
+? Gadgetzan, devant la hutte du milieu, près de la boîte aux lettres. Parlez à l'ingénieur maître.
+= Buzzek Bracketswing, Ingénieur - Maître à Gadgetzan : "Je travaille sur un moyen de transporter du pétrole sous terre entre deux grandes villes, mais tout le monde me dit que pour financer ça, il faudrait voler au duc."
++ Gadgetzan appartient au Cartel Gentepression, comme Baie-du-Butin, Cabestan et Long-Guet.
+! Calme
 
 ## tanaris-zalashji
 À l'est de la ville des gobelins, un naga tient une tanière dans les rochers,

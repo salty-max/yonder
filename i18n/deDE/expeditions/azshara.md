@@ -1,5 +1,5 @@
 ---
-source: 645b4b05ac19
+source: 9b73d4d9a549
 zone: 1447
 ---
 ## azshara-ravencrest
@@ -22,6 +22,16 @@ Innerhalb ihres Rings ist der See selbst ruhig. Komm an ihnen vorbei und erfrisc
 + Mazthorils Höhlen in Winterspring sind eine weitere Zuflucht des blauen Drachenschwarms außerhalb von Nordend.
 ! Gefährlich (die blauen Drachkin rund um den See, Stufe 50 bis 53)
 @ Mennarsee
+
+## azshara-eldara
+Jenseits der Bucht der Stürme, an der äußersten Spitze des Landes,
+haben die Elfen des alten Reiches einen Turm hinterlassen und ihn hinter sich verschlossen.
+Niemand hat ihn seitdem geöffnet.
+Finde seine Tür. Niemand weiß, was er birgt.
+? Der Turm von Eldara, an der Nordostspitze von Azshara, jenseits der Bucht der Stürme. Grüble vor dem verschlossenen Turm darüber nach, was er birgt.
+= Der Turm von Eldara: ein Stück der Zivilisation der Nachtelfen, die einst fast ganz Azshara bedeckte, verschlossen und verlassen an der Spitze des Landes.
++ Das ganze Land trägt noch immer den Namen der Königin, die über diese Zivilisation herrschte und die Brennende Legion in die Welt holte.
+! Gefährlich (Makrinnischarrer, Wellenhauer und Sturmbuchtkrieger, Stufe 51 bis 53)
 
 ## azshara-valormok
 Im Lager der Horde in der elfischen Wildnis erinnert sich ein Orc an die Zeit, als er und sein Bruder

@@ -15,6 +15,13 @@ riddles:
     quest_overlap: [5742]
     quest_context: "Redemption, and the chain after it, is Tirion Fordring's story, told beside his horse. Yonder asks only a hand on Mirador, with no quest."
     sources: "the WoWWiki archive's Mirador page; Of Blood and Honor (2001: Tirion, Eitrigg, the exile); the dump's spawn"
+  - id: eastern-plaguelands-pestilent-scar
+    tier: off
+    gestures: [PEER, LOOK, STARE, SHIVER]
+    area: Pestilent Scar   # placed: the client's overlay: 74.1, 62.5
+    hint_area: { x: 72.0, y: 60.0, r: 6 }
+    danger: "Perilous (the Scourge and the scar's oozes, levels 54 to 60)"
+    sources: "the client's AreaTable and overlay; the dump's spawns (living decay and rotting sludge in the scar); the WoWWiki archive's Pestilent Scar page (a natural gorge unlike the Infectis Scar, perhaps a lake the plague dried up, oozes, a fatal fall)"
   - id: eastern-plaguelands-adon
     tier: hidden
     gestures: [BOW, SALUTE, GREET, WAVE, HELLO, HAIL]
@@ -33,6 +40,15 @@ Make a friend of the horse.
 ? The Thondroril River, at the Eastern Plaguelands' western edge, by a cottage. Pet the horse waiting outside the cottage.
 = Mirador, the horse of Tirion Fordring, outside the cottage where his master lives in exile.
 + Tirion lost his lands and his title for saving the life of an orc, Eitrigg, who had once spared his own.
+
+## eastern-plaguelands-pestilent-scar
+In the plagued east, the earth falls away into a deep gorge,
+perhaps a lake that dried up when the plague came.
+Only oozes live at its bottom now.
+Find its edge, mind your footing, and see how far it falls.
+? The Pestilent Scar, in the Eastern Plaguelands' south-east. From its edge, peer down into it.
+= The Pestilent Scar: a deep pitfall in the blighted earth. Unlike the Infectis Scar, it seems the land's own: a natural gorge, perhaps a lake the plague dried up.
++ Its oozes are the plague's own kind: living decay and rotting sludge, at the bottom of the fall.
 
 ## eastern-plaguelands-adon
 At the dead country's northern end, where the road climbs toward the elves' kingdom,

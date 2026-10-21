@@ -15,6 +15,13 @@ riddles:
     quest_overlap: [2843]
     quest_context: "Gnomer-gooooone! waits on Scooty and his transponder beside the shelf. Yonder asks only that the book be read, with no quest."
     sources: "object 175856's text"
+  - id: stranglethorn-vale-brikk
+    tier: near
+    creature: 2836   # Brikk Keencraft, Master Blacksmith, dump 29.0, 75.6, in Booty Bay's smithy; Wowhead 29.0, 75.4
+    found: target   # in the town: only by speaking to him
+    hint_area: { x: 28.0, y: 74.5, r: 3 }
+    danger: "Quiet"
+    sources: "Brikk Keencraft's own words (his gossip: a stranger's, a novice's, an artisan's); Saru Steelfury's words to an artisan smith in Orgrimmar ('I do not like Goblins but his knowledge of the secret of steel is unmatched by any I know of'); the client's display tables (a goblin); the WoWWiki archive's Brikk Keencraft page"
   - id: stranglethorn-vale-emperors-tomb
     tier: hidden
     gestures: [BOW, KNEEL]
@@ -43,6 +50,15 @@ when they could no longer pay what he demanded.
 ? Booty Bay. Open the book about the hungry god and his followers.
 = Wrath of Soulflayer, in Booty Bay. The Gurubashi fed souls to Hakkar, then drove out the blood god and the priests who still served him. Those priests fled north to the swamps.
 + The Darkspear were among the tribes that went their own way after that war. And some spoke of a prophecy, that Hakkar would one day be reborn and consume the world whole.
+
+## stranglethorn-vale-brikk
+In the goblins' port at the jungle's end, a goblin keeps the smithy,
+and the master of Orgrimmar's forge, who likes no goblin, sends his best pupils to him all the same.
+Not everyone who walks in believes he is the smith.
+Ask him.
+? Booty Bay, in the smithy. Speak to the goblin master blacksmith.
+= Brikk Keencraft, Master Blacksmith of Booty Bay: 'Yeah? Of course I'm a smith. What, you think Dwarves are the only ones worth their weight in anvils? Fine, be that way. Go get a dwarf to help you!'
++ Saru Steelfury, who sends him his pupils from Orgrimmar: 'I do not like Goblins but his knowledge of the secret of steel is unmatched by any I know of.'
 
 ## stranglethorn-vale-emperors-tomb
 In the north-western ruins of the troll empire that ruled the south

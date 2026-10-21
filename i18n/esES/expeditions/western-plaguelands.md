@@ -1,5 +1,5 @@
 ---
-source: f4983bc3afdd
+source: bd607e27d005
 zone: 1422
 ---
 ## western-plaguelands-chillwind
@@ -20,6 +20,16 @@ Su piedra tiene algo que decir a quien se detenga a su lado.
 = La placa de Uther el Iluminado, primer paladín y fundador de la Orden de la Mano de Plata, que vivió y murió por defender Lordaeron y fue traicionado por su alumno más querido. Está firmada: Anónimo.
 + Uther llevaba consigo la urna del rey Terenas cuando su alumno lo mató. El príncipe se la quitó del cuerpo de su maestro.
 ! Vigilado (necrófagos y esqueletos, hasta nivel 52)
+
+## western-plaguelands-darrowmere
+En el reino caído se extiende el lago más grande de estas tierras,
+y en su centro una ciudad en una isla, y la casa de una familia noble,
+y bajo la casa una escuela que enseña a alzar a los muertos.
+Desde su orilla, la isla sigue a la vista, al otro lado del agua.
+? El Lago Darrowmere, al sureste de las Tierras de la Peste del Oeste. Desde la orilla, contempla la isla.
+= El Lago Darrowmere, el lago más grande de los Reinos del Este. En la isla de su centro se alzan Castel Darrow y la Casa Barov, con la Scholomance en lo más hondo, bajo ellas.
++ En su orilla este, un viento que baja de las cumbres de las Tierras del Interior mantiene la niebla de la peste más tenue que en ningún otro lugar de las Tierras de la Peste, y el agua aún refleja el azul del cielo.
+! Peligroso (las tierras de la Plaga, niveles 55 a 60)
 
 ## quarry
 En una cueva sobre el río, en el extremo oriental de la peste,

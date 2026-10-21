@@ -277,6 +277,11 @@
    "forever": "Geist",
    "use": "Geist"
   },
+  "Steamwheedle Cartel": {
+   "classic": "Steamwheedle-Kartell",
+   "forever": "Steamwheedle-Kartell",
+   "use": "Steamwheedle-Kartell"
+  },
   "Stormwind": {
    "classic": "Stormwind",
    "forever": "Stormwind",
@@ -437,6 +442,11 @@
    "forever": "Bowen Brisboise",
    "use": "Bowen Brisboise"
   },
+  "Brikk Keencraft": {
+   "classic": "Brikk Keencraft",
+   "forever": "Brikk Keencraft",
+   "use": "Brikk Keencraft"
+  },
   "Brimgore": {
    "classic": "Brimgore",
    "forever": "Brimgore",
@@ -455,6 +465,11 @@
    "classic": "Bunthen Plainswind",
    "forever": "Bunthen Plainswind",
    "use": "Bunthen Plainswind"
+  },
+  "Buzzek Bracketswing": {
+   "classic": "Buzzek Bracketswing",
+   "forever": "Buzzek Bracketswing",
+   "use": "Buzzek Bracketswing"
   },
   "Cairne Bloodhoof": {
    "classic": "Cairne Bloodhoof",
@@ -480,6 +495,11 @@
    "classic": "Eingefangener Hengst",
    "forever": "Eingefangener Hengst",
    "use": "Eingefangener Hengst"
+  },
+  "Chief Engineer Hinderweir VII": {
+   "classic": "Chefingenieur Hinderweir VII.",
+   "forever": "Chefingenieur Hinderweir VII.",
+   "use": "Chefingenieur Hinderweir VII."
   },
   "Commander Althea Ebonlocke": {
    "classic": "Kommandantin Althea Ebonlocke",
@@ -792,6 +812,11 @@
    "classic": "Knot Thimblejack",
    "forever": "Knot Thimblejack",
    "use": "Knot Thimblejack"
+  },
+  "Krulmoo Fullmoon": {
+   "classic": "Krulmoo Fullmoon",
+   "forever": "Krulmoo Fullmoon",
+   "use": "Krulmoo Fullmoon"
   },
   "Lady Jaina Proudmoore": {
    "classic": "Lady Jaina Proudmoore",
@@ -1358,6 +1383,11 @@
    "classic": "Vultros",
    "forever": "Vultros",
    "use": "Vultros"
+  },
+  "Waldor": {
+   "classic": "Waldor",
+   "forever": "Waldor",
+   "use": "Waldor"
   },
   "Wallace the Blind": {
    "classic": "Wallace der Blinde",
@@ -2473,6 +2503,11 @@
    "forever": "Bleichmähnenfels",
    "use": "Bleichmähnenfels"
   },
+  "Pestilent Scar": {
+   "classic": "Pestilenznarbe",
+   "forever": "Pestilenznarbe",
+   "use": "Pestilenznarbe"
+  },
   "Plaguemist Ravine": {
    "classic": "Seuchennebelklamm",
    "forever": "Seuchennebelklamm",
@@ -3039,6 +3074,11 @@
    "forever": "Das Heulende Tal",
    "use": "Das Heulende Tal"
   },
+  "The Infectis Scar": {
+   "classic": "Die Infektnarbe",
+   "forever": "Die Infektnarbe",
+   "use": "Die Infektnarbe"
+  },
   "The Loch": {
    "classic": "Der Loch",
    "forever": "Der Loch",
@@ -3243,6 +3283,11 @@
    "classic": "Tirisfal",
    "forever": "Tirisfal",
    "use": "Tirisfal"
+  },
+  "Tower of Eldara": {
+   "classic": "Turm von Eldara",
+   "forever": "Turm von Eldara",
+   "use": "Turm von Eldara"
   },
   "Trade District": {
    "classic": "Der Handelsdistrikt",
@@ -3452,6 +3497,11 @@
    "forever": "Zirkel des Cenarius",
    "use": "Zirkel des Cenarius"
   },
+  "Chief Engineer": {
+   "classic": "Chefingenieur",
+   "forever": "Chefingenieur",
+   "use": "Chefingenieur"
+  },
   "Crazy Cat Lady": {
    "classic": "Verrückte Katzenfrau",
    "forever": "Verrückte Katzenfrau",
@@ -3512,6 +3562,11 @@
    "forever": "Läufer der Horde",
    "use": "Läufer der Horde"
   },
+  "House of Barov": {
+   "classic": "Haus Barov",
+   "forever": "Haus Barov",
+   "use": "Haus Barov"
+  },
   "Hunter Trainer": {
    "classic": "Jägerlehrer",
    "forever": "Jägerlehrer",
@@ -3541,6 +3596,16 @@
    "classic": "Landschaftsarchitektin",
    "forever": "Landschaftsarchitektin",
    "use": "Landschaftsarchitektin"
+  },
+  "Master Blacksmith": {
+   "classic": "Meisterschmied",
+   "forever": "Meisterschmied",
+   "use": "Meisterschmied"
+  },
+  "Master Engineer": {
+   "classic": "Meisteringenieur",
+   "forever": "Meisteringenieur",
+   "use": "Meisteringenieur"
   },
   "Merchant Supreme": {
    "classic": "Erster Händler",

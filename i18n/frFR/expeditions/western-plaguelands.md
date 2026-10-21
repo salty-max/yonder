@@ -1,5 +1,5 @@
 ---
-source: f4983bc3afdd
+source: bd607e27d005
 zone: 1422
 ---
 ## western-plaguelands-chillwind
@@ -20,6 +20,16 @@ Sa pierre a quelque chose à dire à qui s'arrête auprès d'elle.
 = La plaque d'Uther, le Porteur de Lumière, premier paladin et fondateur de l'ordre de la Main d'argent, qui vécut et mourut pour défendre Lordaeron et fut trahi par son élève le plus aimé. Elle est signée : Anonyme.
 + Uther avait avec lui l'urne du roi Terenas quand son élève le tua. Le prince la prit sur la dépouille de son maître.
 ! Gardé (goules et squelettes, jusqu'au niveau 52)
+
+## western-plaguelands-darrowmere
+Dans le royaume déchu s'étend le plus grand lac de ces terres,
+et en son milieu une ville sur une île, et la demeure d'une famille noble,
+et sous la demeure une école où l'on enseigne à relever les morts.
+Depuis sa rive, l'île reste en vue de l'autre côté de l'eau.
+? Le Lac Darrowmere, au sud-est des Maleterres de l'ouest. Depuis la rive, contemplez l'île au loin.
+= Le Lac Darrowmere, le plus grand lac des Royaumes de l'est. Sur l'île en son coeur se dressent Caer Darrow et la Maison Barov, avec la Scholomance tout au fond, sous elles.
++ Sur sa rive est, un vent descendu des sommets des Hinterlands rend la brume de la peste plus légère que partout ailleurs dans les Maleterres, et l'eau y garde le bleu du ciel.
+! Périlleux (le Fléau, niveaux 55 à 60)
 
 ## quarry
 Dans une grotte au-dessus de la rivière, à la lisière est de la peste,

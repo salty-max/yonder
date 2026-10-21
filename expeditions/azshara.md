@@ -19,6 +19,13 @@ riddles:
     hint_area: { x: 43.0, y: 80.0, r: 6 }
     danger: "Perilous (the blue dragonkin round the lake, levels 50 to 53)"
     sources: "the WoWWiki archive's Lake Mennar page (the blue dragonflight, the lake's calm); the dump's spawns"
+  - id: azshara-eldara
+    tier: hidden
+    gestures: [PONDER, THINK, GAZE, LOOK]
+    area: Tower of Eldara   # placed: the client's overlay: 88.3, 30.3
+    hint_area: { x: 86.0, y: 29.0, r: 6 }
+    danger: "Perilous (the shore's makrura, wavethrashers and Storm Bay warriors, levels 51 to 53)"
+    sources: "the client's AreaTable and overlay; the dump's spawns about the tower; the WoWWiki archive's Tower of Eldara page (part of the night elves' civilisation across Azshara, closed and abandoned at the tip of the land) and Queen Azshara page"
   - id: azshara-valormok
     tier: town
     faction: horde   # its town's: for that faction alone
@@ -47,6 +54,15 @@ Inside their ring, the lake itself is calm. Get through them, and refresh yourse
 ? Lake Mennar, in southern Azshara. Sit by the water a while.
 = Lake Mennar: blue dragonkin hold its shores, scalebanes, mageweavers and magelords, far from their flight's northern home.
 + Mazthoril's caves in Winterspring are another blue dragonflight refuge outside Northrend.
+
+## azshara-eldara
+Past the bay of storms, at the very tip of the land,
+the elves of the old empire left a tower, and shut it behind them.
+Nobody has opened it since.
+Find its door. Nobody knows what it keeps.
+? The Tower of Eldara, at Azshara's north-eastern tip, past the Bay of Storms. Before the shut tower, ponder what is inside.
+= The Tower of Eldara: a piece of the night elves' civilisation that once covered most of Azshara, closed and abandoned at the tip of the land.
++ The whole land still bears the name of the queen who ruled that civilisation, and who drew the Burning Legion into the world.
 
 ## azshara-valormok
 In the Horde's camp in the elven wilds, an orc remembers when he and his brother

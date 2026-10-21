@@ -1,5 +1,5 @@
 ---
-source: f01af90f9121
+source: 3dede1683999
 zone: 1432
 ---
 ## loch-modan-valley-of-kings
@@ -12,6 +12,16 @@ den Blick nach Süden, auf des Dritten einst glühendes Land.
 + Der ganze Krieg steht in einer zwergischen Chronik, Krieg der drei Hämmer: Thaurissans Beschwörung weckte Ragnaros, und die Statuen sollten alle warnen, die die Königreiche der Zwerge angreifen wollten, und daran erinnern, welchen Preis die Dunkeleisenzwerge zahlten.
 ! Ruhig
 @ Tal der Könige
+
+## loch-modan-stonewrought-dam
+Am oberen Ende des Sees haben die Zwerge ein Tal mit einer Mauer aus Stein verschlossen
+und das Schmelzwasser des Berges dahinter zurückgehalten.
+Der See, den sie geschaffen haben, ist mehr als doppelt so groß wie der, den sie vorfanden.
+Ihre Mauer zählt zu den Wundern der Welt. Steig hinauf und sieh, warum.
+? Der Stonewroughtdamm, am Nordende von Loch Modan. Blicke vom Damm aus voller Ehrfurcht über den See.
+= Der Stonewroughtdamm, die Mauer der Zwerge quer über das obere Ende von Loch Modan: Er hält das Schmelzwasser vom Berg von Ironforge zurück und hat den See mehr als verdoppelt.
++ Nur wenige wissen es, doch der Damm ist das Werk eines Dunkeleisenzwergs: Franclorn Forgewright, ein Meisterarchitekt aus der Zeit vor dem Krieg der drei Hämmer. 'Stonewrought' war der Name, den man seinen Werken gab.
+! Bewacht für die Horde (die Gebirgsjäger des Damms und Chefingenieur Hinderweir VII., Stufe 40), Saboteure der Dunkeleisenzwerge für alle
 
 ## loch-modan-horde-runners
 Drei von der Horde laufen das Ostufer des Sees entlang,

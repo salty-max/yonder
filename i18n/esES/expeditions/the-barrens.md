@@ -1,5 +1,5 @@
 ---
-source: dec4790b92af
+source: 19e7cc89ec17
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -49,6 +49,16 @@ Encuentra la página que dice qué clase de cura haría falta.
 = El letargo de los orcos, en el Fuerte del Norte. Antonidas de Dalaran juzgó que el letargo no era una enfermedad sino la abstinencia de la magia demoníaca que corría por la sangre de los orcos, y concluyó que su cura tendría que ser espiritual.
 + Lo fue. Thrall, criado como esclavo en el Castillo de Durnholde, estudió el chamanismo olvidado de su pueblo y le dio "una nueva identidad espiritual", como cuenta el propio relato de la Horda, La nueva Horda.
 ! Vigilado (marinos y valedoras de Theramore, niveles 15 a 17, que atacan a la Horda)
+
+## the-barrens-waldor
+En el oasis, una gran calavera abre la boca sobre las cavernas de abajo,
+y pocos viajeros piensan en trepar a sus ojos.
+Un peletero vive en uno de ellos, y sabe para qué sirven las cuevas profundas.
+Pregúntale.
+? El Oasis Aguaverde, en la gran calavera de las Cuevas de los Lamentos. Trepa a una de sus cuencas y habla con el peletero que vive allí.
+= Waldor, peletero en el ojo de la calavera: "Las cavernas que yacen bajo nosotros están llenas de extraños y maravillosos pellejos, pero debes tener cuidado si te aventuras hacia las profundidades. Recuerda que tu propia piel es mucho más valiosa.".
++ A quienes lo superan en destreza, los envía a Krulmoo Lunallena, en el Campamento Taurajo.
+! Vigilado (trepadores y volutadores descarriados de élite, niveles 15 y 16, a la entrada de las cuevas)
 
 ## the-barrens-fallen-warrior
 No lejos del camino más transitado de las llanuras, una senda sube por una colina

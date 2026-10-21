@@ -1,5 +1,5 @@
 ---
-source: 645b4b05ac19
+source: 9b73d4d9a549
 zone: 1447
 ---
 ## azshara-ravencrest
@@ -22,6 +22,16 @@ loin du nord glacé auquel appartient leur espèce.
 + Les grottes de Mazthoril, au Berceau-de-l'Hiver, sont un autre refuge du vol bleu hors de Norfendre.
 ! Périlleux (les draconiens bleus autour du lac, niveaux 50 à 53)
 @ Lac Mennar
+
+## azshara-eldara
+Passé la baie des tempêtes, à l'extrême pointe des terres,
+les elfes de l'ancien empire ont laissé une tour, et l'ont fermée derrière eux.
+Personne ne l'a ouverte depuis.
+Trouvez sa porte. Nul ne sait ce qu'elle renferme.
+? La Tour d'Eldara, à la pointe nord-est d'Azshara, au-delà de la Baie des tempêtes. Devant la tour close, songez à ce qu'elle renferme.
+= La Tour d'Eldara : un vestige de la civilisation des elfes de la nuit qui couvrait autrefois presque tout Azshara, fermée et abandonnée à la pointe des terres.
++ Toute la contrée porte encore le nom de la reine qui régnait sur cette civilisation, et qui attira la Légion ardente dans le monde.
+! Périlleux (fouilleurs makrinni, vandales des flots et guerriers de la baie des tempêtes, niveaux 51 à 53)
 
 ## azshara-valormok
 Dans le camp de la Horde au milieu des étendues sauvages des elfes, un orc se souvient du temps où son frère et lui

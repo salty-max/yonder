@@ -1,5 +1,5 @@
 ---
-source: f01af90f9121
+source: 3dede1683999
 zone: 1432
 ---
 ## loch-modan-valley-of-kings
@@ -11,6 +11,16 @@ mirando al sur, donde ardieron los fuegos del tercero.
 = Barbabronce y Martillo Salvaje, uno junto al otro, alzados por sus hijos. Sus pueblos se separaron después. Las estatuas no.
 + Toda la guerra está en una historia enana, La guerra de los Tres Martillos. La invocación de Thaurissan despertó a Ragnaros. Las estatuas debían advertir a quienes atacaran los reinos enanos y recordar el precio que pagaron los Hierro Negro.
 ! Tranquilo
+
+## loch-modan-stonewrought-dam
+En la cabecera del lago, los enanos cerraron un valle con un muro de piedra
+y retuvieron tras él el deshielo de la montaña.
+El lago que hicieron es más del doble del que encontraron.
+Su muro se cuenta entre las maravillas del mundo. Súbete a él y descubre por qué.
+? La Presa de las Tres Cabezas, en el extremo norte de Loch Modan. Desde la presa, contempla el lago con asombro.
+= La Presa de las Tres Cabezas, el muro de los enanos que cierra la cabecera de Loch Modan: retiene el deshielo de la montaña de Forjaz y ha duplicado con creces el tamaño del lago.
++ Pocos lo saben, pero la presa es obra de un Hierro Negro: Franclorn Forjador, maestro arquitecto de antes de la guerra de los Tres Martillos. Sus obras se conocían por el nombre de Stonewrought.
+! Vigilado para la Horda (los montaraces de la presa y el Ingeniero Jefe Hinderweir VII, nivel 40), saboteadores Hierro Negro para todos
 
 ## loch-modan-horde-runners
 Tres miembros de la Horda corren por la orilla oriental del lago,

@@ -1,5 +1,5 @@
 ---
-source: 0cb2563d524f
+source: 2337d6334587
 zone: 1423
 ---
 ## eastern-plaguelands-mirador
@@ -10,6 +10,16 @@ Faites-vous un ami du cheval.
 = Mirador, le cheval de Tirion Fordring, devant la chaumière où son maître vit en exil.
 + Tirion perdit ses terres et son titre pour avoir sauvé la vie d'un orc, Eitrigg, qui avait jadis épargné la sienne.
 ! Calme
+
+## eastern-plaguelands-pestilent-scar
+Dans l'est pestiféré, la terre s'effondre en une gorge profonde,
+peut-être un lac qui s'est asséché quand la peste est venue.
+Seules des vases vivent au fond désormais.
+Trouvez son bord, prenez garde où vous mettez les pieds, et voyez jusqu'où elle descend.
+? La Balafre pestilentielle, au sud-est des Maleterres de l'est. Depuis son bord, scrutez ses profondeurs.
+= La Balafre pestilentielle : un gouffre profond dans la terre flétrie. Contrairement à la Balafre infecte, elle semble l'oeuvre de la terre elle-même : une gorge naturelle, peut-être un lac que la peste a asséché.
++ Ses vases sont de la même engeance que la peste : pourriture vivante et vase pourrissante, au fond du gouffre.
+! Périlleux (le Fléau et les vases de la balafre, niveaux 54 à 60)
 
 ## eastern-plaguelands-adon
 Au bout nord du pays mort, là où la route monte vers le royaume des elfes,

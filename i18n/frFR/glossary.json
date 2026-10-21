@@ -280,6 +280,11 @@
    "forever": "Esprit",
    "use": "Esprit"
   },
+  "Steamwheedle Cartel": {
+   "classic": "Cartel Gentepression",
+   "forever": "Cartel Gentepression",
+   "use": "Cartel Gentepression"
+  },
   "Syndicate": {
    "classic": "Syndicat",
    "forever": "Syndicat",
@@ -435,6 +440,11 @@
    "forever": "Bowen Brisboise",
    "use": "Bowen Brisboise"
   },
+  "Brikk Keencraft": {
+   "classic": "Brikk Keencraft",
+   "forever": "Brikk Keencraft",
+   "use": "Brikk Keencraft"
+  },
   "Brimgore": {
    "classic": "Soufresang",
    "forever": "Soufresang",
@@ -453,6 +463,11 @@
    "classic": "Bunthen Plainswind",
    "forever": "Bunthen Plainswind",
    "use": "Bunthen Plainswind"
+  },
+  "Buzzek Bracketswing": {
+   "classic": "Buzzek Bracketswing",
+   "forever": "Buzzek Bracketswing",
+   "use": "Buzzek Bracketswing"
   },
   "Cairne Bloodhoof": {
    "classic": "Cairne Bloodhoof",
@@ -478,6 +493,11 @@
    "classic": "Etalon capturé",
    "forever": "Etalon capturé",
    "use": "Etalon capturé"
+  },
+  "Chief Engineer Hinderweir VII": {
+   "classic": "Ingénieur en chef Hinderweir VII",
+   "forever": "Ingénieur en chef Hinderweir VII",
+   "use": "Ingénieur en chef Hinderweir VII"
   },
   "Commander Althea Ebonlocke": {
    "classic": "Commandant Althea Ebonlocke",
@@ -790,6 +810,11 @@
    "classic": "Knot Thimblejack",
    "forever": "Knot Thimblejack",
    "use": "Knot Thimblejack"
+  },
+  "Krulmoo Fullmoon": {
+   "classic": "Krulmoo Fullmoon",
+   "forever": "Krulmoo Fullmoon",
+   "use": "Krulmoo Fullmoon"
   },
   "Lady Jaina Proudmoore": {
    "classic": "Dame Jaina Proudmoore",
@@ -1356,6 +1381,11 @@
    "classic": "Vultros",
    "forever": "Vultros",
    "use": "Vultros"
+  },
+  "Waldor": {
+   "classic": "Waldor",
+   "forever": "Waldor",
+   "use": "Waldor"
   },
   "Wallace the Blind": {
    "classic": "Wallace l'aveugle",
@@ -2471,6 +2501,11 @@
    "forever": "Rocher des crins-pâles",
    "use": "Rocher des crins-pâles"
   },
+  "Pestilent Scar": {
+   "classic": "Balafre pestilentielle",
+   "forever": "Balafre pestilentielle",
+   "use": "Balafre pestilentielle"
+  },
   "Plaguemist Ravine": {
    "classic": "Ravin de Pestebrume",
    "forever": "Ravin de Pestebrume",
@@ -3037,6 +3072,11 @@
    "forever": "Le Val hurlant",
    "use": "Le Val hurlant"
   },
+  "The Infectis Scar": {
+   "classic": "La Balafre infecte",
+   "forever": "La Balafre infecte",
+   "use": "La Balafre infecte"
+  },
   "The Loch": {
    "classic": "Le Loch",
    "forever": "Le Loch",
@@ -3241,6 +3281,11 @@
    "classic": "Clairières de Tirisfal",
    "forever": "Clairières de Tirisfal",
    "use": "Clairières de Tirisfal"
+  },
+  "Tower of Eldara": {
+   "classic": "Tour d'Eldara",
+   "forever": "Tour d'Eldara",
+   "use": "Tour d'Eldara"
   },
   "Trade District": {
    "classic": "Quartier commerçant",
@@ -3450,6 +3495,11 @@
    "forever": "Le Cercle cénarien",
    "use": "Le Cercle cénarien"
   },
+  "Chief Engineer": {
+   "classic": "Ingénieur en chef",
+   "forever": "Ingénieur en chef",
+   "use": "Ingénieur en chef"
+  },
   "Crazy Cat Lady": {
    "classic": "La dame aux chats",
    "forever": "La dame aux chats",
@@ -3510,6 +3560,11 @@
    "forever": "Messager de la Horde",
    "use": "Messager de la Horde"
   },
+  "House of Barov": {
+   "classic": "Maison Barov",
+   "forever": "Maison Barov",
+   "use": "Maison Barov"
+  },
   "Hunter Trainer": {
    "classic": "Maître des chasseurs",
    "forever": "Maître des chasseurs",
@@ -3539,6 +3594,16 @@
    "classic": "Architecte-paysagiste",
    "forever": "Architecte-paysagiste",
    "use": "Architecte-paysagiste"
+  },
+  "Master Blacksmith": {
+   "classic": "Maître des forgerons",
+   "forever": "Maître des forgerons",
+   "use": "Maître des forgerons"
+  },
+  "Master Engineer": {
+   "classic": "Ingénieur - Maître",
+   "forever": "Ingénieur - Maître",
+   "use": "Ingénieur - Maître"
   },
   "Merchant Supreme": {
    "classic": "Marchand suprême",

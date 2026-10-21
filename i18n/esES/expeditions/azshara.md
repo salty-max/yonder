@@ -1,5 +1,5 @@
 ---
-source: 645b4b05ac19
+source: 9b73d4d9a549
 zone: 1447
 ---
 ## azshara-ravencrest
@@ -20,6 +20,16 @@ Dentro de su cerco, el lago permanece tranquilo. Atraviésalo y descansa junto a
 = Lago Mennar: los dragonantes azules dominan sus orillas, escamorte, tejedor de magia y señor de la magia, lejos del hogar septentrional de su Vuelo.
 + Las cuevas de Mazthoril, en Cuna del Invierno, son otro refugio del Vuelo Azul fuera de Rasganorte.
 ! Peligroso (los dragonantes azules que rodean el lago, niveles 50 a 53)
+
+## azshara-eldara
+Más allá de la bahía de las tormentas, en el extremo mismo de la tierra,
+los elfos del antiguo imperio dejaron una torre y la cerraron tras de sí.
+Nadie la ha abierto desde entonces.
+Encuentra su puerta. Nadie sabe qué guarda.
+? La Torre de Eldara, en la punta noreste de Azshara, más allá de la Bahía de la Tempestad. Ante la torre cerrada, reflexiona sobre lo que guarda dentro.
+= La Torre de Eldara: un resto de la civilización de los elfos de la noche que un día cubrió casi toda Azshara, cerrada y abandonada en la punta de la tierra.
++ Toda la región sigue llevando el nombre de la reina que gobernó esa civilización y que atrajo a la Legión Ardiente al mundo.
+! Peligroso (escarbadores Makrinni, vándalos marinos y guerreros de la Bahía Tormentosa, niveles 51 a 53)
 
 ## azshara-valormok
 En el campamento de la Horda de las tierras élficas, un orco recuerda cuando su hermano y él

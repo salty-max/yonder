@@ -154,6 +154,19 @@ gates turned seven of the first candidates away for it. **132 riddles** on
 Classic Era, **136** on Forever (91 for a Horde reader, 98 for an Alliance
 one), and the 39 quarries.
 
+**Seven more (21 October 2026, the user's ask, after a check of the thin
+zones).** Measured against the counting rule above, the zones were 62 riddles
+short. Every unused creature with words of its own, book, named prop and
+place in them (319 things and 344 places) went through the gates on scratch
+copies, then the survivors through the WoWWiki archive and every quest text
+naming them. Most of the gap stays open: what is left is a quest's, a
+dungeon's door, or has no story. The user took eight of the ten that held,
+and one fell on a closer reading (a quest's own title and destination).
+Seven, all open to both sides: three keepers in the neutral towns and the
+caverns' skull, four places in the Plaguelands, Loch Modan and Azshara.
+**139 riddles** on Classic Era, **143** on Forever (98 for a Horde reader,
+105 for an Alliance one), and the 39 quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

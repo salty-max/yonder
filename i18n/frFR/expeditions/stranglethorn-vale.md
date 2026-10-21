@@ -1,5 +1,5 @@
 ---
-source: e3247e4647b1
+source: 12d2d1caa3a1
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -9,6 +9,16 @@ quand ils ne purent plus payer ce qu'il exigeait.
 ? Baie-du-Butin. Ouvrez le livre sur le dieu affamé et ses fidèles.
 = La colère du fléau des âmes, à Baie-du-Butin. Les Gurubashi nourrirent Hakkar d'âmes, puis chassèrent le dieu du sang et les prêtres qui le servaient encore. Ces prêtres s'enfuirent au nord, dans les marais.
 + Les Darkspear furent parmi les tribus qui suivirent leur propre chemin après cette guerre. Et "certains évoquaient une prophétie selon laquelle Hakkar renaîtrait en ce monde un jour et le consumerait intégralement."
+! Calme
+
+## stranglethorn-vale-brikk
+Dans le port des gobelins au bout de la jungle, un gobelin tient la forge,
+et le maître de la forge d'Orgrimmar, qui n'aime aucun gobelin, lui envoie pourtant ses meilleurs élèves.
+Certains de ceux qui entrent ne croient pas qu'il soit le forgeron.
+Demandez-lui.
+? Baie-du-Butin, dans la forge. Parlez au maître forgeron gobelin.
+= Brikk Keencraft, Maître des forgerons de Baie-du-Butin : "Ouais ? Bien sûr que je suis forgeron. Vous pensez que seuls les nains savent se servir d'une enclume ? Comme vous voulez ! Allez chercher un nain pour vous aider !"
++ Saru Steelfury, qui lui envoie ses élèves depuis Orgrimmar : "Je n'aime pas les gobelins mais sa connaissance de l'acier n'a pas son pareil."
 ! Calme
 
 ## stranglethorn-vale-emperors-tomb
