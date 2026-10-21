@@ -1,5 +1,5 @@
 ---
-source: 7180ca4c24e0
+source: 54565f8721db
 zone: 1442
 ---
 ## stonetalon-mountains-nizzik
@@ -23,7 +23,7 @@ A quienes ya ha enseñado todo lo que sabe los envía a ella. Pregúntale quién
 
 ## stonetalon-mountains-smiling-log
 En el sendero infestado de arañas que baja serpenteando de las montañas de piedra,
-un árbol caído yace junto al camino, serrado de parte a parte.
+frente a un pequeño campamento, al otro lado del camino, yace un árbol caído, serrado de parte a parte.
 Su extremo cortado tiene dos nudos por ojos, y los anillos de debajo se curvan hacia arriba en las puntas.
 Muéstrale la misma cara.
 ? La Senda de las Tejedoras, frente al pequeño campamento de la Alianza, a mitad de la bajada. Busca el tronco caído en el lado oeste del camino y sonríele a su extremo cortado.

@@ -1,5 +1,5 @@
 ---
-source: 7180ca4c24e0
+source: 54565f8721db
 zone: 1442
 ---
 ## stonetalon-mountains-nizzik
@@ -23,7 +23,7 @@ Ceux à qui il a appris tout ce qu'il sait, il les envoie à elle. Demandez-lui 
 
 ## stonetalon-mountains-smiling-log
 Sur le sentier infesté d'araignées qui descend en lacets des montagnes de pierre,
-un arbre abattu gît au bord de la route, scié net.
+un arbre abattu, scié net, gît face à un petit camp, de l'autre côté de la route.
 Sa coupe a deux nœuds pour yeux, et, en dessous, les cernes du bois remontent aux commissures.
 Montrez-lui le même visage.
 ? Le Sentier des Tisseuses, en face du petit camp de l'Alliance, à mi-chemin de la descente. Trouvez le tronc couché du côté ouest de la route et souriez à sa coupe.

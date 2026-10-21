@@ -53,7 +53,7 @@ Those he has taught all he knows, he sends on to her. Ask him who she is.
 
 ## stonetalon-mountains-smiling-log
 On the spider-haunted path that winds down out of the stone mountains,
-a fallen tree lies beside the road, sawn clean through.
+a fallen tree lies by the road, across from a small camp, sawn clean through.
 Its cut end has two knots for eyes, and the rings beneath them turn up at the corners.
 Show it the same face.
 ? The Webwinder Path, across the road from the small Alliance camp halfway down it. Find the fallen log on the road's west side and smile at its sawn end.
