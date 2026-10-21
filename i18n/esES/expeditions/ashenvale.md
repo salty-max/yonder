@@ -1,5 +1,5 @@
 ---
-source: d6f1d9ba4ca5
+source: 589d5b7c19ec
 zone: 1440
 ---
 ## ashenvale-grom
@@ -12,16 +12,6 @@ Déjale lo que se debe a un guerrero.
 = "Lok'Tar ogar, hermano mayor. Que el Grito de Guerra nunca se apague". Lo escribió Thrall.
 + Grom fue el primer jefe en beber la sangre de Mannoroth y quien mató al demonio: "La maldición de nuestro pueblo empezó y terminó con Grom".
 ! Peligroso (los servidores de la Legión)
-
-## ashenvale-howling-vale
-Al norte del corazón del bosque, un valle que los elfos consagraron a la luna
-resuena ahora con los aullidos de las bestias que lo tomaron.
-La plegaria de los elfos sigue tallada en la piedra de su santuario.
-Encuéntrala y lee lo que le pedían.
-? La Vega del Aullido, en el norte de Vallefresno, hacia Frondavil. Entre los huargen, lee la vieja inscripción del santuario.
-= La Inscripción antigua del santuario de Mel'Thandris: "Que la luz de Elune brille para siempre sobre este valle e ilumine los caminos del bosque, como lo ha hecho desde tiempos inmemoriales.".
-+ Los huargen que lo ocupan son los Luporror. Su señor de la manada, rara vez visto, se queda cerca del santuario.
-! Peligroso (huargen Luporror y su señor de la manada, niveles 28 a 32)
 
 ## ashenvale-astranaar
 Una de las cinco guardianas del mundo recibió una tarea que solo podía cumplir dormida.

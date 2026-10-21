@@ -19,7 +19,7 @@ El lago que hicieron es más del doble del que encontraron.
 Su muro se cuenta entre las maravillas del mundo. Súbete a él y descubre por qué.
 ? La Presa de las Tres Cabezas, en el extremo norte de Loch Modan. Desde la presa, contempla el lago con asombro.
 = La Presa de las Tres Cabezas, el muro de los enanos que cierra la cabecera de Loch Modan: retiene el deshielo de la montaña de Forjaz y ha duplicado con creces el tamaño del lago.
-+ Pocos lo saben, pero la presa es obra de un Hierro Negro: Franclorn Forjador, maestro arquitecto de antes de la guerra de los Tres Martillos. Sus obras se conocían por el nombre de Stonewrought.
++ Pocos lo saben, pero la presa es obra de un Hierro Negro: Franclorn Forjador, maestro arquitecto de antes de la guerra de los Tres Martillos.
 ! Vigilado para la Horda (los montaraces de la presa y el Ingeniero Jefe Hinderweir VII, nivel 40), saboteadores Hierro Negro para todos
 
 ## loch-modan-horde-runners

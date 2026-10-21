@@ -1,5 +1,5 @@
 ---
-source: 19e7cc89ec17
+source: 3b0e31790727
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -53,12 +53,12 @@ Finde die Seite, die sagt, welches Heilmittel nötig wäre.
 
 ## the-barrens-waldor
 In der Oase öffnet ein großer Schädel sein Maul zu den Höhlen darunter,
-und nur wenige Reisende kommen darauf, in seine Augenhöhlen zu klettern.
-Ein Lederverarbeiter lebt in einer davon und weiß, was die tiefen Höhlen wert sind.
-Frag ihn.
-? Die Blühende Oase, am großen Schädel der Höhlen des Wehklagens. Klettere in eine seiner Augenhöhlen und sprich mit dem Lederverarbeiter dort.
+und Abenteurer klettern in eine seiner Augenhöhlen, um dort Aufträge anzunehmen.
+Neben denen, die dort Aufträge vergeben, hat ein Lederverarbeiter eigene Ratschläge.
+Frag ihn, wozu die Höhlen gut sind.
+? Die Blühende Oase, am großen Schädel der Höhlen des Wehklagens. Sprich in der Augenhöhle, in der die Aufträge für die Höhlen vergeben werden, stattdessen mit dem Lederverarbeiter.
 = Waldor, Lederverarbeiter in der Augenhöhle des Schädels: 'Die Höhlen unter uns sind eine Quelle merkwürdiger und wundersamer Bälge, aber Ihr müsst Euch in Acht nehmen, wenn Ihr in ihre Tiefen vordringt. Denkt daran, dass Eure eigene Haut viel wertvoller ist.'
-+ Wem seine Lehre nicht mehr genügt, den schickt er zu Krulmoo Fullmoon nach Camp Taurajo.
++ Wer ihn in seinem Handwerk überholt hat, den schickt er zu Krulmoo Fullmoon nach Camp Taurajo.
 ! Bewacht (elitäre Deviatkrabbler und Deviatwinder, Stufe 15 und 16, am Eingang der Höhlen)
 
 ## the-barrens-fallen-warrior

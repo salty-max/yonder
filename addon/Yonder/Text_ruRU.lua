@@ -8,7 +8,6 @@ ns.names({
     ["arathi-highlands-thoradins-wall"] = "СтенаZТорадина",
     ["ashenvale-astranaar"] = "Создание!Драконов",
     ["ashenvale-grom"] = "ПамятникjГромуKАдскомуxКрику",
-    ["ashenvale-howling-vale"] = "ДревняяEнадпись",
     ["azshara-eldara"] = "БашняKЭльдары",
     ["azshara-lake-mennar"] = "Озеро,Меннар",
     ["azshara-ravencrest"] = "ПамятникdЧерномуNВорону",

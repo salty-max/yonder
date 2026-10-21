@@ -8,7 +8,6 @@ ns.names({
     ["arathi-highlands-thoradins-wall"] = "索拉丁之牆",
     ["ashenvale-astranaar"] = "巨龍軍團",
     ["ashenvale-grom"] = "葛羅·地獄吼的紀念碑",
-    ["ashenvale-howling-vale"] = "古代碑銘",
     ["azshara-eldara"] = "艾達拉之塔",
     ["azshara-lake-mennar"] = "門納爾湖",
     ["azshara-ravencrest"] = "黑羽紀念碑",

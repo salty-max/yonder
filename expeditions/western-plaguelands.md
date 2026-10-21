@@ -30,7 +30,7 @@ riddles:
     area: Darrowmere Lake   # placed: the client's overlay: 68.4, 73.7 (the island in its middle)
     hint_area: { x: 68.5, y: 74.5, r: 8 }
     danger: "Perilous (the Scourge's lands, levels 55 to 60)"
-    sources: "the client's AreaTable and overlay; the WoWWiki archive's Darrowmere Lake page (the largest lake of the Eastern Kingdoms, Caer Darrow and the House of Barov, the Scholomance below; the plague mist thinnest on its eastern side) and Caer Darrow page"
+    sources: "the client's AreaTable and overlay; the WoWWiki archive's Darrowmere Lake page (the largest lake of the Eastern Kingdoms, Caer Darrow and the House of Barov, the Scholomance below; the eastern side's breeze off the Hinterlands' peaks, the plague mist thinnest there of all the Plaguelands, blue sky seen in the lake) and Caer Darrow page"
 quarry:
   id: 1851   # The Husk
   sources: "the WoWWiki archive's The Husk and The Weeping Cave pages; the pinned dump's spawn and creature_ai_scripts (17230 Infected Wound); the dump's loot (Living Essence, 96%; Firebloom, Icecap, Sungrass)"

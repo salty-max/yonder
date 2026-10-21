@@ -1,5 +1,5 @@
 ---
-source: 19e7cc89ec17
+source: 3b0e31790727
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -48,15 +48,15 @@ et du mal qu'aucun geôlier ne sut expliquer.
 Trouvez la page qui dit quel remède il faudrait.
 ? Le Fort de Guet-du-Nord, sur la côte au sud de Cabestan. Dans le fort, lisez le récit de la léthargie des orcs.
 = La léthargie des orcs, au Fort de Guet-du-Nord. Antonidas de Dalaran jugea que cette léthargie n'était pas une maladie mais le sevrage des orcs, privés de la magie démoniaque qui coulait dans leur sang, et conclut que leur remède devrait être spirituel.
-+ Et il le fut. Thrall, élevé en esclave à Fort-de-Durn, étudia le chamanisme oublié de son peuple et lui donna "une nouvelle identité spirituelle", comme le raconte le propre récit de la Horde, La nouvelle Horde.
++ Et il le fut. Thrall, élevé en esclave à Fort-de-Durn, étudia le chamanisme oublié des siens et parvint à "redonner une identité spirituelle à son peuple", comme le raconte le récit même de la Horde, La nouvelle Horde.
 ! Gardé (soldats de marine et protectrices de Theramore, niveaux 15 à 17, qui attaquent la Horde)
 
 ## the-barrens-waldor
 Dans l'oasis, un grand crâne ouvre sa gueule sur les cavernes du dessous,
-et peu de voyageurs songent à grimper dans ses orbites.
-Un artisan du cuir vit dans l'une d'elles, et sait ce que valent les grottes profondes.
-Demandez-lui.
-? L'Oasis luxuriante, au grand crâne des Cavernes des lamentations. Grimpez dans l'une de ses orbites et parlez à l'artisan du cuir qui s'y trouve.
+et les aventuriers grimpent dans l'une de ses orbites pour y recevoir du travail dans les grottes.
+À côté de ceux qui distribuent ce travail, un artisan du cuir a ses propres conseils.
+Demandez-lui à quoi servent les grottes.
+? L'Oasis luxuriante, au grand crâne des Cavernes des lamentations. Dans l'orbite où l'on confie les tâches des grottes, parlez plutôt à l'artisan du cuir.
 = Waldor, artisan du cuir dans l'orbite du crâne : "Les cavernes en dessous de nous offrent de nombreuses et merveilleuses cachettes, mais vous devez faire attention si vous vous aventurez dans leurs profondeurs. Souvenez-vous que votre propre peau a beaucoup plus de valeur."
 + Ceux dont le talent dépasse le sien, il les envoie à Krulmoo Fullmoon, au Camp Taurajo.
 ! Gardé (rampants et embobineurs déviants d'élite, niveaux 15 et 16, à l'entrée des cavernes)

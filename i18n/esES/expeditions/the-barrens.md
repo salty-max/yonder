@@ -1,5 +1,5 @@
 ---
-source: 19e7cc89ec17
+source: 3b0e31790727
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -52,10 +52,10 @@ Encuentra la página que dice qué clase de cura haría falta.
 
 ## the-barrens-waldor
 En el oasis, una gran calavera abre la boca sobre las cavernas de abajo,
-y pocos viajeros piensan en trepar a sus ojos.
-Un peletero vive en uno de ellos, y sabe para qué sirven las cuevas profundas.
-Pregúntale.
-? El Oasis Aguaverde, en la gran calavera de las Cuevas de los Lamentos. Trepa a una de sus cuencas y habla con el peletero que vive allí.
+y los aventureros trepan a uno de sus ojos para aceptar trabajo en las cuevas.
+Junto a quienes lo reparten, un peletero tiene sus propios consejos.
+Pregúntale para qué sirven las cuevas.
+? El Oasis Aguaverde, en la gran calavera de las Cuevas de los Lamentos. En la cuenca donde se reparten los encargos de las cuevas, habla mejor con el peletero.
 = Waldor, peletero en el ojo de la calavera: "Las cavernas que yacen bajo nosotros están llenas de extraños y maravillosos pellejos, pero debes tener cuidado si te aventuras hacia las profundidades. Recuerda que tu propia piel es mucho más valiosa.".
 + A quienes lo superan en destreza, los envía a Krulmoo Lunallena, en el Campamento Taurajo.
 ! Vigilado (trepadores y volutadores descarriados de élite, niveles 15 y 16, a la entrada de las cuevas)

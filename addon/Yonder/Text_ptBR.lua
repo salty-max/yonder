@@ -8,7 +8,6 @@ ns.names({
     ["arathi-highlands-thoradins-wall"] = "NPF>3OtZx%Z,?@=?69Z",
     ["ashenvale-astranaar"] = "EDA%,u.c2clN%ja,p%YvE",
     ["ashenvale-grom"] = "q86%CPlGX&bUP/7^]#BHG'(|$Yo:63{R`u",
-    ["ashenvale-howling-vale"] = "wa8sO/çãCSl))w56*r$",
     ["azshara-eldara"] = "8YkF-YI*s#8I0x{",
     ["azshara-lake-mennar"] = "qe! Ti$&`p~",
     ["azshara-ravencrest"] = "}X#;sT-a?1NnR\"R`YX3einu",

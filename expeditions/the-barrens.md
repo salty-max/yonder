@@ -54,6 +54,8 @@ riddles:
     position_check: questie   # Wowhead's tooltip gives no point: Questie's 46.0, 35.9 against the dump's spawn
     hint_area: { x: 47.0, y: 36.5, r: 3 }
     danger: "Guarded (elite deviate creepers and coilers, levels 15 and 16, at the caverns' mouth)"
+    quest_overlap: [1486, 1487]
+    quest_context: "Nalpak and Ebru give Deviate Hides and Deviate Eradication in the same eye of the skull. Yonder asks for a word with Waldor, the leatherworker beside them, whose advice belongs to no quest."
     sources: "Waldor's own words (his gossip, a novice's and an expert's); Questie's coordinates (no Wowhead point); the client's display tables (a tauren); the WoWWiki archive's Waldor page (the cave in the right eye socket of the skull at the Wailing Caverns' entrance)"
   - id: the-barrens-fallen-warrior
     tier: hidden
@@ -114,10 +116,10 @@ Find the page that says what kind of cure it would take.
 
 ## the-barrens-waldor
 In the oasis, a great skull opens its mouth onto the caverns below,
-and few travellers think to climb into its eyes.
-A leatherworker lives in one of them, and knows what the deep caves are good for.
-Ask him.
-? Lushwater Oasis, at the Wailing Caverns' great skull. Climb into one of its eyes and speak to the leatherworker there.
+and adventurers climb into one of its eyes to take on work in the caves.
+Beside those who hand out the work, a leatherworker has advice of his own.
+Ask him what the caves are good for.
+? Lushwater Oasis, at the Wailing Caverns' great skull. In the eye where the caves' errands are given, speak to the leatherworker instead.
 = Waldor, leatherworker in the skull's eye: 'The caverns below us are a source of strange and wondrous hides, but you must take care if you venture into their depths. Remember that your own skin is far more valuable.'
 + Those whose skill outgrows his, he sends to Krulmoo Fullmoon, in Camp Taurajo.
 

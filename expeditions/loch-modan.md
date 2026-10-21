@@ -21,8 +21,8 @@ riddles:
     area: Stonewrought Dam   # placed: the client's overlay: 47.9, 12.7
     hint_area: { x: 51.0, y: 13.0, r: 4 }
     danger: "Guarded for the Horde (the dam's mountaineers and Chief Engineer Hinderweir VII, level 40), Dark Iron saboteurs for everyone"
-    quest_overlap: [250, 280, 283]
-    quest_context: "A Dark Threat Looms sends the Alliance from Chief Engineer Hinderweir VII to a suspicious barrel and an explosive charge on the dam, set by the Dark Irons. Yonder asks only that the dam itself be looked at, with no quest and no barrel."
+    quest_overlap: [250, 280, 283, 1558]
+    quest_context: "A Dark Threat Looms sends the Alliance from Chief Engineer Hinderweir VII to a suspicious barrel and an explosive charge on the dam, set by the Dark Irons. Children's Week's The Stonewrought Dam brings an orphan to the middle of the dam once a year, to see the waterfall. Yonder asks for a look over the loch at any time, with no quest, no barrel and no orphan."
     sources: "the client's AreaTable and overlay; the dump's spawns (the dam's mountaineers and engineer, the Dark Iron insurgents and sappers); the WoWWiki archive's Stonewrought Dam page (Lands of Conflict, p. 78: the snowmelt of Ironforge's mountain, the loch more than doubled, Franclorn Forgewright, a Dark Iron, its architect)"
   - id: loch-modan-horde-runners
     tier: hidden

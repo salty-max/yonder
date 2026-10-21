@@ -1,5 +1,5 @@
 ---
-source: d6f1d9ba4ca5
+source: 589d5b7c19ec
 zone: 1440
 ---
 ## ashenvale-grom
@@ -12,16 +12,6 @@ Lass ihm, was einem Krieger gebührt.
 = 'Lok-Tar Ogar, großer Bruder. Mögen die Warsong niemals untergehen.' Thrall hat es geschrieben.
 + Grom war der erste Häuptling, der Mannoroths Blut trank, und derjenige, der den Dämon tötete: 'In vielerlei Hinsicht begann und endete der Fluch, der auf unserem Volk lastete, mit Grom.'
 ! Gefährlich (die Diener der Legion)
-
-## ashenvale-howling-vale
-Nördlich vom Herzen des Waldes hallt heute ein Tal, das die Elfen einst dem Mond geweiht hatten,
-vom Heulen der Bestien wider, die es eingenommen haben.
-Das Gebet der Elfen ist noch immer in den Stein ihres Schreins gemeißelt.
-Finde es und lies, worum sie den Mond baten.
-? Das Heulende Tal, im Norden von Ashenvale, Richtung Teufelswald. Lies unter den Worgen die alte Inschrift des Schreins.
-= Die Uralte Inschrift des Schreins von Mel'Thandris: 'Möge das Licht Elunes auf immer über diesem Tal scheinen und die Wege des Waldes erhellen, wie seit Urzeiten.'
-+ Die Worgen, die es halten, sind die Terrowulf. Ihr Rudelführer, selten zu sehen, bleibt in der Nähe des Schreins.
-! Gefährlich (Worgen der Terrowulf und ihr Rudelführer, Stufe 28 bis 32)
 
 ## ashenvale-astranaar
 Eine der fünf Gestalten, die über die Welt wachen, erhielt eine Pflicht, die sie nur im Schlaf erfüllen konnte.

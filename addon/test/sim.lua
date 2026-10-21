@@ -2808,7 +2808,7 @@ do
       end
     end
     check(
-      riddles == (FOREVER and 143 or 139) and quarries == (FOREVER and 39 or 38),
+      riddles == (FOREVER and 142 or 138) and quarries == (FOREVER and 39 or 38),
       "German expedition coverage, this client's only"
     )
     check(

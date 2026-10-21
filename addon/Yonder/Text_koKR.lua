@@ -8,7 +8,6 @@ ns.names({
     ["arathi-highlands-thoradins-wall"] = "소라딘의V성벽",
     ["ashenvale-astranaar"] = "용군단의%임무",
     ["ashenvale-grom"] = "그롬}헬스크림의>기념비",
-    ["ashenvale-howling-vale"] = "고대d비문",
     ["azshara-eldara"] = "엘다라의N탑",
     ["azshara-lake-mennar"] = "멘나르/호수",
     ["azshara-ravencrest"] = "레이븐크레스트w기념비",

@@ -142,7 +142,7 @@ show) and one kept back: Forever rebuilds the place, so its riddle waits for
 a riddle of one client's own (no such field yet). **123 riddles** on Classic
 Era, **127** on Forever, and the 39 quarries.
 
-**Nine more (21 October 2026, the user's ask).** Where the book was thinnest:
+**Eight more (21 October 2026, the user's ask).** Where the book was thinnest:
 the Horde reader (82 riddles against the Alliance reader's 93), the two Horde
 capitals one short of their three, Durotar, and the shared zones that gave a
 Horde reader nothing or nearly nothing. The user picked eleven from a
@@ -150,9 +150,11 @@ shortlist the gates had passed on scratch copies. Two were dropped once
 their sources were read: a keeper seen only by those wearing a quest's
 reward, and one whose only road is a quest's teleport. Forever's new
 profession quests (Camping 101) now send players to most trainers, and the
-gates turned seven of the first candidates away for it. **132 riddles** on
-Classic Era, **136** on Forever (91 for a Horde reader, 98 for an Alliance
-one), and the 39 quarries.
+gates turned seven of the first candidates away for it. A ninth, the
+review before the push took out: its stone stood beside a quest's own
+object, and its verse told that quest's story. **131 riddles** on Classic
+Era, **135** on Forever (90 for a Horde reader, 97 for an Alliance one), and
+the 39 quarries.
 
 **Seven more (21 October 2026, the user's ask, after a check of the thin
 zones).** Measured against the counting rule above, the zones were 62 riddles
@@ -164,8 +166,10 @@ dungeon's door, or has no story. The user took eight of the ten that held,
 and one fell on a closer reading (a quest's own title and destination).
 Seven, all open to both sides: three keepers in the neutral towns and the
 caverns' skull, four places in the Plaguelands, Loch Modan and Azshara.
-**139 riddles** on Classic Era, **143** on Forever (98 for a Horde reader,
-105 for an Alliance one), and the 39 quarries.
+The review before the push added a once-a-year festival quest to one
+riddle's reviewed overlap. **138 riddles** on Classic Era, **142** on
+Forever (97 for a Horde reader, 104 for an Alliance one), and the 39
+quarries.
 
 ### How many
 
