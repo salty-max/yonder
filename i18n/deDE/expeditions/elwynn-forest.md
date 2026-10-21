@@ -1,5 +1,5 @@
 ---
-source: b6eca3979325
+source: ce94da5105a8
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -16,11 +16,11 @@ Sprich sie in ihrer eigenen Sprache an.
 ## elwynn-forest-goldshire-children
 In der Stadt an der Wegkreuzung des Waldes ziehen sechs Kinder gemeinsam über die Straßen,
 immer in derselben Reihenfolge und immer zurück zum selben Haus.
-Oben stehen sie im Kreis um eines von ihnen, stumm, stundenlang.
+Oben stehen sie morgens im Kreis um eines von ihnen, stumm, stundenlang.
 Steig hinauf in ihr Zimmer, wenn du dich traust, und spür, wie es sich anfühlt.
-? Goldhain, das Haus im Nordosten der Stadt, am See, wo die Kürschnerin und die Lederverarbeiterin ihren Laden haben. Lass dir oben beim Kreis der Kinder einen Schauer über den Rücken laufen.
+? Goldhain, das Haus im Nordosten der Stadt, am See, wo die Kürschnerin und die Lederverarbeiterin ihren Laden haben. Lass dir morgens oben beim Kreis der Kinder einen Schauer über den Rücken laufen.
 = Die Kinder von Goldhain: Cameron in der Mitte des Kreises, Dana, John, Lisa, Aaron und Jose um ihn herum. Sie ziehen gemeinsam los und kehren immer in dieses Zimmer zurück.
-+ Zurück in ihrem Zimmer verharren sie fünf Stunden reglos, bevor sie wieder aufbrechen.
++ Sie kommen morgens heraus, drehen ihre Runde nur ein Mal und stehen bis Mittag in ihrem Zimmer. Dann sind sie fort.
 ! Ruhig
 @ Das Zimmer der Kinder
 

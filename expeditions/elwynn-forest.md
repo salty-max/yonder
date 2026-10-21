@@ -26,9 +26,9 @@ riddles:
     position_check: questie   # no Wowhead point: Questie's 46.2, 61.9 against the dump's spawn
     hint_area: { x: 45.5, y: 61.0, r: 3 }
     danger: "Quiet"
-    quest_overlap: [97922, 97924]
-    quest_context: "Forever's Camping 101: Leatherworking and Camping 101: Skinning send new players to Adele Fielder and Helene Peltskinner, downstairs in the same house. Yonder asks for a shiver upstairs, by the children's ring, with no trainer and no quest."
-    sources: "the dump's spawn group 19989 ('Elwynn Forest - Goldshire - Creepy Goldshire Children - Day RP'): Cameron, Dana, John, Lisa, Aaron and Jose (805, 804, 806, 807, 810, 811) in one formation, their path round Goldshire and back, dbscripts_on_creature_movement 80503 (each child to a place around Cameron, upstairs) and the path's last wait of five hours; Questie's coordinates (no Wowhead point); the WoWWiki archive's Children of Goldshire page (the house with the skinning and leatherworking trainers, the second floor, the pentagram, silent and unmoving, Cameron always in the middle; first reported in 2008, and scripted in the game this journal is played on)"
+    quest_overlap: [91746, 91751, 97922, 97924]
+    quest_context: "Forever's Camping 101: Leatherworking and Camping 101: Skinning send new players to Adele Fielder and Helene Peltskinner, downstairs in the same house, and Helene gives Rough Wolf Pelts and takes Elmpaw's Head. Yonder asks for a shiver upstairs, by the children's ring, with no trainer and no quest."
+    sources: "the dump's spawn group 19989 ('Elwynn Forest - Goldshire - Creepy Goldshire Children - Day RP'): Cameron, Dana, John, Lisa, Aaron and Jose (805, 804, 806, 807, 810, 811) in one formation, spawned only while game event 401 runs (condition 9110: 'DayTime 7AM to 12AM'), their path round Goldshire and back, dbscripts_on_creature_movement 80503 (each child to a place around Cameron, upstairs) and the path's last wait of five hours; Questie's coordinates (no Wowhead point); the WoWWiki archive's Children of Goldshire page (the house with the skinning and leatherworking trainers, the second floor, the pentagram, silent and unmoving, Cameron always in the middle; first reported in 2008, and scripted in the game this journal is played on)"
   - id: elwynn-forest-heroes-vigil
     tier: hidden
     gestures: [SALUTE, BOW, KNEEL, MOURN, PRAY]
@@ -55,11 +55,11 @@ Address them in their own tongue.
 ## elwynn-forest-goldshire-children
 In the town at the forest's crossroads, six children walk the roads together,
 always in the same order, and always back to the same house.
-Upstairs, they stand in a ring around one of them, silent, for hours.
+Upstairs, of a morning, they stand in a ring around one of them, silent, for hours.
 Climb to their room, if you have the nerve, and see how it feels.
-? Goldshire, the house on its north-east side by the lake, where the skinner and the leatherworker keep shop. Upstairs, by the children's ring, let yourself shiver.
+? Goldshire, the house on its north-east side by the lake, where the skinner and the leatherworker keep shop. Upstairs, in the morning, by the children's ring, let yourself shiver.
 = The children of Goldshire: Cameron in the middle of the ring, Dana, John, Lisa, Aaron and Jose around him. They walk out together, and they always come back to this room.
-+ Once back in their room, they keep still for five hours before they set out again.
++ They come out in the morning, walk their round once, and stand in their room until noon. Then they are gone.
 
 ## elwynn-forest-heroes-vigil
 In a lake shaped like a ring, an island holds a ring of stones

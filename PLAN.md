@@ -172,10 +172,11 @@ Forever (97 for a Horde reader, 104 for an Alliance one), and the 39
 quarries.
 
 **One more (21 October 2026, the user's ask).** Elwynn's third riddle, off
-the road: Goldshire's six children, whom the game scripts to walk the town
-in a ring and come back to the same upstairs room (the dump's spawn group
-19989). The riddle is anchored to the room, not to the children, so it
-holds while they are out. **139 riddles** on Classic Era, **143** on Forever
+the road: Goldshire's six children, whom the game scripts to walk Elwynn's
+road out toward Stormwind's gate and back once each morning, in a ring, and
+then stand in the same upstairs room until noon (the dump's spawn group
+19989, game event 401). The riddle is anchored to the room, not to the
+children, so it holds while they are out or gone. **139 riddles** on Classic Era, **143** on Forever
 (97 for a Horde reader, 105 for an Alliance one), and the 39 quarries.
 
 ### How many

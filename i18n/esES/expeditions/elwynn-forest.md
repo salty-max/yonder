@@ -1,5 +1,5 @@
 ---
-source: b6eca3979325
+source: ce94da5105a8
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -16,11 +16,11 @@ Dirígete a ellos en su propia lengua.
 ## elwynn-forest-goldshire-children
 En el pueblo del cruce de caminos del bosque, seis niños recorren juntos los caminos,
 siempre en el mismo orden, y siempre de regreso a la misma casa.
-Arriba, forman un círculo en torno a uno de ellos y callan durante horas.
+Arriba, por las mañanas, forman un círculo en torno a uno de ellos y callan durante horas.
 Sube a su cuarto, si tienes valor, y descubre qué se siente.
-? Villadorada, la casa del noreste del pueblo, junto al lago, donde la desolladora y la peletera tienen su tienda. Arriba, junto al círculo de los niños, deja que te recorra un escalofrío.
+? Villadorada, la casa del noreste del pueblo, junto al lago, donde la desolladora y la peletera tienen su tienda. Arriba, por la mañana, junto al círculo de los niños, deja que te recorra un escalofrío.
 = Los niños de Villadorada: Cameron en el centro del círculo, y Dana, John, Lisa, Aaron y Jose a su alrededor. Salen juntos, y siempre vuelven a este cuarto.
-+ Una vez de vuelta en su cuarto, se quedan inmóviles cinco horas antes de volver a salir.
++ Salen por la mañana, hacen su ronda una sola vez y se quedan en su cuarto hasta el mediodía. Luego desaparecen.
 ! Tranquilo
 @ El cuarto de los niños
 
