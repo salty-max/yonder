@@ -15,6 +15,13 @@ riddles:
     hint_area: { x: 62.5, y: 61.0, r: 4 }
     danger: "Quiet"
     sources: "Zapetta's and Hin Denburg's own words (their gossip); the WoWWiki archive's Zapetta page"
+  - id: tirisfal-glades-hin-denburg
+    tier: near
+    creature: 3150   # Hin Denburg, Zeppelin Master, dump 61.8, 59.2, at the zeppelin tower: the zeppelin to Grom'gol
+    found: target   # where every traveller waits: only by speaking to him
+    hint_area: { x: 61.0, y: 58.5, r: 3 }
+    danger: "Quiet"
+    sources: "Hin Denburg's own words (his gossip); the dump's spawn; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (named for the Hindenburg); the WoWWiki archive's Janeiro's Point page (the statue in Stranglethorn)"
   - id: tirisfal-glades-stillwater
     tier: off
     gestures: [SIGH, MOURN, CRY]
@@ -73,6 +80,14 @@ He has one favour to ask of whoever passes through. Give him your word.
 ? The zeppelin tower north of the Undercity's gates: the goblin who sends the airship to Durotar. Nod your agreement to the hungry goblin.
 = Zapetta, the zeppelin master: 'My brother said we could make great money with this trade route, but he didn't tell me I would be the one living on this side. If you come back this way on the Zeppelin, could you bring me something to eat?'
 + Hin Denburg, who sends the other airship south, has a low opinion of the gnomes' tram: if you believe in it, he has a statue in Stranglethorn to sell you.
+
+## tirisfal-glades-hin-denburg
+At the tower between the village and the ruined city, a goblin sells passage to the jungle on an airship.
+Ask him whether it is safe. He has his answer ready,
+a word on the gnomes' tram besides, and something in Stranglethorn he would like to sell you.
+? The zeppelin tower east of Brill. Speak to the zeppelin master whose ship flies to Grom'gol.
+= Hin Denburg, Zeppelin Master: 'This here is the finest, most state of the art mode of transportation money can build. What? Deeprun Tram? Gnomes? Listen pal, If you believe that garbage then I've got a statue down in Stranglethorn to sell ya.'
++ His name belongs to a famous airship of another world, remembered for the way it burned. The statue he offers stands on Janeiro's Point, outside Booty Bay.
 
 ## tirisfal-glades-stillwater
 West of the town of the dead, a little pond lies gray and still.

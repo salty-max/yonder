@@ -1839,8 +1839,8 @@ check(
   "… the data holds neither an answer's name nor its spot"
 )
 check(
-  #ns.riddlesOf(1431) == 4 and #ns.riddlesOf(1453) == 3,
-  "an Alliance reader: Duskwood's four riddles (Darkshire's and the Night Watch's too), Stormwind's three"
+  #ns.riddlesOf(1431) == 4 and #ns.riddlesOf(1453) == 4,
+  "an Alliance reader: Duskwood's four riddles (Darkshire's and the Night Watch's too), Stormwind's four"
 )
 state.faction = "Horde"
 check(
@@ -2808,7 +2808,7 @@ do
       end
     end
     check(
-      riddles == (FOREVER and 143 or 139) and quarries == (FOREVER and 39 or 38),
+      riddles == (FOREVER and 151 or 147) and quarries == (FOREVER and 39 or 38),
       "German expedition coverage, this client's only"
     )
     check(

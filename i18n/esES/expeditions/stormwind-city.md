@@ -1,5 +1,5 @@
 ---
-source: 6670237bcb44
+source: 446854f187c7
 zone: 1453
 ---
 ## stormwind-city-faol-plaque
@@ -9,6 +9,16 @@ Su obra comenzó en una ciudad del norte ahora perdida para los vivos.
 ? La Catedral de la Luz, en Plaza de la Catedral. Lee la placa del arzobispo dentro de la catedral.
 = El arzobispo Alonsus Faol, "benefactor de la Iglesia de la Luz". Su obra comenzó en Stratholme. Tras la Segunda Guerra ayudó a reformar la Hermandad de Villanorte y recaudó fondos para reconstruir Ventormenta.
 + "Esta catedral se alza como bastión de la Luz Sagrada y como testimonio perdurable del noble espíritu y la generosidad de un hombre". Su lugar de descanso está muy al norte, junto al Monasterio Escarlata.
+! Tranquilo
+
+## stormwind-city-topper
+En el distrito de los mercaderes, entre los comerciantes, un hombre no vende nada en absoluto.
+Pide monedas, se ofrece a sacarte brillo a la armadura, jura de vez en cuando que está ciego,
+y promete, con toda sinceridad, devolvértelo un día concreto de la semana.
+Encuéntralo y escúchalo hasta el final.
+? El Distrito de Mercaderes de Ventormenta. Busca al mendigo entre los comerciantes y acércate lo bastante para seleccionarlo.
+= Topper McNabb, el mendigo de Ventormenta: "Te prometo que el martes te pago lo que me des hoy para una hamburguesa.".
++ Su ceguera no dura: "¿Te sobra algo de morralla para un pobre ciego?... ¿Qué quieres decir con que no soy ciego?... ¡YA NO SOY CIEGO! ¡¡PUEDO VER!! ¡Es un milagro!".
 ! Tranquilo
 
 ## stormwind-city-khadgar-plaque

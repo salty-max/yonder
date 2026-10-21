@@ -14,6 +14,13 @@ riddles:
     hint_area: { x: 48.7, y: 43.6, r: 8 }
     danger: "Quiet"
     sources: "object 177199's text"
+  - id: stormwind-city-topper
+    tier: near
+    creature: 1402   # Topper McNabb, dump 52.5, 57.6, in the Trade District; Wowhead's points alike
+    found: target   # he opens no window: only by finding him
+    hint_area: { x: 53.0, y: 58.5, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his random says (creature_ai_scripts 140201: broadcast texts 179 to 185); the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Wimpy's line from Popeye)"
   - id: stormwind-city-khadgar-plaque
     tier: off
     gestures: [GOODLUCK, SALUTE, WAVE]
@@ -37,6 +44,15 @@ His work began in a northern city now lost to the living.
 ? The Cathedral of Light, in Cathedral Square. Read the archbishop's plaque inside the cathedral.
 = Archbishop Alonsus Faol, 'benevolent patron of the Church of Light'. His work began in Stratholme. After the Second War he helped reform the Brotherhood of Northshire and raised funds to rebuild Stormwind.
 + 'This Cathedral stands not only as a bastion of the Holy Light, but as a lasting testament to one man's noble spirit and generosity.' His resting place is far to the north, beside the Scarlet Monastery.
+
+## stormwind-city-topper
+In the trade district, among the merchants, one man sells nothing at all.
+He asks for coin, offers to shine your armour, swears now and then that he is blind,
+and promises, very sincerely, to pay you back on a certain day of the week.
+Find him, and hear him out.
+? Stormwind's Trade District. Find the beggar among the merchants and get close enough to target him.
+= Topper McNabb, Stormwind's beggar: 'I will gladly pay you Tuesday for a hamburger today.'
++ His blindness does not last: 'Spare some change for a poor blind man? ...What do you mean I'm not blind? ...I'M NOT BLIND! I CAN SEE!! It's a miracle!'
 
 ## stormwind-city-khadgar-plaque
 Among the memorials to those who went through the dark gate,

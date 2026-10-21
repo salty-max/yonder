@@ -57,6 +57,14 @@ riddles:
     quest_overlap: [1486, 1487]
     quest_context: "Nalpak and Ebru give Deviate Hides and Deviate Eradication in the same eye of the skull. Yonder asks for a word with Waldor, the leatherworker beside them, whose advice belongs to no quest."
     sources: "Waldor's own words (his gossip, a novice's and an expert's); Questie's coordinates (no Wowhead point); the client's display tables (a tauren); the WoWWiki archive's Waldor page (the cave in the right eye socket of the skull at the Wailing Caverns' entrance)"
+  - id: the-barrens-trok
+    tier: off
+    faction: horde   # its keeper attacks the other side: this side's alone
+    creature: 14872   # Trok, dump 54.3, 20.8, at Grol'dom Farm: he never stops running from the Swarm of bees (14894)
+    found: target   # he never stops running: only by catching him
+    hint_area: { x: 54.0, y: 21.5, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn group 11 ('The Barrens - Trok and Swarm of bees'), his path, and the broadcast texts 10259 to 10262 (his cries, Karu named); the WoWWiki archive's Trok page (a young orc, son of Kranal Fiss, running from a swarm of bees); Wowhead's points for Trok and Karu"
   - id: the-barrens-fallen-warrior
     tier: hidden
     gestures: [SALUTE, BOW]
@@ -67,6 +75,15 @@ riddles:
     quest_overlap: [871, 959, 1486, 1491, 1503, 1525, 94466]
     quest_context: "The hint's wide circle takes in the Razormane camps (Disrupt the Attacks, Call of Fire's Fire Tar), Lushwater Oasis and the caverns' outer cave (Deviate Hides, Smart Drinks, Trouble at the Docks) and Forged Steel's bars. None is the shrine's own. Yonder asks only a salute at the fallen warrior's grave, with no kill and no quest."
     sources: "the wiki's Shrine of the Fallen Warrior; Koiter (creature 12034) places the hint"
+  - id: the-barrens-klannoc
+    tier: hidden
+    creature: 6236   # Klannoc Macleod, The Islander, dump 68.6, 49.2, on Fray Island; Wowhead 68.6, 49.0
+    found: target   # on his island: only by speaking to him
+    hint_area: { x: 68.0, y: 48.5, r: 3 }
+    danger: "Quiet (the muck frenzies in the shallows)"
+    quest_overlap: [1718, 1719, 1791]
+    quest_context: "The Islander, The Affray and The Windwatcher are warrior class quests, which the riddle rules exempt: Klannoc sends warriors to fight his challengers on the island. Yonder asks any traveller only to find him and speak with him."
+    sources: "the dump's spawn (he stands alone on Fray Island); the WoWWiki archive's In-jokes and references, Kalimdor page (Klannoc Macleod, The Islander, a Highlander reference)"
 quarry:
   id: 5828   # Humar the Pridelord
   sources: "the WoWWiki archive's Humar the Pridelord page (the ring of lions round his tree, his roar, his black coat and tameability); the dump's spawn; the WoWWiki archive's Araga page (Humar's one spot under the tree)"
@@ -123,6 +140,15 @@ Ask him what the caves are good for.
 = Waldor, leatherworker in the skull's eye: 'The caverns below us are a source of strange and wondrous hides, but you must take care if you venture into their depths. Remember that your own skin is far more valuable.'
 + Those whose skill outgrows his, he sends to Krulmoo Fullmoon, in Camp Taurajo.
 
+## the-barrens-trok
+On a farm north of the crossroads, a small orc is always running,
+and something small and angry is always right behind him.
+He has learned one thing about bees the hard way, and he will tell anyone who catches him.
+Catch him if you can.
+? Grol'dom Farm, north of the Crossroads. The boy runs round the farm with the bees behind him. Catch up and target him.
+= Trok, of Grol'dom Farm, and the swarm he cannot shake: 'Help! I'm being chased by a swarm of bees!' And, between breaths: 'I didn't know bees didn't like fire!'
++ He calls on Karu, who runs about the same farm, for help: 'Karu will you please help get these bees off of me? They sting!'
+
 ## the-barrens-fallen-warrior
 Not far from the busiest road of the plains, a short trail climbs a hill
 to a shrine raised for a warrior who fell,
@@ -131,6 +157,15 @@ Few find it. Honour him as one warrior honours another.
 ? West of the Crossroads, follow a ridge up a small hill. Salute the warrior at his shrine.
 = The Shrine of the Fallen Warrior, and its own spirit healer, Koiter.
 + It remembers Michel Koiter, who worked on this world and died before it was finished. The spirit healer bears his name, and the orc of the shrine was his own character.
+
+## the-barrens-klannoc
+Off the plains' eastern shore lies an island where challengers come to fight,
+and a swordsman stands on it with a title that names only where he lives.
+They say there can be only one like him.
+Find him, and hear what he wants.
+? Fray Island, off the Barrens' coast south of Ratchet. Speak to the swordsman they call the Islander.
+= Klannoc Macleod, the Islander, on Fray Island, where warriors come to face his challengers.
++ His name and his title come from the tale of a clan of immortal swordsmen, of whom, in the end, there could be only one.
 
 ## quarry
 North-west of the goblins' port, beyond the hills, lions lie in a ring around a tree,

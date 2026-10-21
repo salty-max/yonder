@@ -1,5 +1,5 @@
 ---
-source: 3b0e31790727
+source: 3c48be244d9b
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -61,6 +61,16 @@ Frag ihn, wozu die Höhlen gut sind.
 + Wer ihn in seinem Handwerk überholt hat, den schickt er zu Krulmoo Fullmoon nach Camp Taurajo.
 ! Bewacht (elitäre Deviatkrabbler und Deviatwinder, Stufe 15 und 16, am Eingang der Höhlen)
 
+## the-barrens-trok
+Auf einem Hof nördlich der Wegkreuzung rennt ein kleiner Orc ohne Pause,
+und etwas Kleines, Wütendes ist ihm immer dicht auf den Fersen.
+Über Bienen hat er eine Sache auf die harte Tour gelernt, und er verrät sie jedem, der ihn einholt.
+Hol ihn ein, wenn du kannst.
+? Grol'doms Hof, nördlich von Crossroads. Der Junge rennt mit den Bienen im Nacken um den Hof. Hol ihn ein und nimm ihn ins Ziel.
+= Trok, von Grol'doms Hof, und der Schwarm, den er nicht loswird: 'Hilfe! Ich werde von einem Bienenschwarm verfolgt!' Und zwischen zwei Atemzügen: 'Ich wusste nicht, dass Bienen kein Feuer mögen!'
++ Er ruft Karu um Hilfe, der auf demselben Hof herumläuft: 'Kannst du mir bitte helfen diese Bienen loszuwerden, Karu? Sie stechen!'
+! Ruhig
+
 ## the-barrens-fallen-warrior
 Nicht weit von der belebtesten Straße der Ebenen steigt ein kurzer Pfad einen Hügel hinauf
 zu einem Schrein, errichtet für einen Krieger, der fiel,
@@ -71,6 +81,16 @@ Wenige finden ihn. Ehre ihn, wie ein Krieger einen anderen ehrt.
 + Er erinnert an Michel Koiter, der an dieser Welt arbeitete und starb, bevor sie fertig war. Der Geistheiler trägt seinen Namen, und der Orc des Schreins war seine eigene Figur.
 ! Ruhig
 @ Schrein des gefallenen Kriegers
+
+## the-barrens-klannoc
+Vor der Ostküste der Ebenen liegt eine Insel, auf der Herausforderer zum Kampf antreten,
+und ein Schwertkämpfer steht darauf, mit einem Titel, der nur sagt, wo er wohnt.
+Es heißt, es könne nur einen wie ihn geben.
+Finde ihn und hör dir an, was er will.
+? Das Prügel-Eiland, vor der Küste des Brachlands südlich von Ratchet. Sprich mit dem Schwertkämpfer, den man den Eiländer nennt.
+= Klannoc Macleod, der Eiländer, auf dem Prügel-Eiland, wo Krieger gegen seine Herausforderer antreten.
++ Sein Name und sein Titel stammen aus der Geschichte eines Clans unsterblicher Schwertkämpfer, von denen am Ende nur einer übrig bleiben konnte.
+! Ruhig (die Schlammfrenzys in den Untiefen)
 
 ## quarry
 Nordwestlich des Hafens der Goblins, jenseits der Hügel, liegen Löwen im Kreis um einen Baum,

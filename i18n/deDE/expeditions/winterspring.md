@@ -1,5 +1,5 @@
 ---
-source: 626cf48d0405
+source: afb63261be3e
 zone: 1452
 ---
 ## winterspring-farflinger
@@ -9,6 +9,16 @@ Finde den Erfinder, dessen Titel dir Grund zum Zögern gibt.
 ? Everlook. Sprich mit dem Ingenieur. Seine Maschine auszuprobieren ist eine andere Sache.
 = Zap Farflinger, Unausgeglichener Ingenieur. Sein Plan für den sofortigen Transport beginnt damit, den Reisenden in Stücke zu sprengen, und setzt die Teilchen dann in Everlook wieder zusammen.
 + Er lehrt geschickte Goblin-Ingenieure, den Reißer zu bauen, der sich mit seiner Maschine verbindet. Auf Zweifel an der Sicherheit antwortet er, das Überleben komme nach der Ingenieurskunst.
+! Ruhig
+
+## winterspring-jack-sterling
+In der verschneiten Stadt, in der die Goblins die einzige Herberge weit und breit führen,
+ist einer unter ihnen kein Goblin, und er heißt Jack.
+Niemand hat ihn je arbeiten oder spielen sehen.
+Finde ihn.
+? Everlook, in Winterspring. Finde den einzigen Menschen der Stadt und geh nah genug heran, um ihn ins Ziel zu nehmen.
+= Jack Sterling, der einzige Mensch in Everlook. Er bietet keine Arbeit, keine Waren und kein Wort.
++ Ein anderes verschneites Hotel, in der Geschichte einer anderen Welt, hatte auch seinen Jack. Es ging nicht gut aus.
 ! Ruhig
 
 ## winterspring-kel-theril

@@ -29,6 +29,13 @@ riddles:
     quest_overlap: [91746, 91751, 97922, 97924]
     quest_context: "Forever's Camping 101: Leatherworking and Camping 101: Skinning send new players to Adele Fielder and Helene Peltskinner, downstairs in the same house, and Helene gives Rough Wolf Pelts and takes Elmpaw's Head. Yonder asks for a shiver upstairs, by the children's ring, with no trainer and no quest."
     sources: "the dump's spawn group 19989 ('Elwynn Forest - Goldshire - Creepy Goldshire Children - Day RP'): Cameron, Dana, John, Lisa, Aaron and Jose (805, 804, 806, 807, 810, 811) in one formation, spawned only while game event 401 runs (condition 9110: 'DayTime 7AM to 12AM'), their path round Goldshire and back, dbscripts_on_creature_movement 80503 (each child to a place around Cameron, upstairs) and the path's last wait of five hours; Questie's coordinates (no Wowhead point); the WoWWiki archive's Children of Goldshire page (the house with the skinning and leatherworking trainers, the second floor, the pentagram, silent and unmoving, Cameron always in the middle; first reported in 2008, and scripted in the game this journal is played on)"
+  - id: elwynn-forest-terry-palin
+    tier: off
+    gestures: [SING]
+    creature: 1650   # Terry Palin, Lumberjack, dump 83.0, 63.3, at the Eastvale Logging Camp; Wowhead 82.8, 63.2
+    hint_area: { x: 82.0, y: 62.5, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Terry Palin: Terry Jones and Michael Palin, who wrote the Lumberjack Song)"
   - id: elwynn-forest-heroes-vigil
     tier: hidden
     gestures: [SALUTE, BOW, KNEEL, MOURN, PRAY]
@@ -60,6 +67,15 @@ Climb to their room, if you have the nerve, and see how it feels.
 ? Goldshire, the house on its north-east side by the lake, where the skinner and the leatherworker keep shop. Upstairs, in the morning, by the children's ring, let yourself shiver.
 = The children of Goldshire: Cameron in the middle of the ring, Dana, John, Lisa, Aaron and Jose around him. They walk out together, and they always come back to this room.
 + They come out in the morning, walk their round once, and stand in their room until noon. Then they are gone.
+
+## elwynn-forest-terry-palin
+In the logging camp at the forest's eastern edge, a lumberjack keeps the stores.
+Somewhere far away there is a song about men like him,
+about the trees they fell and the nights they sleep so soundly.
+He has never heard it. Be the first to give it to him.
+? The Eastvale Logging Camp, in Elwynn's east. Sing to the lumberjack who keeps the camp's stores.
+= Terry Palin, Lumberjack, of the Eastvale Logging Camp.
++ His name joins Terry Jones and Michael Palin, who wrote a famous song about a lumberjack, in a world far from this one.
 
 ## elwynn-forest-heroes-vigil
 In a lake shaped like a ring, an island holds a ring of stones

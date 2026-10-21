@@ -1,5 +1,5 @@
 ---
-source: 6670237bcb44
+source: 446854f187c7
 zone: 1453
 ---
 ## stormwind-city-faol-plaque
@@ -9,6 +9,16 @@ Son oeuvre commença dans une cité du nord aujourd'hui perdue pour les vivants.
 ? La cathédrale de la Lumière, place de la Cathédrale. Lisez la plaque de l'archevêque dans la cathédrale.
 = L'archevêque Alonsus Faol, "bienveillant protecteur de l'Eglise de la Lumière". Son oeuvre commença à Stratholme. Après la Deuxième Guerre, il aida à réformer la Fraternité de Comté-du-Nord et leva des fonds pour rebâtir Hurlevent.
 + "Cette cathédrale n'est pas seulement un bastion de la Sainte Lumière, mais aussi un mémorial de son esprit noble et de sa générosité." Il repose loin au nord, à côté du Monastère écarlate.
+! Calme
+
+## stormwind-city-topper
+Dans le quartier commerçant, parmi les marchands, un homme ne vend rien du tout.
+Il demande une pièce, propose de faire briller votre armure, jure par moments qu'il est aveugle,
+et promet, très sincèrement, de vous rembourser un certain jour de la semaine.
+Trouvez-le, et écoutez-le jusqu'au bout.
+? Le Quartier commerçant de Hurlevent. Trouvez le mendiant parmi les marchands et approchez-vous assez pour le cibler.
+= Topper McNabb, le mendiant de Hurlevent : "Je te paierai volontiers mardi pour avoir un hamburger aujourd'hui."
++ Sa cécité ne dure pas : "Quelques pièces pour un pauvre aveugle ?... Qu'est-ce que ça veut dire, je ne suis pas aveugle ?... JE NE SUIS PAS AVEUGLE ! JE VOIS !! C'est un miracle !"
 ! Calme
 
 ## stormwind-city-khadgar-plaque

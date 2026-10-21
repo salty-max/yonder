@@ -1,5 +1,5 @@
 ---
-source: 0f0a60f948a0
+source: 27c553229d99
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -10,6 +10,15 @@ Er hat eine Bitte an jeden, der vorbeikommt. Gib ihm dein Wort.
 ? Der Zeppelinturm nördlich der Tore von Undercity: der Goblin, der das Luftschiff nach Durotar schickt. Nicke dem hungrigen Goblin zustimmend zu.
 = Zapetta, der Zeppelinmeister: 'Mein Bruder sagte, wir könnten viel Geld mit dieser Handelsroute machen, aber ich wusste nicht, dass ich auf dieser Seite leben würde. Wenn Ihr mit dem Zeppelin wieder hier vorbeikommt, könntet Ihr mir da wohl etwas zu essen mitbringen?'
 + Hin Denburg, der das andere Luftschiff nach Süden schickt, hält wenig von der Bahn der Gnome: Wer an sie glaubt, dem verkauft er auch eine Statue im Schlingendorntal.
+! Ruhig
+
+## tirisfal-glades-hin-denburg
+Am Turm zwischen dem Dorf und der zerstörten Stadt verkauft ein Goblin Plätze auf einem Luftschiff in den Dschungel.
+Frag ihn, ob es sicher ist. Er hat seine Antwort parat,
+dazu ein Wort über die Bahn der Gnome und etwas im Schlingendorntal, das er dir gern verkaufen würde.
+? Der Zeppelinturm östlich von Brill. Sprich mit dem Zeppelinmeister, dessen Schiff zum Basislager von Grom'gol fliegt.
+= Hin Denburg, Zeppelinmeister: 'Das hier ist das beste und modernste Fortbewegungsmittel, das man für Geld überhaupt bauen kann. Was? Die Tiefenbahn? Gnome? Hört mal, $gKumpel:Mädel;, wenn Ihr diesen Stuss glaubt, dann hab' ich eine Statue unten im Schlingendorntal, die ich Euch unbedingt verkaufen muss.'
++ Sein Name gehört einem berühmten Luftschiff einer anderen Welt, an das man sich wegen der Art erinnert, wie es verbrannte. Die Statue, die er anbietet, steht auf der Janeirospitze vor Booty Bay.
 ! Ruhig
 
 ## tirisfal-glades-stillwater

@@ -1,5 +1,5 @@
 ---
-source: 12d2d1caa3a1
+source: 18936e00a731
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -29,6 +29,16 @@ de l'un de ses empereurs. Trouvez-la, et rendez-lui l'hommage que lui devaient s
 = La tombe de l'empereur, à Zul'Kunda.
 + L'empire gurubashi s'étendait jadis sur tout le sud. Ses descendants en tiennent aujourd'hui les ruines, et Hakkar est de retour à Zul'Gurub.
 ! Périlleux (les Bloodscalp)
+
+## stranglethorn-vale-janeiro
+Au large du port des gobelins, sur un rocher en mer, une grande statue ouvre les bras
+à chaque navire qui entre, comme pour l'accueillir.
+Un géant d'une autre sorte a fait de ce rocher sa demeure.
+Nagez jusque-là, et répondez à ces bras ouverts.
+? Le Cap Janeiro, l'îlot au nord-ouest de l'entrée du port de Baie-du-Butin. Sur le rocher, serrez la statue dans vos bras, et méfiez-vous du géant des mers.
+= Le Cap Janeiro, et sa grande statue aux bras ouverts, phare pour chaque voyageur qui entre à Baie-du-Butin.
++ Mok'rash, le géant des mers qui garde le rocher, transporte des pages arrachées à un livre sur les chasses de Strangleronce.
+! Périlleux (Mok'rash, un géant des mers, élite, niveau 50)
 
 ## stranglethorn-vale-gromgol
 Au sommet de la tour de la Horde dans la jungle, un gobelin voit partir les dirigeables pour Orgrimmar,

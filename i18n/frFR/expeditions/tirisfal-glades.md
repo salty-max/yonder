@@ -1,5 +1,5 @@
 ---
-source: 0f0a60f948a0
+source: 27c553229d99
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -10,6 +10,15 @@ Il a une faveur à demander à qui passe par là. Donnez-lui votre parole.
 ? La tour des zeppelins au nord des portes de Fossoyeuse : le gobelin qui envoie le dirigeable vers Durotar. Acquiescez à la demande du gobelin affamé.
 = Zapetta, le maître des zeppelins : "Mon frère disait qu'il y avait de l'argent à se faire avec cette route commerciale, mais il ne m'avait pas dit que ce serait moi qui vivrais de ce côté. Si vous revenez par ici en zeppelin, pouvez-vous m'apporter quelque chose à manger ?"
 + Hin Denburg, qui envoie l'autre dirigeable vers le sud, a piètre opinion du tram des gnomes : si vous y croyez, il a une statue à Strangleronce à vous vendre.
+! Calme
+
+## tirisfal-glades-hin-denburg
+À la tour entre le village et la cité en ruine, un gobelin vend des places pour la jungle à bord d'un dirigeable.
+Demandez-lui si c'est sûr. Il a sa réponse toute prête,
+un mot sur le tram des gnomes en prime, et quelque chose à Strangleronce qu'il aimerait vous vendre.
+? La tour des zeppelins à l'est de Brill. Parlez au maître des zeppelins dont le vaisseau va au Campement Grom'gol.
+= Hin Denburg, Maître des zeppelins : "Voici le mode de transport le plus efficace et le plus moderne qui soit. Quoi ? Le Tram des profondeurs ? Les gnomes ? Écoutez-moi bien : si vous croyez à ces âneries, j'ai une statue à vous vendre à Strangleronce."
++ Son nom est celui d'un célèbre dirigeable d'un autre monde, dont on se souvient pour la façon dont il a brûlé. La statue qu'il propose se dresse au Cap Janeiro, à l'entrée de Baie-du-Butin.
 ! Calme
 
 ## tirisfal-glades-stillwater

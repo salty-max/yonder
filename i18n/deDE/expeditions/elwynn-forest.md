@@ -1,5 +1,5 @@
 ---
-source: ce94da5105a8
+source: 37a29ae5d971
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -23,6 +23,16 @@ Steig hinauf in ihr Zimmer, wenn du dich traust, und spür, wie es sich anfühlt
 + Sie kommen morgens heraus, drehen ihre Runde nur ein Mal und stehen bis Mittag in ihrem Zimmer. Dann sind sie fort.
 ! Ruhig
 @ Das Zimmer der Kinder
+
+## elwynn-forest-terry-palin
+Im Holzfällerlager am Ostrand des Waldes verwaltet ein Holzfäller die Vorräte.
+Irgendwo weit weg gibt es ein Lied über Männer wie ihn,
+über die Bäume, die sie fällen, und die Nächte, in denen sie so tief schlafen.
+Er hat es nie gehört. Sei der Erste, der es ihm schenkt.
+? Das Holzfällerlager des Osttals, im Osten von Elwynn. Sing für den Holzfäller, der die Vorräte des Lagers verwaltet.
+= Terry Palin, Holzfäller, aus dem Holzfällerlager des Osttals.
++ Sein Name verbindet Terry Jones und Michael Palin, die ein berühmtes Lied über einen Holzfäller geschrieben haben, in einer Welt fern von dieser.
+! Ruhig
 
 ## elwynn-forest-heroes-vigil
 In einem See, der wie ein Ring geformt ist, trägt eine Insel einen Ring aus Steinen

@@ -1,5 +1,5 @@
 ---
-source: 6670237bcb44
+source: 446854f187c7
 zone: 1453
 ---
 ## stormwind-city-faol-plaque
@@ -9,6 +9,16 @@ Sein Werk begann in einer Stadt im Norden, die den Lebenden nun verloren ist.
 ? Die Kathedrale des Lichts, am Kathedralenplatz. Lies die Gedenktafel des Erzbischofs in der Kathedrale.
 = Erzbischof Alonsus Faol, 'Gütiger Schutzherr der Kirche des Lichts'. Sein Werk begann in Stratholme. Nach dem Zweiten Krieg half er, die Bruderschaft von Nordhain neu zu ordnen, und sammelte Mittel für den Wiederaufbau von Stormwind.
 + 'Diese Kathedrale steht jetzt nicht nur hier als Bastion des Heiligen Lichts, sondern als das dauerhafte Testament an den edlen Geist und die Großzügigkeit eines ganz besonderen Mannes.' Seine Ruhestätte liegt weit im Norden, neben dem Scharlachroten Kloster.
+! Ruhig
+
+## stormwind-city-topper
+Im Handelsdistrikt, zwischen den Händlern, verkauft ein Mann überhaupt nichts.
+Er bittet um Münzen, bietet an, deine Rüstung zu polieren, schwört hin und wieder, er sei blind,
+und fragt höflich, ob du ihm nicht einen ausgeben willst.
+Finde ihn und hör ihn an.
+? Der Handelsdistrikt von Stormwind. Finde den Bettler zwischen den Händlern und geh nah genug heran, um ihn ins Ziel zu nehmen.
+= Topper McNabb, der Bettler von Stormwind: 'Gebt Ihr mir einen aus?'
++ Seine Blindheit hält nicht an: 'Habt Ihr ein paar Münzen für einen Blinden...? Was meint Ihr damit, ich wäre nicht blind...? ICH BIN NICHT BLIND! ICH KANN SEHEN!!! Ein Wunder!'
 ! Ruhig
 
 ## stormwind-city-khadgar-plaque

@@ -1,5 +1,5 @@
 ---
-source: 3b0e31790727
+source: 3c48be244d9b
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -60,6 +60,16 @@ Pregúntale para qué sirven las cuevas.
 + A quienes lo superan en destreza, los envía a Krulmoo Lunallena, en el Campamento Taurajo.
 ! Vigilado (trepadores y volutadores descarriados de élite, niveles 15 y 16, a la entrada de las cuevas)
 
+## the-barrens-trok
+En una granja al norte del cruce, un orco pequeño corre sin parar,
+y algo pequeño y furioso lo sigue siempre de cerca.
+Aprendió algo sobre las abejas por las malas, y se lo cuenta a quien lo alcance.
+Alcánzalo si puedes.
+? La Granja de Grol'dom, al norte de El Cruce. El chico da vueltas a la granja con las abejas detrás. Alcánzalo y selecciónalo.
+= Trok, de la Granja de Grol'dom, y el enjambre del que no se libra: "¡Ayuda! ¡Me persigue un enjambre de abejas!". Y, entre jadeos: "¡No sabía que a las abejas no les gustaba el fuego!".
++ Pide ayuda a Karu, que corretea por la misma granja: "Karu, ¿quieres ayudarme a librarme de estas abejas? ¡Me están picando!".
+! Tranquilo
+
 ## the-barrens-fallen-warrior
 No lejos del camino más transitado de las llanuras, una senda sube por una colina
 hasta un santuario erigido a un guerrero caído,
@@ -69,6 +79,16 @@ Pocos lo encuentran. Hónralo como un guerrero honra a otro.
 = El Santuario del Guerrero Caído y su propio ángel de la Resurrección, Koiter.
 + Recuerda a Michel Koiter, que trabajó en este mundo y murió antes de que estuviera terminado. El ángel lleva su nombre y el orco del santuario era su propio personaje.
 ! Tranquilo
+
+## the-barrens-klannoc
+Frente a la costa este de las llanuras hay una isla adonde los retadores van a luchar,
+y en ella espera un espadachín cuyo título solo dice dónde vive.
+Dicen que no puede haber más que uno como él.
+Encuéntralo y escucha lo que quiere.
+? La Isla de Batalla, frente a la costa de Los Baldíos, al sur de Trinquete. Habla con el espadachín al que llaman El Isleño.
+= Klannoc Macleod, El Isleño, en la Isla de Batalla, adonde los guerreros van a enfrentarse a sus retadores.
++ Su nombre y su título vienen de la historia de un clan de espadachines inmortales, de los que al final solo podía quedar uno.
+! Tranquilo (las furias de fango en los bajíos)
 
 ## quarry
 Al noroeste del puerto goblin, más allá de las colinas, los leones forman un círculo alrededor de un árbol,

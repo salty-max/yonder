@@ -1,5 +1,5 @@
 ---
-source: 12d2d1caa3a1
+source: 18936e00a731
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -29,6 +29,16 @@ de uno de sus emperadores. Encuéntrala y ríndele el homenaje que le debían su
 = La Tumba del Emperador, en Zul'Kunda.
 + El imperio Gurubashi se extendió por todo el sur. Sus descendientes ocupan ahora las ruinas y Hakkar ha vuelto a Zul'Gurub.
 ! Peligroso (los Cabellesangre)
+
+## stranglethorn-vale-janeiro
+Frente al puerto de los goblins, sobre una roca en el mar, una gran estatua abre los brazos
+a cada barco que entra, como para darle la bienvenida.
+Un gigante de otra clase ha hecho de la roca su hogar.
+Nada hasta allí y responde a esos brazos abiertos.
+? El Cayo de Janeiro, el islote al noroeste de la bocana de Bahía del Botín. Sobre la roca, abraza la estatua, y cuidado con el gigante marino.
+= El Cayo de Janeiro y su gran estatua con los brazos abiertos, un faro para cada viajero que llega a Bahía del Botín.
++ Mok'rash, el gigante marino que guarda la roca, lleva páginas arrancadas de un libro sobre las cacerías de Tuercespina.
+! Peligroso (Mok'rash, un gigante marino, élite, nivel 50)
 
 ## stranglethorn-vale-gromgol
 En lo alto de la torre de la Horda en la jungla, un goblin despide las aeronaves hacia Orgrimmar

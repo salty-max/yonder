@@ -1,5 +1,5 @@
 ---
-source: 626cf48d0405
+source: afb63261be3e
 zone: 1452
 ---
 ## winterspring-farflinger
@@ -9,6 +9,16 @@ Trouvez l'inventeur dont le titre vous donne une raison d'hésiter.
 ? Long-guet. Parlez à l'ingénieur. Essayer sa machine est une autre affaire.
 = Zap Farflinger, ingénieur déséquilibré. Son plan de transport instantané commence par réduire le voyageur en morceaux, puis réassemble les particules à Long-guet.
 + Il apprend aux ingénieurs gobelins chevronnés à fabriquer le Déchiquetteur dimensionnel qui se branche sur sa machine. Aux doutes sur la sécurité, il répond que la survie passe après l'ingénierie.
+! Calme
+
+## winterspring-jack-sterling
+Dans la ville enneigée où les gobelins tiennent le seul gîte à des lieues à la ronde,
+un homme parmi eux n'est pas un gobelin, et il s'appelle Jack.
+Personne ne l'a jamais vu travailler, ni s'amuser.
+Trouvez-le.
+? Long-Guet, au Berceau-de-l'Hiver. Trouvez le seul humain de la ville et approchez-vous assez pour le cibler.
+= Jack Sterling, le seul humain de Long-Guet. Il n'offre ni travail, ni marchandise, ni parole.
++ Un autre hôtel enneigé, dans le récit d'un autre monde, avait lui aussi son Jack. Cela s'est mal terminé.
 ! Calme
 
 ## winterspring-kel-theril

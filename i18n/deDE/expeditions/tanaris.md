@@ -1,5 +1,5 @@
 ---
-source: a59de5bd7e95
+source: a40f9ec13d29
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -29,6 +29,15 @@ Sei ausnahmsweise freundlich.
 = Zalashji, ein Naga, zu Hause in seinem Bau: freundlich zu allen und ohne Wunsch an irgendwen.
 + Horde und Allianz können gleichermaßen unbehelligt zu ihm gehen, wie zu kaum einem Naga sonst.
 ! Bewacht (Banditen der Wüstenläufer und Stahlkieferschnapper in der Nähe)
+
+## tanaris-oreily
+Im Hafen der Goblins an der Wüstenküste hat eine Wahrsagerin eine Hütte,
+und eine weiße Eule kreist Tag und Nacht darum, als hätte sie jede Prophezeiung gehört und keiner davon geglaubt.
+Was immer sie dich zu fragen scheint, antworte im selben Ton.
+? Steamwheedle, im Nordosten von Tanaris. Nimm die weiße Eule ins Ziel, die um die Hütte des Sehers kreist, und schau zweifelnd.
+= O'Reily, eine weiße Eule, die um Narain Soothfancys Hütte in Steamwheedle kreist.
++ Ihre Namensvettern führen die Auktionshäuser: Auktionator O'reely in Booty Bay, Auktionator Yarly in Undercity.
+! Ruhig
 
 ## tanaris-winkey
 Vor dem stillen Strand südlich der Piratenbucht trägt eine kleine Insel eine einzige Gnomin, allein,

@@ -31,6 +31,16 @@ riddles:
     quest_overlap: [207]
     quest_context: "Kurzen's Mystery takes the Fourth Troll Legend from the tomb. Yonder asks only a bow to the emperor, with no item and no quest."
     sources: "object 54 (its name); the Codex's gurubashi-empire and zulgurub pages"
+  - id: stranglethorn-vale-janeiro
+    tier: hidden
+    gestures: [HUG]
+    area: Janeiro's Point   # the islet's own sub-area: the embrace counts anywhere on it
+    anchor: { creature: 1493 }   # what places its hint: Mok'rash, the sea giant who keeps the islet (dump 23.3, 72.1), never a meeting
+    hint_area: { x: 24.0, y: 71.0, r: 3 }
+    danger: "Perilous (Mok'rash, a sea giant, elite, level 50)"
+    quest_overlap: [6571]
+    quest_context: "Warsong Supplies sends the Horde after scattered Warsong shipments, one of them on the islet. Yonder asks for an embrace of the statue, with no quest and no crate."
+    sources: "the WoWWiki archive's Janeiro's Point page (a great statue on the islet outside Booty Bay, a beacon to all travellers, Mok'rash's abode) and In-jokes and references, Eastern Kingdoms page (Christ on Corcovado); the dump's spawn and loot of Mok'rash (pages of Green Hills of Stranglethorn); the client's AreaTable"
   - id: stranglethorn-vale-gromgol
     tier: town
     faction: horde   # its town's: for that faction alone
@@ -67,6 +77,15 @@ of one of its emperors. Find it, and pay him the homage his subjects once owed.
 ? The Ruins of Zul'Kunda, in Stranglethorn's north-west. Bow before the tomb.
 = The Emperor's Tomb, at Zul'Kunda.
 + The Gurubashi empire once stretched across the south. Its descendants hold its ruins now, and Hakkar is back in Zul'Gurub.
+
+## stranglethorn-vale-janeiro
+Off the goblins' port, on a rock in the sea, a great statue spreads its arms
+to every ship that sails in, as if in welcome.
+A giant of another kind has made the rock his home.
+Swim out, and answer those open arms.
+? Janeiro's Point, the islet north-west of Booty Bay's harbour mouth. On the rock, hug the statue, and mind the sea giant.
+= Janeiro's Point, and its great statue, arms open, a beacon to every traveller who sails into Booty Bay.
++ Mok'rash, the sea giant who keeps the rock, carries pages torn from a book about Stranglethorn's hunting.
 
 ## stranglethorn-vale-gromgol
 At the top of the Horde's tower in the jungle, a goblin sees the airships off to Orgrimmar,

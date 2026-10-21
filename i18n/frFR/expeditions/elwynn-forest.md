@@ -1,5 +1,5 @@
 ---
-source: ce94da5105a8
+source: 37a29ae5d971
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -23,6 +23,16 @@ Montez jusqu'à leur chambre, si vous en avez le courage, et voyez ce que l'on y
 + Ils sortent au matin, font un seul tour, puis restent dans la chambre jusqu'à midi. Après quoi ils disparaissent.
 ! Calme
 @ La chambre des enfants
+
+## elwynn-forest-terry-palin
+Au camp de bûcherons à l'orée est de la forêt, un bûcheron tient les réserves.
+Quelque part très loin, il existe une chanson sur les hommes comme lui,
+sur les arbres qu'ils abattent et les nuits où ils dorment si bien.
+Il ne l'a jamais entendue. Soyez le premier à la lui offrir.
+? Le Camp de bûcherons du Val d'est, à l'est d'Elwynn. Chantez pour le bûcheron qui tient les réserves du camp.
+= Terry Palin, Bûcheron, du Camp de bûcherons du Val d'est.
++ Son nom réunit Terry Jones et Michael Palin, qui ont écrit une célèbre chanson sur un bûcheron, dans un tout autre monde que celui-ci.
+! Calme
 
 ## elwynn-forest-heroes-vigil
 Dans un lac en forme d'anneau, une île porte un cercle de pierres

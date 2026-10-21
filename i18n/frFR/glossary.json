@@ -347,6 +347,11 @@
    "forever": "Achellios le Banni",
    "use": "Achellios le Banni"
   },
+  "Adele Fielder": {
+   "classic": "Adele Fielder",
+   "forever": "Adele Fielder",
+   "use": "Adele Fielder"
+  },
   "Adon": {
    "classic": "Adon",
    "forever": "Adon",
@@ -409,6 +414,16 @@
    "classic": "Archimage Tervosh",
    "forever": "Archimage Tervosh",
    "use": "Archimage Tervosh"
+  },
+  "Auctioneer O'reely": {
+   "classic": "Commissaire-priseur O'reely",
+   "forever": "Commissaire-priseur O'reely",
+   "use": "Commissaire-priseur O'reely"
+  },
+  "Auctioneer Yarly": {
+   "classic": "Commissaire-priseur Yarly",
+   "forever": "Commissaire-priseur Yarly",
+   "use": "Commissaire-priseur Yarly"
   },
   "Bardu Sharpeye": {
    "classic": "Bardu Sharpeye",
@@ -473,6 +488,11 @@
    "classic": "Cairne Bloodhoof",
    "forever": "Cairne Bloodhoof",
    "use": "Cairne Bloodhoof"
+  },
+  "Cameron": {
+   "classic": "Cameron",
+   "forever": "Cameron",
+   "use": "Cameron"
   },
   "Captain Flat Tusk": {
    "classic": "Capitaine Plate-défense",
@@ -722,6 +742,11 @@
    "forever": "Hegnar Rumbleshot",
    "use": "Hegnar Rumbleshot"
   },
+  "Helene Peltskinner": {
+   "classic": "Helene Peltskinner",
+   "forever": "Helene Peltskinner",
+   "use": "Helene Peltskinner"
+  },
   "Henze Faulk": {
    "classic": "Henze Faulk",
    "forever": "Henze Faulk",
@@ -786,6 +811,11 @@
    "forever": "Isha Awak",
    "use": "Isha Awak"
   },
+  "Jack Sterling": {
+   "classic": "Jack Sterling",
+   "forever": "Jack Sterling",
+   "use": "Jack Sterling"
+  },
   "Jordan Stilwell": {
    "classic": "Jordan Stilwell",
    "forever": "Jordan Stilwell",
@@ -806,10 +836,20 @@
    "forever": "Roi Mukla",
    "use": "Roi Mukla"
   },
+  "Klannoc Macleod": {
+   "classic": "Klannoc Macleod",
+   "forever": "Klannoc Macleod",
+   "use": "Klannoc Macleod"
+  },
   "Knot Thimblejack": {
    "classic": "Knot Thimblejack",
    "forever": "Knot Thimblejack",
    "use": "Knot Thimblejack"
+  },
+  "Kranal Fiss": {
+   "classic": "Kranal Fiss",
+   "forever": "Kranal Fiss",
+   "use": "Kranal Fiss"
   },
   "Krulmoo Fullmoon": {
    "classic": "Krulmoo Fullmoon",
@@ -979,6 +1019,11 @@
    "forever": "Nalesette Wildbringer",
    "use": "Nalesette Wildbringer"
   },
+  "Narain Soothfancy": {
+   "classic": "Narain Soothfancy",
+   "forever": "Narain Soothfancy",
+   "use": "Narain Soothfancy"
+  },
   "Narv Hidecrafter": {
    "classic": "Narv Hidecrafter",
    "forever": "Narv Hidecrafter",
@@ -1008,6 +1053,11 @@
    "classic": "Nizzik",
    "forever": "Nizzik",
    "use": "Nizzik"
+  },
+  "O'Reily": {
+   "classic": "O'Reily",
+   "forever": "O'Reily",
+   "use": "O'Reily"
   },
   "Obsidian Shard": {
    "classic": "Eclat d'obsidienne",
@@ -1273,6 +1323,11 @@
    "forever": "Bien-né souffrant",
    "use": "Bien-né souffrant"
   },
+  "Swarm of bees": {
+   "classic": "Essaim d'abeilles",
+   "forever": "Essaim d'abeilles",
+   "use": "Essaim d'abeilles"
+  },
   "Target Dummy": {
    "classic": "Leurre",
    "forever": "Leurre",
@@ -1287,6 +1342,11 @@
    "classic": "Terl Arakor",
    "forever": "Terl Arakor",
    "use": "Terl Arakor"
+  },
+  "Terry Palin": {
+   "classic": "Terry Palin",
+   "forever": "Terry Palin",
+   "use": "Terry Palin"
   },
   "The Husk": {
    "classic": "La Bogue",
@@ -1322,10 +1382,20 @@
    "forever": "Tog Rustsprocket",
    "use": "Tog Rustsprocket"
   },
+  "Topper McNabb": {
+   "classic": "Topper McNabb",
+   "forever": "Topper McNabb",
+   "use": "Topper McNabb"
+  },
   "Tosamina": {
    "classic": "Tosamina",
    "forever": "Tosamina",
    "use": "Tosamina"
+  },
+  "Trok": {
+   "classic": "Trok",
+   "forever": "Trok",
+   "use": "Trok"
   },
   "Tundra MacGrann": {
    "classic": "Tundra MacGrann",
@@ -2048,6 +2118,11 @@
    "forever": "Repos de Faol",
    "use": "Repos de Faol"
   },
+  "Farm": {
+   "classic": "Ferme",
+   "forever": "Ferme",
+   "use": "Ferme"
+  },
   "Farstrider Lodge": {
    "classic": "Pavillon des Pérégrins",
    "forever": "Pavillon des Pérégrins",
@@ -2087,6 +2162,11 @@
    "classic": "Corniche des flammes",
    "forever": "Corniche des flammes",
    "use": "Corniche des flammes"
+  },
+  "Fray Island": {
+   "classic": "Ile de la Dispute",
+   "forever": "Ile de la Dispute",
+   "use": "Ile de la Dispute"
   },
   "Freewind Post": {
    "classic": "Poste de Librevent",
@@ -2145,6 +2225,11 @@
    "classic": "Site de fouilles de Grimesilt",
    "forever": "Site de fouilles de Crasseboue",
    "use": "Site de fouilles de Crasseboue"
+  },
+  "Grol'dom Farm": {
+   "classic": "Ferme de Grol'dom",
+   "forever": "Ferme de Grol'dom",
+   "use": "Ferme de Grol'dom"
   },
   "Grom'gol Base Camp": {
    "classic": "Campement Grom'gol",
@@ -2243,6 +2328,11 @@
    "classic": "Jaedenar",
    "forever": "Jaedenar",
    "use": "Jaedenar"
+  },
+  "Janeiro's Point": {
+   "classic": "Cap Janeiro",
+   "forever": "Cap Janeiro",
+   "use": "Cap Janeiro"
   },
   "Jasperlode Mine": {
    "classic": "Mine de Jasperlode",
@@ -3066,11 +3156,6 @@
    "classic": "Les Hinterlands",
    "forever": "Les Hinterlands",
    "use": "Les Hinterlands"
-  },
-  "The Howling Vale": {
-   "classic": "Le Val hurlant",
-   "forever": "Le Val hurlant",
-   "use": "Le Val hurlant"
   },
   "The Infectis Scar": {
    "classic": "La Balafre infecte",

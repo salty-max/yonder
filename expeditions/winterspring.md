@@ -13,6 +13,15 @@ riddles:
     hint_area: { x: 61.0, y: 38.0, r: 3 }
     danger: "Quiet"
     sources: "https://www.wowhead.com/classic/npc=14742/zap-farflinger; https://warcraft.wiki.gg/wiki/Zap_Farflinger (gossip, added in 1.5.0); the dump's gossip menu 6092 and npc_text 7249/7250 (the imploder, the explosion, goblin engineering), spawn and lack of quest relations"
+  - id: winterspring-jack-sterling
+    tier: near
+    creature: 11546   # Jack Sterling, dump 61.6, 38.3, in Everlook; Wowhead 61.4, 38.2
+    found: target   # in the town: only by finding him
+    hint_area: { x: 61.0, y: 37.5, r: 3 }
+    danger: "Quiet"
+    quest_overlap: [5163]
+    quest_context: "Are We There, Yeti? is given by Legacki, who stands beside Jack in Everlook. Yonder asks only that Jack be found, with no yeti and no quest."
+    sources: "the dump's spawn (no quest, no wares, no word); the WoWWiki archive's Jack Sterling page (a human in Everlook who offers no quests or services) and In-jokes and references, Kalimdor page (Everlook and the Overlook Hotel, Jack Sterling and Jack Torrance)"
   - id: winterspring-kel-theril
     tier: off
     gestures: [MOURN, KNEEL, PRAY]
@@ -34,6 +43,15 @@ Find the inventor whose title gives you reason to hesitate.
 ? Everlook. Speak to the engineer. Trying his machine is another matter.
 = Zap Farflinger, Unbalanced Engineer. His plan for instant transport begins by blowing the traveller to pieces, then reassembling the particles at Everlook.
 + He teaches skilled goblin engineers to build the ripper that connects to his machine. His answer to doubts about safety is that survival comes second to engineering.
+
+## winterspring-jack-sterling
+In the snowbound town where goblins keep the only lodging for miles,
+one man among them is no goblin, and his name is Jack.
+Nobody has seen him at work, or at play.
+Find him.
+? Everlook, in Winterspring. Find the only human in town and get close enough to target him.
+= Jack Sterling, the only human in Everlook. He offers no work, no wares and no word.
++ Another snowbound hotel, in another world's tale, had a Jack too. It did not end well.
 
 ## winterspring-kel-theril
 By a lake in the north, an elven city stood before the world was broken.

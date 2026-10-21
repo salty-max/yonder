@@ -1,5 +1,5 @@
 ---
-source: a59de5bd7e95
+source: a40f9ec13d29
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -29,6 +29,15 @@ Soyez $gamical:amicale;, pour une fois.
 = Zalashji, un naga chez lui dans sa tanière : amical avec tous, et qui ne veut rien de personne.
 + Horde et Alliance peuvent s'approcher de lui sans dommage, comme de bien peu de nagas où que ce soit.
 ! Gardé (bandits Bat-le-désert et mordeuses mâchoire d'acier tout près)
+
+## tanaris-oreily
+Au port des gobelins sur la côte du désert, un voyant tient une hutte,
+et une chouette blanche tourne autour jour et nuit, comme si elle avait entendu chaque prophétie et n'en croyait aucune.
+Quoi qu'elle semble vous demander, répondez-lui de la même façon.
+? Port Gentepression, au nord-est de Tanaris. Ciblez la chouette blanche qui tourne autour de la hutte du voyant, et prenez un air dubitatif.
+= O'Reily, une chouette blanche, qui tourne autour de la hutte de Narain Soothfancy à Port Gentepression.
++ Ses homonymes tiennent les hôtels des ventes : le Commissaire-priseur O'reely à Baie-du-Butin, le Commissaire-priseur Yarly à Fossoyeuse.
+! Calme
 
 ## tanaris-winkey
 Au large de la plage tranquille au sud de la crique des pirates, un îlot porte une gnome, seule,

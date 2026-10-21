@@ -1,5 +1,5 @@
 ---
-source: ce94da5105a8
+source: 37a29ae5d971
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -23,6 +23,16 @@ Sube a su cuarto, si tienes valor, y descubre qué se siente.
 + Salen por la mañana, hacen su ronda una sola vez y se quedan en su cuarto hasta el mediodía. Luego desaparecen.
 ! Tranquilo
 @ El cuarto de los niños
+
+## elwynn-forest-terry-palin
+En el aserradero del linde este del bosque, un leñador está a cargo de las provisiones.
+En algún lugar muy lejano hay una canción sobre hombres como él,
+sobre los árboles que talan y las noches en que duermen a pierna suelta.
+Él nunca la ha oído. Que sea tuya la primera vez que la oiga.
+? El Aserradero de la Vega del Este, al este de Elwynn. Cántale al leñador que está a cargo de las provisiones del campamento.
+= Terry Palin, Leñador, del Aserradero de la Vega del Este.
++ Su nombre une a Terry Jones y Michael Palin, que escribieron una canción famosa sobre un leñador, en un mundo muy lejos de este.
+! Tranquilo
 
 ## elwynn-forest-heroes-vigil
 En un lago con forma de anillo, una isla guarda un círculo de piedras

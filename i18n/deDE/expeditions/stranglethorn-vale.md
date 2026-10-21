@@ -1,5 +1,5 @@
 ---
-source: 12d2d1caa3a1
+source: 18936e00a731
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -29,6 +29,16 @@ von einem seiner Imperatoren übrig ist. Finde es und erweise ihm die Ehre, die 
 = Das Grabmal des Imperators, in Zul'Kunda.
 + Das Reich der Gurubashi erstreckte sich einst über den ganzen Süden. Seine Nachfahren halten heute seine Ruinen, und Hakkar ist zurück in Zul'Gurub.
 ! Gefährlich (die Bloodscalp)
+
+## stranglethorn-vale-janeiro
+Vor dem Hafen der Goblins breitet eine große Statue auf einem Felsen im Meer die Arme aus,
+jedem Schiff entgegen, das einläuft, als wolle sie es willkommen heißen.
+Ein Riese anderer Art hat den Felsen zu seinem Zuhause gemacht.
+Schwimm hinüber und antworte auf die offenen Arme.
+? Die Janeirospitze, das Inselchen nordwestlich der Hafeneinfahrt von Booty Bay. Umarme auf dem Felsen die Statue und gib auf den Meeresriesen acht.
+= Die Janeirospitze und ihre große Statue mit offenen Armen, ein Leuchtfeuer für jeden Reisenden, der in Booty Bay einläuft.
++ Mok'rash, der Meeresriese, der den Felsen hält, trägt Seiten bei sich, die aus einem Buch über die Jagden im Schlingendorntal gerissen wurden.
+! Gefährlich (Mok'rash, ein Meeresriese, Elite, Stufe 50)
 
 ## stranglethorn-vale-gromgol
 Oben auf dem Turm der Horde im Dschungel verabschiedet ein Goblin die Luftschiffe nach Orgrimmar

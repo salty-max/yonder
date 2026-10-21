@@ -1,5 +1,5 @@
 ---
-source: a59de5bd7e95
+source: a40f9ec13d29
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -29,6 +29,15 @@ Sé amable, por una vez.
 = Zalashji, un naga en su guarida, amistoso con todos y sin pedir nada a nadie.
 + Tanto la Horda como la Alianza pueden acercarse sin sufrir daño, algo que ocurre con pocos naga.
 ! Vigilado (bandidos Deambulador y sacudidores Mandiacero cerca)
+
+## tanaris-oreily
+En el puerto de los goblins de la costa del desierto, un adivino tiene una choza,
+y una lechuza blanca vuela a su alrededor día y noche, como si hubiera oído todas las profecías y no creyera ninguna.
+Te pregunte lo que te pregunte, contéstale en el mismo tono.
+? Puerto Bonvapor, al noreste de Tanaris. Selecciona la lechuza blanca que da vueltas a la choza del vidente, y pon cara de duda.
+= O'Reily, una lechuza blanca que da vueltas a la choza de Narain Sabelotodo en Puerto Bonvapor.
++ Sus tocayos llevan las casas de subastas: el Subastador O'reely en Bahía del Botín, el Subastador Yarly en Entrañas.
+! Tranquilo
 
 ## tanaris-winkey
 Frente a la tranquila playa al sur de la cala pirata, una islita acoge a una gnoma sola,

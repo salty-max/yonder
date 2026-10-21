@@ -27,6 +27,15 @@ riddles:
     hint_area: { x: 67.0, y: 33.0, r: 3 }
     danger: "Guarded (Wastewander bandits and steeljaw snappers nearby)"
     sources: "the WoWWiki archive's Zalashji page (friendly, no purpose anyone knows); the dump's spawn and faction (friendly to all)"
+  - id: tanaris-oreily
+    tier: off
+    gestures: [DOUBT, SURPRISED, CONFUSED]
+    creature: 15520   # O'Reily, a white owl, dump 65.4, 19.0, flying a path round Narain Soothfancy's hut at Steamwheedle Port
+    found: patrol   # the owl targeted, along the circle it flies
+    position_check: questie
+    hint_area: { x: 66.0, y: 19.5, r: 3 }
+    danger: "Quiet"
+    sources: "the dump's spawn and path; Wowhead's points; the WoWWiki archive's In-jokes and references, Kalimdor page (the white owl round Narain Soothfancy's hut, the O RLY owl, and the auctioneers O'reely and Yarly)"
   - id: tanaris-winkey
     tier: hidden
     gestures: [WINK, SMILE, BLUSH]
@@ -62,6 +71,14 @@ Be friendly, for once.
 ? Zalashji's Den, east of Gadgetzan. Bow to the naga. He is willing to leave you in peace.
 = Zalashji, a naga at home in his den: friendly to all, and wanting nothing from anyone.
 + Horde and Alliance alike may walk up to him unharmed, as to few naga anywhere.
+
+## tanaris-oreily
+At the goblins' port on the desert coast, a fortune-teller keeps a hut,
+and a white owl circles it day and night, as if it had heard every prophecy and believed none of them.
+Whatever it seems to ask you, answer it in kind.
+? Steamwheedle Port, in Tanaris' north-east. Target the white owl circling the seer's hut, and look doubtful.
+= O'Reily, a white owl, circling Narain Soothfancy's hut at Steamwheedle Port.
++ Its namesakes keep the auction houses: Auctioneer O'reely in Booty Bay, Auctioneer Yarly in the Undercity.
 
 ## tanaris-winkey
 Off the quiet beach south of the pirates' cove, a little island holds one gnome, alone,

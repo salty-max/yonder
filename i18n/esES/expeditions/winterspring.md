@@ -1,5 +1,5 @@
 ---
-source: 626cf48d0405
+source: afb63261be3e
 zone: 1452
 ---
 ## winterspring-farflinger
@@ -9,6 +9,16 @@ Busca al inventor cuyo título da motivos para dudar.
 ? Vista Eterna. Habla con el ingeniero. Probar su máquina es otro asunto.
 = Zap Lanzalejos, ingeniero trastornado. Su plan de transporte instantáneo empieza por hacer pedazos al viajero y después reensambla las partículas en Vista Eterna.
 + Enseña a los ingenieros goblin expertos a construir el desgarrador que conecta con su máquina. Su respuesta a las dudas sobre seguridad es que sobrevivir es secundario frente a la ingeniería.
+! Tranquilo
+
+## winterspring-jack-sterling
+En la ciudad nevada donde los goblins regentan el único alojamiento en leguas a la redonda,
+uno de ellos no es goblin, y se llama Jack.
+Nadie lo ha visto trabajar, ni divertirse.
+Encuéntralo.
+? Vista Eterna, en Cuna del Invierno. Busca al único humano de la ciudad y acércate lo bastante para seleccionarlo.
+= Jack Sterling, el único humano de Vista Eterna. No ofrece trabajo, ni mercancía, ni palabra.
++ Otro hotel nevado, en la historia de otro mundo, también tuvo su Jack. No acabó bien.
 ! Tranquilo
 
 ## winterspring-kel-theril

@@ -179,6 +179,20 @@ then stand in the same upstairs room until noon (the dump's spawn group
 children, so it holds while they are out or gone. **139 riddles** on Classic Era, **143** on Forever
 (97 for a Horde reader, 105 for an Alliance one), and the 39 quarries.
 
+**The game's easter eggs (22 October 2026, the user's ask).** After the
+Goldshire children, the user asked for more of their kind: the secrets and
+jokes the game scripts or names and nobody notices. Found in the dump's named
+scenes and events and in the WoWWiki archive's easter eggs and in-jokes,
+each checked like any riddle (gates, quests that name it, Forever). Eight:
+a boy chased by bees, a lumberjack with a song, a beggar with promises, a
+zeppelin master with a famous name, a statue with open arms, a snowbound
+hotel's Jack, a doubtful owl, an islander of whom there can be only one.
+Stormwind gets a fourth riddle, past the capitals' three, at the user's
+word. Three scenery secrets (carved letters and smiling logs) wait for the
+user's own coordinates as reviewed landmarks. **147 riddles** on Classic
+Era, **151** on Forever (103 for a Horde reader, 111 for an Alliance one),
+and the 39 quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

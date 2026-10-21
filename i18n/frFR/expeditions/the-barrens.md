@@ -1,5 +1,5 @@
 ---
-source: 3b0e31790727
+source: 3c48be244d9b
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -61,6 +61,16 @@ Demandez-lui à quoi servent les grottes.
 + Ceux dont le talent dépasse le sien, il les envoie à Krulmoo Fullmoon, au Camp Taurajo.
 ! Gardé (rampants et embobineurs déviants d'élite, niveaux 15 et 16, à l'entrée des cavernes)
 
+## the-barrens-trok
+Dans une ferme au nord du carrefour, un petit orc court sans arrêt,
+et quelque chose de petit et de furieux le suit toujours de près.
+Il a appris une chose sur les abeilles à ses dépens, et il la dira à qui le rattrapera.
+Rattrapez-le si vous pouvez.
+? La Ferme de Grol'dom, au nord de la Croisée. Le garçon fait le tour de la ferme, les abeilles à ses trousses. Rattrapez-le et ciblez-le.
+= Trok, de la Ferme de Grol'dom, et l'essaim dont il ne se défait pas : "Au secours ! Je suis poursuivi par un essaim d'abeilles !" Et, entre deux souffles : "Je ne savais pas que les abeilles avaient peur du feu !"
++ Il appelle à l'aide Karu, qui court sur la même ferme : "Karu, tu peux m'aider à me débarrasser de ces abeilles ? Elles piquent !"
+! Calme
+
 ## the-barrens-fallen-warrior
 Non loin de la route la plus fréquentée des plaines, un court sentier gravit une colline
 jusqu'à un autel élevé pour un guerrier tombé,
@@ -71,6 +81,16 @@ Peu le trouvent. Honorez-le comme un guerrier en honore un autre.
 + Il rappelle le souvenir de Michel Koiter, qui travaillait sur ce monde et mourut avant qu'il soit achevé. Le gardien des âmes porte son nom, et l'orc de l'autel était son propre personnage.
 ! Calme
 @ Autel du Guerrier mort
+
+## the-barrens-klannoc
+Au large du rivage est des plaines s'étend une île où les prétendants viennent se battre,
+et un épéiste s'y tient, avec un titre qui ne dit que l'endroit où il vit.
+On dit qu'il ne peut en rester qu'un comme lui.
+Trouvez-le, et écoutez ce qu'il veut.
+? L'Ile de la Dispute, au large de la côte des Tarides, au sud de Cabestan. Parlez à l'épéiste dont le titre est "de l'île mortelle".
+= Klannoc Macleod, sur l'Ile de la Dispute, où les guerriers viennent affronter ses adversaires.
++ Son nom et son titre viennent de l'histoire d'un clan d'épéistes immortels, dont, à la fin, il ne pouvait en rester qu'un.
+! Calme (les furies des marais dans les hauts-fonds)
 
 ## quarry
 Au nord-ouest du port des gobelins, au-delà des collines, des lions sont couchés en cercle autour d'un arbre,
