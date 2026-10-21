@@ -1,5 +1,5 @@
 ---
-source: 74b24a610ac8
+source: 7180ca4c24e0
 zone: 1442
 ---
 ## stonetalon-mountains-nizzik
@@ -20,6 +20,17 @@ Ceux à qui il a appris tout ce qu'il sait, il les envoie à elle. Demandez-lui 
 = Hgarth, enchanteur de rang artisan, à la retraite de Roche-Soleil : "Il n'existe qu'une personne dont les compétences dépassent les miennes. Son nom est Annora, et vous la trouverez à Uldaman."
 + Annora se tient dans les salles d'Uldaman, sous les Terres ingrates, parmi ses troggs et ses morts : une étrange demeure pour la meilleure enchanteresse du monde.
 ! Calme
+
+## stonetalon-mountains-smiling-log
+Sur le sentier infesté d'araignées qui descend en lacets des montagnes de pierre,
+un arbre abattu gît au bord de la route, scié net.
+Sa coupe a deux nœuds pour yeux, et, en dessous, les cernes du bois remontent aux commissures.
+Montrez-lui le même visage.
+? Le Sentier des Tisseuses, en face du petit camp de l'Alliance, à mi-chemin de la descente. Trouvez le tronc couché du côté ouest de la route et souriez à sa coupe.
+= Le tronc souriant, sur le Sentier des Tisseuses : un arbre abattu des montagnes de pierre, dont la coupe porte deux nœuds pour yeux et un sourire dans les cernes du bois.
++ Ce n'est pas le seul. Les troncs que la KapitalRisk laisse à la Combe des Cisailles portent le même visage.
+! Calme (les occupants du camp de l'Alliance, en face, attaquent la Horde)
+@ Le tronc souriant
 
 ## quarry
 Dans le val que le feu a pris, certains arbres marchent encore.

@@ -16,8 +16,10 @@ the first test).
   `trigger`, `area` (with an `anchor` where the area has no map overlay),
   or `landmark: <text-id>` for explicitly reviewed scenery from wow-data's
   `landmark` table. A landmark needs its own `name` and a `radius` of 10 to
-  100 yards. Its provenance stays in wow-data, and it never borrows an NPC's
-  spawn or invents a game object. Shared riddles require matching landmark
+  100 yards. Its provenance stays in wow-data (`owner-report`, the owner's
+  eyes in the game, or `client-map`, a placement in the client's own map
+  files, read with wow-data's `bin/placements.ts`), and it never borrows an
+  NPC's spawn or invents a game object. Shared riddles require matching landmark
   coordinates in both databases. A radius is the journal's detection
   tolerance, not a claim that the full scene boundary has been surveyed.
   `found: target` for a keeper met by speaking to it or one that walks,

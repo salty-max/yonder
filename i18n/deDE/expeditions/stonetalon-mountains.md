@@ -1,5 +1,5 @@
 ---
-source: 74b24a610ac8
+source: 7180ca4c24e0
 zone: 1442
 ---
 ## stonetalon-mountains-nizzik
@@ -20,6 +20,17 @@ Wem er alles beigebracht hat, was er weiß, den schickt er zu ihr. Frag ihn, wer
 = Hgarth, Verzauberkunstfachmann, in Sonnenfels: 'Es gibt nur eine, deren Wissen das meine übersteigt. Sie heißt Annora und Ihr findet sie... in Uldaman.'
 + Annora hält sich in den Hallen von Uldaman auf, unter dem Ödland, zwischen seinen Troggs und seinen Toten: ein seltsames Zuhause für die beste Verzauberin der Welt.
 ! Ruhig
+
+## stonetalon-mountains-smiling-log
+Auf dem Pfad voller Spinnen, der sich aus den steinernen Bergen hinabwindet,
+liegt ein gefällter Baum am Wegrand, glatt durchgesägt.
+Seine Schnittfläche hat zwei Astknoten als Augen, und die Jahresringe darunter biegen sich an den Enden nach oben.
+Zeig ihm dasselbe Gesicht.
+? Der Weberpass, gegenüber dem kleinen Lager der Allianz, auf halbem Weg hinunter. Finde den gefällten Stamm auf der Westseite des Weges und lächle seine Schnittfläche an.
+= Der lächelnde Baumstamm, am Weberpass: ein gefällter Baum der steinernen Berge, dessen Schnittfläche zwei Astknoten als Augen und ein Lächeln in den Jahresringen trägt.
++ Er ist nicht der Einzige. Die Stämme, die die Venture Co. an der Scherwindklippe liegen lässt, tragen dasselbe Gesicht.
+! Ruhig (das Lager der Allianz gegenüber greift die Horde an)
+@ Der lächelnde Baumstamm
 
 ## quarry
 Im Tal, das das Feuer nahm, wandeln manche der Bäume noch.

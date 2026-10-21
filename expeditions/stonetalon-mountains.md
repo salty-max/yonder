@@ -21,6 +21,15 @@ riddles:
     hint_area: { x: 48.0, y: 58.0, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawn and his words (the one whose skill exceeds his own)"
+  - id: stonetalon-mountains-smiling-log
+    tier: off
+    gestures: [SMILE]
+    name: The smiling log
+    landmark: stonetalon-smiling-log   # the client's own placement of the log, read from its map files
+    radius: 12
+    hint_area: { x: 58.1, y: 67.8, r: 1.5 }
+    danger: "Quiet (the Alliance camp across the road attacks the Horde)"
+    sources: "the pinned client's map files: stonetreelog02.m2 (file 202634), unique id 230720, in kalimdor_31_30_obj0.adt, placed the same on Forever (wow-data landmark stonetalon-smiling-log, source client-map, bin/placements.ts); the log's end texture (file 198335), two knots for eyes and the rings mirrored into a smile; the WoWWiki archive's Easter eggs page (the Webwinder Path's fallen trees, one end adorned with smiley faces, screenshot Webwinder smile.jpg, 2008); the same three log models, with the same texture, at Windshear Crag and along the Blackwolf River; the dump's spawns near it (a rabbit, Gaxim Rustfizzle at 78 yards and Kaela Shadowspear at 98, both attacking the Horde)"
 quarry:
   id: 4030   # Vengeful Ancient
   sources: "the WoWWiki archive's Vengeful Ancient page (a treant roaming the Charred Vale); the dump's spawn and the flame spirits and burning destroyers of the vale"
@@ -41,6 +50,15 @@ Those he has taught all he knows, he sends on to her. Ask him who she is.
 ? Sun Rock Retreat. Speak to the enchanting trainer about his teacher.
 = Hgarth, Artisan Enchanter, at Sun Rock Retreat: 'There is only one whose skills exceed my own... She is Annora, and you may find her... in Uldaman.'
 + Annora keeps to the halls of Uldaman, under the Badlands, among its troggs and its dead: a strange home for the best enchanter in the world.
+
+## stonetalon-mountains-smiling-log
+On the spider-haunted path that winds down out of the stone mountains,
+a fallen tree lies beside the road, sawn clean through.
+Its cut end has two knots for eyes, and the rings beneath them turn up at the corners.
+Show it the same face.
+? The Webwinder Path, across the road from the small Alliance camp halfway down it. Find the fallen log on the road's west side and smile at its sawn end.
+= The smiling log, on the Webwinder Path: a fallen tree of the stone mountains whose sawn end wears two knots for eyes and a smile in its rings.
++ It is not the only one. The logs the Venture Co. leaves at Windshear Crag wear the same face.
 
 ## quarry
 In the vale the fire took, some of the trees still walk.

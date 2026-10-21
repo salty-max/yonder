@@ -188,10 +188,19 @@ a boy chased by bees, a lumberjack with a song, a beggar with promises, a
 zeppelin master with a famous name, a statue with open arms, a snowbound
 hotel's Jack, a doubtful owl, an islander of whom there can be only one.
 Stormwind gets a fourth riddle, past the capitals' three, at the user's
-word. Three scenery secrets (carved letters and smiling logs) wait for the
-user's own coordinates as reviewed landmarks. **147 riddles** on Classic
-Era, **151** on Forever (103 for a Horde reader, 111 for an Alliance one),
-and the 39 quarries.
+word. Of the three scenery secrets, the smiling logs needed no one's
+coordinates: the client's own map files place every log (wow-data's first
+`client-map` landmark, `bin/placements.ts`), and the one on the Webwinder
+Path, across the road from the Alliance camp, shows the grin in its sawn
+end (two knots, the rings mirrored into a smile, on Forever's remastered
+texture too). HELP, painted on a mountain's summit (Stonetalon's highest,
+by the 2007 account of the player who found it with Far Sight), is seen
+from no ground a reader can stand on, so no riddle sends one there. LOL,
+dabbed rock strokes on a slope about 340 yards east-north-east of
+Hammerfall (81.8, 29.0), facing the ground south-east of the town, waits
+for the user's eyes: the terrain shows the strokes, not whether they read.
+**148 riddles** on Classic Era, **152** on Forever (104 for a Horde
+reader, 112 for an Alliance one), and the 39 quarries.
 
 ### How many
 
