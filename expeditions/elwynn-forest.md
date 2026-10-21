@@ -16,6 +16,19 @@ riddles:
     hint_area: { x: 45.0, y: 52.5, r: 4 }
     danger: "Quiet"
     sources: "the dump: Donni Anthania <Crazy Cat Lady> and her four cats in her house, and who sells cats (npc_vendor: her four carriers, forty silver each; Lil Timmy's White Kitten, one at a time); warcraft.wiki.gg's Donni Anthania page"
+  - id: elwynn-forest-goldshire-children
+    tier: off
+    gestures: [SHIVER, SCARED, COWER, CRINGE, GASP, NERVOUS]
+    name: The children's room
+    creature: 805   # Cameron, Questie 46.2, 61.9: the six spawn on his spot, upstairs in the house of Goldshire's skinner and leatherworker, and stand in a ring around it
+    found: place   # the room is the subject: the children walk out and come back, the room stays
+    radius: 15
+    position_check: questie   # no Wowhead point: Questie's 46.2, 61.9 against the dump's spawn
+    hint_area: { x: 45.5, y: 61.0, r: 3 }
+    danger: "Quiet"
+    quest_overlap: [97922, 97924]
+    quest_context: "Forever's Camping 101: Leatherworking and Camping 101: Skinning send new players to Adele Fielder and Helene Peltskinner, downstairs in the same house. Yonder asks for a shiver upstairs, by the children's ring, with no trainer and no quest."
+    sources: "the dump's spawn group 19989 ('Elwynn Forest - Goldshire - Creepy Goldshire Children - Day RP'): Cameron, Dana, John, Lisa, Aaron and Jose (805, 804, 806, 807, 810, 811) in one formation, their path round Goldshire and back, dbscripts_on_creature_movement 80503 (each child to a place around Cameron, upstairs) and the path's last wait of five hours; Questie's coordinates (no Wowhead point); the WoWWiki archive's Children of Goldshire page (the house with the skinning and leatherworking trainers, the second floor, the pentagram, silent and unmoving, Cameron always in the middle; first reported in 2008, and scripted in the game this journal is played on)"
   - id: elwynn-forest-heroes-vigil
     tier: hidden
     gestures: [SALUTE, BOW, KNEEL, MOURN, PRAY]
@@ -38,6 +51,15 @@ Address them in their own tongue.
 ? Donni Anthania's house, on the road from Northshire down to Goldshire. Answer one of the cats in its own tongue. A meow will do.
 = Donni Anthania, the Crazy Cat Lady, and her four cats: a Bombay, a Cornish Rex, an Orange Tabby and a Silver Tabby. Every one of them is for sale, at forty silver a carrier.
 + They are four of the five cats anyone in the world will sell you. The fifth, a white kitten, is carried about Stormwind by a boy called Lil Timmy, and sold one at a time.
+
+## elwynn-forest-goldshire-children
+In the town at the forest's crossroads, six children walk the roads together,
+always in the same order, and always back to the same house.
+Upstairs, they stand in a ring around one of them, silent, for hours.
+Climb to their room, if you have the nerve, and see how it feels.
+? Goldshire, the house on its north-east side by the lake, where the skinner and the leatherworker keep shop. Upstairs, by the children's ring, let yourself shiver.
+= The children of Goldshire: Cameron in the middle of the ring, Dana, John, Lisa, Aaron and Jose around him. They walk out together, and they always come back to this room.
++ Once back in their room, they keep still for five hours before they set out again.
 
 ## elwynn-forest-heroes-vigil
 In a lake shaped like a ring, an island holds a ring of stones

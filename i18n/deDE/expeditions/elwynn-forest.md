@@ -1,5 +1,5 @@
 ---
-source: 54b9ac497d51
+source: b6eca3979325
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -12,6 +12,17 @@ Sprich sie in ihrer eigenen Sprache an.
 + Es sind vier der fünf Katzen, die dir überhaupt jemand auf der Welt verkauft. Die fünfte, ein weißes Kätzchen, trägt ein Junge namens Lil Timmy durch Stormwind und verkauft sie eine nach der anderen.
 ! Ruhig
 @ Donni Anthanias Katzen
+
+## elwynn-forest-goldshire-children
+In der Stadt an der Wegkreuzung des Waldes ziehen sechs Kinder gemeinsam über die Straßen,
+immer in derselben Reihenfolge und immer zurück zum selben Haus.
+Oben stehen sie im Kreis um eines von ihnen, stumm, stundenlang.
+Steig hinauf in ihr Zimmer, wenn du dich traust, und spür, wie es sich anfühlt.
+? Goldhain, das Haus im Nordosten der Stadt, am See, wo die Kürschnerin und die Lederverarbeiterin ihren Laden haben. Lass dir oben beim Kreis der Kinder einen Schauer über den Rücken laufen.
+= Die Kinder von Goldhain: Cameron in der Mitte des Kreises, Dana, John, Lisa, Aaron und Jose um ihn herum. Sie ziehen gemeinsam los und kehren immer in dieses Zimmer zurück.
++ Zurück in ihrem Zimmer verharren sie fünf Stunden reglos, bevor sie wieder aufbrechen.
+! Ruhig
+@ Das Zimmer der Kinder
 
 ## elwynn-forest-heroes-vigil
 In einem See, der wie ein Ring geformt ist, trägt eine Insel einen Ring aus Steinen

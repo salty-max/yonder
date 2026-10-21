@@ -1,5 +1,5 @@
 ---
-source: 54b9ac497d51
+source: b6eca3979325
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -12,6 +12,17 @@ Dirígete a ellos en su propia lengua.
 + Son cuatro de los cinco gatos que alguien vende en el mundo. El quinto, un gatito blanco, recorre Ventormenta en manos de un niño llamado Lil Timmy, que los vende de uno en uno.
 ! Tranquilo
 @ Los gatos de Donni Anthania
+
+## elwynn-forest-goldshire-children
+En el pueblo del cruce de caminos del bosque, seis niños recorren juntos los caminos,
+siempre en el mismo orden, y siempre de regreso a la misma casa.
+Arriba, forman un círculo en torno a uno de ellos y callan durante horas.
+Sube a su cuarto, si tienes valor, y descubre qué se siente.
+? Villadorada, la casa del noreste del pueblo, junto al lago, donde la desolladora y la peletera tienen su tienda. Arriba, junto al círculo de los niños, deja que te recorra un escalofrío.
+= Los niños de Villadorada: Cameron en el centro del círculo, y Dana, John, Lisa, Aaron y Jose a su alrededor. Salen juntos, y siempre vuelven a este cuarto.
++ Una vez de vuelta en su cuarto, se quedan inmóviles cinco horas antes de volver a salir.
+! Tranquilo
+@ El cuarto de los niños
 
 ## elwynn-forest-heroes-vigil
 En un lago con forma de anillo, una isla guarda un círculo de piedras

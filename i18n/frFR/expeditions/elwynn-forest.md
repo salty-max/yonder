@@ -1,5 +1,5 @@
 ---
-source: 54b9ac497d51
+source: b6eca3979325
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -12,6 +12,17 @@ Adressez-vous à eux dans leur propre langue.
 + Ce sont quatre des cinq chats que quiconque au monde acceptera de vous vendre. Le cinquième, un chaton blanc, est promené dans Hurlevent par un garçon qu'on appelle le jeune Timmy, et vendu un à la fois.
 ! Calme
 @ Les chats de Donni Anthania
+
+## elwynn-forest-goldshire-children
+Dans la ville, au carrefour de la forêt, six enfants parcourent les routes ensemble,
+toujours dans le même ordre, et reviennent toujours à la même maison.
+À l'étage, ils se tiennent en cercle autour de l'un d'eux, muets, pendant des heures.
+Montez jusqu'à leur chambre, si vous en avez le courage, et voyez ce que l'on y ressent.
+? Comté-de-l'Or, la maison au nord-est de la ville, près du lac, où la dépeceuse et l'artisane du cuir tiennent boutique. À l'étage, près du cercle des enfants, laissez venir le frisson.
+= Les enfants de Comté-de-l'Or : Cameron au milieu du cercle, Dana, John, Lisa, Aaron et Jose autour de lui. Ils sortent ensemble, et reviennent toujours dans cette chambre.
++ Une fois de retour dans leur chambre, ils restent immobiles cinq heures avant de repartir.
+! Calme
+@ La chambre des enfants
 
 ## elwynn-forest-heroes-vigil
 Dans un lac en forme d'anneau, une île porte un cercle de pierres
