@@ -13,9 +13,9 @@ Jedes Rennen braucht Publikum. Sei es.
 
 ## thousand-needles-freewind
 Hoch auf einem Tafelberg halten die Tauren einen Posten über den Nadeln,
-und neben dem Stand ihres Bewahrers der Lehren lebt ein Bewohner, den kein Händler bezahlt.
+und neben dem Stand ihres Bewahrers der Lehren wohnt einer, den kein Händler bezahlt.
 Er hört auf den schlichtesten Namen, den es gibt, und sein Titel macht ihn zum Vater,
-doch kein Welpe von ihm ist am Posten zu sehen.
+doch von seinen Welpen ist am Posten keiner zu sehen.
 Ein guter Hund hat eine freundliche Hand verdient.
 ? Der Freiwindposten, beim Stand von Montarr, dem Bewahrer der Lehren. Streichle den Hund.
 = Hund, mit dem Titel Vater: Keine andere Kreatur in Kalimdor oder den Östlichen Königreichen trägt diesen Titel. Er bleibt bei Montarrs Stand im Freiwindposten.

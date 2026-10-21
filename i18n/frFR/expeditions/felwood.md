@@ -15,9 +15,9 @@ Souvenez-vous des villes auxquelles son nom fait écho, et de ce qu'il est adven
 ## felwood-talonbranch
 Au bord de la forêt corrompue, trois maîtres de la nature se partagent une clairière :
 l'un pour les druides, l'un pour les chasseurs, l'un pour les bêtes que gardent les chasseurs.
-Le maître des chasseurs ne travaille jamais seul. Un grand félin se tient à ses côtés.
-Il a mérité la douceur que son maître apprend aux autres à montrer à leurs bêtes.
-? La clairière de Griffebranche, près du maître des chasseurs : caressez le sabre-de-nuit à ses côtés.
+Le maître des chasseurs ne travaille jamais seul. Un grand félin ne le quitte pas.
+Il a mérité la douceur que son maître enseigne à tous envers leurs bêtes.
+? La clairière de Griffebranche, près du maître des chasseurs : caressez le sabre-de-nuit qui le suit.
 = Shi'alune, le sabre-de-nuit que Kaerbrus garde comme compagnon pendant qu'il forme les chasseurs de la clairière de Griffebranche et les accueille au sein du Cercle cénarien.
 + La clairière de Griffebranche réunit les trois maîtres de la nature en un seul camp : Golhine l'Encapuchonné pour les druides, Kaerbrus pour les chasseurs, et Nalesette Wildbringer pour les familiers des chasseurs.
 ! Calme

@@ -15,7 +15,7 @@ Die Geschichte endete nicht so, wie er es wollte.
 Im Osten des Sumpfes errichteten Trolle, die einem Blutgott dienten, ihm einen Tempel,
 und eine Drachin, die träumt, erfuhr, wen sie zurückrufen wollten, und zerschmetterte den Tempel unter dem Sumpf.
 Seitdem liegt ein See darüber,
-und er verbirgt, was er bedeckt, vor jedem, der nicht aufmerksam ist.
+und er verbirgt, was er bedeckt, vor jedem, der nicht genau hinsieht.
 ? Der Tränenteich, im Osten des Sumpfes: Spähe in den See.
 = Der Tränenteich, über dem versunkenen Tempel von Atal'Hakkar. Die Trolle der Atal'ai bauten den Tempel für die Rückkehr Hakkars des Seelenschinders, und Ysera, die von ihren Plänen erfuhr, zerschmetterte ihn unter den Sümpfen. Ihre grünen Drachen wachen über die Ruinen.
 + Die Versenkung beendete die Rituale nicht. Unter dem Wasser setzten die Atal'ai sie ungestört fort.

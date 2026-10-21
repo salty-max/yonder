@@ -15,7 +15,7 @@ Recuerda los pueblos que evoca su nombre y lo que le ha ocurrido a este.
 Al borde del bosque corrompido, tres maestros de lo salvaje mantienen juntos un claro:
 uno para los druidas, uno para los cazadores, uno para las bestias de los cazadores.
 El maestro de los cazadores nunca trabaja solo. Un gran felino está siempre a su lado.
-Ha merecido la bondad que él enseña a los demás a tener con sus propias bestias.
+Se ha ganado la bondad que él enseña a los demás a mostrar con sus propias bestias.
 ? Claro Ramaespolón, junto al instructor de cazadores: acaricia al sable de la noche que está a su lado.
 = Shi'alune, el sable de la noche que Kaerbrus tiene como compañero mientras instruye a los cazadores del Claro Ramaespolón y les da la bienvenida al Círculo Cenarion.
 + El Claro Ramaespolón reúne a los tres maestros de lo salvaje en un solo campamento: Golhine el Encapuchado para los druidas, Kaerbrus para los cazadores y Nalesette Asilvestra para las mascotas de los cazadores.

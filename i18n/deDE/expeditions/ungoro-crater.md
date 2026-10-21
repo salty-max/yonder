@@ -16,7 +16,7 @@ Südlich der Zuflucht der Forscher wird der Boden des Kraters zu schwarzen Seen,
 die alles behalten, was in sie hineinläuft.
 Die Knochen von Hunderten Tieren ragen noch aus ihrer Oberfläche,
 und was aus dem Teer steigt, ist selbst Teer. Geh und sieh, was er behalten hat.
-? Die Teergruben von Lakkari, gleich südlich von Marshals Zuflucht: Blick vom Ufer über den Teer.
+? Die Teergruben von Lakkari, gleich südlich von Marshals Zuflucht: Sieh vom Ufer über den Teer hinaus.
 = Die Teergruben von Lakkari: Seen aus dickem schwarzem Teer, die alles festhalten, was hineingerät. Die Knochen von Hunderten Tieren ragen aus der Oberfläche, und Teerelementare erheben sich daraus.
 + Auch die Aasfresser kennen die Gruben. Sie warten an den Rändern, bis der Teer ihre nächste Mahlzeit festhält.
 ! Gefährlich (Teerelementare, bis Stufe 54)

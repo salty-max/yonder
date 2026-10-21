@@ -17,7 +17,7 @@ liegt der erste Ritter des Lichts dort, wo seine Soldaten ihn begruben.
 Er lehrte einen Prinzen, und der Prinz streckte ihn nieder.
 Sein Stein hat dem etwas zu sagen, der bei ihm stehen bleibt.
 ? Uthers Grabmal, auf Sorrow Hill südlich von Andorhal: Lies die Tafel vor der Statue.
-= Die Tafel von Uther Lightbringer, dem ersten Paladin und Gründer des Ordens der Silbernen Hand, der lebte und starb, um Lordaeron zu verteidigen, und von seinem geliebtesten Schüler verraten wurde. Sie ist unterzeichnet: Anonym.
+= Die Tafel von Uther Lightbringer, dem Ersten Paladin und Gründer des Ordens der Silbernen Hand, der lebte und starb, um Lordaeron zu verteidigen, und von seinem liebsten Schüler verraten wurde. Sie ist unterzeichnet: Anonymus.
 + Uther hatte König Terenas' Urne bei sich, als sein Schüler ihn tötete. Der Prinz nahm sie vom Leichnam seines Meisters.
 ! Bewacht (Ghule und Skelette, bis Stufe 52)
 

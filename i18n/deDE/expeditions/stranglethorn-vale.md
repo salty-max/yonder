@@ -14,7 +14,7 @@ als sie nicht mehr zahlen konnten, was er verlangte.
 ## stranglethorn-vale-emperors-tomb
 In den nordwestlichen Ruinen des Trollreichs, das den Süden beherrschte,
 bevor es Königreiche der Menschen gab, ist ein Grabmal alles, was
-von einem seiner Imperatoren übrig ist. Finde es, und erweise ihm die Ehre, die ihm seine Untertanen einst schuldeten.
+von einem seiner Imperatoren übrig ist. Finde es und erweise ihm die Ehre, die ihm seine Untertanen einst schuldeten.
 ? Die Ruinen von Zul'Kunda, im Nordwesten des Schlingendorntals. Verneige dich vor dem Grabmal.
 = Das Grabmal des Imperators, in Zul'Kunda.
 + Das Reich der Gurubashi erstreckte sich einst über den ganzen Süden. Seine Nachfahren halten heute seine Ruinen, und Hakkar ist zurück in Zul'Gurub.

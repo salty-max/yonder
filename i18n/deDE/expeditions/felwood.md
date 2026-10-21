@@ -16,9 +16,9 @@ Erinnere dich an die Städte, deren Namen sie anklingen lässt, und daran, was a
 Am Rand des verderbten Waldes halten drei Lehrer der Wildnis gemeinsam eine Lichtung:
 einer für Druiden, einer für Jäger, einer für die Tiere der Jäger.
 Der Lehrer der Jäger arbeitet nie allein. Eine große Katze bleibt an seiner Seite.
-Sie hat die Freundlichkeit verdient, die er andere lehrt, ihren eigenen Tieren zu erweisen.
+Sie hat sich die Güte verdient, zu der er andere im Umgang mit ihren Tieren anhält.
 ? Die Nachtlaublichtung, beim Jägerlehrer: Streichle den Nachtsäbler an seiner Seite.
-= Shi'alune, der Nachtsäbler, den Kaerbrus als eigenen Begleiter hält, während er die Jäger der Nachtlaublichtung ausbildet, die er im Zirkel des Cenarius willkommen heißt.
+= Shi'alune, der Nachtsäbler, den Kaerbrus als eigenen Begleiter hält, während er die Jäger der Nachtlaublichtung ausbildet und sie im Zirkel des Cenarius willkommen heißt.
 + Die Nachtlaublichtung vereint alle drei Lehrer der Wildnis in einem Lager: Golhine der Kapuzenträger für die Druiden, Kaerbrus für die Jäger und Nalesette Wildbringer für die Tiere der Jäger.
 ! Ruhig
 

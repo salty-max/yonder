@@ -14,7 +14,7 @@ il ne voit pas de quel camp vous êtes. Inutile de faire signe.
 
 ## silverpine-forest-sepulcher
 Là où la route des pins longe un cimetière, les morts en ont fait une ville.
-L'une d'eux tient un étal où il n'y a que des champignons, des moisissures et des truffes,
+L'une d'entre eux tient un étal où il n'y a que des champignons, des moisissures et des truffes,
 venus des grottes et du sol de la forêt.
 Demandez-lui ce qu'elle a.
 ? Le Sépulcre, parmi ses marchands : parlez à celle qui vend des champignons.

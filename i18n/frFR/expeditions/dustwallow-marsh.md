@@ -17,7 +17,7 @@ et les survivants sont venus au nord en bâtir un autre aux côtés de la Horde.
 L'un d'eux découpe à présent la viande que le village vend aux voyageurs.
 Demandez-lui ce qu'il a sur son billot.
 ? Mur-de-Fougères : parlez au boucher ogre.
-= Ogg'marr, le boucher des Cognepierre à Mur-de-Fougères. Quand le vol noir détruisit le village des Cognepierre au sud du marais, le seigneur Mok'Morokk, successeur de Rexxar, mena les survivants au nord pour bâtir celui-ci.
+= Ogg'marr, le boucher des Cognepierre à Mur-de-Fougères. Quand le vol draconique noir détruisit le village des Cognepierre au sud du marais, le seigneur Mok'Morokk, successeur de Rexxar, mena les survivants au nord pour bâtir celui-ci.
 + Il vend les recettes aussi bien que la viande : Rôti de raptor, Ragoût épais de crocilisque, Chili de souffle de dragon et Tourte surprise.
 ! Calme
 
