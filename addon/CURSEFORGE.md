@@ -111,6 +111,7 @@ These share Yonder's book style and work independently:
 
 - **[Hearthtale](https://www.curseforge.com/wow/addons/hearthtale)** ([Wago](https://addons.wago.io/addons/E6gzPnN1)) writes a diary for your character as you play, with an epitaph when a Hardcore life ends.
 - **[Lorekeeper's Codex](https://www.curseforge.com/wow/addons/lorekeepers-codex)** ([Wago](https://addons.wago.io/addons/j6jAL0NR)) unlocks lore pages as you explore Azeroth and meet its people.
+- **[Mealbook](https://www.curseforge.com/wow/addons/mealbook)** ([Wago](https://addons.wago.io/addons/YK9xja6L)) is a chef's cookbook that fills in as you learn to cook, with the road to 300 and the recipes worth hunting.
 
 ## Support
 
