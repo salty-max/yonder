@@ -1,5 +1,5 @@
 ---
-source: 27c553229d99
+source: 08f3d3228134
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -9,7 +9,7 @@ Su hermano habló de buen dinero y nunca dijo cuál viviría aquí.
 Tiene un favor que pedir a quien pase. Dale tu palabra.
 ? La torre de zepelines al norte de las puertas de Entrañas: el goblin que envía la aeronave a Durotar. Asiente al goblin hambriento.
 = Zapetta, maestro de zepelines: "Mi hermano dijo que ganaríamos mucho dinero con esta ruta, pero no me dijo que yo viviría en este lado. Si vuelves por aquí en zepelín, ¿podrías traerme algo de comer?".
-+ Hin Denburg, que envía la otra aeronave al sur, tiene mala opinión del tranvía gnómico. Si te lo crees, tiene una estatua en Vega de Tuercespina que venderte.
++ Lo que espera que le traigas: "Ellos venden algunas de las mejores piezas de carne de todo Orgrimmar y estoy seguro de que podría aprovechar algo que no lleve muerto varias semanas.".
 ! Tranquilo
 
 ## tirisfal-glades-hin-denburg
@@ -18,7 +18,7 @@ Pregúntale si es segura. Tiene la respuesta preparada,
 y, de regalo, una palabra sobre el tranvía de los gnomos y algo en Tuercespina que le encantaría venderte.
 ? La torre de zepelines al este de Rémol. Habla con el maestro de zepelines cuya nave vuela al Campamento Grom'gol.
 = Hin Denburg, Maestro de zepelines: "Este es el sistema de transporte más moderno y sofisticado que el dinero permite construir. ¿Qué? ¿El Tren Subterráneo? ¿Gnomos? Escucha, $gamigo:amiga;, si te crees esa basura, entonces puedo venderte una estatua que hay en Tuercespina.".
-+ Su nombre es el de una famosa nave voladora de otro mundo, a la que se recuerda por cómo ardió. La estatua que ofrece se alza en el Cayo de Janeiro, frente a Bahía del Botín.
++ Su nombre es el de una famosa nave voladora de otro mundo, a la que se recuerda por cómo ardió.
 ! Tranquilo
 
 ## tirisfal-glades-stillwater

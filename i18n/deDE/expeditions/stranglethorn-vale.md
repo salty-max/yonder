@@ -1,5 +1,5 @@
 ---
-source: 18936e00a731
+source: 4f312e2c3214
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -37,7 +37,7 @@ Ein Riese anderer Art hat den Felsen zu seinem Zuhause gemacht.
 Schwimm hinüber und antworte auf die offenen Arme.
 ? Die Janeirospitze, das Inselchen nordwestlich der Hafeneinfahrt von Booty Bay. Umarme auf dem Felsen die Statue und gib auf den Meeresriesen acht.
 = Die Janeirospitze und ihre große Statue mit offenen Armen, ein Leuchtfeuer für jeden Reisenden, der in Booty Bay einläuft.
-+ Mok'rash, der Meeresriese, der den Felsen hält, trägt Seiten bei sich, die aus einem Buch über die Jagden im Schlingendorntal gerissen wurden.
++ Ihre Haltung ist der einer großen Statue nachempfunden, die in einer anderen Welt von einem Berg aus über eine Hafenstadt wacht.
 ! Gefährlich (Mok'rash, ein Meeresriese, Elite, Stufe 50)
 
 ## stranglethorn-vale-gromgol

@@ -1,5 +1,5 @@
 ---
-source: 37a29ae5d971
+source: b5c093403c68
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -31,7 +31,7 @@ Irgendwo weit weg gibt es ein Lied über Männer wie ihn,
 Er hat es nie gehört. Sei der Erste, der es ihm schenkt.
 ? Das Holzfällerlager des Osttals, im Osten von Elwynn. Sing für den Holzfäller, der die Vorräte des Lagers verwaltet.
 = Terry Palin, Holzfäller, aus dem Holzfällerlager des Osttals.
-+ Sein Name verbindet Terry Jones und Michael Palin, die ein berühmtes Lied über einen Holzfäller geschrieben haben, in einer Welt fern von dieser.
++ Sein Name verbindet zwei Männer einer anderen Welt, die ein berühmtes Lied über einen Holzfäller geschrieben haben.
 ! Ruhig
 
 ## elwynn-forest-heroes-vigil

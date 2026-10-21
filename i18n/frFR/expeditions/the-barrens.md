@@ -1,5 +1,5 @@
 ---
-source: 3c48be244d9b
+source: 3ed1bff24d2f
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -64,7 +64,7 @@ Demandez-lui à quoi servent les grottes.
 ## the-barrens-trok
 Dans une ferme au nord du carrefour, un petit orc court sans arrêt,
 et quelque chose de petit et de furieux le suit toujours de près.
-Il a appris une chose sur les abeilles à ses dépens, et il la dira à qui le rattrapera.
+Il a appris une chose sur les abeilles à ses dépens, et il la crie à qui veut l'entendre.
 Rattrapez-le si vous pouvez.
 ? La Ferme de Grol'dom, au nord de la Croisée. Le garçon fait le tour de la ferme, les abeilles à ses trousses. Rattrapez-le et ciblez-le.
 = Trok, de la Ferme de Grol'dom, et l'essaim dont il ne se défait pas : "Au secours ! Je suis poursuivi par un essaim d'abeilles !" Et, entre deux souffles : "Je ne savais pas que les abeilles avaient peur du feu !"

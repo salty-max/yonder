@@ -40,7 +40,7 @@ riddles:
     danger: "Perilous (Mok'rash, a sea giant, elite, level 50)"
     quest_overlap: [6571]
     quest_context: "Warsong Supplies sends the Horde after scattered Warsong shipments, one of them on the islet. Yonder asks for an embrace of the statue, with no quest and no crate."
-    sources: "the WoWWiki archive's Janeiro's Point page (a great statue on the islet outside Booty Bay, a beacon to all travellers, Mok'rash's abode) and In-jokes and references, Eastern Kingdoms page (Christ on Corcovado); the dump's spawn and loot of Mok'rash (pages of Green Hills of Stranglethorn); the client's AreaTable"
+    sources: "the WoWWiki archive's Janeiro's Point page (a great statue on the islet outside Booty Bay, a beacon to all travellers, Mok'rash's abode) and In-jokes and references, Eastern Kingdoms page (Christ on Corcovado); the dump's spawn of Mok'rash; the client's AreaTable"
   - id: stranglethorn-vale-gromgol
     tier: town
     faction: horde   # its town's: for that faction alone
@@ -85,7 +85,7 @@ A giant of another kind has made the rock his home.
 Swim out, and answer those open arms.
 ? Janeiro's Point, the islet north-west of Booty Bay's harbour mouth. On the rock, hug the statue, and mind the sea giant.
 = Janeiro's Point, and its great statue, arms open, a beacon to every traveller who sails into Booty Bay.
-+ Mok'rash, the sea giant who keeps the rock, carries pages torn from a book about Stranglethorn's hunting.
++ Its pose is borrowed from another world's great statue, which watches over a harbour city from a mountain.
 
 ## stranglethorn-vale-gromgol
 At the top of the Horde's tower in the jungle, a goblin sees the airships off to Orgrimmar,

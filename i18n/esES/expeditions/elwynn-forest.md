@@ -1,5 +1,5 @@
 ---
-source: 37a29ae5d971
+source: b5c093403c68
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -31,7 +31,7 @@ sobre los árboles que talan y las noches en que duermen a pierna suelta.
 Él nunca la ha oído. Que sea tuya la primera vez que la oiga.
 ? El Aserradero de la Vega del Este, al este de Elwynn. Cántale al leñador que está a cargo de las provisiones del campamento.
 = Terry Palin, Leñador, del Aserradero de la Vega del Este.
-+ Su nombre une a Terry Jones y Michael Palin, que escribieron una canción famosa sobre un leñador, en un mundo muy lejos de este.
++ Su nombre une a dos hombres de otro mundo que escribieron una canción famosa sobre un leñador.
 ! Tranquilo
 
 ## elwynn-forest-heroes-vigil

@@ -1,5 +1,5 @@
 ---
-source: 3c48be244d9b
+source: 3ed1bff24d2f
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -63,7 +63,7 @@ Pregúntale para qué sirven las cuevas.
 ## the-barrens-trok
 En una granja al norte del cruce, un orco pequeño corre sin parar,
 y algo pequeño y furioso lo sigue siempre de cerca.
-Aprendió algo sobre las abejas por las malas, y se lo cuenta a quien lo alcance.
+Aprendió algo sobre las abejas por las malas, y lo grita a quien quiera oírlo.
 Alcánzalo si puedes.
 ? La Granja de Grol'dom, al norte de El Cruce. El chico da vueltas a la granja con las abejas detrás. Alcánzalo y selecciónalo.
 = Trok, de la Granja de Grol'dom, y el enjambre del que no se libra: "¡Ayuda! ¡Me persigue un enjambre de abejas!". Y, entre jadeos: "¡No sabía que a las abejas no les gustaba el fuego!".

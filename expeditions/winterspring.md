@@ -21,7 +21,7 @@ riddles:
     danger: "Quiet"
     quest_overlap: [5163]
     quest_context: "Are We There, Yeti? is given by Legacki, who stands beside Jack in Everlook. Yonder asks only that Jack be found, with no yeti and no quest."
-    sources: "the dump's spawn (no quest, no wares, no word); the WoWWiki archive's Jack Sterling page (a human in Everlook who offers no quests or services) and In-jokes and references, Kalimdor page (Everlook and the Overlook Hotel, Jack Sterling and Jack Torrance)"
+    sources: "the dump's spawn (no quest, no wares, no word); the WoWWiki archive's Jack Sterling page (a human in Everlook who offers no quests or services; the dump has three more humans in Everlook, so the riddle names him by what he lacks) and In-jokes and references, Kalimdor page (Everlook and the Overlook Hotel, Jack Sterling and Jack Torrance)"
   - id: winterspring-kel-theril
     tier: off
     gestures: [MOURN, KNEEL, PRAY]
@@ -46,11 +46,11 @@ Find the inventor whose title gives you reason to hesitate.
 
 ## winterspring-jack-sterling
 In the snowbound town where goblins keep the only lodging for miles,
-one man among them is no goblin, and his name is Jack.
+a man named Jack is spending the winter.
 Nobody has seen him at work, or at play.
 Find him.
-? Everlook, in Winterspring. Find the only human in town and get close enough to target him.
-= Jack Sterling, the only human in Everlook. He offers no work, no wares and no word.
+? Everlook, in Winterspring. Find Jack, the man with nothing to sell and nothing to say, and get close enough to target him.
+= Jack Sterling, of Everlook. He offers no work, no wares and no word.
 + Another snowbound hotel, in another world's tale, had a Jack too. It did not end well.
 
 ## winterspring-kel-theril

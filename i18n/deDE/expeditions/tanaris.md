@@ -31,7 +31,7 @@ Sei ausnahmsweise freundlich.
 ! Bewacht (Banditen der Wüstenläufer und Stahlkieferschnapper in der Nähe)
 
 ## tanaris-oreily
-Im Hafen der Goblins an der Wüstenküste hat eine Wahrsagerin eine Hütte,
+Im Hafen der Goblins an der Wüstenküste hat ein Wahrsager eine Hütte,
 und eine weiße Eule kreist Tag und Nacht darum, als hätte sie jede Prophezeiung gehört und keiner davon geglaubt.
 Was immer sie dich zu fragen scheint, antworte im selben Ton.
 ? Steamwheedle, im Nordosten von Tanaris. Nimm die weiße Eule ins Ziel, die um die Hütte des Sehers kreist, und schau zweifelnd.

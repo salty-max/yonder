@@ -1,5 +1,5 @@
 ---
-source: 3c48be244d9b
+source: 3ed1bff24d2f
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -64,11 +64,11 @@ Frag ihn, wozu die Höhlen gut sind.
 ## the-barrens-trok
 Auf einem Hof nördlich der Wegkreuzung rennt ein kleiner Orc ohne Pause,
 und etwas Kleines, Wütendes ist ihm immer dicht auf den Fersen.
-Über Bienen hat er eine Sache auf die harte Tour gelernt, und er verrät sie jedem, der ihn einholt.
+Über Bienen hat er eine Sache auf die harte Tour gelernt, und er ruft sie jedem zu, der in Hörweite ist.
 Hol ihn ein, wenn du kannst.
 ? Grol'doms Hof, nördlich von Crossroads. Der Junge rennt mit den Bienen im Nacken um den Hof. Hol ihn ein und nimm ihn ins Ziel.
 = Trok, von Grol'doms Hof, und der Schwarm, den er nicht loswird: 'Hilfe! Ich werde von einem Bienenschwarm verfolgt!' Und zwischen zwei Atemzügen: 'Ich wusste nicht, dass Bienen kein Feuer mögen!'
-+ Er ruft Karu um Hilfe, der auf demselben Hof herumläuft: 'Kannst du mir bitte helfen diese Bienen loszuwerden, Karu? Sie stechen!'
++ Er ruft Karu, die auf demselben Hof herumläuft, zu Hilfe: 'Kannst du mir bitte helfen diese Bienen loszuwerden, Karu? Sie stechen!'
 ! Ruhig
 
 ## the-barrens-fallen-warrior

@@ -75,7 +75,7 @@ about the trees they fell and the nights they sleep so soundly.
 He has never heard it. Be the first to give it to him.
 ? The Eastvale Logging Camp, in Elwynn's east. Sing to the lumberjack who keeps the camp's stores.
 = Terry Palin, Lumberjack, of the Eastvale Logging Camp.
-+ His name joins Terry Jones and Michael Palin, who wrote a famous song about a lumberjack, in a world far from this one.
++ His name joins two men of another world, who wrote a famous song about a lumberjack.
 
 ## elwynn-forest-heroes-vigil
 In a lake shaped like a ring, an island holds a ring of stones

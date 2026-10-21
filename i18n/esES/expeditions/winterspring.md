@@ -1,5 +1,5 @@
 ---
-source: afb63261be3e
+source: cc758233402a
 zone: 1452
 ---
 ## winterspring-farflinger
@@ -13,11 +13,11 @@ Busca al inventor cuyo título da motivos para dudar.
 
 ## winterspring-jack-sterling
 En la ciudad nevada donde los goblins regentan el único alojamiento en leguas a la redonda,
-uno de ellos no es goblin, y se llama Jack.
+un hombre llamado Jack pasa el invierno.
 Nadie lo ha visto trabajar, ni divertirse.
 Encuéntralo.
-? Vista Eterna, en Cuna del Invierno. Busca al único humano de la ciudad y acércate lo bastante para seleccionarlo.
-= Jack Sterling, el único humano de Vista Eterna. No ofrece trabajo, ni mercancía, ni palabra.
+? Vista Eterna, en Cuna del Invierno. Busca a Jack, el hombre que no tiene nada que vender ni nada que decir, y acércate lo bastante para seleccionarlo.
+= Jack Sterling, de Vista Eterna. No ofrece trabajo, ni mercancía, ni palabra.
 + Otro hotel nevado, en la historia de otro mundo, también tuvo su Jack. No acabó bien.
 ! Tranquilo
 

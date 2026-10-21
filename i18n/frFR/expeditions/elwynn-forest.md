@@ -1,5 +1,5 @@
 ---
-source: 37a29ae5d971
+source: b5c093403c68
 zone: 1429
 ---
 ## elwynn-forest-cats
@@ -31,7 +31,7 @@ sur les arbres qu'ils abattent et les nuits où ils dorment si bien.
 Il ne l'a jamais entendue. Soyez le premier à la lui offrir.
 ? Le Camp de bûcherons du Val d'est, à l'est d'Elwynn. Chantez pour le bûcheron qui tient les réserves du camp.
 = Terry Palin, Bûcheron, du Camp de bûcherons du Val d'est.
-+ Son nom réunit Terry Jones et Michael Palin, qui ont écrit une célèbre chanson sur un bûcheron, dans un tout autre monde que celui-ci.
++ Son nom réunit deux hommes d'un autre monde, qui ont écrit une célèbre chanson sur un bûcheron.
 ! Calme
 
 ## elwynn-forest-heroes-vigil

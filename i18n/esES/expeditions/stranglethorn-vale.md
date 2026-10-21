@@ -1,5 +1,5 @@
 ---
-source: 18936e00a731
+source: 4f312e2c3214
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -37,7 +37,7 @@ Un gigante de otra clase ha hecho de la roca su hogar.
 Nada hasta allí y responde a esos brazos abiertos.
 ? El Cayo de Janeiro, el islote al noroeste de la bocana de Bahía del Botín. Sobre la roca, abraza la estatua, y cuidado con el gigante marino.
 = El Cayo de Janeiro y su gran estatua con los brazos abiertos, un faro para cada viajero que llega a Bahía del Botín.
-+ Mok'rash, el gigante marino que guarda la roca, lleva páginas arrancadas de un libro sobre las cacerías de Tuercespina.
++ Su postura está tomada de una gran estatua de otro mundo, que vela por una ciudad portuaria desde lo alto de un monte.
 ! Peligroso (Mok'rash, un gigante marino, élite, nivel 50)
 
 ## stranglethorn-vale-gromgol

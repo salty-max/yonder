@@ -143,7 +143,7 @@ Ask him what the caves are good for.
 ## the-barrens-trok
 On a farm north of the crossroads, a small orc is always running,
 and something small and angry is always right behind him.
-He has learned one thing about bees the hard way, and he will tell anyone who catches him.
+He has learned one thing about bees the hard way, and he shouts it to anyone in earshot.
 Catch him if you can.
 ? Grol'dom Farm, north of the Crossroads. The boy runs round the farm with the bees behind him. Catch up and target him.
 = Trok, of Grol'dom Farm, and the swarm he cannot shake: 'Help! I'm being chased by a swarm of bees!' And, between breaths: 'I didn't know bees didn't like fire!'

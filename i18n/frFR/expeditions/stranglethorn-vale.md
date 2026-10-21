@@ -1,5 +1,5 @@
 ---
-source: 18936e00a731
+source: 4f312e2c3214
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -37,7 +37,7 @@ Un géant d'une autre sorte a fait de ce rocher sa demeure.
 Nagez jusque-là, et répondez à ces bras ouverts.
 ? Le Cap Janeiro, l'îlot au nord-ouest de l'entrée du port de Baie-du-Butin. Sur le rocher, serrez la statue dans vos bras, et méfiez-vous du géant des mers.
 = Le Cap Janeiro, et sa grande statue aux bras ouverts, phare pour chaque voyageur qui entre à Baie-du-Butin.
-+ Mok'rash, le géant des mers qui garde le rocher, transporte des pages arrachées à un livre sur les chasses de Strangleronce.
++ Sa pose est empruntée à une grande statue d'un autre monde, qui veille sur une ville portuaire du haut d'une montagne.
 ! Périlleux (Mok'rash, un géant des mers, élite, niveau 50)
 
 ## stranglethorn-vale-gromgol

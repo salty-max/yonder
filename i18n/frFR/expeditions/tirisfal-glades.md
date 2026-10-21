@@ -1,5 +1,5 @@
 ---
-source: 27c553229d99
+source: 08f3d3228134
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -9,7 +9,7 @@ Son frère parlait d'argent facile, et n'a jamais dit lequel d'entre eux vivrait
 Il a une faveur à demander à qui passe par là. Donnez-lui votre parole.
 ? La tour des zeppelins au nord des portes de Fossoyeuse : le gobelin qui envoie le dirigeable vers Durotar. Acquiescez à la demande du gobelin affamé.
 = Zapetta, le maître des zeppelins : "Mon frère disait qu'il y avait de l'argent à se faire avec cette route commerciale, mais il ne m'avait pas dit que ce serait moi qui vivrais de ce côté. Si vous revenez par ici en zeppelin, pouvez-vous m'apporter quelque chose à manger ?"
-+ Hin Denburg, qui envoie l'autre dirigeable vers le sud, a piètre opinion du tram des gnomes : si vous y croyez, il a une statue à Strangleronce à vous vendre.
++ Ce qu'il espère que vous lui rapporterez : "Ils vendent la meilleure des viandes à Orgrimmar. Pour une fois, j'aimerais bien manger quelque chose qui a eu le bon sens d'arrêter de bouger au moment de sa mort, et pas quelques semaines après..."
 ! Calme
 
 ## tirisfal-glades-hin-denburg
@@ -18,7 +18,7 @@ Demandez-lui si c'est sûr. Il a sa réponse toute prête,
 un mot sur le tram des gnomes en prime, et quelque chose à Strangleronce qu'il aimerait vous vendre.
 ? La tour des zeppelins à l'est de Brill. Parlez au maître des zeppelins dont le vaisseau va au Campement Grom'gol.
 = Hin Denburg, Maître des zeppelins : "Voici le mode de transport le plus efficace et le plus moderne qui soit. Quoi ? Le Tram des profondeurs ? Les gnomes ? Écoutez-moi bien : si vous croyez à ces âneries, j'ai une statue à vous vendre à Strangleronce."
-+ Son nom est celui d'un célèbre dirigeable d'un autre monde, dont on se souvient pour la façon dont il a brûlé. La statue qu'il propose se dresse au Cap Janeiro, à l'entrée de Baie-du-Butin.
++ Son nom est celui d'un célèbre dirigeable d'un autre monde, dont on se souvient pour la façon dont il a brûlé.
 ! Calme
 
 ## tirisfal-glades-stillwater
