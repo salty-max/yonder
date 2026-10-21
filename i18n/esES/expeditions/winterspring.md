@@ -15,7 +15,7 @@ Busca al inventor cuyo título da motivos para dudar.
 Junto a un lago del norte, una ciudad élfica se alzaba antes de que el mundo se rompiera.
 El Gran Diluvio la dejó en ruinas, y después llegó el invierno.
 Su pueblo nunca se fue. Aún la recorre, y no encuentra la paz.
-Se merecen un momento de recogimiento.
+Se merece un momento de recogimiento.
 ? Las Ruinas de Kel'Theril, a orillas del lago: llora a los muertos de la ciudad.
 = Las Ruinas de Kel'Theril, una ciudad de los Altonato elfos de la noche, destruida en el Gran Diluvio. Sus espíritus atormentados, los Altonato sufridos y las Altonato angustiadas, aún la rondan.
 + Los Altonato eran los nobles de la reina Azshara. Su magia imprudente atrajo a la Legión Ardiente al mundo y terminó en el Gran Diluvio que destruyó su propia ciudad.
