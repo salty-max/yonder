@@ -36,10 +36,10 @@ riddles:
     gestures: [LAUGH, ROFL, CHUCKLE, GIGGLE, GUFFAW]
     name: The laughing hillside
     landmark: arathi-hammerfall-lol   # the owner's point on the client's map, at the foot of the carved slope
-    radius: 40
+    radius: 70   # the letters read from the grass well back from the slope
     hint_area: { x: 76.8, y: 42.6, r: 2 }
-    danger: "Guarded (Drywhisker kobolds, levels 35 to 36)"
-    sources: "the owner's point in classicwowmapexplorer (tile 38_34, world -1172, -3646, 59), wow-data landmark arathi-hammerfall-lol; the client's heightmap (a slope rising east, facing the grass south-east of Hammerfall, the same on Forever); the WoWWiki archive's Easter eggs page (just south-east of Hammerfall, at the right angle, LOL carved into the mountain-side, screenshot LOL in Highlands mountain side.jpg, 2010); the dump's spawns near it (Drywhisker kobolds, levels 35 to 36, none of Hammerfall's guards within 100 yards)"
+    danger: "Guarded (Drywhisker kobolds, levels 35 to 36, and a Witherbark troll camp to the west)"
+    sources: "the owner's point in classicwowmapexplorer (tile 38_34, world -1172, -3646, 59), wow-data landmark arathi-hammerfall-lol; the client's heightmap (a slope rising east, facing the grass south-east of Hammerfall, the same on Forever); the WoWWiki archive's Easter eggs page (just south-east of Hammerfall, at the right angle, LOL carved into the mountain-side, screenshot LOL in Highlands mountain side.jpg, 2010); the dump's spawns near it (Drywhisker kobolds, levels 35 to 36, a Witherbark camp 125 yards west-south-west, its shadowcaster walking to within 83, none of Hammerfall's guards within 147 yards)"
 quarry:
   id: 2600   # Singer
   sources: "the WoWWiki archive's Singer page (the Syndicate's mask, Dominate Mind); the dump's spawn and faction (not the Syndicate's)"

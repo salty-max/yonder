@@ -1,5 +1,5 @@
 ---
-source: c32ea7b284b5
+source: 78daa7dcd9c6
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -40,7 +40,7 @@ Encuentra el ángulo que las muestra y dale a la colina la respuesta que anda bu
 ? Al sureste de Sentencia, al pie de las primeras colinas rocosas. Desde la hierba, ponte de cara a la ladera del este hasta que aparezcan las tres letras, y ríete con ella.
 = La ladera risueña, al sureste de Sentencia: LOL, tallado en la pendiente para quien se coloque en el ángulo justo.
 + Desde cualquier otro ángulo, las letras se deshacen en hierba y roca, y la colina no tiene nada que decir.
-! Vigilado (kóbolds Mostacho Seco, niveles 35 a 36)
+! Vigilado (kóbolds Mostacho Seco, niveles 35 a 36, y un campamento de trols Secacorteza al oeste)
 @ La ladera risueña
 
 ## quarry

@@ -1,5 +1,5 @@
 ---
-source: c32ea7b284b5
+source: 78daa7dcd9c6
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -41,7 +41,7 @@ Finde den Winkel, der sie zeigt, und gib dem Hügel die Antwort, auf die er aus 
 ? Südöstlich von Hammerfall, am Fuß der ersten felsigen Hügel. Dreh dich vom Gras aus zum Hang im Osten, bis die drei Buchstaben erscheinen, und lach mit.
 = Der lachende Hang, südöstlich von Hammerfall: LOL, in den Hang geschnitten für alle, die im richtigen Winkel stehen.
 + Aus jedem anderen Winkel zerfallen die Buchstaben wieder in Gras und Fels, und der Hügel hat nichts mehr zu sagen.
-! Bewacht (Kobolde der Trockenstoppel, Stufe 35 bis 36)
+! Bewacht (Kobolde der Trockenstoppel, Stufe 35 bis 36, und westlich ein Lager von Trollen der Witherbark)
 @ Der lachende Hang
 
 ## quarry

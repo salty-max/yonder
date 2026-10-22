@@ -1,5 +1,5 @@
 ---
-source: c32ea7b284b5
+source: 78daa7dcd9c6
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -41,7 +41,7 @@ Trouvez l'angle qui les révèle, et donnez à la colline la réponse qu'elle at
 ? Au sud-est de Trépas-d'Orgrim, au pied des premières collines rocheuses. Depuis l'herbe, tournez-vous vers la pente à l'est jusqu'à ce que les trois lettres apparaissent, et riez avec elle.
 = La colline qui rit, au sud-est de Trépas-d'Orgrim : LOL, taillé dans la pente pour qui se tient au bon angle.
 + Sous tout autre angle, les lettres se fondent dans l'herbe et la roche, et la colline n'a plus rien à dire.
-! Gardé (kobolds Sèche-moustache, niveaux 35 à 36)
+! Gardé (kobolds Sèche-moustache, niveaux 35 à 36, et un camp de trolls Witherbark à l'ouest)
 @ La colline qui rit
 
 ## quarry
