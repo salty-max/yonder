@@ -27,7 +27,7 @@ y una de ellas guarda los secretos de todos: repite cuanto ha oído,
 sin parar de toser. Trátala con cariño y atiende a lo que cuenta.
 ? Peñasco Llamarada, junto a Kibler. La mascota que tose tiene mucho que decir. Escúchala.
 = Opus, el loro de Kibler, en Peñasco Llamarada: "¡¡¡CUAC!!! *tose* *tose* ¡Tengo que dejar de fumar!".
-+ Sabe más de lo que debería: "Kibler está siendo investigado por G.E.T.A". Y: "Todos van a la Cumbre, pero ninguno regresa... al igual que Bijou".
++ Sabe más de lo que debería: "Kibler está siendo investigado por G.E.T.A.". Y: "Todos van a la Cumbre, pero ninguno regresa... al igual que Bijou".
 ! Tranquilo
 
 ## quarry
