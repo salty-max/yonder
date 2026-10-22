@@ -1,5 +1,5 @@
 ---
-source: 4904a1f522db
+source: 83aa03a6c1c0
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -29,7 +29,7 @@ Südlich der Feste der Horde im roten Ödland bewahrt ein Felsvorsprung über de
 Tauren, für den Scheiterhaufen in Tücher gehüllt, Trolle unter ihren Masken, Orkklingen neben ihnen.
 Die meisten, die hierherkommen, kommen als Geister, auf der Suche nach dem Weg zurück.
 Komm, solange du noch atmest, und erweise ihnen die letzte Ehre.
-? Der Felsvorsprung südlich von Kargath, beim Geistheiler. Traure zwischen den Scheiterhaufen.
+? Der Felsvorsprung südlich von Kargath, am Friedhof des Ödlands. Traure zwischen den Scheiterhaufen.
 = Die Totenstätte über der Straße: drei Scheiterhaufen auf einem Felsvorsprung südlich von Kargath, tote Tauren und Trolle, für die Verbrennung in Tücher gehüllt, ihre Waffen und Opfergaben neben ihnen.
 + Der Geistheiler an ihrem Rand erweckt die, die im Ödland fallen. Die auf den Scheiterhaufen liegen jenseits seiner Macht.
 ! Ruhig

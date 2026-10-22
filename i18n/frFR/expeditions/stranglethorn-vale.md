@@ -1,5 +1,5 @@
 ---
-source: b32aa46272cb
+source: c124915dc7a8
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -61,7 +61,7 @@ Découvrez laquelle.
 ## stranglethorn-vale-blunderflame
 Dans les collines où les ogres Mosh'Ogg ont leur tertre,
 deux frères gnomes tiennent boutique au sommet d'une colline où personne ne grimpe.
-Catalyseur, tubes et poudre explosive, à un prix honnête,
+Catalyseur, tubes et poudre d'explosion, à un prix honnête,
 pour qui trouve l'unique chemin qui monte.
 ? Strangleronce, sur une colline cachée juste au sud du Tertre des ogres Mosh'Ogg. Trouvez le chemin qui monte vers le nord-est depuis le bas des camps des ogres, et parlez à Gnaz.
 = Gnaz Blunderflame et son frère Knaz, fournisseurs gnomes en ingénierie, sur leur colline au-dessus du Tertre des ogres Mosh'Ogg.

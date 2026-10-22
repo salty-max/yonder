@@ -1,5 +1,5 @@
 ---
-source: 4904a1f522db
+source: 83aa03a6c1c0
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -29,7 +29,7 @@ Au sud du bastion de la Horde dans les terres rouges, une corniche au-dessus de 
 des taurens enveloppés pour le bûcher, des trolls sous leurs masques, des lames orques posées à leurs côtés.
 La plupart de ceux qui viennent ici arrivent sous forme d'esprits, cherchant le chemin du retour.
 Venez tant que vous respirez encore, et rendez-leur hommage.
-? La corniche au sud de Kargath, près du Gardien des âmes. Recueillez-vous parmi les bûchers.
+? La corniche au sud de Kargath, au cimetière des Terres ingrates. Recueillez-vous parmi les bûchers.
 = Le champ funéraire au-dessus de la route : trois bûchers sur une corniche au sud de Kargath, des morts taurens et trolls enveloppés pour être brûlés, leurs armes et leurs offrandes déposées auprès d'eux.
 + Le Gardien des âmes, à la lisière du champ, relève ceux qui tombent dans les Terres ingrates. Ceux qui reposent sur les bûchers ne se relèveront plus.
 ! Calme

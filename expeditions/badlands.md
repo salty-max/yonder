@@ -29,7 +29,7 @@ riddles:
     radius: 20
     hint_area: { x: 8.5, y: 54.5, r: 1.5 }
     danger: "Quiet"
-    sources: "the pinned client's map files: funeralpyre01.m2 (file 202295), unique id 355310, in azeroth_36_44_obj0.adt, among tauren and troll mummies, tiki masks, tauren kites and orc weapons, placed the same on Forever (wow-data landmark badlands-funeral-ground, source client-map); the dump's spawns near it (the Spirit Healer 13 yards off, a Ridge Stalker Patriarch at 45)"
+    sources: "the pinned client's map files: funeralpyre01.m2 (file 202295), unique id 355310, in azeroth_36_44_obj0.adt, among tauren and troll mummies, tiki masks, tauren kites and orc weapons, placed the same on Forever (wow-data landmark badlands-funeral-ground, source client-map); the dump's spawns near it (the Spirit Healer some 15 yards off, a Ridge Stalker Patriarch at 45)"
 quarry:
   id: 2850   # Broken Tooth
   sources: "the WoWWiki archive's Broken Tooth page (asleep in the sun; the quickest claws); the dump's spawns; https://www.wow-petopia.com/classic/attackspeed.php (Classic's fastest cat)"
@@ -57,7 +57,7 @@ South of the Horde's hold in the red waste, a ledge above the road keeps the Hor
 tauren wrapped for the pyre, trolls under their masks, orc blades laid beside them.
 Most who come here arrive as spirits, looking for the way back.
 Come while you are breathing, and pay your respects.
-? The ledge south of Kargath, by the Spirit Healer. Mourn among the pyres.
+? The ledge south of Kargath, at the Badlands' graveyard. Mourn among the pyres.
 = The funeral ground above the road: three pyres on a ledge south of Kargath, tauren and troll dead wrapped for burning, their weapons and offerings beside them.
 + The Spirit Healer at its edge raises those who fall in the Badlands. Those on the pyres are past raising.
 

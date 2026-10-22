@@ -1,5 +1,5 @@
 ---
-source: 4904a1f522db
+source: 83aa03a6c1c0
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -28,7 +28,7 @@ Al sur del bastión de la Horda en las tierras rojas, una cornisa sobre el camin
 tauren envueltos para la pira, trols bajo sus máscaras, hojas orcas dejadas a su lado.
 La mayoría de los que llegan aquí lo hacen como espíritus, buscando el camino de vuelta.
 Ven mientras aún respiras y preséntales tus respetos.
-? La cornisa al sur de Kargath, junto al Ángel de la Resurrección. Llora entre las piras.
+? La cornisa al sur de Kargath, en el cementerio de Tierras Inhóspitas. Llora entre las piras.
 = El campo funerario sobre el camino: tres piras en una cornisa al sur de Kargath, muertos tauren y trols envueltos para arder, sus armas y ofrendas a su lado.
 + El Ángel de la Resurrección, en su borde, devuelve a la vida a quienes caen en las Tierras Inhóspitas. Los de las piras ya no volverán.
 ! Tranquilo
