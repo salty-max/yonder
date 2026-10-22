@@ -1,13 +1,13 @@
 ---
-source: 9b73d4d9a549
+source: ce4d7154e4e7
 zone: 1447
 ---
 ## azshara-ravencrest
 Auf den südlichen Klippen stehen noch die zerbrochenen Beine einer großen Statue,
 der Rest verstreut oder unter dem Meer.
 Sie bewahrt den Namen eines Lords, der sich der Königin dieser Küste
-und ihren Dämonen entgegenstellte, als die Welt zerbrach. Finde, was von ihm übrig ist.
-? Das Ravencrest-Monument, auf den südlichen Klippen von Azshara.
+und ihren Dämonen entgegenstellte, als die Welt zerbrach. Finde, was von ihm übrig ist, und ehre es, wie ein Soldat es täte.
+? Das Ravencrest-Monument, auf den südlichen Klippen von Azshara. Salutiere vor dem, was von der Statue übrig ist.
 = Das Ravencrest-Monument. Die Naga halten die Ruinen ringsum.
 + Lord Kur'talos Ravencrest führte im Krieg der Urtume den Widerstand der Nachtelfen von der Rabenwehr aus: Der Hof der Königin war nicht ihr ganzes Volk.
 ! Bewacht (Naga)

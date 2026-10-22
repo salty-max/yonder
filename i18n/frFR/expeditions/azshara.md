@@ -1,13 +1,13 @@
 ---
-source: 9b73d4d9a549
+source: ce4d7154e4e7
 zone: 1447
 ---
 ## azshara-ravencrest
 Sur les falaises du sud, les jambes brisées d'une grande statue se dressent encore,
 le reste éparpillé ou englouti par la mer.
 Elle garde le nom d'un seigneur qui tint tête à la reine de cette côte
-et à ses démons, quand le monde fut brisé. Trouvez ce qu'il reste de lui.
-? Le colosse de Ravencrest, sur les falaises du sud d'Azshara.
+et à ses démons, quand le monde fut brisé. Trouvez ce qu'il reste de lui, et honorez-le comme le ferait un soldat.
+? Le colosse de Ravencrest, sur les falaises du sud d'Azshara. Saluez ce qu'il reste de la statue.
 = Le colosse de Ravencrest. Les nagas tiennent les ruines alentour.
 + Le seigneur Kur'talos Ravencrest commanda la résistance des elfes de la nuit pendant la guerre des Anciens depuis le bastion du Freux : la cour de la reine n'était pas tout son peuple.
 ! Gardé (nagas)

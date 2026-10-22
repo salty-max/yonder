@@ -8,6 +8,7 @@ client: both
 riddles:
   - id: azshara-ravencrest
     tier: near
+    gestures: [SALUTE, BOW]
     area: Ravencrest Monument   # placed: the client's overlay: 70.6, 85.0, half-size 4.7 by 4.9
     hint_area: { x: 69.0, y: 83.0, r: 7 }
     danger: "Guarded (naga)"
@@ -42,8 +43,8 @@ quarry:
 On the southern cliffs, the broken legs of a great statue still stand,
 the rest of it scattered or under the sea.
 It keeps the name of a lord who stood against the queen of this coast
-and her demons, when the world was broken. Find what is left of him.
-? Ravencrest Monument, on Azshara's southern cliffs.
+and her demons, when the world was broken. Find what is left of him, and honour it as a soldier would.
+? Ravencrest Monument, on Azshara's southern cliffs. Salute what is left of the statue.
 = Ravencrest Monument. The naga hold the ruins around it.
 + Lord Kur'talos Ravencrest commanded the night elves' resistance in the War of the Ancients from Black Rook Hold: the queen's court was not the whole of her people.
 

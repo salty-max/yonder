@@ -1,13 +1,13 @@
 ---
-source: 9b73d4d9a549
+source: ce4d7154e4e7
 zone: 1447
 ---
 ## azshara-ravencrest
 En los acantilados del sur siguen en pie las piernas rotas de una gran estatua,
 con el resto disperso o bajo el mar.
 Conserva el nombre de un señor que se enfrentó a la reina de esta costa
-y a sus demonios cuando el mundo se quebró. Encuentra lo que queda de él.
-? Monumento Cresta Cuervo, en los acantilados del sur de Azshara.
+y a sus demonios cuando el mundo se quebró. Encuentra lo que queda de él y hónralo como lo haría un soldado.
+? Monumento Cresta Cuervo, en los acantilados del sur de Azshara. Haz el saludo militar ante lo que queda de la estatua.
 = Monumento Cresta Cuervo. Los naga dominan las ruinas que lo rodean.
 + Lord Kur'talos Cresta Cuervo dirigió desde Torreón Grajo Negro la resistencia de los elfos de la noche en la Guerra de los Ancestros. La corte de la reina no era todo su pueblo.
 ! Vigilado (naga)

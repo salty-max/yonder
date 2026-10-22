@@ -1,5 +1,5 @@
 ---
-source: fad145ab180f
+source: 1d6af050644a
 zone: 1441
 ---
 ## thousand-needles-raceway
@@ -26,8 +26,8 @@ Ein guter Hund hat eine freundliche Hand verdient.
 Östlich der Rennbahn der Goblins verlassen zwei Bremsspuren die Strecke und kehren nie zurück.
 An ihrem Ende hat ein Rennwagen die Kurve viel zu schnell genommen
 und hängt seitdem auf halber Höhe an der Klippe.
-Finde den Rennwagen, der nie ins Ziel kam.
-? Die schimmernde Ebene, östlich der Illusionenrennbahn, unter den östlichen Klippen. Geh zum Fuß der Klippe, unter den Rennwagen, der am Fels hängt.
+Finde den Rennwagen, der nie ins Ziel kam, hoch über deinem Kopf.
+? Die schimmernde Ebene, östlich der Illusionenrennbahn, unter den östlichen Klippen. Geh zum Fuß der Klippe und deute hinauf zum Rennwagen, der am Fels hängt.
 = Der Rennwagen an der Klippe: ein Goblinrennwagen, auf halber Höhe der Ostwand der schimmernden Ebene zerschellt, liegen geblieben, wo er zum Stehen kam.
 + Die Rennwagen der Rennbahn sind den Podracern des großen Wüstenrennens einer anderen Welt nachempfunden, dieser hier dem ihres berüchtigtsten Betrügers.
 ! Ruhig

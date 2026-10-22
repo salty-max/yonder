@@ -26,6 +26,7 @@ riddles:
     sources: "Wowhead's tooltip (Dog <Sire>, level 10, Thunder Bluff; Freewind Post 45.2, 50.4 and 50.6); the dump: the only creature in the game titled Sire, beside Montarr <Lorekeeper>; warcraft.wiki.gg's Dog (Thousand Needles) and Freewind Post pages (the mesa, out of the centaur warbands' reach, its wooden lifts and rope bridges)"
   - id: thousand-needles-cliff-racer
     tier: off
+    gestures: [POINT, PEER, LOOK]
     name: The racer on the cliff
     landmark: shimmering-flats-cliff-racer   # the client's own placement of the wreck, read from its map files
     radius: 30
@@ -58,8 +59,8 @@ A good dog is owed a kind hand.
 East of the goblins' raceway, a pair of skid marks leaves the track and never comes back.
 At the end of them, one racer took the bend far too fast,
 and has been hanging halfway up the cliff ever since.
-Find the racer who never finished.
-? The Shimmering Flats, east of the Mirage Raceway, under the eastern cliffs. Walk to the foot of the cliff, beneath the racer hanging on the rock.
+Find the racer who never finished, hanging high above your head.
+? The Shimmering Flats, east of the Mirage Raceway, under the eastern cliffs. Walk to the foot of the cliff, and point up at the racer hanging on the rock.
 = The racer on the cliff: a goblin racer crashed halfway up the Shimmering Flats' eastern wall, left where it stopped.
 + The raceway's racers are shaped like the podracers of another world's great desert race, and this one like its most notorious cheat's.
 

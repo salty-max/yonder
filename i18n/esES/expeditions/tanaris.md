@@ -1,5 +1,5 @@
 ---
-source: fce1a5064790
+source: 284234b96b87
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -62,8 +62,8 @@ Asegúrate de que su creador sigue siendo él mismo.
 Al oeste de la ciudad goblin del desierto, un pequeño coche cohete yace destrozado al pie de las montañas.
 Sus marcas de derrape se pierden en la roca que tiene detrás, como si la cordillera no fuera ningún muro,
 y al otro lado, junto a las salinas, las mismas marcas entran en ella.
-Encuentra el lugar por donde salió.
-? Justo al oeste de Gadgetzan, al pie de las montañas. Ve hasta el coche cohete destrozado.
+Encuentra el lugar por donde salió y mira si te lo puedes creer.
+? Justo al oeste de Gadgetzan, al pie de las montañas. Ve hasta el coche cohete destrozado y muestra tu sorpresa.
 = El coche que atravesó la montaña: un coche cohete gnomo destrozado al oeste de Gadgetzan, cuyas marcas de derrape empiezan al otro lado de la cordillera, junto a El Desierto de Sal.
 + En la historia de otro mundo, un científico atravesó una montaña con un coche cohete, sobre salinas muy parecidas a El Desierto de Sal.
 ! Vigilado (Llagapatas famélicas y Colazotes escórpidos cerca, niveles 41 a 44)

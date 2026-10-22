@@ -1,13 +1,13 @@
 ---
-source: 566528b8b315
+source: 79fc3e59b647
 zone: 1451
 ---
 ## silithus-scarab-wall
 Am südlichen Ende der gelben Wüste steht eine Mauer,
 errichtet, als die Nachtelfen ihren Krieg gegen die Insekten nicht allein gewinnen konnten,
 und ein Drache der Zeit versiegelte sie. Ein Gong hängt davor.
-Finde die Mauer, und lass den Gong in Ruhe.
-? Der Skarabäuswall, am südlichen Rand von Silithus.
+Finde die Mauer, ehre die, die dort die Stellung hielten, und lass den Gong in Ruhe.
+? Der Skarabäuswall, am südlichen Rand von Silithus. Salutiere vor dem Wall, und lass den Gong in Ruhe.
 = Der Skarabäuswall, und Ahn'Qiraj dahinter.
 + Vor tausend Jahren kamen die Qiraji und ihre Schwärme von Silithiden aus Ahn'Qiraj und fielen über Kalimdor her. Der bronzene Drache Anachronos schuf das Szepter der Sandstürme, um sie einzuschließen.
 ! Gefährlich (die Silithiden)

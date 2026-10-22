@@ -1,13 +1,13 @@
 ---
-source: 83aa03a6c1c0
+source: 8ab0acda41d0
 zone: 1418
 ---
 ## badlands-hidden-crypt
 Au-dessus des nains qui fouillent la terre rouge,
 un sentier sans indication monte loin de leurs travaux.
 Sous la pierre, une silhouette en armure a toujours son siège.
-Trouvez la chambre dont l'occupant a survécu à sa propre chair.
-? Au-dessus du camp de Sigrun Ironhew, au sud-est du Site de fouilles d'Hammertoe. Suivez le sentier qui monte et entrez dans la crypte, jusqu'au trône.
+Trouvez la chambre, et rendez à celui qui a survécu à sa propre chair ce que l'on doit à un roi.
+? Au-dessus du camp de Sigrun Ironhew, au sud-est du Site de fouilles d'Hammertoe. Suivez le sentier qui monte jusque dans la crypte, et agenouillez-vous devant le trône.
 = Une crypte au-dessus du camp des nains dans les Terres ingrates. Un squelette en armure est assis sur un trône de pierre, une épée tout près.
 + La lame porte le nom d'Épée du roi barbare. Cela donne un titre, mais guère l'histoire de celui qui occupait cette chambre.
 ! Gardé (l'approche par les Terres ingrates)

@@ -1,13 +1,13 @@
 ---
-source: 566528b8b315
+source: 79fc3e59b647
 zone: 1451
 ---
 ## silithus-scarab-wall
 Au bout sud du désert jaune se dresse un mur
 élevé quand les elfes de la nuit ne purent gagner seuls leur guerre contre les insectes,
 et un dragon du temps le scella. Un gong est suspendu devant.
-Trouvez le mur, et laissez le gong tranquille.
-? Le mur du Scarabée, à la lisière sud de Silithus.
+Trouvez le mur, honorez ceux qui y ont tenu le front, et laissez le gong tranquille.
+? Le mur du Scarabée, à la lisière sud de Silithus. Saluez le mur, et laissez le gong tranquille.
 = Le mur du Scarabée, et Ahn'Qiraj derrière.
 + Il y a mille ans, les qiraji et leurs essaims silithides sortirent d'Ahn'Qiraj et s'abattirent sur Kalimdor. Le dragon de bronze Anachronos forgea le sceptre des Sables changeants pour les enfermer.
 ! Périlleux (les silithides)

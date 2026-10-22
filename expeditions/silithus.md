@@ -8,6 +8,7 @@ client: both
 riddles:
   - id: silithus-scarab-wall
     tier: off
+    gestures: [SALUTE, BOW]
     area: The Scarab Wall   # placed: the client's overlay: 28.9, 95.1, half-size 7.0 by 3.0
     hint_area: { x: 30.0, y: 92.0, r: 8 }
     danger: "Perilous (the silithid)"
@@ -44,8 +45,8 @@ quarry:
 At the southern end of the yellow desert stands a wall
 raised when the night elves could not win their war against the insects alone,
 and a dragon of time sealed it. A gong hangs before it.
-Find the wall, and leave the gong alone.
-? The Scarab Wall, at the southern edge of Silithus.
+Find the wall, honour the ones who held the line there, and leave the gong alone.
+? The Scarab Wall, at the southern edge of Silithus. Salute the wall, and leave the gong alone.
 = The Scarab Wall, and Ahn'Qiraj behind it.
 + A thousand years ago the qiraji and their silithid swarms came out of Ahn'Qiraj and fell on Kalimdor. The bronze dragon Anachronos made the Scepter of the Shifting Sands to seal them in.
 

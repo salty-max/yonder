@@ -2092,22 +2092,22 @@ state.mouseover, state.target = nil, 1352
 DoEmote("SOOTHE")
 state.target = nil
 check(solvedRiddle("dun-morogh-fluffy"), "Fluffy, the rabbit Yarlyn chases round the ranch: calmed where it ran")
--- A place found by arriving: the Badlands' hidden crypt, never from a taxi
+-- A place found by arriving: Arathi's coastal farm, never from a taxi
 -- flying over it; and, made a riddle of the night here (none of the book's
 -- is one now), answering only after dark.
-local crypt = ns.riddleById["badlands-hidden-crypt"]
-at(1418, 0.5725, 0.4003)
+local farm = ns.riddleById["arathi-highlands-coastal-farm"]
+at(1417, 0.9135, 0.7001)
 state.taxi = true
 ns.expeditionAttempt()
-check(not solvedRiddle(crypt.id), "a place flown over on a taxi: nothing")
+check(not solvedRiddle(farm.id), "a place flown over on a taxi: nothing")
 state.taxi = false
-crypt.night, state.hour = true, 12
+farm.night, state.hour = true, 12
 ns.expeditionAttempt()
-check(not solvedRiddle(crypt.id), "a night's riddle by day: nothing")
+check(not solvedRiddle(farm.id), "a night's riddle by day: nothing")
 state.hour = 22
 ns.expeditionAttempt()
-check(solvedRiddle(crypt.id), "… by night, by being there: solved")
-crypt.night, state.hour = nil, 12
+check(solvedRiddle(farm.id), "… by night, by being there: solved")
+farm.night, state.hour = nil, 12
 -- Forever's own isle (Data_Forever alone): Zephras Isle's riddles and its
 -- quarry, a creature the data doesn't know; the children in the tree, looked
 -- at with them.
@@ -2366,7 +2366,7 @@ check(
 )
 YonderFrame:Hide()
 SlashCmdList.YONDER("where")
-check(said("(map 1418): 57.25, 40.03."), "/yonder where tells the map and the position")
+check(said("(map 1417): 91.35, 70.01."), "/yonder where tells the map and the position")
 check(
   said("  hint circles: ") and said(" when last drawn, minimap: "),
   "… and the maps' circles: this zone's, the world map's last drawing, the minimap's"

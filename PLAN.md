@@ -243,6 +243,16 @@ scan's other finds were quest camps, buildings in towns, or a shipwreck
 Forever (116 for a Horde reader, 122 for an Alliance one), and the 39
 quarries.
 
+**Gestures over arrivals (22 October 2026, the user's view).** A gesture is
+a deliberate answer to a riddle's story, an arrival can be solved riding
+past. Six arrivals whose story asks for a reaction became gestures: the
+crypt's dead king (kneel, salute, bow), Ravencrest Monument and the Scarab
+Wall (salute, bow), the rocket car (surprise, confusion, a gasp), the cliff
+racer (point, peer, look) and the empty camp (ponder, think). Four stay
+arrivals, nothing in their story asking for more: Karazhan, the Altar of
+Storms, Stonewrought Pass and Arathi's coastal farm. 98 gestures, 38
+conversations, 26 readings, 4 arrivals.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

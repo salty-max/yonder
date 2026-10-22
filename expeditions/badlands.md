@@ -8,6 +8,7 @@ client: both
 riddles:
   - id: badlands-hidden-crypt
     tier: hidden
+    gestures: [KNEEL, SALUTE, BOW]
     name: The crypt above the diggers
     object: 144181
     position_check: questie
@@ -38,8 +39,8 @@ quarry:
 Above the dwarves who dig in the red waste,
 an unmarked path climbs where their work does not.
 Under stone, an armoured figure still has a seat.
-Find the chamber whose occupant has outlasted his flesh.
-? Above Sigrun Ironhew's camp, southeast of Hammertoe's Digsite. Follow the unmarked path uphill and enter the crypt, as far as the throne.
+Find the chamber, and give the one who outlasted his flesh what a king is owed.
+? Above Sigrun Ironhew's camp, southeast of Hammertoe's Digsite. Follow the unmarked path uphill into the crypt, and kneel before the throne.
 = A crypt above the dwarves' camp in the Badlands. An armoured skeleton sits on a stone throne, with a sword close by.
 + The blade is called the Sword of the Barbarian King. It offers a title, though hardly an account of who occupied this chamber.
 

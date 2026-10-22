@@ -52,6 +52,7 @@ riddles:
     sources: "the dump's spawn; his gossip and its second page for engineers (broadcast text 9998, the matter transporter and the evil selves); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Star Trek: The Next Generation (Geordi La Forge, chief engineer), and its Kalimdor page (his goggles or visor and yellow shirt); the client's display (a gnome); Wowhead's point"
   - id: tanaris-rocket-car
     tier: off
+    gestures: [SURPRISED, CONFUSED, GASP]
     name: The car through the mountain
     landmark: tanaris-rocket-car-wreck   # the client's own placement of the wreck, read from its map files
     radius: 15
@@ -116,8 +117,8 @@ Make sure its maker is still himself.
 West of the goblins' desert town, a little rocket car lies wrecked at the foot of the mountains.
 Its skid marks run back into the rock behind it, as though the range were no wall at all,
 and on the far side, by the salt flats, the same marks lead in.
-Find where it came out.
-? Just west of Gadgetzan, at the foot of the mountains. Walk to the crashed rocket car.
+Find where it came out, and see if you can believe it.
+? Just west of Gadgetzan, at the foot of the mountains. Find the crashed rocket car, and show your surprise.
 = The car through the mountain: a crashed gnome rocket car west of Gadgetzan, its skid marks starting on the far side of the range, by the Shimmering Flats.
 + In another world's tale, a scientist drove a rocket car straight through a mountain, across salt flats very like the Shimmering Flats.
 

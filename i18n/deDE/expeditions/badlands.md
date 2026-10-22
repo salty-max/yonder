@@ -1,13 +1,13 @@
 ---
-source: 83aa03a6c1c0
+source: 8ab0acda41d0
 zone: 1418
 ---
 ## badlands-hidden-crypt
 Über den Zwergen, die im roten Ödland graben,
 führt ein unmarkierter Pfad abseits ihrer Arbeit bergauf.
 Unter Stein hat eine Gestalt in Rüstung noch immer ihren Sitz.
-Finde die Kammer, deren Bewohner sein eigenes Fleisch überdauert hat.
-? Oberhalb von Sigrun Ironhews Lager, südöstlich von Hammerzehs Grabungsstätte. Folge dem unmarkierten Pfad bergauf und betrete die Gruft bis zum Thron.
+Finde die Kammer und erweise dem, der sein eigenes Fleisch überdauert hat, was man einem König schuldet.
+? Oberhalb von Sigrun Ironhews Lager, südöstlich von Hammerzehs Grabungsstätte. Folge dem unmarkierten Pfad bergauf in die Gruft und knie vor dem Thron nieder.
 = Eine Gruft über dem Zwergenlager im Ödland. Auf einem steinernen Thron sitzt ein gepanzertes Skelett, daneben liegt ein Schwert.
 + Die Klinge heißt Schwert des Barbarenkönigs. Das verrät einen Titel, aber kaum die Geschichte dessen, der diese Kammer einst bewohnte.
 ! Bewacht (der Weg durch das Ödland)

@@ -1,5 +1,5 @@
 ---
-source: fce1a5064790
+source: 284234b96b87
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -62,8 +62,8 @@ Assurez-vous que l'inventeur de la machine est toujours lui-même.
 À l'ouest de la ville des gobelins au milieu du désert, une petite voiture-fusée gît, accidentée, au pied des montagnes.
 Ses traces de dérapage repartent dans la roche derrière elle, comme si la chaîne n'était pas un mur du tout,
 et de l'autre côté, près des salines, les mêmes traces s'enfoncent dans la roche.
-Trouvez l'endroit où elle est ressortie.
-? Juste à l'ouest de Gadgetzan, au pied des montagnes. Allez jusqu'à la voiture-fusée accidentée.
+Trouvez l'endroit où elle est ressortie, et voyez si vous arrivez à y croire.
+? Juste à l'ouest de Gadgetzan, au pied des montagnes. Allez jusqu'à la voiture-fusée accidentée, et montrez votre surprise.
 = La voiture à travers la montagne : une voiture-fusée gnome accidentée à l'ouest de Gadgetzan, dont les traces de dérapage commencent de l'autre côté de la chaîne, près des Salines.
 + Dans le récit d'un autre monde, un savant traversait une montagne au volant d'une voiture-fusée, sur des salines très semblables aux Salines.
 ! Gardé (Brûlepattes affamées et Scorpides flagellants tout près, niveaux 41 à 44)

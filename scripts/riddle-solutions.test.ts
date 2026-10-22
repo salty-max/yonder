@@ -180,11 +180,13 @@ do
     assert(not ns.riddleSolved(tree), locale..": patrol: missing position must not bypass locality")
     local crypt = "badlands-hidden-crypt"
     fresh(1418, 0.538, 0.433, false, nil, false)
-    game.tick()
+    game.emote("KNEEL")
     assert(not ns.riddleSolved(crypt), locale..": crypt: Sigrun's actual camp is not the sword's position")
     fresh(1418, 0.57252, 0.40027, false, nil, false)
     game.tick()
-    assert(ns.riddleSolved(crypt), locale..": crypt: sword position counts without an unverified indoor flag")
+    assert(not ns.riddleSolved(crypt), locale..": crypt: reaching the throne is not yet the homage")
+    game.emote("KNEEL")
+    assert(ns.riddleSolved(crypt), locale..": crypt: kneeling at the sword's position counts without an unverified indoor flag")
     local farm = "arathi-highlands-coastal-farm"
     fresh(1417, 0.91346, 0.70007, false, nil, false)
     state.faction = "Horde"
@@ -195,18 +197,20 @@ do
     assert(not ns.riddleSolved(farm), locale..": farm: a ram elsewhere cannot substitute for the stable")
     local camp = "dun-morogh-empty-camp"
     fresh(1426, 0.407, 0.649, false, 1128, true)
-    game.tick()
+    game.emote("PONDER")
     assert(not ns.riddleSolved(camp), locale..": camp: range and targeted bear are not the abandoned camp")
     fresh(1426, 0.419, 0.669, false, nil, false)
-    game.tick()
+    game.emote("PONDER")
     assert(not ns.riddleSolved(camp), locale..": camp: the old bear-spawn guess must not count")
     fresh(1426, 0.392, 0.676, false, nil, false)
     game.tick()
-    assert(ns.riddleSolved(camp), locale..": camp: owner-confirmed 39.2, 67.6 solves by arrival, no bear needed")
+    assert(not ns.riddleSolved(camp), locale..": camp: arriving is not yet wondering why")
+    game.emote("PONDER")
+    assert(ns.riddleSolved(camp), locale..": camp: owner-confirmed 39.2, 67.6 solves with a ponder, no bear needed")
     game.emote("COVEREARS")
     assert(not ns.riddleSolved("dun-morogh-range"), locale..": camp: visit must not double as the mortar solution")
     fresh(1426, 0.397, 0.676, false, nil, false)
-    game.tick()
+    game.emote("PONDER")
     assert(not ns.riddleSolved(camp), locale..": camp: being elsewhere in Dun Morogh must not count")
   end
   local solved, groupTargets = 0, 0

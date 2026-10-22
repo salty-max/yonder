@@ -1,13 +1,13 @@
 ---
-source: 566528b8b315
+source: 79fc3e59b647
 zone: 1451
 ---
 ## silithus-scarab-wall
 En el extremo sur del desierto amarillo se alza una muralla
 levantada cuando los elfos de la noche no pudieron ganar solos su guerra contra los insectos,
 y un dragón del tiempo la selló. Delante cuelga un gong.
-Encuentra la muralla y deja el gong tranquilo.
-? El Muro del Escarabajo, en el extremo sur de Silithus.
+Encuentra la muralla, honra a quienes resistieron allí y deja el gong tranquilo.
+? El Muro del Escarabajo, en el extremo sur de Silithus. Haz el saludo militar ante el muro y deja el gong tranquilo.
 = El Muro del Escarabajo y Ahn'Qiraj detrás.
 + Hace mil años, los qiraji y sus enjambres silítidos salieron de Ahn'Qiraj y cayeron sobre Kalimdor. El dragón de bronce Anacronos creó el Cetro del Mar de Dunas para encerrarlos.
 ! Peligroso (los silítidos)

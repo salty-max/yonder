@@ -1,5 +1,5 @@
 ---
-source: fad145ab180f
+source: 1d6af050644a
 zone: 1441
 ---
 ## thousand-needles-raceway
@@ -26,8 +26,8 @@ Un buen perro se merece una mano amable.
 Al este del circuito de los goblins, unas marcas de derrape dejan la pista y nunca vuelven.
 Al final de ellas, un bólido tomó la curva demasiado rápido
 y desde entonces cuelga a media altura del acantilado.
-Encuentra el bólido que nunca terminó la carrera.
-? El Desierto de Sal, al este del Circuito del Espejismo, bajo los acantilados del este. Ve al pie del acantilado, bajo el bólido colgado de la roca.
+Encuentra el bólido que nunca terminó la carrera, colgado muy por encima de tu cabeza.
+? El Desierto de Sal, al este del Circuito del Espejismo, bajo los acantilados del este. Ve al pie del acantilado y señala el bólido colgado de la roca.
 = El bólido del acantilado: un bólido goblin estrellado a media altura de la pared este de El Desierto de Sal, que quedó donde se detuvo.
 + Los bólidos del circuito tienen la forma de los vehículos de la gran carrera del desierto de otro mundo, y este, la de su tramposo más famoso.
 ! Tranquilo

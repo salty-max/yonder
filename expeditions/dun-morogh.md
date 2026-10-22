@@ -9,6 +9,7 @@ client: both
 riddles:
   - id: dun-morogh-empty-camp
     tier: off
+    gestures: [PONDER, THINK]
     name: The abandoned camp
     landmark: dun-morogh-abandoned-camp
     radius: 15
@@ -55,8 +56,8 @@ quarry:
 Southwest of the gunsmith's noisy company,
 another camp has no one to answer.
 A young black bear wanders close to where they stayed.
-Find the place the campers left behind.
-? Just southwest of Rumbleshot's range, look for the abandoned camp near a young black bear. Walk into the camp. The bear need not be there.
+Find the place the campers left behind, and ask yourself why.
+? Just southwest of Rumbleshot's range, find the abandoned camp near a young black bear. In the camp, ponder why they left. The bear need not be there.
 = An abandoned camp a short walk from Rumbleshot's range. A young black bear wanders nearby, but why the campers left is unknown.
 + Perhaps the bear found the camp empty. Perhaps the campers found the bear first. The League has no witness to ask, and the bear is unlikely to settle it.
 

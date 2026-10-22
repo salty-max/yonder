@@ -1,5 +1,5 @@
 ---
-source: fce1a5064790
+source: 284234b96b87
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -62,8 +62,8 @@ Vergewissere dich, dass ihr Erbauer noch er selbst ist.
 Westlich der Goblinstadt in der Wüste liegt ein kleiner Raketenwagen zerschellt am Fuß der Berge.
 Seine Bremsspuren führen zurück in den Fels hinter ihm, als wäre das Gebirge gar keine Wand,
 und auf der anderen Seite, bei der Salzebene, führen dieselben Spuren hinein.
-Finde die Stelle, an der er herauskam.
-? Gleich westlich von Gadgetzan, am Fuß der Berge. Geh zum zerschellten Raketenwagen.
+Finde die Stelle, an der er herauskam, und sieh, ob du es glauben kannst.
+? Gleich westlich von Gadgetzan, am Fuß der Berge. Geh zum zerschellten Raketenwagen und zeig dich überrascht.
 = Der Wagen durch den Berg: ein zerschellter Gnomenraketenwagen westlich von Gadgetzan, dessen Bremsspuren auf der anderen Seite des Gebirges beginnen, bei der schimmernden Ebene.
 + In der Geschichte einer anderen Welt fuhr ein Wissenschaftler in einem Raketenwagen mitten durch einen Berg, über Salzebenen, die der schimmernden Ebene sehr ähneln.
 ! Bewacht (Verhungernde Eiterpfoten und Skorpidschwanzpeitscher in der Nähe, Stufe 41 bis 44)
