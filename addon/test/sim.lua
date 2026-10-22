@@ -1818,7 +1818,7 @@ assert(loadfile("addon/test/finds.lua"))()({
 -- ── the expeditions ──────────────────────────────────────────────────────────
 -- Duskwood's riddles, solved where they lead (a gesture at a lonely post, a
 -- sub-area, an unseen household, a watcher found by speaking to her) and its
--- quarry; a reading in the Barrens; a tomb found by arriving (never from a
+-- quarry; a reading in the Barrens; a farm found by arriving (never from a
 -- taxi); a walking keeper found by targeting; a riddle of the night.
 local function at(map, x, y, sub)
   state.map, state.x, state.y, state.sub = map, x, y, sub or ""

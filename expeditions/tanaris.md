@@ -52,7 +52,7 @@ riddles:
     sources: "the dump's spawn; his gossip and its second page for engineers (broadcast text 9998, the matter transporter and the evil selves); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Star Trek: The Next Generation (Geordi La Forge, chief engineer), and its Kalimdor page (his goggles or visor and yellow shirt); the client's display (a gnome); Wowhead's point"
   - id: tanaris-rocket-car
     tier: off
-    gestures: [SURPRISED, CONFUSED, GASP]
+    gestures: [SURPRISED, CONFUSED, GASP, DOUBT]
     name: The car through the mountain
     landmark: tanaris-rocket-car-wreck   # the client's own placement of the wreck, read from its map files
     radius: 15

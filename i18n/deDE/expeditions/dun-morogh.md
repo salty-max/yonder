@@ -6,7 +6,7 @@ zone: 1426
 Südwestlich der lärmenden Gesellschaft des Büchsenmachers
 gibt es ein anderes Lager, in dem niemand antwortet.
 Ein junger Schwarzbär streift nahe ihrem früheren Unterschlupf umher.
-Finde den Ort, den die Camper zurückgelassen haben, und grüble darüber nach, warum.
+Finde den Ort, den die Camper zurückgelassen haben, und frag dich, warum.
 ? Suche gleich südwestlich von Rumbleshots Schießstand das verlassene Lager bei einem jungen Schwarzbären. Betritt das Lager und denk darüber nach, warum sie gegangen sind. Der Bär muss nicht da sein.
 = Ein verlassenes Lager, nur einen kurzen Weg von Rumbleshots Schießstand entfernt. Ein junger Schwarzbär streift in der Nähe umher, aber warum die Camper gegangen sind, ist unbekannt.
 + Vielleicht fand der Bär das Lager leer vor. Vielleicht fanden die Camper zuerst den Bären. Die Liga hat keinen Zeugen zu befragen, und der Bär wird die Frage wohl kaum klären.

@@ -1,6 +1,8 @@
 # Riddle expansion and hidden-place inventory
 
 Research and local implementation: 17 October 2026. Nothing pushed or released.
+Later: the empty camp and the hidden crypt became gesture riddles on 22
+October 2026 (PLAN.md, "Gestures over arrivals").
 The frozen position additions are in local wow-data commit `d8d1cfe`.
 The owner's corrected scenery landmark is in wow-data commit `73255bf`.
 Both data changes must precede Yonder when eventually pushed.
