@@ -653,6 +653,11 @@
    "forever": "Galvan l'Ancien",
    "use": "Galvan l'Ancien"
   },
+  "Gaxim Rustfizzle": {
+   "classic": "Gaxim Rustfizzle",
+   "forever": "Gaxim Rustfizzle",
+   "use": "Gaxim Rustfizzle"
+  },
   "Geologist Larksbane": {
    "classic": "Géologue Larksbane",
    "forever": "Géologue Larksbane",
@@ -820,6 +825,11 @@
    "classic": "Jordan Stilwell",
    "forever": "Jordan Stilwell",
    "use": "Jordan Stilwell"
+  },
+  "Kaela Shadowspear": {
+   "classic": "Kaela Shadowspear",
+   "forever": "Kaela Shadowspear",
+   "use": "Kaela Shadowspear"
   },
   "Keeper Remulos": {
    "classic": "Gardien Remulos",
@@ -1759,6 +1769,11 @@
    "classic": "Forge",
    "forever": "Forge",
    "use": "Forge"
+  },
+  "Blackwolf River": {
+   "classic": "Fleuve Loup-noir",
+   "forever": "Fleuve Loup-noir",
+   "use": "Fleuve Loup-noir"
   },
   "Blasted Lands": {
    "classic": "Terres foudroyées",

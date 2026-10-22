@@ -779,6 +779,11 @@
    "forever": "Galvan el Antiguo",
    "use": "Galvan el Antiguo"
   },
+  "Gaxim Rustfizzle": {
+   "classic": "Gaxim Silvóxido",
+   "forever": "Gaxim Silvóxido",
+   "use": "Gaxim Silvóxido"
+  },
   "Geologist Larksbane": {
    "classic": "Geóloga Trotuina",
    "forever": "Geóloga Trotuina",
@@ -946,6 +951,11 @@
    "classic": "Jordan Fontana",
    "forever": "Jordan Fontana",
    "use": "Jordan Fontana"
+  },
+  "Kaela Shadowspear": {
+   "classic": "Kaela Lanzasombra",
+   "forever": "Kaela Lanzasombra",
+   "use": "Kaela Lanzasombra"
   },
   "Keeper Remulos": {
    "classic": "Guardián Rémulos",
@@ -1885,6 +1895,11 @@
    "classic": "Herrería",
    "forever": "Herrería",
    "use": "Herrería"
+  },
+  "Blackwolf River": {
+   "classic": "Río Lobonegro",
+   "forever": "Río Lobonegro",
+   "use": "Río Lobonegro"
   },
   "Blasted Lands": {
    "classic": "Las Tierras Devastadas",
