@@ -25,8 +25,8 @@ Sobre la ciudad, en lo que queda del jardín del palacio, el último rey verdade
 de la tierra yace bajo una piedra que pide que los actos de su hijo
 no recaigan sobre él. Ríndele el respeto que su hijo no le dio.
 ? En los jardines de las Ruinas de Lordaeron, sobre Entrañas. Arrodíllate junto a la tumba del rey.
-= "Aquí yace el rey Terenas Menethil II, último rey verdadero de Lordaeron. Grandes fueron sus hazañas, largo su reinado, inconcebible su muerte.".
-+ "Que el padre no sea inculpado por los actos de su hijo. Que la corona manchada de sangre permanezca en el olvido.".
+= "Aquí yace el rey Terenas Menethil II, último rey verdadero de Lordaeron. Grandes fueron sus hazañas, largo su reinado, inconcebible su muerte".
++ "Que el padre no sea inculpado por los actos de su hijo. Que la corona manchada de sangre permanezca en el olvido".
 ! Tranquilo
 
 ## undercity-edward-tyler

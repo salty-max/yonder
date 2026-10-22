@@ -23,7 +23,7 @@ Wem er alles beigebracht hat, was er weiß, den schickt er zu ihr. Frag ihn, wer
 
 ## stonetalon-mountains-smiling-log
 Auf dem Pfad voller Spinnen, der sich aus den steinernen Bergen hinabwindet,
-liegt ein gefällter Baum, glatt durchgesägt, auf der anderen Wegseite gegenüber einem kleinen Lager.
+liegt ein gefällter Baum, glatt durchgesägt, am Weg, einem kleinen Lager gegenüber.
 Seine Schnittfläche hat zwei Astknoten als Augen, und die Jahresringe darunter biegen sich an den Enden nach oben.
 Zeig ihm dasselbe Gesicht.
 ? Der Weberpass, gegenüber dem kleinen Lager der Allianz, auf halbem Weg hinunter. Finde den gefällten Stamm auf der Westseite des Weges und lächle seine Schnittfläche an.

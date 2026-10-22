@@ -55,8 +55,8 @@ En el oasis, una gran calavera abre la boca sobre las cavernas de abajo,
 y los aventureros trepan a uno de sus ojos para aceptar trabajo en las cuevas.
 Junto a quienes lo reparten, un peletero tiene sus propios consejos.
 Pregúntale para qué sirven las cuevas.
-? El Oasis Aguaverde, en la gran calavera de las Cuevas de los Lamentos. En la cuenca donde se reparten los encargos de las cuevas, habla mejor con el peletero.
-= Waldor, peletero en el ojo de la calavera: "Las cavernas que yacen bajo nosotros están llenas de extraños y maravillosos pellejos, pero debes tener cuidado si te aventuras hacia las profundidades. Recuerda que tu propia piel es mucho más valiosa.".
+? El Oasis Aguaverde, en la gran calavera de las Cuevas de los Lamentos. En la cuenca donde se reparten los encargos de las cuevas, habla con el peletero, no con quienes reparten los encargos.
+= Waldor, peletero en el ojo de la calavera: "Las cavernas que yacen bajo nosotros están llenas de extraños y maravillosos pellejos, pero debes tener cuidado si te aventuras hacia las profundidades. Recuerda que tu propia piel es mucho más valiosa".
 + A quienes lo superan en destreza, los envía a Krulmoo Lunallena, en el Campamento Taurajo.
 ! Vigilado (trepadores y volutadores descarriados de élite, niveles 15 y 16, a la entrada de las cuevas)
 

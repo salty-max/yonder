@@ -25,7 +25,7 @@ Sa pierre a quelque chose à dire à qui s'arrête auprès d'elle.
 Dans le royaume déchu s'étend le plus grand lac de ces terres,
 et en son milieu une ville sur une île, et la demeure d'une famille noble,
 et sous la demeure une école où l'on enseigne à relever les morts.
-Depuis sa rive, l'île reste en vue de l'autre côté de l'eau.
+Depuis la rive, on voit encore l'île de l'autre côté de l'eau.
 ? Le Lac Darrowmere, au sud-est des Maleterres de l'ouest. Depuis la rive, contemplez l'île au loin.
 = Le Lac Darrowmere, le plus grand lac des Royaumes de l'est. Sur l'île en son coeur se dressent Caer Darrow et la Maison Barov, avec la Scholomance tout au fond, sous elles.
 + Sur sa rive est, un vent descendu des sommets des Hinterlands rend la brume de la peste plus légère que partout ailleurs dans les Maleterres, et l'eau y garde le bleu du ciel.

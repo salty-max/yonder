@@ -9,7 +9,7 @@ Su hermano habló de buen dinero y nunca dijo cuál viviría aquí.
 Tiene un favor que pedir a quien pase. Dale tu palabra.
 ? La torre de zepelines al norte de las puertas de Entrañas: el goblin que envía la aeronave a Durotar. Asiente al goblin hambriento.
 = Zapetta, maestro de zepelines: "Mi hermano dijo que ganaríamos mucho dinero con esta ruta, pero no me dijo que yo viviría en este lado. Si vuelves por aquí en zepelín, ¿podrías traerme algo de comer?".
-+ Lo que espera que le traigas: "Ellos venden algunas de las mejores piezas de carne de todo Orgrimmar y estoy seguro de que podría aprovechar algo que no lleve muerto varias semanas.".
++ Lo que espera que le traigas: "Ellos venden algunas de las mejores piezas de carne de todo Orgrimmar y estoy seguro de que podría aprovechar algo que no lleve muerto varias semanas".
 ! Tranquilo
 
 ## tirisfal-glades-hin-denburg
@@ -17,7 +17,7 @@ En la torre entre el pueblo y la ciudad en ruinas, un goblin vende pasajes a la 
 Pregúntale si es segura. Tiene la respuesta preparada,
 y, de regalo, una palabra sobre el tranvía de los gnomos y algo en Tuercespina que le encantaría venderte.
 ? La torre de zepelines al este de Rémol. Habla con el maestro de zepelines cuya nave vuela al Campamento Grom'gol.
-= Hin Denburg, Maestro de zepelines: "Este es el sistema de transporte más moderno y sofisticado que el dinero permite construir. ¿Qué? ¿El Tren Subterráneo? ¿Gnomos? Escucha, $gamigo:amiga;, si te crees esa basura, entonces puedo venderte una estatua que hay en Tuercespina.".
+= Hin Denburg, Maestro de zepelines: "Este es el sistema de transporte más moderno y sofisticado que el dinero permite construir. ¿Qué? ¿El Tren Subterráneo? ¿Gnomos? Escucha, $gamigo:amiga;, si te crees esa basura, entonces puedo venderte una estatua que hay en Tuercespina".
 + Su nombre es el de una famosa nave voladora de otro mundo, a la que se recuerda por cómo ardió.
 ! Tranquilo
 

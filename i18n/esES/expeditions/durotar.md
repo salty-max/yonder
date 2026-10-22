@@ -18,7 +18,7 @@ un alquimista trol vivió todas las aventuras que quería en el camino de su pue
 Ahora se queda junto a sus frascos y deja que otros vayan a buscar problemas.
 Pregúntale qué opina de la aventura.
 ? Poblado Sen'jin, en la costa al sur de Cerrotajo. Habla con el trol que enseña alquimia.
-= Miao'zan, alquimista del Poblado Sen'jin: "Parece que andas en busca de aventuras. Yo ya tuve bastantes cuando los trols vinimos aquí. Ahora me dedico a pasar los días tal y como vienen, e instruyo a otros para que pasen aventuras por mí.".
+= Miao'zan, alquimista del Poblado Sen'jin: "Parece que andas en busca de aventuras. Yo ya tuve bastantes cuando los trols vinimos aquí. Ahora me dedico a pasar los días tal y como vienen, e instruyo a otros para que pasen aventuras por mí".
 + El poblado lleva el nombre de Sen'jin, padre de Vol'jin, el líder de los Lanza Negra que no llegó a ver esta costa.
 ! Tranquilo
 

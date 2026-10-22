@@ -8,7 +8,7 @@ Uno pregunta al otro qué quiere hacer.
 El otro no lo sabe y le devuelve la pregunta.
 Únete a ellos sobre los tablones mientras se deciden.
 ? El embarcadero de Villa del Lago, en el Lago Sempiterno. Siéntate junto a los niños al final del embarcadero.
-= Roger y Jamin, dos niños de Villa del Lago: "Así que ¿qué quieres hacer hoy?" "Ni idea. ¿Qué quieres hacer?" "Pescar es buena idea.".
+= Roger y Jamin, dos niños de Villa del Lago: "Así que ¿qué quieres hacer hoy?" "Ni idea. ¿Qué quieres hacer?" "Pescar es buena idea".
 + La pregunta se repite cada dos minutos y medio o tres, y la respuesta no ha cambiado ni una vez.
 ! Tranquilo
 @ Roger y Jamin
@@ -39,7 +39,7 @@ En otro mundo, un experto en tiburones llevaba el nombre que él lleva en otras 
 y le dijo a un sheriff que aquello no fue un accidente de barco.
 Atrápalo en su ronda.
 ? Villa del Lago, en Montañas Crestagrana: el instructor de pesca va y viene por la orilla junto al embarcadero. Alcánzalo y selecciónalo.
-= Matías Arero, instructor de pesca de Villa del Lago: "Puedo enseñarte a pescar.".
+= Matías Arero, instructor de pesca de Villa del Lago: "Puedo enseñarte a pescar".
 + El lago de Villa del Lago no tiene tiburones. Sus pescadores mantienen ocupado al instructor de todos modos.
 ! Tranquilo
 

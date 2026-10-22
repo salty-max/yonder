@@ -18,7 +18,7 @@ No todos los que entran creen que sea el herrero.
 Pregúntale.
 ? Bahía del Botín, en la herrería. Habla con el maestro herrero goblin.
 = Brikk Finoficio, Maestro herrero de Bahía del Botín: "¿Sí? Pues claro que soy un herrero. ¿Qué? ¿Crees que los enanos son los únicos que valen su peso en yunques? Muy bien, pues que así sea. ¡Encuentra a un enano que te ayude!".
-+ Saru Furiacerada, que le envía a sus alumnos desde Orgrimmar: "No me gustan los goblins pero no conozco a nadie que sepa más que ellos del secreto del acero.".
++ Saru Furiacerada, que le envía a sus alumnos desde Orgrimmar: "No me gustan los goblins pero no conozco a nadie que sepa más que ellos del secreto del acero".
 ! Tranquilo
 
 ## stranglethorn-vale-emperors-tomb
@@ -54,7 +54,7 @@ En el puerto de los goblins, un maestro de barcos espera en el atracadero un bar
 Pregúntale por la travesía y primero te hablará de la sopa.
 Averigua de qué sopa.
 ? Bahía del Botín, en el atracadero del barco a Trinquete. Habla con el maestro de barcos.
-= Grisloue, maestro de barcos de Bahía del Botín: "Tengo que decir que la Bahía del Botín tiene la mejor sopa de almejas que se pueda probar en los Mares del Sur.".
+= Grisloue, maestro de barcos de Bahía del Botín: "Tengo que decir que la Bahía del Botín tiene la mejor sopa de almejas que se pueda probar en los Mares del Sur".
 + Después, para quien no se interese por la cocina: el atracadero de la Fantasía de la doncella, "el mejor barco de pasajeros que hay para navegar entre los Reinos del Este y Kalimdor".
 ! Tranquilo
 

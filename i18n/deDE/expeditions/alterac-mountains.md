@@ -4,11 +4,11 @@ zone: 1416
 ---
 ## alterac-mountains-rizz
 Die Crushridge-Oger haben in den Hügeln eine Höhle für alles, was sie nach Hause schleppen,
-und eines der Dinge, die sie verschleppt haben, redet noch und handelt noch.
+und eines der Dinge, die sie verschleppt haben, redet und handelt noch immer.
 Ein kleiner Ingenieur verkauft die Werkzeuge seines Handwerks durch die Gitterstäbe.
 Finde ihn und sieh dir an, was er anzubieten hat.
 ? Mitten im Alteracgebirge, bei den Crushridge-Ogern. Sprich in ihrer Höhle mit dem Gnom im Käfig.
-= Rizz Loosebolt, ein Gnomingenieur in einem Käfig der Crushridge, der noch immer Flussmittel, Röhren, Sprengpulver und Teile verkauft, dazu den einzigen Bauplan der Welt für einen Eisdeflektor.
+= Rizz Loosebolt, ein Gnomeningenieur in einem Käfig der Crushridge, der noch immer Fluxus, Röhren, Sprengpulver und Teile verkauft, dazu den einzigen Bauplan der Welt für einen Eisdeflektor.
 + Keine Quest befreit ihn. Reisende kaufen, was sie brauchen, durch die Gitterstäbe und überlassen ihn den Ogern.
 ! Bewacht (Crushridge-Oger und -Schläger, Stufe 34 bis 36)
 

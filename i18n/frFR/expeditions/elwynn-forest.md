@@ -28,7 +28,7 @@ Montez jusqu'à leur chambre, si vous en avez le courage, et voyez ce que l'on y
 Au camp de bûcherons à l'orée est de la forêt, un bûcheron tient les réserves.
 Quelque part très loin, il existe une chanson sur les hommes comme lui,
 sur les arbres qu'ils abattent et les nuits où ils dorment si bien.
-Il ne l'a jamais entendue. Soyez le premier à la lui offrir.
+Il ne l'a jamais entendue. Soyez $gle premier:la première; à la lui offrir.
 ? Le Camp de bûcherons du Val d'est, à l'est d'Elwynn. Chantez pour le bûcheron qui tient les réserves du camp.
 = Terry Palin, Bûcheron, du Camp de bûcherons du Val d'est.
 + Son nom réunit deux hommes d'un autre monde, qui ont écrit une célèbre chanson sur un bûcheron.

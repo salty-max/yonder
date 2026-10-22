@@ -17,7 +17,7 @@ Im Dorf, das die Darkspear an Durotars Südküste errichtet haben,
 hat ein Trollalchimist auf dem Weg seines Volkes hierher alle Abenteuer erlebt, die er je wollte.
 Jetzt bleibt er bei seinen Fläschchen und lässt andere den Ärger suchen.
 Frag ihn, was er vom Abenteuer hält.
-? Sen'jin, an der Küste südlich vom Klingenhügel. Sprich mit dem Troll, der Alchemie lehrt.
+? Sen'jin, an der Küste südlich vom Klingenhügel. Sprich mit dem Troll, der Alchimie lehrt.
 = Miao'zan, Alchimist in Sen'jin: 'Ihr seht aus wie jemand, der auf Abenteuer aus is'. Also ich hatt davon schon genug, als wir Trolle hierher kamen. Jetzt nehm ich jeden Tag, wie er kommt, und bilde andere Leute darin aus, mit den Abenteuern fertig zu werden.'
 + Das Dorf trägt den Namen von Sen'jin, Vol'jins Vater, dem Anführer der Darkspear, der diese Küste nicht mehr erleben sollte.
 ! Ruhig

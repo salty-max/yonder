@@ -8,7 +8,7 @@ et l'une des choses qu'ils ont rapportées parle encore, et fait encore commerce
 Un petit ingénieur vend les outils de son métier à travers les barreaux.
 Trouvez-le, et voyez ce qu'il a à offrir.
 ? Au milieu des Montagnes d'Alterac, le creux des ogres Cassecrête. Dans leur caverne, parlez au gnome en cage.
-= Rizz Loosebolt, un ingénieur gnome dans une cage Cassecrête, qui vend encore du fondant, des tubes, de la poudre explosive et des pièces, et les seuls plans au monde d'un pare-glace.
+= Rizz Loosebolt, un ingénieur gnome dans une cage Cassecrête, qui vend encore du catalyseur, des tubes, de la poudre d'explosion et des pièces, et les seuls plans au monde d'un pare-glace.
 + Aucune quête ne le libère. Les voyageurs achètent ce qu'il leur faut à travers les barreaux, et le laissent aux ogres.
 ! Gardé (ogres et brutes Cassecrête, niveaux 34 à 36)
 

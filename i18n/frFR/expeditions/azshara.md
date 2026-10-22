@@ -24,7 +24,7 @@ loin du nord glacé auquel appartient leur espèce.
 @ Lac Mennar
 
 ## azshara-eldara
-Passé la baie des tempêtes, à l'extrême pointe des terres,
+Passé la Baie des tempêtes, à l'extrême pointe des terres,
 les elfes de l'ancien empire ont laissé une tour, et l'ont fermée derrière eux.
 Personne ne l'a ouverte depuis.
 Trouvez sa porte. Nul ne sait ce qu'elle renferme.

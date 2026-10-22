@@ -8,7 +8,7 @@ los tauren mantienen un campamento al borde de los huesos,
 y su peletero tiene su propia opinión sobre el origen de las mejores pieles.
 Pregúntale.
 ? El Campamento del Espíritu Errante, al borde del Cementerio de Kodos, en el centro de Desolace. Habla con el instructor de peletería.
-= Narv Curtepieles, del Campamento del Espíritu Errante: "Los mejores pellejos son las de los kodos que han venido a descansar en esta tierra yerma.".
+= Narv Curtepieles, del Campamento del Espíritu Errante: "Los mejores pellejos son las de los kodos que han venido a descansar en esta tierra yerma".
 + El cementerio es un campo de huesos de kodo, y los viejos siguen llegando: kodos envejecidos, moribundos y ancianos caminan entre ellos.
 ! Tranquilo
 

@@ -17,7 +17,7 @@ llevar petróleo bajo tierra de una gran ciudad a la siguiente.
 Todos a los que se lo cuenta le dan la misma respuesta.
 Pregúntale cuál.
 ? Gadgetzan, delante de la cabaña del medio, junto al buzón. Habla con el maestro ingeniero.
-= Buzzek Giracorchete, Maestro ingeniero de Gadgetzan: "He estado trabajando en una forma de transportar petróleo bajo tierra entre las ciudades más importantes, pero todos dicen que son castillos en el aire.".
+= Buzzek Giracorchete, Maestro ingeniero de Gadgetzan: "He estado trabajando en una forma de transportar petróleo bajo tierra entre las ciudades más importantes, pero todos dicen que son castillos en el aire".
 + Gadgetzan pertenece al Cártel Bonvapor, como Bahía del Botín, Trinquete y Vista Eterna.
 ! Tranquilo
 

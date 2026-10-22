@@ -28,7 +28,7 @@ En otro mundo, un hombre con su nombre regentaba un motel tranquilo junto a una 
 y algunos de sus huéspedes nunca se marcharon.
 Acércate a su mostrador y deja que vea lo que ese nombre te provoca.
 ? El Sepulcro, en Bosque de Argénteos. Busca al tabernero y estremécete.
-= Tabernero Bates, en El Sepulcro: "Descansa un rato.".
+= Tabernero Bates, en El Sepulcro: "Descansa un rato".
 + El tabernero de Entrañas se llama Norman. Juntos forman un solo nombre.
 ! Tranquilo
 

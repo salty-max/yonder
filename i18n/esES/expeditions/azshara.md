@@ -22,7 +22,7 @@ Dentro de su cerco, el lago permanece tranquilo. Atraviésalo y descansa junto a
 ! Peligroso (los dragonantes azules que rodean el lago, niveles 50 a 53)
 
 ## azshara-eldara
-Más allá de la bahía de las tormentas, en el extremo mismo de la tierra,
+Más allá de la Bahía de la Tempestad, en el extremo mismo de la tierra,
 los elfos del antiguo imperio dejaron una torre y la cerraron tras de sí.
 Nadie la ha abierto desde entonces.
 Encuentra su puerta. Nadie sabe qué guarda.

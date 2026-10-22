@@ -17,7 +17,7 @@ Pide monedas, se ofrece a sacarte brillo a la armadura, jura de vez en cuando qu
 y promete, con toda sinceridad, devolvértelo un día concreto de la semana.
 Encuéntralo y escúchalo hasta el final.
 ? El Distrito de Mercaderes de Ventormenta. Busca al mendigo entre los comerciantes y acércate lo bastante para seleccionarlo.
-= Topper McNabb, el mendigo de Ventormenta: "Te prometo que el martes te pago lo que me des hoy para una hamburguesa.".
+= Topper McNabb, el mendigo de Ventormenta: "Te prometo que el martes te pago lo que me des hoy para una hamburguesa".
 + Su ceguera no dura: "¿Te sobra algo de morralla para un pobre ciego?... ¿Qué quieres decir con que no soy ciego?... ¡YA NO SOY CIEGO! ¡¡PUEDO VER!! ¡Es un milagro!".
 ! Tranquilo
 

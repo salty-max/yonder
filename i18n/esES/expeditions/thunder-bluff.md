@@ -8,7 +8,7 @@ Solo ha oído decir que Cairne vive aquí. Piensa ir a verlo con sus propios ojo
 cuando el trabajo sea digno de regalarse, y quizá escuchar una palabra sabia.
 Es un paseo corto por la meseta. Pregúntale cómo va el trabajo.
 ? La meseta central de Cima del Trueno, entre los peleteros de su lado oeste. Habla con el oficial.
-= Mak, Oficial peletero: "Dicen que el mismísimo Cairne vive aquí. Cuando haya terminado de fabricar un regalo digno de él, iré a buscarle. Quizás tenga alguna palabra sabia que decirme.".
+= Mak, Oficial peletero: "Dicen que el mismísimo Cairne vive aquí. Cuando haya terminado de fabricar un regalo digno de él, iré a buscarle. Quizás tenga alguna palabra sabia que decirme".
 + La cabaña de Cairne Pezuña de Sangre está al otro extremo de la misma meseta. Mak aún no la ha cruzado.
 ! Tranquilo
 

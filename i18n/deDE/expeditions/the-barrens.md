@@ -59,7 +59,7 @@ Frag ihn, wozu die Höhlen gut sind.
 ? Die Blühende Oase, am großen Schädel der Höhlen des Wehklagens. Sprich in der Augenhöhle, in der die Aufträge für die Höhlen vergeben werden, stattdessen mit dem Lederverarbeiter.
 = Waldor, Lederverarbeiter in der Augenhöhle des Schädels: 'Die Höhlen unter uns sind eine Quelle merkwürdiger und wundersamer Bälge, aber Ihr müsst Euch in Acht nehmen, wenn Ihr in ihre Tiefen vordringt. Denkt daran, dass Eure eigene Haut viel wertvoller ist.'
 + Wer ihn in seinem Handwerk überholt hat, den schickt er zu Krulmoo Fullmoon nach Camp Taurajo.
-! Bewacht (elitäre Deviatkrabbler und Deviatwinder, Stufe 15 und 16, am Eingang der Höhlen)
+! Bewacht (Deviatkrabbler und Deviatwinder, Elite, Stufe 15 und 16, am Eingang der Höhlen)
 
 ## the-barrens-trok
 Auf einem Hof nördlich der Wegkreuzung rennt ein kleiner Orc ohne Pause,

@@ -83,7 +83,7 @@ Peu le trouvent. Honorez-le comme un guerrier en honore un autre.
 @ Autel du Guerrier mort
 
 ## the-barrens-klannoc
-Au large du rivage est des plaines s'étend une île où les prétendants viennent se battre,
+Au large du rivage est des plaines s'étend une île où les duellistes viennent se mesurer,
 et un épéiste s'y tient, avec un titre qui ne dit que l'endroit où il vit.
 On dit qu'il ne peut en rester qu'un comme lui.
 Trouvez-le, et écoutez ce qu'il veut.

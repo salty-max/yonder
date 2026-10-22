@@ -8,7 +8,7 @@ la criatura que maldijo por primera vez a los orcos con sed de sangre,
 vencida por el acto de un orco valiente. Encuéntralas.
 ? En el Valle de la Fuerza, en el centro de Orgrimmar. Lee la inscripción junto a la armadura expuesta.
 = La armadura de  Mannoroth.
-+ "Que estas placas nos recuerden siempre lo lejos que llegamos y lo mucho que luchamos para recuperar nuestro honor.". Thrall. El monumento a Grom está en Vallefresno, donde murió.
++ "Que estas placas nos recuerden siempre lo lejos que llegamos y lo mucho que luchamos para recuperar nuestro honor". Thrall. El monumento a Grom está en Vallefresno, donde murió.
 ! Tranquilo
 
 ## orgrimmar-snarl
@@ -17,8 +17,8 @@ y uno de los herreros ante su puerta golpea el yunque por algo más que acero.
 El maestro tiene hijas. El herrero tiene planes.
 Pregúntale para qué trabaja.
 ? El Valle del Honor, en la gran forja. Habla con el experto herrero que trabaja fuera, ante la forja del maestro.
-= Gruños, Experto herrero: "Si le muestro a Saru de lo que soy capaz no tendrá otra opción que dejarme luchar por una de sus hijas. Entonces veremos quién ríe.".
-+ Saru Furiacerada lo llama "una serpiente de mi guarida". Y Gruños aleja a los visitantes de Sumi y Tumi, que venden junto a Saru: "Están... comprometidas.".
+= Gruños, Experto herrero: "Si le muestro a Saru de lo que soy capaz no tendrá otra opción que dejarme luchar por una de sus hijas. Entonces veremos quién ríe".
++ Saru Furiacerada lo llama "una serpiente de mi guarida". Y Gruños aleja a los visitantes de Sumi y Tumi, que venden junto a Saru: "Están... comprometidas".
 ! Tranquilo
 
 ## orgrimmar-orphanage
