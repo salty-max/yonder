@@ -31,6 +31,15 @@ riddles:
     hint_area: { x: 73.0, y: 34.0, r: 4 }
     danger: "Quiet"
     sources: "object 175760's text"
+  - id: arathi-highlands-lol
+    tier: off
+    gestures: [LAUGH, ROFL, CHUCKLE, GIGGLE, GUFFAW]
+    name: The laughing hillside
+    landmark: arathi-hammerfall-lol   # the owner's point on the client's map, at the foot of the carved slope
+    radius: 40
+    hint_area: { x: 76.8, y: 42.6, r: 2 }
+    danger: "Guarded (Drywhisker kobolds, levels 35 to 36)"
+    sources: "the owner's point in classicwowmapexplorer (tile 38_34, world -1172, -3646, 59), wow-data landmark arathi-hammerfall-lol; the client's heightmap (a slope rising east, facing the grass south-east of Hammerfall, the same on Forever); the WoWWiki archive's Easter eggs page (just south-east of Hammerfall, at the right angle, LOL carved into the mountain-side, screenshot LOL in Highlands mountain side.jpg, 2010); the dump's spawns near it (Drywhisker kobolds, levels 35 to 36, none of Hammerfall's guards within 100 yards)"
 quarry:
   id: 2600   # Singer
   sources: "the WoWWiki archive's Singer page (the Syndicate's mask, Dominate Mind); the dump's spawn and faction (not the Syndicate's)"
@@ -60,6 +69,15 @@ The story is kept on a page.
 ? Hammerfall. Open the book about the elves' new name.
 = Rise of the Blood Elves, in Hammerfall: Kael'thas's high elves, renamed blood elves, cast out by the Alliance and gone to Outland with Illidan.
 + Cut off from the Sunwell, they hungered for magic. Looking for a cure is what led Kael'thas to Illidan and his naga.
+
+## arathi-highlands-lol
+South of the Horde's hold in the highlands, the grass gives way to the first rocky hills.
+Into one of them, someone has cut three letters, big enough to read from the grass below,
+and the hillside has had the same thing to say to every passer-by ever since.
+Find the angle that shows them, and give the hill the answer it is fishing for.
+? South-east of Hammerfall, at the foot of the first rocky hills. From the grass, face the slope to the east until the three letters show, and laugh along.
+= The laughing hillside, south-east of Hammerfall: LOL, cut into the slope for whoever stands at the right angle.
++ From any other angle the letters fall back into plain grass and rock, and the hill has nothing to say.
 
 ## quarry
 On the farm at Northfold, among the Syndicate's cutthroats,

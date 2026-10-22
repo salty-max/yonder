@@ -1,5 +1,5 @@
 ---
-source: ca97d4a894bc
+source: c32ea7b284b5
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -32,6 +32,17 @@ Die Geschichte wird auf einer Seite bewahrt.
 = Aufstieg der Blutelfen, in Hammerfall: Kael'thas' Hochelfen, umbenannt in Blutelfen, von der Allianz verstoßen und mit Illidan in die Scherbenwelt gezogen.
 + Vom Sonnenbrunnen abgeschnitten, hungerten sie nach Magie. Die Suche nach einem Heilmittel führte Kael'thas zu Illidan und seinen Naga.
 ! Ruhig
+
+## arathi-highlands-lol
+Südlich der Feste der Horde im Hochland weicht das Gras den ersten felsigen Hügeln.
+In einen davon hat jemand drei Buchstaben geschnitten, groß genug, um sie unten vom Gras aus zu lesen,
+und seitdem hat der Hang jedem, der vorbeikommt, dasselbe zu sagen.
+Finde den Winkel, der sie zeigt, und gib dem Hügel die Antwort, auf die er aus ist.
+? Südöstlich von Hammerfall, am Fuß der ersten felsigen Hügel. Dreh dich vom Gras aus zum Hang im Osten, bis die drei Buchstaben erscheinen, und lach mit.
+= Der lachende Hang, südöstlich von Hammerfall: LOL, in den Hang geschnitten für alle, die im richtigen Winkel stehen.
++ Aus jedem anderen Winkel zerfallen die Buchstaben wieder in Gras und Fels, und der Hügel hat nichts mehr zu sagen.
+! Bewacht (Kobolde der Trockenstoppel, Stufe 35 bis 36)
+@ Der lachende Hang
 
 ## quarry
 Auf dem Hof von Northfold, zwischen den Halsabschneidern des Syndikats,

@@ -195,12 +195,14 @@ Path, across the road from the Alliance camp, shows the grin in its sawn
 end (two knots, the rings mirrored into a smile, on Forever's remastered
 texture too). HELP, painted on a mountain's summit (Stonetalon's highest,
 by the 2007 account of the player who found it with Far Sight), is seen
-from no ground a reader can stand on, so no riddle sends one there. LOL,
-dabbed rock strokes on a slope about 340 yards east-north-east of
-Hammerfall (81.8, 29.0), facing the ground south-east of the town, waits
-for the user's eyes: the terrain shows the strokes, not whether they read.
-**148 riddles** on Classic Era, **152** on Forever (104 for a Horde
-reader, 112 for an Alliance one), and the 39 quarries.
+from no ground a reader can stand on, so no riddle sends one there. LOL:
+the user found it in classicwowmapexplorer (a viewer of the client's map
+tiles), at Arathi 77.2, 43.3, a west-facing slope south-east of Hammerfall
+(the strokes at 81.8, 29.0 the terrain showed first were another slope).
+A laugh at its foot solves it, open to both sides (no guard within 100
+yards, Drywhisker kobolds around). **149 riddles** on Classic Era, **153**
+on Forever (105 for a Horde reader, 113 for an Alliance one), and the 39
+quarries.
 
 ### How many
 

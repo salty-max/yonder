@@ -1,5 +1,5 @@
 ---
-source: ca97d4a894bc
+source: c32ea7b284b5
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -31,6 +31,17 @@ Su historia se guarda en una página.
 = El levantamiento de los elfos de sangre, en Sentencia: los altos elfos de Kael'thas, rebautizados elfos de sangre, expulsados por la Alianza y marchados a Terrallende con Illidan.
 + Aislados de la Fuente del Sol, sufrían hambre de magia. La búsqueda de una cura llevó a Kael'thas hasta Illidan y sus naga.
 ! Tranquilo
+
+## arathi-highlands-lol
+Al sur del bastión de la Horda en las tierras altas, la hierba deja paso a las primeras colinas rocosas.
+En una de ellas, alguien ha tallado tres letras, lo bastante grandes para leerlas desde la hierba,
+y desde entonces la ladera le dice lo mismo a todo el que pasa.
+Encuentra el ángulo que las muestra y dale a la colina la respuesta que anda buscando.
+? Al sureste de Sentencia, al pie de las primeras colinas rocosas. Desde la hierba, ponte de cara a la ladera del este hasta que aparezcan las tres letras, y ríete con ella.
+= La ladera risueña, al sureste de Sentencia: LOL, tallado en la pendiente para quien se coloque en el ángulo justo.
++ Desde cualquier otro ángulo, las letras se deshacen en hierba y roca, y la colina no tiene nada que decir.
+! Vigilado (kóbolds Mostacho Seco, niveles 35 a 36)
+@ La ladera risueña
 
 ## quarry
 En la granja de Redilnorte, entre los degolladores del Sindicato,
