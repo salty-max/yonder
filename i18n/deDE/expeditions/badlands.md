@@ -1,5 +1,5 @@
 ---
-source: bb89f9e410f3
+source: 4904a1f522db
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -23,6 +23,17 @@ Es hat einen Namen auf den Karten, und mehr nicht. Betrachte, was zwischen seine
 + Der schwarze Drachenschwarm hält noch immer eine eigene Klamm, am fernen Ostrand der Öde.
 ! Bewacht (Riesenbussarde, Kojoten und Kammpirscher, Stufe 39 und 40)
 @ Apocryphans Ruheplatz
+
+## badlands-funeral-ground
+Südlich der Feste der Horde im roten Ödland bewahrt ein Felsvorsprung über der Straße die Toten der Horde:
+Tauren, für den Scheiterhaufen in Tücher gehüllt, Trolle unter ihren Masken, Orkklingen neben ihnen.
+Die meisten, die hierherkommen, kommen als Geister, auf der Suche nach dem Weg zurück.
+Komm, solange du noch atmest, und erweise ihnen die letzte Ehre.
+? Der Felsvorsprung südlich von Kargath, beim Geistheiler. Traure zwischen den Scheiterhaufen.
+= Die Totenstätte über der Straße: drei Scheiterhaufen auf einem Felsvorsprung südlich von Kargath, tote Tauren und Trolle, für die Verbrennung in Tücher gehüllt, ihre Waffen und Opfergaben neben ihnen.
++ Der Geistheiler an ihrem Rand erweckt die, die im Ödland fallen. Die auf den Scheiterhaufen liegen jenseits seiner Macht.
+! Ruhig
+@ Die Totenstätte über der Straße
 
 ## quarry
 Im Norden der Öde liegt ein Puma mit einem abgebrochenen Fangzahn

@@ -1,5 +1,5 @@
 ---
-source: f9fb8a795fb3
+source: 52efc25f675b
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -31,6 +31,16 @@ Tritt an seinen Tresen, und lass ihn sehen, was der Name mit dir macht.
 = Gastwirt Bates, im Grabmal: 'Ruht Eure müden Knochen für einen Zauber aus.'
 + Der Gastwirt von Undercity heißt Norman. Zusammen ergeben sie einen einzigen Namen.
 ! Ruhig
+
+## silverpine-forest-fenris-isle
+Mitten im großen See steht auf einer Insel eine verfallene Burg, und die Insel ist nicht allein:
+Mit ihren kleineren Schwestern bildet sie einen gebrochenen Ring auf dem Wasser.
+Lange vor der Burg, bevor der See seinen Namen hatte, war dieser Ring etwas anderes.
+Betritt ihn und finde heraus, was.
+? Die Insel Fenris, im Lordameresee, östlich des Silberwalds. Blicke über den Ring, den die Inseln bilden.
+= Die Insel Fenris und die Morgeninseln: ein gebrochener Ring aus Land im Lordameresee, der Rand eines uralten Vulkans, im Lauf der Zeitalter abgetragen.
++ Den Rest des Rings bilden die Morgeninseln, eine Handvoll Eilande östlich der Insel Fenris.
+! Bewacht (Gnolle der Moderfelle und Murlocs der Finsterflossen, Stufe 17 bis 24, und Thule Rabenklaue in der Burg)
 
 ## quarry
 Auf der Insel im See halten die Toten der Moderfelle eine alte Burg.

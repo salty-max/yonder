@@ -1,5 +1,5 @@
 ---
-source: 22d368ca11c4
+source: 830bbbd50cc4
 zone: 1425
 ---
 ## the-hinterlands-plaguemist
@@ -31,6 +31,16 @@ Zeig ihnen, wofür ihre Trommeln da sind.
 ? Revantusk, zwischen seinen Hütten. Tanze zum Takt eines Trommlers.
 = Die Trommler der Revantusk, drei an der Zahl, die den Takt des Dorfes halten.
 + Das Dorf behält die Vilebranch von Jintha'Alor den Hügel hinauf im Auge. Die Trommeln sind das einzige Geräusch, das es mit Absicht macht.
+! Ruhig
+
+## the-hinterlands-gorkas
+Im Dorf der Trolle auf den östlichen Klippen ist der Windreitermeister der Horde aus Orgrimmar gekommen, um die Flüge am Laufen zu halten.
+Er tut es vom Ende des Stegs aus, mit einer Angelschnur im Wasser.
+Was du auch willst, die Fische gehen vor.
+Stör ihn.
+? Revantusk, auf den östlichen Klippen des Hinterlands: der Windreitermeister, der am Ende des Stegs angelt. Sprich mit ihm.
+= Gorkas, Windreitermeister von Revantusk: 'Könnt Ihr nicht sehen, dass ich hier angle!'
++ Er will bleiben, bis er einen großen Fang macht: 'Ich werde so lange hier bleiben, bis ich einen 68-pfündigen Zackenbarsch gefangen habe! Ihr habt scheinbar etwas anderes im Sinn, stimmt's?'
 ! Ruhig
 
 ## quarry

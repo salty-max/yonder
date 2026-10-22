@@ -29,6 +29,15 @@ riddles:
     hint_area: { x: 43.0, y: 42.0, r: 2 }
     danger: "Quiet"
     sources: "the dump's spawn and his gossip; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Innkeeper Norman in the Undercity and Innkeeper Bates in the Sepulcher, Psycho's Norman Bates); Wowhead's point"
+  - id: silverpine-forest-fenris-isle
+    tier: off
+    gestures: [GAZE, LOOK, PONDER]
+    area: Fenris Isle   # the sub-area's name: the overlay it shares with the Dawning Isles centres on 71.9, 28.8
+    hint_area: { x: 69.0, y: 27.0, r: 6 }
+    danger: "Guarded (Rot Hide gnolls and Vile Fin murlocs, levels 17 to 24, and Thule Ravenclaw in the keep)"
+    quest_overlap: [460, 461, 491, 442, 443, 368, 451, 91860, 91862]
+    quest_context: "Fenris Isle is the ground of the Forsaken's quests against the Rot Hide gnolls, Thule Ravenclaw and the Vile Fin murlocs, and of The Hidden Niche's grave and shelf. On Forever, two new quests send travellers there after an Earthen Ring party and Lumina Windsinger. Yonder asks only that the reader look out from the island and see what the ring of islands once was."
+    sources: "the WoWWiki archive's Fenris Isle page (with the Dawning Isles, a broken circle of dry land in Lordamere Lake, once the rim of an ancient volcano long since eroded); the client's map files (Fenris Isle's chunks at 62 to 72, 18 to 36, the Dawning Isles' at 75 to 82, 15 to 35); the dump's spawns (the Rot Hide gnolls, Thule Ravenclaw in the keep)"
 quarry:
   id: 1948   # Snarlmane
   sources: "the WoWWiki archive's Snarlmane page; Warcraft III: The Frozen Throne, 'The Dark Lady' (Snarlmane possessed); the dump's spawn"
@@ -59,6 +68,15 @@ Call at his counter, and let him see what the name does to you.
 ? The Sepulcher, in Silverpine. Find the innkeeper and shiver.
 = Innkeeper Bates, of the Sepulcher: 'Rest your weary bones for a spell.'
 + The Undercity's innkeeper is called Norman. Together, they make one name.
+
+## silverpine-forest-fenris-isle
+In the middle of the great lake, a ruined keep stands on an island, and the island is not alone:
+with its smaller sisters it makes a broken ring on the water.
+Long before the keep, before the lake had its name, that ring was something else.
+Set foot on it and find out what.
+? Fenris Isle, in Lordamere Lake, east of Silverpine. Gaze out over the ring the islands make.
+= Fenris Isle and the Dawning Isles: a broken ring of land on Lordamere Lake, the rim of an ancient volcano worn down by the ages.
++ The rest of the ring is the Dawning Isles, a scatter of islets to Fenris Isle's east.
 
 ## quarry
 On the isle in the lake, the Rot Hide dead hold an old keep.

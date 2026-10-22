@@ -49,6 +49,22 @@ riddles:
     hint_area: { x: 32.0, y: 28.0, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawn and his words"
+  - id: stranglethorn-vale-grizzlowe
+    tier: near
+    creature: 9559   # Grizzlowe, Shipmaster, dump 26.1, 73.3, at the berth of the ship to Ratchet; Wowhead 26.0, 73.2
+    found: target   # in the town: only by speaking to him
+    hint_area: { x: 26.5, y: 73.0, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his gossip (the clam chowder, the Maiden's Fancy); the WoWWiki archive's Grizzlowe page (Booty Bay's shipmaster for the boat to Ratchet); Wowhead's point"
+  - id: stranglethorn-vale-blunderflame
+    tier: hidden
+    creature: 2687   # Gnaz Blunderflame, Engineering Supplies, dump 51.0, 35.2, on a hill above the Mosh'Ogg Ogre Mound; Knaz (8679) beside him; Wowhead's points alike
+    found: target   # off every road: only by finding him
+    hint_area: { x: 50.5, y: 36.0, r: 2 }
+    danger: "Guarded (the Mosh'Ogg ogres below the hill)"
+    quest_overlap: [97420]
+    quest_context: "On Forever, Knaz, beside him, gives a new quest for crude oil from the Venture Co. for his racer. Yonder asks only that the reader find the brothers' hill and speak to Gnaz, who asks for nothing."
+    sources: "the dump's spawns and wares (Gnaz alone sells the mechanical dragonling's schematic, Knaz alone the deadly scope's); the WoWWiki archive's Gnaz Blunderflame page (a hidden hill south of the Mosh'Ogg Ogre Mound, climbable at one point, the path leading north-east to the brothers); Wowhead's points"
 quarry:
   id: 14490   # Rippa
   sources: "the WoWWiki archive's Rippa page (a frenzy with a name); the dump's paths (round the southern tip, into Booty Bay's harbour) and loot (Raw Bristle Whisker Catfish, 39%)"
@@ -94,6 +110,23 @@ He would give a great deal for a decent meal from home. Ask him.
 ? Grom'gol Base Camp, at the top of the zeppelin tower. Speak to the goblin. He will talk without being fed.
 = Nez'raz, Zeppelin Master at Grom'gol: his brother talked him into the trade route, and left him the jungle end of it.
 + 'If you come back this way on the Zeppelin, could you bring me something to eat? ... I sure could use something that didn't die weeks before it stopped moving.'
+
+## stranglethorn-vale-grizzlowe
+In the goblins' port, a shipmaster waits at the berth for a ship that is not quite in yet.
+Ask him about the passage, and he will tell you about the soup first.
+Find out which soup.
+? Booty Bay, at the berth of the ship to Ratchet. Speak to the shipmaster.
+= Grizzlowe, Booty Bay's shipmaster: 'I must say, Booty Bay has the best Clam Chowder to be had anywhere in the South Seas.'
++ Then, for those not interested in cuisine: the berth of the Maiden's Fancy, 'the finest passenger ship to travel between the Eastern Kingdoms and Kalimdor.'
+
+## stranglethorn-vale-blunderflame
+In the hills where the Mosh'Ogg ogres keep their mound,
+two gnome brothers keep a shop on a hilltop nobody climbs.
+Flux, tubes and blasting powder, at a fair price,
+to whoever finds the one way up.
+? Stranglethorn, on a hidden hill just south of the Mosh'Ogg Ogre Mound. Find the way up, climbing north-east from below the ogres' camps, and speak to Gnaz.
+= Gnaz Blunderflame and his brother Knaz, gnome engineering suppliers, on their hill above the Mosh'Ogg Ogre Mound.
++ Each brother keeps one plan the other does not: Gnaz sells the mechanical dragonling's schematic, Knaz the deadly scope's.
 
 ## quarry
 In the warm shallows round the jungle's southern tip,

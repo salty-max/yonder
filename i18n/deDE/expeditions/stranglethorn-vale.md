@@ -1,5 +1,5 @@
 ---
-source: 4f312e2c3214
+source: b32aa46272cb
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -48,6 +48,25 @@ Er gäbe viel für eine anständige Mahlzeit von zu Hause. Frag ihn.
 = Nez'raz, Zeppelinmeister in Grom'gol: Sein Bruder hat ihn zu der Handelsroute überredet und ihm das Dschungelende überlassen.
 + 'Wenn Ihr mit dem Zeppelin wieder hier vorbeikommt, könntet Ihr mir da wohl etwas zu essen mitbringen? ... Ich könnte wirklich etwas vertragen, das nicht schon Wochen, bevor es sich zu bewegen aufhörte, gestorben ist.'
 ! Ruhig
+
+## stranglethorn-vale-grizzlowe
+Im Hafen der Goblins wartet ein Schiffsmeister an der Anlegestelle auf ein Schiff, das noch nicht ganz eingelaufen ist.
+Frag ihn nach der Überfahrt, und er erzählt dir zuerst von der Suppe.
+Finde heraus, welche Suppe.
+? Booty Bay, an der Anlegestelle des Schiffs nach Ratchet. Sprich mit dem Schiffsmeister.
+= Grizzlowe, Schiffsmeister von Booty Bay: 'Ich muss sagen, in Booty Bay gibt es die beste Muschelsuppe der ganzen südlichen Meere.'
++ Dann, für alle, die sich nicht für Küche interessieren: die Anlegestelle der LAUNISCHEN MINNA, 'des besten Passagierschiffs, das zwischen den östlichen Königreichen und Kalimdor verkehrt'.
+! Ruhig
+
+## stranglethorn-vale-blunderflame
+Dort, wo die Oger der Mosh'Ogg ihren Hügel halten,
+führen zwei Gnomenbrüder einen Laden auf einer Kuppe, die niemand erklimmt.
+Fluxus, Röhren und Sprengpulver zu einem fairen Preis
+für jeden, der den einzigen Weg hinauf findet.
+? Schlingendorntal, auf einer versteckten Kuppe gleich südlich des Ogerhügels der Mosh'Ogg. Der Weg nach oben beginnt unterhalb der Ogerlager und führt nach Nordosten hinauf. Sprich mit Gnaz.
+= Gnaz Blunderflame und sein Bruder Knaz, gnomische Händler für Ingenieursbedarf, auf ihrer Kuppe über dem Ogerhügel der Mosh'Ogg.
++ Jeder Bruder hat einen Bauplan, den der andere nicht hat: Gnaz verkauft den Bauplan: Mechanischer Drachling, und Knaz den Bauplan: Tödliches Zielfernrohr.
+! Bewacht (die Oger der Mosh'Ogg am Fuß der Kuppe)
 
 ## quarry
 In den warmen Untiefen um die Südspitze des Dschungels

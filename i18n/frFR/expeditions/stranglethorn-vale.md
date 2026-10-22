@@ -1,5 +1,5 @@
 ---
-source: 4f312e2c3214
+source: b32aa46272cb
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -48,6 +48,25 @@ Il donnerait cher pour un repas correct de chez lui. Demandez-lui.
 = Nez'raz, maître des zeppelins à Grom'gol : son frère l'a convaincu de prendre cette route commerciale, et lui en a laissé le bout dans la jungle.
 + "Si vous revenez par ici en zeppelin, pouvez-vous m'apporter quelque chose à manger ? ... Pour une fois, j'aimerais bien manger quelque chose qui a eu le bon sens d'arrêter de bouger au moment de sa mort, et pas quelques semaines après..."
 ! Calme
+
+## stranglethorn-vale-grizzlowe
+Dans le port des gobelins, un capitaine du port attend à quai un navire qui n'est pas tout à fait arrivé.
+Demandez-lui la traversée, et il vous parlera d'abord de la soupe.
+Découvrez laquelle.
+? Baie-du-Butin, à quai, près du navire pour Cabestan. Parlez au capitaine du port.
+= Grizzlowe, capitaine du port de Baie-du-Butin : "Je dois dire que Baie-du-Butin a la meilleure Soupe de palourdes qu'on ait jamais vue dans les Mers du sud."
++ Puis, pour ceux que la cuisine n'intéresse pas : le quai du Caprice de la vierge, "le meilleur transport de passagers entre les Royaumes de l'est et Kalimdor".
+! Calme
+
+## stranglethorn-vale-blunderflame
+Dans les collines où les ogres Mosh'Ogg ont leur tertre,
+deux frères gnomes tiennent boutique au sommet d'une colline où personne ne grimpe.
+Catalyseur, tubes et poudre explosive, à un prix honnête,
+pour qui trouve l'unique chemin qui monte.
+? Strangleronce, sur une colline cachée juste au sud du Tertre des ogres Mosh'Ogg. Trouvez le chemin qui monte vers le nord-est depuis le bas des camps des ogres, et parlez à Gnaz.
+= Gnaz Blunderflame et son frère Knaz, fournisseurs gnomes en ingénierie, sur leur colline au-dessus du Tertre des ogres Mosh'Ogg.
++ Chaque frère garde un schéma que l'autre n'a pas : Gnaz vend le Schéma : Petit dragon mécanique, Knaz le Schéma : Lunette mortelle.
+! Gardé (les ogres Mosh'Ogg au pied de la colline)
 
 ## quarry
 Dans les eaux chaudes et peu profondes autour de la pointe sud de la jungle,

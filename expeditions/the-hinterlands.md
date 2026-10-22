@@ -30,6 +30,14 @@ riddles:
     hint_area: { x: 79.0, y: 80.0, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawns"
+  - id: the-hinterlands-gorkas
+    tier: town
+    faction: horde   # Revantusk's: its watchers attack the Alliance
+    creature: 4314   # Gorkas, Wind Rider Master, dump 81.7, 81.8, on the Overlook Cliffs below Revantusk; Wowhead 81.6, 81.8
+    found: target   # in the village: only by speaking to him
+    hint_area: { x: 81.0, y: 81.0, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his gossip (four lines, fishing); the WoWWiki archive's Gorkas page (come from Orgrimmar to link the trolls' village to the Horde's flights, he spends most of his time fishing off the pier); Wowhead's point"
 quarry:
   id: 8215   # Grimungous
   sources: "https://www.wowhead.com/classic/npc=8215/grimungous (period accounts of War Stomp); the pinned dump's path and creature_ai_scripts (11876 War Stomp, 5568 Trample)"
@@ -59,6 +67,15 @@ Show them what their drums are for.
 ? Revantusk Village, among its huts. Dance to a drummer's beat.
 = The Revantusk Drummers, three of them, keeping the village's beat.
 + The village keeps its eye on the Vilebranch of Jintha'Alor, up the hill. The drums are the one sound it makes on purpose.
+
+## the-hinterlands-gorkas
+In the trolls' village on the eastern cliffs, the Horde's wind rider master came from Orgrimmar to keep the flights running.
+He keeps them running from the end of the pier, with a line in the water.
+Whatever you came for, the fish come first.
+Interrupt him.
+? Revantusk Village, on the Hinterlands' eastern cliffs: the wind rider master fishing off the pier. Speak to him.
+= Gorkas, Revantusk's wind rider master: 'Can't you see I'm fishing here!'
++ He means to stay until he lands a big one: 'I'm going to stay here until I catch a 68 Pound Grouper! You on the other hand want to fly off somewhere, am I right?'
 
 ## quarry
 Among the troll ruins in the east of the hills,

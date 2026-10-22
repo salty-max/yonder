@@ -222,6 +222,27 @@ Dadanga, Linken and the Mario brothers (quest givers), Jason Mathers
 Classic Era, **161** on Forever (111 for a Horde reader, 118 for an
 Alliance one), and the 39 quarries.
 
+**The zones under target (22 October 2026, the user's ask).** Against the
+rule of one riddle per four places on a zone's map, eighteen zones fell
+short by 27. The 21 October sweep had used every untied creature, book,
+prop and place that passed the gates, so this one tried two new sources:
+the client's own map files (every model and building placed in the
+eighteen zones, ranked by rarity and clustered into scenes) and the
+gossip tales wow-data gained on 21 October. Five held: Gorkas, Revantusk's
+wind rider master who would rather fish (the Hinterlands), Grizzlowe,
+Booty Bay's shipmaster with his chowder, and the Blunderflame brothers'
+hidden shop above the Mosh'Ogg mound (Stranglethorn, Knaz's new Forever
+quest a reviewed overlap), the Horde's funeral ground on the ledge south
+of Kargath (a client-map landmark, the Badlands), and Fenris Isle, with
+the Dawning Isles the broken rim of an ancient volcano (Silverpine, its
+quests a reviewed overlap). Dropped on a closer look: Squibby Overspeck
+(Grom'gol's tower already has Nez'raz's riddle), Palemane Rock and the
+Westfall farms (nothing there but what their quests do). The scenery
+scan's other finds were quest camps, buildings in towns, or a shipwreck
+255 yards under the sea. **162 riddles** on Classic Era, **166** on
+Forever (116 for a Horde reader, 122 for an Alliance one), and the 39
+quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

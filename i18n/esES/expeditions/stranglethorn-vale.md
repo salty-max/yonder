@@ -1,5 +1,5 @@
 ---
-source: 4f312e2c3214
+source: b32aa46272cb
 zone: 1434
 ---
 ## stranglethorn-vale-booty-bay
@@ -48,6 +48,25 @@ Daría mucho por una comida decente de casa. Pregúntale.
 = Nez'raz, maestro de zepelines de Campamento Grom'gol. Su hermano lo convenció para entrar en la ruta comercial y le dejó el extremo de la jungla.
 + "Si vuelves por aquí en zepelín, ¿podrías traerme algo de comer? ... Me vendría bien algo que no hubiera muerto semanas antes de dejar de moverse".
 ! Tranquilo
+
+## stranglethorn-vale-grizzlowe
+En el puerto de los goblins, un maestro de barcos espera en el atracadero un barco que nunca acaba de llegar.
+Pregúntale por la travesía y primero te hablará de la sopa.
+Averigua de qué sopa.
+? Bahía del Botín, en el atracadero del barco a Trinquete. Habla con el maestro de barcos.
+= Grisloue, maestro de barcos de Bahía del Botín: "Tengo que decir que la Bahía del Botín tiene la mejor sopa de almejas que se pueda probar en los Mares del Sur.".
++ Después, para quien no se interese por la cocina: el atracadero de la Fantasía de la doncella, "el mejor barco de pasajeros que hay para navegar entre los Reinos del Este y Kalimdor".
+! Tranquilo
+
+## stranglethorn-vale-blunderflame
+En las colinas donde los ogros Mosh'Ogg tienen su túmulo,
+dos hermanos gnomos llevan una tienda en lo alto de una colina a la que nadie sube.
+Flujo, tubos y pólvora, a un precio justo,
+para quien encuentre el único camino de subida.
+? Vega de Tuercespina, en una colina escondida justo al sur del Túmulo Ogro Mosh'Ogg. Encuentra el camino que sube hacia el noreste desde debajo de los campamentos de los ogros y habla con Gnaz.
+= Gnaz Flamerrada y su hermano Knaz, proveedores de ingeniería gnomos, en su colina sobre el Túmulo Ogro Mosh'Ogg.
++ Cada hermano guarda un esquema que el otro no tiene: Gnaz vende el Esquema: dragonizo mecánico, Knaz el Esquema: mira mortal.
+! Vigilado (los ogros Mosh'Ogg al pie de la colina)
 
 ## quarry
 En los bajos cálidos de la punta sur de la jungla,

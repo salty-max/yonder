@@ -1,5 +1,5 @@
 ---
-source: f9fb8a795fb3
+source: 52efc25f675b
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -31,6 +31,16 @@ Passez à son comptoir, et laissez-le voir l'effet que ce nom vous fait.
 = Aubergiste Bates, au Sépulcre : "Reposez un moment votre carcasse épuisée."
 + L'aubergiste de Fossoyeuse s'appelle Norman. À eux deux, ils forment un seul nom.
 ! Calme
+
+## silverpine-forest-fenris-isle
+Au milieu du grand lac, un donjon en ruine se dresse sur une île, et l'île n'est pas seule :
+avec ses petites sœurs, elle forme un anneau brisé sur l'eau.
+Bien avant le donjon, avant que le lac ait un nom, cet anneau était autre chose.
+Posez le pied dessus et découvrez quoi.
+? L'Ile de Fenris, sur le lac Lordamere, à l'est des Pins argentés. Contemplez l'anneau que forment les îles.
+= L'Ile de Fenris et les îles de l'aube : un anneau brisé de terre sur le lac Lordamere, le bord d'un ancien volcan usé par les âges.
++ Le reste de l'anneau, ce sont les îles de l'aube, un semis d'îlots à l'est de l'Ile de Fenris.
+! Gardé (gnolls Poil-Putride et murlocs Aileron noir, niveaux 17 à 24, et Thule Ravenclaw dans le donjon)
 
 ## quarry
 Sur l'île du lac, les morts Poil-Putride tiennent un vieux donjon.

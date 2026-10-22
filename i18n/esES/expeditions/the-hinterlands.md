@@ -1,5 +1,5 @@
 ---
-source: 22d368ca11c4
+source: 830bbbd50cc4
 zone: 1425
 ---
 ## the-hinterlands-plaguemist
@@ -29,6 +29,16 @@ Muéstrales para qué sirven sus tambores.
 ? Poblado Sañadiente, entre sus cabañas. Baila al ritmo de un tamborilero.
 = Los Tamborillero Sañadiente, tres, que mantienen el ritmo del pueblo.
 + El pueblo vigila a los Vilrama de Jintha'Alor, colina arriba. Los tambores son el único sonido que hace a propósito.
+! Tranquilo
+
+## the-hinterlands-gorkas
+En el poblado de los trols, sobre los acantilados del este, el maestro de jinete del viento de la Horda vino desde Orgrimmar para mantener los vuelos en marcha.
+Los mantiene en marcha desde el extremo del muelle, con un sedal en el agua.
+Vengas a lo que vengas, los peces van primero.
+Interrúmpelo.
+? Poblado Sañadiente, en los acantilados del este de Tierras del Interior: el maestro de jinete del viento que pesca al final del muelle. Habla con él.
+= Gorkas, maestro de jinete del viento de Sañadiente: "¿No ves que estoy pescando aquí?"
++ Piensa quedarse hasta pescar uno grande: "¡No me muevo de aquí hasta que pesque un mero de 130 kilos! Pero creo que tú quieres largarte a otra parte, ¿tengo razón?"
 ! Tranquilo
 
 ## quarry

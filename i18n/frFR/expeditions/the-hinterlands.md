@@ -1,5 +1,5 @@
 ---
-source: 22d368ca11c4
+source: 830bbbd50cc4
 zone: 1425
 ---
 ## the-hinterlands-plaguemist
@@ -31,6 +31,16 @@ Montrez-leur à quoi servent leurs tambours.
 ? Le village des Revantusk, parmi ses huttes. Dansez au rythme d'un tambour.
 = Les tambours Revantusk, au nombre de trois, qui battent la mesure du village.
 + Le village garde un oeil sur les Vilebranch de Jintha'Alor, en haut de la colline. Les tambours sont le seul bruit qu'il fait exprès.
+! Calme
+
+## the-hinterlands-gorkas
+Dans le village des trolls, sur les falaises de l'est, le maître des Cavaliers célestes de la Horde est venu d'Orgrimmar pour faire tourner les vols.
+Il les fait tourner depuis le bout de la jetée, une ligne à l'eau.
+Quoi que vous veniez chercher, les poissons passent d'abord.
+Dérangez-le.
+? Le Village des Revantusk, sur les falaises est des Hinterlands : le maître des Cavaliers célestes qui pêche au bout de la jetée. Parlez-lui.
+= Gorkas, maître des Cavaliers célestes de Revantusk : "Vous ne voyez pas que je pêche ici ?"
++ Il compte rester jusqu'à en prendre un gros : "Je resterai ici jusqu'à ce que je prenne un mérou de 31 kilos ! Mais vous, vous voulez sûrement voler quelque part, n'est-ce pas ?"
 ! Calme
 
 ## quarry

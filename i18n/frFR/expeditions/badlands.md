@@ -1,5 +1,5 @@
 ---
-source: bb89f9e410f3
+source: 4904a1f522db
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -23,6 +23,17 @@ Il a un nom sur les cartes, et rien de plus. Contemplez ce qu'il en reste parmi 
 + Le vol draconique noir garde toujours un ravin à lui, à l'extrême est de l'étendue.
 ! Gardé (busards géants, coyotes et traqueurs des crêtes, niveaux 39 et 40)
 @ Repos d'Apocryphan
+
+## badlands-funeral-ground
+Au sud du bastion de la Horde dans les terres rouges, une corniche au-dessus de la route garde les morts de la Horde :
+des taurens enveloppés pour le bûcher, des trolls sous leurs masques, des lames orques posées à leurs côtés.
+La plupart de ceux qui viennent ici arrivent sous forme d'esprits, cherchant le chemin du retour.
+Venez tant que vous respirez encore, et rendez-leur hommage.
+? La corniche au sud de Kargath, près du Gardien des âmes. Recueillez-vous parmi les bûchers.
+= Le champ funéraire au-dessus de la route : trois bûchers sur une corniche au sud de Kargath, des morts taurens et trolls enveloppés pour être brûlés, leurs armes et leurs offrandes déposées auprès d'eux.
++ Le Gardien des âmes, à la lisière du champ, relève ceux qui tombent dans les Terres ingrates. Ceux qui reposent sur les bûchers ne se relèveront plus.
+! Calme
+@ Le champ funéraire au-dessus de la route
 
 ## quarry
 Au nord de l'étendue, un couguar au croc brisé

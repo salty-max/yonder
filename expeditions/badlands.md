@@ -21,6 +21,15 @@ riddles:
     hint_area: { x: 16.0, y: 60.0, r: 8 }
     danger: "Guarded (giant buzzards, coyotes and ridge stalkers, levels 39 and 40)"
     sources: "the WoWWiki archive's Apocryphan's Rest and Badlands pages; the dump's spawns"
+  - id: badlands-funeral-ground
+    tier: hidden
+    gestures: [MOURN, PRAY, KNEEL]
+    name: The funeral ground above the road
+    landmark: badlands-funeral-ground   # the client's own placement of the middle pyre, read from its map files
+    radius: 20
+    hint_area: { x: 8.5, y: 54.5, r: 1.5 }
+    danger: "Quiet"
+    sources: "the pinned client's map files: funeralpyre01.m2 (file 202295), unique id 355310, in azeroth_36_44_obj0.adt, among tauren and troll mummies, tiki masks, tauren kites and orc weapons, placed the same on Forever (wow-data landmark badlands-funeral-ground, source client-map); the dump's spawns near it (the Spirit Healer 13 yards off, a Ridge Stalker Patriarch at 45)"
 quarry:
   id: 2850   # Broken Tooth
   sources: "the WoWWiki archive's Broken Tooth page (asleep in the sun; the quickest claws); the dump's spawns; https://www.wow-petopia.com/classic/attackspeed.php (Classic's fastest cat)"
@@ -42,6 +51,15 @@ It has a name on the maps, and nothing more. Take in what remains among its bone
 ? South of Kargath, on the Badlands' western side. Among the bones, look at how big they are.
 = Apocryphan's Rest: the skeleton of a dragon, south of Kargath. Whose bones they were, nobody in the Badlands says.
 + The black dragonflight still keeps a ravine of its own, at the waste's far eastern edge.
+
+## badlands-funeral-ground
+South of the Horde's hold in the red waste, a ledge above the road keeps the Horde's dead:
+tauren wrapped for the pyre, trolls under their masks, orc blades laid beside them.
+Most who come here arrive as spirits, looking for the way back.
+Come while you are breathing, and pay your respects.
+? The ledge south of Kargath, by the Spirit Healer. Mourn among the pyres.
+= The funeral ground above the road: three pyres on a ledge south of Kargath, tauren and troll dead wrapped for burning, their weapons and offerings beside them.
++ The Spirit Healer at its edge raises those who fall in the Badlands. Those on the pyres are past raising.
 
 ## quarry
 In the north of the waste, a cougar with a broken fang

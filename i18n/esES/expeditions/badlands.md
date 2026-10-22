@@ -1,5 +1,5 @@
 ---
-source: bb89f9e410f3
+source: 4904a1f522db
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -22,6 +22,17 @@ Tiene un nombre en los mapas y nada más. Contempla lo que queda entre sus hueso
 = Descanso de Apócrifo: el esqueleto de un dragón al sur de Kargath. Nadie en Tierras Inhóspitas dice de quién eran los huesos.
 + El Vuelo Negro aún guarda su propio barranco en el extremo oriental del yermo.
 ! Vigilado (buitres gigantes, coyotes y acechadores de los riscos, niveles 39 y 40)
+
+## badlands-funeral-ground
+Al sur del bastión de la Horda en las tierras rojas, una cornisa sobre el camino guarda a los muertos de la Horda:
+tauren envueltos para la pira, trols bajo sus máscaras, hojas orcas dejadas a su lado.
+La mayoría de los que llegan aquí lo hacen como espíritus, buscando el camino de vuelta.
+Ven mientras aún respiras y preséntales tus respetos.
+? La cornisa al sur de Kargath, junto al Ángel de la Resurrección. Llora entre las piras.
+= El campo funerario sobre el camino: tres piras en una cornisa al sur de Kargath, muertos tauren y trols envueltos para arder, sus armas y ofrendas a su lado.
++ El Ángel de la Resurrección, en su borde, devuelve a la vida a quienes caen en las Tierras Inhóspitas. Los de las piras ya no volverán.
+! Tranquilo
+@ El campo funerario sobre el camino
 
 ## quarry
 En el norte del yermo, un puma con un colmillo roto

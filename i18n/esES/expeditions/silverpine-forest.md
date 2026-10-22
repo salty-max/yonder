@@ -1,5 +1,5 @@
 ---
-source: f9fb8a795fb3
+source: 52efc25f675b
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -31,6 +31,16 @@ Acércate a su mostrador y deja que vea lo que ese nombre te provoca.
 = Tabernero Bates, en El Sepulcro: "Descansa un rato.".
 + El tabernero de Entrañas se llama Norman. Juntos forman un solo nombre.
 ! Tranquilo
+
+## silverpine-forest-fenris-isle
+En medio del gran lago, un castillo en ruinas se alza sobre una isla, y la isla no está sola:
+con sus hermanas menores forma un anillo roto sobre el agua.
+Mucho antes del castillo, antes de que el lago tuviera nombre, ese anillo era otra cosa.
+Pon el pie en él y averigua qué.
+? Isla de Fenris, en el Lago Lordamere, al este de Bosque de Argénteos. Contempla el anillo que forman las islas.
+= La Isla de Fenris y las Islas del Alba: un anillo roto de tierra en el Lago Lordamere, el borde de un antiguo volcán desgastado por las eras.
++ El resto del anillo son las Islas del Alba, un puñado de islotes al este de la Isla de Fenris.
+! Vigilado (gnolls Putrepellejo y múrlocs Anca Vil, niveles 17 a 24, y Thule Corvozarpa en el castillo)
 
 ## quarry
 En la isla del lago, los muertos Putrepellejo ocupan una antigua fortaleza.
