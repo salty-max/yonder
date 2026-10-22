@@ -33,7 +33,13 @@ checks its Classic world spawn against Questie's independent zone coordinates.
 The same agreement tolerance applies. It never uses player observer sightings.
 
 The world positions go on the zone's map by the client's UiMapAssignment
-(Classic Era's, wow-data's database: ../wow-data). The hint circle (hint_area,
+(Classic Era's, wow-data's database: ../wow-data). Where Forever's map of a
+shared zone differs (a retail map's bounds: Stormwind, Mulgore, Redridge, the
+Eastern Plaguelands), the zone carries Forever's size and the line from
+Classic's percent to Forever's (zones[uiMap].forever: w, h, from), checked
+against Forever's own creature points; the build moves the spots, circles and
+haunts of Data_Forever.lua by it, and Forever's points come back onto
+Classic's map for the checks below. The hint circle (hint_area,
 in percent of the map's width) must hold the spot (an area's: its overlay's
 centre, or its anchor's); an object's spawns outside it are other copies (a
 history book stands in more than one inn), not the riddle's. Each zone also gets its size in yards
@@ -541,6 +547,37 @@ def main():
         u0, v0, u1, v1 = (float(a[k]) for k in ("UiMin_0", "UiMin_1", "UiMax_0", "UiMax_1"))
         return (y1 - y0) / (u1 - u0), (x1 - x0) / (v1 - v0)
 
+    forever_rows = collections.defaultdict(list)
+    for a in table("UiMapAssignment", "forever"):
+        forever_rows[int(a["UiMapID"])].append(a)
+
+    def forever_from(uimap):
+        """Where Forever's map of a shared zone differs from Classic's (a
+        retail map's bounds: Stormwind with its harbour, Mulgore, Redridge,
+        the Eastern Plaguelands), the line from Classic's percent to
+        Forever's: (ax, bx, ay, by), Forever's x = ax * x + bx, y = ay * y +
+        by (one world under both maps); None where they are the same. Its
+        size in yards with it: (w, h)."""
+        keys = ("MapID", "Region_0", "Region_1", "Region_3", "Region_4", "UiMin_0", "UiMin_1", "UiMax_0", "UiMax_1")
+        c, f = assignments[uimap], forever_rows.get(uimap, [])
+        if [[round(float(a[k]), 2) for k in keys] for a in c] == [[round(float(a[k]), 2) for k in keys] for a in f]:
+            return None
+        if len(c) != 1 or len(f) != 1 or c[0]["MapID"] != f[0]["MapID"]:
+            raise ValueError(f"uiMap {uimap}: Forever's map differs from Classic's in more than one rectangle")
+        def frame(a):
+            x0, y0, x1, y1 = (float(a[k]) for k in ("Region_0", "Region_1", "Region_3", "Region_4"))
+            u0, v0, u1, v1 = (float(a[k]) for k in ("UiMin_0", "UiMin_1", "UiMax_0", "UiMax_1"))
+            # percent = u0*100 + (u1 - u0)*100 * (y1 - wy) / (y1 - y0): world y = y1 - (pct - u0*100) / ((u1 - u0)*100) * (y1 - y0)
+            return x0, y0, x1, y1, u0 * 100, v0 * 100, (u1 - u0) * 100, (v1 - v0) * 100
+        cx0, cy0, cx1, cy1, cu0, cv0, cdu, cdv = frame(c[0])
+        fx0, fy0, fx1, fy1, fu0, fv0, fdu, fdv = frame(f[0])
+        # Classic percent -> world -> Forever percent, each axis a line
+        ax = (cy1 - cy0) / cdu * fdu / (fy1 - fy0)
+        bx = fu0 + fdu * (fy1 - (cy1 + cu0 * (cy1 - cy0) / cdu)) / (fy1 - fy0)
+        ay = (cx1 - cx0) / cdv * fdv / (fx1 - fx0)
+        by = fv0 + fdv * (fx1 - (cx1 + cv0 * (cx1 - cx0) / cdv)) / (fx1 - fx0)
+        return (ax, bx, ay, by), ((fy1 - fy0) / fdu * 100, (fx1 - fx0) / fdv * 100)
+
     def zone_area(uimap):
         ids = collections.Counter(int(a["AreaID"]) for a in assignments[uimap] if int(a["AreaID"]))
         return ids.most_common(1)[0][0]
@@ -611,6 +648,25 @@ def main():
         w, h = size(uimap)
         mine = under(zone_area(uimap))
         zones[str(uimap)] = {"w": round(w, 1), "h": round(h, 1), "areas": mine}
+        try:
+            moved = forever_from(uimap) if client == "both" else None
+        except ValueError as e:
+            errors.append(f"{f}: {e}")
+            continue
+        if moved:
+            (ax, bx, ay, by), (fw, fh) = moved
+            # the line must put Classic's creatures where Forever's own data
+            # has them (Questie's Forever points): most to within a hair, the
+            # few Forever moved aside
+            off = sorted(
+                min(math.hypot(ax * p[0] + bx - x, (ay * p[1] + by - y) * ASPECT) for p in ps)
+                for i, x, y in db("forever").execute(
+                    "SELECT entity_id, ux, uy FROM spawn WHERE kind = 'creature' AND source = 'questie' AND area_id = ? AND ux IS NOT NULL", (zone_area(uimap),))
+                for ps in [[q for q in (on(uimap, *c[:3]) for c in creatures.get(i, [])) if q]] if ps)
+            if len(off) < 20 or off[len(off) // 2] > 0.05:
+                errors.append(f"{f}: Forever's map of uiMap {uimap} differs, and the line onto it doesn't put Classic's creatures where Forever's data has them ({len(off)} compared)")
+                continue
+            zones[str(uimap)]["forever"] = {"w": round(fw, 1), "h": round(fh, 1), "from": [round(ax, 6), round(bx, 4), round(ay, 6), round(by, 4)]}
         if quarry:
             id = quarry.get("id")
             spots = id and haunts(uimap, id, w)
@@ -657,6 +713,9 @@ def main():
                 out["names"] = game_names(kind, r.get(kind), out["name"])
             if not out["name"]:
                 errors.append(f"{where}: no name: give the riddle's own (name:)")
+            if kind == "landmark" and zones[str(uimap)].get("forever"):
+                errors.append(f"{where}: a landmark in a zone whose Forever map differs: wow-data's landmark is one percent for both games, so settle which map it is on first")
+                continue
             if kind == "landmark":
                 try:
                     point = landmark_position(r["landmark"], uimap, ("classic", "forever") if client == "both" else (client,))
@@ -969,6 +1028,16 @@ def main():
             area = collections.Counter(int(a["AreaID"]) for a in forever_maps[uimap] if int(a["AreaID"])).most_common(1)[0][0]
         else:
             on_games, mine, area = games, world_on(uimap), zone_area(uimap)
+        # Forever's points of a shared zone whose Forever map differs are on
+        # that map: back onto Classic's, where the riddle's spots and hint are
+        moved = client != "forever" and zones[str(uimap)].get("forever")
+
+        def points_of(game, area=area, moved=moved):
+            if game != "forever" or not moved:
+                return traced(game, area)
+            ax, bx, ay, by = moved["from"]
+            return {(k, i, (x - bx) / ax, (y - by) / ay, far, at) for k, i, x, y, far, at in traced(game, area)}
+
         on_map = {(k, i) for k, i, *_ in mine}
         subject = [(k, int(r[k])) for k in ("creature", "object") if k in r]
         subject += [("creature", i) for i in r.get("companions", [])]
@@ -987,7 +1056,7 @@ def main():
             # database's, else (a thing it doesn't place here: one of
             # Forever's, or moved by Forever) the game's points
             zone = collections.Counter((k, i, x, y) for k, i, x, y, _, at in mine if at)
-            zone.update((k, i, x, y) for k, i, x, y, _, _ in traced(game, area) if (k, i) not in on_map)
+            zone.update((k, i, x, y) for k, i, x, y, _, _ in points_of(game) if (k, i) not in on_map)
             total, inside = collections.Counter(), collections.Counter()
             for (k, i, x, y), n in zone.items():
                 total[(k, i)] += n
@@ -1006,7 +1075,7 @@ def main():
         # an area placed by its overlay has no spot to stand by: its overlay's centre is the map's
         for game in on_games if len(sides) > 1 and ("area" not in r or "anchor" in r) else ():
             near = set()
-            for k, i, x, y, far, _ in mine | {t for t in traced(game, area) if t[:2] not in on_map}:
+            for k, i, x, y, far, _ in mine | {t for t in points_of(game) if t[:2] not in on_map}:
                 if k == "creature" and i not in asked and yards(x, y) <= NEAR + far:
                     near.add(i)
             def attacked(i):

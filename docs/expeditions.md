@@ -68,4 +68,10 @@ the first test).
   build refuses a stale one). `scripts/expeditions.ts` (for build.ts) checks
   every riddle and writes the answers as fingerprints only (salted FNV-1a of
   5-yard cells, sub-areas, the keeper, the gestures), the texts read once
-  solved veiled.
+  solved veiled. Spots, hint circles and haunts are written in Classic's map
+  percent. Four shared zones have a different map on Forever (a retail
+  map's bounds: Stormwind with its harbour, Mulgore, Redridge, the Eastern
+  Plaguelands): the resolver gives each Forever's size and the line from
+  Classic's percent to Forever's (checked against Forever's own creature
+  points), and the build moves Data_Forever.lua's cells, circles and haunts
+  by it. A landmark in one of them is refused until its map is settled.

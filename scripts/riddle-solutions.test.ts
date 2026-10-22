@@ -18,11 +18,16 @@ for (const game of ["classic", "forever"]) {
         .map(([x, y]) => `{${x / 100},${y / 100}}`).join(",");
       const cases = expeditions.filter((e) => e.client === "both" || e.client === game).flatMap((e) => e.riddles.map((r) => {
         const s = r.spot;
+        // the reader stands at the spot on this game's map: a shared zone
+        // whose Forever map differs has its spots moved onto Forever's
+        const m = game === "forever" && e.client === "both" ? data.zones[String(e.zone)].forever : undefined;
+        const [sx, sy] = s.spots?.[0] ?? [10, 10];
+        const [px, py] = m ? [m.from[0] * sx + m.from[1], m.from[2] * sy + m.from[3]] : [sx, sy];
         const action = r.gestures.length ? "gesture" : r.reading ? "reading" : s.npc ? "talk" : "arrival";
         const tokens = r.gestures.length ? r.gestures : [""];
         return `{id=${lua(r.id)}, zone=${e.zone}, side=${lua(r.faction ?? e.home ?? "alliance")},
           action=${lua(action)}, tokens={${tokens.map(lua).join(",")}},
-          x=${(s.spots?.[0]?.[0] ?? 10) / 100}, y=${(s.spots?.[0]?.[1] ?? 10) / 100},
+          x=${px / 100}, y=${py / 100},
           area=${s.areas?.[0] ?? "nil"}, npc=${s.npc ?? "nil"}, companions={${(s.companions ?? []).join(",")}}}`;
       }));
       const run = `

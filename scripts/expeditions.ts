@@ -72,8 +72,13 @@ type Spot = {
   bounded?: boolean;
 };
 type Haunts = { id: number; name: string; names?: Record<string, string>; haunts: number[][] };
+// A shared zone whose Forever map differs from Classic's (a retail map's
+// bounds: Stormwind, Mulgore, Redridge, the Eastern Plaguelands): its size on
+// Forever's, and the line from Classic's percent to Forever's (from: ax, bx,
+// ay, by; Forever's x = ax * x + bx, y = ay * y + by; scripts/expeditions.py).
+type ForeverMap = { w: number; h: number; from: [number, number, number, number] };
 type Data = {
-  zones: Record<string, { w: number; h: number; areas: number[] }>;
+  zones: Record<string, { w: number; h: number; areas: number[]; forever?: ForeverMap }>;
   riddles: Record<string, Spot>;
   quarries: Record<string, Haunts>;
   emotes: string[];
@@ -285,9 +290,14 @@ type Creature = { id: number; name: string; rank: string; levels: [number, numbe
 export function expeditionsLua(ex: Expedition[], data: Data, client: string, q: (s: string) => string, creatures: Map<number, Creature>) {
   const zones = ex.filter((e) => e.client === "both" || e.client === client).sort((a, b) => a.zone - b.zone);
   const nums = (xs: number[]) => `{ ${xs.join(", ")} }`;
-  const riddle = (r: Riddle, w: number, h: number) => {
+  // a point, circle or haunt (x, y[, r: percent of the map's width]) on this
+  // game's map of the zone: Classic's, or moved onto Forever's
+  const round = (n: number, d: number) => Math.round(n * 10 ** d) / 10 ** d;
+  const onMap = (m: ForeverMap | undefined, d: number) => (p: number[]) =>
+    !m || !p.length ? p : [round(m.from[0] * p[0] + m.from[1], d), round(m.from[2] * p[1] + m.from[3], d), ...(p.length > 2 ? [round(p[2] * m.from[0], d)] : [])];
+  const riddle = (r: Riddle, w: number, h: number, m?: ForeverMap) => {
     const s = r.spot;
-    const at = s.areas ? s.areas.map((a) => print(r.id, "area", a)) : cells(s.spots ?? [], s.r ?? 0, w, h).map((c) => print(r.id, c));
+    const at = s.areas ? s.areas.map((a) => print(r.id, "area", a)) : cells((s.spots ?? []).map(onMap(m, 4)), s.r ?? 0, w, h).map((c) => print(r.id, c));
     const fields = [
       `id = ${q(r.id)}`,
       `tier = ${q(r.tier)}`,
@@ -296,7 +306,7 @@ export function expeditionsLua(ex: Expedition[], data: Data, client: string, q: 
       r.night ? "night = true" : "",
       s.bounded ? "bounded = true" : "",
       `danger = ${q(r.danger)}`,
-      `circle = ${nums(r.circle)}`,
+      `circle = ${nums(onMap(m, 1)(r.circle))}`,
       `verse = { ${r.verse.map(q).join(", ")} }`,
       `hint = ${q(r.hint)}`,
       `name = ${q(veil(s.name, r.id))}`,
@@ -328,18 +338,21 @@ export function expeditionsLua(ex: Expedition[], data: Data, client: string, q: 
 ${zones
   .map((e) => {
     const z = data.zones[String(e.zone)];
+    // Forever's own map of a shared zone, where it differs
+    const m = client === "forever" && e.client === "both" ? z.forever : undefined;
+    const w = m?.w ?? z.w, h = m?.h ?? z.h;
     const p = e.quarry;
     const c = p && (creatures.get(p.id) ?? p.own);
     const level = c ? (c.levels[0] === c.levels[1] ? `${c.levels[0]}` : `${c.levels[0]}-${c.levels[1]}`) : "";
     const quarry = p && c
       ? `
-      quarry = { id = ${p.id}, name = ${q(c.name)}, level = ${q(level)}, rank = ${q(c.rank)}, model = ${c.model || 0}, haunts = { ${p.haunts.map(nums).join(", ")} }, verse = { ${p.verse.map(q).join(", ")} }, note = ${q(veil(p.note, `quarry-${p.id}`))}, margin = ${q(veil(p.margin, `quarry-${p.id}`))} },`
+      quarry = { id = ${p.id}, name = ${q(c.name)}, level = ${q(level)}, rank = ${q(c.rank)}, model = ${c.model || 0}, haunts = { ${p.haunts.map(onMap(m, 1)).map(nums).join(", ")} }, verse = { ${p.verse.map(q).join(", ")} }, note = ${q(veil(p.note, `quarry-${p.id}`))}, margin = ${q(veil(p.margin, `quarry-${p.id}`))} },`
       : "";
     return `    [${e.zone}] = {
-      w = ${z.w}, h = ${z.h},${e.home ? ` home = ${q(e.home)},` : ""}${quarry}
+      w = ${w}, h = ${h},${e.home ? ` home = ${q(e.home)},` : ""}${quarry}
       areas = ${nums(z.areas)},
       riddles = {
-${e.riddles.map((r) => riddle(r, z.w, z.h)).join("\n")}
+${e.riddles.map((r) => riddle(r, w, h, m)).join("\n")}
       },
     },`;
   })
