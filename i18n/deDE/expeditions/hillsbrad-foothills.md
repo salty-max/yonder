@@ -1,5 +1,5 @@
 ---
-source: aa792d1e9dff
+source: 962d2e8d3ed8
 zone: 1424
 ---
 ## hillsbrad-foothills-zixil
@@ -49,6 +49,16 @@ Finde, was ihre erste große Lektion einem Heer antat.
 ? Tarrens Mühle. Lies das Buch über das Menschenreich und seinen Krieg gegen die Trolle.
 = Arathor und die Trollkriege, in Tarrens Mühle: Die Schlacht wurde am Fuß des Alteracgebirges geschlagen.
 + Die Elfen lehrten hundert Menschen die Grundlagen der Magie, nicht mehr als nötig. Die Trolle erhoben sich nie wieder als ein Volk.
+! Ruhig
+
+## hillsbrad-foothills-wesley
+In der Stadt der Allianz am Ufer versorgt ein Stalljunge die Tiere der Reisenden.
+In einer anderen Welt antwortete ein Farmjunge mit fast demselben Namen auf jeden Befehl mit drei Worten,
+und alle, die ihn hörten, wussten, dass sie drei andere bedeuteten.
+Antworte ihm mit diesen.
+? Southshore, im Vorgebirge von Hillsbrad. Finde den Stallmeister und zeig ihm deine Liebe.
+= Wesley, der Stallmeister von Southshore, der Reisenden hilft, ihre verlorenen Begleiter wiederzufinden.
++ Die drei Worte des Farmjungen waren 'Wie Ihr wünscht'. Gemeint hat er damit 'Ich liebe dich'.
 ! Ruhig
 
 ## quarry

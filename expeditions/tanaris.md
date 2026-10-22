@@ -43,6 +43,21 @@ riddles:
     hint_area: { x: 64.0, y: 63.0, r: 4 }
     danger: "Guarded (surf gliders and coast striders, level 48, in the shallows)"
     sources: "the WoWWiki archive's Winkey and Southbreak Shore pages; the dump's spawn and words; quest 3823's text (Oralius and his 'Winky')"
+  - id: tanaris-jhordy
+    tier: near
+    creature: 14743   # Jhordy Lapforge, Engineer, dump 52.3, 26.9, in Gadgetzan; Wowhead 52.2, 26.8
+    found: target   # in the town: only by speaking to him
+    hint_area: { x: 52.0, y: 26.0, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn; his gossip and its second page for engineers (broadcast text 9998, the matter transporter and the evil selves); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Star Trek: The Next Generation (Geordi La Forge, chief engineer); Wowhead's point"
+  - id: tanaris-rocket-car
+    tier: off
+    name: The car through the mountain
+    landmark: tanaris-rocket-car-wreck   # the client's own placement of the wreck, read from its map files
+    radius: 15
+    hint_area: { x: 48.5, y: 26.0, r: 1.5 }
+    danger: "Guarded (Starving Blisterpaws and Scorpid Tail Lashers close by, levels 41 to 44)"
+    sources: "the pinned client's map files: crashedgnomerc.m2 (file 197705), unique id 397465, in kalimdor_38_45_obj0.adt, placed the same on Forever (wow-data landmark tanaris-rocket-car-wreck, source client-map); the WoWWiki archive's In-jokes and references (games, TV and movies) page, The Adventures of Buckaroo Banzai (skid marks into the mountain in Thousand Needles, out of it just west of Gadgetzan, to a crashed rocket car); the dump's spawns near it (a Starving Blisterpaw at 39 yards, a Scorpid Tail Lasher at 56)"
 quarry:
   id: 8201   # Omgorn the Lost
   sources: "the WoWWiki archive's Omgorn the Lost page (one of three camps, a great axe); the pinned dump's spawns and creature_ai_scripts (16856 Mortal Strike)"
@@ -87,6 +102,24 @@ She has one request for whoever swims out to her. Let your face answer hers.
 ? An islet off Southbreak Shore, south of Lost Rigger Cove. Answer the sunbathing gnome with a wink.
 = Winkey, a gnome alone on her islet off Southbreak Shore: 'Hey there, cutie! Mind rubbing some lotion on my exposed areas?'
 + Far away in the Burning Steppes, a dwarf at Morgan's Vigil grabs at the air and shouts at someone called Winky who isn't there. Whether he means her, nobody can say.
+
+## tanaris-jhordy
+In the goblins' desert town, an engineer with a visor over his eyes
+has built a machine that sends a traveller across the world in an instant,
+nearly always in one piece, and nearly always the same traveller.
+Find the man who built it.
+? Gadgetzan, in Tanaris: the engineer with the visor, by the transporter pad. Speak to him.
+= Jhordy Lapforge, Gadgetzan's engineer, and his Matter Transporter.
++ To engineers who can build its beacon, he admits the rest: 'There have been some reported problems with transportees being replaced by their evil selves from an alternate universe, but I'm sure we will have that worked out soon...'
+
+## tanaris-rocket-car
+West of the goblins' desert town, a little rocket car lies wrecked at the foot of the mountains.
+Its skid marks run back into the rock behind it, as though the range were no wall at all,
+and on the far side, by the salt flats, the same marks lead in.
+Find where it came out.
+? Just west of Gadgetzan, at the foot of the mountains. Walk to the crashed rocket car.
+= The car through the mountain: a crashed gnome rocket car west of Gadgetzan, its skid marks starting on the far side of the range, by the Shimmering Flats.
++ In another world's tale, a scientist drove a rocket car straight through a mountain, across salt flats very like the Shimmering Flats.
 
 ## quarry
 The ogres of the southern desert hold three camps among old troll ruins.

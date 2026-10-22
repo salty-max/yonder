@@ -1,5 +1,5 @@
 ---
-source: aa792d1e9dff
+source: 962d2e8d3ed8
 zone: 1424
 ---
 ## hillsbrad-foothills-zixil
@@ -49,6 +49,16 @@ Encuentra lo que su primera gran lección hizo a un ejército.
 ? Molino Tarren. Lee el libro sobre el reino humano y su guerra contra los trols.
 = Arathor y las guerras de los trols, en Molino Tarren: la batalla se libró al pie de las Montañas de Alterac.
 + Los elfos enseñaron a cien humanos los fundamentos de la magia, solo lo necesario. Los trols nunca volvieron a alzarse como una sola nación.
+! Tranquilo
+
+## hillsbrad-foothills-wesley
+En el pueblo de la Alianza junto a la costa, un mozo de cuadra cuida de las bestias de los viajeros.
+En otro mundo, un mozo de granja de nombre casi igual respondía a cada orden con dos palabras,
+y todos los que lo oían sabían que significaban otras dos.
+Respóndele con esas.
+? Costasur, en Laderas de Trabalomas. Busca al maestro de establos y muéstrale tu amor.
+= Wesley, maestro de establos de Costasur, que ayuda a los viajeros a recuperar a sus compañeros perdidos.
++ Las dos palabras del mozo de granja eran "Como desees". Lo que quería decir con ellas era "Te quiero".
 ! Tranquilo
 
 ## quarry

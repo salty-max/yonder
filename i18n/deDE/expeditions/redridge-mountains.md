@@ -1,5 +1,5 @@
 ---
-source: 4866ced26b91
+source: ea8d137f6232
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -31,6 +31,16 @@ Der Bericht wartet auf einer Seite.
 ? Seenhain, beim Gasthaus. Lies den Bericht über den Fall der Menschenhauptstadt.
 = Das Dunkle Portal und der Untergang von Stormwind. Llane hielt seine Hauptstadt, sicher, dass die Orcs sie nie einnehmen könnten. Garona tötete ihn, als sie fiel.
 + Im selben Buch ein Orcsäugling, Durotans Sohn, von einem menschlichen Offizier namens Blackmoore gefunden und als Sklave genommen: 'Dieser kleine Orc sollte eines Tages zum größten Führer werden, den sein Volk je gekannt hatte.'
+! Ruhig
+
+## redridge-mountains-hooper
+Am See, an dem die Leute des Rotkammgebirges fischen, geht ein Angellehrer am Ufer auf und ab.
+In einer anderen Welt erforschte ein Mann mit seinem Namen Haie
+und sagte einem Sheriff, sie würden ein größeres Boot brauchen.
+Erwische ihn auf seiner Runde.
+? Seenhain, im Rotkammgebirge: Der Angellehrer geht am Ufer bei den Stegen auf und ab. Hol ihn ein und wähle ihn als Ziel aus.
+= Matthew Hooper, Angellehrer von Seenhain: 'Ihr könnt bei mir Eure Angelfertigkeit verbessern.'
++ Im See von Seenhain gibt es keinen Hai. Die Fischer halten den Angellehrer trotzdem auf Trab.
 ! Ruhig
 
 ## quarry

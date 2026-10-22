@@ -1,5 +1,5 @@
 ---
-source: a7fd66bf1576
+source: fad145ab180f
 zone: 1441
 ---
 ## thousand-needles-raceway
@@ -21,6 +21,17 @@ Ein guter Hund hat eine freundliche Hand verdient.
 = Hund, mit dem Titel Vater: Keine andere Kreatur in Kalimdor oder den Östlichen Königreichen trägt diesen Titel. Er bleibt bei Montarrs Stand im Freiwindposten.
 + Die Tauren bauten ihre Städte auf den höchsten Tafelbergen, außer Reichweite der Kriegsbanden der Zentauren, und verbanden sie mit hölzernen Aufzügen und Seilbrücken.
 ! Ruhig
+
+## thousand-needles-cliff-racer
+Östlich der Rennbahn der Goblins verlassen zwei Bremsspuren die Strecke und kehren nie zurück.
+An ihrem Ende hat ein Rennwagen die Kurve viel zu schnell genommen
+und hängt seitdem auf halber Höhe an der Klippe.
+Finde den Rennwagen, der nie ins Ziel kam.
+? Die schimmernde Ebene, östlich der Illusionenrennbahn, unter den östlichen Klippen. Geh zum Fuß der Klippe, unter den Rennwagen, der am Fels hängt.
+= Der Rennwagen an der Klippe: ein Goblinrennwagen, auf halber Höhe der Ostwand der schimmernden Ebene zerschellt, liegen geblieben, wo er zum Stehen kam.
++ Die Rennwagen der Rennbahn sind den Podracern des großen Wüstenrennens einer anderen Welt nachempfunden, dieser hier dem ihres berüchtigtsten Betrügers.
+! Ruhig
+@ Der Rennwagen an der Klippe
 
 ## quarry
 Ein Zentaur, den man den Verbannten nennt, zieht seine Runden um die Hochebenen im Westen der Schluchten,

@@ -49,6 +49,14 @@ riddles:
     quest_overlap: [1536]
     quest_context: "Call of Water, a shaman's quest, fills a waterskin at Tarren Mill's well, beside the book. Yonder asks only that the book be read, with no quest."
     sources: "object 175734's text"
+  - id: hillsbrad-foothills-wesley
+    tier: town
+    faction: alliance   # its town's: for that faction alone
+    gestures: [LOVE]
+    creature: 9978   # Wesley, Stable Master, dump 50.4, 58.8, in Southshore; Wowhead's points alike
+    hint_area: { x: 50.0, y: 59.5, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his gossip; the WoWWiki archive's In-jokes and references (games, TV and movies) page, The Princess Bride (Southshore's stable boy, Wesley, with blond hair and a rapier); Wowhead's points"
 quarry:
   id: 14277
   sources: "the dump: her spawn on the Eastern Strand among the Daggerspine (faction 74), Scargil's among the Torn Fin"
@@ -96,6 +104,15 @@ Find what their first great lesson did to an army.
 ? Tarren Mill. Read the book about the human kingdom and its war against the trolls.
 = Arathor and the Troll Wars, in Tarren Mill: the battle was fought at the foot of the Alterac Mountains.
 + The elves taught a hundred humans the basics of magic, no more than was needed. The trolls never rose as one nation again.
+
+## hillsbrad-foothills-wesley
+In the Alliance's town by the shore, a stable boy keeps the travellers' beasts.
+In another world, a farm boy of nearly his name answered every order with three words,
+and everyone who heard him knew they meant three others.
+Answer him with those.
+? Southshore, in Hillsbrad. Find the stable master and show him your love.
+= Wesley, Southshore's stable master, who helps travellers recover their lost companions.
++ The farm boy's three words were 'As you wish'. What he meant by them was 'I love you'.
 
 ## quarry
 Naga have come ashore on the eastern strand of Hillsbrad,

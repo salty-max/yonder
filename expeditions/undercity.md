@@ -29,6 +29,17 @@ riddles:
     danger: "Quiet"
     sources: "object 175659's text; the Codex's fall-of-lordaeron page"
 # no quarry: a capital has riddles alone
+  - id: undercity-edward-tyler
+    tier: near
+    faction: horde   # a Horde capital
+    gestures: [SILENCE]
+    creature: 5654   # Edward, dump 51.9, 22.5, in the War Quarter; Tyler (5653) fighting him; Wowhead's points alike
+    companions: [5653]
+    hint_area: { x: 52.5, y: 23.0, r: 2 }
+    danger: "Quiet"
+    quest_overlap: [92401]
+    quest_context: "Forever's new quest in the Ruins of Lordaeron names its own Edward, Edward Heartweaver, another man. Yonder asks only for silence by the two who fight."
+    sources: "the dump's spawns (Edward and Tyler, facing each other, fighting without end); the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Fight Club, Edward Norton and Tyler Durden); Wowhead's points for both"
 ---
 ## undercity-kelthuzad-book
 In the city beneath the ruins, seek a preacher whose master spoke from the frozen north.
@@ -53,3 +64,12 @@ not to be laid at his feet. Pay him the respect his son did not.
 ? In the gardens of the Ruins of Lordaeron, above the Undercity. Kneel beside the king's tomb.
 = 'Here lies King Terenas Menethil II -- Last True King of Lordaeron. Great were his deeds -- long was his reign -- unthinkable was his death.'
 + 'May the Father lie blameless for the deeds of the son. May the bloodied crown stay lost and forgotten.'
+
+## undercity-edward-tyler
+In the dead city's war quarter, two men have been fighting since long before you came,
+and will be fighting long after you leave. Nobody stops them. Nobody asks why.
+There is a rule about fights like theirs, and it is the first one.
+Keep it.
+? The War Quarter, in the Undercity. By the two men who never stop fighting, keep silent.
+= Edward and Tyler, fighting without end in the Undercity's War Quarter.
++ In another world's tale, their names belong to the two halves of one man, and the first rule of the fight is that nobody talks about it.

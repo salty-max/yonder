@@ -21,6 +21,14 @@ riddles:
     hint_area: { x: 43.4, y: 40.6, r: 3 }
     danger: "Quiet"
     sources: "the dump's spawn and her wares (npc_vendor: Forest Mushroom Cap, Red-speckled Mushroom, Spongy Morel, Delicious Cave Mold, Raw Black Truffle, Dried King Bolete); warcraft.wiki.gg's Gwyn Farrow and The Sepulcher pages (a graveyard along the road across Silverpine, the old crypt the Forsaken took for their base)"
+  - id: silverpine-forest-bates
+    tier: town
+    faction: horde   # its town's: for that faction alone
+    gestures: [SHIVER, SCARED]
+    creature: 6739   # Innkeeper Bates, dump 43.2, 41.3, in the Sepulcher; Wowhead's point alike
+    hint_area: { x: 43.0, y: 42.0, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn and his gossip; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Innkeeper Norman in the Undercity and Innkeeper Bates in the Sepulcher, Psycho's Norman Bates); Wowhead's point"
 quarry:
   id: 1948   # Snarlmane
   sources: "the WoWWiki archive's Snarlmane page; Warcraft III: The Frozen Throne, 'The Dark Lady' (Snarlmane possessed); the dump's spawn"
@@ -42,6 +50,15 @@ Ask her what she has.
 ? The Sepulcher, among its merchants: speak to the one who sells mushrooms.
 = Gwyn Farrow, the Sepulcher's mushroom merchant. Her stall holds fungi only: Forest Mushroom Cap, Red-speckled Mushroom, Spongy Morel, Delicious Cave Mold, Raw Black Truffle and Dried King Bolete.
 + The Sepulcher was nothing more than a graveyard by the road across Silverpine before the Forsaken took its old crypt for their base in the forest.
+
+## silverpine-forest-bates
+In the Forsaken's crypt among the pines, the innkeeper offers every traveller a bed.
+In another world, a man with his name kept a quiet motel off a lonely road,
+and some of his guests never checked out.
+Take a room, and let him see what the name does to you.
+? The Sepulcher, in Silverpine. Find the innkeeper and shiver.
+= Innkeeper Bates, of the Sepulcher: 'Rest your weary bones for a spell.'
++ The Undercity's innkeeper is called Norman. Together, they make one name.
 
 ## quarry
 On the isle in the lake, the Rot Hide dead hold an old keep.

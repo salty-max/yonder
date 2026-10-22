@@ -1,5 +1,5 @@
 ---
-source: a40f9ec13d29
+source: fa4d38eed43b
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -47,6 +47,27 @@ Tiene una petición para quien nade hasta ella. Deja que tu cara conteste a la s
 = Guiñón, una gnoma sola en su islote frente a Tierras del Sur: "¡Hola, encanto! ¿Te importa ponerme un poco de loción en las zonas expuestas?".
 + Muy lejos, en Las Estepas Ardientes, un enano de Vigilia de Morgan manotea al aire y grita a alguien llamado Winky que no está allí. Nadie sabe si se refiere a ella.
 ! Vigilado (planoleadores y zancacostas de nivel 48 en los bajíos)
+
+## tanaris-jhordy
+En la ciudad goblin en medio del desierto, un ingeniero con un visor sobre los ojos
+ha construido una máquina que envía a un viajero al otro lado del mundo en un instante,
+casi siempre de una pieza, y casi siempre al mismo viajero.
+Encuentra al hombre que la construyó.
+? Gadgetzan, en Tanaris: el ingeniero del visor, junto a la plataforma del transportador. Habla con él.
+= Jhordy Lapforge, el ingeniero de Gadgetzan, y su transportador de materia.
++ A los ingenieros capaces de construir su localizador, les confiesa el resto: "También nos han informado de problemas con algunos de los que utilizaban este método de transporte, que eran reemplazados por su parte maligna de un universo alternativo, pero seguro que lo solucionamos pronto..."
+! Tranquilo
+
+## tanaris-rocket-car
+Al oeste de la ciudad goblin del desierto, un pequeño coche cohete yace destrozado al pie de las montañas.
+Sus marcas de derrape se pierden en la roca que tiene detrás, como si la cordillera no fuera ningún muro,
+y al otro lado, junto a las salinas, las mismas marcas entran en ella.
+Encuentra el lugar por donde salió.
+? Justo al oeste de Gadgetzan, al pie de las montañas. Ve hasta el coche cohete destrozado.
+= El coche que atravesó la montaña: un coche cohete gnomo destrozado al oeste de Gadgetzan, cuyas marcas de derrape empiezan al otro lado de la cordillera, junto a El Desierto de Sal.
++ En la historia de otro mundo, un científico atravesó una montaña con un coche cohete, sobre salinas muy parecidas a El Desierto de Sal.
+! Vigilado (Llagapatas famélicas y Colazotes escórpidos cerca, niveles 41 a 44)
+@ El coche que atravesó la montaña
 
 ## quarry
 Los ogros del desierto meridional ocupan tres campamentos entre antiguas ruinas trols.

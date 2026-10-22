@@ -1,5 +1,5 @@
 ---
-source: a40f9ec13d29
+source: fa4d38eed43b
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -47,6 +47,27 @@ Sie hat eine Bitte an jeden, der zu ihr hinausschwimmt. Lass dein Gesicht für d
 = Winkey, eine Gnomin allein auf ihrem Inselchen vor Southbreak Shore: 'Hallo, $gSüßer:Süße;! Würdest du mir die unbedeckten Stellen eincremen?'
 + Weit weg in der Brennenden Steppe greift ein Zwerg in Morgans Wacht in die Luft und ruft nach jemandem namens Winky, der nicht da ist. Ob er sie meint, kann niemand sagen.
 ! Bewacht (Brandungsgleiter und Küstenschreiter, Stufe 48, in den Untiefen)
+
+## tanaris-jhordy
+In der Stadt der Goblins mitten in der Wüste hat ein Ingenieur mit einem Visier vor den Augen
+eine Maschine gebaut, die einen Reisenden im Nu ans andere Ende der Welt schickt,
+fast immer in einem Stück, und fast immer denselben Reisenden.
+Finde den Mann, der sie gebaut hat.
+? Gadgetzan, in Tanaris: der Ingenieur mit dem Visier, bei der Plattform des Transporters. Sprich mit ihm.
+= Jhordy Lapforge, Ingenieur von Gadgetzan, und sein Materietransporter.
++ Ingenieuren, die das Gegenstück zu seinem Transporter bauen können, gesteht er den Rest: 'Es gibt wohl einige Berichte, nach denen Personen, die den Transporter benutzt haben, durch Ihr böses Ich aus einem alternativen Paralleluniversum ersetzt wurden. Aber ich denke, dass wir das noch in den Griff kriegen werden...'
+! Ruhig
+
+## tanaris-rocket-car
+Westlich der Goblinstadt in der Wüste liegt ein kleiner Raketenwagen zerschellt am Fuß der Berge.
+Seine Bremsspuren führen zurück in den Fels hinter ihm, als wäre das Gebirge gar keine Wand,
+und auf der anderen Seite, bei der Salzebene, führen dieselben Spuren hinein.
+Finde die Stelle, an der er herauskam.
+? Gleich westlich von Gadgetzan, am Fuß der Berge. Geh zum zerschellten Raketenwagen.
+= Der Wagen durch den Berg: ein zerschellter Gnomenraketenwagen westlich von Gadgetzan, dessen Bremsspuren auf der anderen Seite des Gebirges beginnen, bei der schimmernden Ebene.
++ In der Geschichte einer anderen Welt fuhr ein Wissenschaftler in einem Raketenwagen mitten durch einen Berg, über Salzebenen, die der schimmernden Ebene sehr ähneln.
+! Bewacht (Verhungernde Eiterpfoten und Skorpidschwanzpeitscher in der Nähe, Stufe 41 bis 44)
+@ Der Wagen durch den Berg
 
 ## quarry
 Die Oger der südlichen Wüste halten drei Lager zwischen alten Trollruinen.

@@ -1,5 +1,5 @@
 ---
-source: 4866ced26b91
+source: ea8d137f6232
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -31,6 +31,16 @@ El relato espera en una página.
 ? Villa del Lago, junto a la posada. Lee el relato de la caída de la capital humana.
 = El Portal Oscuro y la caída de Ventormenta. Llane defendía su capital, seguro de que los orcos jamás podrían tomarla. Garona lo mató mientras caía.
 + En el mismo libro, un bebé orco, hijo de Durotan, encontrado por un oficial humano llamado Blackmoore y tomado como esclavo: "Aquel pequeño orco llegaría a ser el mayor líder que su pueblo conocería jamás".
+! Tranquilo
+
+## redridge-mountains-hooper
+Junto al lago donde pesca la gente de Crestagrana, un instructor de pesca va y viene por la orilla.
+En otro mundo, un experto en tiburones llevaba el nombre que él lleva en otras lenguas, Hooper,
+y le dijo a un sheriff que iban a necesitar un barco más grande.
+Atrápalo en su ronda.
+? Villa del Lago, en Montañas Crestagrana: el instructor de pesca va y viene por la orilla junto al embarcadero. Alcánzalo y selecciónalo.
+= Matías Arero, instructor de pesca de Villa del Lago: "Puedo enseñarte a pescar.".
++ El lago de Villa del Lago no tiene tiburones. Sus pescadores mantienen ocupado al instructor de todos modos.
 ! Tranquilo
 
 ## quarry

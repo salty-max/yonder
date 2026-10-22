@@ -1,5 +1,5 @@
 ---
-source: d6e7203916cf
+source: f7fefce70299
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -27,4 +27,14 @@ nicht ihm zur Last zu legen. Erweise ihm den Respekt, den sein Sohn ihm verweige
 ? In den Gärten der Ruinen von Lordaeron, über Undercity. Knie neben dem Grab des Königs nieder.
 = 'Hier ruht König Terenas Menethil II. - der letzte wahre König von Lordaeron. Groß waren seine Taten - lang währte seine Herrschaft - undenkbar schien sein Tod.'
 + 'Möge der Vater unschuldig an des Sohnes Taten ruhen. Möge die blutige Krone verloren und vergessen bleiben.'
+! Ruhig
+
+## undercity-edward-tyler
+Im Kriegsviertel der Stadt der Toten kämpfen zwei Männer, schon lange bevor du kamst,
+und sie werden noch kämpfen, lange nachdem du gegangen bist. Niemand hält sie auf. Niemand fragt, warum.
+Für Kämpfe wie ihren gibt es eine Regel, und es ist die erste.
+Halte dich daran.
+? Das Kriegsviertel, in Undercity. Schweig bei den beiden Männern, die nie aufhören zu kämpfen.
+= Edward und Tyler, die im Kriegsviertel von Undercity ohne Ende kämpfen.
++ In der Geschichte einer anderen Welt gehören ihre Namen den beiden Hälften ein und desselben Mannes, und die erste Regel des Kampfes lautet, nicht darüber zu sprechen.
 ! Ruhig

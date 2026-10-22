@@ -1,5 +1,5 @@
 ---
-source: 4866ced26b91
+source: ea8d137f6232
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -31,6 +31,16 @@ Le récit attend sur une page.
 ? Comté-du-Lac, près de l'auberge. Lisez le récit de la chute de la capitale humaine.
 = La Porte des ténèbres et la chute de Stormwind. Llane tint sa capitale, certain que les orcs ne pourraient jamais la prendre. Garona le tua quand elle tomba.
 + Dans le même livre, un nourrisson orc, le fils de Durotan, trouvé par un officier humain nommé Blackmoore et réduit en esclavage : "Ce petit orc allait un jour devenir le plus grand chef que son peuple ait jamais connu."
+! Calme
+
+## redridge-mountains-hooper
+Près du lac où les gens des Carmines jettent leurs lignes, un maître de pêche fait les cent pas sur la rive.
+Dans un autre monde, un homme portant son nom étudiait les requins,
+et dit à un shérif qu'il leur faudrait un plus gros bateau.
+Rattrapez-le pendant sa ronde.
+? Comté-du-Lac, dans les Carmines : le maître de pêche fait les cent pas sur la rive près des quais. Rattrapez-le et ciblez-le.
+= Matthew Hooper, maître de pêche de Comté-du-Lac : "Je peux vous apprendre à pêcher."
++ Le lac de Comté-du-Lac n'a pas de requin, mais ses pêcheurs ne laissent pas Hooper chômer.
 ! Calme
 
 ## quarry

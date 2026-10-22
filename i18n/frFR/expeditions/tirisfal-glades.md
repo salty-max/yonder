@@ -1,5 +1,5 @@
 ---
-source: 08f3d3228134
+source: 5706628c86a2
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -73,6 +73,16 @@ Demandez-lui ce qu'il en sait.
 ? La Barricade, à la lisière est de Tirisfal. Parlez au voyageur qui prépare son départ.
 = Bardu Sharpeye, à la Barricade : un mage aurait fait à la Croisade une arme remarquable, a-t-il entendu dire, et la Croisade l'a tué pour ça.
 + Au camp du Noroît, le camp de l'Alliance, un voyageur raconte la même histoire : "Peut-être l'ont-ils éliminé pour conserver un secret... ou peut-être haïssent-ils les arcanes..."
+! Calme
+
+## tirisfal-glades-party
+Juste après la crypte où s'éveillent les Réprouvés, quatre lunatiques sont encore à la fête :
+les tables sont renversées, les mets froids depuis longtemps, et personne ne leur a dit que c'était fini.
+Dans un autre monde, leurs noms, à peine autrement orthographiés, ont mis exactement ceci en musique.
+Joignez-vous à la fête.
+? À l'est du Glas, dans les Clairières de Tirisfal : les tables renversées sous les arbres. Dansez parmi les quatre convives lunatiques.
+= La fête des morts : Daniel Ulfman, Karrel Grayves, Samuel Fipps et Stephen Bhartec, lunatiques, autour de leur festin renversé.
++ Autrement orthographiés, les quatre appartiennent à un groupe d'un autre monde, dont la chanson la plus connue parle d'une fête de morts.
 ! Calme
 
 ## quarry

@@ -204,6 +204,24 @@ yards, Drywhisker kobolds around). **149 riddles** on Classic Era, **153**
 on Forever (105 for a Horde reader, 113 for an Alliance one), and the 39
 quarries.
 
+**More easter eggs (22 October 2026, the user's ask).** A second sweep of
+the WoWWiki archive's easter-egg category (its films and games list, its
+NPC pages), each candidate vetted by id on both games (quests, Forever's
+new ones, the dump's spawns) and through the gates on scratch copies.
+Eight, the user's picks: the dead men's party at Deathknell (Oingo Boingo,
+a dance, Horde), Edward and Tyler fighting in the Undercity (Fight Club,
+silence, the capital's fourth at the user's word), Innkeeper Bates at the
+Sepulcher (Psycho, a shiver), Wesley the stable boy in Southshore (The
+Princess Bride, love), Matthew Hooper in Lakeshire (Jaws), Jhordy Lapforge
+in Gadgetzan (Star Trek), and two client-map landmarks: the rocket car that
+came through the mountain west of Gadgetzan (Buckaroo Banzai) and the racer
+hanging on the Shimmering Flats' cliff (Sebulba's). Left out: Conan's crypt
+and Fobeed (already riddles), Servo (a quest drops from him), Remy, Jenal,
+Dadanga, Linken and the Mario brothers (quest givers), Jason Mathers
+(Forever's new quests), Haggle (the Deeprun Tram). **157 riddles** on
+Classic Era, **161** on Forever (111 for a Horde reader, 118 for an
+Alliance one), and the 39 quarries.
+
 ### How many
 
 From the client's own tables (wago.tools, Classic Era), so no number is

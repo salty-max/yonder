@@ -30,6 +30,14 @@ riddles:
     hint_area: { x: 25.0, y: 47.0, r: 5 }
     danger: "Quiet"
     sources: "object 175745's text"
+  - id: redridge-mountains-hooper
+    tier: town
+    faction: alliance   # its town's: for that faction alone
+    creature: 1680   # Matthew Hooper, Fishing Trainer, dump 27.0, 51.1, pacing a few yards of Lakeshire's shore; Wowhead's points alike
+    found: target   # he walks his round: only by catching him
+    hint_area: { x: 27.5, y: 51.5, r: 2 }
+    danger: "Quiet"
+    sources: "the dump's spawn and path (three points, ten yards apart) and his gossip; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Matt Hooper, the marine biologist in Jaws); Wowhead's points"
 quarry:
   id: 14273   # Boulderheart
   sources: "the WoWWiki archive's Boulderheart page (the pass east of the falls); the dump's path and kind (Redridge's only giant)"
@@ -60,6 +68,15 @@ The account waits on a page.
 ? Lakeshire, by the inn. Read the account of the human capital's fall.
 = The Dark Portal and the Fall of Stormwind. Llane held his capital, sure the orcs could never take it. Garona killed him as it fell.
 + In the same book, an orc infant, Durotan's son, found by a human officer named Blackmoore and taken as a slave: 'That infant orc would one day rise to become the greatest leader his people would ever know.'
+
+## redridge-mountains-hooper
+By the lake where the Redridge folk fish, a fishing trainer paces the shore.
+In another world, a man with his name studied sharks,
+and told a sheriff they were going to need a bigger boat.
+Catch him on his rounds.
+? Lakeshire, in Redridge: the fishing trainer paces the shore by the docks. Catch up and target him.
+= Matthew Hooper, Lakeshire's fishing trainer: 'I can teach you fishing skills.'
++ Lakeshire's lake has no shark. Its fishermen keep him busy all the same.
 
 ## quarry
 East of the falls below Stonewatch,

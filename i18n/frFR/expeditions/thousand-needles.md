@@ -1,5 +1,5 @@
 ---
-source: a7fd66bf1576
+source: fad145ab180f
 zone: 1441
 ---
 ## thousand-needles-raceway
@@ -21,6 +21,17 @@ Un bon chien mérite une main bienveillante.
 = Chien, au titre de Reproducteur : aucune autre créature de Kalimdor ou des Royaumes de l'est ne porte ce titre. Il reste près de l'étal de Montarr, au poste de Librevent.
 + Les taurens ont bâti leurs villes au sommet des plus hautes mesas, hors de portée des bandes de guerre centaures, et les ont reliées par des ascenseurs de bois et des ponts de corde.
 ! Calme
+
+## thousand-needles-cliff-racer
+À l'est de la piste des gobelins, deux traces de dérapage quittent la piste et ne reviennent jamais.
+Au bout de ces traces, un bolide a pris le virage bien trop vite,
+et pend depuis à mi-hauteur de la falaise.
+Trouvez le bolide qui n'a jamais fini la course.
+? Les Salines, à l'est de la piste des Mirages, sous les falaises de l'est. Allez au pied de la falaise, sous le bolide accroché à la roche.
+= Le bolide de la falaise : un bolide gobelin écrasé à mi-hauteur de la paroi est des Salines, resté là où il s'est arrêté.
++ Les bolides de la piste ont la forme des modules de course de la grande course du désert d'un autre monde, et celui-ci celle de son tricheur le plus célèbre.
+! Calme
+@ Le bolide de la falaise
 
 ## quarry
 Un centaure qu'on appelle le Banni tourne autour des plateaux à l'ouest des canyons,

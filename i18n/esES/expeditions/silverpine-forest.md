@@ -1,5 +1,5 @@
 ---
-source: c8047be4bda4
+source: 603320191589
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -20,6 +20,16 @@ Pregúntale qué tiene.
 ? El Sepulcro, entre sus mercaderes: habla con la que vende champiñones.
 = Gwyn Paritera, la mercader de champiñones del Sepulcro. En su puesto solo hay hongos: Champiñón de bosque, Champiñón con motas rojas, Colmenilla esponjosa, Moho de cueva delicado, Trufa negra cruda y Bolete de rey seco.
 + El Sepulcro no era más que un cementerio junto al camino que cruza el Bosque de Argénteos, hasta que los Renegados tomaron su vieja cripta como base en el bosque.
+! Tranquilo
+
+## silverpine-forest-bates
+En la cripta de los Renegados entre los pinos, el tabernero ofrece una cama a cada viajero.
+En otro mundo, un hombre con su nombre regentaba un motel tranquilo junto a una carretera solitaria,
+y algunos de sus huéspedes nunca se marcharon.
+Pide una habitación y deja que vea lo que ese nombre te provoca.
+? El Sepulcro, en Bosque de Argénteos. Busca al tabernero y estremécete.
+= Tabernero Bates, en El Sepulcro: "Descansa un rato.".
++ El tabernero de Entrañas se llama Norman. Juntos forman un solo nombre.
 ! Tranquilo
 
 ## quarry

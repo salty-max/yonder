@@ -1,5 +1,5 @@
 ---
-source: d6e7203916cf
+source: f7fefce70299
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -27,4 +27,14 @@ no recaigan sobre él. Ríndele el respeto que su hijo no le dio.
 ? En los jardines de las Ruinas de Lordaeron, sobre Entrañas. Arrodíllate junto a la tumba del rey.
 = "Aquí yace el rey Terenas Menethil II, último rey verdadero de Lordaeron. Grandes fueron sus hazañas, largo su reinado, inconcebible su muerte.".
 + "Que el padre no sea inculpado por los actos de su hijo. Que la corona manchada de sangre permanezca en el olvido.".
+! Tranquilo
+
+## undercity-edward-tyler
+En el Barrio de la Guerra de la ciudad de los muertos, dos hombres pelean desde mucho antes de que llegaras,
+y seguirán peleando mucho después de que te marches. Nadie los detiene. Nadie pregunta por qué.
+Hay una regla para peleas como la suya, y es la primera.
+Respétala.
+? El Barrio de la Guerra, en Entrañas. Junto a los dos hombres que nunca dejan de pelear, guarda silencio.
+= Edward y Tyler, peleando sin fin en el Barrio de la Guerra de Entrañas.
++ En la historia de otro mundo, sus nombres son los de las dos mitades de un mismo hombre, y la primera regla de la pelea es no hablar de ella.
 ! Tranquilo

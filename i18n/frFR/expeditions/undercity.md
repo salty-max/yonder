@@ -1,5 +1,5 @@
 ---
-source: d6e7203916cf
+source: f7fefce70299
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -27,4 +27,14 @@ les actes de son fils. Rendez-lui le respect que son fils ne lui a pas rendu.
 ? Dans les jardins des ruines de Lordaeron, au-dessus de Fossoyeuse. Agenouillez-vous près de la tombe du roi.
 = "Ici repose le roi Terenas Menethil II, le dernier vrai roi de Lordaeron. Ses actes furent grands, son règne fut long, sa mort était impensable."
 + "Que le père ne soit pas souillé par les actions du fils. Que la couronne sanglante reste perdue et oubliée."
+! Calme
+
+## undercity-edward-tyler
+Dans le quartier de la Guerre de la cité des morts, deux hommes se battent depuis bien avant votre arrivée,
+et se battront encore longtemps après votre départ. Personne ne les arrête. Personne ne demande pourquoi.
+Il existe une règle pour ce genre de combat, et c'est la première.
+Respectez-la.
+? Le quartier de la Guerre, à Fossoyeuse. Auprès des deux hommes qui ne cessent de se battre, faites silence.
+= Edward et Tyler, qui se battent sans fin dans le quartier de la Guerre de Fossoyeuse.
++ Dans le récit d'un autre monde, leurs noms sont ceux des deux moitiés d'un même homme, et la première règle du combat est de ne pas en parler.
 ! Calme

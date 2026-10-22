@@ -1,5 +1,5 @@
 ---
-source: 08f3d3228134
+source: 5706628c86a2
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -73,6 +73,16 @@ Frag ihn danach.
 ? Das Bollwerk, am östlichen Rand von Tirisfal. Sprich mit dem Reisenden, der sich zum Aufbruch bereitmacht.
 = Bardu Sharpeye, am Bollwerk: Ein Zauberer hat dem Kreuzzug eine bemerkenswerte Waffe gebaut, so hat er gehört, und der Kreuzzug hat ihn dafür getötet.
 + Im Chillwind-Lager, dem Lager der Allianz, erzählt eine Reisende dieselbe Geschichte: 'Vielleicht brachten sie ihn ja um, um das Geheimnis zu bewahren - oder sie misstrauen dem Arkanen wirklich so sehr.'
+! Ruhig
+
+## tirisfal-glades-party
+Gleich hinter der Gruft, in der die Verlassenen erwachen, feiern vier Hirnlose noch immer ein Fest:
+Die Tische sind umgestürzt, das Essen ist längst kalt, und niemand hat ihnen gesagt, dass es vorbei ist.
+In einer anderen Welt haben ihre Namen, nur ein wenig anders geschrieben, genau darüber Musik gemacht.
+Feiere mit.
+? Östlich von Deathknell, in Tirisfal: die umgestürzten Tische zwischen den Bäumen. Tanze zwischen den vier hirnlosen Gästen.
+= Das Fest der Toten: Daniel Ulfmann, Karrel Grayves, Samuel Fipps und Stephen Bhartec, hirnlos, um ihr umgestürztes Festmahl.
++ Anders geschrieben gehören die vier zu einer Band aus einer anderen Welt, deren bekanntestes Lied vom Fest eines toten Mannes handelt.
 ! Ruhig
 
 ## quarry

@@ -1,5 +1,5 @@
 ---
-source: aa792d1e9dff
+source: 962d2e8d3ed8
 zone: 1424
 ---
 ## hillsbrad-foothills-zixil
@@ -49,6 +49,16 @@ Trouvez ce que leur première grande leçon fit à une armée.
 ? Moulin-de-Tarren. Lisez le livre sur le royaume humain et sa guerre contre les trolls.
 = Arathor et les Guerres trolls, à Moulin-de-Tarren : la bataille se livra au pied des montagnes d'Alterac.
 + Les elfes enseignèrent à cent humains les rudiments de la magie, pas plus que nécessaire. Les trolls ne se relevèrent plus jamais comme une seule nation.
+! Calme
+
+## hillsbrad-foothills-wesley
+Dans la ville de l'Alliance au bord de la mer, un garçon d'écurie garde les bêtes des voyageurs.
+Dans un autre monde, un garçon de ferme au nom presque identique répondait à chaque ordre par trois mots,
+et tous ceux qui l'entendaient savaient qu'ils en cachaient trois autres.
+Répondez-lui par ceux-là.
+? Austrivage, dans les Contreforts de Hautebrande. Trouvez le maître des écuries et montrez-lui votre amour.
+= Wesley, maître des écuries d'Austrivage, qui aide les voyageurs à retrouver leurs compagnons perdus.
++ Les trois mots du garçon de ferme étaient "Comme vous voudrez". Ce qu'il voulait dire, c'était "Je vous aime".
 ! Calme
 
 ## quarry

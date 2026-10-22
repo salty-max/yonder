@@ -24,6 +24,14 @@ riddles:
     quest_overlap: [4821]
     quest_context: "warcraft.wiki.gg says the Young Arikara hatched at Alien Egg's turn-in (Hagar Lightninghoof's quest) kills him, though the dump's turn-in script only spawns the hatchling. Yonder asks a kindness to the post's dog while he stands there, needing no quest or egg."
     sources: "Wowhead's tooltip (Dog <Sire>, level 10, Thunder Bluff; Freewind Post 45.2, 50.4 and 50.6); the dump: the only creature in the game titled Sire, beside Montarr <Lorekeeper>; warcraft.wiki.gg's Dog (Thousand Needles) and Freewind Post pages (the mesa, out of the centaur warbands' reach, its wooden lifts and rope bridges)"
+  - id: thousand-needles-cliff-racer
+    tier: off
+    name: The racer on the cliff
+    landmark: shimmering-flats-cliff-racer   # the client's own placement of the wreck, read from its map files
+    radius: 30
+    hint_area: { x: 89.0, y: 76.0, r: 1.5 }
+    danger: "Quiet"
+    sources: "the pinned client's map files: crashedgoblinrc.m2 (file 197777), unique id 397464, in kalimdor_40_43_obj0.adt, some 42 yards above the flats' floor, placed the same on Forever (wow-data landmark shimmering-flats-cliff-racer, source client-map); the WoWWiki archive's In-jokes and references (games, TV and movies) page, The Phantom Menace (skid marks off the track to a cliff, the racer like Sebulba's hanging halfway up); no creature within 60 yards in the dump"
 quarry:
   id: 5933   # Achellios the Banished
   sources: "the WoWWiki archive's Achellios the Banished page (his three hounds); the dump's path"
@@ -45,6 +53,15 @@ A good dog is owed a kind hand.
 ? Freewind Post, by Montarr the lorekeeper's stall. Pet the dog.
 = Dog, titled Sire, the father of pups: no other creature in Kalimdor or the Eastern Kingdoms carries that title. He keeps to Montarr's stall in Freewind Post.
 + The tauren built their towns on the tallest mesas, out of reach of the centaur warbands, and joined them with wooden lifts and rope bridges.
+
+## thousand-needles-cliff-racer
+East of the goblins' raceway, a pair of skid marks leaves the track and never comes back.
+At the end of them, one racer took the bend far too fast,
+and has been hanging halfway up the cliff ever since.
+Find the racer who never finished.
+? The Shimmering Flats, east of the Mirage Raceway, under the eastern cliffs. Walk to the foot of the cliff, beneath the racer hanging on the rock.
+= The racer on the cliff: a goblin racer crashed halfway up the Shimmering Flats' eastern wall, left where it stopped.
++ The raceway's racers are shaped like the podracers of another world's great desert race, and this one like its most notorious cheat's.
 
 ## quarry
 A centaur called the Banished circles the plateaus of the canyons' west,

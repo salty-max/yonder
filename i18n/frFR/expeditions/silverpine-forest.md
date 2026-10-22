@@ -1,5 +1,5 @@
 ---
-source: c8047be4bda4
+source: 603320191589
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -20,6 +20,16 @@ Demandez-lui ce qu'elle a.
 ? Le Sépulcre, parmi ses marchands : parlez à celle qui vend des champignons.
 = Gwyn Farrow, la marchande de champignons du Sépulcre. Son étal ne propose que des champignons : Tête de champignon sylvestre, Champignon à pois rouges, Morilles spongieuses, Délicieux humus des grottes, Truffe noire brute et Cèpe des rois séché.
 + Le Sépulcre n'était rien de plus qu'un cimetière au bord de la route qui traverse la forêt des Pins argentés, avant que les Réprouvés ne fassent de sa vieille crypte leur base.
+! Calme
+
+## silverpine-forest-bates
+Dans la crypte des Réprouvés au milieu des pins, l'aubergiste offre un lit à chaque voyageur.
+Dans un autre monde, un homme portant son nom tenait un motel tranquille au bord d'une route déserte,
+et certains de ses clients ne sont jamais repartis.
+Prenez une chambre, et laissez-le voir l'effet que ce nom vous fait.
+? Le Sépulcre, dans les Pins argentés. Trouvez l'aubergiste et frissonnez.
+= Aubergiste Bates, au Sépulcre : "Reposez un moment votre carcasse épuisée."
++ L'aubergiste de Fossoyeuse s'appelle Norman. À eux deux, ils forment un seul nom.
 ! Calme
 
 ## quarry

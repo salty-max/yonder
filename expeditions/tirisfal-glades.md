@@ -68,6 +68,17 @@ riddles:
     quest_overlap: [5344]
     quest_context: "The Last Barov sends Alliance players to kill Alexi Barov at the Bulwark, near Bardu Sharpeye. Yonder asks only a word with Bardu, with no kill and no quest."
     sources: "the dump's spawn and his words"
+  - id: tirisfal-glades-party
+    tier: off
+    faction: horde   # Deathknell, the Forsaken's starting ground: their side alone
+    gestures: [DANCE]
+    creature: 1917   # Daniel Ulfman, dump 36.7, 62.1; Karrel Grayves (1918), Samuel Fipps (1919) and Stephen Bhartec (1916) within 15 yards; Wowhead's points alike
+    companions: [1918, 1919, 1916]
+    hint_area: { x: 36.0, y: 62.5, r: 2 }
+    danger: "Quiet"
+    quest_overlap: [6395]
+    quest_context: "Marla's Last Wish asks for Samuel Fipps' remains, and he is one of the four. Yonder asks only for a dance among them, never a kill."
+    sources: "the dump's spawns (four mindless dead, attacking no one, around overturned tables of food and drink east of Deathknell); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Oingo Boingo (Danny Elfman, Carl Graves, Sam Phipps and Steve Bartek, and their song Dead Man's Party); Wowhead's points for Daniel Ulfman"
 quarry:
   id: 10357   # Ressan the Needler
   sources: "the WoWWiki archive's Ressan the Needler and Nightmare Vale pages (its colours, the vale's past); the dump's spawn"
@@ -133,6 +144,15 @@ Ask him about it.
 ? The Bulwark, at Tirisfal's eastern edge. Speak to the traveller preparing to leave.
 = Bardu Sharpeye, at the Bulwark: a wizard made the Crusade a remarkable weapon, he has heard, and the Crusade killed him for it.
 + At Chillwind, the Alliance's camp, a traveller tells the same story: 'Maybe they killed him to keep it a secret... or maybe they distrust the arcane that much.'
+
+## tirisfal-glades-party
+Just past the crypt where the Forsaken first wake, four of the mindless are still at a party:
+the tables are overturned, the food long cold, and no one has told them it ended.
+In another world their names, spelled a little differently, made music about exactly this.
+Join the party.
+? East of Deathknell, in Tirisfal: the overturned tables among the trees. Dance among the four mindless guests.
+= The dead men's party: Daniel Ulfman, Karrel Grayves, Samuel Fipps and Stephen Bhartec, mindless, around their overturned feast.
++ Respelled, the four belong to a band of another world, whose best-known song is about a dead man's party.
 
 ## quarry
 In the withered vale of the south-west, where darkhounds and great bats
