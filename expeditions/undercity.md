@@ -28,7 +28,6 @@ riddles:
     hint_area: { x: 68.6, y: 40.9, r: 8 }
     danger: "Quiet"
     sources: "object 175659's text; the Codex's fall-of-lordaeron page"
-# no quarry: a capital has riddles alone
   - id: undercity-edward-tyler
     tier: near
     faction: horde   # a Horde capital
@@ -39,7 +38,8 @@ riddles:
     danger: "Quiet"
     quest_overlap: [92401]
     quest_context: "Forever's new quest in the Ruins of Lordaeron names its own Edward, Edward Heartweaver, another man. Yonder asks only for silence by the two who fight."
-    sources: "the dump's spawns (Edward and Tyler, facing each other, fighting without end); the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Fight Club, Edward Norton and Tyler Durden); Wowhead's points for both"
+    sources: "the dump's spawns (Edward and Tyler, facing each other, fighting without end); the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Fight Club, Edward Norton, who played the narrator, and Tyler Durden, his other half); Wowhead's points for both"
+# no quarry: a capital has riddles alone
 ---
 ## undercity-kelthuzad-book
 In the city beneath the ruins, seek a preacher whose master spoke from the frozen north.
@@ -70,6 +70,6 @@ In the dead city's war quarter, two men have been fighting since long before you
 and will be fighting long after you leave. Nobody stops them. Nobody asks why.
 There is a rule about fights like theirs, and it is the first one.
 Keep it.
-? The War Quarter, in the Undercity. By the two men who never stop fighting, keep silent.
+? The War Quarter, in the Undercity. By the two men who never stop fighting, call for silence.
 = Edward and Tyler, fighting without end in the Undercity's War Quarter.
-+ In another world's tale, their names belong to the two halves of one man, and the first rule of the fight is that nobody talks about it.
++ In another world's tale, one of their names belongs to the man who played its narrator, the other to the narrator's other half. The first rule of their fight is that nobody talks about it.

@@ -1,5 +1,5 @@
 ---
-source: fa4d38eed43b
+source: fce1a5064790
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -49,11 +49,11 @@ Sie hat eine Bitte an jeden, der zu ihr hinausschwimmt. Lass dein Gesicht für d
 ! Bewacht (Brandungsgleiter und Küstenschreiter, Stufe 48, in den Untiefen)
 
 ## tanaris-jhordy
-In der Stadt der Goblins mitten in der Wüste hat ein Ingenieur mit einem Visier vor den Augen
+In der Stadt der Goblins mitten in der Wüste hat ein Gnomeningenieur mit einem Visier vor den Augen
 eine Maschine gebaut, die einen Reisenden im Nu ans andere Ende der Welt schickt,
 fast immer in einem Stück, und fast immer denselben Reisenden.
-Finde den Mann, der sie gebaut hat.
-? Gadgetzan, in Tanaris: der Ingenieur mit dem Visier, bei der Plattform des Transporters. Sprich mit ihm.
+Vergewissere dich, dass ihr Erbauer noch er selbst ist.
+? Gadgetzan, in Tanaris: der Gnomeningenieur mit dem Visier, bei der Plattform des Transporters. Beäuge ihn misstrauisch.
 = Jhordy Lapforge, Ingenieur von Gadgetzan, und sein Materietransporter.
 + Ingenieuren, die das Gegenstück zu seinem Transporter bauen können, gesteht er den Rest: 'Es gibt wohl einige Berichte, nach denen Personen, die den Transporter benutzt haben, durch Ihr böses Ich aus einem alternativen Paralleluniversum ersetzt wurden. Aber ich denke, dass wir das noch in den Griff kriegen werden...'
 ! Ruhig

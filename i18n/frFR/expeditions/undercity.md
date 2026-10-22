@@ -1,5 +1,5 @@
 ---
-source: f7fefce70299
+source: 4597362a2957
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -34,7 +34,7 @@ Dans le quartier de la Guerre de la cité des morts, deux hommes se battent depu
 et se battront encore longtemps après votre départ. Personne ne les arrête. Personne ne demande pourquoi.
 Il existe une règle pour ce genre de combat, et c'est la première.
 Respectez-la.
-? Le quartier de la Guerre, à Fossoyeuse. Auprès des deux hommes qui ne cessent de se battre, faites silence.
+? Le quartier de la Guerre, à Fossoyeuse. Auprès des deux hommes qui ne cessent de se battre, réclamez le silence.
 = Edward et Tyler, qui se battent sans fin dans le quartier de la Guerre de Fossoyeuse.
-+ Dans le récit d'un autre monde, leurs noms sont ceux des deux moitiés d'un même homme, et la première règle du combat est de ne pas en parler.
++ Dans le récit d'un autre monde, l'un de leurs noms est celui de l'homme qui jouait le narrateur, l'autre celui de l'autre moitié du narrateur. La première règle de leur combat est de ne pas en parler.
 ! Calme

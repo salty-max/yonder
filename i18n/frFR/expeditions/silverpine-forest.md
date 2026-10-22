@@ -1,5 +1,5 @@
 ---
-source: 603320191589
+source: f9fb8a795fb3
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -26,7 +26,7 @@ Demandez-lui ce qu'elle a.
 Dans la crypte des Réprouvés au milieu des pins, l'aubergiste offre un lit à chaque voyageur.
 Dans un autre monde, un homme portant son nom tenait un motel tranquille au bord d'une route déserte,
 et certains de ses clients ne sont jamais repartis.
-Prenez une chambre, et laissez-le voir l'effet que ce nom vous fait.
+Passez à son comptoir, et laissez-le voir l'effet que ce nom vous fait.
 ? Le Sépulcre, dans les Pins argentés. Trouvez l'aubergiste et frissonnez.
 = Aubergiste Bates, au Sépulcre : "Reposez un moment votre carcasse épuisée."
 + L'aubergiste de Fossoyeuse s'appelle Norman. À eux deux, ils forment un seul nom.

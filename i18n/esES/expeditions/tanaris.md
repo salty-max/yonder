@@ -1,5 +1,5 @@
 ---
-source: fa4d38eed43b
+source: fce1a5064790
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -49,11 +49,11 @@ Tiene una petición para quien nade hasta ella. Deja que tu cara conteste a la s
 ! Vigilado (planoleadores y zancacostas de nivel 48 en los bajíos)
 
 ## tanaris-jhordy
-En la ciudad goblin en medio del desierto, un ingeniero con un visor sobre los ojos
+En la ciudad goblin en medio del desierto, un ingeniero gnomo con un visor sobre los ojos
 ha construido una máquina que envía a un viajero al otro lado del mundo en un instante,
 casi siempre de una pieza, y casi siempre al mismo viajero.
-Encuentra al hombre que la construyó.
-? Gadgetzan, en Tanaris: el ingeniero del visor, junto a la plataforma del transportador. Habla con él.
+Asegúrate de que su creador sigue siendo él mismo.
+? Gadgetzan, en Tanaris: el ingeniero gnomo del visor, junto a la plataforma del transportador. Míralo con recelo.
 = Jhordy Lapforge, el ingeniero de Gadgetzan, y su transportador de materia.
 + A los ingenieros capaces de construir su localizador, les confiesa el resto: "También nos han informado de problemas con algunos de los que utilizaban este método de transporte, que eran reemplazados por su parte maligna de un universo alternativo, pero seguro que lo solucionamos pronto..."
 ! Tranquilo

@@ -1,5 +1,5 @@
 ---
-source: 5706628c86a2
+source: 8a7631bce8e8
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -80,7 +80,7 @@ Gleich hinter der Gruft, in der die Verlassenen erwachen, feiern vier Hirnlose n
 Die Tische sind umgestürzt, das Essen ist längst kalt, und niemand hat ihnen gesagt, dass es vorbei ist.
 In einer anderen Welt haben ihre Namen, nur ein wenig anders geschrieben, genau darüber Musik gemacht.
 Feiere mit.
-? Östlich von Deathknell, in Tirisfal: die umgestürzten Tische zwischen den Bäumen. Tanze zwischen den vier hirnlosen Gästen.
+? Am östlichen Rand von Deathknell, in Tirisfal: die umgestürzten Tische zwischen den Bäumen. Tanze zwischen den vier hirnlosen Gästen.
 = Das Fest der Toten: Daniel Ulfmann, Karrel Grayves, Samuel Fipps und Stephen Bhartec, hirnlos, um ihr umgestürztes Festmahl.
 + Anders geschrieben gehören die vier zu einer Band aus einer anderen Welt, deren bekanntestes Lied vom Fest eines toten Mannes handelt.
 ! Ruhig

@@ -1,5 +1,5 @@
 ---
-source: 603320191589
+source: f9fb8a795fb3
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -26,7 +26,7 @@ Frag sie, was sie hat.
 In der Gruft der Verlassenen zwischen den Kiefern bietet der Gastwirt jedem Reisenden ein Bett an.
 In einer anderen Welt führte ein Mann mit seinem Namen ein ruhiges Motel an einer einsamen Straße,
 und manche seiner Gäste reisten nie wieder ab.
-Nimm ein Zimmer, und lass ihn sehen, was der Name mit dir macht.
+Tritt an seinen Tresen, und lass ihn sehen, was der Name mit dir macht.
 ? Das Grabmal, im Silberwald. Finde den Gastwirt und schaudere.
 = Gastwirt Bates, im Grabmal: 'Ruht Eure müden Knochen für einen Zauber aus.'
 + Der Gastwirt von Undercity heißt Norman. Zusammen ergeben sie einen einzigen Namen.

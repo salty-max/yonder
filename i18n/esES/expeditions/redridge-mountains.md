@@ -1,5 +1,5 @@
 ---
-source: ea8d137f6232
+source: 38c794daa34f
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -36,7 +36,7 @@ El relato espera en una página.
 ## redridge-mountains-hooper
 Junto al lago donde pesca la gente de Crestagrana, un instructor de pesca va y viene por la orilla.
 En otro mundo, un experto en tiburones llevaba el nombre que él lleva en otras lenguas, Hooper,
-y le dijo a un sheriff que iban a necesitar un barco más grande.
+y le dijo a un sheriff que aquello no fue un accidente de barco.
 Atrápalo en su ronda.
 ? Villa del Lago, en Montañas Crestagrana: el instructor de pesca va y viene por la orilla junto al embarcadero. Alcánzalo y selecciónalo.
 = Matías Arero, instructor de pesca de Villa del Lago: "Puedo enseñarte a pescar.".

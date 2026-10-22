@@ -55,7 +55,7 @@ Ask her what she has.
 In the Forsaken's crypt among the pines, the innkeeper offers every traveller a bed.
 In another world, a man with his name kept a quiet motel off a lonely road,
 and some of his guests never checked out.
-Take a room, and let him see what the name does to you.
+Call at his counter, and let him see what the name does to you.
 ? The Sepulcher, in Silverpine. Find the innkeeper and shiver.
 = Innkeeper Bates, of the Sepulcher: 'Rest your weary bones for a spell.'
 + The Undercity's innkeeper is called Norman. Together, they make one name.

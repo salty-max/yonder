@@ -1,5 +1,5 @@
 ---
-source: 5706628c86a2
+source: 8a7631bce8e8
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -76,7 +76,7 @@ Justo después de la cripta donde despiertan los Renegados, cuatro descerebrados
 las mesas están volcadas, la comida fría desde hace mucho, y nadie les ha dicho que se acabó.
 En otro mundo, sus nombres, escritos de forma un poco distinta, pusieron música justo a esto.
 Únete a la fiesta.
-? Al este de Camposanto, en Claros de Tirisfal: las mesas volcadas entre los árboles. Baila entre los cuatro invitados descerebrados.
+? En el borde este de Camposanto, en Claros de Tirisfal: las mesas volcadas entre los árboles. Baila entre los cuatro invitados descerebrados.
 = La fiesta de los muertos: Daniel Ulfman, Karrel Grayves, Samuel Fipps y Stephen Bhartec, descerebrados, alrededor de su festín volcado.
 + Escritos de otro modo, los cuatro pertenecen a un grupo de otro mundo, cuya canción más conocida habla de la fiesta de un muerto.
 ! Tranquilo

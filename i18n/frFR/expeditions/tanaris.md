@@ -1,5 +1,5 @@
 ---
-source: fa4d38eed43b
+source: fce1a5064790
 zone: 1446
 ---
 ## tanaris-gadgetzan
@@ -49,11 +49,11 @@ Elle a une seule requête pour qui nage jusqu'à elle. Laissez votre visage lui 
 ! Gardé (glisseurs et marcheurs des côtes, niveau 48, dans les hauts-fonds)
 
 ## tanaris-jhordy
-Dans la ville des gobelins au milieu du désert, un ingénieur à la visière sur les yeux
+Dans la ville des gobelins au milieu du désert, un ingénieur gnome à la visière sur les yeux
 a construit une machine qui envoie un voyageur à l'autre bout du monde en un instant,
 presque toujours en un seul morceau, et presque toujours le même voyageur.
-Trouvez l'homme qui l'a construite.
-? Gadgetzan, à Tanaris : l'ingénieur à la visière, près de la plateforme du transporteur. Parlez-lui.
+Assurez-vous que l'inventeur de la machine est toujours lui-même.
+? Gadgetzan, à Tanaris : l'ingénieur gnome à la visière, près de la plateforme du transporteur. Regardez-le d'un air soupçonneux.
 = Jhordy Lapforge, l'ingénieur de Gadgetzan, et son Transporteur de matière.
 + Aux ingénieurs capables d'en construire la balise, il avoue le reste : "On nous a signalé quelques problèmes de voyageurs remplacés par leur double maléfique venu d'un univers parallèle, mais je suis sûr que nous aurons bientôt corrigé ça..."
 ! Calme

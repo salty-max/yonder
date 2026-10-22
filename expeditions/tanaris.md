@@ -45,11 +45,11 @@ riddles:
     sources: "the WoWWiki archive's Winkey and Southbreak Shore pages; the dump's spawn and words; quest 3823's text (Oralius and his 'Winky')"
   - id: tanaris-jhordy
     tier: near
+    gestures: [EYE, SUSPICIOUS, PEER]
     creature: 14743   # Jhordy Lapforge, Engineer, dump 52.3, 26.9, in Gadgetzan; Wowhead 52.2, 26.8
-    found: target   # in the town: only by speaking to him
     hint_area: { x: 52.0, y: 26.0, r: 2 }
     danger: "Quiet"
-    sources: "the dump's spawn; his gossip and its second page for engineers (broadcast text 9998, the matter transporter and the evil selves); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Star Trek: The Next Generation (Geordi La Forge, chief engineer); Wowhead's point"
+    sources: "the dump's spawn; his gossip and its second page for engineers (broadcast text 9998, the matter transporter and the evil selves); the WoWWiki archive's In-jokes and references (games, TV and movies) page, Star Trek: The Next Generation (Geordi La Forge, chief engineer), and its Kalimdor page (his goggles or visor and yellow shirt); the client's display (a gnome); Wowhead's point"
   - id: tanaris-rocket-car
     tier: off
     name: The car through the mountain
@@ -104,11 +104,11 @@ She has one request for whoever swims out to her. Let your face answer hers.
 + Far away in the Burning Steppes, a dwarf at Morgan's Vigil grabs at the air and shouts at someone called Winky who isn't there. Whether he means her, nobody can say.
 
 ## tanaris-jhordy
-In the goblins' desert town, an engineer with a visor over his eyes
+In the goblins' desert town, a gnome engineer with a visor over his eyes
 has built a machine that sends a traveller across the world in an instant,
 nearly always in one piece, and nearly always the same traveller.
-Find the man who built it.
-? Gadgetzan, in Tanaris: the engineer with the visor, by the transporter pad. Speak to him.
+Make sure its maker is still himself.
+? Gadgetzan, in Tanaris: the gnome engineer with the visor, by the transporter pad. Eye him suspiciously.
 = Jhordy Lapforge, Gadgetzan's engineer, and his Matter Transporter.
 + To engineers who can build its beacon, he admits the rest: 'There have been some reported problems with transportees being replaced by their evil selves from an alternate universe, but I'm sure we will have that worked out soon...'
 

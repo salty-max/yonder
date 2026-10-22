@@ -37,7 +37,7 @@ riddles:
     found: target   # he walks his round: only by catching him
     hint_area: { x: 27.5, y: 51.5, r: 2 }
     danger: "Quiet"
-    sources: "the dump's spawn and path (three points, ten yards apart) and his gossip; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Matt Hooper, the marine biologist in Jaws); Wowhead's points"
+    sources: "the dump's spawn and path (three points, ten yards apart) and his gossip; the WoWWiki archive's In-jokes and references, Eastern Kingdoms page (Matt Hooper, the marine biologist in Jaws, who tells the sheriff it was no boating accident); Wowhead's points"
 quarry:
   id: 14273   # Boulderheart
   sources: "the WoWWiki archive's Boulderheart page (the pass east of the falls); the dump's path and kind (Redridge's only giant)"
@@ -72,7 +72,7 @@ The account waits on a page.
 ## redridge-mountains-hooper
 By the lake where the Redridge folk fish, a fishing trainer paces the shore.
 In another world, a man with his name studied sharks,
-and told a sheriff they were going to need a bigger boat.
+and told a sheriff it was no boating accident.
 Catch him on his rounds.
 ? Lakeshire, in Redridge: the fishing trainer paces the shore by the docks. Catch up and target him.
 = Matthew Hooper, Lakeshire's fishing trainer: 'I can teach you fishing skills.'

@@ -1,5 +1,5 @@
 ---
-source: f7fefce70299
+source: 4597362a2957
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -34,7 +34,7 @@ En el Barrio de la Guerra de la ciudad de los muertos, dos hombres pelean desde 
 y seguirán peleando mucho después de que te marches. Nadie los detiene. Nadie pregunta por qué.
 Hay una regla para peleas como la suya, y es la primera.
 Respétala.
-? El Barrio de la Guerra, en Entrañas. Junto a los dos hombres que nunca dejan de pelear, guarda silencio.
+? El Barrio de la Guerra, en Entrañas. Junto a los dos hombres que nunca dejan de pelear, pide silencio.
 = Edward y Tyler, peleando sin fin en el Barrio de la Guerra de Entrañas.
-+ En la historia de otro mundo, sus nombres son los de las dos mitades de un mismo hombre, y la primera regla de la pelea es no hablar de ella.
++ En la historia de otro mundo, uno de sus nombres es el del actor que interpretó al narrador, y el otro, el de la otra mitad del narrador. La primera regla de su pelea es no hablar de ella.
 ! Tranquilo

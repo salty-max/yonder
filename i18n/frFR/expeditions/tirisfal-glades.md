@@ -1,5 +1,5 @@
 ---
-source: 5706628c86a2
+source: 8a7631bce8e8
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -80,7 +80,7 @@ Juste après la crypte où s'éveillent les Réprouvés, quatre lunatiques sont 
 les tables sont renversées, les mets froids depuis longtemps, et personne ne leur a dit que c'était fini.
 Dans un autre monde, leurs noms, à peine autrement orthographiés, ont mis exactement ceci en musique.
 Joignez-vous à la fête.
-? À l'est du Glas, dans les Clairières de Tirisfal : les tables renversées sous les arbres. Dansez parmi les quatre convives lunatiques.
+? À la lisière est du Glas, dans les Clairières de Tirisfal : les tables renversées sous les arbres. Dansez parmi les quatre convives lunatiques.
 = La fête des morts : Daniel Ulfman, Karrel Grayves, Samuel Fipps et Stephen Bhartec, lunatiques, autour de leur festin renversé.
 + Autrement orthographiés, les quatre appartiennent à un groupe d'un autre monde, dont la chanson la plus connue parle d'une fête de morts.
 ! Calme

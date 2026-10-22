@@ -150,7 +150,7 @@ Just past the crypt where the Forsaken first wake, four of the mindless are stil
 the tables are overturned, the food long cold, and no one has told them it ended.
 In another world their names, spelled a little differently, made music about exactly this.
 Join the party.
-? East of Deathknell, in Tirisfal: the overturned tables among the trees. Dance among the four mindless guests.
+? On Deathknell's eastern edge, in Tirisfal: the overturned tables among the trees. Dance among the four mindless guests.
 = The dead men's party: Daniel Ulfman, Karrel Grayves, Samuel Fipps and Stephen Bhartec, mindless, around their overturned feast.
 + Respelled, the four belong to a band of another world, whose best-known song is about a dead man's party.
 

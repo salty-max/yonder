@@ -1,5 +1,5 @@
 ---
-source: 603320191589
+source: f9fb8a795fb3
 zone: 1421
 ---
 ## silverpine-forest-wallace
@@ -26,7 +26,7 @@ Pregúntale qué tiene.
 En la cripta de los Renegados entre los pinos, el tabernero ofrece una cama a cada viajero.
 En otro mundo, un hombre con su nombre regentaba un motel tranquilo junto a una carretera solitaria,
 y algunos de sus huéspedes nunca se marcharon.
-Pide una habitación y deja que vea lo que ese nombre te provoca.
+Acércate a su mostrador y deja que vea lo que ese nombre te provoca.
 ? El Sepulcro, en Bosque de Argénteos. Busca al tabernero y estremécete.
 = Tabernero Bates, en El Sepulcro: "Descansa un rato.".
 + El tabernero de Entrañas se llama Norman. Juntos forman un solo nombre.

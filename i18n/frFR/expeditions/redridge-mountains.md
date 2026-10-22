@@ -1,5 +1,5 @@
 ---
-source: ea8d137f6232
+source: 38c794daa34f
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -36,7 +36,7 @@ Le récit attend sur une page.
 ## redridge-mountains-hooper
 Près du lac où les gens des Carmines jettent leurs lignes, un maître de pêche fait les cent pas sur la rive.
 Dans un autre monde, un homme portant son nom étudiait les requins,
-et dit à un shérif qu'il leur faudrait un plus gros bateau.
+et dit à un shérif que ce n'était pas un accident de bateau.
 Rattrapez-le pendant sa ronde.
 ? Comté-du-Lac, dans les Carmines : le maître de pêche fait les cent pas sur la rive près des quais. Rattrapez-le et ciblez-le.
 = Matthew Hooper, maître de pêche de Comté-du-Lac : "Je peux vous apprendre à pêcher."

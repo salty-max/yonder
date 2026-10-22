@@ -1,5 +1,5 @@
 ---
-source: ea8d137f6232
+source: 38c794daa34f
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -36,7 +36,7 @@ Der Bericht wartet auf einer Seite.
 ## redridge-mountains-hooper
 Am See, an dem die Leute des Rotkammgebirges fischen, geht ein Angellehrer am Ufer auf und ab.
 In einer anderen Welt erforschte ein Mann mit seinem Namen Haie
-und sagte einem Sheriff, sie würden ein größeres Boot brauchen.
+und sagte einem Sheriff, das sei kein Bootsunfall gewesen.
 Erwische ihn auf seiner Runde.
 ? Seenhain, im Rotkammgebirge: Der Angellehrer geht am Ufer bei den Stegen auf und ab. Hol ihn ein und wähle ihn als Ziel aus.
 = Matthew Hooper, Angellehrer von Seenhain: 'Ihr könnt bei mir Eure Angelfertigkeit verbessern.'

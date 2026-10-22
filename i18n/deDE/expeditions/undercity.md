@@ -1,5 +1,5 @@
 ---
-source: f7fefce70299
+source: 4597362a2957
 zone: 1458
 ---
 ## undercity-kelthuzad-book
@@ -34,7 +34,7 @@ Im Kriegsviertel der Stadt der Toten kämpfen zwei Männer, schon lange bevor du
 und sie werden noch kämpfen, lange nachdem du gegangen bist. Niemand hält sie auf. Niemand fragt, warum.
 Für Kämpfe wie ihren gibt es eine Regel, und es ist die erste.
 Halte dich daran.
-? Das Kriegsviertel, in Undercity. Schweig bei den beiden Männern, die nie aufhören zu kämpfen.
+? Das Kriegsviertel, in Undercity. Fordere von den beiden Männern, die nie aufhören zu kämpfen, Ruhe.
 = Edward und Tyler, die im Kriegsviertel von Undercity ohne Ende kämpfen.
-+ In der Geschichte einer anderen Welt gehören ihre Namen den beiden Hälften ein und desselben Mannes, und die erste Regel des Kampfes lautet, nicht darüber zu sprechen.
++ In der Geschichte einer anderen Welt gehört einer ihrer Namen dem Mann, der den Erzähler spielte, der andere der anderen Hälfte des Erzählers. Die erste Regel ihres Kampfes lautet, nicht darüber zu sprechen.
 ! Ruhig
