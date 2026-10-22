@@ -893,6 +893,22 @@ def main():
     known_quests = classic | {i for (i,) in db("forever").execute("SELECT id FROM quest")}
     norm = lambda x: re.sub(r"[^a-z]", "", x.lower())
     zone_names = {int(z["ID"]): z["Name_lang"] for z in table("UiMap")}
+    # a shared zone's spots, hint circles and haunts must stay on Forever's
+    # map where it differs (its retail bounds clip Classic's edges)
+    for id, v in sorted(riddles.items()):
+        moved = (zones.get(str(v["zone"])) or {}).get("forever")
+        if not moved:
+            continue
+        ax, bx, ay, by = moved["from"]
+        for x, y in list(v.get("spots") or []) + ([v["hint"][:2]] if v.get("hint") else []):
+            if not (0 <= ax * x + bx <= 100 and 0 <= ay * y + by <= 100):
+                errors.append(f"{id}: {x:.1f}, {y:.1f} falls off Forever's map of uiMap {v['zone']}")
+                break
+    for z, v in sorted(quarries.items()):
+        moved = (zones.get(z) or {}).get("forever")
+        if moved and any(not (0 <= moved["from"][0] * x + moved["from"][1] <= 100 and 0 <= moved["from"][2] * y + moved["from"][3] <= 100) for x, y, _ in v["haunts"]):
+            errors.append(f"zone {z}'s quarry: a haunt falls off Forever's map")
+
     npcs, objs = traces("Npc"), traces("Object")
     # (Forever's own zones: their riddles' creatures and objects, against its quests too)
     own = [(f, uimap, r, []) for f, uimap, client, rs, _ in files if client == "forever" for r in rs]
@@ -921,7 +937,11 @@ def main():
                 told.add((r["id"], q))
             if deed(r) != "arrival" or not points:
                 continue
-            near = lambda x, y: any(((x - a) ** 2 + ((y - b) * ASPECT) ** 2) ** 0.5 <= FOREVER_NEAR for a, b in points)
+            # Forever's points are on Forever's map: a shared zone's spots go
+            # onto it first where it differs from Classic's
+            moved = (zones.get(str(uimap)) or {}).get("forever")
+            spots = [(moved["from"][0] * x + moved["from"][1], moved["from"][2] * y + moved["from"][3]) for x, y in points] if moved else points
+            near = lambda x, y, spots=spots: any(((x - a) ** 2 + ((y - b) * ASPECT) ** 2) ** 0.5 <= FOREVER_NEAR for a, b in spots)
             mine = [(x, y) for m, x, y in d["points"] if norm(m) == norm(zone_names.get(uimap, ""))]
             area = zone_area(uimap)
             for k, i in d["ids"]:
