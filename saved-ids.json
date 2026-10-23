@@ -1,19 +1,90 @@
 {
   "//": "The tables naming the ids a journal keeps (creatures, flights, places, catches, finds; Classic's names Forever's with its own laid over, Locale.lua): a regeneration never drops one (bun run ids, in check). An id leaves on purpose only with the user's go: under removed, with why and approved.",
   "tables": {
-    "creatures (Forever)": { "json": "i18n/*/creatures.json", "at": "forever" },
-    "creatures (Classic)": { "json": "i18n/*/creatures.json", "at": ["forever", "classic"] },
-    "flight points (Forever)": { "json": "i18n/*/taxi.json", "at": "forever" },
-    "flight points (Classic)": { "json": "i18n/*/taxi.json", "at": ["forever", "classic"] },
-    "catches": { "json": "i18n/*/catches.json", "at": "" },
-    "building areas (Forever)": { "json": "i18n/*/subzones.json", "at": "forever" },
-    "building areas (Classic)": { "json": "i18n/*/subzones.json", "at": "classic" },
-    "the bestiary's creatures": { "lua": "addon/Yonder/Data_*.lua", "at": "data.creatures" },
-    "areas' English names": { "lua": "addon/Yonder/Data_*.lua", "at": "data.atlas.areaNames" },
-    "flight points' zones": { "lua": "addon/Yonder/Data_*.lua", "at": "data.atlas.taxiZone" },
-    "fish": { "lua": "addon/Yonder/Data_*.lua", "at": "data.flora.fish" },
-    "herbs": { "lua": "addon/Yonder/Data_*.lua", "at": "data.flora.herbs" },
-    "materials": { "lua": "addon/Yonder/Data_*.lua", "at": "data.materials.items" }
+    "creatures (Forever)": {
+      "json": "i18n/*/creatures.json",
+      "at": "forever"
+    },
+    "creatures (Classic)": {
+      "json": "i18n/*/creatures.json",
+      "at": [
+        "forever",
+        "classic"
+      ]
+    },
+    "flight points (Forever)": {
+      "json": "i18n/*/taxi.json",
+      "at": "forever"
+    },
+    "flight points (Classic)": {
+      "json": "i18n/*/taxi.json",
+      "at": [
+        "forever",
+        "classic"
+      ]
+    },
+    "catches": {
+      "json": "i18n/*/catches.json",
+      "at": ""
+    },
+    "building areas (Forever)": {
+      "json": "i18n/*/subzones.json",
+      "at": "forever"
+    },
+    "building areas (Classic)": {
+      "json": "i18n/*/subzones.json",
+      "at": "classic"
+    },
+    "the bestiary's creatures": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.creatures"
+    },
+    "areas' English names": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.atlas.areaNames"
+    },
+    "flight points' zones": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.atlas.taxiZone"
+    },
+    "fish": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.flora.fish"
+    },
+    "herbs": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.flora.herbs"
+    },
+    "materials": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.materials.items"
+    },
+    "atlas zones": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.atlas.zones"
+    },
+    "rare zones": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.rareZones"
+    },
+    "expedition zones": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.expeditions"
+    },
+    "riddles": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.expeditions.*.riddles.*.id"
+    },
+    "quarries": {
+      "lua": "addon/Yonder/Data_*.lua",
+      "at": "data.expeditions.*.quarry.id"
+    }
+  },
+  "unlisted": {
+    "data/zones-*.json": "Build input for the Atlas, whose zone ids ship in Data_*.lua as data.atlas.zones, listed as atlas zones",
+    "data/rare-zones.json": "Build input that files Classic rares under zones, shipped as data.rareZones (listed), and a saved rare decodes through data.creatures (listed)",
+    "data/rare-zones-forever.json": "Build input for Forever's new rares, shipped as data.rareZones (listed), and a saved Forever rare is filed from what the game says, not from a table",
+    "data/expeditions.json": "Build input for the riddles and quarries, whose zones, riddle ids and quarry ids ship in Data_*.lua as data.expeditions (listed)"
   },
   "removed": []
 }
