@@ -317,7 +317,7 @@ ns.translate({
     ["Gears and Grinding"] = "Engranajes y chirridos",
     ["Gem"] = "Gema",
     ["Gems"] = "Gemas",
-    ["Give a code"] = "Introduce un código",
+    ["Give a code"] = "Generar un código",
     ["Gold"] = "Oro",
     ["Grave Matters"] = "Asuntos de ultratumba",
     ["Green Thumb"] = "Buena mano para las plantas",
