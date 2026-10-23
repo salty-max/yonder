@@ -126,6 +126,10 @@
    "forever": "Démon",
    "use": "Démon"
   },
+  "Earthen Ring": {
+   "forever": "Cercle terrestre",
+   "use": "Cercle terrestre"
+  },
   "Elemental": {
    "classic": "Elémentaire",
    "forever": "Elémentaire",
@@ -544,6 +548,11 @@
    "forever": "Daisy",
    "use": "Daisy"
   },
+  "Daniel Ulfman": {
+   "classic": "Daniel Ulfman",
+   "forever": "Daniel Ulfman",
+   "use": "Daniel Ulfman"
+  },
   "Darianna": {
    "classic": "Darianna",
    "forever": "Darianna",
@@ -602,6 +611,15 @@
    "classic": "Fermier Nain",
    "forever": "Fermier Nain",
    "use": "Fermier Nain"
+  },
+  "Edward": {
+   "classic": "Edward",
+   "forever": "Edward",
+   "use": "Edward"
+  },
+  "Edward Heartweaver": {
+   "forever": "Edward Tissecœur",
+   "use": "Edward Tissecœur"
   },
   "Edwin VanCleef": {
    "classic": "Edwin VanCleef",
@@ -683,10 +701,20 @@
    "forever": "Glibb",
    "use": "Glibb"
   },
+  "Gnaz Blunderflame": {
+   "classic": "Gnaz Blunderflame",
+   "forever": "Gnaz Blunderflame",
+   "use": "Gnaz Blunderflame"
+  },
   "Golhine the Hooded": {
    "classic": "Golhine l'Encapuchonné",
    "forever": "Golhine l'Encapuchonné",
    "use": "Golhine l'Encapuchonné"
+  },
+  "Gorkas": {
+   "classic": "Gorkas",
+   "forever": "Gorkas",
+   "use": "Gorkas"
   },
   "Granistad": {
    "classic": "Granistad",
@@ -707,6 +735,11 @@
    "classic": "Griniblix le Spectateur",
    "forever": "Griniblix le Spectateur",
    "use": "Griniblix le Spectateur"
+  },
+  "Grizzlowe": {
+   "classic": "Grizzlowe",
+   "forever": "Grizzlowe",
+   "use": "Grizzlowe"
   },
   "Gubber Blump": {
    "classic": "Gubber Blump",
@@ -801,10 +834,20 @@
    "forever": "Immolatus",
    "use": "Immolatus"
   },
+  "Innkeeper Bates": {
+   "classic": "Aubergiste Bates",
+   "forever": "Aubergiste Bates",
+   "use": "Aubergiste Bates"
+  },
   "Innkeeper Keldamyr": {
    "classic": "Keldamyr l'aubergiste",
    "forever": "Keldamyr l'aubergiste",
    "use": "Keldamyr l'aubergiste"
+  },
+  "Innkeeper Norman": {
+   "classic": "Norman l'aubergiste",
+   "forever": "Norman l'aubergiste",
+   "use": "Norman l'aubergiste"
   },
   "Isaac Pearson": {
    "classic": "Isaac Pearson",
@@ -821,6 +864,11 @@
    "forever": "Jack Sterling",
    "use": "Jack Sterling"
   },
+  "Jhordy Lapforge": {
+   "classic": "Jhordy Lapforge",
+   "forever": "Jhordy Lapforge",
+   "use": "Jhordy Lapforge"
+  },
   "Jordan Stilwell": {
    "classic": "Jordan Stilwell",
    "forever": "Jordan Stilwell",
@@ -830,6 +878,11 @@
    "classic": "Kaela Shadowspear",
    "forever": "Kaela Shadowspear",
    "use": "Kaela Shadowspear"
+  },
+  "Karrel Grayves": {
+   "classic": "Karrel Grayves",
+   "forever": "Karrel Grayves",
+   "use": "Karrel Grayves"
   },
   "Keeper Remulos": {
    "classic": "Gardien Remulos",
@@ -936,6 +989,10 @@
    "forever": "Seigneur Malathrom",
    "use": "Seigneur Malathrom"
   },
+  "Lumina Windsinger": {
+   "forever": "Lumina Chantelevent",
+   "use": "Lumina Chantelevent"
+  },
   "Maddened Rotclaw": {
    "forever": "Griffe pourrie affolée",
    "use": "Griffe pourrie affolée"
@@ -969,6 +1026,11 @@
    "classic": "Mathredis Firestar",
    "forever": "Mathredis Firestar",
    "use": "Mathredis Firestar"
+  },
+  "Matthew Hooper": {
+   "classic": "Matthew Hooper",
+   "forever": "Matthew Hooper",
+   "use": "Matthew Hooper"
   },
   "Mechanical Dragonling": {
    "classic": "Petit dragon mécanique",
@@ -1164,6 +1226,16 @@
    "forever": "Tambour Revantusk",
    "use": "Tambour Revantusk"
   },
+  "Ridge Stalker": {
+   "classic": "Traqueur des crêtes",
+   "forever": "Traqueur des crêtes",
+   "use": "Traqueur des crêtes"
+  },
+  "Ridge Stalker Patriarch": {
+   "classic": "Patriarche Traqueur des récifs",
+   "forever": "Patriarche Traqueur des récifs",
+   "use": "Patriarche Traqueur des récifs"
+  },
   "Rifleman Middlecamp": {
    "classic": "Fusilier Middlecamp",
    "forever": "Fusilier Middlecamp",
@@ -1204,10 +1276,20 @@
    "forever": "Salma Saldean",
    "use": "Salma Saldean"
   },
+  "Samuel Fipps": {
+   "classic": "Samuel Fipps",
+   "forever": "Samuel Fipps",
+   "use": "Samuel Fipps"
+  },
   "Saru Steelfury": {
    "classic": "Saru Steelfury",
    "forever": "Saru Steelfury",
    "use": "Saru Steelfury"
+  },
+  "Scorpid Tail Lasher": {
+   "classic": "Scorpide flagellant",
+   "forever": "Scorpide flagellant",
+   "use": "Scorpide flagellant"
   },
   "Sergeant Carnes": {
    "classic": "Sergent Carnes",
@@ -1298,6 +1380,11 @@
    "forever": "Snarlmane",
    "use": "Snarlmane"
   },
+  "Spirit Healer": {
+   "classic": "Gardien des âmes",
+   "forever": "Gardien des âmes",
+   "use": "Gardien des âmes"
+  },
   "Spotter Klemmy": {
    "classic": "Eclaireur Klemmy",
    "forever": "Eclaireur Klemmy",
@@ -1308,10 +1395,20 @@
    "forever": "Fée fléchetteuse",
    "use": "Fée fléchetteuse"
   },
+  "Starving Blisterpaw": {
+   "classic": "Brûlepatte affamée",
+   "forever": "Brûlepatte affamée",
+   "use": "Brûlepatte affamée"
+  },
   "Stephanie Turner": {
    "classic": "Stephanie Turner",
    "forever": "Stephanie Turner",
    "use": "Stephanie Turner"
+  },
+  "Stephen Bhartec": {
+   "classic": "Stephen Bhartec",
+   "forever": "Stephen Bhartec",
+   "use": "Stephen Bhartec"
   },
   "Stone Keeper": {
    "classic": "Gardien des pierres",
@@ -1376,6 +1473,11 @@
    "classic": "Theresa",
    "forever": "Theresa",
    "use": "Theresa"
+  },
+  "Thule Ravenclaw": {
+   "classic": "Thule Ravenclaw",
+   "forever": "Thule Ravenclaw",
+   "use": "Thule Ravenclaw"
   },
   "Timber": {
    "classic": "Grumeux",
@@ -1492,10 +1594,20 @@
    "forever": "Wenna Silkbeard",
    "use": "Wenna Silkbeard"
   },
+  "Wesley": {
+   "classic": "Wesley",
+   "forever": "Wesley",
+   "use": "Wesley"
+  },
   "White Kitten": {
    "classic": "Chaton blanc",
    "forever": "Chaton blanc",
    "use": "Chaton blanc"
+  },
+  "Wind Rider": {
+   "classic": "Cavalier céleste",
+   "forever": "Cavalier céleste",
+   "use": "Cavalier céleste"
   },
   "Winkey": {
    "classic": "Winkey",
@@ -2158,6 +2270,11 @@
    "forever": "Gangrebois",
    "use": "Gangrebois"
   },
+  "Fenris Isle": {
+   "classic": "Ile de Fenris",
+   "forever": "Ile de Fenris",
+   "use": "Ile de Fenris"
+  },
   "Fenris Keep": {
    "classic": "Donjon de Fenris",
    "forever": "Donjon de Fenris",
@@ -2534,6 +2651,11 @@
    "forever": "Morlos'Aran",
    "use": "Morlos'Aran"
   },
+  "Mosh'Ogg Ogre Mound": {
+   "classic": "Tertre des ogres Mosh'Ogg",
+   "forever": "Tertre des ogres Mosh'Ogg",
+   "use": "Tertre des ogres Mosh'Ogg"
+  },
   "Mount Hyjal": {
    "forever": "Mont Hyjal",
    "use": "Mont Hyjal"
@@ -2861,6 +2983,11 @@
    "forever": "Noirchagrin",
    "use": "Noirchagrin"
   },
+  "South Seas": {
+   "classic": "Mers du sud",
+   "forever": "Mers du sud",
+   "use": "Mers du sud"
+  },
   "Southbreak Shore": {
    "classic": "Rivage de Brisesud",
    "forever": "Rivage de Brisesud",
@@ -3100,6 +3227,11 @@
    "forever": "La Rive sombre",
    "use": "La Rive sombre"
   },
+  "The Dawning Isles": {
+   "classic": "Les îles de l'aube",
+   "forever": "Les îles de l'aube",
+   "use": "Les îles de l'aube"
+  },
   "The Dead Acre": {
    "classic": "L'acre mort",
    "forever": "L'acre mort",
@@ -3210,6 +3342,11 @@
   "The Overlook": {
    "forever": "Le Surplomb",
    "use": "Le Surplomb"
+  },
+  "The Overlook Cliffs": {
+   "classic": "Les Hauts-Surplombs",
+   "forever": "Les Hauts-Surplombs",
+   "use": "Les Hauts-Surplombs"
   },
   "The Pillar of Ash": {
    "classic": "Le Pilier de cendres",
@@ -3620,6 +3757,10 @@
    "forever": "Druide du Croc",
    "use": "Druide du Croc"
   },
+  "Earthen Ring": {
+   "forever": "Cercle terrestre",
+   "use": "Cercle terrestre"
+  },
   "Emerald Circle": {
    "classic": "Cercle d'émeraude",
    "forever": "Cercle d'émeraude",
@@ -3639,6 +3780,11 @@
    "classic": "Artisan du cuir - Expert",
    "forever": "Artisan du cuir - Expert",
    "use": "Artisan du cuir - Expert"
+  },
+  "Fishing Trainer": {
+   "classic": "Maître des pêcheurs",
+   "forever": "Maître des pêcheurs",
+   "use": "Maître des pêcheurs"
   },
   "Gerard's Mindslave": {
    "classic": "Expérience de Gerard",
@@ -3745,6 +3891,15 @@
    "forever": "Fournitures spéciales",
    "use": "Fournitures spéciales"
   },
+  "Spirit Healer": {
+   "forever": "Gardien des âmes",
+   "use": "Gardien des âmes"
+  },
+  "Stable Master": {
+   "classic": "Maître des écuries",
+   "forever": "Maître des écuries",
+   "use": "Maître des écuries"
+  },
   "Stonesplinter Chieftain": {
    "classic": "Chef des Brisepierres",
    "forever": "Chef des Brisepierres",
@@ -3759,6 +3914,10 @@
    "classic": "Le Cercle cénarien",
    "forever": "Le Cercle cénarien",
    "use": "Le Cercle cénarien"
+  },
+  "The Earthen Ring": {
+   "classic": "Le Cercle terrestre",
+   "use": "Le Cercle terrestre"
   },
   "The Mithril Order": {
    "classic": "L'ordre du Mithril",
@@ -3809,6 +3968,11 @@
    "classic": "Marchand d'armes",
    "forever": "Marchand d'armes",
    "use": "Marchand d'armes"
+  },
+  "Wind Rider Master": {
+   "classic": "Maître des Cavaliers célestes",
+   "forever": "Maître des Cavaliers célestes",
+   "use": "Maître des Cavaliers célestes"
   },
   "Zeppelin Master": {
    "classic": "Maître des zeppelins",

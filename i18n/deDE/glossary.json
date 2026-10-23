@@ -123,6 +123,10 @@
    "forever": "Dämon",
    "use": "Dämon"
   },
+  "Earthen Ring": {
+   "forever": "Der Irdene Ring",
+   "use": "Der Irdene Ring"
+  },
   "Elemental": {
    "classic": "Elementar",
    "forever": "Elementar",
@@ -546,6 +550,11 @@
    "forever": "Daisy",
    "use": "Daisy"
   },
+  "Daniel Ulfman": {
+   "classic": "Daniel Ulfmann",
+   "forever": "Daniel Ulfmann",
+   "use": "Daniel Ulfmann"
+  },
   "Darianna": {
    "classic": "Darianna",
    "forever": "Darianna",
@@ -604,6 +613,15 @@
    "classic": "Zwergenbauer",
    "forever": "Zwergenbauer",
    "use": "Zwergenbauer"
+  },
+  "Edward": {
+   "classic": "Edward",
+   "forever": "Edward",
+   "use": "Edward"
+  },
+  "Edward Heartweaver": {
+   "forever": "Edward Heartweaver",
+   "use": "Edward Heartweaver"
   },
   "Edwin VanCleef": {
    "classic": "Edwin van Cleef",
@@ -685,10 +703,20 @@
    "forever": "Glibb",
    "use": "Glibb"
   },
+  "Gnaz Blunderflame": {
+   "classic": "Gnaz Blunderflame",
+   "forever": "Gnaz Blunderflame",
+   "use": "Gnaz Blunderflame"
+  },
   "Golhine the Hooded": {
    "classic": "Golhine der Kapuzenträger",
    "forever": "Golhine der Kapuzenträger",
    "use": "Golhine der Kapuzenträger"
+  },
+  "Gorkas": {
+   "classic": "Gorkas",
+   "forever": "Gorkas",
+   "use": "Gorkas"
   },
   "Granistad": {
    "classic": "Granistad",
@@ -709,6 +737,11 @@
    "classic": "Griniblix der Beobachter",
    "forever": "Griniblix der Beobachter",
    "use": "Griniblix der Beobachter"
+  },
+  "Grizzlowe": {
+   "classic": "Grizzlowe",
+   "forever": "Grizzlowe",
+   "use": "Grizzlowe"
   },
   "Gubber Blump": {
    "classic": "Gubber Blump",
@@ -803,10 +836,20 @@
    "forever": "Korruptus",
    "use": "Korruptus"
   },
+  "Innkeeper Bates": {
+   "classic": "Gastwirt Bates",
+   "forever": "Gastwirt Bates",
+   "use": "Gastwirt Bates"
+  },
   "Innkeeper Keldamyr": {
    "classic": "Gastwirt Keldamyr",
    "forever": "Gastwirt Keldamyr",
    "use": "Gastwirt Keldamyr"
+  },
+  "Innkeeper Norman": {
+   "classic": "Gastwirt Norman",
+   "forever": "Gastwirt Norman",
+   "use": "Gastwirt Norman"
   },
   "Isaac Pearson": {
    "classic": "Isaac Pearson",
@@ -823,6 +866,11 @@
    "forever": "Jack Sterling",
    "use": "Jack Sterling"
   },
+  "Jhordy Lapforge": {
+   "classic": "Jhordy Lapforge",
+   "forever": "Jhordy Lapforge",
+   "use": "Jhordy Lapforge"
+  },
   "Jordan Stilwell": {
    "classic": "Jordan Stilwell",
    "forever": "Jordan Stilwell",
@@ -832,6 +880,11 @@
    "classic": "Kaela Shadowspear",
    "forever": "Kaela Shadowspear",
    "use": "Kaela Shadowspear"
+  },
+  "Karrel Grayves": {
+   "classic": "Karrel Grayves",
+   "forever": "Karrel Grayves",
+   "use": "Karrel Grayves"
   },
   "Keeper Remulos": {
    "classic": "Bewahrer Remulos",
@@ -938,6 +991,10 @@
    "forever": "Lord Malathrom",
    "use": "Lord Malathrom"
   },
+  "Lumina Windsinger": {
+   "forever": "Lumina Windsinger",
+   "use": "Lumina Windsinger"
+  },
   "Maddened Rotclaw": {
    "forever": "Wahnsinnige Moderklaue",
    "use": "Wahnsinnige Moderklaue"
@@ -971,6 +1028,11 @@
    "classic": "Mathredis Firestar",
    "forever": "Mathredis Firestar",
    "use": "Mathredis Firestar"
+  },
+  "Matthew Hooper": {
+   "classic": "Matthew Hooper",
+   "forever": "Matthew Hooper",
+   "use": "Matthew Hooper"
   },
   "Mechanical Dragonling": {
    "classic": "Mechanischer Drachling",
@@ -1166,6 +1228,16 @@
    "forever": "Trommler der Revantusk",
    "use": "Trommler der Revantusk"
   },
+  "Ridge Stalker": {
+   "classic": "Kammpirscher",
+   "forever": "Kammpirscher",
+   "use": "Kammpirscher"
+  },
+  "Ridge Stalker Patriarch": {
+   "classic": "Kammpirscherpatriarch",
+   "forever": "Kammpirscherpatriarch",
+   "use": "Kammpirscherpatriarch"
+  },
   "Rifleman Middlecamp": {
    "classic": "Scharfschütze Middlecamp",
    "forever": "Scharfschütze Middlecamp",
@@ -1206,10 +1278,20 @@
    "forever": "Salma Saldean",
    "use": "Salma Saldean"
   },
+  "Samuel Fipps": {
+   "classic": "Samuel Fipps",
+   "forever": "Samuel Fipps",
+   "use": "Samuel Fipps"
+  },
   "Saru Steelfury": {
    "classic": "Saru Steelfury",
    "forever": "Saru Steelfury",
    "use": "Saru Steelfury"
+  },
+  "Scorpid Tail Lasher": {
+   "classic": "Skorpidschwanzpeitscher",
+   "forever": "Skorpidschwanzpeitscher",
+   "use": "Skorpidschwanzpeitscher"
   },
   "Sergeant Carnes": {
    "classic": "Sergeant Carnes",
@@ -1300,6 +1382,11 @@
    "forever": "Knurrmähne",
    "use": "Knurrmähne"
   },
+  "Spirit Healer": {
+   "classic": "Geistheiler",
+   "forever": "Geistheiler",
+   "use": "Geistheiler"
+  },
   "Spotter Klemmy": {
    "classic": "Späher Klemmy",
    "forever": "Späher Klemmy",
@@ -1310,10 +1397,20 @@
    "forever": "Grimmlingflitzer",
    "use": "Grimmlingflitzer"
   },
+  "Starving Blisterpaw": {
+   "classic": "Verhungernde Eiterpfote",
+   "forever": "Verhungernde Eiterpfote",
+   "use": "Verhungernde Eiterpfote"
+  },
   "Stephanie Turner": {
    "classic": "Stephanie Turner",
    "forever": "Stephanie Turner",
    "use": "Stephanie Turner"
+  },
+  "Stephen Bhartec": {
+   "classic": "Stephen Bhartec",
+   "forever": "Stephen Bhartec",
+   "use": "Stephen Bhartec"
   },
   "Stone Keeper": {
    "classic": "Steinbewahrer",
@@ -1378,6 +1475,11 @@
    "classic": "Theresa",
    "forever": "Theresa",
    "use": "Theresa"
+  },
+  "Thule Ravenclaw": {
+   "classic": "Thule Rabenklaue",
+   "forever": "Thule Rabenklaue",
+   "use": "Thule Rabenklaue"
   },
   "Timber": {
    "classic": "Holzplanke",
@@ -1494,10 +1596,20 @@
    "forever": "Wenna Silkbeard",
    "use": "Wenna Silkbeard"
   },
+  "Wesley": {
+   "classic": "Wesley",
+   "forever": "Wesley",
+   "use": "Wesley"
+  },
   "White Kitten": {
    "classic": "Weißes Kätzchen",
    "forever": "Weißes Kätzchen",
    "use": "Weißes Kätzchen"
+  },
+  "Wind Rider": {
+   "classic": "Windreiter",
+   "forever": "Windreiter",
+   "use": "Windreiter"
   },
   "Winkey": {
    "classic": "Winkey",
@@ -2160,6 +2272,11 @@
    "forever": "Teufelswald",
    "use": "Teufelswald"
   },
+  "Fenris Isle": {
+   "classic": "Insel Fenris",
+   "forever": "Insel Fenris",
+   "use": "Insel Fenris"
+  },
   "Fenris Keep": {
    "classic": "Burg Fenris",
    "forever": "Burg Fenris",
@@ -2536,6 +2653,11 @@
    "forever": "Morlos'Aran",
    "use": "Morlos'Aran"
   },
+  "Mosh'Ogg Ogre Mound": {
+   "classic": "Ogerhügel der Mosh'Ogg",
+   "forever": "Ogerhügel der Mosh'Ogg",
+   "use": "Ogerhügel der Mosh'Ogg"
+  },
   "Mount Hyjal": {
    "forever": "Hyjal",
    "use": "Hyjal"
@@ -2863,6 +2985,11 @@
    "forever": "Sorrowmurk",
    "use": "Sorrowmurk"
   },
+  "South Seas": {
+   "classic": "Die südlichen Meere",
+   "forever": "Die südlichen Meere",
+   "use": "Die südlichen Meere"
+  },
   "Southbreak Shore": {
    "classic": "Southbreak Shore",
    "forever": "Southbreak Shore",
@@ -3102,6 +3229,11 @@
    "forever": "Das Dunkle Ufer",
    "use": "Das Dunkle Ufer"
   },
+  "The Dawning Isles": {
+   "classic": "Die Morgeninseln",
+   "forever": "Die Morgeninseln",
+   "use": "Die Morgeninseln"
+  },
   "The Dead Acre": {
    "classic": "Der Todesacker",
    "forever": "Der Todesacker",
@@ -3212,6 +3344,11 @@
   "The Overlook": {
    "forever": "Der Rundblick",
    "use": "Der Rundblick"
+  },
+  "The Overlook Cliffs": {
+   "classic": "Die Aussichtsklippen",
+   "forever": "Die Aussichtsklippen",
+   "use": "Die Aussichtsklippen"
   },
   "The Pillar of Ash": {
    "classic": "Die Aschensäule",
@@ -3622,6 +3759,10 @@
    "forever": "Druide des Giftzahns",
    "use": "Druide des Giftzahns"
   },
+  "Earthen Ring": {
+   "forever": "Der Irdene Ring",
+   "use": "Der Irdene Ring"
+  },
   "Emerald Circle": {
    "classic": "Smaragdkreis",
    "forever": "Smaragdkreis",
@@ -3641,6 +3782,11 @@
    "classic": "Ledermacherexperte",
    "forever": "Ledermacherexperte",
    "use": "Ledermacherexperte"
+  },
+  "Fishing Trainer": {
+   "classic": "Angellehrer",
+   "forever": "Angellehrer",
+   "use": "Angellehrer"
   },
   "Gerard's Mindslave": {
    "classic": "Gerards Experiment",
@@ -3747,6 +3893,15 @@
    "forever": "Spezialwaren",
    "use": "Spezialwaren"
   },
+  "Spirit Healer": {
+   "forever": "Geistheiler",
+   "use": "Geistheiler"
+  },
+  "Stable Master": {
+   "classic": "Stallmeister",
+   "forever": "Stallmeister",
+   "use": "Stallmeister"
+  },
   "Stonesplinter Chieftain": {
    "classic": "Häuptling der Splittersteintroggs",
    "forever": "Häuptling der Splittersteintroggs",
@@ -3761,6 +3916,10 @@
    "classic": "Der Zirkel des Cenarius",
    "forever": "Der Zirkel des Cenarius",
    "use": "Der Zirkel des Cenarius"
+  },
+  "The Earthen Ring": {
+   "classic": "Der irdene Ring",
+   "use": "Der irdene Ring"
   },
   "The Mithril Order": {
    "classic": "Der Mithrilorden",
@@ -3811,6 +3970,11 @@
    "classic": "Waffenanbieter",
    "forever": "Waffenanbieter",
    "use": "Waffenanbieter"
+  },
+  "Wind Rider Master": {
+   "classic": "Windreitermeister",
+   "forever": "Windreitermeister",
+   "use": "Windreitermeister"
   },
   "Zeppelin Master": {
    "classic": "Zeppelinmeister",
