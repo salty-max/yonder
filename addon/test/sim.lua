@@ -819,7 +819,7 @@ check(
 )
 check(
   ns.earnedMilestone("trophies-1")
-    and said("achievement earned: |cffffd100|Hyonder:mtrophies-1|h[First Trophy]|h|r")
+    and said("Achievement earned: |cffffd100|Hyonder:mtrophies-1|h[First Trophy]|h|r.")
     and played[12891],
   "… and the first trophy earns a milestone, with the game's achievement fanfare and a chat line"
 )

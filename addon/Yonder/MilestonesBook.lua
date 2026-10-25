@@ -6,7 +6,6 @@
 -- Milestones: Achievements.lua.
 local _, ns = ...
 local L = ns.kit.L
-local ui = ns.ui
 
 -- (each group: its id, its heading, its picture, the figure it counts in)
 local GROUPS = {
@@ -29,56 +28,21 @@ local FIGURES = {
   { "land", L["of the land"] },
   { "expeditions", L["of the expeditions"] },
 }
-local book, panel, board
 ns.milestoneRows = {} -- for the tests
-local picked -- a milestone opened from chat or its banner: picked out, in view
 
--- The milestones shown (none of a type or zone not met yet: no spoilers).
-local function items()
-  local out = {}
-  for _, m in ipairs(ns.milestones) do
-    if ns.milestoneVisible(m) then
-      table.insert(out, {
-        id = m.id,
-        group = m.group,
-        title = m.title,
-        text = m.text,
-        earned = ns.earnedMilestone(m.id),
-        progress = m.progress,
-      })
-    end
-  end
-  return out
-end
-
-local function refresh()
-  book.count:SetText(L["%d of %d achievements"]:format(ns.milestoneCount()))
-  board:refresh(picked)
-end
-
-ns.addTab(ns.TAB.milestones, {
-  whole = true,
-  build = function(b)
-    book = b
-    panel = ui.panel(book)
-    panel:SetPoint("TOPLEFT", book.left, "TOPLEFT")
-    panel:SetPoint("BOTTOMRIGHT", book.sheet, "BOTTOMRIGHT")
-    board = ns.kit.board({
-      parent = panel,
-      name = "YonderMilestones",
-      groups = GROUPS,
-      figures = FIGURES,
-      items = items,
-      rows = ns.milestoneRows,
-    })
-  end,
-  show = function(n) panel:SetShown(n == ns.TAB.milestones) end,
-  chosen = function() picked = nil end,
-  refresh = refresh,
+-- (the kit's tab, K.deedsTab: its board over both panels and the count; none
+-- of a type or zone not met yet, no spoilers)
+local tab = ns.kit.deedsTab(ns.deeds, {
+  name = "YonderMilestones",
+  groups = GROUPS,
+  figures = FIGURES,
+  rows = ns.milestoneRows,
+  n = ns.TAB.milestones,
 })
+ns.addTab(ns.TAB.milestones, tab.tab)
 
 -- Open the book at the milestones, one of them picked out.
 function ns.openMilestones(id)
-  picked = id
+  tab:pick(id)
   ns.openTab(ns.TAB.milestones)
 end

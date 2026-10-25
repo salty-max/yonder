@@ -288,47 +288,36 @@ end
 local USAGE =
   L["/yonder opens the book, /yonder settings its settings. /yonder minimap shows or hides the button. /yonder welcome shows the welcome page again. /yonder export gives this character's settings as a code, and /yonder import CODE takes them. /yonder reset starts this character's journal over. /yonder where tells the map and your position on it. /yonder probe describes the next loot window, as the game shows it. /yonder toast shows a riddle's banner, as it would come."]
 
-SLASH_YONDER1 = "/yonder"
-SlashCmdList.YONDER = function(msg)
-  local raw = strtrim(msg or "")
-  msg = raw:lower()
-  if msg == "" then
-    ns.toggle()
-  elseif msg == "reset" then
-    print(
-      PREFIX
-        .. L["this forgets everything this character has recorded: its creatures, the Atlas, its finds, its riddles, its achievements. Type /yonder reset yes to do it."]
-    )
-  elseif msg == "reset yes" then
-    newJournal(char.guid)
-    ns.refreshFindsProfessions()
-    ns.refresh()
-    print(PREFIX .. L["the journal starts afresh."])
-  elseif msg == "welcome" then
-    ns.showWelcome()
-  elseif msg == "export" then
-    ns.showWelcome("export")
-  elseif msg:match("^import%s") then
-    if ns.profiles:import(raw:match("^%a+%s+(.+)$")) then
-      print(PREFIX .. L["settings imported for this character."])
-    else
-      print(PREFIX .. L["that isn't a Yonder settings code (/yonder export makes one)."])
-    end
-  elseif msg == "atlas" then
-    ns.atlasReport()
-  elseif msg == "where" then
-    ns.whereReport()
-  elseif msg == "probe" then
-    ns.lootProbe()
-  elseif msg == "toast achievement" then
-    ns.toastTest("milestone")
-  elseif msg == "toast" then
-    ns.toastTest()
-  elseif msg == "minimap" then
-    ns.setOption("minimapHidden", not ns.option("minimapHidden"))
-  elseif msg == "settings" or msg == "options" then
-    if not ns.openSettings() then print(PREFIX .. L["no settings page in this client."]) end
-  else
-    print(PREFIX .. USAGE)
-  end
-end
+-- The kit's command (K.commands): alone it opens the book, an unknown word
+-- prints the usage.
+ns.kit.commands({
+  names = { "/yonder" },
+  key = "YONDER",
+  name = "Yonder",
+  prefix = PREFIX,
+  profiles = function() return ns.profiles end,
+  open = function() ns.toggle() end,
+  usage = USAGE,
+  settings = function() return ns.openSettings() end,
+  welcome = function(mode) ns.showWelcome(mode) end,
+  minimap = { get = function(k) return ns.option(k) end, set = function(k, v) ns.setOption(k, v) end },
+  commands = {
+    reset = function()
+      print(
+        PREFIX
+          .. L["This forgets everything this character has recorded: its creatures, the Atlas, its finds, its riddles, its achievements. Type /yonder reset yes to do it."]
+      )
+    end,
+    ["reset yes"] = function()
+      newJournal(char.guid)
+      ns.refreshFindsProfessions()
+      ns.refresh()
+      print(PREFIX .. L["The journal starts afresh."])
+    end,
+    atlas = function() ns.atlasReport() end,
+    where = function() ns.whereReport() end,
+    probe = function() ns.lootProbe() end,
+    ["toast achievement"] = function() ns.toastTest("milestone") end,
+    toast = function() ns.toastTest() end,
+  },
+})

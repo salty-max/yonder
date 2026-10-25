@@ -101,89 +101,57 @@ ns.collect = K.collect({
   prefix = ns.PREFIX,
 })
 
-local category
+-- The page in the game's Options (the kit's: K.options).
+local O
 
 function ns.createSettingsPanel()
-  if category or not (Settings and Settings.RegisterVerticalLayoutCategory) then return end
-  category = Settings.RegisterVerticalLayoutCategory("Yonder")
-
-  local function checkbox(key, name, tooltip, invert)
-    invert = invert or false
-    local setting = Settings.RegisterProxySetting(
-      category,
-      "YONDER_" .. key:upper(),
-      Settings.VarType.Boolean,
-      name,
-      not DEFAULTS[key] == invert,
-      function() return ns.option(key) ~= invert end,
-      function(value) ns.setOption(key, value ~= invert) end
-    )
-    Settings.CreateCheckbox(category, setting, tooltip)
-  end
-  checkbox(
+  if O then return end
+  O = K.options({
+    title = "Yonder",
+    key = "YONDER",
+    get = ns.option,
+    set = ns.setOption,
+    defaults = DEFAULTS,
+    profiles = P,
+    slash = "/yonder",
+    prefix = ns.PREFIX,
+  })
+  O:check(
     "banner",
     L["Banners for riddles, quarries and collections"],
     L["A banner among the game's alerts when you solve a riddle, bring down a quarry or unlock a collection (the sounds and chat lines stay)."]
   )
-
-  local sound = Settings.RegisterProxySetting(
-    category,
-    "YONDER_SOUND",
-    Settings.VarType.Number,
-    L["Sound for a trophy"],
-    DEFAULTS.sound,
-    function() return ns.option("sound") end,
-    function(value)
-      ns.setOption("sound", value)
-      ns.playSound(value)
-    end
-  )
-  Settings.CreateDropdown(category, sound, function()
-    local options = Settings.CreateControlTextContainer()
+  O:choice("sound", L["Sound for a trophy"], L["Played when you slay a rare or a boss for the first time."], function()
+    local out = {}
     for _, s in ipairs(ns.SOUNDS) do
-      options:Add(s[1], s[2])
+      table.insert(out, { s[1], s[2] })
     end
-    return options:GetData()
-  end, L["Played when you slay a rare or a boss for the first time."])
-
-  checkbox(
+    return out
+  end, function(value) ns.playSound(value) end)
+  O:check(
     "milestoneToast",
     L["Alerts for achievements"],
     L["The game's achievement alert when you earn an achievement (the fanfare and the chat line stay)."]
   )
-  checkbox(
+  O:check(
     "worldMapPins",
     L["Deaths on the world map"],
     L["Mark on the game's world map where you died and came close, from the Atlas."]
   )
-  checkbox(
+  O:check(
     "tooltipHints",
     L["Hints on tooltips"],
     L["A line on creature tooltips: not yet in the journal, or how many you have slain."]
   )
-
-  checkbox(
+  O:check(
     "minimapHidden",
     L["Minimap button"],
     L["The book by the minimap: click to open the journal, drag to move it."],
     true
   )
-
-  K.collectSetting(category, "YONDER_SHARE", ns.collect)
-
-  -- Another character's settings (of this game), for this one.
-  K.copySetting(
-    category,
-    "YONDER_COPYFROM",
-    P,
-    L["Another character's choices, for this one (of this game: Classic and Forever keep their own). From elsewhere: /yonder export there, then /yonder import CODE here."],
-    function(other) print(ns.PREFIX .. (L["%s's settings copied."]):format(other)) end
-  )
-
-  Settings.RegisterAddOnCategory(category)
+  O:collect(ns.collect)
+  O:copy()
+  O:done()
 end
 
-function ns.openSettings()
-  if category then Settings.OpenToCategory(category:GetID()) end
-  return category ~= nil
-end
+function ns.openSettings() return O ~= nil and O:open() end

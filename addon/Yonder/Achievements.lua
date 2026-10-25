@@ -100,16 +100,52 @@ end
 
 -- ── the milestones ───────────────────────────────────────────────────────────
 -- progress() returns what is done and what is needed.
-local list = {}
-ns.milestones = list
-ns.milestoneById = {}
+-- (the kit's achievements, K.deeds: Yonder's own alert behind its switch, the
+-- fanfare, a line in chat; a finds family's listed once met; earned while
+-- still unlisted, waiting there; the expeditions' withdrawn at the login when
+-- a rewritten riddle undoes them)
+local FINDS = { fishing = "fish", herbs = "plants", mining = "mining", cloth = "cloth", leather = "leather" }
+local list
+local function withdraw(c)
+  for _, m in ipairs(list) do
+    if m.group == "expeditions" and c[m.id] then
+      local done, need = m.progress()
+      if need == 0 or done < need then c[m.id] = nil end
+    end
+  end
+end
+local deeds = ns.kit.deeds({
+  saved = function()
+    local c = char()
+    if not c then return nil end
+    c.achievements = c.achievements or {}
+    return c.achievements
+  end,
+  name = "Yonder",
+  prefix = PREFIX,
+  link = function(m) return ("|cffffd100|Hyonder:m%s|h[%s]|h|r"):format(m.id, m.title) end,
+  fallback = function() return ns.option("sound") end,
+  show = function(m) ns.toast("milestone", m.id) end,
+  shown = function(m)
+    local family = FINDS[m.group]
+    return not family or ns.findsUnlocked(family)
+  end,
+  earnHidden = true,
+  before = function(c, quiet)
+    if quiet then withdraw(c) end
+  end,
+  changed = function()
+    if ns.onMilestone then ns.onMilestone() end
+  end,
+})
+ns.deeds = deeds
+list = deeds.list
+ns.milestones, ns.milestoneById = deeds.list, deeds.byId
 local function add(group, id, title, text, progress, extra)
-  local m = { group = group, id = id, title = title, text = text, progress = progress }
+  local m = deeds:add(group, id, title, text, progress)
   for k, v in pairs(extra or {}) do
     m[k] = v
   end
-  table.insert(list, m)
-  ns.milestoneById[id] = m
 end
 
 -- Tallies: a milestone at each step (need, title) of a count.
@@ -747,66 +783,13 @@ for _, family in ipairs({
 end
 
 -- ── earning ──────────────────────────────────────────────────────────────────
-function ns.milestoneVisible(m)
-  if ns.earnedMilestone(m.id) then return true end
-  local family = ({ fishing = "fish", herbs = "plants", mining = "mining", cloth = "cloth", leather = "leather" })[m.group]
-  if family and not ns.findsUnlocked(family) then return false end
-  return not m.visible or m.visible()
-end
-
-function ns.earnedMilestone(id)
-  local c = char()
-  return c and c.achievements and c.achievements[id]
-end
-
+function ns.milestoneVisible(m) return deeds:visible(m) end
+function ns.earnedMilestone(id) return deeds:earned(id) end
 -- Earned, and listed (what this character may know of).
-function ns.milestoneCount()
-  local n, shown = 0, 0
-  for _, m in ipairs(list) do
-    if ns.earnedMilestone(m.id) then n = n + 1 end
-    if ns.milestoneVisible(m) then shown = shown + 1 end
-  end
-  return n, shown
-end
-
+function ns.milestoneCount() return deeds:count() end
 -- The fanfare of the game's achievements; the trophy sound where the client
 -- has none.
 function ns.achievementFanfare() ns.kit.fanfare(ns.option("sound")) end
-
--- The expeditions' milestones follow the riddles as the book holds them: one
--- that a rewritten riddle or a new one leaves undone is withdrawn (at the
--- login, quietly), to be earned again, with its alert.
-local function withdraw(c)
-  for _, m in ipairs(list) do
-    if m.group == "expeditions" and c.achievements[m.id] then
-      local done, need = m.progress()
-      if need == 0 or done < need then c.achievements[m.id] = nil end
-    end
-  end
-end
-
 -- quiet: record without a word (reached before the addon looked), and
 -- withdraw what the expeditions no longer grant (the login).
-function ns.checkMilestones(quiet)
-  local c = char()
-  if not c then return end
-  c.achievements = c.achievements or {}
-  if quiet then withdraw(c) end
-  local earned = false
-  for _, m in ipairs(list) do
-    if not c.achievements[m.id] then
-      local done, need = m.progress()
-      if need > 0 and done >= need then
-        c.achievements[m.id] = { at = time(), level = UnitLevel("player"), retro = quiet or nil }
-        earned = true
-        if not quiet then
-          local link = ("|cffffd100|Hyonder:m%s|h[%s]|h|r"):format(m.id, m.title)
-          print(PREFIX .. L["achievement earned: %s"]:format(link))
-          ns.achievementFanfare()
-          ns.toast("milestone", m.id)
-        end
-      end
-    end
-  end
-  if earned and ns.onMilestone then ns.onMilestone() end
-end
+function ns.checkMilestones(quiet) return deeds:check(quiet) end
