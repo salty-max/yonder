@@ -278,7 +278,7 @@ function ns.loginLine()
   print(
     PREFIX
       .. (L["%s. %s to open the journal."]):format(
-        #held > 0 and table.concat(held, ", ") or L["the journal is empty for now"],
+        #held > 0 and table.concat(held, ", ") or L["The journal is empty for now"],
         open
       )
   )

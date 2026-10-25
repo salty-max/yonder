@@ -137,7 +137,7 @@ local function create()
       local first = ns.mapLayer.err == nil
       ns.mapLayer.err = tostring(err)
       if first then
-        print(ns.PREFIX .. L["the world map's circles and marks failed to draw: %s"]:format(ns.mapLayer.err))
+        print(ns.PREFIX .. L["The world map's circles and marks failed to draw: %s"]:format(ns.mapLayer.err))
       end
     end
   end

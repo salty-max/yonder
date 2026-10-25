@@ -603,13 +603,13 @@ YonderChar = { guid = "Player-6113-0DEAD000", creatures = { [1131] = { name = "W
 fire("PLAYER_LOGIN")
 check(YonderChar.guid == PLAYER and not rec(1131), "a new character named like a deleted one starts a fresh journal")
 check(
-  said("the journal is empty for now. Type /yonder or click the button by the minimap to open the journal."),
+  said("The journal is empty for now. Type /yonder or click the button by the minimap to open the journal."),
   "a line in chat at login: an empty journal, how to open it"
 )
 ns.setOption("minimapHidden", true)
 ns.loginLine()
 check(
-  printed[#printed] == "|cffc9a227Yonder:|r the journal is empty for now. Type /yonder to open the journal.",
+  printed[#printed] == "|cffc9a227Yonder:|r The journal is empty for now. Type /yonder to open the journal.",
   "… which leaves out the minimap's button when it's hidden"
 )
 ns.setOption("minimapHidden", false)
@@ -814,7 +814,7 @@ target(1132)
 kill(1132)
 check(rec(1132).trophy and rec(1132).trophy.rank == "r", "slaying a rare (Timber) makes a trophy")
 check(
-  said("a trophy: |cffffd100|Hyonder:c1132|h[Timber]|h|r") and played[3175],
+  said("A trophy: |cffffd100|Hyonder:c1132|h[Timber]|h|r") and played[3175],
   "… announced in chat, with the trophy sound"
 )
 check(
@@ -1546,7 +1546,7 @@ check(
   "a catch in open water: where, when, by day, once per window"
 )
 check(
-  said("a new catch: |cffffd100|Hyonder:f6291|h[Raw Brilliant Smallfish]|h|r"),
+  said("A new catch: |cffffd100|Hyonder:f6291|h[Raw Brilliant Smallfish]|h|r"),
   "… announced in chat, with a link"
 )
 state.hour = 19 -- night from 6 PM, the Nightfin's hours
@@ -1569,7 +1569,7 @@ check(
   bloom and bloom.gathered == 2 and bloom.n == 2 and bloom.first.how == "gathered" and bloom.zones[1429] == 2,
   "an herb from its node: gathered, the stack counted"
 )
-check(said("a new herb: |cffffd100|Hyonder:h2447|h[Peacebloom]|h|r"), "… announced in chat")
+check(said("A new herb: |cffffd100|Hyonder:h2447|h[Peacebloom]|h|r"), "… announced in chat")
 lootWindow({ { link(2447, "Peacebloom"), { creature(1131), 1 } } })
 check(bloom.looted == 1 and bloom.n == 3, "the same herb from a corpse: looted")
 state.bags = { [1] = 2447, [2] = 3820 }
@@ -1864,7 +1864,7 @@ check(
   book
     and book.at
     and said(
-      "a riddle read aright: |cffffd100|Hyonder:xthe-barrens-ratchet-book|h[Exile of the High Elves]|h|r, The Barrens, with a gold seal"
+      "A riddle read aright: |cffffd100|Hyonder:xthe-barrens-ratchet-book|h[Exile of the High Elves]|h|r, The Barrens, with a gold seal"
     ),
   "the book read where it stands: solved, with a gold seal and a line in chat"
 )
@@ -2020,7 +2020,7 @@ kill(771)
 check(
   ns.quarryDown(771)
     and ns.huntSeal(ns.huntRecord(771)) == "plain"
-    and said("a quarry brought down: |cffffd100|Hyonder:q771|h[Commander Felstrom]|h|r, Duskwood, with a plain seal"),
+    and said("A quarry brought down: |cffffd100|Hyonder:q771|h[Commander Felstrom]|h|r, Duskwood, with a plain seal"),
   "a quarry brought down as the Bestiary tells the kill: tracked once, a plain seal"
 )
 local quarryToast = toastOf("quarry", 771)

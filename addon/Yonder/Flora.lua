@@ -83,7 +83,7 @@ local function announceUnlocks()
     if ns.findsUnlocked(family.id) and not c.finds.announced[family.id] then
       c.finds.announced[family.id] = true
       local link = ("|cffffd100|Hyonder:finds/%s|h[%s]|h|r"):format(family.id, family.title)
-      print(ns.PREFIX .. L["a new collection in Finds: %s"]:format(link))
+      print(ns.PREFIX .. L["A new collection in Finds: %s"]:format(link))
       ns.toast("finds", family.id)
     end
   end
@@ -189,7 +189,7 @@ local function night()
   return h ~= nil and not secret(h) and (h < 6 or h >= 18)
 end
 local function announce(kind, id)
-  local message = kind == "f" and L["a new catch: %s"] or kind == "h" and L["a new herb: %s"] or L["a new find: %s"]
+  local message = kind == "f" and L["A new catch: %s"] or kind == "h" and L["A new herb: %s"] or L["A new find: %s"]
   print(ns.PREFIX .. message:format(("|cffffd100|Hyonder:%s%d|h[%s]|h|r"):format(kind, id, ns.findName(id))))
 end
 local function caught(itemId, n, school)
@@ -334,7 +334,7 @@ ns.on("LOOT_OPENED", readLoot)
 local probing = false
 function ns.lootProbe()
   probing = true
-  print(ns.PREFIX .. L["the next loot window will be described here: loot something."])
+  print(ns.PREFIX .. L["The next loot window will be described here: loot something."])
 end
 local function describe(event)
   if not probing then return end

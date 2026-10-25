@@ -108,15 +108,15 @@ function ns.toastTest(kind)
     end
   end
   if not best then
-    print(PREFIX .. L["no riddle in this game to show."])
+    print(PREFIX .. L["No riddle in this game to show."])
     return
   end
   local b = show("riddle", best)
   print(
     PREFIX
       .. (
-        b.frames[1].joined and L["a riddle's banner, among the game's own alerts."]
-        or L["a riddle's banner, at the top of the screen (the game's alerts couldn't take it)."]
+        b.frames[1].joined and L["A riddle's banner, among the game's own alerts."]
+        or L["A riddle's banner, at the top of the screen (the game's alerts couldn't take it)."]
       )
   )
 end

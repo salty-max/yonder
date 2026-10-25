@@ -470,7 +470,7 @@ end)
 function ns.atlasReport()
   local zone, x, y = here()
   if not zone then
-    print(PREFIX .. L["no zone of the atlas here (or the game hides where you are)."])
+    print(PREFIX .. L["No zone of the atlas here (or the game hides where you are)."])
     return
   end
   local w, h = artSize(zone)

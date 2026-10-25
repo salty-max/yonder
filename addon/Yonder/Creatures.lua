@@ -387,7 +387,7 @@ local function slay(id, unit, guid)
   local rank = ns.rank(id, unit)
   if rank and not rec.trophy then
     rec.trophy = { at = stamp.at, level = stamp.level, rank = rank }
-    print(PREFIX .. L["a trophy: %s"]:format(("|cffffd100|Hyonder:c%d|h[%s]|h|r"):format(id, ns.creatureName(id, rec))))
+    print(PREFIX .. L["A trophy: %s"]:format(("|cffffd100|Hyonder:c%d|h[%s]|h|r"):format(id, ns.creatureName(id, rec))))
     ns.playSound()
   end
   if ns.quarrySlain then ns.quarrySlain(id) end

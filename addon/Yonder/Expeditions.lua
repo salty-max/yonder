@@ -270,7 +270,7 @@ local function solve(r, x, y)
   e.riddles[r.id] = rec
   print(
     PREFIX
-      .. L["a riddle read aright: %s, %s, with %s."]:format(
+      .. L["A riddle read aright: %s, %s, with %s."]:format(
         ("|cffffd100|Hyonder:x%s|h[%s]|h|r"):format(r.id, ns.riddleName(r)),
         ns.zoneName(r.zone),
         A_SEAL[ns.riddleSeal(rec)]
@@ -448,7 +448,7 @@ function ns.quarrySlain(id)
   if e.target == id then e.target = nil end
   print(
     PREFIX
-      .. L["a quarry brought down: %s, %s, with %s."]:format(
+      .. L["A quarry brought down: %s, %s, with %s."]:format(
         ("|cffffd100|Hyonder:q%d|h[%s]|h|r"):format(id, q.name),
         ns.zoneName(q.zone),
         A_SEAL[ns.huntSeal(rec)] or ns.huntSeal(rec)
@@ -483,7 +483,7 @@ function ns.whereReport()
   local best = C_Map.GetBestMapForUnit("player")
   local uiMap, x, y = where()
   if not best or secret(best) then
-    print(PREFIX .. L["the game doesn't say where you are here."])
+    print(PREFIX .. L["The game doesn't say where you are here."])
     return
   end
   local map = uiMap or best
