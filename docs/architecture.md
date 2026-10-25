@@ -150,7 +150,8 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   ~/code/wow-addons/addon-kit: the books' look, window, dialog and tabs, the
   list and the page with every part of a page, the board, the banners; never edited here: `bun run
   kit:sync` after changing the kit, `bun run kit:check` to verify),
-  `Book.lua` (the journal's theme on the kit, the window, its tabs
+  `Book.lua` (the journal's theme on the kit, the window (the kit's
+  `K.book`), its tabs
   registered by their files with `ns.addTab` (the Expeditions first, the
   book opening on them), links in chat, and the kit
   every tab is made of, `ns.ui`; a tab's own select under the search box,
@@ -271,8 +272,9 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
 ## Lua tools and releases
 
 - Lua: `bun run format:lua` (StyLua, `stylua.toml`) and `bun run lint:lua`
-  (selene, `selene.toml`; the game's globals in `wow.yml`: add one there when
-  the addon calls a new game function). Both run in `bun run check` and CI.
+  (selene, `selene.toml`; the game's globals in `wow.yml`, the kit's copy: a
+  new game function goes into addon-kit's `wow.yml`, then `bun run kit:sync`;
+  the addon's own globals in `yonder.yml`). Both run in `bun run check` and CI.
 - Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
   pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
   the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret

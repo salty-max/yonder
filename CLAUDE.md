@@ -30,6 +30,7 @@ docs above included.
 
 ```bash
 bun run build | check | package
+bun run check:ci     # what CI and the release gate run: no family folder (the kit, the saved ids and the generators' checks aside)
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the check, quiet, stamping the tree for the push
 bun run ids          # every table saved-ids.json lists keeps the ids it had at the fork point from origin/main (addon-kit's ids.ts)
 python3 scripts/expeditions.py [--dry [folder]]   # resolve the riddles' spots into data/expeditions.json; --dry: the checks alone
@@ -71,7 +72,7 @@ Writing or vetting a riddle: the `wow-riddles` skill (addon-kit's
   `data/*.json`, the name files) are never edited by hand. A new generator
   goes into `game-data.yml` too.
 - Dropping the FieldJournal handover is the user's call.
-- `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`,
+- `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`, `scripts/package-lib.ts`,
   `i18n/kit/` (the kit's words, translated once), `wow.yml` and `stylua.toml`
   are the kit's copies: edit addon-kit, then `bun run kit:sync`. The addon's
   own globals for selene are `yonder.yml`.

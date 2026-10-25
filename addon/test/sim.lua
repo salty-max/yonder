@@ -2445,6 +2445,31 @@ check(
   "… /yonder import CODE (an old FJ1 one too, its c, the chat lines, left out)"
 )
 check(not P:import("LC1:c1") and ns.option("sound") == 3175, "… another addon's code refused")
+-- (the family's command: its replies, an unknown word, the options alias)
+do
+  local L = ns.kit.L
+  printed = {}
+  SlashCmdList.YONDER("import nonsense")
+  check(
+    said(L["That isn't a %s settings code (%s export makes one)."]:format("Yonder", "/yonder")),
+    "/yonder import: a code that isn't one, said so"
+  )
+  local hidden = ns.option("minimapHidden")
+  SlashCmdList.YONDER("minimap")
+  check(
+    ns.option("minimapHidden") == not hidden
+      and said(L["Minimap button hidden (%s minimap shows it again)."]:format("/yonder")),
+    "/yonder minimap: the button hidden, said"
+  )
+  SlashCmdList.YONDER("minimap")
+  check(ns.option("minimapHidden") == hidden and said(L["Minimap button shown."]), "… and shown again")
+  printed = {}
+  SlashCmdList.YONDER("bogus")
+  check(said("/yonder opens the book"), "/yonder bogus: the usage")
+  panel.opened = nil
+  SlashCmdList.YONDER("options")
+  check(panel.opened ~= nil, "/yonder options: the settings, as /yonder settings")
+end
 local copyFrom = panel.settings.YONDER_COPYFROM
 check(
   copyFrom and copyFrom.options()[2].value == "Brann - Nightslayer",

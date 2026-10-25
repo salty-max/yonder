@@ -36,3 +36,4 @@ ignore:
   - selene.toml
   - stylua.toml
   - wow.yml
+  - yonder.yml

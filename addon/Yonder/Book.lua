@@ -60,7 +60,6 @@ local B = K.book({
   filter = true,
   settle = 0.5,
 })
-ns.kitBook = B -- (for the tests)
 function ns.addTab(n, tab) B:add(n, tab) end
 function ns.filterOf(n) return B:filterOf(n) end
 function ns.setFilter(n, value) B:setFilter(n, value) end

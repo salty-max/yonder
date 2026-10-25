@@ -570,7 +570,7 @@ ns.translate({
     ["The Expeditions of %s"] = "Les expéditions de %s",
     ["The Firelord Falls"] = "La chute du seigneur du Feu",
     ["The game doesn't say where you are here."] = "Le jeu ne dit pas où vous êtes ici.",
-    ["the game's achievement alert could not be set up (%s): the book shows its own banner."] = "l'alerte de haut fait du jeu n'a pas pu être préparée (%s) : le livre affiche sa propre bannière.",
+    ["The game's achievement alert could not be set up (%s): the book shows its own banner."] = "L'alerte de haut fait du jeu n'a pas pu être préparée (%s) : le livre affiche sa propre bannière.",
     ["The game's achievement alert when you earn an achievement (the fanfare and the chat line stay)."] = "L'alerte de haut fait du jeu quand vous obtenez un haut fait (la fanfare et la ligne de discussion restent).",
     ["The game's achievement alert, with its fanfare."] = "L'alerte de haut fait du jeu, avec sa fanfare.",
     ["The game's Options have no page for addons here."] = "Les options du jeu n'ont pas de page pour les addons ici.",
