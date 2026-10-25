@@ -265,43 +265,23 @@ end
 -- language's list: no area id there), found from the name the game gives in
 -- the client's language; "a<zone>|a<sub>" a zone and a subzone. A name neither
 -- knows is kept as the game gave it.
-local areaIds, insideIds, builtWith, builtInside
-local function reversed()
-  if areaIds and builtWith == C_Map.GetAreaInfo and builtInside == ns.insideNames then return end
-  -- (made again only if the game's function or the list is another: the tests' clients)
-  builtWith, builtInside = C_Map.GetAreaInfo, ns.insideNames
-  areaIds, insideIds = {}, {}
-  for id in pairs(A.areaNames or {}) do
-    local own = C_Map.GetAreaInfo and C_Map.GetAreaInfo(id)
-    if type(own) == "string" and own ~= "" and (not areaIds[own] or id < areaIds[own]) then areaIds[own] = id end
-  end
-  for id, own in pairs(ns.areaFixes or {}) do
-    areaIds[own] = areaIds[own] or id
-  end
-  for id, own in pairs(ns.insideNames or {}) do
-    if not insideIds[own] or id < insideIds[own] then insideIds[own] = id end
-  end
-end
+-- (the kit's: K.places, the client's names back to ids)
+local places = ns.kit.places({
+  names = function() return A.areaNames end,
+  inside = function() return ns.insideNames end,
+  fixes = function() return ns.areaFixes end,
+})
 function ns.areaKey(name)
-  if type(name) ~= "string" or name == "" or secret(name) then return nil end
-  reversed()
-  if areaIds[name] then return "a" .. areaIds[name] end
-  if insideIds[name] then return "w" .. insideIds[name] end
+  local area = places:area(name)
+  if area then return "a" .. area end
+  local inside = places:inside(name)
+  if inside then return "w" .. inside end
 end
 -- An area kept by its name (a journal of before 15 October 2026), in English:
 -- the client's own name for it, by the data's English names; else as kept.
-local areaByEnglish
 function ns.areaName(name)
   if not name or name == "" then return name end
-  if not areaByEnglish then
-    areaByEnglish = {}
-    for id, n in pairs(A.areaNames or {}) do
-      if not areaByEnglish[n] or id < areaByEnglish[n] then areaByEnglish[n] = id end
-    end
-  end
-  local id = areaByEnglish[name]
-  local own = id and C_Map.GetAreaInfo and C_Map.GetAreaInfo(id)
-  return own and own ~= "" and own or name
+  return ns.kit.areaName(places:english(name)) or name
 end
 -- A place's name in the client's language: by its key, else (kept by name) as
 -- an older journal's.
