@@ -56,21 +56,8 @@ local function build()
   card:SetMovable(true)
   card:EnableMouse(true)
   card:RegisterForDrag("LeftButton")
-  if ns.forever then
-    card.art = ui.panel(card)
-    card.art:SetAllPoints()
-  else
-    card:SetBackdrop({
-      bgFile = "Interface\\Tooltips\\UI-Tooltip-Background",
-      edgeFile = "Interface\\Tooltips\\UI-Tooltip-Border",
-      tile = true,
-      tileSize = 16,
-      edgeSize = 16,
-      insets = { left = 4, right = 4, top = 4, bottom = 4 },
-    })
-    card:SetBackdropColor(0.04, 0.05, 0.035, 0.92)
-    card:SetBackdropBorderColor(unpack(T.ring))
-  end
+  -- (the kit's backing: Forever's card, else the tooltip's edge on a darker shade)
+  ns.kit.backing(card, 0.92, { 0.04, 0.05, 0.035 })
   -- (what it shows, above its art)
   local body = CreateFrame("Frame", nil, card)
   body:SetAllPoints()
