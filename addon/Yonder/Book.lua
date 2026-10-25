@@ -31,8 +31,8 @@ local function roundPortrait(parent, size) return K.roundIcon(parent, size, true
 
 local function day(stamp) return K.day(stamp and stamp.at) end
 
--- The search box's words, trimmed and lower case ("": no search).
-local function query(book) return strtrim((book.search:GetText() or ""):lower()) end
+-- The search box's words, as the kit compares them ("": no search).
+local function query(book) return K.query(book.search) end
 
 -- The list on the left and the page on the right: the kit's (Kit.lua), as
 -- every book of the family.
@@ -168,9 +168,7 @@ end
 -- |Hyonder:<what>|h: c<creature id>, m<milestone id>, z<uiMap>,
 -- f<fish>, h<herb>, x<riddle id>, q<quarry's creature id>, else a family (its id, "murlocs", first: an id may begin
 -- with one of those letters; an older link's index; or "?type/family").
-local function followLink(link)
-  local key = link:match("^yonder:(.+)$")
-  if not key then return end
+local function followLink(key)
   if ns.familyById[key] then return ns.openFamily(key) end
   local category = key:match("^finds/(%a+)$")
   if category then return ns.openFindCategory(category) end
@@ -196,15 +194,8 @@ local function followLink(link)
     ns.openFamily(tonumber(key) or key)
   end
 end
-if LinkUtil and LinkUtil.RegisterLinkHandler then
-  LinkUtil.RegisterLinkHandler("yonder", function(link)
-    followLink(link)
-    return LinkProcessorResponse and LinkProcessorResponse.Handled
-  end)
-else
-  -- Clients without the link registry still pass every click to SetItemRef.
-  hooksecurefunc("SetItemRef", function(link) followLink(link) end)
-end
+-- (the kit's: the client's link registry, else SetItemRef)
+K.links("yonder", followLink)
 
 -- What's recorded while the book is open shows up at once (throttled: meeting
 -- creatures happens constantly).

@@ -6,30 +6,6 @@ local _, ns = ...
 local K = ns.kit
 local D = ns.data
 
--- (is n the "one" form? English, German, Spanish, Italian: 1; French and
--- Brazilian Portuguese: 0 and 1; Russian: 1, 21, 31... but not 11; Korean
--- and Chinese have one form)
-local PLURALS = {
-  one = function(n) return n == 1 end,
-  fr = function(n) return n == 0 or n == 1 end,
-  ru = function(n) return n % 10 == 1 and n % 100 ~= 11 end,
-  none = function() return false end,
-}
-
--- A plain replacement (names hold the pattern characters: "Comte-du-Lac").
-local function replace(s, from, to)
-  local out, i = {}, 1
-  while true do
-    local a, b = s:find(from, i, true)
-    if not a then break end
-    out[#out + 1] = s:sub(i, a - 1)
-    out[#out + 1] = to
-    i = b + 1
-  end
-  out[#out + 1] = s:sub(i)
-  return table.concat(out)
-end
-
 -- A translated text as this reader reads it: the reader's gender (the game's
 -- own token, $gmasculine:feminine;) and, on Classic, its own names for the
 -- places Forever renamed (a translation is written with Forever's). English
@@ -49,22 +25,12 @@ end
 
 function ns.translate(t)
   ns.locale = t.locale
-  K.isOne = PLURALS[t.plural] or K.isOne
-  local female = UnitSex and UnitSex("player") == 3
+  -- (the kit's: the plural rule, every word agreed and, on Classic, its names
+  -- swapped in, the longest first)
   local swaps = D.client == "classic" and t.classic or nil
-  local function words(s)
-    if type(s) ~= "string" then return s end
-    s = s:gsub("%$g([^:;]*):([^;]*);", function(m, f) return female and f or m end)
-    for _, pair in ipairs(swaps or {}) do
-      if s:find(pair[1], 1, true) then s = replace(s, pair[1], pair[2]) end
-    end
-    return s
-  end
+  local function words(s) return K.swap(K.agree(s), swaps) end
   ns.localize = words
-  local L = K.L
-  for english, word in pairs(t.words or {}) do
-    L[english] = words(word)
-  end
+  K.translate(t, { swaps = swaps })
   for _, s in ipairs(D.sections) do
     s.title = words(t.sections and t.sections[s.id]) or s.title
   end

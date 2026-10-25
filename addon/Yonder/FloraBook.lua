@@ -142,7 +142,11 @@ local function groups(query)
   local function add(title, order, wanted)
     local ids = {}
     for _, id in ipairs(order) do
-      if recs[id] and (not wanted or wanted(info(id))) and (query == "" or name(id):lower():find(query, 1, true)) then
+      if
+        recs[id]
+        and (not wanted or wanted(info(id)))
+        and (query == "" or ns.kit.plain(name(id)):find(query, 1, true))
+      then
         table.insert(ids, id)
       end
     end

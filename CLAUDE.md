@@ -71,8 +71,10 @@ Writing or vetting a riddle: the `wow-riddles` skill (addon-kit's
   `data/*.json`, the name files) are never edited by hand. A new generator
   goes into `game-data.yml` too.
 - Dropping the FieldJournal handover is the user's call.
-- `Kit.lua`, `scripts/root.ts` and `scripts/root.py` are the kit's copies:
-  edit addon-kit, then `bun run kit:sync`.
+- `Kit.lua`, `Media/`, `scripts/root.ts` (and `root.py`), `scripts/locales-lib.ts`,
+  `i18n/kit/` (the kit's words, translated once), `wow.yml` and `stylua.toml`
+  are the kit's copies: edit addon-kit, then `bun run kit:sync`. The addon's
+  own globals for selene are `yonder.yml`.
 - Conventional Commits, lowercase subjects, no AI trailers. Commit locally;
   ask before any push, release or deploy. The pre-push hook wants a check
   stamp on the tree (q), which `release.sh` makes after the version bump.

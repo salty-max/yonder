@@ -1,0 +1,16 @@
+# The addon's own globals: its saved variables and its slash command
+# (selene.toml: std = "wow+yonder"; the game's are the kit's wow.yml).
+name: yonder
+globals:
+  FieldJournalChar:
+    any: true
+  FieldJournalSettings:
+    any: true
+  SLASH_YONDER1:
+    any: true
+  YonderChar:
+    any: true
+  YonderCollect:
+    any: true
+  YonderSettings:
+    any: true

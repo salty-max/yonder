@@ -34,8 +34,4 @@ local function addHint(tooltip)
   tooltip:AddLine(L["Yonder: %s%s"]:format(slain > 0 and L["%d slain"]:format(slain) or L["met"], mark), unpack(KNOWN))
 end
 
-if TooltipDataProcessor and TooltipDataProcessor.AddTooltipPostCall and Enum and Enum.TooltipDataType then
-  TooltipDataProcessor.AddTooltipPostCall(Enum.TooltipDataType.Unit, addHint)
-else
-  GameTooltip:HookScript("OnTooltipSetUnit", addHint)
-end
+ns.kit.onUnitTooltip(addHint)

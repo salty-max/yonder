@@ -2410,7 +2410,10 @@ check(
   "… ticked: on, account-wide, this addon collects"
 )
 share.scripts.OnClick(share)
-check(not ns.collect:on() and next(YonderCollect.facts) == nil, "… unticked: off, what was kept forgotten")
+check(
+  not ns.collect:on() and YonderCollect.facts ~= nil and SaltyMaxCollector == nil,
+  "… unticked: off, the claim given up (what was kept stays here, never sent while off)"
+)
 local soundRow = W.rows[2]
 check(soundRow.select and soundRow.select:GetValue() == 3175, "… the trophy's sound in a select, as it is")
 soundRow.select.scripts.OnClick(soundRow.select)

@@ -131,7 +131,7 @@ end
 local function refreshList()
   local q = ui.query(book)
   local searching = q ~= ""
-  local function hit(name) return not searching or name:lower():find(q, 1, true) ~= nil end
+  local function hit(name) return not searching or ns.kit.plain(name):find(q, 1, true) ~= nil end
   local standing = ns.atlasHere()
   list:begin()
   if not searching then

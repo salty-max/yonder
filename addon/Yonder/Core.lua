@@ -41,78 +41,23 @@ local L = ns.kit.L
 local PREFIX = "|cffc9a227Yonder:|r "
 ns.PREFIX = PREFIX
 
--- Which game: World of Warcraft: Forever (the original world on the modern
--- client, interface 16xxx) or Classic (Era, TBC Anniversary).
-local interface = select(4, GetBuildInfo()) or 0
-ns.forever = interface >= 16000 and interface < 20000
-
--- Forever hides some values from addons ("secret values", in combat or
--- instances): never compare or print one.
-ns.secret = issecretvalue or function() return false end
+-- Which game (ns.forever: World of Warcraft: Forever, the original world on
+-- the modern client) the kit says. Forever hides some values from addons
+-- ("secret values", in combat or instances): never compare or print one.
+ns.secret = ns.kit.secret
 
 local char
 function ns.journal() return char end
 
 -- ── events ───────────────────────────────────────────────────────────────────
--- Every file listens through ns.on (an event a client doesn't know is never
--- heard), unit events through ns.onUnit (for one unit only: UNIT_HEALTH fires
--- for every unit in sight). Nothing is heard before the login.
-local frame = CreateFrame("Frame")
-local listeners = {}
-
--- (one listener's error is reported, and the others still hear the event)
-local function run(fn, ...)
-  local ok, err = pcall(fn, ...)
-  if not ok then geterrorhandler()(err) end
-end
-
-frame:SetScript("OnEvent", function(_, event, ...)
-  -- (a step of the login gone wrong is reported, and the login's listeners,
-  -- the world map's layer and the riddles' clock, still start)
-  if event == "PLAYER_LOGIN" then run(ns.login) end
-  if not char then return end
-  for _, fn in ipairs(listeners[event] or {}) do
-    run(fn, ...)
-  end
-end)
-frame:RegisterEvent("PLAYER_LOGIN")
-
-function ns.on(event, fn)
-  if not listeners[event] then
-    listeners[event] = {}
-    pcall(frame.RegisterEvent, frame, event)
-  end
-  table.insert(listeners[event], fn)
-end
-
-local units = {} -- unit = its frame, with its own listeners
-function ns.onUnit(event, unit, fn)
-  local f = units[unit]
-  if not f then
-    f = CreateFrame("Frame")
-    f.listeners = {}
-    f:SetScript("OnEvent", function(_, e, ...)
-      if not char then return end
-      for _, listener in ipairs(f.listeners[e]) do
-        run(listener, ...)
-      end
-    end)
-    units[unit] = f
-  end
-  if not f.listeners[event] then
-    f.listeners[event] = {}
-    f:RegisterUnitEvent(event, unit)
-  end
-  table.insert(f.listeners[event], fn)
-end
-
--- Does this client have the event? (registering an unknown one throws)
-local probe = CreateFrame("Frame")
-function ns.knows(event)
-  local ok = pcall(probe.RegisterEvent, probe, event)
-  if ok then probe:UnregisterEvent(event) end
-  return ok
-end
+-- Every file listens through ns.on (the kit's events: each listener on its
+-- own, an event a client doesn't know never heard), unit events through
+-- ns.onUnit (for one unit only: UNIT_HEALTH fires for every unit in sight),
+-- ns.knows whether the client has one. Nothing is heard before the login (a
+-- step of the login gone wrong is reported, and the login's listeners, the
+-- world map's layer and the riddles' clock, still start).
+local events = ns.kit.events({ login = function() ns.login() end, ready = function() return char ~= nil end })
+ns.on, ns.onUnit, ns.knows = events.on, events.onUnit, events.knows
 
 -- ── the login ────────────────────────────────────────────────────────────────
 function ns.belongsTo(saved, guid) return type(saved) == "table" and saved.guid == guid end

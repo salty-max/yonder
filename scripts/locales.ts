@@ -62,6 +62,7 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { readExpeditions, veil } from "./expeditions";
+import { kitKeys, kitWords, ownKeys, problems } from "./locales-lib";
 import { misnamed } from "./names";
 import { paragraphs, type Paragraph } from "./paragraphs";
 
@@ -171,26 +172,15 @@ for (const e of expeditions) {
 }
 
 // ── the interface's words: every L["..."] and plural("one", "many") ─────────
+// (the journal's own, through the family's core: scripts/locales-lib.ts; the
+// kit's words are i18n/kit/'s, translated once for every addon; the login
+// line's counts, read through the kit's plural from a table, Core.lua)
+const KIT_KEYS = kitKeys(ADDON);
 function keys(): string[] {
-  const found = new Set<string>();
-  for (const f of readdirSync(ADDON)) {
-    if (!f.endsWith(".lua") || /^(Data|Text)_/.test(f)) continue;
-    const src = readFileSync(join(ADDON, f), "utf8");
-    for (const m of src.matchAll(/\bL\["((?:[^"\\]|\\.)*)"\]/g)) found.add(m[1].replace(/\\"/g, '"').replace(/\\n/g, "\n"));
-    for (const m of src.matchAll(/plural\([^,]+,\s*"((?:[^"\\]|\\.)*)",\s*"((?:[^"\\]|\\.)*)"\s*\)/g)) {
-      found.add(m[1]);
-      found.add(m[2]);
-    }
-  }
-  // the kit's month names, read through L by K.day; the login line's counts,
-  // read through the kit's plural from a table (Core.lua)
-  for (const m of ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]) found.add(m);
   const core = readFileSync(join(ADDON, "Core.lua"), "utf8");
-  for (const m of core.matchAll(/\{ \w+, "(%d [^"]+)", "(%d [^"]+)" \}/g)) {
-    found.add(m[1]);
-    found.add(m[2]);
-  }
-  return [...found].sort();
+  const counts = [...core.matchAll(/\{ \w+, "(%d [^"]+)", "(%d [^"]+)" \}/g)].flatMap((m) => [m[1], m[2]]);
+  const kit = new Set(KIT_KEYS);
+  return ownKeys(ADDON, /^(Data|Text)_/, counts).filter((k) => !kit.has(k));
 }
 
 // ── a language's folder ──────────────────────────────────────────────────────
@@ -397,7 +387,11 @@ function luaFor(locale: string): string {
   lines.push("ns.translate({");
   lines.push(`  locale = ${q(locale)},`, `  plural = ${q(t.meta.plural ?? "one")},`);
   lines.push("  words = {");
-  for (const [k, v] of Object.entries(t.words).filter(([, v]) => v).sort(([a], [b]) => a.localeCompare(b))) lines.push(`    [${q(k)}] = ${q(v)},`);
+  // (the journal's own and the kit's, the kit's winning: one reading in every addon)
+  const kitTr = kitWords(I18N, from);
+  const kitSet = new Set(KIT_KEYS);
+  const all = { ...Object.fromEntries(Object.entries(t.words).filter(([k]) => !kitSet.has(k))), ...Object.fromEntries(KIT_KEYS.map((k) => [k, kitTr[k]])) };
+  for (const [k, v] of Object.entries(all).filter(([, v]) => v).sort(([a], [b]) => a.localeCompare(b))) lines.push(`    [${q(k)}] = ${q(v)},`);
   lines.push("  },");
   lines.push("  sections = {");
   for (const [k, v] of Object.entries(t.sections).sort()) lines.push(`    [${q(k)}] = ${q(v)},`);
@@ -499,8 +493,13 @@ for (const locale of LOCALES) {
   } else writeFileSync(out, lua);
   if (existsSync(join(I18N, locale, "words.json")) && !ENGLISH.has(locale)) {
     const t = read(locale);
-    const missingWords = [...known].filter((k) => !t.words[k]);
-    const unused = Object.keys(t.words).filter((k) => !known.has(k));
+    // (the family's checks: every word translated, its blanks kept, no stray %, no semicolon; the kit's too)
+    const { missing: missingWords, unused, errors: wordErrors } = problems(t.words, [...known]);
+    const kitTr = kitWords(I18N, locale);
+    const kitMissing = KIT_KEYS.filter((k) => !kitTr[k]);
+    for (const e of [...wordErrors, ...problems(kitTr, KIT_KEYS).errors]) errors.push(`i18n/${locale}: ${e}`);
+    if (missingWords.length) errors.push(`i18n/${locale}: no translation for ${missingWords.map((m) => JSON.stringify(m)).join(", ")}`);
+    if (kitMissing.length) errors.push(`i18n/kit/${locale}.json lacks ${kitMissing.map((m) => JSON.stringify(m)).join(", ")} (addon-kit/i18n, then kit:sync)`);
     console.log(
       `${locale}: ${t.done.size}/${english.size} texts (${t.stale.size} stale), ${known.size - missingWords.length}/${known.size} words, ${Object.keys(t.sections).length}/${sectionIds.length} sections${t.meta.flagged ? ", flagged" : ""}`,
     );

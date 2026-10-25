@@ -771,12 +771,7 @@ end
 
 -- The fanfare of the game's achievements; the trophy sound where the client
 -- has none.
-local FANFARE = 12891
-function ns.achievementFanfare()
-  local ok, willPlay = pcall(PlaySound, FANFARE, "Master")
-  -- An unavailable fallback sound must not abort the banner or the remaining awards.
-  if not (ok and willPlay) then pcall(ns.playSound) end
-end
+function ns.achievementFanfare() ns.kit.fanfare(ns.option("sound")) end
 
 -- The expeditions' milestones follow the riddles as the book holds them: one
 -- that a rewritten riddle or a new one leaves undone is withdrawn (at the

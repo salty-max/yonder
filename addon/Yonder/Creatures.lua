@@ -10,11 +10,7 @@ local PREFIX, secret = ns.PREFIX, ns.secret
 local MAX_PLACES = 6
 
 -- ── what a creature is ───────────────────────────────────────────────────────
-local function creatureId(guid)
-  if not guid or secret(guid) then return end
-  local kind, _, _, _, _, id = strsplit("-", guid)
-  if kind == "Creature" then return tonumber(id) end
-end
+local function creatureId(guid) return ns.kit.npcId(guid) end
 ns.creatureId = creatureId
 
 -- Creatures the data doesn't know (Forever's new ones) are filed by what the

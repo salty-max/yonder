@@ -217,25 +217,16 @@ end
 -- The creature the reader has targeted, near enough to talk to (never one only
 -- under the mouse: a passing glance is no meeting).
 local function creatureNear(unit)
-  local guid = UnitGUID(unit)
-  if not guid or secret(guid) then return end
-  local kind, _, _, _, _, id = strsplit("-", guid)
-  -- GUID kinds are protocol tokens, even on a translated client.
-  if kind ~= "Creature" then return end
+  local id = ns.kit.npcOf(unit)
+  if not id then return end
   local near = CheckInteractDistance(unit, 2)
   if not near or secret(near) then return end
-  return tonumber(id)
+  return id
 end
 
 -- The creature the reader is speaking to: a window it opened when spoken to
 -- (its words, a quest, its wares, its lessons, its flights).
-local function speakingTo()
-  local guid = UnitGUID("npc")
-  if not guid or secret(guid) then return end
-  local kind, _, _, _, _, id = strsplit("-", guid)
-  if kind ~= "Creature" then return end
-  return tonumber(id)
-end
+local function speakingTo() return ns.kit.npcOf("npc") end
 
 -- Is the reader at the riddle's place? (here: where(), its sub-areas)
 local function there(r, here)

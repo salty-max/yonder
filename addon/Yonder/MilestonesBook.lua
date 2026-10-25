@@ -24,7 +24,7 @@ local GROUPS = {
   { "expeditions", L["Expeditions"], "Interface\\Icons\\INV_Misc_Note_02", "expeditions" },
 }
 local FIGURES = {
-  { "all", "earned" },
+  { "all", L["earned"] },
   { "creatures", L["of the creatures"] },
   { "land", L["of the land"] },
   { "expeditions", L["of the expeditions"] },

@@ -224,7 +224,7 @@ local function refreshList()
   local q = ui.query(book)
   local searching = q ~= ""
   local only = ns.filterOf(ns.TAB.expeditions)
-  local function found(words) return not searching or words:lower():find(q, 1, true) ~= nil end
+  local function found(words) return not searching or ns.kit.plain(words):find(q, 1, true) ~= nil end
   list:begin()
   if not searching then
     local r = list:add("overview", L["Expeditions"])
