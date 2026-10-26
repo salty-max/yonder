@@ -476,7 +476,7 @@ ns.translate({
     ["Read with the clue"] = "Resuelto con la pista",
     ["Read with the map"] = "Resuelto con el mapa",
     ["Read, with %s."] = "Resuelto, con %s.",
-    ["Ready check"] = "Control de disponibilidad",
+    ["Ready check"] = "¿Listos?",
     ["Reagents"] = "Componentes",
     ["Record %d kinds of creature."] = "Registra %d especies de criaturas.",
     ["Respects Paid"] = "Los respetos debidos",
