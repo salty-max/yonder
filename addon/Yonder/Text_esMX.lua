@@ -594,7 +594,7 @@ ns.translate({
     ["The Mineral Collection"] = "La colección de minerales",
     ["The most slain first"] = "Más abatidas primero",
     ["The naturalist has not yet written of these. What follows is your own record."] = "El naturalista aún no ha escrito sobre estas criaturas. Lo que sigue es tu propio registro.",
-    ["The next loot window will be described here: loot something."] = "La siguiente ventana de botín se describirá aquí. Saquea algo.",
+    ["The next loot window will be described here: loot something."] = "La siguiente ventana de botín se describirá aquí. Recoge algún botín.",
     ["The note"] = "La nota",
     ["The One That Didn't Get Away"] = "El que no se escapó",
     ["the plain seal"] = "el sello sencillo",
