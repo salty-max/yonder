@@ -7,13 +7,14 @@
     "locales": "bun scripts/locales.ts",
     "build": "bun scripts/build.ts && bun scripts/locales.ts",
     "check:ci": "bun test scripts/ && python3 -m unittest discover -s scripts -p '*_test.py' && bun run lint:lua && bun scripts/build.ts --check && bun scripts/locales.ts --check && luajit addon/test/sim.lua && FOREVER=1 luajit addon/test/sim.lua && bun scripts/package.ts --check",
-    "check": "bun run kit:check && bun run ids && bun run check:ci",
+    "check": "bun run kit:check && bun run ids && bun run regional && bun run check:ci",
     "package": "bun scripts/package.ts",
     "creatures": "python3 scripts/creatures.py",
     "flora": "python3 scripts/flora.py",
     "lint:lua": "stylua --check addon && selene addon/Yonder",
     "format:lua": "stylua addon",
     "kit:sync": "bun scripts/root.ts --run addon-kit/sync.ts addon/Yonder",
+    "regional": "bun scripts/root.ts --run addon-kit/regional.ts --check",
     "ids": "bun scripts/root.ts --run addon-kit/ids.ts check",
     "kit:check": "bun scripts/root.ts --run addon-kit/sync.ts --check addon/Yonder"
   }

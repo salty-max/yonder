@@ -42,6 +42,8 @@ jobs:
             python3 ../addon-kit/glossary.py "$locale" --prose content atlas notes expeditions --ids creature id
           fi
         done
+        # (esMX's game names from wow-data, the hand file's words beside them)
+        bun scripts/root.ts --run addon-kit/regional.ts
         bun run build
       paths: |
         data

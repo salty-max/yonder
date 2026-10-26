@@ -35,7 +35,7 @@ substitutions. Explicit aliases live in `glossary-by-hand.json`. The small
 the fish item Frenesí del lago versus the creature Demente del Loch.
 
 Latin American Spanish shares the prose, with explicit regional phrases in
-`i18n/esMX/prose-names.json`. These are applied in one pass before the text
+`i18n/esMX/regional.json` (game names from wow-data, resolved by addon-kit's regional.ts, the rest by hand). These are applied in one pass before the text
 is veiled. This preserves differences such as Sala de los Expedicionarios,
 Yago Llavenegra and Saltavientos. It also distinguishes the fighting pit
 La Marra from the dungeon La Masacre. Each client keeps its own creature,

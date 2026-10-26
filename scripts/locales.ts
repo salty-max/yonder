@@ -352,10 +352,11 @@ function luaFor(locale: string): string {
     ].join("\n");
   }
   const t = read(from);
-  // Shared prose can still need a regional client's own names. Keep these
+  // Shared prose can still need a regional client's own names (i18n/<locale>/regional.json,
+  // game names from wow-data, resolved by addon-kit/regional.ts). Keep these
   // authored phrases explicit: a global area-name swap cannot distinguish
   // The Maul from Dire Maul, both named La Masacre in Spain.
-  const regionalFile = join(I18N, locale, "prose-names.json");
+  const regionalFile = join(I18N, locale, "regional.resolved.json");
   if (locale !== from && existsSync(regionalFile)) {
     const pairs = Object.entries(JSON.parse(readFileSync(regionalFile, "utf8")) as Record<string, string>)
       .sort(([a], [b]) => b.length - a.length);

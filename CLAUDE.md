@@ -32,6 +32,7 @@ docs above included.
 bun run build | check | package
 bun run check:ci     # what CI and the release gate run: no family folder (the kit, the saved ids and the generators' checks aside)
 bun scripts/root.ts --run addon-kit/q.ts check -- bun run check   # the check, quiet, stamping the tree for the push
+bun scripts/root.ts --run addon-kit/regional.ts   # esMX's game names from wow-data into i18n/esMX/regional.resolved.json (before the build, after a wow-data change; --check is in `check`)
 bun run ids          # every table saved-ids.json lists keeps the ids it had at the fork point from origin/main (addon-kit's ids.ts)
 python3 scripts/expeditions.py [--dry [folder]]   # resolve the riddles' spots into data/expeditions.json; --dry: the checks alone
 bun scripts/root.ts --run wow-data/bin/card.ts <npc|object|place> <id or name> [--game forever]  # a riddle's subject, before writing it

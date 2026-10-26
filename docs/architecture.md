@@ -255,7 +255,7 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   taken as it writes them. Spanish added 17 October 2026, also flagged as a
   first translation. The esES prose is shared with esMX, with each client
   keeping its own game names. Regional prose names are explicit, non-cascading
-  substitutions in `i18n/esMX/prose-names.json`, before veiling. Classic
+  substitutions in `i18n/esMX/regional.json` (`names`: esES game names, esMX's from wow-data; `words`: the rest; addon-kit's regional.ts resolves them into `regional.resolved.json`), before veiling. Classic
   substitutions then come from that regional client, not the borrowed one.
   All five collection note sets are translated.
 - `addon/test/sim.lua`: fake WoW API, a dwarf's first hunts, every recording
