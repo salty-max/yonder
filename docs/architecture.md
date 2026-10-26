@@ -275,7 +275,7 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   (selene, `selene.toml`; the game's globals in `wow.yml`, the kit's copy: a
   new game function goes into addon-kit's `wow.yml`, then `bun run kit:sync`;
   the addon's own globals in `yonder.yml`). Both run in `bun run check` and CI.
-- Release: `scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md` (main
+- Release: `scripts/release.sh --version X.Y.Z [--hold] NOTES.md` (main
   pushed first); GitHub Actions runs the BigWigs packager (`.pkgmeta`):
   the zip on GitHub, CurseForge (the TOCs' `X-Curse-Project-ID`, secret
   `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, secret

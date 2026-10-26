@@ -83,7 +83,7 @@ bun run check      # Run tests, Lua checks, data checks and both game simulation
 bun run package    # Create dist/Yonder-<version>.zip
 python3 scripts/expeditions.py   # Update locations after changing a riddle or hunt
 bun run kit:sync   # Copy the shared kit from ../addon-kit
-scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # Tag and publish a release
+scripts/release.sh --version X.Y.Z [--hold] NOTES.md   # Tag and publish a release
 ```
 
 Family notes and matching rules live in `content/<type>/<family>.md`.

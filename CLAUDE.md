@@ -40,7 +40,7 @@ bun run creatures          # regenerate data/creatures.json (pinned database)
 python3 scripts/rare_zones.py    # then data/rare-zones.json (each rare's zone)
 bun scripts/build.ts --verbose   # per-family counts, overlaps, unsorted
 bun run kit:sync           # after a change to the kit (Kit.lua, Media, scripts/root.ts and root.py)
-scripts/release.sh [--version X.Y.Z] [--hold] NOTES.md   # check, tag, push; Actions publish
+scripts/release.sh --version X.Y.Z [--hold] NOTES.md   # check, tag, push; Actions publish
 ```
 
 Writing or vetting a riddle: the `wow-riddles` skill (addon-kit's
