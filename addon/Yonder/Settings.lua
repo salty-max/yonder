@@ -5,8 +5,8 @@
 -- Options (AddOns tab): /yonder settings, or a right-click on the minimap
 -- button; the welcome page (Welcome.lua) offers them too.
 --
---   YonderSettings.profiles["Name - Realm"] = { banner, sound,
---     minimapHidden, minimapAngle, tooltipHints, milestoneToast, worldMapPins,
+--   YonderSettings.profiles["Name - Realm"] = { banner, bannerSeconds, sound,
+--     achievementSound, minimapHidden, minimapAngle, tooltipHints, milestoneToast, worldMapPins,
 --     welcomed }
 --   (banner: a riddle's and a quarry's; milestoneToast: a milestone's, the
 --   game's achievement alert. The chat lines have no setting any more,
@@ -21,15 +21,27 @@ local K = ns.kit
 -- lower left, clear of the game's buttons; welcomed: never copied)
 local DEFAULTS = {
   banner = true,
+  bannerSeconds = K.BANNER_SECONDS,
   sound = 3175,
   minimapHidden = false,
   minimapAngle = K.MINIMAP_ANGLES.Yonder,
   tooltipHints = true,
   milestoneToast = true,
+  achievementSound = K.ACHIEVEMENT_SOUND,
   worldMapPins = true,
   welcomed = false,
 }
-local SHARED = { "banner", "sound", "milestoneToast", "worldMapPins", "tooltipHints", "minimapHidden", "minimapAngle" }
+local SHARED = {
+  "banner",
+  "bannerSeconds",
+  "sound",
+  "milestoneToast",
+  "achievementSound",
+  "worldMapPins",
+  "tooltipHints",
+  "minimapHidden",
+  "minimapAngle",
+}
 
 -- Sounds for a trophy: the kit's (all from the original game's interface; -1
 -- the sting heard on discovering a new zone, which differs by race), named
@@ -39,8 +51,8 @@ for i, s in ipairs(K.SOUNDS) do
   ns.SOUNDS[i] = { s[1], L[s[2]] }
 end
 
--- The profiles: a code "YD1:b1:s3175:m1:w1:t1:h0:a225" (the banners, the
--- trophy's sound, milestone alerts, the world map's marks, tooltip hints, the minimap
+-- The profiles: a code "YD1:b1:n10:s3175:m1:f12891:w1:t1:h0:a225" (the banners, how
+-- long they stay, the trophy's sound, milestone alerts, their sound, the world map's marks, tooltip hints, the minimap
 -- button hidden, its angle; an older code's c, the chat lines, is left out).
 local P = K.profiles({
   saved = function()
@@ -51,8 +63,10 @@ local P = K.profiles({
   shared = SHARED,
   letters = {
     banner = "b",
+    bannerSeconds = "n",
     sound = "s",
     milestoneToast = "m",
+    achievementSound = "f",
     worldMapPins = "w",
     tooltipHints = "t",
     minimapHidden = "h",
@@ -121,6 +135,7 @@ function ns.createSettingsPanel()
     L["Banners for riddles, quarries and collections"],
     L["A banner among the game's alerts when you solve a riddle, bring down a quarry or unlock a collection (the sounds and chat lines stay)."]
   )
+  O:bannerSeconds("bannerSeconds")
   O:choice("sound", L["Sound for a trophy"], L["Played when you slay a rare or a boss for the first time."], function()
     local out = {}
     for _, s in ipairs(ns.SOUNDS) do
@@ -133,6 +148,7 @@ function ns.createSettingsPanel()
     L["Alerts for achievements"],
     L["The game's achievement alert when you earn an achievement (the fanfare and the chat line stay)."]
   )
+  O:achievementSound("achievementSound")
   O:check(
     "worldMapPins",
     L["Deaths on the world map"],

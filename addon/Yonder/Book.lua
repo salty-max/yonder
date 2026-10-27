@@ -10,17 +10,8 @@ local _, ns = ...
 local L = ns.kit.L
 
 -- ── look ─────────────────────────────────────────────────────────────────────
--- The kit's (Kit.lua), in the Yonder's theme: a sage accent, the panels
--- a faint moss, like a naturalist's notes.
+-- The kit's (Kit.lua), in the Yonder's theme (set first thing in Core.lua).
 local K = ns.kit
-K.theme({
-  accent = { 0.70, 0.80, 0.55 },
-  ring = { 0.52, 0.62, 0.36 },
-  bar = { 0.55, 0.72, 0.30 },
-  tint = { 0.90, 1.00, 0.88 },
-  shade = { 0.02, 0.03, 0.02, 0.55 },
-  highlight = { 0.80, 1.00, 0.75 },
-})
 local T = K.T
 T.mark, T.rare, T.link = "|cffff9a40", "|cffc7ccd6", K.hex(T.accent)
 local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
@@ -59,6 +50,10 @@ local B = K.book({
   search = "YonderSearch",
   filter = true,
   settle = 0.5,
+  place = function()
+    YonderSettings = YonderSettings or {}
+    return ns.kit.place(YonderSettings, "book")
+  end,
 })
 function ns.addTab(n, tab) B:add(n, tab) end
 function ns.filterOf(n) return B:filterOf(n) end

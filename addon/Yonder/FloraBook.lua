@@ -122,21 +122,7 @@ local function rankOf(skill)
   end
   return result
 end
-local function style(row, kind)
-  if kind == "section" then
-    row.text:SetPoint("LEFT", 4, 0)
-    row.text:SetPoint("RIGHT", -4, 0)
-    row.text:SetFont(ui.TITLE_FONT, 14, "")
-    row.text:SetTextColor(unpack(T.gold))
-    return 22
-  end
-  row.count:SetPoint("RIGHT", -4, 0)
-  row.text:SetPoint("LEFT", kind == "overview" and 4 or 14, 0)
-  row.text:SetPoint("RIGHT", row.count, "LEFT", -4, 0)
-  row.text:SetFont(ui.BODY_FONT, 12, "")
-  row.text:SetTextColor(unpack(kind == "overview" and T.gold or T.text))
-  return 18
-end
+local style = ns.kit.listStyle -- (the kinds every book shares)
 local function groups(query)
   local recs, out = records(), {}
   local function add(title, order, wanted)

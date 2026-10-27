@@ -37,8 +37,21 @@
 --     collapsed, open, atlasOpen, expeditionsOpen   the book's folds (types,
 --                                families, zones)
 local _, ns = ...
-local L = ns.kit.L
-local PREFIX = "|cffc9a227Yonder:|r "
+local K = ns.kit
+local L = K.L
+
+-- The kit's (Kit.lua), in the Yonder's theme: a sage accent, the panels
+-- a faint moss, like a naturalist's notes.
+K.theme({
+  accent = { 0.70, 0.80, 0.55 },
+  ring = { 0.52, 0.62, 0.36 },
+  bar = { 0.55, 0.72, 0.30 },
+  tint = { 0.90, 1.00, 0.88 },
+  shade = { 0.02, 0.03, 0.02, 0.55 },
+  highlight = { 0.80, 1.00, 0.75 },
+})
+
+local PREFIX = K.prefix("Yonder")
 ns.PREFIX = PREFIX
 
 -- Which game (ns.forever: World of Warcraft: Forever, the original world on

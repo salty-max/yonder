@@ -5,9 +5,6 @@ local _, ns = ...
 local L = ns.kit.L
 local D = ns.data
 
-local NEW = { 1, 0.82, 0 }
-local KNOWN = { 0.65, 0.58, 0.45 }
-
 local function addHint(tooltip)
   if tooltip ~= GameTooltip or not ns.option("tooltipHints") then return end
   local _, unit = tooltip:GetUnit()
@@ -25,13 +22,17 @@ local function addHint(tooltip)
     local ctype = not D.creatures[id] and UnitCreatureType(unit)
     local fileable = D.creatures[id] or (ctype and not ns.secret(ctype) and ns.knownType(ctype))
     if fileable and (ns.secret(canAttack) or canAttack) then
-      tooltip:AddLine(L["Yonder: not yet recorded"], unpack(NEW))
+      ns.kit.tooltipLine(tooltip, L["Yonder: not yet recorded"], true)
     end
     return
   end
   local slain = rec.slain or 0
   local mark = rec.trophy and L[" (trophy)"] or ""
-  tooltip:AddLine(L["Yonder: %s%s"]:format(slain > 0 and L["%d slain"]:format(slain) or L["met"], mark), unpack(KNOWN))
+  ns.kit.tooltipLine(
+    tooltip,
+    L["Yonder: %s%s"]:format(slain > 0 and L["%d slain"]:format(slain) or L["met"], mark),
+    false
+  )
 end
 
 ns.kit.onUnitTooltip(addHint)

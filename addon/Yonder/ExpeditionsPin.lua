@@ -102,7 +102,13 @@ local function build()
   card:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
     GameTooltip:AddLine("Yonder", T.accent[1], T.accent[2], T.accent[3])
-    GameTooltip:AddLine(L["Click to open it in the journal, or drag to move it."], 1, 1, 1, true)
+    GameTooltip:AddLine(
+      L["Click to open it in the journal, or drag to move it."],
+      T.text[1],
+      T.text[2],
+      T.text[3],
+      true
+    )
     GameTooltip:Show()
   end)
   card:SetScript("OnLeave", function() GameTooltip:Hide() end)

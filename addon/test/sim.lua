@@ -238,6 +238,9 @@ local function ui()
       if k == "GetStringHeight" then
         return function() return 14 end
       end
+      if k == "GetUnboundedStringWidth" then
+        return function() return 100 end
+      end
       if k == "SetHeight" then
         return function(self, v) self.height = v end
       end
@@ -609,7 +612,7 @@ check(
 ns.setOption("minimapHidden", true)
 ns.loginLine()
 check(
-  printed[#printed] == "|cffc9a227Yonder:|r The journal is empty for now. Type /yonder to open the journal.",
+  printed[#printed] == ns.PREFIX .. "The journal is empty for now. Type /yonder to open the journal.",
   "… which leaves out the minimap's button when it's hidden"
 )
 ns.setOption("minimapHidden", false)
@@ -997,7 +1000,8 @@ do
   check(printed[1] and printed[1]:find("now called Yonder", 1, true), "… and the chat says so, and why")
   check(
     printed[2]
-      == "|cffc9a227Yonder:|r 1 creature in the Bestiary. Type /yonder or click the button by the minimap to open the journal.",
+      == ns.PREFIX
+        .. "1 creature in the Bestiary. Type /yonder or click the button by the minimap to open the journal.",
     "… then the login's line: what the journal holds, how to open it"
   )
   printed = {}
@@ -2003,7 +2007,7 @@ check(
   poster and poster.shown and poster.creature.fogFar == 0.1 and not YonderExpeditionsPage.portrait.badge.shown,
   "… still at large: only its shape in the frame, its portrait in shadow"
 )
-local track = YonderExpeditionsPage.buttons[1]
+local track = YonderExpeditionsPage.buttonPool[1]
 track.scripts.OnClick(track)
 check(
   state.popup:find("gold seal") and ns.huntTarget() and ns.huntTarget().id == 771 and ns.huntRecord(771).tracked,
@@ -2312,7 +2316,7 @@ check(listed.Duskwood and listed["Watcher Callahan"], "the list: the zones enter
 local vigil = ns.riddleById["elwynn-forest-heroes-vigil"]
 ns.openRiddle(vigil.id)
 check(pageRows()["It asks"] == "an emote there", "a place's gesture page does not ask for a creature target")
-local ask = YonderExpeditionsPage.buttons[1]
+local ask = YonderExpeditionsPage.buttonPool[1]
 check(ask and ask.shown, "an unsolved riddle's page offers its clue")
 ask.scripts.OnClick(ask)
 check(
@@ -2320,7 +2324,7 @@ check(
   "… asked for after the game's confirmation"
 )
 -- Pinned to the screen: a card of its own, dragged anywhere, closed by its cross.
-local pinIt = YonderExpeditionsPage.buttons[2]
+local pinIt = YonderExpeditionsPage.buttonPool[2]
 check(pinIt.shown and pinIt.text == "Pin to the screen", "an unsolved riddle's page offers to pin it to the screen")
 pinIt.scripts.OnClick(pinIt)
 local pinCard = YonderPinnedCard
@@ -2335,7 +2339,7 @@ check(
 )
 pinCard.scripts.OnDragStop(pinCard)
 check(ns.expeditions().pinAt ~= nil, "… dragged, it stays where it was left")
-check(YonderExpeditionsPage.buttons[2].text == "Unpin from the screen", "… and the page offers to unpin it")
+check(YonderExpeditionsPage.buttonPool[2].text == "Unpin from the screen", "… and the page offers to unpin it")
 pinCard.close.scripts.OnClick(pinCard.close)
 check(not pinCard.shown and ns.pinned() == nil, "… closed by its cross, unpinned")
 -- A zone's page: its riddles in words, a card for each riddle and its
@@ -2438,7 +2442,7 @@ check(
   "… its choices copied (what it lacks: the defaults)"
 )
 local code = P:export()
-check(code == "YD1:b0:s0:m1:w1:t1:h0:a90", "… a code for them: " .. code)
+check(code == "YD1:b0:n10:s0:m1:f12891:w1:t1:h0:a90", "… a code for them: " .. code)
 SlashCmdList.YONDER("import FJ1:c1:s3175")
 check(
   ns.option("sound") == 3175 and ns.option("minimapAngle") == 90 and ns.option("banner") == false,

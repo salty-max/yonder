@@ -124,7 +124,7 @@ local deeds = ns.kit.deeds({
   name = "Yonder",
   prefix = PREFIX,
   link = function(m) return ("|cffffd100|Hyonder:m%s|h[%s]|h|r"):format(m.id, m.title) end,
-  fallback = function() return ns.option("sound") end,
+  sound = function() return ns.option("achievementSound") end,
   show = function(m) ns.toast("milestone", m.id) end,
   shown = function(m)
     local family = FINDS[m.group]
@@ -787,9 +787,8 @@ function ns.milestoneVisible(m) return deeds:visible(m) end
 function ns.earnedMilestone(id) return deeds:earned(id) end
 -- Earned, and listed (what this character may know of).
 function ns.milestoneCount() return deeds:count() end
--- The fanfare of the game's achievements; the trophy sound where the client
--- has none.
-function ns.achievementFanfare() ns.kit.fanfare(ns.option("sound")) end
+-- The sound of an achievement earned: the player's choice (the kit's).
+function ns.achievementFanfare() ns.kit.achievementSound(ns.option("achievementSound")) end
 -- quiet: record without a word (reached before the addon looked), and
 -- withdraw what the expeditions no longer grant (the login).
 function ns.checkMilestones(quiet) return deeds:check(quiet) end

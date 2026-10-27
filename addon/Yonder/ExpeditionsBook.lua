@@ -345,25 +345,9 @@ StaticPopupDialogs.YONDER_HINT = {
 }
 local function ask(text, data) StaticPopup_Show("YONDER_HINT", text, nil, data) end
 
--- The buttons under a riddle or a poster, side by side ({ text, click }).
-local BUTTON_W = 190
-local function actions(buttons)
-  local row = page.actions
-  for i, a in ipairs(buttons) do
-    local b = page.buttons[i]
-    if not b then
-      b = CreateFrame("Button", nil, row, "UIPanelButtonTemplate")
-      b:SetSize(BUTTON_W, 24)
-      page.buttons[i] = b
-    end
-    b:SetText(a[1])
-    b:SetScript("OnClick", a[2])
-    b:ClearAllPoints()
-    b:SetPoint("LEFT", row, "LEFT", (i - 1) * (BUTTON_W + 12), 0)
-    b:Show()
-  end
-  page:place(row, 40)
-end
+-- The buttons under a riddle or a poster, side by side ({ text, click }):
+-- the kit's (Page:buttons).
+local function actions(buttons) page:buttons(buttons) end
 
 -- A text set apart in a panel of its own, its lines from the left: the
 -- verse, the margin.
@@ -534,9 +518,6 @@ end
 
 -- (picture: an icon's path, or a portrait's setter; ring: its ring, ringOf's)
 local function start(name, sub, picture, ring)
-  for _, b in ipairs(page.buttons) do
-    b:Hide()
-  end
   for _, part in pairs(page.parts) do
     part:Hide()
   end
@@ -930,9 +911,7 @@ local function build(b)
   book = b
   list = ui.newList(book.left, style, rows, true)
   page = ui.newPage(book.sheet, "YonderExpeditionsPage", 90, pairsPool)
-  page.buttons, page.parts = {}, {}
-  page.actions = CreateFrame("Frame", nil, page.child)
-  page.actions:SetSize(WIDTH, 26)
+  page.parts = {}
   page.map = ui.newMap(page.child)
 end
 

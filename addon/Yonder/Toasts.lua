@@ -14,7 +14,6 @@ local L = ns.kit.L
 local PREFIX = ns.PREFIX
 
 local BOOK = "Interface\\AddOns\\Yonder\\Media\\Logo"
-local SECONDS = 8
 local banners, achievements
 
 -- What a banner of this kind shows.
@@ -60,7 +59,8 @@ local function about(kind, id)
 end
 
 local function show(kind, id)
-  banners = banners or ns.kit.banners({ name = "YonderBanner", art = BOOK, seconds = SECONDS })
+  banners = banners
+    or ns.kit.banners({ name = "YonderBanner", art = BOOK, seconds = function() return ns.option("bannerSeconds") end })
   achievements = achievements
     or ns.kit.achievements({ banners = banners, art = BOOK, say = function(m) print(PREFIX .. m) end })
   -- (what can't be told still shows: the journal's book and its name)
