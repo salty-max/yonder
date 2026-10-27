@@ -1,7 +1,7 @@
 {
  "forever": {
   "1": "Abbaye de Comté-du-Nord",
-  "2": "Stormwind, Elwynn",
+  "2": "Hurlevent, Elwynn",
   "3": "Ile des programmeurs",
   "4": "Colline des sentinelles, marche de l'Ouest",
   "5": "Comté-du-Lac, les Carmines",
@@ -94,6 +94,7 @@
  },
  "classic": {
   "1": "Abbaye de Northshire",
+  "2": "Stormwind, Elwynn",
   "5": "Lakeshire, les Carmines",
   "6": "Ironforge, Dun Morogh",
   "11": "Undercity, Tirisfal",
