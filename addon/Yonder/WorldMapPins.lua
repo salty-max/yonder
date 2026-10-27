@@ -8,7 +8,7 @@
 -- that swallows an error without a word: the layer catches its own, says it
 -- once in chat, and keeps what it drew last for /yonder where (ns.mapLayer).
 local _, ns = ...
-local L = ns.kit.L
+local L, T = ns.kit.L, ns.kit.T
 
 local SKULL = "Interface\\TargetingFrame\\UI-TargetingFrame-Skull"
 local CLOSE = "Interface\\GossipFrame\\AvailableQuestIcon"
@@ -36,9 +36,9 @@ local function pin(i)
   p.icon:SetAllPoints()
   p:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-    GameTooltip:AddLine(self.title, 1, 0.82, 0)
-    GameTooltip:AddLine(self.text, 1, 1, 1, true)
-    GameTooltip:AddLine("Yonder", 0.6, 0.6, 0.6)
+    GameTooltip:AddLine(self.title, unpack(T.accent))
+    GameTooltip:AddLine(self.text, T.text[1], T.text[2], T.text[3], true)
+    GameTooltip:AddLine("Yonder", unpack(T.soft))
     GameTooltip:Show()
   end)
   p:SetScript("OnLeave", function() GameTooltip:Hide() end)
@@ -62,9 +62,9 @@ local function circle(i)
   end
   c:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_CURSOR")
-    GameTooltip:AddLine(self.title, 1, 0.82, 0)
-    GameTooltip:AddLine(self.text, 1, 1, 1, true)
-    GameTooltip:AddLine("Yonder", 0.6, 0.6, 0.6)
+    GameTooltip:AddLine(self.title, unpack(T.accent))
+    GameTooltip:AddLine(self.text, T.text[1], T.text[2], T.text[3], true)
+    GameTooltip:AddLine("Yonder", unpack(T.soft))
     GameTooltip:Show()
   end)
   c:SetScript("OnLeave", function() GameTooltip:Hide() end)

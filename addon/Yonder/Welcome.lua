@@ -43,7 +43,7 @@ local W = K.welcome({
       },
       {
         text = L["Alerts for achievements"],
-        hint = L["The game's achievement alert, with its fanfare."],
+        hint = L["The game's achievement alert, with the achievement sound."],
         get = function() return ns.option("milestoneToast") end,
         set = function(v) ns.setOption("milestoneToast", v) end,
       },
