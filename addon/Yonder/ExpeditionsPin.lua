@@ -1,5 +1,6 @@
--- A riddle or a quarry pinned to the screen: a small card of its own, in the
--- book's look, that stays while the reader goes looking. It shows the verse
+-- A riddle or a quarry pinned to the screen: the kit's banner card (K.bannerCard,
+-- the banners' own: its picture, where over its name, the cross), taller, that
+-- stays while the reader goes looking. Under its head it shows the verse
 -- (and the clue or the map, once asked for), and once solved or brought down
 -- its seal; dragged anywhere (kept where it was left, per character), closed
 -- by its cross; a click opens the book there. One at a time: pinning another
@@ -9,7 +10,7 @@ local _, ns = ...
 local L = ns.kit.L
 local ui = ns.ui
 local T = ui.T
-local WIDTH, PAD = 280, 14
+local WIDTH, PAD = 320, 14
 local TIERS = { near = L["Near the road"], off = L["Off the road"], hidden = L["Hidden"], town = L["In town"] }
 local card
 
@@ -49,41 +50,20 @@ local function place()
 end
 
 local function build()
-  card = CreateFrame("Button", "YonderPinnedCard", UIParent, "BackdropTemplate")
-  card:SetWidth(WIDTH)
+  card = ns.kit.bannerCard("YonderPinnedCard", WIDTH)
   card:SetFrameStrata("MEDIUM")
-  card:SetClampedToScreen(true)
   card:SetMovable(true)
   card:EnableMouse(true)
   card:RegisterForDrag("LeftButton")
-  -- (the kit's backing: Forever's card, else the tooltip's edge on a darker shade)
-  ns.kit.backing(card, 0.92, { 0.04, 0.05, 0.035 })
-  -- (what it shows, above its art)
-  local body = CreateFrame("Frame", nil, card)
-  body:SetAllPoints()
-  body:SetFrameLevel(card:GetFrameLevel() + 4)
-  card.body = body
-  card.picture = ui.roundPortrait(body, 32)
-  card.picture:SetPoint("TOPLEFT", PAD, -PAD)
-  card.title = ui.label(body, ui.TITLE_FONT, 15, T.gold)
-  card.title:SetPoint("TOPLEFT", card.picture, "TOPRIGHT", 10, -1)
-  card.title:SetPoint("RIGHT", -28, 0)
-  card.title:SetWordWrap(false)
-  card.sub = ui.label(body, ui.BODY_FONT, 11, T.soft)
-  card.sub:SetPoint("TOPLEFT", card.title, "BOTTOMLEFT", 0, -4)
-  card.sub:SetPoint("RIGHT", -28, 0)
-  card.sub:SetWordWrap(false)
-  card.verse = ui.label(body, ui.BODY_FONT, 12, T.text)
-  card.verse:SetPoint("TOPLEFT", PAD, -(PAD + 42))
+  -- (the head the banner's, where over its name; the verse and what is known under it)
+  card.verse = ui.label(card.body, ui.BODY_FONT, 12, T.text)
+  card.verse:SetPoint("TOPLEFT", PAD, -ns.kit.BANNER_H)
   card.verse:SetWidth(WIDTH - 2 * PAD)
   card.verse:SetSpacing(3)
-  card.extra = ui.label(body, ui.BODY_FONT, 11, T.soft)
+  card.extra = ui.label(card.body, ui.BODY_FONT, 11, T.soft)
   card.extra:SetPoint("TOPLEFT", card.verse, "BOTTOMLEFT", 0, -8)
   card.extra:SetWidth(WIDTH - 2 * PAD)
   card.extra:SetSpacing(2)
-  card.close = CreateFrame("Button", nil, body, "UIPanelCloseButton")
-  card.close:SetSize(24, 24)
-  card.close:SetPoint("TOPRIGHT", -3, -3)
   card.close:SetScript("OnClick", function() ns.pin(nil) end)
 
   card:SetScript("OnDragStart", function(self) self:StartMoving() end)
@@ -142,14 +122,14 @@ local function fill(r, q)
       if (rec.hints or 0) >= 1 then table.insert(extra, L["The clue: %s"]:format(r.hint)) end
       if (rec.hints or 0) >= 2 then table.insert(extra, L["Its place is shaded on your world map."]) end
     end
-    card.sub:SetText(ns.zoneName(r.zone) .. (r.night and L["  -  by night"] or ""))
+    card.kicker:SetText(ns.zoneName(r.zone) .. (r.night and L["  -  by night"] or ""))
     card.verse:SetText(table.concat(r.verse, "\n"))
   else
     local rec = ns.huntRecord(q.id) or {}
     ns.quarryPicture(q)(card.picture)
     ring(ns.sealRing(rec.at and ns.HUNT_SEALS[ns.huntSeal(rec)], rec.at ~= nil))
     card.title:SetText(q.name)
-    card.sub:SetText(ns.zoneName(q.zone) .. L["  -  the quarry"])
+    card.kicker:SetText(ns.zoneName(q.zone) .. L["  -  the quarry"])
     card.verse:SetText(table.concat(q.verse, "\n"))
     if rec.at then
       local s = ns.huntSeal(rec)
@@ -164,7 +144,7 @@ local function fill(r, q)
     end
   end
   card.extra:SetText(table.concat(extra, "\n"))
-  local h = PAD + 42 + card.verse:GetStringHeight() + PAD
+  local h = ns.kit.BANNER_H + card.verse:GetStringHeight() + PAD
   if #extra > 0 then h = h + 8 + card.extra:GetStringHeight() end
   card:SetHeight(h)
 end

@@ -175,8 +175,10 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   words, cards and its map; a riddle's page, its verse set apart, its hints
   asked for through the game's confirmation, its seal, note and margin; a
   quarry's poster, the creature turning in its frame), `ExpeditionsPin.lua`
-  (a riddle or quarry pinned to the screen: a card to drag, closed by its
-  cross), `Toasts.lua` (the kit's banners, among the game's alerts: a
+  (a riddle or quarry pinned to the screen: the kit's banner card,
+  `K.bannerCard`, taller, its head a banner's, the zone over the name, the
+  verse and what is known under it; dragged, kept where it was left, closed
+  by its cross), `Toasts.lua` (the kit's banners, among the game's alerts: a
   milestone's, a riddle's (its seal its ring: gold, silver, copper; iron
   till solved), a quarry's, each its own),
   `MilestonesBook.lua` (the Achievements tab, "Hauts faits" in French: milestones in the code and the saved journal, achievements to the player, as the Codex's; the kit's board: figures on top, each group's
