@@ -153,6 +153,7 @@ ns.translate({
     ["A Wall of Trophies"] = "Una pared de trofeos",
     ["a word with someone there"] = "hablar con alguien allí",
     ["Achievement earned: %s."] = "Logro obtenido: %s.",
+    ["Achievement fanfare"] = "Fanfarria de logro",
     ["Achievement sound"] = "Sonido de logros",
     ["Achievements"] = "Logros",
     ["Across the Sea"] = "Al otro lado del mar",
