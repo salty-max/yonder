@@ -10,7 +10,7 @@ local _, ns = ...
 local L = ns.kit.L
 local ui = ns.ui
 local T = ui.T
-local WIDTH, PAD = 320, 14
+local WIDTH, PAD = 380, 14 -- (a banner's width: a name the room its banner gives it)
 local TIERS = { near = L["Near the road"], off = L["Off the road"], hidden = L["Hidden"], town = L["In town"] }
 local card
 
@@ -65,6 +65,15 @@ local function build()
   card.extra:SetWidth(WIDTH - 2 * PAD)
   card.extra:SetSpacing(2)
   card.close:SetScript("OnClick", function() ns.pin(nil) end)
+  -- (the hover's glow, a row's, on the head alone: stretched over the verse
+  -- it would smear)
+  local hover = card:GetHighlightTexture()
+  if hover then
+    hover:ClearAllPoints()
+    hover:SetPoint("TOPLEFT")
+    hover:SetPoint("TOPRIGHT")
+    hover:SetHeight(ns.kit.BANNER_H)
+  end
 
   card:SetScript("OnDragStart", function(self) self:StartMoving() end)
   card:SetScript("OnDragStop", function(self)

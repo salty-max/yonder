@@ -2337,6 +2337,12 @@ check(
     and pinCard.picture.ring.vertex[1] == ns.kit.RINGS.iron[1][1],
   "… pinned: its card shows the verse and the clue taken, its ring iron till solved"
 )
+check(
+  pinCard.kicker.text:find(ns.zoneName(vigil.zone), 1, true) and pinCard.title.text ~= nil and pinCard.title.text ~= "",
+  "… its head a banner's: the zone over its name"
+)
+pinCard.scripts.OnClick(pinCard)
+check(YonderFrame:IsShown() and YonderFrame.selectedTab == ns.TAB.expeditions, "… a click opens the book at it")
 pinCard.scripts.OnDragStop(pinCard)
 check(ns.expeditions().pinAt ~= nil, "… dragged, it stays where it was left")
 check(YonderExpeditionsPage.buttonPool[2].text == "Unpin from the screen", "… and the page offers to unpin it")
