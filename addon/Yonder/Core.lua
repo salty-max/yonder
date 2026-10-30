@@ -115,7 +115,7 @@ end
 
 -- A journal kept under the addon's old name, Explorer's Field Journal (until
 -- 0.8.0), taken once and saved under the new names: the handover folder
--- (addon/FieldJournal, Classic Era and TBC) has the game load its saved files
+-- (addon/FieldJournal, Classic Era only) has the game load its saved files
 -- again, or a player copied them (in WTF, SavedVariables/FieldJournal.lua to
 -- Yonder.lua). (FieldJournalDB is another addon's, never touched.) Whether a
 -- journal was taken: said once the login knows it is this character's.

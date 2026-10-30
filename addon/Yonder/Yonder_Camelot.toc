@@ -17,8 +17,8 @@
 ## X-Wago-ID: ZKbq5y61
 
 # World of Warcraft: Forever. Each game loads its own TOC (_Vanilla: Classic
-# Era, _TBC: TBC Anniversary, _Camelot: Forever), the same but for the interface
-# and the game's data (scripts/package.ts checks).
+# Era, _Camelot: Forever), the same but for the interface and the game's data
+# (scripts/package.ts checks).
 Data_Forever.lua
 # the kit, then the reader's language (Locale.lua; the client loads its own
 # Text_<locale>.lua), before any file reads a word

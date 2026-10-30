@@ -86,5 +86,55 @@
     "data/rare-zones-forever.json": "Build input for Forever's new rares, shipped as data.rareZones (listed), and a saved Forever rare is filed from what the game says, not from a table",
     "data/expeditions.json": "Build input for the riddles and quarries, whose zones, riddle ids and quarry ids ship in Data_*.lua as data.expeditions (listed)"
   },
-  "removed": []
+  "removed": [
+    {
+      "table": "creatures (Forever)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "creatures (Classic)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "flight points (Forever)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "flight points (Classic)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "catches",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "building areas (Forever)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    },
+    {
+      "table": "building areas (Classic)",
+      "file": "i18n/itIT/*",
+      "ids": "*",
+      "why": "Italian dropped from every addon: no Italian client in Classic Era or Forever, the file was English copies of the same ids (still in every other language's table)",
+      "approved": "2026-10-30, the user's decision to drop Italian from every addon (the push go asks again)"
+    }
+  ]
 }

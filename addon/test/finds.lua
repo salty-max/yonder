@@ -378,7 +378,7 @@ return function(g)
   )
   -- API presence is not proof that its profession list is populated.
   -- Merge a partial modern list with the skills pane instead of skipping it.
-  for _, locale in ipairs({ "enUS", "frFR", "deDE", "esES", "esMX", "itIT", "ptBR", "ruRU", "koKR", "zhCN", "zhTW" }) do
+  for _, locale in ipairs({ "enUS", "frFR", "deDE", "esES", "esMX", "ptBR", "ruRU", "koKR", "zhCN", "zhTW" }) do
     GetLocale = function() return locale end
     for herbalism, family in pairs(M.professionNames[locale]) do
       if family == "plants" then

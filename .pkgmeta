@@ -5,8 +5,8 @@
 # written to .release-notes.md by the workflow.
 package-as: Yonder
 
-# With it, the handover from the old name, addon/FieldJournal (Classic Era and
-# TBC TOCs only: scripts/package.ts checks it).
+# With it, the handover from the old name, addon/FieldJournal (a Classic Era
+# TOC only: scripts/package.ts checks it).
 move-folders:
   Yonder/addon/Yonder: Yonder
   Yonder/addon/FieldJournal: FieldJournal

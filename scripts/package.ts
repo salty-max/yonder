@@ -13,14 +13,13 @@ import { GAMES, run, versionOf, type Also } from "./package-lib";
 
 // The handover (addon/FieldJournal): the addon's old name, Explorer's Field
 // Journal, so that the game loads its saved files once more for Yonder to
-// take (Core.lua, adopt). Classic Era and TBC only: on Forever another addon,
+// take (Core.lua, adopt). Classic Era only: on Forever another addon,
 // Field Journal: Forever, owns a FieldJournal folder (its FieldJournal.toc).
-// Its two TOCs and its one file, nothing else, the old saved variables,
+// Its one TOC and its one file, nothing else, the old saved variables,
 // Yonder's version.
 const HANDOVER = "FieldJournal";
 const HANDOVER_TOCS = [
   { toc: `${HANDOVER}_Vanilla.toc`, interface: GAMES.classic.interface },
-  { toc: `${HANDOVER}_TBC.toc`, interface: GAMES.tbc.interface },
 ];
 const HANDOVER_FILES = [...HANDOVER_TOCS.map((t) => t.toc), "YonderHandover.lua"];
 const also: Also = {
@@ -42,5 +41,5 @@ const also: Also = {
   },
 };
 
-// (each game's own files: the game's data: each game's own, TBC Anniversary reading Classic Era's)
-run({ root: join(import.meta.dir, ".."), name: "Yonder", games: { classic: ["Data_Classic.lua"], tbc: ["Data_Classic.lua"], forever: ["Data_Forever.lua"] }, also });
+// (each game's own files: the game's data: each game's own)
+run({ root: join(import.meta.dir, ".."), name: "Yonder", games: { classic: ["Data_Classic.lua"], forever: ["Data_Forever.lua"] }, also });

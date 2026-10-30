@@ -62,14 +62,13 @@ import { createHash } from "node:crypto";
 import { existsSync, readdirSync, readFileSync, statSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { readExpeditions, veil } from "./expeditions";
-import { kitKeys, kitWords, ownKeys, problems } from "./locales-lib";
+import { kitKeys, kitWords, LOCALES, ownKeys, problems } from "./locales-lib";
 import { misnamed } from "./names";
 import { paragraphs, type Paragraph } from "./paragraphs";
 
 const ROOT = new URL("..", import.meta.url).pathname;
 const I18N = join(ROOT, "i18n");
 const ADDON = join(ROOT, "addon/Yonder");
-const LOCALES = ["enUS", "enGB", "deDE", "frFR", "esES", "esMX", "ruRU", "ptBR", "itIT", "koKR", "zhCN", "zhTW"];
 const ENGLISH = new Set(["enUS", "enGB"]);
 const BORROWS: Record<string, string> = { esMX: "esES", enGB: "enUS" };
 const PLURALS = ["one", "fr", "ru", "none"];

@@ -1,9 +1,9 @@
 import { expect, test } from "bun:test";
 import { join } from "node:path";
 import { readExpeditions } from "./expeditions";
+import { LOCALES } from "./locales-lib";
 
 const ROOT = join(import.meta.dir, "..");
-const LOCALES = ["enUS", "enGB", "frFR", "deDE", "esES", "esMX", "itIT", "ptBR", "ruRU", "koKR", "zhCN", "zhTW"];
 const lua = (s: string) => JSON.stringify(s);
 
 // Exercise authored solutions through the real Lua resolver, with each

@@ -13,11 +13,9 @@ gates and the rules of the October plan in `docs/expeditions.md`, the voices in 
 - **After Forever's launch (4 November 2026):** Forever's new zones, creatures
   and rares reach the Bestiary and the Atlas as wow-data's databases fill; new
   riddles for them follow the gates (`docs/expeditions.md`).
-- **The FieldJournal handover** (`addon/FieldJournal/`: its TOCs and
+- **The FieldJournal handover** (`addon/FieldJournal/`: its TOC and
   `YonderHandover.lua`): players may still hold `FieldJournalChar`. Keep it
   one more release cycle, then remove it with the user's go.
-- **The TBC and Italian sweep**, one wave across the family after the launch:
-  `Yonder_TBC.toc`, `Text_itIT.lua`, `i18n/itIT/`, with the kit's resync.
 - **Two checks**: a test pinning the hand milestone ids in `Achievements.lua`
   (NIGHTMARE, PAGLE, SCHOOLED) against wow-data, and a short-circuit of the
   1-second riddle tick in `Expeditions.lua` when no journal is loaded or
