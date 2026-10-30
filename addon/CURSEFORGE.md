@@ -14,7 +14,7 @@ Exploration riddles and rare hunts for WoW, with a bestiary, an atlas and collec
 
 Yonder gives you riddles to solve, rare creatures to hunt and a record of what you find along the way. Follow a clue to a forgotten grave, track down a rare you've never fought, or fill in your bestiary while levelling. The journal keeps your discoveries, with notes from an Explorers' League naturalist.
 
-For Classic Era (including Hardcore and Season of Discovery), TBC Anniversary and World of Warcraft: Forever.
+For Classic Era (including Hardcore and Season of Discovery) and World of Warcraft: Forever.
 
 Yonder was called **Explorer's Field Journal** until version 0.8.0. Your journal comes along on its own: see **Coming from Explorer's Field Journal** below.
 
@@ -70,7 +70,7 @@ There are feats for Hogger, the Emerald Nightmare and the Firelord, for Nat Pagl
 
 ## Compatibility
 
-One download covers Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of Warcraft: Forever.
+One download covers Classic Era, Hardcore, Season of Discovery and World of Warcraft: Forever.
 
 Forever adds Zephras Isle to the Atlas, and its new rares count towards zone achievements. The game hides creatures inside Forever dungeons and raids from addons, so the journal cannot record them there.
 
@@ -95,7 +95,7 @@ The addon was renamed because another addon, Field Journal: Forever, uses the sa
 
 You don't need to do anything. At each character's first login with Yonder, its journal moves over: riddles, seals, creatures, Atlas, fish, herbs, achievements and settings. A line in chat confirms it.
 
-The download includes a small **FieldJournal** folder that hands the old journal over. It does nothing else, and a later update removes it. It works on Classic Era and TBC Anniversary. Forever beta journals start fresh, since beta characters don't carry over to launch.
+The download includes a small **FieldJournal** folder that hands the old journal over. It does nothing else, and a later update removes it. The handover is for Classic Era. Forever beta journals start fresh, since beta characters don't carry over to launch.
 
 If you install by hand, delete the old **FieldJournal** folder from `Interface/AddOns` first, then copy both folders, **Yonder** and **FieldJournal**. Copying over the old folder keeps the old addon's files. If it still runs beside Yonder, Yonder turns it off and says so in chat.
 

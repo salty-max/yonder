@@ -5,13 +5,13 @@ and a record of what you find along the way. Follow a clue to a forgotten
 grave, track down a rare you've never fought, or fill in your bestiary while
 levelling. Notes from an Explorers' League naturalist accompany your finds.
 
-For Classic Era, Hardcore, Season of Discovery, TBC Anniversary and World of
+For Classic Era, Hardcore, Season of Discovery and World of
 Warcraft: Forever. One download covers all of them.
 
 Yonder was called Explorer's Field Journal until version 0.8.0: another
 addon used the same folder. A character's old journal moves over on its own
 at its first login with Yonder, through the small FieldJournal folder in the
-download (Classic Era and TBC; a later update removes it).
+download (on Classic Era, removed in a later update).
 
 ## What's in the journal
 
@@ -73,7 +73,7 @@ Settings are under **Options > AddOns > Yonder**, or `/yonder settings`.
 - `/yonder reset` clears this character's journal after confirmation.
 
 The full store description is in [addon/CURSEFORGE.md](addon/CURSEFORGE.md).
-[PLAN.md](PLAN.md) records the design decisions and expedition rules.
+[docs/expeditions.md](docs/expeditions.md) records the expedition rules.
 
 ## Development
 

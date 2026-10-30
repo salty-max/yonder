@@ -12,7 +12,7 @@ a League naturalist's note per family. The **Atlas**: the zones explored, a
 dwarf surveyor's note each. **Finds** brings Fish, Plants, Ores & Gems and Cloth & Leather together,
 with permanent profession unlocks and universally available cloth. The
 **Milestones** reward progress throughout the book.
-Plan and decisions: PLAN.md. Sister project: Lorekeeper's Codex
+What is open: PLAN.md. Sister project: Lorekeeper's Codex
 (~/code/wow-addons/lorekeepers-codex), same engineering and voice.
 
 ## The handover (Explorer's Field Journal to Yonder)
@@ -31,7 +31,8 @@ login `adopt` (Core.lua) takes them under the new names and says so in chat
 the old addon itself off when it runs beside Yonder (told by its title; a
 manual install over the old folder keeps its Forever TOC, and two journals
 then record at once), for every character of the game, and says so. The
-handover has Classic Era and TBC TOCs only and one file, `YonderHandover.lua`:
+handover has a Classic Era TOC only (a TBC one is left over from the dropped
+TBC Anniversary, and goes after the launch) and one file, `YonderHandover.lua`:
 on Forever, Field Journal: Forever owns a `FieldJournal` folder
 (`FieldJournal.toc`), which no Camelot TOC of ours may shadow, and Forever's
 beta journals don't outlive the beta; `package.ts --check` refuses anything
@@ -77,7 +78,7 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   Forever's new creatures' type or family: the journal files them when met
   (`Creatures.lua`), from what the game says.
 - `data/flora.json` (`bun run flora`, `scripts/flora.py`): the herbs and fish
-  of the Plants and Fish tabs (being built, see PLAN.md): herbs with their
+  of the Plants and Fish tabs: herbs with their
   nodes, Herbalism skill (the client's Lock table) and zones (the nodes'
   spawns, placed by the Atlas's places of each zone); fish with their zones,
   subzones, dungeons, schools and seasons (their areas by id, named by the
@@ -108,8 +109,9 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   `addon/Yonder/Data_Classic.lua` and `Data_Forever.lua` (generated,
   committed; `--check` fails if stale).
 - `addon/Yonder` is one package for every game, installable as is: each game
-  loads its own TOC (`Yonder_Vanilla.toc`: Classic Era, 11509; `_TBC.toc`:
-  TBC Anniversary, 20506; `_Camelot.toc`: Forever, 16001), the same but for
+  loads its own TOC (`Yonder_Vanilla.toc`: Classic Era, 11509; `_Camelot.toc`:
+  Forever, 16001; a `_TBC.toc` is left over from the dropped TBC Anniversary
+  and goes after the launch), the same but for
   the interface and the game's data (`Data_Classic.lua` or
   `Data_Forever.lua`). `scripts/package.ts` (`bun run package`) checks they
   agree and zips `dist/Yonder-<version>.zip` for a test in the game

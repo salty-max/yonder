@@ -6,8 +6,8 @@ on the spot, and its quarry, a rare to track down), the **Bestiary**, the
 **Atlas**, **Finds** (fish, plants, ores and gems, cloth and leather) and the
 **Milestones**. Called Explorer's Field Journal (folder `FieldJournal`)
 until 0.8.0, renamed on 13 October 2026; `addon/FieldJournal` is the
-handover that brings old journals over. Classic Era (11509), TBC
-Anniversary (20506) and Forever (16001), one package; salty-max/yonder.
+handover that brings old journals over. Classic Era (11509)
+and Forever (16001), one package; salty-max/yonder.
 Sister project: Lorekeeper's Codex (same engineering and voice). Read the
 family's CLAUDE.md (`../CLAUDE.md`) first.
 
@@ -18,13 +18,9 @@ family's CLAUDE.md (`../CLAUDE.md`) first.
 | The journal file by file: the handover, the data files, notes, families, the build, the package, every Lua file, languages, the sim, the daily job, releases | `docs/architecture.md` |
 | The riddle files (`expeditions/<zone>.md`): fields, spots, `found:`, quests and keepers, what `scripts/expeditions.py` resolves and refuses | `docs/expeditions.md` |
 | The voices (naturalist, surveyor), riddle verses and hints, lore scope, `[classic]`/`[forever]` | `docs/writing.md` |
-| The plan and the decisions (Expeditions: Reworked, After the first test) | `PLAN.md` |
-| Finds' research and the translations' notes | `docs/finds-*.md` and the other tracked files in `docs/` |
+| What is open (the decisions still to take) | `PLAN.md` |
+| The Spanish translation's notes | `docs/spanish-translation.md` |
 | The store page | `addon/CURSEFORGE.md` |
-
-A few local review notes in `docs/` are excluded (`.git/info/exclude`):
-absent from git and from a worktree. Everything else there is tracked, the
-docs above included.
 
 ## Commands
 

@@ -2,12 +2,11 @@
 
 The format of `expeditions/<zone>.md`, what the resolver checks and what it
 writes (moved from CLAUDE.md on 20 October 2026). How a riddle is written:
-`docs/writing.md`. The plan and the decisions: `PLAN.md` (Reworked, After
-the first test).
+`docs/writing.md`. The hard rules: CLAUDE.md.
 
 - `expeditions/<zone>.md` (named as the atlas's, top level: build.ts reads
   every `content/` folder as a Bestiary section): a zone's riddles (the
-  Expeditions, PLAN.md): front matter in YAML (`zone`, `home` for a starting
+  Expeditions): front matter in YAML (`zone`, `home` for a starting
   zone or capital, `riddles`: id, tier, `faction` (a town's, or the side a
   keeper doesn't attack), `gestures`
   (emote tokens) or `reading`, `night`, `companions` (other creature ids
@@ -46,8 +45,7 @@ the first test).
   zone's spawns of what they ask for there), and a creature by the spot of a
   riddle open to both that attacks one side, unless `faction:` or the danger
   line names it (`--dry [folder]`, `scripts/expeditions_test.py`)
-  (the resolver checks these safeguards:
-  PLAN.md, Reworked and After the first test), then `## <id>` sections: the verse, `? ` the
+  (the choices behind them are at the end), then `## <id>` sections: the verse, `? ` the
   first hint, `= ` the note, `+ ` the margin; `## quarry`: its poster (verse,
   note, margin, no hint); plain ASCII.
   `scripts/expeditions.py` resolves the spots from the game's data into
@@ -75,3 +73,83 @@ the first test).
   Classic's percent to Forever's (checked against Forever's own creature
   points), and the build moves Data_Forever.lua's cells, circles and haunts
   by it. A landmark in one of them is refused until its map is settled.
+
+## The gates' choices (20 October 2026)
+
+`scripts/expeditions.py` runs two checks the 20 October review made by hand,
+over every riddle on Classic Era and Forever (`scripts/expeditions_test.py`
+undoes the review's four fixes and gets all five findings back). Where the
+spec was left, and why:
+
+- **A spot riddle's place is where it is solved, plus 10 yards, not its hint
+  circle.** The circles are vague on purpose: the Ratchet book's covers about
+  800 yards of the Barrens, so every Merchant Coast pirate quest was "tied" to
+  a book on a shelf. Hint circles for every riddle gave 239 ties, this gives
+  67. An area riddle keeps its hint circle: there the circle stands for the
+  area.
+- **A quest asks for what is at the place only when half the zone's spawns
+  of its target are there.** Without it, every yeti quest in Winterspring
+  was Kel'Theril's.
+- **Item ties count quest-only drops** (the Classic database's negative
+  chances, Questie's quest items). Counting every drop gave 6,448 ties:
+  linen cloth from every humanoid, herbs from every node.
+- **A Classic spawn is another zone's when Questie or Wowhead don't place
+  the thing in this zone, and a map they do place it on holds the spawn.** A
+  zone's map rectangle also holds what lies beneath it and the cities inside
+  it: Overmaster Pyron, deep in Blackrock Mountain, came out as a neighbour
+  of Searing Gorge's Blackchar Cave. A book copied in several inns stays
+  where it is, even where Questie lists only the other inns.
+- A keeper within 10 yards of the spot (or the area's anchor) that attacks
+  one side only must be answered by `faction:` or a danger line naming it
+  (its name, or its kind: "the refugees").
+
+Not covered: 2,452 of Forever's new creatures have neither a faction template
+in the data nor Questie's friendly sides, so the keepers check cannot judge
+them (the 736 Questie does give are judged). Zephras Isle's people are all
+friendly to both, or unknown.
+
+## Rules kept from the October 2026 plan
+
+(Cut from `PLAN.md` on 30 October 2026, the rest is in git's history.)
+
+- **How many.** The first plan's ceiling, not a quota: a zone one riddle for
+  every four places its map reveals (its WorldMapOverlay entries), rounded up,
+  a capital three, a faction town in a contested zone one for its own faction
+  alone. Later decisions and the user's asks moved it either way: fewer when
+  the land has nothing untied to show (a zone keeps one riddle or none, a town
+  loses its riddle), more where a thin zone had untied things (Stormwind and
+  Undercity have four). A zone's riddles climb: near the road, off the road, hidden (never behind an exploit
+  or off the playable map).
+- **Whose ground.** A zone's own riddles lie on ground both factions can walk,
+  never inside a faction's guarded town, neutral towns welcome. A capital's
+  riddles are its own faction's alone. The six starting zones are kept the
+  same way (`home:`): Elwynn, Dun Morogh and Teldrassil for the Alliance,
+  Durotar, Mulgore and Tirisfal for the Horde.
+- **What solves a riddle.** Never from a taxi, nor as a ghost, nor in combat.
+  A gesture is the emote's token (`C_ChatInfo.PerformEmote` hooked), never the
+  text. The reader guesses it from the story, so a riddle accepts every
+  gesture that means the same there (grief at a grave, cheer at a feast) and
+  never one that does not.
+- **Never the same discovery twice in a zone.** Different places may share an
+  arrival, a reading, a conversation or a gesture. Each riddle needs its own
+  subject and observation: the resolver refuses a reused subject (a group's
+  companion keepers included) and overlapping passive arrival footprints.
+  Never a kill: a creature a riddle asks for is no foe of the side that may
+  solve it.
+- **Danger.** Each riddle and quarry says how dangerous its place is, from the
+  pinned spawns within about 60 yards (highest level, elites): "Quiet",
+  "Guarded (to level 32)", "Perilous (elites)", "the other faction's land". A
+  Hardcore character is never sent blind into an elite camp.
+- **Forever's quests.** The resolver flags a new quest that gives, ends or
+  asks for a riddle's subject, names it, or sends players within 4% of a
+  passive arrival. Only the quest ids named in `quest_overlap` are exempt, so
+  later quest changes still surface. Passing the resolver does not replace
+  editorial review of the action and the note.
+- **Sources** beyond the quests: the dump's props, inscriptions, gossip and
+  scripted lines, the WoWWiki archive (its later expansions' lines set
+  aside), Warcraft III, Lands of Conflict, the Warcraft RPG, Chronicle for the
+  old past, the client's display tables (who a keeper is) and the data's own
+  oddities. Cross-media lore is welcome when it is not anachronic to the
+  original game or Forever.
+- **Never a famous leader or a capital's front gate.** The overlooked, as
+  CLAUDE.md's table says.
