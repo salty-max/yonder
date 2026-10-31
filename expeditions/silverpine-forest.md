@@ -24,7 +24,7 @@ riddles:
   - id: silverpine-forest-bates
     tier: town
     faction: horde   # its town's: for that faction alone
-    gestures: [SHIVER, SCARED]
+    gestures: [SHIVER, SCARED, COWER, CRINGE]
     creature: 6739   # Innkeeper Bates, dump 43.2, 41.3, in the Sepulcher; Wowhead's point alike
     hint_area: { x: 43.0, y: 42.0, r: 2 }
     danger: "Quiet"
@@ -47,7 +47,7 @@ At the forest's southern end, a wall of grey stone shuts a kingdom in.
 Under it, the plague's refugees wait for a gate that does not open,
 and among them a smith sells blades to anyone at all:
 he cannot see which side you are on. Don't bother waving.
-? Under the Greymane Wall, at the south end of Silverpine, among the refugees. Say hello to the smith. A wave is no use to a blind man.
+? Under the Greymane Wall, at the south end of Silverpine, among the refugees. Say hello to the smith: he will hear you.
 = Wallace the Blind, weaponsmith to Horde and Alliance alike, under the Greymane Wall: Gilneas keeps its gate shut on the refugees at its foot.
 + Gilneas raised the wall after the Second War, when Genn Greymane quit the Alliance over the cost of the orcs' internment camps.
 

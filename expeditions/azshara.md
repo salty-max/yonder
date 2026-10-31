@@ -51,7 +51,7 @@ and her demons, when the world was broken. Find what is left of him, and honour 
 ## azshara-lake-mennar
 In the south of the elves' old country, dragonkin of the blue flight hold the shores of a lake,
 far from the cold north where their kind belongs.
-Inside their ring, the lake itself is calm. Get through them, and refresh yourself at the water.
+Inside their ring, the lake itself is calm. Find a way through them, and refresh yourself at the water.
 ? Lake Mennar, in southern Azshara. Sit by the water a while.
 = Lake Mennar: blue dragonkin hold its shores, scalebanes, mageweavers and magelords, far from their flight's northern home.
 + Mazthoril's caves in Winterspring are another blue dragonflight refuge outside Northrend.
@@ -60,7 +60,7 @@ Inside their ring, the lake itself is calm. Get through them, and refresh yourse
 Past the bay of storms, at the very tip of the land,
 the elves of the old empire left a tower, and shut it behind them.
 Nobody has opened it since.
-Find its door. Nobody knows what it keeps.
+Find its door, and wonder what it keeps.
 ? The Tower of Eldara, at Azshara's north-eastern tip, past the Bay of Storms. Before the shut tower, ponder what is inside.
 = The Tower of Eldara: a piece of the night elves' civilisation that once covered most of Azshara, closed and abandoned at the tip of the land.
 + The whole land still bears the name of the queen who ruled that civilisation, and who drew the Burning Legion into the world.

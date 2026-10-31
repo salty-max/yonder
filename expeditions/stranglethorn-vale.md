@@ -109,7 +109,7 @@ and has been left at the wrong end of the route.
 He would give a great deal for a decent meal from home. Ask him.
 ? Grom'gol Base Camp, at the top of the zeppelin tower. Speak to the goblin. He will talk without being fed.
 = Nez'raz, Zeppelin Master at Grom'gol: his brother talked him into the trade route, and left him the jungle end of it.
-+ 'If you come back this way on the Zeppelin, could you bring me something to eat? ... I sure could use something that didn't die weeks before it stopped moving.'
++ Grom'gol Base Camp is the Horde's foothold on the jungle's west coast, and its airships are the quickest road home.
 
 ## stranglethorn-vale-grizzlowe
 In the goblins' port, a shipmaster waits at the berth for a ship that is not quite in yet.

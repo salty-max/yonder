@@ -57,7 +57,7 @@ facing the south, where once the third one's fires glowed.
 At the head of the loch, the dwarves have shut a valley with a wall of stone
 and kept the mountain's snowmelt behind it.
 The lake they made is more than twice the one they found.
-Their wall is counted among the wonders of the world. Climb onto it and see why.
+Their wall is counted among the wonders of the world. Climb onto it, and let it astonish you.
 ? The Stonewrought Dam, at Loch Modan's northern end. From the dam, look out over the loch in awe.
 = Stonewrought Dam, the dwarves' wall across the head of Loch Modan: it holds back the snowmelt of Ironforge's mountain, and more than doubled the loch.
 + Few know it, but the dam is a Dark Iron's work: Franclorn Forgewright, a master architect before the War of the Three Hammers. 'Stonewrought' was the name given to his works.
@@ -82,7 +82,7 @@ The vault lies south of this lake.
 ## quarry
 The troggs who took the League's dig in the Loch's south-east
 answer to a chieftain who stands on the excavation's platform,
-among his diggers and a berserk one.
+among his diggers and a berserker.
 He calls himself the boss, and none of his tribe argues.
 = Boss Galgosh, Stonesplinter Chieftain, on the platform of the dig in the Loch's south-east. Magosh, the tribe's shaman and as rare a sight, keeps the same dig, a little east of him.
 + The mountaineers' scouts send the bold after another trogg, Grawmug, in a cave south-west of the Loch.

@@ -134,7 +134,7 @@ who gave the Light its first knights.
 Do there what he taught a kingdom to do, if the Crusade lets you.
 ? South-west of the Scarlet Monastery, where its fallen come back. Pray at the archbishop's resting place.
 = Faol's Rest, in sight of the zealots who claim his Light.
-+ Stormwind remembers him too: a plaque in its cathedral calls him the 'benevolent patron of the Church of Light', who began his work in Stratholme and raised the funds to rebuild Stormwind after the Second War.
++ The first of his knights was Uther, whom the world would come to call the Lightbringer.
 
 ## tirisfal-glades-bulwark
 In the Horde's camp at the Glades' eastern edge, where the plaguelands begin,

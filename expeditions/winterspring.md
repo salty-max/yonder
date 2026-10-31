@@ -24,7 +24,7 @@ riddles:
     sources: "the dump's spawn (no quest, no wares, no word); the WoWWiki archive's Jack Sterling page (a human in Everlook who offers no quests or services; the dump has three more humans in Everlook, so the riddle names him by what he lacks) and In-jokes and references, Kalimdor page (Everlook and the Overlook Hotel, Jack Sterling and Jack Torrance)"
   - id: winterspring-kel-theril
     tier: off
-    gestures: [MOURN, KNEEL, PRAY]
+    gestures: [MOURN, KNEEL, PRAY, CRY]
     area: The Ruins of Kel'Theril   # placed: the Remorseful Highborne (10684), dump 56.1, 44.4; Wowhead 56.0, 44.6
     anchor: { creature: 10684 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 54.5, y: 43.5, r: 5 }

@@ -63,7 +63,7 @@ Address them in their own tongue.
 In the town at the forest's crossroads, six children walk the roads together,
 always in the same order, and always back to the same house.
 Upstairs, of a morning, they stand in a ring around one of them, silent, for hours.
-Climb to their room, if you have the nerve, and see how it feels.
+Climb to their room, if you have the nerve, and let the chill take you.
 ? Goldshire, the house on its north-east side by the lake, where the skinner and the leatherworker keep shop. Upstairs, in the morning, by the children's ring, let yourself shiver.
 = The children of Goldshire: Cameron in the middle of the ring, Dana, John, Lisa, Aaron and Jose around him. They walk out together, and they always come back to this room.
 + They come out in the morning, walk their round once, and stand in their room until noon. Then they are gone.

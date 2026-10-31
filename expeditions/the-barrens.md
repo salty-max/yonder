@@ -101,9 +101,9 @@ On the road between the goblins' port and the orcs' crossroads,
 a goblin peddler walks back and forth with weapons and potions to sell,
 and an ogre walks behind him, far too strong for these plains.
 Catch the peddler on the road.
-? The road from Ratchet to the Crossroads. He walks it end to end. Ask the peddler to show you his wares. There is no need to buy.
+? The road from Ratchet to the Crossroads, which he walks back and forth. Ask the peddler to show you his wares, and keep your coin if you like.
 = Lizzarik, a goblin weapon dealer of Ratchet, walking the road to the Crossroads and back with Jorb, his ogre bodyguard.
-+ Jorb is of level thirty-seven, on a road most travellers walk at fifteen.
++ Jorb, the ogre at his back, is stronger than anything on the open plains between the two towns.
 
 ## the-barrens-tidus-stair
 South of the goblins' port, great steps of ancient stone come up out of the sea,
@@ -123,7 +123,7 @@ and her small son plays outside her door. Be friendly.
 + Of the boy's father, the rampart says nothing.
 
 ## the-barrens-northwatch
-On the plains' southern coast, Theramore's soldiers hold a fort against the Horde,
+South of the goblins' port, on the plains' coast, Theramore's soldiers hold a fort against the Horde,
 and inside it the Alliance keeps its own account of the camps where it once held the orcs,
 and of the sickness no warden could explain.
 Find the page that says what kind of cure it would take.

@@ -70,6 +70,10 @@ this order, each a different job.
   whoever keeps it", "Find her among them: she will tell you herself"). The
   rest end on the story's last image. Plain words, no archaic
   thee and thou, no puzzle for its own sake: the story points, the hint helps.
+  One deliberate exception: the Valley of Kings (`loch-modan-valley-of-kings`)
+  rhymes in couplets, a dwarven ballad for the dwarves' own monument (the
+  user's call, 31 October 2026). It stays the only one: a new riddle never
+  rhymes. Its translations need not rhyme.
 - **The hint (`? `).** Usually two sentences (one to four), 16 words at the median (7 to 29).
   Where the place is, in the traveller's own terms (a road, a town's square,
   a house), then what to do, in ordinary words, one accepted gesture at most.

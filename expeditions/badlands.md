@@ -24,7 +24,7 @@ riddles:
     sources: "the WoWWiki archive's Apocryphan's Rest and Badlands pages; the dump's spawns"
   - id: badlands-funeral-ground
     tier: hidden
-    gestures: [MOURN, PRAY, KNEEL]
+    gestures: [MOURN, PRAY, KNEEL, BOW]
     name: The funeral ground above the road
     landmark: badlands-funeral-ground   # the client's own placement of the middle pyre, read from its map files
     radius: 20
@@ -48,7 +48,7 @@ Find the chamber, and give the one who outlasted his flesh what a king is owed.
 South of the Horde's stockade on the western cliffs,
 something died that was bigger than a keep, and it lies where it fell:
 a cage of ribs the vultures have long since picked clean.
-It has a name on the maps, and nothing more. Take in what remains among its bones.
+It has a name on the maps, and nothing more. Walk among its bones, and marvel at their size.
 ? South of Kargath, on the Badlands' western side. Among the bones, look at how big they are.
 = Apocryphan's Rest: the skeleton of a dragon, south of Kargath. Whose bones they were, nobody in the Badlands says.
 + The black dragonflight still keeps a ravine of its own, at the waste's far eastern edge.

@@ -25,7 +25,7 @@ riddles:
     sources: "Snarl's own words (his gossip, both variants and a smith's), Saru Steelfury's (a serpent in my lair), Ug'thok's; the dump's spawns of the forge (Saru, Sumi and Tumi, the client's display tables: two orc women); the WoWWiki archive's Snarl, Saru Steelfury, Sumi and Tumi pages (the Burning Anvil)"
   - id: orgrimmar-orphanage
     tier: hidden
-    gestures: [WAVE, HELLO, GREET, SMILE, PAT, COMFORT]
+    gestures: [WAVE, HELLO, GREET, SMILE, PAT, COMFORT, HUG]
     creature: 14498   # Tosamina, dump 70.6, 23.7, among the Horde Orphans (14499) in the Drag
     companions: [14499]   # kindness addressed to a child counts too
     hint_area: { x: 70.5, y: 24.0, r: 3 }
@@ -36,7 +36,7 @@ riddles:
 ## orgrimmar-mannoroth-armor
 In the city named for a fallen warchief, the plates of a demon hang on display,
 worn by the creature that first cursed the orcs with bloodlust,
-defeated by the act of one brave orc. Find them.
+defeated by the act of one brave orc. Find them, and read what the city wrote beside them.
 ? In the Valley of Strength, in the middle of Orgrimmar. Read the inscription beside the displayed armour.
 = The Armor of Mannoroth.
 + 'Let these plates always remind us of how far we've come and how hard we fought to regain our honor.' - Thrall. Grom's monument stands in Ashenvale, where he died.

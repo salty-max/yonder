@@ -16,7 +16,7 @@ riddles:
     sources: "the dump's spawn, path and words; the client's display tables (a troll); the WoWWiki archive's Simone the Inconspicuous page (the succubus beneath, Precious, Fool's Plight)"
   - id: ungoro-crater-lakkari
     tier: near
-    gestures: [PEER, LOOK, GAZE]
+    gestures: [PEER, LOOK, GAZE, STARE]
     area: Lakkari Tar Pits   # placed: the client's overlay
     hint_area: { x: 49.5, y: 21.5, r: 9 }
     danger: "Perilous (tar elementals, to level 54)"
@@ -39,7 +39,7 @@ Be pleasant to her, and only pleasant.
 South of the explorers' refuge, the floor of the crater turns to black lakes
 that keep whatever walks into them.
 The bones of hundreds of beasts still break their surface,
-and what rises from the tar is tar too. Go and see what it has kept.
+and what rises from the tar is tar too. From the shore, let your eyes count what it has kept.
 ? The Lakkari Tar Pits, just south of Marshal's Refuge: look out over the tar from its shore.
 = The Lakkari Tar Pits: lakes of thick black tar that trap whatever wanders in, the bones of hundreds of beasts jutting from the surface, and elementals of the tar rising out of it.
 + The scavengers know the pits too. They wait at the edges for the tar to catch their next meal.

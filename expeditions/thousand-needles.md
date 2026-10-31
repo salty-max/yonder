@@ -59,7 +59,7 @@ A good dog is owed a kind hand.
 East of the goblins' raceway, a pair of skid marks leaves the track and never comes back.
 At the end of them, one racer took the bend far too fast,
 and has been hanging halfway up the cliff ever since.
-Find the racer who never finished, hanging high above your head.
+Find the racer who never finished, and show the others where he hangs.
 ? The Shimmering Flats, east of the Mirage Raceway, under the eastern cliffs. Walk to the foot of the cliff, and point up at the racer hanging on the rock.
 = The racer on the cliff: a goblin racer crashed halfway up the Shimmering Flats' eastern wall, left where it stopped.
 + The raceway's racers are shaped like the podracers of another world's great desert race, and this one like its most notorious cheat's.

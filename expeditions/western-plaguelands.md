@@ -47,7 +47,7 @@ and killed him before his work ever left the town. Ask her about it.
 South of a city the plague emptied, on a hill named for sorrow,
 the first of the Light's knights lies where his soldiers buried him.
 He taught a prince, and the prince cut him down.
-His stone has something to say to whoever stops beside it.
+His stone has something to say to whoever stops to read it.
 ? Uther's Tomb, on Sorrow Hill south of Andorhal: read the plaque before the statue.
 = The plaque of Uther the Lightbringer, First Paladin and Founder of the Order of the Silver Hand, who lived and died to defend Lordaeron and was betrayed by his most beloved student. It is signed: Anonymous.
 + Uther had King Terenas's urn with him when his student killed him. The prince took it from his master's body.
@@ -56,7 +56,7 @@ His stone has something to say to whoever stops beside it.
 In the fallen kingdom lies the greatest lake of these lands,
 and in its middle an island town, and a noble family's house,
 and under the house a school that teaches the raising of the dead.
-From its shore, the island is still in sight across the water.
+From its shore, fix your eyes on the island across the water.
 ? Darrowmere Lake, in the Western Plaguelands' south-east. From its shore, gaze across at the island.
 = Darrowmere Lake, the largest lake of the Eastern Kingdoms. On the island at its heart stand Caer Darrow and the House of Barov, with the Scholomance deep beneath them.
 + On its eastern side, a wind off the Hinterlands' peaks keeps the plague mist thinner than anywhere else in the Plaguelands, and the water still shows the blue of the sky.

@@ -49,7 +49,7 @@ and nobody knows whether they came home. Honour them as soldiers honour their ow
 In the south-west of the waste, a great demon who stayed behind
 holds a scar in the land with his host,
 and every life lost near him gives him back his own.
-Step onto his ground, take it in, and do not linger.
+Step onto his ground, let your eyes sweep across it, and do not linger.
 ? The Tainted Scar, in the Blasted Lands' south-west: step just inside its edge and gaze over it.
 = The Tainted Scar, Lord Kazzak's ground.
 + Each death near him heals him for seventy thousand. And if he still stands three minutes after the first blow, his fury leaves no one standing.

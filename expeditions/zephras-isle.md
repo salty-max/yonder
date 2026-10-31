@@ -71,7 +71,7 @@ Give them an audience.
 In the cult's own shrine, among the grey robes and the shaved heads,
 one of the faithful will not lift a hand against you.
 He knows what the rest of the isle thinks of that robe.
-Let him see it in your face.
+Let him see that you share the isle's disapproval.
 ? The Shrine of Akir, at the heart of the isle. Frown at the cultist who leaves you in peace.
 = Brother Zendraas, of Falaath Village. When the cult moved in, he shaved his head, put on the grey robes and said the words they wanted to hear. Now he keeps his head down, and survives.
 + He is a tailor, and he designed most of what the cult wears. Bring him spare windstones and he will trade his stock of their robes.
@@ -80,7 +80,7 @@ Let him see it in your face.
 At the top of the tree in Thendal Village,
 two children have climbed higher than the grown-ups bother to.
 They are watching something the rest of the isle says is gone.
-See it with them.
+Climb up and watch it with them.
 ? Thendal Village, in the isle's north-west: up the tree. Up by the children, peer at what they are watching.
 = Haal and Meeri, two children of Thendal Village, watching a spirit from the top of the tree. The wind spirits left Zephras long ago. Yala Windwatcher says only their mindless echoes remain.
 + In the same branches, a white crystal keeps a recording, On the Shal'nan: the masked leader of the rebels who fled Eldre'Thalas, who ruled his people for more than a century and then gave his power up to a council.

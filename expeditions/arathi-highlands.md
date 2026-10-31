@@ -57,7 +57,7 @@ Follow the shore until the rams have a stable.
 On the highlands' north-western edge, a wall of the first kingdom of men
 runs along the border, over the hills, as far as it can see.
 It was raised against the trolls, long ago. Now it gapes, broken through.
-Go to its foot, and take in what is left.
+Go to its foot, and wonder what it once kept out.
 ? Arathi's north-western edge, where the highlands meet the foothills. At the broken wall, ponder what it once kept out.
 = Thoradin's Wall, raised by King Thoradin of Arathor, the first kingdom of men, against the Amani trolls, broken now and gaping wide.
 + 'Once a symbol of humanity's strength and defensive might,' an old survey of these lands calls it, 'now fallen to decay and war.'
@@ -74,7 +74,7 @@ The story is kept on a page.
 South of the Horde's hold in the highlands, the grass gives way to the first rocky hills.
 Into one of them, someone has cut three letters, big enough to read from the grass below,
 and the hillside has had the same thing to say to every passer-by ever since.
-Find the angle that shows them, and give the hill the answer it is fishing for.
+Find the angle that shows them. The hill is having its fun: take it as it was meant.
 ? South-east of Hammerfall, at the foot of the first rocky hills. From the grass, face the slope to the east until the three letters show, and laugh along.
 = The laughing hillside, south-east of Hammerfall: LOL, cut into the slope for whoever stands at the right angle.
 + From any other angle the letters fall back into plain grass and rock, and the hill has nothing to say.

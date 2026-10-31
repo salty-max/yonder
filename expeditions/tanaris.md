@@ -45,7 +45,7 @@ riddles:
     sources: "the WoWWiki archive's Winkey and Southbreak Shore pages; the dump's spawn and words; quest 3823's text (Oralius and his 'Winky')"
   - id: tanaris-jhordy
     tier: near
-    gestures: [EYE, SUSPICIOUS, PEER]
+    gestures: [EYE, SUSPICIOUS, PEER, LOOK, STARE]
     creature: 14743   # Jhordy Lapforge, Engineer, dump 52.3, 26.9, in Gadgetzan; Wowhead 52.2, 26.8
     hint_area: { x: 52.0, y: 26.0, r: 2 }
     danger: "Quiet"
@@ -109,7 +109,7 @@ She has one request for whoever swims out to her. Let your face answer hers.
 In the goblins' desert town, a gnome engineer with a visor over his eyes
 has built a machine that sends a traveller across the world in an instant,
 nearly always in one piece, and nearly always the same traveller.
-Make sure its maker is still himself.
+Study its maker closely, to make sure he is still himself.
 ? Gadgetzan, in Tanaris: the gnome engineer with the visor, by the transporter pad. Eye him suspiciously.
 = Jhordy Lapforge, Gadgetzan's engineer, and his Matter Transporter.
 + To engineers who can build its beacon, he admits the rest: 'There have been some reported problems with transportees being replaced by their evil selves from an alternate universe, but I'm sure we will have that worked out soon...'
@@ -118,7 +118,7 @@ Make sure its maker is still himself.
 West of the goblins' desert town, a little rocket car lies wrecked at the foot of the mountains.
 Its skid marks run back into the rock behind it, as though the range were no wall at all,
 and on the far side, by the salt flats, the same marks lead in.
-Find where it came out, and see if you can believe it.
+Find where it came out, and let your jaw drop.
 ? Just west of Gadgetzan, at the foot of the mountains. Find the crashed rocket car, and show your surprise.
 = The car through the mountain: a crashed gnome rocket car west of Gadgetzan, its skid marks starting on the far side of the range, by the Shimmering Flats.
 + In another world's tale, a scientist drove a rocket car straight through a mountain, across salt flats very like the Shimmering Flats.

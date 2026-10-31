@@ -56,7 +56,7 @@ In the far south-east, the black-rock orcs keep a camp in a valley,
 and by its fire sits a gnome with a ball and chain at his feet.
 He served a mage's tower once, and he still has wares,
 for whoever can reach him: thread, dye, and cloaks fit for a tower.
-Be kind to him.
+Ease his spirits, if not his chains.
 ? Render's Valley, Redridge's south-east, in the Blackrock camp. Comfort the captive gnome by the fire.
 = The Captured Servant of Azora, a gnome of the tower in Elwynn, chained in the Blackrock camp, and still selling tailoring supplies.
 + He keeps only one of each cloak: Inferno, Spirit and Sylvan. The Inferno offers protection against fire, useful enough in a valley held by the Blackrock.

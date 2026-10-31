@@ -46,7 +46,7 @@ quarry:
 West of the elves' lodge, a ravine climbs out of the green hills,
 and a mist hangs in it that does not belong to them:
 the air of the dead country comes down it from the north.
-Walk up into it, and you will know it by the taste.
+Walk up into it, and the taste of it will catch in your throat.
 ? Plaguemist Ravine, north-west of Quel'Danil Lodge. The air in this ravine is enough to make anyone cough.
 = Plaguemist Ravine: a way out of the Hinterlands, north toward Caer Darrow and the Western Plaguelands, with the plague's mist in it.
 + Nothing lives in it and nothing waits there. It is only a road, and the mist.
@@ -55,7 +55,7 @@ Walk up into it, and you will know it by the taste.
 In the Hinterlands' north-east, green dragons keep a door
 that opens on nothing anyone awake has ever seen.
 There are four such doors in this world.
-None was made for waking eyes.
+None was made for waking eyes: close yours.
 ? Seradane, in the Hinterlands' north-east. Sleep before the door. Waiting awake will get you nowhere.
 = Seradane: one of the four doors into the Emerald Dream, kept by the green drakes Dreamtracker and Rothos. Its sisters stand in Duskwood, Ashenvale and Feralas.
 + On the hill north of it lies the skull of a dragon nobody has named, inside a ring of stones like the Arathi Highlands' circles of binding.

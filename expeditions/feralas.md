@@ -8,7 +8,7 @@ client: both
 riddles:
   - id: feralas-the-maul
     tier: hidden
-    gestures: [FLEX, ROAR, CHALLENGE, VICTORY]
+    gestures: [FLEX, ROAR, CHALLENGE, VICTORY, CHEER]
     area: The Maul   # placed: Griniblix the Spectator above it (creature 14395), dump 62.0, 30.1
     anchor: { creature: 14395 }   # what places its hint: the area has no overlay of its own
     hint_area: { x: 61.0, y: 32.0, r: 4 }

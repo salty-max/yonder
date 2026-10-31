@@ -69,7 +69,7 @@ belts, orbs, a pattern or two, one of each at a time.
 Catch him on the road.
 ? The road from Southshore to Tarren Mill. He walks it end to end. Let the goblin show you his wares. Your purse can stay shut.
 = Zixil, Merchant Supreme, a goblin who trades in both Southshore and Tarren Mill, with Overwatch Mark I, his robot, at his heels.
-+ His schematic teaches an engineer to make Goblin Jumper Cables, which may shock a fallen companion back to life. The word 'may' is worth remembering.
++ His schematic teaches an engineer to make Goblin Jumper Cables, which may shock a fallen companion back to life.
 
 ## hillsbrad-foothills-gryphons
 Where the road climbs out of the foothills toward the wild dwarves' country,
@@ -87,7 +87,7 @@ Someone made sure it would be here, for someone they lost.
 Give the one remembered here a moment of respect.
 ? Below Dun Garok, toward the sea. Kneel beside the memorial stone.
 = 'Anthony Ray Stark. 1961 - 2005.'
-+ A memorial the world's makers left for a friend of theirs. Rousch, the dwarf standing before it, was his own character in the game. He had brought him to somewhere in the forties.
++ A memorial the world's makers left for a friend of theirs. Rousch, the dwarf standing before it, was the friend's own character in the game, levelled into the forties.
 
 ## hillsbrad-foothills-southshore
 A book among the living remembers a rebellion of the dead.

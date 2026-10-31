@@ -16,7 +16,7 @@ riddles:
     sources: "object 175754's text"
   - id: undercity-theresa
     tier: off
-    gestures: [PITY, SHUDDER, SIGH]
+    gestures: [PITY, SHUDDER, SIGH, COMFORT, HUG]
     creature: 5697   # Theresa, Gerard's Mindslave, dump 52.7, 34.7; Gerard Abernathy (5696) beside her
     hint_area: { x: 52.0, y: 35.5, r: 3 }
     danger: "Quiet"
