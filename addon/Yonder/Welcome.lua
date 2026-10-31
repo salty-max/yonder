@@ -42,7 +42,7 @@ local W = K.welcome({
         end,
       },
       {
-        text = L["Alerts for achievements"],
+        text = L["Alert for achievements"],
         hint = L["The game's achievement alert, with the achievement sound."],
         get = function() return ns.option("milestoneToast") end,
         set = function(v) ns.setOption("milestoneToast", v) end,
@@ -68,7 +68,9 @@ local W = K.welcome({
       K.collectChoice(ns.collect),
     }
   end,
-  footnote = L["Change them any time: /yonder settings, or a right-click on the minimap button. /yonder opens the book."],
+  footnote = L["Change them any time: %s, or a right-click on the minimap button."]:format("/yonder settings")
+    .. " "
+    .. L["/yonder opens the journal."],
   open = { text = L["Open the journal"], click = function() ns.toggle() end },
   exportHint = L["Copy it (Ctrl+C), then on another character: Use a code, or /yonder import CODE."],
   importHint = L["Paste the code (/yonder export on the other character), then press Enter."],

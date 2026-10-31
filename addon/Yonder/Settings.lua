@@ -145,7 +145,7 @@ function ns.createSettingsPanel()
   end, function(value) ns.playSound(value) end)
   O:check(
     "milestoneToast",
-    L["Alerts for achievements"],
+    L["Alert for achievements"],
     L["The game's achievement alert when you earn an achievement (the achievement sound and the chat line stay)."]
   )
   O:achievementSound("achievementSound")

@@ -2634,8 +2634,8 @@ do
   local area = C_Map.GetAreaInfo
   C_Map.GetAreaInfo = function(id) return ({ [1] = "Dun Morogh", [211] = "Lac glacial" })[id] end
   check(
-    ns.placeText("Dun Morogh: Iceflow Lake") == "Dun Morogh : Lac glacial"
-      and ns.placeText("Nowhere: Elsewhere") == "Nowhere : Elsewhere",
+    ns.placeText("Dun Morogh: Iceflow Lake") == "Dun Morogh\194\160: Lac glacial"
+      and ns.placeText("Nowhere: Elsewhere") == "Nowhere\194\160: Elsewhere",
     "… a place an older journal kept in English reads in French; one it doesn't know stays as kept"
   )
   -- (a place met on this French client: kept by its id, an area's or a
@@ -2646,7 +2646,7 @@ do
       and inside
       and inside:match("^w%d+$")
       and ns.areaLabel(inside) == "La Bibliothèque"
-      and ns.placeText("a1|a211") == "Dun Morogh : Lac glacial"
+      and ns.placeText("a1|a211") == "Dun Morogh\194\160: Lac glacial"
       and ns.areaKey("Ailleurs") == nil,
     "… a place met in French kept by its id, an area's or a building's; one neither knows as the game gave it"
   )
