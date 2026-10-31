@@ -6,7 +6,7 @@ game's own recipes (SpellReagents), the original game only. -->
 
 ## 2447 Peacebloom
 
-Peacebloom is a familiar flower along the first roads out of home, and useful long after an herbalist has learned rarer names.
+Peacebloom is a familiar flower along the first roads out of home, and useful long after a herbalist has learned rarer names.
 
 With Silverleaf it makes a Minor Healing Potion.
 
@@ -18,7 +18,7 @@ Minor healing and mana draughts both call for it.
 
 ## 2449 Earthroot
 
-Earthroot turns up across the settled lands and even within the Wailing Caverns. It is one of the first roots an herbalist learns to recognise.
+Earthroot turns up across the settled lands and even within the Wailing Caverns. It is one of the first roots a herbalist learns to recognise.
 
 The Elixir of Lion's Strength and the Elixir of Minor Fortitude both begin with it.
 
@@ -36,7 +36,7 @@ Healing draughts and Rage Potions both call for it. The same bundle can therefor
 
 ## 2452 Swiftthistle
 
-Swiftthistle comes with Mageroyal and Briarthorn rather than from a patch of its own. An herbalist looking for it must pay attention to what the other gathering yields.
+Swiftthistle comes with Mageroyal and Briarthorn rather than from a patch of its own. A herbalist looking for it must pay attention to what the other gathering yields.
 
 Rogues brew Thistle Tea from it, while alchemists use it for swiftness and swimming draughts.
 
@@ -60,7 +60,7 @@ The Elixir of Defense and the Elixir of Fortitude both use it.
 
 ## 3369 Grave Moss
 
-Grave Moss is gathered in places where an herbalist is unlikely to feel entirely alone: Duskwood, Desolace and the burial ground of Razorfen Downs among them.
+Grave Moss is gathered in places where a herbalist is unlikely to feel entirely alone: Duskwood, Desolace and the burial ground of Razorfen Downs among them.
 
 Shadow Oil and Shadow Protection Potions call for it.
 
@@ -96,7 +96,7 @@ Greater Mana Potions and the Elixir of Greater Intellect use it, as does Frost O
 
 ## 3819 Wintersbite
 
-Wintersbite gives an herbalist a particular journey: into the snow of the Alterac Mountains. A familiar plant is welcome company in country where the paths are easily lost.
+Wintersbite gives a herbalist a particular journey: into the snow of the Alterac Mountains. A familiar plant is welcome company in country where the paths are easily lost.
 
 Frost Oil, Frost Protection Potions and the Elixir of Frost Power all call for it.
 
@@ -174,7 +174,7 @@ Purification Potions and Mageblood Potions both use it. Mountain Silversage acco
 
 ## 13467 Icecap
 
-Icecap belongs to Winterspring's gathering routes. The snow gives an herbalist an unusually consistent landscape in which to learn its place.
+Icecap belongs to Winterspring's gathering routes. The snow gives a herbalist an unusually consistent landscape in which to learn its place.
 
 Major Mana Potions and Purification Potions use it, along with the Flask of Distilled Wisdom.
 

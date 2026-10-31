@@ -34,7 +34,7 @@ The **Expeditions** tab opens first. It shows the zones you've visited and your 
 
 The Bestiary covers **around 3,500 creatures in 96 families**, from wolves and murlocs to the dragonflights, the Scourge and the Burning Legion. Each family has a naturalist's note about its creatures and their place in the world.
 
-A creature joins the book when you first kill it. Its page keeps your first sighting, the levels you've seen, your kill count, its loot and your observed drop rates. Rares and bosses become trophies, with a sound when you defeat them.
+A creature joins the journal when you first kill it. Its page keeps your first sighting, the levels you've seen, your kill count, its loot and your observed drop rates. Rares and bosses become trophies, with a sound when you defeat them.
 
 Kills by you, your pet and your group count, including damage over time and area spells. A creature you tagged and another player finished also counts when one of your quests credits the kill. Friendly townsfolk and critters are left out.
 
@@ -74,7 +74,7 @@ One download covers Classic Era, Hardcore, Season of Discovery and World of Warc
 
 Forever adds Zephras Isle to the Atlas, and its new rares count towards zone achievements. The game hides creatures inside Forever dungeons and raids from addons, so the journal cannot record them there.
 
-Yonder speaks English, French, German and Spanish. With a French, German or Spanish client, the whole journal is in that language: the riddles and quarries, the Bestiary, the Atlas, the fish, herbs, materials and achievements, with every name as the game itself writes it. German and Spanish are first translations: corrections are welcome on GitHub. Both Spanish clients share the journal text and keep their own game names. Other clients get English, with the game's own names in their language: creatures, places, flight points, fish, and the riddles' and quarries' answers. Everything the journal records is kept by the game's ids, so it all follows your client's language, even after you switch.
+Yonder speaks English, French, German and Spanish. With a French, German or Spanish client, the whole journal is in that language: the riddles and quarries, the Bestiary, the Atlas, the fish, herbs, materials and achievements. Every name is as the game itself writes it. German and Spanish are first translations: corrections are welcome on GitHub. Both Spanish clients share the journal text and keep their own game names. Other clients get English, with the game's own names in their language: creatures, places, flight points, fish, and the riddles' and quarries' answers. Everything the journal records is kept by the game's ids, so it all follows your client's language, even after you switch.
 
 ## Settings and commands
 
@@ -101,13 +101,13 @@ If you install by hand, delete the old **FieldJournal** folder from `Interface/A
 
 ## Help the addons keep up with Forever
 
-Forever brings new quests and creatures, and the usual databases take weeks to catch up with them. You can help Yonder and its sister addons get there sooner. Tick **Share what you see** on the welcome page or in the options, and Yonder keeps what the game tells you of quests, creatures and NPCs. **[Ravenpost](https://ravenpost-site.vercel.app)**, a small free app for Windows and macOS, sends it to the addons' shared database a few seconds after you log out, once you **Sign in with Battle.net** in it: one account, one voice when players' games disagree. What you see fills the bestiary and the atlas with Forever's new creatures, in every language. Every player who shares makes a real difference, and it's truly appreciated.
+Forever brings new quests and creatures, and the usual databases take weeks to catch up with them. You can help Yonder and its sister addons get there sooner. Tick **Share what you see** on the welcome page or in the options, and Yonder keeps what the game tells you of quests, creatures and NPCs. **[Ravenpost](https://ravenpost-site.vercel.app)**, a small free app for Windows and macOS, sends it to the addons' shared database a few seconds after you log out. It asks you once to **Sign in with Battle.net**: one account, one voice when players' games disagree. What you see fills the bestiary and the atlas with Forever's new creatures, in every language. Every player who shares makes a real difference, and it's truly appreciated.
 
 Your name, class and race are replaced by the game's own placeholders, lines that name another player are left out, and your chat is never kept. Sharing is off until you turn it on. Turning it off stops it: what was kept stays on your computer, and nothing is sent while it's off.
 
 ## Other addons
 
-These share Yonder's book style and work independently:
+These share Yonder's journal style and work independently:
 
 - **[Hearthtale](https://www.curseforge.com/wow/addons/hearthtale)** ([Wago](https://addons.wago.io/addons/E6gzPnN1)) writes a diary for your character as you play, with an epitaph when a Hardcore life ends.
 - **[Lorekeeper's Codex](https://www.curseforge.com/wow/addons/lorekeepers-codex)** ([Wago](https://addons.wago.io/addons/j6jAL0NR)) unlocks lore pages as you explore Azeroth and meet its people.

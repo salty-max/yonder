@@ -101,11 +101,11 @@ a word on the gnomes' tram besides, and something in Stranglethorn he would like
 + His name belongs to a famous airship of another world, remembered for the way it burned.
 
 ## tirisfal-glades-stillwater
-West of the town of the dead, a little pond lies gray and still.
+West of the town of the dead, a little pond lies grey and still.
 Before the plague, the folk of the glades came here to picnic,
 and children too young for the deep lake learned to swim in it.
 Only the dead and the hungry come now. Remember what it was.
-? West of Brill, off the road to Deathknell: a gray pond, nearly forgotten. Let out a sigh for what the pond has lost.
+? West of Brill, off the road to Deathknell: a grey pond, nearly forgotten. Let out a sigh for what the pond has lost.
 = Stillwater Pond, once the glades' picnic ground. Darkhounds hunt its banks now.
 + Brightwater Lake, east of Brill, was for the older children: much larger, and much deeper.
 

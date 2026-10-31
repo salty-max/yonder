@@ -46,5 +46,5 @@ are the strongest left in the west. Grieve for the farm, and keep moving.
 A carrion bird far too big for these fields comes down on one of them at a time,
 anywhere from the pumpkin farm in the north to the dust plains in the south.
 Its swoop leaves you reeling.
-= Vultros, a carrion bird of level 26, far stronger than Westfall's ordinary scavengers.
+= Vultros, a carrion bird of level twenty-six, far stronger than Westfall's ordinary scavengers.
 + It has been seen by Stendel's Pond, Sentinel Hill and the Dead Acre too, as well as in the northern farms and the southern dust.

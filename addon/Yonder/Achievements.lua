@@ -235,7 +235,7 @@ add(
 add("feat", "kobolds-50", L["You No Take Candle"], L["Slay 50 kobolds."], function() return slainIn("kobolds"), 50 end)
 add("feat", "murlocs-100", L["Mrrgllglrgl!"], L["Slay 100 murlocs."], function() return slainIn("murlocs"), 100 end)
 add("feat", "rare-elites-10", L["Elite Company"], L["Slay 10 rare elites."], function() return trophyCount("R"), 10 end)
-add("feat", "every-type", L["A Little of Everything"], L["Slay a creature of every type in the book."], function()
+add("feat", "every-type", L["A Little of Everything"], L["Slay a creature of every type in the journal."], function()
   local n = 0
   for _, s in ipairs(D.sections) do
     if familiesMetIn(sectionFamilies(s.id)) > 0 then n = n + 1 end
@@ -350,7 +350,7 @@ add(
   L["Cross from one continent to the other."],
   function() return math.min(#(atlas() and atlas().crossings or {}), 1), 1 end
 )
-add("travel", "binds-5", L["Many Hearths"], L["Make your home in five different inns."], function()
+add("travel", "binds-5", L["Many Hearths"], L["Make your home in 5 different inns."], function()
   local places, n = {}, 0
   for _, b in ipairs(atlas() and atlas().binds or {}) do
     if not places[b.place] then
@@ -363,7 +363,7 @@ add(
   "feat",
   "close-calls-10",
   L["Living Dangerously"],
-  L["Survive ten close calls (a tenth of your health or less)."],
+  L["Survive 10 close calls (a tenth of your health or less)."],
   function() return #(atlas() and atlas().closeCalls or {}), 10 end
 )
 
@@ -470,15 +470,13 @@ for _, c in ipairs(continents) do
     "expeditions",
     "expeditions-" .. c[1],
     L["The Expeditions of %s"]:format(c[2]),
-    L["Complete every expedition of %s: its riddles, its towns' and capitals' with them, and its quarries."]:format(
-      c[2]
-    ),
+    L["Complete every expedition of %s: its riddles, those of its towns and capitals, and its quarries."]:format(c[2]),
     function() return both(here) end,
     { visible = function() return select(2, both(here)) > 0 end }
   )
 end
-add("expeditions", "gold-10", L["By Your Own Light"], L["Earn ten gold seals."], function() return goldSeals(), 10 end)
-add("expeditions", "gold-50", L["Clear Sight"], L["Earn fifty gold seals."], function() return goldSeals(), 50 end)
+add("expeditions", "gold-10", L["By Your Own Light"], L["Earn 10 gold seals."], function() return goldSeals(), 10 end)
+add("expeditions", "gold-50", L["Clear Sight"], L["Earn 50 gold seals."], function() return goldSeals(), 50 end)
 add(
   "expeditions",
   "gold-all",
@@ -490,7 +488,7 @@ add(
   "expeditions",
   "untracked-5",
   L["Without a Map"],
-  L["Bring down five quarries without tracking them."],
+  L["Bring down 5 quarries without tracking them."],
   function() return untracked(), 5 end
 )
 add(
@@ -666,10 +664,10 @@ add(
   "herbs",
   "herb-first",
   L["First Herb"],
-  L["Gather or find an herb."],
+  L["Gather or find a herb."],
   function() return math.min(kindsOf(plantRecs()), 1), 1 end
 )
-for _, t in ipairs({ { 10, L["An Herbalist's Satchel"] }, { 20, L["Twenty Herbs"] } }) do
+for _, t in ipairs({ { 10, L["A Herbalist's Satchel"] }, { 20, L["Twenty Herbs"] } }) do
   add(
     "herbs",
     "herb-kinds-" .. t[1],

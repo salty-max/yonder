@@ -83,7 +83,7 @@ They are watching something the rest of the isle says is gone.
 Climb up and watch it with them.
 ? Thendal Village, in the isle's north-west: up the tree. Up by the children, peer at what they are watching.
 = Haal and Meeri, two children of Thendal Village, watching a spirit from the top of the tree. The wind spirits left Zephras long ago. Yala Windwatcher says only their mindless echoes remain.
-+ In the same branches, a white crystal keeps a recording, On the Shal'nan: the masked leader of the rebels who fled Eldre'Thalas, who ruled his people for more than a century and then gave his power up to a council.
++ In the same branches, a white crystal keeps a recording, On the Shal'nan. He was the masked leader of the rebels who fled Eldre'Thalas, ruled his people for more than a century, then gave his power up to a council.
 
 ## quarry
 By the lake in the middle of the isle walks a dragonkin,

@@ -65,5 +65,5 @@ From its shore, fix your eyes on the island across the water.
 In a cave above the river at the plague's eastern edge,
 bog beasts and oozes keep the dark.
 Among them, seek a bog beast with a dead thing's name.
-= The Husk, a bog beast of level 62, at the Weeping Cave.
+= The Husk, a bog beast of level sixty-two, at the Weeping Cave.
 + Herbs take root on him: Firebloom, Icecap and Sungrass come away when he falls, and a living essence nearly always.

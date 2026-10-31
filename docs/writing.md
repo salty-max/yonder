@@ -98,9 +98,10 @@ this order, each a different job.
   verse (28 posters of three lines, 10 of four, one of five: 21 to 57 words, 34 at the median) that describe the rare and where it keeps, then `= `
   the name and haunt, then `+ ` one fact (loot, place, coat, a plain
   mechanic). The poster says where to look and never that it is a kill.
-- Spelling is British (honour, grey, traveller), game names as the game
-  spells them (a few riddles still say "center" and "gray", to be corrected
-  with their translations under their own card). The build checks that the
+- Spelling is British (honour, grey, centre, mould, traveller, "a herb"),
+  compass points hyphenated (south-east), game names as the game spells them.
+  Levels in a note's prose in words ("of level sixty-two"), in a danger line
+  and an achievement's goal in figures. The build checks that the
   parts are there (two lines of verse or more, one hint, note and margin, no
   hint on a quarry, no gesture named) and the resolver the content rules
   (`docs/expeditions.md`), not the length or the tone: those are read.

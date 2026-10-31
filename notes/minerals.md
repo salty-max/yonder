@@ -66,7 +66,7 @@ Smelted, it is weaker than iron. Its dark colour makes a useful scribes' dye ins
 
 ## 3340 Incendicite Ore
 
-Incendicite is found in a cave northwest of Algaz Gate in the Wetlands. It is volatile ore, troublesome to work without an explosion.
+Incendicite is found in a cave north-west of Algaz Gate in the Wetlands. It is volatile ore, troublesome to work without an explosion.
 
 There is interest in using it for cannon shells, provided someone can first find a suitable way to smelt it. The proposal still leaves the most uncomfortable part to the experimenter.
 

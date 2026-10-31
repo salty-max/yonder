@@ -67,7 +67,7 @@ His city fell, and his death came from a blade already inside it.
 The account waits on a page.
 ? Lakeshire, by the inn. Read the account of the human capital's fall.
 = The Dark Portal and the Fall of Stormwind. Llane held his capital, sure the orcs could never take it. Garona killed him as it fell.
-+ In the same book, an orc infant, Durotan's son, found by a human officer named Blackmoore and taken as a slave: 'That infant orc would one day rise to become the greatest leader his people would ever know.'
++ In the same book, an orc infant, Durotan's son, is found by a human officer named Blackmoore and taken as a slave. 'That infant orc would one day rise to become the greatest leader his people would ever know.'
 
 ## redridge-mountains-hooper
 By the lake where the Redridge folk fish, a fishing trainer paces the shore.

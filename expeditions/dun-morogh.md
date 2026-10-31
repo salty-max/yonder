@@ -53,11 +53,11 @@ quarry:
   sources: "the WoWWiki archive's Timber page (the island, his two wolves, his drops, the pet); the dump's spawns"
 ---
 ## dun-morogh-empty-camp
-Southwest of the gunsmith's noisy company,
+South-west of the gunsmith's noisy company,
 another camp has no one to answer.
 A young black bear wanders close to where they stayed.
 Find the place the campers left behind, and wonder why they went.
-? Just southwest of Rumbleshot's range, find the abandoned camp near a young black bear. In the camp, ponder why they left. The bear need not be there.
+? Just south-west of Rumbleshot's range, find the abandoned camp near a young black bear. In the camp, ponder why they left. The bear need not be there.
 = An abandoned camp a short walk from Rumbleshot's range. A young black bear wanders nearby, but why the campers left is unknown.
 + Perhaps the bear found the camp empty. Perhaps the campers found the bear first. The League has no witness to ask, and the bear is unlikely to settle it.
 
@@ -68,7 +68,7 @@ politely, and very firmly.
 Find what he etched beside it.
 ? At the foot of the road up to Ironforge, an anvil has an owner, and says so. Open the writing beside the anvil and read it.
 = 'This anvil is the property of Jordan Stilwell - Please do NOT use!' Ironforge has a great many anvils. This one is spoken for.
-+ Jordan Stilwell is no dwarf: a human smith with a house on Westfall's Longshore, who meant to be a paladin before smithing took him, and came to work beside the dwarves while his wife, Daphne, waited by the sea. The paladins who pass his tests carry a hammer he forges and names for a dwarven paladin he called a friend.
++ Jordan Stilwell is no dwarf: a human smith with a house on Westfall's Longshore. He meant to be a paladin before smithing took him, and came to work beside the dwarves while his wife, Daphne, waited by the sea. The paladins who pass his tests carry a hammer he forges and names for a dwarven paladin he called a friend.
 
 ## dun-morogh-tog
 In the brewers' town in the heart of the snows,

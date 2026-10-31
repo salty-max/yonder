@@ -62,7 +62,7 @@ after you switch.
 
 ## Opening the journal
 
-Type `/yonder` or click the minimap button. The book opens on Expeditions.
+Type `/yonder` or click the minimap button. The journal opens on Expeditions.
 Each login says in chat what the journal holds.
 Settings are under **Options > AddOns > Yonder**, or `/yonder settings`.
 

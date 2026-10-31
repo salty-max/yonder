@@ -35,10 +35,10 @@ quarry:
 ## burning-steppes-pillar-of-ash
 In the very middle of the burning plain, the orcs have raised their towers,
 and among them stands the statue of a man, which they have not torn down.
-The histories say a hero of the Alliance fell in the center of these Steppes,
+The histories say a hero of the Alliance fell in the centre of these Steppes,
 in single combat with the Horde's warchief. Pay your respects.
 ? The Pillar of Ash, in the middle of the Burning Steppes. Bow before the fallen man's statue.
-= The Pillar of Ash: among the Blackrock towers, the statue of a human hero, in the center of the Steppes, where Doomhammer fought Lothar and Lothar fell.
+= The Pillar of Ash: among the Blackrock towers, the statue of a human hero, in the centre of the Steppes, where Doomhammer fought Lothar and Lothar fell.
 + Doomhammer won the duel, says Aftermath of the Second War, but the death did not break the Alliance as he had hoped: Turalyon rallied it, and the Horde was beaten.
 
 ## burning-steppes-altar-of-storms

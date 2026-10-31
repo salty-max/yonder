@@ -24,7 +24,7 @@ riddles:
     sources: "the WoWWiki archive's Apocryphan's Rest and Badlands pages; the dump's spawns"
   - id: badlands-funeral-ground
     tier: hidden
-    gestures: [MOURN, PRAY, KNEEL, BOW]
+    gestures: [MOURN, PRAY, KNEEL, BOW, SALUTE]
     name: The funeral ground above the road
     landmark: badlands-funeral-ground   # the client's own placement of the middle pyre, read from its map files
     radius: 20
@@ -40,7 +40,7 @@ Above the dwarves who dig in the red waste,
 an unmarked path climbs where their work does not.
 Under stone, an armoured figure still has a seat.
 Find the chamber, and give the one who outlasted his flesh what a king is owed.
-? Above Sigrun Ironhew's camp, southeast of Hammertoe's Digsite. Follow the unmarked path uphill into the crypt, and kneel before the throne.
+? Above Sigrun Ironhew's camp, south-east of Hammertoe's Digsite. Follow the unmarked path uphill into the crypt, and kneel before the throne.
 = A crypt above the dwarves' camp in the Badlands. An armoured skeleton sits on a stone throne, with a sword close by.
 + The blade is called the Sword of the Barbarian King. It offers a title, though hardly an account of who occupied this chamber.
 

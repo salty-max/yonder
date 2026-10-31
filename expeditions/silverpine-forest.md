@@ -53,7 +53,7 @@ he cannot see which side you are on. Don't bother waving.
 
 ## silverpine-forest-sepulcher
 Where the road through the pines passes a graveyard, the dead have made a town of it.
-One of them keeps a stall of nothing but mushrooms, molds and truffles,
+One of them keeps a stall of nothing but mushrooms, moulds and truffles,
 from the caves and from the forest floor.
 Ask her what she has.
 ? The Sepulcher, among its merchants: speak to the one who sells mushrooms.

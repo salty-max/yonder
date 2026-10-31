@@ -2475,7 +2475,7 @@ do
   check(ns.option("minimapHidden") == hidden and said(L["Minimap button shown."]), "… and shown again")
   printed = {}
   SlashCmdList.YONDER("bogus")
-  check(said("/yonder opens the book"), "/yonder bogus: the usage")
+  check(said("/yonder opens the journal"), "/yonder bogus: the usage")
   panel.opened = nil
   SlashCmdList.YONDER("options")
   check(panel.opened ~= nil, "/yonder options: the settings, as /yonder settings")

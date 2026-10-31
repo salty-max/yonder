@@ -58,7 +58,7 @@ Some of the horses in it are still horses. Be kind to them.
 + Where the stallions came from, nobody knows. What the cult means to make of them, the nightmares beside them suggest.
 
 ## quarry
-North of the graveyard where the kodos go to die,
+North of the graveyard where the kodo go to die,
 a basilisk hunts the dust.
 Seek it beyond the bones, where the dead herds give way to open waste.
 = Hissperak, a basilisk seen north of the Kodo Graveyard.

@@ -51,7 +51,7 @@ Their sons set them together by the road,
 facing the south, where once the third one's fires glowed.
 ? In the lake country's south-west, two great figures guard a pass. Bow before the two stone kings.
 = Bronzebeard and Wildhammer, side by side, raised by their sons. Their peoples parted ways later. The statues did not.
-+ The whole war is in a dwarven history, War of the Three Hammers: Thaurissan's summoning woke Ragnaros, and the statues were meant as a warning to all who would attack the dwarven kingdoms, and a reminder of what the Dark Irons paid.
++ The whole war is in a dwarven history, War of the Three Hammers. Thaurissan's summoning woke Ragnaros, and the statues were meant as a warning to all who would attack the dwarven kingdoms and a reminder of what the Dark Irons paid.
 
 ## loch-modan-stonewrought-dam
 At the head of the loch, the dwarves have shut a valley with a wall of stone
