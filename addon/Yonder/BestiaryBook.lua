@@ -325,10 +325,7 @@ end
 -- Before anything is recorded.
 local function showEmpty()
   start(L["The Bestiary"], nil, ui.icon("Interface\\Icons\\INV_Misc_Book_11"))
-  page:paragraph(
-    L["Nothing recorded yet. Target or mouse over a creature of the wild, and it will be written here."],
-    T.soft
-  )
+  page:paragraph(L["Nothing recorded yet. Slay a creature of the wild, and it will be written here."], T.soft)
 end
 
 local function showPage()

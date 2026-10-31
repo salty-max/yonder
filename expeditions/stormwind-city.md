@@ -67,6 +67,6 @@ Somewhere in the city, a grateful student set up a memorial
 to a healer, teacher and friend who believed it was a healer's duty
 to cleanse the sick and weary of every last ailment.
 His plaque calls one of his talents extraordinary. Honour him with it.
-? Seek among the city's healers. The plaque calls one of his talents extraordinary. Honour that talent with a dance.
+? In Old Town, on a wall near the house of SI:7. The plaque calls one of his talents extraordinary. Honour that talent with a dance.
 = 'In memory of my dear mentor, Horatio M. Montgomery, M.D. Healer, Teacher, Friend.'
 + 'The world is full of the sick and weary. It is our job, as healers, NAY, as men and women of medicine, to cleanse them ALL of the itis.' - H.M.M., M.D., PhD, JD, Grandmaster Farmer, Dancer Extraordinaire, Friend to the Animals.

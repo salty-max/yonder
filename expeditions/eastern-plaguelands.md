@@ -43,9 +43,9 @@ Make a friend of the horse.
 
 ## eastern-plaguelands-pestilent-scar
 In the plagued east, the earth falls away into a deep gorge,
-perhaps a lake that dried up when the plague came.
+older than the plague, its floor long dry.
 Only oozes live at its bottom now.
-Find its edge, mind your footing, and see how far it falls.
+Find its edge, mind your footing, and let your eyes follow the drop all the way down.
 ? The Pestilent Scar, in the Eastern Plaguelands' south-east. From its edge, peer down into it.
 = The Pestilent Scar: a deep pitfall in the blighted earth. Unlike the Infectis Scar, it seems the land's own: a natural gorge, perhaps a lake the plague dried up.
 + Its oozes are the plague's own kind: living decay and rotting sludge, at the bottom of the fall.

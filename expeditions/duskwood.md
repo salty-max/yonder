@@ -49,7 +49,7 @@ In the heart of the dark wood a great tree stands apart:
 a door the dreaming druids walk through to the Emerald Dream.
 Green dragons were set to keep it. The Nightmare took the keepers.
 The druids begin that journey with their eyes closed. Follow their example.
-? The road through the forest bends around something older than the town. Sleep beneath the great tree, as the druids do. The door itself stays shut.
+? The Twilight Grove, in the middle of Duskwood, where the road bends around it. Sleep beneath the great tree, as the druids do. The door itself stays shut.
 = The Twilight Grove, in the crater of a volcano long dead. Its tree is one of four doors the green dragonflight keeps into the Emerald Dream, and its keepers came back from the Dream changed.
 + The dusk here is not Duskwood's darkness: the sleeping druids keep a twilight of their own over the crater, quite unlike the rest of the forest.
 

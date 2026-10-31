@@ -80,10 +80,9 @@ The vault lies south of this lake.
 + The dwarves named their land Khaz Modan for the Titan Khaz'goroth, and built a forge for him in the heart of the mountain. The city grew around it.
 
 ## quarry
-The mountaineers' scouts say the troggs follow a chieftain named Grawmug,
-and send the bold to his cave in the valley south-west of the Loch.
-The troggs who took the League's dig in the south-east
-have a chieftain of their own, on the excavation's platform,
-among his diggers and a berserk one. He is called the boss.
-= Boss Galgosh, Stonesplinter Chieftain by his own title: the scouts' Grawmug leads in the valley, but the tribe's chieftain stands at the dig.
-+ Magosh, the tribe's shaman and as rare a sight as the boss, keeps to the same dig, a little east of him.
+The troggs who took the League's dig in the Loch's south-east
+answer to a chieftain who stands on the excavation's platform,
+among his diggers and a berserk one.
+He calls himself the boss, and none of his tribe argues.
+= Boss Galgosh, Stonesplinter Chieftain, on the platform of the dig in the Loch's south-east. Magosh, the tribe's shaman and as rare a sight, keeps the same dig, a little east of him.
++ The mountaineers' scouts send the bold after another trogg, Grawmug, in a cave south-west of the Loch.

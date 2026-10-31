@@ -89,10 +89,11 @@ Be friendly, for once.
 + Horde and Alliance alike may walk up to him unharmed, as to few naga anywhere.
 
 ## tanaris-oreily
-At the goblins' port on the desert coast, a fortune-teller keeps a hut,
-and a white owl circles it day and night, as if it had heard every prophecy and believed none of them.
-Whatever it seems to ask you, answer it in kind.
-? Steamwheedle Port, in Tanaris' north-east. Target the white owl circling the seer's hut, and look doubtful.
+On the desert's north-east coast, at the port the goblins keep apart from their town,
+a fortune-teller keeps a hut, and a white owl circles it day and night,
+as if it had heard every prophecy and believed none of them.
+Whatever it seems to ask you, answer it with the same disbelief.
+? Steamwheedle Port, in Tanaris's north-east. Target the white owl circling the seer's hut, and look doubtful.
 = O'Reily, a white owl, circling Narain Soothfancy's hut at Steamwheedle Port.
 + Its namesakes keep the auction houses: Auctioneer O'reely in Booty Bay, Auctioneer Yarly in the Undercity.
 

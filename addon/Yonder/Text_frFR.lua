@@ -438,7 +438,7 @@ ns.translate({
     ["Nothing found"] = "Aucun résultat",
     ["Nothing Hidden in %s"] = "Rien de caché à %s",
     ["Nothing recorded here yet. Materials you gather, loot or receive will open their pages."] = "Rien de noté ici pour le moment. Les matériaux que vous récoltez, ramassez ou recevez ouvriront leurs pages.",
-    ["Nothing recorded yet. Target or mouse over a creature of the wild, and it will be written here."] = "Rien de consigné pour l'instant. Ciblez ou survolez une créature sauvage, et elle sera inscrite ici.",
+    ["Nothing recorded yet. Slay a creature of the wild, and it will be written here."] = "Rien de consigné pour l'instant. Ciblez ou survolez une créature sauvage, et elle sera inscrite ici.",
     ["Nothing taken from it yet."] = "Rien pris sur elle pour l'instant.",
     ["Nov"] = "nov.",
     ["Oct"] = "oct.",
