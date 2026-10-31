@@ -8,7 +8,8 @@ on the spot, and its quarry, a rare to track down), the **Bestiary**, the
 until 0.8.0, renamed on 13 October 2026; `addon/FieldJournal` is the
 handover that brings old journals over. Classic Era (11509)
 and Forever (16001), one package; salty-max/yonder.
-Sister project: Lorekeeper's Codex (same engineering and voice). Read the
+Sister project: Lorekeeper's Codex (same engineering, another voice: Archesonus's
+there, the League naturalist's here). Read the
 family's CLAUDE.md (`../CLAUDE.md`) first.
 
 ## Where things are
