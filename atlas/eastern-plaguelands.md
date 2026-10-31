@@ -5,4 +5,4 @@ The Thondroril River marks the western approach to a country of dead trees and r
 
 Tyr's Hand is a Scarlet stronghold in the south-east. Zul'Mashar occupies the northern heights. Above the Plaguewood hangs Naxxramas. Few landmarks are easier to recognise or less welcome to see.
 
-Darrowshire's buildings still mark a village on the plain, though its inhabitants belong to a more troubled account. In this country a map can remain perfectly accurate after almost everything it describes has been lost.
+Darrowshire's buildings still mark a village on the plain, though its people are gone. In this country a map can remain perfectly accurate after almost everything it describes has been lost. I have surveyed nothing sadder.

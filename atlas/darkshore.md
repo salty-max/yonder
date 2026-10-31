@@ -5,4 +5,4 @@ Darkshore is a long journey along a narrow coast. Auberdine gathers the roads an
 
 The shore and the inland woods offer very different lines of travel. Wrecks and murloc camps interrupt the beaches. Inland lie the haunted ruins of Ameth'Aran and Bashal'Aran, the Blackwood camps and the tower of Althalaxx.
 
-The sea is a steady guide when the trees hide the road. It is also the reason so many broken ships have become landmarks.
+The sea is a steady guide when the trees hide the road. I trusted it more than the trees. It is also the reason so many broken ships have become landmarks.

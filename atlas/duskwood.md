@@ -5,4 +5,4 @@ Duskwood's roads pass through a forest that gives little daylight to the ground.
 
 To the west, Raven Hill and its cemetery occupy country far less secure than the map's familiar farm names suggest. The Rotting Orchard and abandoned houses preserve the shape of a settled valley without much of its old life.
 
-The roads still join the places they were built to serve. That makes them useful bearings, even when the destination has become somewhere a traveller would rather pass by.
+The roads still join the places they were built to serve. That makes them useful bearings, even when the destination has become somewhere I would rather pass by.

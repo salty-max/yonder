@@ -5,4 +5,4 @@ The Cauldron cuts a great pit into the centre of Searing Gorge, with Dark Iron w
 
 Thorium Point is the Thorium Brotherhood's foothold in the north. Blackrock Mountain provides the passage south into the Burning Steppes. Approaches from the neighbouring lands reach the gorge through narrower breaks in the mountains.
 
-Slag heaps and broken machinery make useful landmarks here. It is a working landscape, however ruined it looks from the next ridge.
+Slag heaps and broken machinery make useful landmarks here. It is a working landscape, however ruined it looks from the next ridge, and I know dwarven work when I see it, even the Dark Irons'.

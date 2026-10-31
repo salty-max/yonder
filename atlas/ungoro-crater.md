@@ -5,6 +5,6 @@ The path down from Tanaris reveals Un'Goro all at once: dense jungle around Fire
 
 The central volcano is an excellent bearing and difficult ground. Away from it, the canopy hides raptors, devilsaurs and the silithid territory of the Slithering Scar. The crater is easier to overlook from above than to cross below.
 
-[classic] Bright crystals occur throughout the basin, with the pylons offering another subject for the expedition's investigations. The map marks their positions. Explaining them is a different piece of work.
+[classic] Bright crystals occur throughout the basin, and the pylons stand among them. The map marks their positions. What they are, I leave to others.
 
-[forever] The Shapers' Terrace gives the crater's Titan traces a place on the map beside the pylons and scattered crystals. A name for one ancient site leaves a great deal of jungle unaccounted for.
+[forever] The Shapers' Terrace gives the crater's Titan traces a place on the map beside the pylons and scattered crystals. One named site is a small part of a great jungle, and I have not charted the rest.

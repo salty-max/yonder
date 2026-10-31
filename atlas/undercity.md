@@ -5,4 +5,4 @@ The Undercity lies beneath Lordaeron's ruined capital, reached by lifts below th
 
 The central bank is a useful bearing. The Royal Quarter and the apothecaries' work lie deeper within the city. Getting there requires attention to levels as well as turns.
 
-Above ground, the zeppelin towers stand outside the ruins. A traveller arriving by air can have a very short walk to the city and still spend some time finding the right way down.
+Above ground, the zeppelin towers stand outside the ruins. I arrived by air, had a very short walk to the city, and still spent some time finding the right way down.

@@ -37,7 +37,11 @@ The voices and the rules of the text (moved from CLAUDE.md on 20 October
   both games. Use Forever's quests and announcements for its additions;
   a new map name alone does not establish new history.
 - The Atlas has a dwarf surveyor's voice: terrain, routes, landmarks and the
-  experience of crossing them. Keep its work distinct from the naturalist's
+  experience of crossing them. The surveyor shows lightly, in every zone
+  (the user's call, 31 October 2026): one "I" or one dwarf's judgement a page
+  ("Good mountain country, by a dwarf's measure"), the rest in plain third
+  person, an imperative at most in the closing line. No gender for the
+  surveyor (no "his" or "her"). Keep its work distinct from the naturalist's
   creatures and Archesonus's history in the Codex. Herb and fish notes complement
   the location lists already shown by the book; they need not repeat them.
 - Material notes use that same naturalist's voice. Review the English

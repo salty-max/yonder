@@ -1,7 +1,7 @@
 ---
 zone: 1428
 ---
-Blackrock Mountain dominates the northern skyline, giving almost every route across the Steppes the same great landmark. The approach from Redridge climbs into ash-dark country, where broken ridges and old fortifications interrupt the plain.
+Blackrock Mountain dominates the northern skyline, giving almost every route across the Steppes the same great landmark. Few dwarves look at it gladly. The approach from Redridge climbs into ash-dark country, where broken ridges and old fortifications interrupt the plain.
 
 Morgan's Vigil occupies the eastern heights for the Alliance. Flame Crest offers the Horde a foothold farther north. Between them lie Blackrock camps, dragonkin and the remains of older battles.
 

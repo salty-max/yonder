@@ -5,4 +5,4 @@ Desolace opens below Stonetalon in grey ridges and broad, exposed ground. Nijel'
 
 Centaur territories fill much of the interior, with the Kodo Graveyard among them. Thunder Axe Fortress and Mannoroc Coven mark hostile ground of another kind. On the coast, the country drops toward naga-held water.
 
-The bones make the graveyard conspicuous from a distance. Shadowprey's waterfront gives the eye something gentler to rest on: a settlement built toward the sea rather than another camp in the dust.
+The bones make the graveyard easy to see from a distance, and I kept well clear of it. Shadowprey's waterfront gives the eye something gentler to rest on: a settlement built toward the sea rather than another camp in the dust.

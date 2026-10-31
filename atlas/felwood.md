@@ -5,4 +5,4 @@ Felwood's road runs north from Ashenvale through a forest whose dead and sickene
 
 Jaedenar and the Jadefire camps occupy some of the most deeply corrupted ground. At the northern end, the Timbermaw tunnels lead into Moonglade and Winterspring, provided their guards allow passage.
 
-A green pool here gives no comfort to a thirsty-looking landscape. The colour belongs to the damage, and often shows through the trees before the pool itself can be seen.
+A green pool here is no sign of water fit to drink. The colour belongs to the damage, and often shows through the trees before the pool itself can be seen. I did not fill my flask.

@@ -5,4 +5,4 @@ Ashenvale's main road runs through deep woodland to Astranaar, then east toward 
 
 The settlements stand far enough apart for the forest to close around a traveller between them. On the coast, the Zoram Strand opens into naga-held ruins. Inland, furbolg camps and the demonic ground around Felfire Hill make several inviting clearings poor stopping places.
 
-Astranaar's bridges and lake provide a welcome fixed point in so much timber. Beyond them, the view seldom reaches far enough to show the whole route ahead.
+Astranaar's bridges and lake give a welcome fixed point in so much timber. Beyond them, the view seldom reaches far enough to show the whole route ahead. I have never liked taking bearings among trees.

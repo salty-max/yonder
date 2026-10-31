@@ -5,4 +5,4 @@ The western road enters from Deadwind Pass and crosses the marsh toward Stonard,
 
 The Pool of Tears covers the Temple of Atal'Hakkar. Fallow Sanctuary lies farther east, while the Harborage shelters draenei refugees in the north. Reaching the coast means passing well beyond the last dependable stretch of road.
 
-The swamp gives little height from which to take a bearing. A temple submerged beneath a lake is a particularly unhelpful landmark for anyone trying to find the lake.
+The swamp gives little height from which to take a bearing, and I missed every hill. A temple submerged beneath a lake is a particularly unhelpful landmark for anyone trying to find the lake.

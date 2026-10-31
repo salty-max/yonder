@@ -5,4 +5,4 @@ The Great Lift descends from the Barrens into a canyon crowded with stone pillar
 
 Darkcloud Pinnacle is Grimtotem ground, while centaurs and harpies occupy other side canyons. The pillars make good landmarks until the next one hides them.
 
-Eastward, the land opens suddenly onto salt flats and the Mirage Raceway. Gnome and goblin machines fill a country broad enough, at last, to let a traveller see a long way without looking up.
+Eastward, the land opens suddenly onto salt flats and the Mirage Raceway. Gnome and goblin machines fill a country broad enough, at last, to let me see a long way without looking up.

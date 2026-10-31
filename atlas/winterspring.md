@@ -1,7 +1,7 @@
 ---
 zone: 1452
 ---
-The Timbermaw passage opens into Winterspring's broad snowfields, with Everlook gathering trade near the centre. The goblins' town gives both factions a roof and a meeting of routes among the mountains.
+The Timbermaw passage opens into Winterspring's broad snowfields, with Everlook gathering trade near the centre. The goblins' town gives both factions a roof and a meeting of routes among the mountains. Good walls, for goblin work.
 
 Starfall Village lies to the west, Mazthoril's blue dragonkin hold the caves to the south, and yeti country rises beyond the Ice Thistle Hills. Winterfall camps interrupt other approaches through the snow.
 

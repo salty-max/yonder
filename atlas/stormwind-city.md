@@ -5,4 +5,4 @@ Stormwind's gate brings the Elwynn road past the statues of the Valley of Heroes
 
 Gryphons leave from the Trade District, and the Deeprun Tram connects the Dwarven District with Ironforge. The Cathedral is an easy landmark above the roofs. The Stockade is a less reassuring one beside the water.
 
-The city's white stone is still an impressive answer to its earlier ruin. Getting across it efficiently requires a little more attention to the bridges than to the skyline.
+The city's white stone is still an impressive answer to its earlier ruin. Even a dwarf admits it. Getting across it efficiently requires a little more attention to the bridges than to the skyline.
