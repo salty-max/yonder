@@ -11,4 +11,4 @@ Arugal called worgen into Silverpine to fight the Scourge and lost control of wh
 
 The Nightbane of Duskwood belong to another troubled account, entangled with the Scythe of Elune and the summons described by Velinde Starsong. Their presence cannot be explained simply by pointing toward Arugal's tower.
 
-Both places have acquired the same terrible outline among the trees: a wolf's head above an upright body. The histories behind it have to be followed separately.
+Both places have the same terrible shape among the trees: a wolf's head above an upright body. The histories behind it have to be followed separately.

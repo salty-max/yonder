@@ -10,4 +10,4 @@ The tallstriders are long-legged, long-necked birds of the open plains, and the 
 
 The tauren hunt them for their meat and feathers, with the thanks the Earth Mother asks of them. The night elves of Darkshore and Felwood know a forest cousin, the foreststrider.
 
-Their eggs are prized. Their mothers are aware of this.
+Their eggs are prized, and their mothers guard them closely.

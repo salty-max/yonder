@@ -8,4 +8,4 @@ match:
 ---
 Look up from a mountain pass and the wings above it may belong to a hippogryph, a wyvern or a gryphon. Travellers put all three in much the same category. The antlers, the stinging tails and the hooked beaks suggest that a naturalist should take a little more trouble.
 
-Hippogryphs bear night elf riders, gryphons are familiar companions to the Wildhammer, and the Horde has its wind riders. Beyond the roosts and aeries, their wild kin fill the same skies. A saddle is a considerable achievement on any creature that can simply fly away.
+Hippogryphs bear night elf riders, gryphons are familiar companions to the Wildhammer, and the Horde has its wind riders. Beyond the roosts and aeries, their wild kin fill the same skies.

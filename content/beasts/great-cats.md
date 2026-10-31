@@ -8,4 +8,4 @@ match:
 ---
 The great cats give a forest much of its silence. A nightsaber's dark coat disappears among Teldrassil's trees, a frostsaber belongs to the snow of Winterspring, and a Stranglethorn panther can be remarkably difficult to pick out in plain daylight.
 
-The night elves' bond with their sabers shows another side of these hunters: companions and mounts as well as predators. Beyond the trained animals, the same grace serves the business of hunting. A tiger crossing a sunlit path is a fine sight, however briefly it lasts.
+The night elves' bond with their sabers shows another side of these hunters: companions and mounts as well as predators. Wild cats hunt with the grace that makes the trained sabers prized.

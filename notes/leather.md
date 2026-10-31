@@ -4,19 +4,19 @@
 
 Ruined Leather Scraps are small pieces of a skinner's work, too poor to serve as Light Leather on their own.
 
-Leatherworkers can join the scraps into usable Light Leather. A ragged beginning need not be wasted, though the finished piece tells less of the struggle than the original pile did.
+Leatherworkers can join the scraps into usable Light Leather.
 
 ## 2318 Light Leather
 
 Light Leather supplies everyday clothing and armour. Veren Tallstrider works with such skins for the people of Thunder Bluff, and offers the pattern for a Kodo Hide Bag in exchange for materials.
 
-Handstitched clothing and Light Armor Kits also use it. A skinner's earliest work can furnish a neighbour as readily as an expedition.
+Handstitched clothing and Light Armor Kits also use it.
 
 ## 2319 Medium Leather
 
 Medium Leather is found on hunts through the Barrens, Hillsbrad and other country beyond the first settlements.
 
-It supplies dark leather clothing and Medium Armor Kits. Smiths also use it in bronze weapons, giving the skinner an interest in the work of the forge.
+It supplies dark leather clothing and Medium Armor Kits. Smiths also use it in bronze weapons.
 
 ## 4234 Heavy Leather
 
@@ -34,7 +34,7 @@ It also goes into mithril armour and weapons. The beasts of Feralas and the Hint
 
 Rugged Leather can dress more than an armoured traveller. Knot Thimblejack uses it in the ogre suit he makes for visitors to Dire Maul. The disguise is convincing enough for Captain Kromcrush, but only briefly holds together.
 
-The leather also supplies runic clothing and Imperial Plate. Most of those customers prefer their equipment to last longer than an ogre's first impression.
+The leather also supplies runic clothing and Imperial Plate.
 
 ## 15417 Devilsaur Leather
 
@@ -64,7 +64,7 @@ Chimeric gloves, boots, leggings and vests all use it. The pattern book offers a
 
 The core hounds of the Molten Core yield Core Leather. This is work for a skinner travelling with a well-prepared expedition.
 
-It supplies Corehound Boots, the Molten Helm and Core Armor Kits. Such tidy entries in a pattern book give little impression of the animal involved.
+It supplies Corehound Boots, the Molten Helm and Core Armor Kits.
 
 ## 19767 Primal Bat Leather
 
@@ -76,13 +76,13 @@ It goes into a primal batskin jerkin, gloves and bracers.
 
 Zul'Gurub's Zulian cats yield Primal Tiger Leather. Even the expedition's smaller feline encounters deserve a careful record.
 
-Leatherworkers use it for Blood Tiger Breastplates and shoulders. The beasts lend their names to a second set of coats.
+Leatherworkers use it for Blood Tiger Breastplates and shoulders.
 
 ## 783 Light Hide
 
 A Light Hide is a raw material that still needs curing, separate from the Light Leather taken on the same hunt. Leatherworkers prepare it with salt before putting it into finer work.
 
-The cured hide goes into Fine Leather Gloves and Embossed Leather Pants. There is a little preparation between the hunt and the stitching.
+The cured hide goes into Fine Leather Gloves and Embossed Leather Pants.
 
 ## 4232 Medium Hide
 
@@ -100,7 +100,7 @@ Once cured, it supplies Guardian Armor and Barbaric Shoulders among other leathe
 
 Thick Hides are prepared with Deeprock Salt before being put to use. The curing is a different task from sorting the Thick Leather gathered on the same hunt.
 
-The cured hides supply wild leather clothing and the Wolfshead Helm. The resemblance to another creature is the craftsperson's doing.
+The cured hides supply wild leather clothing and the Wolfshead Helm. The helm is named for a wolf, whatever hide it is made from.
 
 ## 8171 Rugged Hide
 

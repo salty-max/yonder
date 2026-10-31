@@ -8,4 +8,4 @@ match:
 ---
 The draenei at the Harborage are refugees from Draenor, the world from which the orcs came. The Lost Ones at Fallow Sanctuary share that origin, though their violent isolation makes the connection less apparent to a traveller crossing the swamp.
 
-Magtoor and his companions offer help where they can, among people who scarcely know what to make of them. Their presence gives the Lost Ones' camp a sadder context: this is another people scattered far from home, with some of its own no longer able to find refuge among the rest.
+Magtoor and his companions offer help where they can, among people who scarcely know what to make of them. Magtoor's presence makes the Lost Ones' camp sadder still: these are exiles who cannot find refuge even among their own.

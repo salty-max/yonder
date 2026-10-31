@@ -9,4 +9,4 @@ match:
 ---
 Hyenas suit the dry country: lean shapes against the dust of the Barrens, Tanaris and Desolace. Their calls give them away even when the grass or a fold in the ground hides the pack.
 
-The names bestowed on them are seldom affectionate. Snickerfang, blisterpaw, starving hyena: travellers remember the sound, the teeth or the condition of the beast that followed them. There is a whole difficult life in that last name, out where a meal is never assured.
+The names bestowed on them are seldom affectionate. Snickerfang, blisterpaw, starving hyena: travellers remember the sound, the teeth or the condition of the beast that followed them.

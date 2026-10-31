@@ -8,6 +8,11 @@ The voices and the rules of the text (moved from CLAUDE.md on 20 October
   observant, dry, fond of the creatures it describes. Two to four
   short paragraphs per family: what they are, where and how they live, what a
   traveller should know. The player's own numbers follow the note on the page.
+  The naturalist has no race and no "I", "we" or "you": "the League" and "a
+  traveller" (the user's call, 31 October 2026). At least a third of the
+  entries, families and finds alike, end on a plain fact, and a dry closing
+  line stays only if it translates without a question (no idiom, no pun on
+  an English name).
 - No semicolons in prose, in any language (the user's rule, 14 October
   2026): two sentences, or a comma, or a rewrite for a list. The gender
   tokens' own `;` stay. Research notes (`sources:`) may keep theirs.

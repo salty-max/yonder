@@ -20,7 +20,7 @@ The ore comes from gathering grounds beyond the first copper country. Moving on 
 
 A silver vein is a welcome interruption to a round of copper and tin. The ore still needs smelting before it can go to work.
 
-Smiths make silver rods from the bars, ready for an enchanter to add the runes. Even a tool for magic begins with somebody tending a furnace.
+Smiths make silver rods from the bars, ready for an enchanter to add the runes.
 
 ## 2772 Iron Ore
 
@@ -42,7 +42,7 @@ Its bars supply weapons and armour, while the ore itself goes into Lesser Stones
 
 ## 7911 Truesilver Ore
 
-Truesilver is stronger and more durable than mithril, an assessment even Galvan the Ancient accepts. His dislike of the metal appears to be a separate matter.
+Truesilver is stronger and more durable than mithril, an assessment even Galvan the Ancient accepts. He still calls mithril the nobler metal.
 
 The ore is smelted into bars for fine metalwork. Aquamarine, Citrine and Star Rubies can accompany the gathering, giving a good deposit several uses beyond its metal.
 
@@ -56,13 +56,13 @@ Small and rich veins yield the same ore. Alchemists use it in Greater Stoneshiel
 
 Dark Iron is a metal of the Blackrock country, worked into the weapons and armour that bear its name. Ordinary furnaces will not smelt its ore. That work belongs at the Black Forge in Blackrock Depths.
 
-Warlocks also require the ore for a Wheel of the Black March, which directs the energies of a summoning circle. Its usefulness does not end at the anvil.
+Warlocks also require the ore for a Wheel of the Black March, which directs the energies of a summoning circle.
 
 ## 2798 Rethban Ore
 
 Rethban Ore takes its name from its discoverer, Bart Rethban. It is found in the caverns north of Lakeshire, where the gnolls have found reason to gather it too.
 
-Smelted, it is weaker than iron. Its dark colour makes a useful scribes' dye instead. A miner's work can end on the page of a book as readily as on a smith's anvil.
+Smelted, it is weaker than iron. Its dark colour makes a useful scribes' dye instead.
 
 ## 3340 Incendicite Ore
 
@@ -74,13 +74,13 @@ There is interest in using it for cannon shells, provided someone can first find
 
 Drywhisker Gorge in the Arathi Highlands has deposits of Lesser Bloodstone. Its low grade has not prevented Krazek in Booty Bay from asking for it.
 
-He offers a repair to a traveller's cooking pot in return. An expedition's mineral specimens do not always end in a grander piece of equipment.
+He offers a repair to a traveller's cooking pot in return.
 
 ## 5833 Indurium Ore
 
 Indurium Ore is mined inside Uldaman. Acquiring it calls for a journey into the ruins, beyond the deposits beside the open road.
 
-The ore supplies work on parts for a race. A material brought out of an ancient excavation can have a surprisingly hurried destination.
+At the raceway on the salt flats, a mechanic wants it for the parts of a racing car.
 
 ## 2835 Rough Stone
 
@@ -92,7 +92,7 @@ Smiths turn it into grinding, sharpening and weight stones. Engineers grind it i
 
 Coarse Stone accompanies tin, easily overlooked when the same gathering turns up a gem.
 
-Smiths use it for grinding and sharpening stones. Engineers make blasting powder from it. The less celebrated part of the load may prove the louder one.
+Smiths use it for grinding and sharpening stones. Engineers make blasting powder from it. Of its two uses, the blasting powder is the louder.
 
 ## 2838 Heavy Stone
 
@@ -104,7 +104,7 @@ It supplies grinding stones for the smith and blasting powder for the engineer.
 
 Solid Stone accompanies mithril. Looking only for the metal and gems leaves part of the deposit's usefulness behind.
 
-Its grinding stones, sharpening stones and blasting powder have their places at the workbench. They seldom receive the attention given to the finished blade or device.
+Its grinding stones, sharpening stones and blasting powder have their places at the workbench.
 
 ## 12365 Dense Stone
 
@@ -116,7 +116,7 @@ Besides the smith's usual stones and the engineer's powder, it goes into Element
 
 Small Obsidian Shards can come from either size of obsidian chunk. The label on the deposit is no substitute for examining what has broken away.
 
-Smiths use them in light and heavy obsidian belts, as well as in larger works. These pieces have a use before a miner finds a single large shard.
+Smiths use them in light and heavy obsidian belts, as well as in larger works. The belts need only the small shards.
 
 ## 22203 Large Obsidian Shard
 
@@ -134,7 +134,7 @@ Engineers use it for a Mechanical Squirrel and a Crude Scope. The same little st
 
 Tigerseye turns up with copper, giving an apprentice something to bring home besides metal and Rough Stone.
 
-Flying Tiger Goggles and a Heavy Copper Broadsword both use it. The miner need not have travelled far to supply someone else's first equipment.
+Flying Tiger Goggles and a Heavy Copper Broadsword both use it.
 
 ## 1210 Shadowgem
 
@@ -146,7 +146,7 @@ They go into Shadow Goggles and a Runed Silver Rod. The engineer and the enchant
 
 Moss Agate has a place in magical jewellery as well as in a miner's gem pouch. Nogg uses it with silver to strengthen the enchantment of a ring.
 
-Tin and silver veins can yield it. Engineers also fit it into scopes, goggles and an Ornate Spyglass. A small stone can repay more than one kind of close examination.
+Tin and silver veins can yield it. Engineers also fit it into scopes, goggles and an Ornate Spyglass.
 
 ## 1705 Lesser Moonstone
 
@@ -158,13 +158,13 @@ The Moonsteel Broadsword and Moonsight Rifle both call for it. Their names are r
 
 Jade is among the materials Tabetha asks for when making a mage's wand. Such work calls for a vessel that can hold a considerable store of magical energy.
 
-The gem also goes into a Jade Serpentblade and a Gnomish Cloaking Device. It has found work with people who wish to be noticed, and people who would rather avoid it.
+The gem also goes into a Jade Serpentblade and a Gnomish Cloaking Device.
 
 ## 3864 Citrine
 
 Galvan the Ancient values Citrine for more than its appearance. He teaches that the gem amplifies the enchantments placed in crafted goods, using it with mithril in his lessons.
 
-It also supplies the tailor's Star Belt and the engineer's Craftsman's Monocle. A jewelled piece need not owe all its usefulness to the metal around the stone.
+It also supplies the tailor's Star Belt and the engineer's Craftsman's Monocle.
 
 ## 7909 Aquamarine
 
@@ -190,7 +190,7 @@ Black Vitriol can accompany mithril, thorium and Dark Iron. It is another reason
 
 Blood of the Mountain is a gem found in Dark Iron deposits. The name gives the mineral collector a fair sense of where the search will lead.
 
-It goes into the Smoking Heart of the Mountain and the Sulfuron Hammer. Neither commission does much to soften the associations of the place.
+It goes into the Smoking Heart of the Mountain and the Sulfuron Hammer.
 
 ## 11754 Black Diamond
 
@@ -220,7 +220,7 @@ Thorium veins and obsidian chunks can yield them. They also go into Gloves of Sp
 
 Large Opals are found with thorium. The gem deserves attention alongside the metal, even when the expedition set out with only a smelting order.
 
-Smiths use it in an Enchanted Thorium Helm and Stronghold Gauntlets. A good mineral collection and a well-equipped company often begin with the same finds.
+Smiths use it in an Enchanted Thorium Helm and Stronghold Gauntlets.
 
 ## 12800 Azerothian Diamond
 
@@ -232,16 +232,16 @@ The gem also goes into Lionheart and Whitesoul Helms. A mineral collector may be
 
 Hakkari Thorium Veins in Zul'Gurub yield Souldarite. An ordinary thorium round elsewhere is no promise of finding it.
 
-It supplies Bloodsoul and Darksoul metalwork, as well as Bloodvine Goggles. The familiar ore and this less familiar companion have different places in the expedition's plans.
+It supplies Bloodsoul and Darksoul metalwork, as well as Bloodvine Goggles.
 
 ## 249391 Pyrite
 
-Pyrite occurs with several of the earlier metals in this world. It can also come away from a large chunk of amber, an unusual addition to a miner's round.
+Pyrite occurs with several of the earlier metals. It can also come away from a large chunk of amber, an unusual addition to a miner's round.
 
 The League's mineral account keeps it under its own name. Finding a new companion to a familiar ore is reason enough to make a note.
 
 ## 249425 Bauxite
 
-Gold and mithril deposits can yield Bauxite in this world. The ooze-covered mithril found underground can carry it too.
+Gold and mithril deposits can yield Bauxite. The ooze-covered mithril found underground can carry it too.
 
 A deposit's name gives only part of its contents. This mineral deserves attention even when it was gold that persuaded the traveller to stop.

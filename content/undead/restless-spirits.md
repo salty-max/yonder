@@ -9,6 +9,6 @@ match:
 ---
 Not every ghost in Azeroth serves the Scourge. Some are spirits who never found rest: the Highborne who haunt their ruined towers in Darkshore and Azshara, the drowned and the murdered, the warriors who fell far from home and wander still.
 
-Some are only sad. Some are angry, and the anger is all that is left of them. A few will speak, if you listen.
+Some are only sad. Some are angry, and the anger is all that is left of them. A few speak to anyone who stops to listen.
 
-The League records them with care. They are, after all, the oldest witnesses we have.
+The League records them with care, for they are among the oldest witnesses there are.

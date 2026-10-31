@@ -10,4 +10,4 @@ Dark Iron work is unmistakably dwarven: deep mines, heavy fortifications and mac
 
 The War of the Three Hammers left them enemies of Ironforge. Thaurissan's summoning left them subject to Ragnaros. Their agents now work far beyond the mountain, in quarries and camps across Khaz Modan.
 
-Black powder and fine masonry are familiar things to find in another dwarf's hands. It is the direction of the cannon that makes this a difficult page.
+Black powder and fine masonry are familiar things to find in dwarven hands. The difficulty is where their cannon point.

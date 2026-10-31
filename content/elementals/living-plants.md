@@ -11,4 +11,4 @@ A forest can move without a breeze. Treants and ancients give the night elves' w
 
 Some defend a living woodland. Others have been changed by corruption. The timberlings of Teldrassil and the growth within Dire Maul deserve different accounts, even when both make a path difficult to cross.
 
-The swamp has its own forms of moving vegetation and mud. Roots, branches and a familiar green colour are only the beginning of identifying what has risen out of it.
+The swamp has its own forms of moving vegetation and mud.

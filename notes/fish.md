@@ -10,7 +10,7 @@ under their first weight's id. -->
 
 Brilliant Smallfish fills an apprentice's first creel in familiar waters, sometimes within sight of a city street.
 
-It makes a plain, useful meal. A modest catch is quite sufficient company for a quiet afternoon, especially when the cook is still learning too.
+It makes a plain, useful meal.
 
 ## 6303 Raw Slitherskin Mackerel
 
@@ -22,13 +22,13 @@ The simple cooked dish keeps the same name.
 
 Longjaw Mud Snapper is common in the home rivers and lakes, and follows anglers well beyond their first lessons.
 
-The ordinary catch is easily cooked. The occasional heavy specimen tends to acquire a different purpose: evidence in the evening's account of the fishing.
+The ordinary catch is easily cooked. The occasional heavy specimen is weighed separately.
 
 ## 6317 Raw Loch Frenzy
 
 Loch Frenzy belongs to Loch Modan's great lake, with the Stonewrought Dam holding back the water above the Wetlands.
 
-Loch Frenzy Delight makes a local supper of a local catch. There are pleasant ways for a traveller to learn the name of a place.
+Loch Frenzy Delight makes a local supper of a local catch.
 
 ## 6361 Raw Rainbow Fin Albacore
 
@@ -40,7 +40,7 @@ Cooks prepare it under its own name.
 
 Darkshore Grouper is sought in the rivers and falls inland from the coast.
 
-Gubber Blump at Auberdine asks for a catch of them and offers a fishing pole for the work. The fish can help equip an angler for whatever comes out of the next river.
+Gubber Blump at Auberdine asks for a catch of them and offers a fishing pole for the work.
 
 ## 6308 Raw Bristle Whisker Catfish
 
@@ -64,25 +64,25 @@ The cooked fish provides a straightforward supper.
 
 Spotted Yellowtail shares much of the coastal fishing ground of Rockscale Cod.
 
-It has its own place in the cook's repertoire, even when both arrive in the same creel. The sea need not provide a rare catch to provide some variety.
+It has its own place in the cook's repertoire, even when both arrive in the same creel.
 
 ## 13754 Raw Glossy Mightfish
 
 Glossy Mightfish is caught off Tanaris and Azshara, in waters that reward an experienced angler.
 
-Cooked Glossy Mightfish restores health and adds stamina. A smaller fish can supply much the same encouragement before a battle as the larger catch prepared for steaks.
+Cooked Glossy Mightfish restores health and adds stamina.
 
 ## 13759 Raw Nightfin Snapper
 
 Nightfin Snapper makes the hour part of choosing a fishing place. It bites at night and around the day's edges, with the small hours particularly favourable.
 
-Nightfin Soup helps restore a spellcaster's mana. A patient angler can give the company a useful reason to be grateful for time spent beside dark water.
+Nightfin Soup helps restore a spellcaster's mana.
 
 ## 13760 Raw Sunscale Salmon
 
 Sunscale Salmon favours daylight in waters also known for Nightfin Snapper. An afternoon that disappoints the night angler may suit this catch very well.
 
-Poached Sunscale Salmon helps health return steadily. The two catches put the same stretch of water to work for different appetites at different hours.
+Poached Sunscale Salmon helps health return steadily.
 
 ## 13758 Raw Redgill
 
@@ -106,7 +106,7 @@ Grilled Squid sharpens agility. The cooks who value it have a practical interest
 
 Azshara's Bay of Storms is the fishing ground for Darkclaw Lobster. The name of the water gives a fair impression of the country around an angler's chosen shore.
 
-Lobster Stew repays the journey with a substantial meal. The separately weighed lobsters give the same water another claim on a fisher's memory.
+Lobster Stew repays the journey with a substantial meal.
 
 ## 13893 Large Raw Mightfish
 
@@ -148,7 +148,7 @@ It has no familiar place among the cook's or alchemist's preparations. A field j
 
 Plated Armorfish is a less familiar prize from waters that also yield Whitescale Salmon.
 
-The cook has no usual preparation for it. Its place in the catch is worth recording all the same. A creel contains more than the ingredients on a shopping list.
+The cook has no usual preparation for it. Its place in the catch is worth recording all the same.
 
 ## 6522 Deviate Fish
 
@@ -160,19 +160,19 @@ Raw, its effects are unpredictable. Savory Deviate Delight can disguise the dine
 
 Spotted Sunfish is sought in Lake Everstill at Lakeshire.
 
-Dockmaster Baren buys a catch of ten. A line cast from the town's waters can bring in a little coin as well as a quiet interval beside the lake.
+Dockmaster Baren buys a catch of ten.
 
 ## 6717 Gaffer Jack
 
 Gaffer jacks are lost tools, not fish: Wizbang Cranktoggle dropped a box of them overboard on his journey to Auberdine.
 
-He needs eight back to tune his stintle pegs. A line cast into the sea can supply the beginnings of another invention, though it was the inventor's drinking that supplied the tools to the sea.
+He needs eight back to tune his stintle pegs.
 
 ## 6718 Electropeller
 
 Electropellers are pieces of Wizbang Cranktoggle's machinery, lost in Darkshore's inland waters during an unsuccessful outing with an exploding duck decoy.
 
-He wants twelve recovered so that his research can continue. The duck decoy does rather more to explain the singed hair in his account than the fishing does.
+He wants twelve recovered so that his research can continue.
 
 ## 16967 Feralas Ahi
 
@@ -190,7 +190,7 @@ Nat Pagle includes it among his four testing catches. Reaching the sea through t
 
 The Sar'theris Striker takes Nat Pagle's pupil to the coast of Desolace.
 
-It is one of four catches in his test. The shore offers a change from the grey interior, though the journey remains a considerable one for a single fish.
+It is one of four catches in his test.
 
 ## 16969 Savage Coast Blue Sailfin
 
@@ -202,13 +202,13 @@ For a pupil who has already visited his other fishing grounds, the name marks an
 
 The large catfish are weighed individually, from seventeen pounds up to the uncommon thirty-two-pound catch.
 
-They share the Bristle Whisker Catfish's waters. An ordinary fishing place can supply an extraordinary addition to an evening's story.
+They share the Bristle Whisker Catfish's waters.
 
 ## 6292 Mud Snapper
 
 Mud snappers of ten, twelve and fifteen pounds are caught alongside the Longjaw Mud Snapper.
 
-The familiar home waters still have room for a surprise. A fisher need not reach a distant coast to bring back something worth weighing.
+The familiar home waters still have room for a surprise.
 
 ## 13885 Redgill
 

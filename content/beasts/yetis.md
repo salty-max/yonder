@@ -9,4 +9,4 @@ match:
 ---
 Yetis occupy mountain caves from Alterac to Winterspring, with a shaggy kind in the heights of Feralas as well. Their broad bodies and heavy coats give even a large cavern the appearance of cramped lodgings.
 
-Their horns have attracted Umi Rumplesnicker's attention in Everlook. She needs a perfect pair for the mechanical yeti she is building to frighten her friends. The living yetis are inconveniently attached to the parts.
+Their horns have attracted Umi Rumplesnicker's attention in Everlook. She needs a perfect pair for the mechanical yeti she is building to frighten her friends.

@@ -8,4 +8,4 @@ match:
 ---
 Living flame walks the scorched country around Blackrock Mountain and the slopes of Un'Goro's volcano. A fire elemental gives the familiar movement of a blaze a direction and a purpose of its own.
 
-Ragnaros rules the deepest fires beneath Blackrock, with servants throughout his domain. Elsewhere, shamans and summoners call flame into other settings. The element remains recognisable, though its presence alone does not tell a traveller whose command, if anyone's, it is obeying.
+Ragnaros rules the deepest fires beneath Blackrock, with servants throughout his domain. Elsewhere, shamans and summoners call flame into other settings.

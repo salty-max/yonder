@@ -11,4 +11,4 @@ Crocolisks are ancient things, long-jawed and armoured, which have outlasted emp
 
 A crocolisk on the bank looks asleep. It is not. It can cover the distance to a careless traveller faster than seems decent for something so heavy.
 
-Their hides make fine leather, and their meat is better than it has any right to be. Neither is worth losing a leg over.
+Their hides make fine leather and their meat is good eating, but a crocolisk gives up neither without a fight.

@@ -8,4 +8,4 @@ match:
 ---
 A water elemental gives a spring or pool a moving inhabitant made of its own substance. Ice is the same substance, frozen, and its elementals belong here too. The befouled elementals of Ashenvale carry their woodland's corruption into that familiar shape.
 
-Off Azshara, the Hydraxian Waterlords have a very different purpose, opposing Ragnaros and his servants. Mages summon water elementals as well. A wave rising into a body is a striking sight, but it takes something of the place and its history to explain why it is there.
+Off Azshara, the Hydraxian Waterlords have a very different purpose, opposing Ragnaros and his servants. Mages summon water elementals as well.

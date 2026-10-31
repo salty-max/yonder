@@ -8,25 +8,25 @@ game's own recipes (SpellReagents), the original game only. -->
 
 Peacebloom is a familiar flower along the first roads out of home, and useful long after an herbalist has learned rarer names.
 
-With Silverleaf it makes a Minor Healing Potion. There is something agreeable about finding the beginnings of a remedy in country where an apprentice can still recognise the way back.
+With Silverleaf it makes a Minor Healing Potion.
 
 ## 765 Silverleaf
 
 Silverleaf belongs in the same early gathering satchel as Peacebloom. A plant need not be rare to become indispensable to the workbench.
 
-Minor healing and mana draughts both call for it. The two uses explain why an alchemist who has gathered plenty can discover, quite shortly, that plenty was not enough.
+Minor healing and mana draughts both call for it.
 
 ## 2449 Earthroot
 
 Earthroot turns up across the settled lands and even within the Wailing Caverns. It is one of the first roots an herbalist learns to recognise.
 
-The Elixir of Lion's Strength and the Elixir of Minor Fortitude both begin with it. Such imposing names have modest ingredients, which is a comfort to an apprentice.
+The Elixir of Lion's Strength and the Elixir of Minor Fortitude both begin with it.
 
 ## 785 Mageroyal
 
 Mageroyal is a useful find along the roads beyond the first settlements. Swiftthistle is sometimes gathered with it, giving a single stop a second reward.
 
-Alchemists use Mageroyal in mana draughts and the Elixir of Wisdom. The name sets a high expectation. The work it does for a young spellcaster is quite sufficient.
+Alchemists use Mageroyal in mana draughts and the Elixir of Wisdom.
 
 ## 2450 Briarthorn
 
@@ -50,19 +50,19 @@ Healing Potions and the Elixir of Poison Resistance give it dependable work.
 
 Stranglekelp takes the herbalist away from the path and into coastal water. The gathering itself makes a good argument for knowing what is growing below the surface.
 
-An Elixir of Water Breathing is one of its uses, along with mana draughts and Free Action Potions. The plant supplies a remedy for an inconvenience encountered while collecting it.
+An Elixir of Water Breathing is one of its uses, along with mana draughts and Free Action Potions. Gathered under water, it helps others breathe there.
 
 ## 3355 Wild Steelbloom
 
 Wild Steelbloom is a familiar name to herbalists working the hills of Arathi and the rocky country of Stonetalon.
 
-The Elixir of Defense and the Elixir of Fortitude both use it. Armour is the smith's business, but the alchemist has a few contributions to make before the traveller buckles it on.
+The Elixir of Defense and the Elixir of Fortitude both use it.
 
 ## 3369 Grave Moss
 
 Grave Moss is gathered in places where an herbalist is unlikely to feel entirely alone: Duskwood, Desolace and the burial ground of Razorfen Downs among them.
 
-Shadow Oil and Shadow Protection Potions call for it. The uses are well suited to the errands that bring a gatherer among the graves.
+Shadow Oil and Shadow Protection Potions call for it.
 
 ## 3356 Kingsblood
 
@@ -92,13 +92,13 @@ Greater mana draughts, agility elixirs and Frost Protection Potions all call for
 
 Khadgar's Whisker has a name a traveller is likely to remember, even before learning where to look for it. The herb occurs in several of the wooded and marshy lands.
 
-Greater Mana Potions and the Elixir of Greater Intellect use it, as does Frost Oil. The archmage's name has found its way onto a very busy shelf.
+Greater Mana Potions and the Elixir of Greater Intellect use it, as does Frost Oil.
 
 ## 3819 Wintersbite
 
 Wintersbite gives an herbalist a particular journey: into the snow of the Alterac Mountains. A familiar plant is welcome company in country where the paths are easily lost.
 
-Frost Oil, Frost Protection Potions and the Elixir of Frost Power all call for it. The mountain herb has work on either side of the struggle with cold.
+Frost Oil, Frost Protection Potions and the Elixir of Frost Power all call for it.
 
 ## 8153 Wildvine
 
@@ -110,7 +110,7 @@ Leatherworkers need it for wild leather and tailors for dreamweave. The flower a
 
 Firebloom belongs to the gathering routes through Tanaris, the Badlands and Searing Gorge. None is gentle country in which to stop and fill a satchel.
 
-Goblin Rocket Fuel and Oil of Immolation give a fair impression of its uses. The Philosophers' Stone calls for it too, for alchemists with a different ambition for the same bundle.
+Goblin Rocket Fuel and Oil of Immolation use it. The Philosophers' Stone calls for it too.
 
 ## 8831 Purple Lotus
 
@@ -122,7 +122,7 @@ Dreamless Sleep Potions and the Elixir of Dream Vision both use it. An alchemist
 
 Arthas' Tears grows in the Plaguelands and Felwood, and is found within Razorfen Downs. The name is a sombre one to learn among so many ruined fields.
 
-The Elixir of Detect Undead and Gift of Arthas are its two familiar preparations. Neither does much to lighten the associations of a bundle brought back from that country.
+The Elixir of Detect Undead and Gift of Arthas are its two familiar preparations.
 
 ## 8838 Sungrass
 
@@ -152,7 +152,7 @@ The Flask of the Titans and the Elixir of Brute Force both call for it. So does 
 
 Golden Sansam is gathered in Un'Goro and Azshara, and through such damaged country as Felwood and the Eastern Plaguelands.
 
-Major healing and rejuvenation draughts use it. The healing supplies brought back from those places have no shortage of work awaiting them.
+Major healing and rejuvenation draughts use it.
 
 ## 13463 Dreamfoil
 
@@ -162,7 +162,7 @@ Greater Protection Potions use it against fire, frost, nature, shadow and arcane
 
 ## 13465 Mountain Silversage
 
-Mountain Silversage is gathered in Winterspring and Un'Goro, despite the very different view from the crater floor.
+Mountain Silversage is gathered in two very different places: the snows of Winterspring and the floor of Un'Goro.
 
 It goes into Major Healing Potions, and with Plaguebloom makes the Elixir of the Mongoose.
 
@@ -182,7 +182,7 @@ Major Mana Potions and Purification Potions use it, along with the Flask of Dist
 
 Black Lotus is a rare find in a small number of dangerous lands. A gatherer who spots it has good reason to remember the place.
 
-The great flasks call for it, including those of the Titans and Supreme Power. Many bundles can be replenished on an ordinary round. This one tends to determine when the most ambitious work can begin.
+The great flasks call for it, including those of the Titans and Supreme Power. Black Lotus is scarce, and the great flasks wait on it.
 
 ## 19726 Bloodvine
 
