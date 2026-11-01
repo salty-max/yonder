@@ -1,8 +1,8 @@
 ---
-source: 4c4718c80e9d
+source: 3dc99ed14316
 zone: 1428
 ---
-Le mont Rochenoire domine l'horizon du nord, donnant à presque chaque route à travers les steppes le même grand repère. L'accès depuis les Carmines grimpe dans un pays couleur de cendre, où des crêtes brisées et de vieilles fortifications coupent la plaine.
+Le mont Rochenoire domine l'horizon du nord, donnant à presque chaque route à travers les steppes le même grand repère. Peu de nains le regardent de bon cœur. L'accès depuis les Carmines grimpe dans un pays couleur de cendre, où des crêtes brisées et de vieilles fortifications coupent la plaine.
 
 La Veille de Morgan occupe les hauteurs de l'est pour l'Alliance. La Corniche des flammes offre à la Horde un point d'appui plus au nord. Entre les deux s'étendent des camps Rochenoire, des draconiens et les restes de batailles plus anciennes.
 

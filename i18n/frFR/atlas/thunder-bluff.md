@@ -1,9 +1,9 @@
 ---
-source: 940ab4e43fcf
+source: 796e538d278b
 zone: 1456
 ---
-La cité des taurens, sur les mesas du nord de Mulgore, reliées par des ponts de corde et qu'on atteint par de grands élévateurs depuis la plaine.
+La cité des taurens se dresse sur les mesas du nord de Mulgore. De grands élévateurs y montent depuis la plaine, et des ponts de corde relient les cimes du haut.
 
-Chaque cime a sa fonction : la cime des Anciens pour les anciens et les druides, la cime des Esprits pour les chamans et les prêtres, la cime des Chasseurs pour les chasseurs et les guerriers. La banque et l'hôtel des ventes sont sur la cime centrale, et les cavaliers célestes s'envolent de la tour.
+La cime des Anciens, la cime des Esprits et la cime des Chasseurs sont les repères pour s'orienter. La banque et l'hôtel des ventes sont sur la cime centrale, et les cavaliers célestes s'envolent de la tour.
 
-Les ponts se balancent. Ne regardez pas en bas, et ne courez pas.
+Les ponts se balancent, et je préfère avoir de la pierre sous les pieds. Ne regardez pas en bas, et ne courez pas.
