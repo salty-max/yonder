@@ -3,6 +3,7 @@
 --   FOREVER=1 luajit addon/test/sim.lua    the same on Forever's client: no
 --                                          combat log (kills from PARTY_KILL), secret values
 local DIR = "addon/Yonder/"
+held = dofile("addon/test/held.lua")
 local FOREVER = os.getenv("FOREVER") == "1"
 function GetBuildInfo() return "1.15.8", "60000", "Oct 1 2026", FOREVER and 16001 or 11509 end
 -- Values the game hides from addons on Forever.
@@ -2678,36 +2679,40 @@ end
 -- every riddle and quarry whole, its gender tokens resolved.
 do
   assert(loadfile(DIR .. "Text_deDE.lua"))("Yonder", ns)
-  local bad = {}
-  local function read(s, what)
-    if s and (s:find("%$[gG]") or s:find("\195$") or s:find("\195[^\128-\191]")) then table.insert(bad, what) end
-  end
-  for _, e in pairs(D.expeditions) do
-    for _, r in ipairs(e.riddles or {}) do
-      read(ns.riddleName(r), r.id .. " name")
-      read(ns.riddleNote(r), r.id .. " note")
-      read(ns.riddleMargin(r), r.id .. " margin")
-      for _, line in ipairs(r.verse or {}) do
-        read(line, r.id .. " verse")
+  if held("deDE") then
+    print("skipped: deDE held back (HIDDEN_LOCALES): the German riddles and words")
+  else
+    local bad = {}
+    local function read(s, what)
+      if s and (s:find("%$[gG]") or s:find("\195$") or s:find("\195[^\128-\191]")) then table.insert(bad, what) end
+    end
+    for _, e in pairs(D.expeditions) do
+      for _, r in ipairs(e.riddles or {}) do
+        read(ns.riddleName(r), r.id .. " name")
+        read(ns.riddleNote(r), r.id .. " note")
+        read(ns.riddleMargin(r), r.id .. " margin")
+        for _, line in ipairs(r.verse or {}) do
+          read(line, r.id .. " verse")
+        end
+      end
+      if e.quarry then
+        read(ns.quarryNote(e.quarry), e.quarry.name .. " note")
+        read(ns.quarryMargin(e.quarry), e.quarry.name .. " margin")
       end
     end
-    if e.quarry then
-      read(ns.quarryNote(e.quarry), e.quarry.name .. " note")
-      read(ns.quarryMargin(e.quarry), e.quarry.name .. " margin")
+    local etched
+    for _, r in ipairs(D.expeditions[1426].riddles) do
+      if r.id == "dun-morogh-etched-note" then etched = r end
     end
+    check(#bad == 0, "the shipped German: every riddle and quarry reads whole (" .. table.concat(bad, ", ") .. ")")
+    check(
+      ns.riddleName(etched) == "Geätzte Notiz"
+        and ns.riddleNote(etched):find("Ironforge hat sehr viele Ambosse", 1, true)
+        and ns.familyById.wolves.title == "Wölfe"
+        and ns.kit.L["Expeditions"] ~= "Expeditions",
+      "… its words, a family, a riddle's answer and note"
+    )
   end
-  local etched
-  for _, r in ipairs(D.expeditions[1426].riddles) do
-    if r.id == "dun-morogh-etched-note" then etched = r end
-  end
-  check(#bad == 0, "the shipped German: every riddle and quarry reads whole (" .. table.concat(bad, ", ") .. ")")
-  check(
-    ns.riddleName(etched) == "Geätzte Notiz"
-      and ns.riddleNote(etched):find("Ironforge hat sehr viele Ambosse", 1, true)
-      and ns.familyById.wolves.title == "Wölfe"
-      and ns.kit.L["Expeditions"] ~= "Expeditions",
-    "… its words, a family, a riddle's answer and note"
-  )
   check(ns.creatureName(1132, { name = "Timber" }) == "Holzplanke", "… a creature by its German name")
 end
 
@@ -2716,41 +2721,45 @@ end
 -- English note, retain both paragraphs and stay within this game's items.
 do
   for _, locale in ipairs({ "frFR", "deDE", "esES", "esMX" }) do
-    local target = {}
-    for _, file in ipairs({ "Kit.lua", FOREVER and "Data_Forever.lua" or "Data_Classic.lua", "Locale.lua" }) do
-      assert(loadfile(DIR .. file))("Yonder", target)
-    end
-    local english = {}
-    for id, item in pairs(target.data.materials.items) do
-      english[id] = table.concat(item.note, "\n\n")
-    end
-    local catalog
-    local translate = target.translate
-    target.translate = function(t)
-      catalog = t
-      translate(t)
-    end
-    assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))("Yonder", target)
-    local count = 0
-    for id, item in pairs(target.data.materials.items) do
-      count = count + 1
-      local group = item.family == "mining" and "minerals" or item.family == "cloth" and "cloth" or "leather"
-      local text = table.concat(item.note, "\n\n")
-      check(
-        catalog[group][id] and #item.note == 2 and text ~= english[id],
-        locale .. " material " .. id .. ": both translated paragraphs reach the page"
-      )
-      check(
-        not text:find(";", 1, true) and not text:find("[classic]", 1, true) and not text:find("[forever]", 1, true),
-        locale .. " material " .. id .. ": no semicolons or source markers"
-      )
-    end
-    check(count == (FOREVER and 66 or 62), locale .. ": all material item pages translated")
-    for _, id in ipairs({ 249391, 249425, 249427, 249428 }) do
-      check(
-        (target.data.materials.items[id] ~= nil) == FOREVER,
-        locale .. " material " .. id .. ": Forever additions stay in Forever"
-      )
+    if held(locale) then
+      print("skipped: " .. locale .. " held back (HIDDEN_LOCALES): the material pages")
+    else
+      local target = {}
+      for _, file in ipairs({ "Kit.lua", FOREVER and "Data_Forever.lua" or "Data_Classic.lua", "Locale.lua" }) do
+        assert(loadfile(DIR .. file))("Yonder", target)
+      end
+      local english = {}
+      for id, item in pairs(target.data.materials.items) do
+        english[id] = table.concat(item.note, "\n\n")
+      end
+      local catalog
+      local translate = target.translate
+      target.translate = function(t)
+        catalog = t
+        translate(t)
+      end
+      assert(loadfile(DIR .. "Text_" .. locale .. ".lua"))("Yonder", target)
+      local count = 0
+      for id, item in pairs(target.data.materials.items) do
+        count = count + 1
+        local group = item.family == "mining" and "minerals" or item.family == "cloth" and "cloth" or "leather"
+        local text = table.concat(item.note, "\n\n")
+        check(
+          catalog[group][id] and #item.note == 2 and text ~= english[id],
+          locale .. " material " .. id .. ": both translated paragraphs reach the page"
+        )
+        check(
+          not text:find(";", 1, true) and not text:find("[classic]", 1, true) and not text:find("[forever]", 1, true),
+          locale .. " material " .. id .. ": no semicolons or source markers"
+        )
+      end
+      check(count == (FOREVER and 66 or 62), locale .. ": all material item pages translated")
+      for _, id in ipairs({ 249391, 249425, 249427, 249428 }) do
+        check(
+          (target.data.materials.items[id] ~= nil) == FOREVER,
+          locale .. " material " .. id .. ": Forever additions stay in Forever"
+        )
+      end
     end
   end
 end
@@ -2758,7 +2767,9 @@ end
 -- The finished German on a fresh client, for both character genders. A valid
 -- gender token alone did not catch "diejenige, der", and a raw catalog never
 -- showed Classic's doubled faction article. Load the actual files in TOC order.
-do
+if held("deDE") then
+  print("skipped: deDE held back (HIDDEN_LOCALES): the finished German")
+else
   local oldSex = UnitSex
   local function utf8(s)
     local i = 1

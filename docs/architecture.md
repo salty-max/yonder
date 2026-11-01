@@ -4,6 +4,8 @@ The journal file by file (moved from CLAUDE.md on 20 October 2026; the map
 stays there). The riddles' files and resolver: `docs/expeditions.md`. The
 voices and notes: `docs/writing.md`.
 
+German and Spanish (deDE, esES, esMX) are held back from players since 1 November 2026 (`HIDDEN_LOCALES` in addon-kit's `locales-lib.ts`): their language files are stubs with the game's names or English, their tests skip (`addon/test/held.lua`), and their `i18n/` stays. Restoring them starts by emptying that list.
+
 ## What the journal is
 
 The **Expeditions** first (the book opens on them): each zone's riddles, solved on the spot, and its quarry, a rare to track down. The

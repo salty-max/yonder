@@ -74,7 +74,7 @@ One download covers Classic Era, Hardcore, Season of Discovery and World of Warc
 
 Forever adds Zephras Isle to the Atlas, and its new rares count towards zone achievements. The game hides creatures inside Forever dungeons and raids from addons, so the journal cannot record them there.
 
-Yonder speaks English, French, German and Spanish. With a French, German or Spanish client, the whole journal is in that language: the riddles and quarries, the Bestiary, the Atlas, the fish, herbs, materials and achievements. Every name is as the game itself writes it. German and Spanish are first translations: corrections are welcome on GitHub. Both Spanish clients share the journal text and keep their own game names. Other clients get English, with the game's own names in their language: creatures, places, flight points, fish, and the riddles' and quarries' answers. Everything the journal records is kept by the game's ids, so it all follows your client's language, even after you switch.
+Yonder speaks English and French. With a French client, the whole journal is in French: the riddles and quarries, the Bestiary, the Atlas, the fish, herbs, materials and achievements. Every name is as the game itself writes it. Other clients get English, with the game's own names in their language: creatures, places, flight points, fish, and the riddles' and quarries' answers. Everything the journal records is kept by the game's ids, so it all follows your client's language, even after you switch.
 
 ## Settings and commands
 
