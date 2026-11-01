@@ -1,39 +1,39 @@
 ---
 sources:
-  - 6291 e813b93792a2
+  - 6291 4cda907a3e1d
   - 6303 55b58a78624d
-  - 6289 29211e4b0510
-  - 6317 d84d84fa8828
+  - 6289 d1401f83abf1
+  - 6317 8a015728fe43
   - 6361 cd2e6d1f4d46
-  - 12238 76a940c636bb
+  - 12238 d3e9b7d932d9
   - 6308 e824bcb45532
   - 8365 98553f7d93e2
   - 6362 114f396fe4e1
-  - 4603 2949aeef4c9e
-  - 13754 c43d637cd231
-  - 13759 013a061dcc3e
-  - 13760 64b4570822ee
+  - 4603 75fb11b098e8
+  - 13754 eb76e05f46b7
+  - 13759 a95c39d351f0
+  - 13760 43ac12c0f6ca
   - 13758 89f760b490a7
   - 13756 7b3cfa5bbfa3
   - 13755 da8505f2c44e
-  - 13888 b186b1de8147
+  - 13888 bb25f16c1c48
   - 13893 c4a37097484c
   - 13889 01cfce2674bd
   - 6358 59483561ffc5
   - 6359 a80773c02cf2
   - 13422 0d644b4bd0d0
   - 13757 35f0d89bcb27
-  - 13890 fc959aea2be2
+  - 13890 4ce099e7e012
   - 6522 274f90dc44f8
-  - 1467 8b5c166a3c84
-  - 6717 1ceadda0a968
-  - 6718 8d36796002af
+  - 1467 983c39baa6e7
+  - 6717 56e2fb0ff9fe
+  - 6718 00991318eaee
   - 16967 a8508aca3eea
   - 16970 a586745f009c
-  - 16968 ba46b1724d12
+  - 16968 dc2c46bb8d32
   - 16969 2ca3f884704a
-  - 6309 da01a58de736
-  - 6292 e6bbae584d65
+  - 6309 0220729a2ae3
+  - 6292 e67494c842f3
   - 13885 95966dc368da
   - 13876 ced77908040c
   - 13901 066ca246d8fc
@@ -44,7 +44,7 @@ sources:
 
 Le Goujon brillant remplit le premier panier de pêche d'un apprenti dans des eaux familières, parfois à portée de vue d'une rue de la cité.
 
-Il donne un repas simple et utile. Une prise modeste est une compagnie bien suffisante pour un après-midi tranquille, surtout quand le cuisinier apprend lui aussi.
+Il donne un repas simple et utile.
 
 ## 6303 Maquereau ombré cru
 
@@ -56,13 +56,13 @@ Le plat cuisiné tout simple garde le même nom.
 
 Le Lutjan à longue mâchoire est commun dans les rivières et les lacs du pays natal, et suit les pêcheurs bien au-delà de leurs premières leçons.
 
-La prise ordinaire se cuisine facilement. Le spécimen lourd qu'on attrape de temps à autre tend à trouver un autre usage : servir de preuve dans le récit de pêche du soir.
+La prise ordinaire se cuisine facilement. Le spécimen lourd qu'on attrape de temps à autre se pèse à part.
 
 ## 6317 Furie du loch crue
 
 La Furie du loch appartient au grand lac du Loch Modan, dont le barrage de Formepierre retient les eaux au-dessus des Paluns.
 
-Le Délice de furie du loch fait d'une prise locale un souper local. Il existe d'agréables façons pour un voyageur d'apprendre le nom d'un lieu.
+Le Délice de furie du loch fait d'une prise locale un souper local.
 
 ## 6361 Thon arc-en-ciel cru
 
@@ -74,7 +74,7 @@ Les cuisiniers le préparent sous son propre nom.
 
 Le Mérou de Sombrivage se cherche dans les rivières et les chutes à l'intérieur des terres, en retrait de la côte.
 
-Gubber Blump, à Auberdine, en demande une pêche et offre une canne à pêche pour la peine. Le poisson peut aider à équiper un pêcheur pour ce qui sortira de la rivière suivante.
+Gubber Blump, à Auberdine, en demande une certaine quantité et offre une canne à pêche pour la peine.
 
 ## 6308 Poisson-chat moustachu cru
 
@@ -98,25 +98,25 @@ Le poisson cuisiné fournit un souper sans façon.
 
 Le Jaune-queue tacheté partage une grande part des lieux de pêche côtiers de la Morue rochécaille.
 
-Il a sa propre place dans le répertoire du cuisinier, même quand les deux arrivent dans le même panier de pêche. La mer n'a pas besoin de fournir une prise rare pour fournir un peu de variété.
+Il a sa propre place dans le répertoire du cuisinier, même quand les deux arrivent dans le même panier de pêche.
 
 ## 13754 Barracuda luisant cru
 
 Le Barracuda luisant se pêche au large de Tanaris et d'Azshara, dans des eaux qui récompensent le pêcheur expérimenté.
 
-Le Barracuda luisant cuit rend de la santé et ajoute de l'endurance. Un poisson plus petit peut apporter à peu près le même encouragement avant une bataille que la grosse prise qu'on prépare en steaks.
+Le Barracuda luisant cuit rend de la santé et ajoute de l'endurance.
 
 ## 13759 Lutjan nagenuit cru
 
 Le Lutjan nagenuit fait de l'heure un critère dans le choix d'un coin de pêche. Il mord la nuit et aux lisières du jour, les premières heures après minuit étant particulièrement favorables.
 
-La Soupe de lutjan nagenuit aide un lanceur de sorts à retrouver son mana. Un pêcheur patient peut donner à ses compagnons une bonne raison de se féliciter du temps passé au bord de l'eau sombre.
+La Soupe de lutjan nagenuit aide un lanceur de sorts à retrouver son mana.
 
 ## 13760 Saumon solécaille cru
 
 Le Saumon solécaille préfère la lumière du jour, dans des eaux également connues pour le Lutjan nagenuit. Un après-midi qui déçoit le pêcheur de nuit peut fort bien convenir à cette prise.
 
-Le Saumon solécaille poché aide la santé à revenir régulièrement. Les deux prises font travailler le même bout d'eau pour des appétits différents à des heures différentes.
+Le Saumon solécaille poché aide à retrouver la santé peu à peu.
 
 ## 13758 Rouget cru
 
@@ -130,7 +130,7 @@ La Perche estivale est une prise saisonnière des côtes du sud. Un pêcheur qui
 
 La Perche fumée lui donne sa place au coin du feu. Le changement de saison peut atteindre la marmite même quand l'expédition est restée au même camp.
 
-## 13755 Calmar hivernal cru
+## 13755 Calmar hivernal
 
 Le Calmar hivernal remplace la Perche estivale dans la pêche côtière de saison. Un coin de pêche familier vaut qu'on y revienne quand l'année tourne.
 
@@ -140,7 +140,7 @@ Le Calmar grillé aiguise l'agilité. Les cuisiniers qui l'apprécient ont un in
 
 La baie des Tempêtes, en Azshara, est le lieu de pêche du Homard Pince-noire. Le nom de ces eaux donne une assez juste idée du pays qui entoure le rivage choisi par le pêcheur.
 
-Le Ragoût de homard récompense le voyage par un repas consistant. Les homards pesés à part donnent à ces mêmes eaux une autre raison de rester dans la mémoire d'un pêcheur.
+Le Ragoût de homard récompense le voyage par un repas consistant.
 
 ## 13893 Grand barracuda cru
 
@@ -158,13 +158,13 @@ Le Pain de saumon fait un beau repas de la prise ordinaire. Les spécimens plus 
 
 Le Bouche-noire huileux donne au pêcheur du travail pour l'alchimiste autant que pour le cuisinier. Ses bancs sont une vue prometteuse le long de la côte où l'on récolte.
 
-L'Huile de bouche-noire entre dans les breuvages de nage et le Breuvage de respiration aquatique. La prise peut aider un autre voyageur à rester un peu plus longtemps dans l'eau d'où elle vient.
+L'Huile de bouche-noire entre dans les breuvages de nage et l'Elixir de Respiration aquatique. La prise peut aider un autre voyageur à rester un peu plus longtemps dans l'eau d'où elle vient.
 
 ## 6359 Lutjan de nagefeu
 
 Le Lutjan de nagefeu se recherche pour son huile plutôt que pour le repas du soir. Ses bancs et les nappes huileuses de la côte méritent l'attention du pêcheur.
 
-L'Huile de feu sert à la fois la Potion de protection contre le Feu et l'Élixir de puissance du feu. L'alchimiste décide si la prise aidera quelqu'un à résister à la flamme ou à la manier.
+L'Huile de feu sert à la fois la Potion de protection contre le Feu et l'Elixir de Maîtrise du feu. L'alchimiste décide si la prise aidera quelqu'un à résister à la flamme ou à la manier.
 
 ## 13422 Anguille pierre-écaille
 
@@ -178,11 +178,11 @@ L'Anguille électrique apparaît dans les eaux intérieures plus sauvages, avec 
 
 Elle n'a aucune place familière dans les préparations du cuisinier ou de l'alchimiste. Un carnet de terrain peut quand même faire de la place à un poisson sans d'abord lui trouver un usage.
 
-## 13890 Poisson cuirassé cru
+## 13890 Poisson cuirassé
 
 Le Poisson cuirassé est un trophée moins familier, tiré des eaux qui donnent aussi le Saumon Blanchécaille.
 
-Le cuisinier n'a pas de préparation habituelle pour lui. Sa place dans la pêche vaut tout de même d'être consignée. Un panier de pêche contient plus que les ingrédients d'une liste de courses.
+Le cuisinier ne lui connaît aucune préparation habituelle. Sa place dans la pêche vaut tout de même d'être consignée.
 
 ## 6522 Poisson déviant
 
@@ -194,19 +194,19 @@ Cru, ses effets sont imprévisibles. Le Délice de déviant peut déguiser le co
 
 Le Poisson-lune se cherche dans le lac Placide, à Comté-du-Lac.
 
-Le chef des docks Baren en achète une pêche de dix. Une ligne lancée dans les eaux de la ville peut rapporter un peu d'argent en plus d'un moment tranquille au bord du lac.
+Le chef des docks Baren en achète dix.
 
 ## 6717 Rouage électrique
 
 Les rouages électriques sont des outils perdus, pas des poissons : Wizbang Cranktoggle en a fait tomber une caisse par-dessus bord pendant son voyage vers Auberdine.
 
-Il lui en faut huit pour régler ses mécanismes. Une ligne lancée dans la mer peut fournir les débuts d'une autre invention, même si c'est la boisson de l'inventeur qui a fourni les outils à la mer.
+Il lui en faut huit pour régler ses mécanismes.
 
 ## 6718 Electropeller
 
 Les électropellers sont des pièces des machines de Wizbang Cranktoggle, perdues dans les eaux intérieures de Sombrivage lors d'une sortie malheureuse avec un leurre de canard explosif.
 
-Il en veut douze pour que ses recherches puissent continuer. Le leurre de canard explique bien mieux que la pêche les cheveux roussis de son récit.
+Il en veut douze pour que ses recherches puissent continuer.
 
 ## 16967 Ahi de Feralas
 
@@ -224,7 +224,7 @@ Nat Pagle le compte parmi ses quatre prises d'épreuve. Rejoindre la mer à trav
 
 Le Frappeur Sar'theris emmène l'élève de Nat Pagle sur la côte de Désolace.
 
-C'est l'une des quatre prises de son épreuve. Le rivage change de l'intérieur gris, même si le voyage reste considérable pour un seul poisson.
+C'est l'une des quatre prises de son épreuve.
 
 ## 16969 Sailfin bleu de la Côte sauvage
 
@@ -236,13 +236,13 @@ Pour l'élève qui a déjà visité ses autres lieux de pêche, le nom annonce u
 
 Les gros poissons-chats se pèsent un par un, de dix-sept livres jusqu'à la rare prise de trente-deux livres.
 
-Ils partagent les eaux du Poisson-chat moustachu. Un coin de pêche ordinaire peut ajouter quelque chose d'extraordinaire au récit d'une soirée.
+Ils partagent les eaux du Poisson-chat moustachu.
 
 ## 6292 Lutjan
 
 Des lutjans de dix, douze et quinze livres se pêchent aux côtés du Lutjan à longue mâchoire.
 
-Les eaux familières du pays natal ont encore de la place pour une surprise. Un pêcheur n'a pas besoin d'atteindre une côte lointaine pour rapporter quelque chose qui vaille d'être pesé.
+Les eaux familières du pays natal ont encore de la place pour une surprise.
 
 ## 13885 Rouget
 
@@ -250,11 +250,11 @@ Les rougets lourds vont de trente-quatre à cinquante-deux livres, dans les mêm
 
 Le carnet devient ici particulièrement utile. Un poids précis est une petite défense contre le soupçon raisonnable que l'histoire a grandi sur le chemin du retour.
 
-## 13876 Jaune-queue
+## 13876 Mérou
 
-Ces jaune-queues pèsent de quarante à soixante-huit livres et viennent des côtes de Tanaris et d'Azshara.
+Ces mérous pèsent de quarante à soixante-huit livres et viennent des côtes de Tanaris et d'Azshara.
 
-Pour une fois, le poids seul fait l'essentiel du travail de description d'une prise. La part du pêcheur dans le récit, c'est de l'avoir sorti de la mer.
+Pour une fois, le poids seul fait l'essentiel du travail de description d'une prise. La part du pêcheur dans le récit, c'est de l'avoir sortie de la mer.
 
 ## 13901 Saumon
 

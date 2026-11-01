@@ -1,22 +1,22 @@
 ---
 sources:
-  - 2934 84a2d69ba8ac
-  - 2318 f27a1ea37cac
-  - 2319 16093147ae6e
+  - 2934 ea189b6a6801
+  - 2318 4f92aafa584f
+  - 2319 8a951b940b2d
   - 4234 a0e8f533752f
   - 4304 f79761c2c2d5
-  - 8170 5e861cdc39e8
+  - 8170 011f5fea34f6
   - 15417 6755e0fae404
   - 15419 32341cd0b7bc
   - 15422 1e74cd779f41
   - 15423 3876115cad71
-  - 17012 ebb41ba365bc
+  - 17012 6ed10d676e80
   - 19767 7bf568434a51
-  - 19768 96ad61f76d97
-  - 783 41e804b54d1b
+  - 19768 c2132b961674
+  - 783 f15d33f7c10c
   - 4232 ab35198d8670
   - 4235 3a084bc61f15
-  - 8169 0b7d70198c8b
+  - 8169 caa4c6d96bb1
   - 8171 4dd3cbb88139
   - 249427 8909af082dae
   - 249428 cda782243da2
@@ -25,19 +25,19 @@ sources:
 
 Les Lanières de cuir déchirées sont de petits morceaux tirés du travail d'un dépeceur, trop abîmés pour servir seuls de Cuir léger.
 
-Les travailleurs du cuir peuvent les assembler pour obtenir du Cuir léger utilisable. Un début en lambeaux n'est pas forcément perdu, même si la pièce achevée en dit moins sur les difficultés rencontrées que le tas d'origine.
+Les travailleurs du cuir peuvent les assembler pour obtenir du Cuir léger utilisable.
 
 ## 2318 Cuir léger
 
 Le Cuir léger fournit vêtements et armures de tous les jours. Veren Tallstrider travaille ces peaux pour les habitants de Thunder Bluff et propose le patron d'un Sac en peau de kodo en échange de matériaux.
 
-Les vêtements cousus main et les Renforts d'armure légers l'emploient aussi. Les premiers travaux d'un dépeceur peuvent équiper un voisin aussi bien qu'une expédition.
+Les vêtements cousus main et les Renforts d'armure légers l'emploient aussi.
 
 ## 2319 Cuir moyen
 
 Le Cuir moyen se trouve lors des chasses dans les Tarides, à Hautebrande et dans d'autres régions au-delà des premiers villages.
 
-Il fournit les vêtements en cuir noir et les Renforts d'armure moyens. Les forgerons l'emploient aussi dans des armes en bronze, donnant au dépeceur un intérêt pour le travail de la forge.
+Il fournit les vêtements en cuir noir et les Renforts d'armure moyens. Les forgerons l'emploient aussi dans des armes en bronze.
 
 ## 4234 Cuir lourd
 
@@ -55,7 +55,7 @@ Il sert aussi aux armes et aux armures en mithril. Les bêtes de Feralas et des 
 
 Le Cuir robuste peut habiller autre chose qu'un voyageur en armure. Knot Thimblejack l'emploie dans la tenue d'ogre qu'il fabrique pour les visiteurs de Hache-tripes. Le déguisement convainc le Capitaine Kromcrush, mais ne tient pas longtemps.
 
-Le cuir fournit aussi des vêtements runiques et l'armure impériale en plaques. La plupart de ces clients préfèrent que leur équipement dure plus longtemps que la première impression d'un ogre.
+Le cuir fournit aussi des vêtements runiques et l'armure impériale en plaques.
 
 ## 15417 Cuir de diablosaure
 
@@ -83,9 +83,9 @@ Il entre dans les gants, bottes, jambières et gilets chimériques. Le livre de 
 
 ## 17012 Cuir du Magma
 
-Les chiens du Magma du Cœur du Magma donnent du Cuir du Magma. C'est un travail de dépeceur pour une expédition bien préparée.
+Dans le Cœur du Magma, les chiens du Magma donnent du Cuir du Magma. C'est un travail de dépeceur pour une expédition bien préparée.
 
-Il fournit les Bottes du Magma, le Casque de la fournaise et les Renforts d'armure du Magma. Des entrées si bien rangées dans un livre de patrons donnent une faible idée de l'animal concerné.
+Il fournit les Bottes du Magma, le Casque de la fournaise et les Renforts d'armure du Magma.
 
 ## 19767 Cuir de chauve-souris primordiale
 
@@ -97,13 +97,13 @@ Il entre dans le pourpoint, les gants et les brassards en peau de chauve-souris 
 
 Les félins zuliens de Zul'Gurub donnent du Cuir de tigre primordial. Même les plus petites rencontres félines de l'expédition méritent un relevé attentif.
 
-Les travailleurs du cuir l'emploient dans la Cuirasse du tigre-sang et les Epaulières du tigre-sang. Les bêtes prêtent leur nom à une seconde série de manteaux.
+Les travailleurs du cuir l'emploient dans la Cuirasse du tigre-sang et les Epaulières du tigre-sang.
 
 ## 783 Peau légère
 
 Une Peau légère est une matière brute qui attend encore d'être traitée, distincte du Cuir léger tiré de la même chasse. Les travailleurs du cuir la préparent avec du sel avant de l'employer dans des ouvrages plus soignés.
 
-La peau traitée entre dans les Gants élégants en cuir et le Pantalon en cuir estampé. Un peu de préparation sépare la chasse de la couture.
+La peau traitée entre dans les Gants élégants en cuir et le Pantalon en cuir estampé.
 
 ## 4232 Peau moyenne
 
@@ -121,7 +121,7 @@ Une fois traitée, elle fournit entre autres l'Armure de gardien et les Epauliè
 
 Les Peaux épaisses se préparent avec du Sel de Fonderoc avant d'être employées. Ce traitement est une autre tâche que le tri du Cuir épais récolté lors de la même chasse.
 
-Les peaux traitées fournissent les vêtements en cuir sauvage et le Casque tête-de-loup. La ressemblance avec une autre créature est l'oeuvre de l'artisan.
+Les peaux traitées fournissent les vêtements en cuir sauvage et le Casque tête-de-loup. Le casque porte le nom d'un loup, quelle que soit la peau dont il est fait.
 
 ## 8171 Peau robuste
 

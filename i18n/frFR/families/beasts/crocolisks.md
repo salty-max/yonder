@@ -1,5 +1,5 @@
 ---
-source: 54d8b5044942
+source: d21643e7641a
 id: crocolisks
 title: Crocilisques
 ---
@@ -7,4 +7,4 @@ Les crocilisques sont des créatures anciennes, aux longues mâchoires et à l'a
 
 Un crocilisque sur la berge a l'air endormi. Il ne l'est pas. Il peut couvrir la distance qui le sépare d'un voyageur imprudent plus vite qu'il ne semble convenable pour une bête aussi lourde.
 
-Leur peau fait un beau cuir, et leur viande est meilleure qu'elle n'a le droit de l'être. Ni l'une ni l'autre ne vaut qu'on y laisse une jambe.
+Leur peau fait un beau cuir et leur viande est bonne à manger, mais un crocilisque ne cède ni l'une ni l'autre sans se battre.

@@ -7,4 +7,4 @@ Les ruches silithides changent la forme des déserts du sud. Des monticules s'é
 
 Les Qiraji d'Ahn'Qiraj commandent ces essaims. Il y a mille ans, la guerre des Sables changeants s'est achevée avec leurs armées scellées derrière le mur du Scarabée par les elfes de la nuit et les dragons.
 
-Les ruches au-delà de ce mur font de la vieille guerre une affaire actuelle. Un monticule bas à l'horizon peut signaler une revendication bien plus vaste sous le sable.
+Les ruches au-delà de ce mur font de la vieille guerre une préoccupation d'aujourd'hui. Un monticule bas à l'horizon peut signaler une emprise bien plus vaste sous le sable.

@@ -1,5 +1,5 @@
 ---
-source: 20cf66634ef2
+source: ad9448638754
 id: tallstriders
 title: Hauts-trotteurs
 ---
@@ -7,4 +7,4 @@ Les hauts-trotteurs sont des oiseaux des plaines, haut perchés sur leurs pattes
 
 Les taurens les chassent pour leur viande et leurs plumes, avec les remerciements que la Terre-Mère leur demande. Les elfes de la nuit de Sombrivage et de Gangrebois connaissent un cousin forestier, le trotteur des forêts.
 
-Leurs œufs sont très recherchés. Leurs mères le savent.
+Leurs œufs sont très recherchés, et leurs mères les gardent de près.

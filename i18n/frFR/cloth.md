@@ -33,7 +33,7 @@ Elle fournit également des bandages, et le tissu entre dans les Epaulières de 
 
 ## 14047 Etoffe runique
 
-Les Grumegueules apprécient le toucher de l'étoffe runique. Le peuple de Meilosh s'y est intéressé après la visite d'une amie elfe de la nuit qui en portait une cape. Une bonne étoffe peut parfois se charger des présentations.
+Les Grumegueules apprécient le toucher de l'étoffe runique. Le peuple de Meilosh s'y est intéressé après la visite d'un elfe de la nuit vêtu d'une cape taillée dans cette étoffe. Une bonne étoffe peut parfois se charger des présentations.
 
 Elle sert à la couture, aux vêtements en cuir runique et aux bandages. L'étoffe runique double aussi le caparaçon du destrier d'un paladin, sous les plaques d'arcanite.
 
