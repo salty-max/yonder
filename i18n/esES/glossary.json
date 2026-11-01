@@ -2831,6 +2831,11 @@
    "classic": "Antigua Forjaz",
    "use": "Antigua Forjaz"
   },
+  "Old Town": {
+   "classic": "Casco Antiguo",
+   "forever": "Casco Antiguo",
+   "use": "Casco Antiguo"
+  },
   "Orgrimmar": {
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
@@ -2983,6 +2988,11 @@
    "classic": "Aldea Rut'theran",
    "forever": "Aldea Rut'theran",
    "use": "Aldea Rut'theran"
+  },
+  "SI:7": {
+   "classic": "IS:8",
+   "forever": "IS:8",
+   "use": "IS:8"
   },
   "Sardor Isle": {
    "classic": "Isla de Sardor",

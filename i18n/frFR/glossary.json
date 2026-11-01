@@ -2709,6 +2709,11 @@
    "classic": "Vieil Ironforge",
    "use": "Vieil Ironforge"
   },
+  "Old Town": {
+   "classic": "Vieille ville",
+   "forever": "Vieille ville",
+   "use": "Vieille ville"
+  },
   "Orgrimmar": {
    "classic": "Orgrimmar",
    "forever": "Orgrimmar",
@@ -2861,6 +2866,11 @@
    "classic": "Rut'theran",
    "forever": "Rut'theran",
    "use": "Rut'theran"
+  },
+  "SI:7": {
+   "classic": "SI:7",
+   "forever": "SI:7",
+   "use": "SI:7"
   },
   "Sardor Isle": {
    "classic": "Ile de Sardor",

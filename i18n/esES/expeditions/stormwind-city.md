@@ -35,7 +35,7 @@ En algún lugar de la ciudad, un alumno agradecido alzó un monumento
 a un sanador, maestro y amigo que creía deber del sanador
 librar a enfermos y agotados hasta de su último mal.
 La placa llama extraordinario a uno de sus talentos. Hónralo con él.
-? Busca entre los sanadores de la ciudad. La placa llama extraordinario a uno de sus talentos. Honra ese talento con un baile.
+? En el Casco Antiguo, en una pared cerca de la casa del IS:8. La placa llama extraordinario a uno de sus talentos. Honra ese talento con un baile.
 = "En memoria de mi querido mentor, Horatio M. Montgomery, doctor en Medicina. Sanador, maestro, amigo".
 + "El mundo está lleno de enfermos y agotados. Es nuestro deber como sanadores, qué digo, como hombres y mujeres de medicina, librarlos de TODAS sus dolencias". H. M. M., doctor en Medicina, Filosofía y Derecho, gran maestro granjero, bailarín extraordinario y amigo de los animales.
 ! Tranquilo

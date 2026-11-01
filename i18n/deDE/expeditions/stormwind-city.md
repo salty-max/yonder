@@ -35,7 +35,7 @@ Irgendwo in der Stadt hat ein dankbarer Schüler ein Denkmal errichtet
 für einen Heiler, Lehrer und Freund, der glaubte, es sei die Pflicht eines Heilers,
 die Kranken und Erschöpften von jedem letzten Leiden zu reinigen.
 Seine Tafel nennt eines seiner Talente 'extraordinaire'. Ehre ihn damit.
-? Such bei den Heilern der Stadt. Die Tafel nennt eines seiner Talente 'extraordinaire'. Ehre dieses Talent mit einem Tanz.
+? In der Altstadt, an einer Wand nahe dem Haus des SI:7. Die Tafel nennt eines seiner Talente 'extraordinaire'. Ehre dieses Talent mit einem Tanz.
 = 'Im Andenken an meinen teuren Mentor, Horatio M. Montgomery, promovierter Heiler, Lehrer, Freund.'
 + "Es gibt sehr viele Kranke und Müde auf der Welt. Unsere Aufgabe als Heiler, NEE, als Männer und Frauen der Medizin, ist es, sie alle von der 'itis' zu heilen." - Prof. Dr. Dr. h. c. Großmeisterbauer, Tänzer extraordinaire, Freund der Tiere.
 ! Ruhig
