@@ -6,7 +6,7 @@ zone: 1425
 À l'ouest du gîte des elfes, un ravin monte hors des collines vertes,
 et il y flotte une brume qui ne leur appartient pas :
 l'air du pays mort y descend depuis le nord.
-Montez dedans, et son goût vous prendra à la gorge.
+Remontez-le, et son goût vous prendra à la gorge.
 ? Le ravin de Pestebrume, au nord-ouest du gîte de Quel'Danil. L'air de ce ravin a de quoi faire tousser.
 = Le ravin de Pestebrume : une sortie des Hinterlands, vers le nord, Caer Darrow et les Maleterres de l'ouest, avec la brume de la peste dedans.
 + Rien n'y vit et rien n'y attend. Ce n'est qu'une route, et la brume.
@@ -27,7 +27,7 @@ Aucune n'est faite pour des yeux éveillés : fermez les vôtres.
 ## the-hinterlands-revantusk
 Dans le village des trolls sur les falaises de l'est, trois tambours battent la mesure,
 et ne s'arrêtent pour personne.
-Montrez-leur à quoi servent leurs tambours.
+Faites-leur voir à quoi servent leurs tambours.
 ? Le village des Revantusk, parmi ses huttes. Dansez au rythme d'un tambour.
 = Les tambours Revantusk, au nombre de trois, qui battent la mesure du village.
 + Le village garde un œil sur les Vilebranch de Jintha'Alor, en haut de la colline. Les tambours sont le seul bruit qu'il fait exprès.

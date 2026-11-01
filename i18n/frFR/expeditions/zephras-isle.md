@@ -26,7 +26,7 @@ Offrez-leur un public.
 ## zephras-isle-zendraas
 Dans le sanctuaire même du culte, parmi les robes grises et les crânes rasés,
 l'un des fidèles ne lèvera pas la main contre vous.
-Il sait ce que le reste de l'île pense de cette robe.
+Il sait ce que le reste de l'île dit de cette robe.
 Laissez-le voir que vous partagez la désapprobation de l'île.
 ? Le sanctuaire d'Akir, au cœur de l'île. Froncez les sourcils devant le cultiste qui vous laisse en paix.
 = Frère Zendraas, du village de Falaath. Quand le culte s'est installé, il s'est rasé la tête, a enfilé les robes grises et a dit les mots qu'on voulait entendre. Aujourd'hui il fait profil bas, et survit.

@@ -14,7 +14,7 @@ Les affaires sont les affaires. Trouvez le vendeur.
 
 ## stonetalon-mountains-sun-rock
 Dans la retraite de la Horde au milieu des montagnes de pierre, un enchanteur enseigne,
-et il vaut n'importe qui au monde, sauf une.
+et il égale n'importe qui au monde, sauf une.
 Ceux à qui il a appris tout ce qu'il sait, il les envoie auprès d'elle. Demandez-lui qui elle est.
 ? La retraite de Roche-Soleil. Parlez au maître des enchanteurs de celle qui l'a formé.
 = Hgarth, enchanteur de rang artisan, à la retraite de Roche-Soleil : "Il n'existe qu'une personne dont les compétences dépassent les miennes. Son nom est Annora, et vous la trouverez à Uldaman."
@@ -25,7 +25,7 @@ Ceux à qui il a appris tout ce qu'il sait, il les envoie auprès d'elle. Demand
 Sur le sentier infesté d'araignées qui descend en lacets des montagnes de pierre,
 un arbre abattu, scié net, gît face à un petit camp, de l'autre côté de la route.
 Sa coupe a deux nœuds pour yeux, et, en dessous, les cernes du bois remontent aux commissures.
-Montrez-lui le même visage.
+Tournez vers lui le même visage.
 ? Le Sentier des Tisseuses, en face du petit camp de l'Alliance, à mi-chemin de la descente. Trouvez le tronc couché du côté ouest de la route et souriez à sa coupe.
 = Le tronc souriant, sur le Sentier des Tisseuses : un arbre abattu des montagnes de pierre, dont la coupe porte deux nœuds pour yeux et un sourire dans les cernes du bois.
 + Ce n'est pas le seul. Les troncs que la KapitalRisk laisse à la Combe des Cisailles portent le même visage.

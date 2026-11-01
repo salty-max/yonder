@@ -25,6 +25,6 @@ Le félin a mérité la douceur que son maître apprend aux autres à montrer à
 ## quarry
 Dans le val balafré où le feu tomba jadis sur la forêt,
 un infernal brûle encore.
-Cherchez le démon nommé parmi les blessures de la forêt.
+Parmi les blessures de la forêt, cherchez le démon qui porte un nom.
 = Immolatus, un infernal d'élite du Val Grêlé.
 + Quand le feu le quitte, c'est de la pierre qui reste : de la Pierre morte surtout, parfois du sel des roches profondes ou un Noyau de terre.

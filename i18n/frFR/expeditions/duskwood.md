@@ -26,7 +26,7 @@ Honorez le poste, qui que ce soit qui le tienne.
 ## duskwood-unseen
 Le village sur la colline aux corbeaux a été laissé à ses morts,
 et la plupart de ses maisons sont vides, ou semblent l'être.
-Dans l'une d'elles, une maisonnée occupe les deux étages, cachée à l'œil nu.
+Dans l'une d'elles, une maisonnée occupe les deux étages, invisible à l'œil nu.
 Étudiez les pièces vides, et ne dérangez pas leurs occupants.
 ? Colline-aux-Corbeaux, à la lisière nord du village : une maison à deux étages, et personne dedans. À l'intérieur, scrutez les pièces vides.
 = Les Invisibles : des âmes en peine invisibles, d'une force bien au-delà de celle du bois de la Pénombre. Deux occupent cette maison. D'autres occupent le reste des maisons de Colline-aux-Corbeaux.

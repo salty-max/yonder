@@ -156,7 +156,7 @@ Le Pain de saumon fait un beau repas de la prise ordinaire. Les spécimens plus 
 
 ## 6358 Bouche-noire huileux
 
-Le Bouche-noire huileux donne au pêcheur du travail pour l'alchimiste autant que pour le cuisinier. Ses bancs sont une vue prometteuse le long de la côte où l'on récolte.
+Le Bouche-noire huileux donne au pêcheur du travail pour l'alchimiste autant que pour le cuisinier. Ses bancs sont un spectacle prometteur le long de la côte.
 
 L'Huile de bouche-noire entre dans les breuvages de nage et l'Elixir de Respiration aquatique. La prise peut aider un autre voyageur à rester un peu plus longtemps dans l'eau d'où elle vient.
 

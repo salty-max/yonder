@@ -16,7 +16,7 @@ Rendez-lui le respect que ses années lui ont valu.
 Dans le village que les Darkspear ont bâti sur la rive sud de Durotar,
 un alchimiste troll a eu tout son content d'aventure sur la route qui a mené son peuple ici.
 Désormais, il reste près de ses fioles et laisse les autres aller chercher les ennuis.
-Demandez-lui ce qu'il pense de l'aventure.
+Demandez-lui ce qu'il dit de l'aventure.
 ? Le Village de Sen'jin, sur la côte au sud de Tranchecolline. Parlez au troll qui enseigne l'alchimie.
 = Miao'zan, alchimiste du Village de Sen'jin : "Vous avez tout l'air de quelqu'un qui cherche l'aventure. Moi, j'en avais déjà assez à l'époque où les trolls sont arrivés. Aujourd'hui, je prends les jours comme ils viennent. Et j'entraîne les autres à courir l'aventure à ma place."
 + Le village porte le nom de Sen'jin, le père de Vol'jin, le chef des Darkspear qui ne vécut pas assez longtemps pour voir ce rivage.

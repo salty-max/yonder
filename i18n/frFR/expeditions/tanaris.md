@@ -73,6 +73,6 @@ Trouvez l'endroit où elle est ressortie, et n'en croyez pas vos yeux.
 ## quarry
 Les ogres du désert du sud tiennent trois camps parmi de vieilles ruines trolles.
 On peut trouver dans n'importe lequel un ogre à la grande hache.
-L'Egaré, l'appellent-ils. Il a bien assez de compagnie partout où il se montre.
+L'Egaré, l'appellent-ils. Il a bien assez de compagnie partout où il passe.
 = Omgorn l'Egaré, un ogre Cognedune, à la base des Cognedunes, aux ruines d'Estelune ou aux ruines de Sudelune.
 + Sa hache laisse des blessures qui résistent aux soins.

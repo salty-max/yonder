@@ -25,6 +25,6 @@ trouvez qui entretient les jardins de cette maison si secrète, et dites-lui com
 ## quarry
 Les lions des montagnes règnent sur les collines du sud d'Alterac.
 Parmi eux, une femelle solitaire porte un nom bien à elle.
-Cherchez des collines des yétis jusqu'au promontoire.
+Cherchez-la en descendant des collines des yétis vers le promontoire.
 = Araga, une lionne des montagnes qui rôde dans les collines du sud d'Alterac, de l'ouest de la grotte des yétis jusqu'au promontoire de Gavin.
 + Sa robe n'appartient qu'à elle : une crinière légère et une queue rayée, que ne porte aucun autre félin.

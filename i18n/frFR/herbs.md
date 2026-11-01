@@ -106,7 +106,7 @@ La Potion de soins supérieure et l'Elixir de Marche sur l'eau la réclament.
 
 ## 3818 Pâlerette
 
-La Pâlerette se cueille à travers les terres du milieu, avec des carrés à l'intérieur du Monastère écarlate et du Kraal de Tranchebauge aussi.
+La Pâlerette se cueille à travers les terres du centre, avec des carrés à l'intérieur du Monastère écarlate et du Kraal de Tranchebauge aussi.
 
 Les voleurs en préparent la Poudre aveuglante. Les alchimistes la mettent dans des potions pour devenir invisible et pour détecter l'invisible : la même herbe contribue aux deux camps d'une rencontre difficile.
 
@@ -214,6 +214,6 @@ Les grands flacons le réclament, dont ceux des Titans et du pouvoir suprême. L
 
 ## 19726 Vignesang
 
-La vignesang ne pousse nulle part où une carte puisse la montrer. Les herboristes ne la trouvent qu'à Zul'Gurub, cachée au cœur de la feuillerêve, de la soleillette, du lotus pourpre, du sansam doré et de la sauge-argent des montagnes de la cité troll, comme si l'endroit avait mêlé à ses propres plantes quelque chose de plus rouge.
+La Vignesang ne pousse nulle part où une carte puisse la montrer. Les herboristes ne la trouvent qu'à Zul'Gurub, cachée parmi les herbes de la cité troll, Feuillerêve, Soleillette, Lotus pourpre, Sansam doré et Sauge-argent des montagnes, comme si l'endroit avait mêlé à ses propres plantes quelque chose de plus rouge.
 
 L'artisanat des Zandalar repose sur elle : la cuirasse d'âmesang, le gilet, les jambières et les bottes en vignesang, le cuir du tigre-sang, les lunettes et la lentille en vignesang des ingénieurs. Les patrons du Cercle cénarien la réclament aussi, de l'Etreinte de Gaïa aux pièces en vignefer, et un sac en gangrétoffe du Magma en prend sa part. Qui la cueille à Zul'Gurub la garde rarement longtemps.

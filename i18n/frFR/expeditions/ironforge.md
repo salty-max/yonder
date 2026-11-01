@@ -4,7 +4,7 @@ zone: 1455
 ---
 ## ironforge-toothgnasher
 Les nains parlent encore d'un bélier de Khaz Modan,
-trop grand pour qu'aucun érudit l'explique et infatigable au-delà de toute raison.
+trop grand pour qu'aucun érudit puisse l'expliquer et infatigable au-delà de toute raison.
 Dans leur cité, sa réplique se dresse, os compris, à l'échelle.
 Passez dessous, et soyez aussi $gimpressionné:impressionnée; que les conteurs.
 ? Le hall des Explorateurs. Sous le squelette, une exclamation de surprise serait bien naturelle.

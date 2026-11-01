@@ -103,7 +103,7 @@ Une fois fondu, il est moins résistant que le fer. Sa couleur sombre fournit en
 
 ## 3340 Minerai d'incendicite
 
-L'incendicite se trouve dans une grotte au nord-ouest de la Porte d'Algaz, dans Les Paluns. Ce minerai instable se laisse difficilement travailler sans explosion.
+L'incendicite se trouve dans une grotte au nord-ouest de la Porte d'Algaz, dans les Paluns. Ce minerai instable se laisse difficilement travailler sans explosion.
 
 On envisage d'en faire des obus de canon, à condition de trouver d'abord une manière convenable de le fondre. Le projet laisse encore la partie la plus inconfortable à celui qui fera l'essai.
 
