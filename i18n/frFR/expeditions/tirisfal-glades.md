@@ -7,9 +7,9 @@ zone: 1420
 un gobelin encaisse les billets du côté mort de l'eau.
 Son frère parlait d'argent facile, et n'a jamais dit lequel d'entre eux vivrait ici.
 Il a une faveur à demander à qui passe par là. Donnez-lui votre parole.
-? La tour des zeppelins au nord des portes de Fossoyeuse : le gobelin qui envoie le dirigeable vers Durotar. Acquiescez à la demande du gobelin affamé.
-= Zapetta, le maître des zeppelins : "Mon frère disait qu'il y avait de l'argent à se faire avec cette route commerciale, mais il ne m'avait pas dit que ce serait moi qui vivrais de ce côté. Si vous revenez par ici en zeppelin, pouvez-vous m'apporter quelque chose à manger ?"
-+ Ce qu'il espère que vous lui rapporterez : "Ils vendent la meilleure des viandes à Orgrimmar. Pour une fois, j'aimerais bien manger quelque chose qui a eu le bon sens d'arrêter de bouger au moment de sa mort, et pas quelques semaines après..."
+? La tour des zeppelins au nord des portes de Fossoyeuse : le gobelin qui envoie le dirigeable vers Durotar. Acquiescez à la demande du gobelin affamé.
+= Zapetta, le maître des zeppelins : "Mon frère disait qu'il y avait de l'argent à se faire avec cette route commerciale, mais il ne m'avait pas dit que ce serait moi qui vivrais de ce côté. Si vous revenez par ici en zeppelin, pouvez-vous m'apporter quelque chose à manger ?"
++ Ce qu'il espère que vous lui rapporterez : "Ils vendent la meilleure des viandes à Orgrimmar. Pour une fois, j'aimerais bien manger quelque chose qui a eu le bon sens d'arrêter de bouger au moment de sa mort, et pas quelques semaines après..."
 ! Calme
 
 ## tirisfal-glades-hin-denburg
@@ -17,7 +17,7 @@ Il a une faveur à demander à qui passe par là. Donnez-lui votre parole.
 Demandez-lui si c'est sûr. Il a sa réponse toute prête,
 un mot sur le tram des gnomes en prime, et quelque chose à Strangleronce qu'il aimerait vous vendre.
 ? La tour des zeppelins à l'est de Brill. Parlez au maître des zeppelins dont le vaisseau va au Campement Grom'gol.
-= Hin Denburg, Maître des zeppelins : "Voici le mode de transport le plus efficace et le plus moderne qui soit. Quoi ? Le Tram des profondeurs ? Les gnomes ? Écoutez-moi bien : si vous croyez à ces âneries, j'ai une statue à vous vendre à Strangleronce."
+= Hin Denburg, Maître des zeppelins : "Voici le mode de transport le plus efficace et le plus moderne qui soit. Quoi ? Le Tram des profondeurs ? Les gnomes ? Écoutez-moi bien : si vous croyez à ces âneries, j'ai une statue à vous vendre à Strangleronce."
 + Son nom est celui d'un célèbre dirigeable d'un autre monde, dont on se souvient pour la façon dont il a brûlé.
 ! Calme
 
@@ -26,9 +26,9 @@ un mot sur le tram des gnomes en prime, et quelque chose à Strangleronce qu'il 
 Avant la peste, les gens des clairières venaient y pique-niquer,
 et les enfants trop jeunes pour le lac profond y apprenaient à nager.
 Seuls les morts et les affamés y viennent aujourd'hui. Souvenez-vous de ce qu'il était.
-? À l'ouest de Brill, à l'écart de la route du Glas : un étang gris, presque oublié. Laissez échapper un soupir pour ce que l'étang a perdu.
+? À l'ouest de Brill, à l'écart de la route du Glas : un étang gris, presque oublié. Laissez échapper un soupir pour ce que l'étang a perdu.
 = L'Etang immobile, jadis le coin de pique-nique des clairières. Des sombredogues chassent sur ses rives aujourd'hui.
-+ Le lac Etincelant, à l'est de Brill, était pour les plus grands : bien plus vaste, et bien plus profond.
++ Le lac Etincelant, à l'est de Brill, était pour les plus grands : bien plus vaste, et bien plus profond.
 ! Calme (des sombredogues, et Bayne, une créature rare, qui rôde tout près)
 @ Etang immobile
 
@@ -44,12 +44,12 @@ Prêtez-leur l'oreille.
 @ Jardins des murmures
 
 ## tirisfal-glades-terrace
-Au nord du monastère des croisés rouges, la peste n'est jamais venue :
+Au nord du monastère des croisés rouges, la peste n'est jamais venue :
 les haies y sont vertes, entretenues par la Croisade,
 et une fontaine y coule d'une eau fraîche, comme rien d'autre dans ces clairières.
 Goûtez ce que les vivants gardent pour eux.
-? Derrière le Monastère écarlate, sur ses terres du nord : un jardin qu'entretient la Croisade. Buvez près de la fontaine. Nul besoin de bouteille.
-= La Terrasse de la quiétude : l'un des très rares lieux du nord de Lordaeron que la peste n'a jamais atteints.
+? Derrière le Monastère écarlate, sur ses terres du nord : un jardin qu'entretient la Croisade. Buvez près de la fontaine. Nul besoin de bouteille.
+= La Terrasse de la quiétude : l'un des très rares lieux du nord de Lordaeron que la peste n'a jamais atteints.
 + Partout ailleurs à Tirisfal, l'eau croupit.
 ! Périlleux (les élites de la Croisade écarlate, niveaux 29 à 31)
 @ Terrasse de la quiétude
@@ -71,17 +71,17 @@ un voyageur se prépare à partir pour Âtreval. Il a entendu parler d'un grand 
 qui faisait des arcs et des fusils pour la Croisade, et d'une arme qu'il acheva avant qu'on le tue.
 Demandez-lui ce qu'il en sait.
 ? La Barricade, à la lisière est de Tirisfal. Parlez au voyageur qui prépare son départ.
-= Bardu Sharpeye, à la Barricade : un mage aurait fait à la Croisade une arme remarquable, a-t-il entendu dire, et la Croisade l'a tué pour ça.
-+ Au camp du Noroît, le camp de l'Alliance, un voyageur raconte la même histoire : "Peut-être l'ont-ils éliminé pour conserver un secret... ou peut-être haïssent-ils les arcanes..."
+= Bardu Sharpeye, à la Barricade : un mage aurait fait à la Croisade une arme remarquable, a-t-il entendu dire, et la Croisade l'a tué pour ça.
++ Au camp du Noroît, le camp de l'Alliance, un voyageur raconte la même histoire : "Peut-être l'ont-ils éliminé pour conserver un secret... ou peut-être haïssent-ils les arcanes..."
 ! Calme
 
 ## tirisfal-glades-party
-Juste après la crypte où s'éveillent les Réprouvés, quatre lunatiques sont encore à la fête :
+Juste après la crypte où s'éveillent les Réprouvés, quatre lunatiques sont encore à la fête :
 les tables sont renversées, les mets froids depuis longtemps, et personne ne leur a dit que c'était fini.
 Dans un autre monde, leurs noms, à peine autrement orthographiés, ont mis exactement ceci en musique.
 Joignez-vous à la fête.
-? À la lisière est du Glas, dans les Clairières de Tirisfal : les tables renversées sous les arbres. Dansez parmi les quatre convives lunatiques.
-= La fête des morts : Daniel Ulfman, Karrel Grayves, Samuel Fipps et Stephen Bhartec, lunatiques, autour de leur festin renversé.
+? À la lisière est du Glas, dans les Clairières de Tirisfal : les tables renversées sous les arbres. Dansez parmi les quatre convives lunatiques.
+= La fête des morts : Daniel Ulfman, Karrel Grayves, Samuel Fipps et Stephen Bhartec, lunatiques, autour de leur festin renversé.
 + Autrement orthographiés, les quatre appartiennent à un groupe d'un autre monde, dont la chanson la plus connue parle d'une fête de morts.
 ! Calme
 

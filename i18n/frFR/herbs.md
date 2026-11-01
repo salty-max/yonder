@@ -88,7 +88,7 @@ L'Elixir de Défense et l'Elixir de Robustesse l'emploient tous deux.
 
 ## 3369 Tombeline
 
-La Tombeline se cueille en des lieux où l'herboriste a peu de chances de se sentir tout à fait seul : le bois de la Pénombre, Désolace et le lieu de sépulture des Souilles de Tranchebauge, entre autres.
+La Tombeline se cueille en des lieux où l'herboriste a peu de chances de se sentir tout à fait seul : le bois de la Pénombre, Désolace et le lieu de sépulture des Souilles de Tranchebauge, entre autres.
 
 L'Huile des ténèbres et la Potion de protection contre l'Ombre la réclament.
 
@@ -108,7 +108,7 @@ La Potion de soins supérieure et l'Elixir de Marche sur l'eau la réclament.
 
 La Pâlerette se cueille à travers les terres du milieu, avec des carrés à l'intérieur du Monastère écarlate et du Kraal de Tranchebauge aussi.
 
-Les voleurs en préparent la Poudre aveuglante. Les alchimistes la mettent dans des potions pour devenir invisible et pour détecter l'invisible : la même herbe contribue aux deux camps d'une rencontre difficile.
+Les voleurs en préparent la Poudre aveuglante. Les alchimistes la mettent dans des potions pour devenir invisible et pour détecter l'invisible : la même herbe contribue aux deux camps d'une rencontre difficile.
 
 ## 3821 Dorépine
 
@@ -124,7 +124,7 @@ La Potion de mana supérieure et l'Elixir d'Intelligence supérieure l'emploient
 
 ## 3819 Hivernale
 
-L'Hivernale offre à l'herboriste un voyage bien particulier : dans la neige des montagnes d'Alterac. Une plante familière est une compagnie bienvenue dans un pays où l'on perd facilement les sentiers.
+L'Hivernale offre à l'herboriste un voyage bien particulier : dans la neige des montagnes d'Alterac. Une plante familière est une compagnie bienvenue dans un pays où l'on perd facilement les sentiers.
 
 L'Huile glaciale, la Potion de protection contre le Givre et l'Elixir de Puissance du givre la réclament tous.
 
@@ -190,7 +190,7 @@ Les potions de protection supérieures l'emploient contre le feu, le givre, la n
 
 ## 13465 Sauge-argent des montagnes
 
-La Sauge-argent des montagnes se cueille en deux lieux très différents : les neiges du Berceau-de-l'Hiver et le fond du cratère d'Un'Goro.
+La Sauge-argent des montagnes se cueille en deux lieux très différents : les neiges du Berceau-de-l'Hiver et le fond du cratère d'Un'Goro.
 
 Elle entre dans la Potion de soins majeure, et fait avec la Fleur de peste l'Elixir de la Mangouste.
 
@@ -216,4 +216,4 @@ Les grands flacons le réclament, dont ceux des Titans et du pouvoir suprême. L
 
 La vignesang ne pousse nulle part où une carte puisse la montrer. Les herboristes ne la trouvent qu'à Zul'Gurub, cachée au cœur de la feuillerêve, de la soleillette, du lotus pourpre, du sansam doré et de la sauge-argent des montagnes de la cité troll, comme si l'endroit avait mêlé à ses propres plantes quelque chose de plus rouge.
 
-L'artisanat des Zandalar repose sur elle : la cuirasse d'âmesang, le gilet, les jambières et les bottes en vignesang, le cuir du tigre-sang, les lunettes et la lentille en vignesang des ingénieurs. Les patrons du Cercle cénarien la réclament aussi, de l'Etreinte de Gaïa aux pièces en vignefer, et un sac en gangrétoffe du Magma en prend sa part. Qui la cueille à Zul'Gurub la garde rarement longtemps.
+L'artisanat des Zandalar repose sur elle : la cuirasse d'âmesang, le gilet, les jambières et les bottes en vignesang, le cuir du tigre-sang, les lunettes et la lentille en vignesang des ingénieurs. Les patrons du Cercle cénarien la réclament aussi, de l'Etreinte de Gaïa aux pièces en vignefer, et un sac en gangrétoffe du Magma en prend sa part. Qui la cueille à Zul'Gurub la garde rarement longtemps.

@@ -7,8 +7,8 @@ Dans la ville des druides au bord du lac sacré, une elfe et un tauren gardent d
 et emmènent gratuitement les voyageurs vers les capitales de leurs peuples.
 Demandez un vol à l'elfe, et écoutez ce qu'elle répond à la plupart de ceux qui demandent.
 ? Havrenuit, au bord du lac, là où attendent les bêtes volantes. Parlez à la maîtresse de vol elfe. Vous pouvez garder les pieds sur terre.
-= Silva Fil'naveth et Bunthen Plainswind, maîtres de vol de Havrenuit : "Vous n'êtes pas druide !"
-+ Ils ne transportent que les druides, et dans un seul sens : elle vers Rut'theran, lui vers Thunder Bluff, et chacun vous renvoie à l'autre pour l'autre route.
+= Silva Fil'naveth et Bunthen Plainswind, maîtres de vol de Havrenuit : "Vous n'êtes pas druide !"
++ Ils ne transportent que les druides, et dans un seul sens : elle vers Rut'theran, lui vers Thunder Bluff, et chacun vous renvoie à l'autre pour l'autre route.
 ! Calme
 
 ## moonglade-bear-spirit

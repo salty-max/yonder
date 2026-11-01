@@ -7,4 +7,4 @@ Arugal a fait venir les worgens dans la forêt des Pins argentés pour combattre
 
 Les Plaie-de-nuit du bois de la Pénombre relèvent d'un autre récit troublé, mêlé à la Faux d'Elune et à l'appel décrit par Velinde Starsong. Leur présence ne s'explique pas simplement en montrant du doigt la tour d'Arugal.
 
-Les deux lieux montrent la même terrible silhouette entre les arbres : une tête de loup au-dessus d'un corps dressé. Les histoires qui se cachent derrière doivent être suivies séparément.
+Les deux lieux montrent la même terrible silhouette entre les arbres : une tête de loup au-dessus d'un corps dressé. Les histoires qui se cachent derrière doivent être suivies séparément.

@@ -15,22 +15,22 @@ Trouvez la chambre, et rendez à celui qui a survécu à sa propre chair ce que 
 
 ## badlands-apocryphans-rest
 Au sud de la palissade de la Horde, sur les falaises de l'ouest,
-est mort quelque chose de plus grand qu'un donjon, et il gît là où il est tombé :
+est mort quelque chose de plus grand qu'un donjon, et il gît là où il est tombé :
 une cage de côtes que les vautours ont depuis longtemps nettoyée.
 Il a un nom sur les cartes, et rien de plus. Marchez parmi ses os, et émerveillez-vous de leur taille.
 ? Au sud de Kargath, du côté ouest des Terres ingrates. Au milieu des os, regardez comme ils sont grands.
-= Le repos d'Apocryphan : le squelette d'un dragon, au sud de Kargath. À qui étaient ces os, personne dans les Terres ingrates ne le dit.
+= Le repos d'Apocryphan : le squelette d'un dragon, au sud de Kargath. À qui étaient ces os, personne dans les Terres ingrates ne le dit.
 + Le vol draconique noir garde toujours un ravin à lui, à l'extrême est de l'étendue.
 ! Gardé (busards géants, coyotes et traqueurs des crêtes, niveaux 39 et 40)
 @ Repos d'Apocryphan
 
 ## badlands-funeral-ground
-Au sud du bastion de la Horde dans les terres rouges, une corniche au-dessus de la route garde les morts de la Horde :
+Au sud du bastion de la Horde dans les terres rouges, une corniche au-dessus de la route garde les morts de la Horde :
 des taurens enveloppés pour le bûcher, des trolls sous leurs masques, des lames orques posées à leurs côtés.
 La plupart de ceux qui viennent ici arrivent sous forme d'esprits, cherchant le chemin du retour.
 Venez tant que vous respirez encore, et rendez-leur hommage.
 ? La corniche au sud de Kargath, au cimetière des Terres ingrates. Recueillez-vous parmi les bûchers.
-= Le champ funéraire au-dessus de la route : trois bûchers sur une corniche au sud de Kargath, des morts taurens et trolls enveloppés pour être brûlés, leurs armes et leurs offrandes déposées auprès d'eux.
+= Le champ funéraire au-dessus de la route : trois bûchers sur une corniche au sud de Kargath, des morts taurens et trolls enveloppés pour être brûlés, leurs armes et leurs offrandes déposées auprès d'eux.
 + Le Gardien des âmes, à la lisière du champ, relève ceux qui tombent dans les Terres ingrates. Ceux qui reposent sur les bûchers ne se relèveront plus.
 ! Calme
 @ Le champ funéraire au-dessus de la route

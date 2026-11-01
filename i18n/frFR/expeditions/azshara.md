@@ -9,7 +9,7 @@ Elle garde le nom d'un seigneur qui tint tête à la reine de cette côte
 et à ses démons, quand le monde fut brisé. Trouvez ce qu'il reste de lui, et honorez-le comme le ferait un soldat.
 ? Le colosse de Ravencrest, sur les falaises du sud d'Azshara. Saluez ce qu'il reste de la statue.
 = Le colosse de Ravencrest. Les nagas tiennent les ruines alentour.
-+ Le seigneur Kur'talos Ravencrest commanda la résistance des elfes de la nuit pendant la guerre des Anciens depuis le bastion du Freux : la cour de la reine n'était pas tout son peuple.
++ Le seigneur Kur'talos Ravencrest commanda la résistance des elfes de la nuit pendant la guerre des Anciens depuis le bastion du Freux : la cour de la reine n'était pas tout son peuple.
 ! Gardé (nagas)
 @ Colosse de Ravencrest
 
@@ -18,7 +18,7 @@ Au sud de l'ancien pays des elfes, des draconiens du vol bleu tiennent les rives
 loin du nord glacé auquel appartient leur espèce.
 À l'intérieur de leur cercle, le lac lui-même est calme. Trouvez un passage à travers eux, et rafraîchissez-vous à l'eau.
 ? Le lac Mennar, au sud d'Azshara. Asseyez-vous un moment au bord de l'eau.
-= Le lac Mennar : des draconiens bleus en tiennent les rives, plaiedécailles, tisse-magie et seigneurs-mages, loin du foyer de leur vol, dans le nord.
+= Le lac Mennar : des draconiens bleus en tiennent les rives, plaiedécailles, tisse-magie et seigneurs-mages, loin du foyer de leur vol, dans le nord.
 + Les grottes de Mazthoril, au Berceau-de-l'Hiver, sont un autre refuge du vol bleu hors de Norfendre.
 ! Périlleux (les draconiens bleus autour du lac, niveaux 50 à 53)
 @ Lac Mennar
@@ -29,7 +29,7 @@ les elfes de l'ancien empire ont laissé une tour, et l'ont fermée derrière eu
 Personne ne l'a ouverte depuis.
 Trouvez sa porte, et demandez-vous ce qu'elle renferme.
 ? La Tour d'Eldara, à la pointe nord-est d'Azshara, au-delà de la Baie des tempêtes. Devant la tour close, songez à ce qu'elle renferme.
-= La Tour d'Eldara : un vestige de la civilisation des elfes de la nuit qui couvrait autrefois presque tout Azshara, close et abandonnée à la pointe des terres.
+= La Tour d'Eldara : un vestige de la civilisation des elfes de la nuit qui couvrait autrefois presque tout Azshara, close et abandonnée à la pointe des terres.
 + Toute la contrée porte encore le nom de la reine qui régnait sur cette civilisation, et qui attira la Légion ardente dans le monde.
 ! Périlleux (fouilleurs makrinni, vandales des flots et guerriers de la baie des tempêtes, niveaux 51 à 53)
 
@@ -38,13 +38,13 @@ Dans le camp de la Horde au milieu des étendues sauvages des elfes, un orc se s
 campaient ici, seuls, avant qu'il y ait le moindre camp.
 Demandez-lui ce qu'il en pense aujourd'hui.
 ? Valormok, à l'ouest d'Azshara. Parlez à l'orc qui se souvient des débuts du camp.
-= Haggrum Bloodfist, à Valormok : "Je me souviens du temps où mon frère et moi campions seuls dans les étendues sauvages d'Azshara. Regardez-les maintenant."
+= Haggrum Bloodfist, à Valormok : "Je me souviens du temps où mon frère et moi campions seuls dans les étendues sauvages d'Azshara. Regardez-les maintenant."
 + Son frère, à en juger par le nom, est Ag'tor Bloodfist, qui a assez d'affaires pour occuper n'importe quel voyageur.
 ! Calme
 
 ## quarry
 Parmi les ruines d'un sanctuaire, au sud-ouest,
-un fantôme marche dans l'armure de la garde d'une reine :
+un fantôme marche dans l'armure de la garde d'une reine :
 le capitaine qui servait la reine dont cette terre porte le nom, il y a dix mille ans.
-= Le fantôme de Varo'then : ce qui reste du capitaine Varo'then, qui menait la garde de la reine Azshara pendant la guerre des Anciens.
+= Le fantôme de Varo'then : ce qui reste du capitaine Varo'then, qui menait la garde de la reine Azshara pendant la guerre des Anciens.
 + Plus à l'est, le colosse brisé de Ravencrest se souvient d'un commandant qui s'opposa à sa reine. Azshara garde les restes des deux camps de cette guerre.

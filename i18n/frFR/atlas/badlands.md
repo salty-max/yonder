@@ -6,4 +6,4 @@ La descente depuis le Loch Modan laisse brusquement derrière elle le pays vert.
 
 La forteresse d'Angor est un terrain Sombrefer. Des camps d'ogres occupent les collines du sud, et des draconiens noirs tiennent le ravin de Lethlor, à l'est. L'étendue découverte la plus nette n'est pas forcément la route la plus tranquille.
 
-Les chantiers de la Ligue fournissent plusieurs repères utiles, même si une tente et un tas de déblais se ressemblent beaucoup vus de la crête suivante. Dans ce pays, je lis la pierre d'après sa forme, non sa couleur : toutes les crêtes sont rouges.
+Les chantiers de la Ligue fournissent plusieurs repères utiles, même si une tente et un tas de déblais se ressemblent beaucoup vus de la crête suivante. Dans ce pays, je lis la pierre d'après sa forme, non sa couleur : toutes les crêtes sont rouges.

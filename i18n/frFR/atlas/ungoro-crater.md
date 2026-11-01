@@ -2,7 +2,7 @@
 source: c69774ef1f96
 zone: 1449
 ---
-Le chemin qui descend de Tanaris révèle Un'Goro d'un seul coup : une jungle dense autour de la crête de la Fournaise, les fosses de goudron et les sources chaudes trouant le vert. Le refuge des Marshal s'adosse au rebord nord. La route vers Silithus remonte au nord-ouest.
+Le chemin qui descend de Tanaris révèle Un'Goro d'un seul coup : une jungle dense autour de la crête de la Fournaise, les fosses de goudron et les sources chaudes trouant le vert. Le refuge des Marshal s'adosse au rebord nord. La route vers Silithus remonte au nord-ouest.
 
 Le volcan central est un excellent repère et un terrain difficile. Loin de lui, la voûte cache des raptors, des diablosaures et le territoire silithide de la Balafre sinueuse. Le cratère est plus facile à embrasser d'en haut qu'à traverser d'en bas.
 

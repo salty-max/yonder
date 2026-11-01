@@ -7,7 +7,7 @@ Les elfes de ce récit répondirent par une tempête à l'interdiction de la mag
 Trouvez la page, dans le port des gobelins, qui raconte ce qu'il advint d'eux.
 Leur châtiment fut le début d'un voyage.
 ? Cabestan, sur la côte des Tarides. Ouvrez le livre sur les elfes exilés.
-= L'exil des hauts-elfes, à Cabestan. Bannis pour avoir refusé de renoncer à la magie des arcanes, les Bien-nés partirent vers l'est et fondèrent Quel'thalas. Les gobelins gardent leur histoire. Elle n'est pas à vendre.
+= L'exil des hauts-elfes, à Cabestan. Bannis pour avoir refusé de renoncer à la magie des arcanes, les Bien-nés partirent vers l'est et fondèrent Quel'Thalas. Les gobelins gardent leur histoire. Elle n'est pas à vendre.
 + Dath'Remar traitait les druides de lâches. "Les druides, incapables de se résoudre à tuer tant des leurs, décidèrent d'ostraciser les Bien-nés."
 ! Calme
 
@@ -23,11 +23,11 @@ Attrapez le colporteur sur la route.
 
 ## the-barrens-tidus-stair
 Au sud du port des gobelins, de grandes marches de pierre ancienne sortent de la mer,
-ou y descendent : les vagues les couvrent toutes sauf les plus hautes.
+ou y descendent : les vagues les couvrent toutes sauf les plus hautes.
 Deux taurens y pêchent, comme si cela n'avait rien d'étrange.
 Tenez-vous sur l'escalier, et tâchez de voir où il mène.
 ? Au sud-est de Cabestan, sur la côte. Depuis l'escalier, scrutez l'eau en contrebas.
-= L'Escalier des marées : un escalier de géant en pierre ancienne, qui descend de la plage sous les vagues.
+= L'Escalier des marées : un escalier de géant en pierre ancienne, qui descend de la plage sous les vagues.
 + Certains disent qu'il mène à une cité kaldorei que la mer engloutit quand le Puits d'éternité fut détruit. Ceux qui ont plongé aussi profond qu'ils le pouvaient n'ont trouvé que d'autres marches.
 ! Calme sur les marches, eau profonde en contrebas
 @ L'Escalier des marées
@@ -37,7 +37,7 @@ Au rempart de la route du nord, où la Horde surveille la forêt des elfes,
 une mère tient sa maison au milieu du camp de guerre,
 et son petit garçon joue devant sa porte. Soyez $gamical:amicale;.
 ? Le Rempart de Mor'shan, à la lisière nord des Tarides. Saluez l'enfant d'un signe de la main.
-= Pooka et son fils Mogg, au Rempart de Mor'shan : une famille, dans un camp de guerre.
+= Pooka et son fils Mogg, au Rempart de Mor'shan : une famille, dans un camp de guerre.
 + Du père du garçon, le rempart ne dit rien.
 ! Calme pour la Horde, les gardes du rempart pour l'Alliance
 
@@ -57,7 +57,7 @@ et les aventuriers grimpent dans l'une de ses orbites pour y recevoir du travail
 À côté de ceux qui distribuent ce travail, un artisan du cuir a ses propres conseils.
 Demandez-lui à quoi servent les grottes.
 ? L'Oasis luxuriante, au grand crâne des Cavernes des lamentations. Dans l'orbite où l'on confie les tâches des grottes, parlez plutôt à l'artisan du cuir.
-= Waldor, artisan du cuir dans l'orbite du crâne : "Les cavernes en dessous de nous offrent de nombreuses et merveilleuses cachettes, mais vous devez faire attention si vous vous aventurez dans leurs profondeurs. Souvenez-vous que votre propre peau a beaucoup plus de valeur."
+= Waldor, artisan du cuir dans l'orbite du crâne : "Les cavernes en dessous de nous offrent de nombreuses et merveilleuses cachettes, mais vous devez faire attention si vous vous aventurez dans leurs profondeurs. Souvenez-vous que votre propre peau a beaucoup plus de valeur."
 + Ceux dont le talent dépasse le sien, il les envoie à Krulmoo Fullmoon, au Camp Taurajo.
 ! Gardé (rampants et embobineurs déviants d'élite, niveaux 15 et 16, à l'entrée des cavernes)
 
@@ -67,8 +67,8 @@ et quelque chose de petit et de furieux le suit toujours de près.
 Il a appris une chose sur les abeilles à ses dépens, et il la crie à qui veut l'entendre.
 Rattrapez-le si vous pouvez.
 ? La Ferme de Grol'dom, au nord de la Croisée. Le garçon fait le tour de la ferme, les abeilles à ses trousses. Rattrapez-le et ciblez-le.
-= Trok, de la Ferme de Grol'dom, et l'essaim dont il ne se défait pas : "Au secours ! Je suis poursuivi par un essaim d'abeilles !" Et, entre deux souffles : "Je ne savais pas que les abeilles avaient peur du feu !"
-+ Il appelle à l'aide Karu, qui court sur la même ferme : "Karu, tu peux m'aider à me débarrasser de ces abeilles ? Elles piquent !"
+= Trok, de la Ferme de Grol'dom, et l'essaim dont il ne se défait pas : "Au secours ! Je suis poursuivi par un essaim d'abeilles !" Et, entre deux souffles : "Je ne savais pas que les abeilles avaient peur du feu !"
++ Il appelle à l'aide Karu, qui court sur la même ferme : "Karu, tu peux m'aider à me débarrasser de ces abeilles ? Elles piquent !"
 ! Calme
 
 ## the-barrens-fallen-warrior

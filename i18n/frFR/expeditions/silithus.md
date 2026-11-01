@@ -18,8 +18,8 @@ Devant une ruche du désert jaune, un sergent monte la garde parmi des nains,
 et il a deux mots à dire sur la promotion qui l'a mis là.
 Écoutez-le jusqu'au bout, et soyez $ggentil:gentille;.
 ? Devant la Ruche'Zora, à l'ouest de Silithus. Félicitez le sergent pour sa promotion. Il faut bien que quelqu'un le fasse.
-= Le sergent Carnes : "Vous avez fait un boulot splendide pendant la collecte des ressources", qu'ils ont dit. "Voilà une promotion", qu'ils ont dit.
-+ "En réalité, ça voulait dire : Carnes, mon brave Carnes, vous allez être cantonné en Silithus, devant un nid à cafards, en compagnie d'une bande de nains moites. Merci pour cette promotion, capitaine !"
+= Le sergent Carnes : "Vous avez fait un boulot splendide pendant la collecte des ressources", qu'ils ont dit. "Voilà une promotion", qu'ils ont dit.
++ "En réalité, ça voulait dire : Carnes, mon brave Carnes, vous allez être cantonné en Silithus, devant un nid à cafards, en compagnie d'une bande de nains moites. Merci pour cette promotion, capitaine !"
 ! Périlleux (les silithides de la Ruche'Zora)
 
 ## silithus-raloshan
@@ -27,7 +27,7 @@ Sur une hauteur au nord-est du désert se tient une femme qui dit qu'elle était
 quand les insectes sortirent pour la première fois, il y a mille ans,
 et qu'elle ne peut pas partir. Demandez-lui comment elle le sait.
 ? Au nord-est de Silithus. Elle se tient seule. Parlez à la gardienne solitaire.
-= Ralo'shan, la Gardienne éternelle, une elfe de la nuit : "J'ai été tuée une centaine de fois. Mais je me réveille toujours ici, bien vivante."
+= Ralo'shan, la Gardienne éternelle, une elfe de la nuit : "J'ai été tuée une centaine de fois. Mais je me réveille toujours ici, bien vivante."
 + "Certains disent que je suis maudite, et d'autres... Ils disent que je suis bénie, et que je suis le héraut qui doit annoncer un nouvel âge."
 ! Périlleux (les silithides du désert et le Marteau du crépuscule)
 

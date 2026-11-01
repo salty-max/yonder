@@ -198,7 +198,7 @@ Le chef des docks Baren en achète dix.
 
 ## 6717 Rouage électrique
 
-Les rouages électriques sont des outils perdus, pas des poissons : Wizbang Cranktoggle en a fait tomber une caisse par-dessus bord pendant son voyage vers Auberdine.
+Les rouages électriques sont des outils perdus, pas des poissons : Wizbang Cranktoggle en a fait tomber une caisse par-dessus bord pendant son voyage vers Auberdine.
 
 Il lui en faut huit pour régler ses mécanismes.
 
@@ -260,7 +260,7 @@ Pour une fois, le poids seul fait l'essentiel du travail de description d'une pr
 
 Les saumons pesés à part vont de quinze à vingt-neuf livres et accompagnent le Saumon Blanchécaille dans la pêche.
 
-Ils donnent à une expédition de pêche familière un résultat bien à elle : ce poisson-là, à ce poids-là, de ce bout d'eau-là.
+Ils donnent à une expédition de pêche familière un résultat bien à elle : ce poisson-là, à ce poids-là, de ce bout d'eau-là.
 
 ## 13907 Homard
 

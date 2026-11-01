@@ -9,7 +9,7 @@ Personne dans la salle n'en croit un mot.
 Prenez son parti.
 ? L'auberge Calmebrise, à Valanaar. Acquiescez au récit du marin. Personne d'autre ne le fait.
 = Sirocco "le nageur" Plumétoile, qui menait les fend-ciel entre les îles avant le début des ennuis, et qui est cloué au sol depuis. Il jure que la forêt de Trombenoire est hantée.
-+ Ce qu'il jure y avoir vu : des âmes en peine portées par le vent, des esprits de la forêt qui vous rongent les chevilles, et une terrible âme en peine tout de noir vêtue.
++ Ce qu'il jure y avoir vu : des âmes en peine portées par le vent, des esprits de la forêt qui vous rongent les chevilles, et une terrible âme en peine tout de noir vêtue.
 ! Calme
 
 ## zephras-isle-gustjumpers
@@ -18,8 +18,8 @@ les petites grenouilles de l'île sautent dans l'herbe.
 Deux d'entre elles se sont mises à la musique.
 Offrez-leur un public.
 ? Entre les Pierres dressées surplombantes et les plaines Aérelles, parmi les saute-poussière. Applaudissez l'une ou l'autre des grenouilles musiciennes.
-= Les saute-poussière chanteurs : deux grenouilles de Zéphras parmi les saute-poussière ordinaires, et les deux seules que l'île dise musiciennes.
-+ Les saute-poussière ordinaires peuvent être chassés. Les deux musiciennes, non : l'île les compte parmi ses amis.
+= Les saute-poussière chanteurs : deux grenouilles de Zéphras parmi les saute-poussière ordinaires, et les deux seules que l'île dise musiciennes.
++ Les saute-poussière ordinaires peuvent être chassés. Les deux musiciennes, non : l'île les compte parmi ses amis.
 ! Gardé (bandits, fièregriffes et trotteurs des trombes aux alentours, niveaux 5 à 10)
 @ Les saute-poussière chanteurs
 
@@ -28,7 +28,7 @@ Dans le sanctuaire même du culte, parmi les robes grises et les crânes rasés,
 l'un des fidèles ne lèvera pas la main contre vous.
 Il sait ce que le reste de l'île pense de cette robe.
 Laissez-le voir que vous partagez la désapprobation de l'île.
-? Le sanctuaire d'Akir, au coeur de l'île. Froncez les sourcils devant le cultiste qui vous laisse en paix.
+? Le sanctuaire d'Akir, au cœur de l'île. Froncez les sourcils devant le cultiste qui vous laisse en paix.
 = Frère Zendraas, du village de Falaath. Quand le culte s'est installé, il s'est rasé la tête, a enfilé les robes grises et a dit les mots qu'on voulait entendre. Aujourd'hui il fait profil bas, et survit.
 + Il est tailleur, et il a dessiné l'essentiel de ce que porte le culte. Apportez-lui des pierres de vent en trop et il vous échangera son stock de leurs robes.
 ! Gardé (le sanctuaire même du culte, ses fanatiques de niveaux 10 et 11)
@@ -38,7 +38,7 @@ Au sommet de l'arbre de Thendal,
 deux enfants sont montés plus haut que les grands ne prennent la peine de le faire.
 Ils regardent quelque chose dont le reste de l'île dit qu'il a disparu.
 Montez, et suivez-le des yeux avec eux.
-? Thendal, au nord-ouest de l'île : en haut de l'arbre. Là-haut, près des enfants, scrutez ce qu'ils regardent.
+? Thendal, au nord-ouest de l'île : en haut de l'arbre. Là-haut, près des enfants, scrutez ce qu'ils regardent.
 = Haal et Meeri, deux enfants de Thendal, qui regardent un esprit du haut de l'arbre. Les esprits du vent ont quitté Zéphras il y a longtemps. Yala Veillevent dit qu'il ne reste que leurs échos sans esprit.
 + Dans les mêmes branches, un cristal blanc garde un enregistrement, Sur le Shal'nan. Le Shal'nan était le chef masqué des rebelles qui fuirent Eldre'Thalas, gouverna son peuple plus d'un siècle, puis remit son pouvoir à un conseil.
 ! Calme
@@ -46,7 +46,7 @@ Montez, et suivez-le des yeux avec eux.
 
 ## quarry
 Au bord du lac, au milieu de l'île, marche un draconien,
-bien plus fort que son niveau : qui le rencontre là ne devrait pas le rencontrer seul.
+bien plus fort que son niveau : qui le rencontre là ne devrait pas le rencontrer seul.
 On ne le connaît que par son surnom.
 = L'Introuvable, un draconien d'élite de niveau six, au bord du lac Chantevent.
 + De toutes les créatures de l'île de Zéphras, c'est le seul draconien.

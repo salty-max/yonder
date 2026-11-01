@@ -7,8 +7,8 @@ Au nord-est de la ville sur la colline rouge, juste à l'écart de la route,
 un vieil orc tient une maison et un carré de cultures, avec un jeune pour l'aider.
 Ce n'est pas en cultivant la terre qu'il s'est fait un nom.
 Rendez-lui le respect que ses années lui ont valu.
-? Au nord-est de Tranchecolline, à l'est du canyon de Tranchevent : une ferme, un vieil orc, et son valet dans le jardin. Inclinez-vous devant le vieil orc. Il l'a mérité.
-= Rokar Bladeshadow, un vieux fermier orc, et Harroc, son valet de ferme : "Qu'est-ce qu'un jeune comme toi vient faire chez un vieux fermier comme moi ?"
+? Au nord-est de Tranchecolline, à l'est du canyon de Tranchevent : une ferme, un vieil orc, et son valet dans le jardin. Inclinez-vous devant le vieil orc. Il l'a mérité.
+= Rokar Bladeshadow, un vieux fermier orc, et Harroc, son valet de ferme : "Qu'est-ce qu'un jeune comme toi vient faire chez un vieux fermier comme moi ?"
 + Harroc travaille le jardin dehors. Rokar reste dans la maison, et dans ce qu'il était avant d'être fermier.
 ! Calme (sangliers et raptors aux alentours)
 
@@ -18,7 +18,7 @@ un alchimiste troll a eu tout son content d'aventure sur la route qui a mené so
 Désormais, il reste près de ses fioles et laisse les autres aller chercher les ennuis.
 Demandez-lui ce qu'il pense de l'aventure.
 ? Le Village de Sen'jin, sur la côte au sud de Tranchecolline. Parlez au troll qui enseigne l'alchimie.
-= Miao'zan, alchimiste du Village de Sen'jin : "Vous avez tout l'air de quelqu'un qui cherche l'aventure. Moi, j'en avais déjà assez à l'époque où les trolls sont arrivés. Aujourd'hui, je prends les jours comme ils viennent. Et j'entraîne les autres à courir l'aventure à ma place."
+= Miao'zan, alchimiste du Village de Sen'jin : "Vous avez tout l'air de quelqu'un qui cherche l'aventure. Moi, j'en avais déjà assez à l'époque où les trolls sont arrivés. Aujourd'hui, je prends les jours comme ils viennent. Et j'entraîne les autres à courir l'aventure à ma place."
 + Le village porte le nom de Sen'jin, le père de Vol'jin, le chef des Darkspear qui ne vécut pas assez longtemps pour voir ce rivage.
 ! Calme
 
@@ -36,5 +36,5 @@ La nouvelle terre de son fils s'étend hors de ces murs.
 et pillent les fermes et les camps voisins sous deux chefs.
 Leur capitaine est le premier vrai danger que rencontrent bien des jeunes orcs et trolls,
 et la plupart ne le sous-estiment qu'une fois.
-= Le capitaine Plate-défense, des Tranchecrin : une créature d'élite, que les jeunes de Durotar apprennent à respecter à leurs dépens.
+= Le capitaine Plate-défense, des Tranchecrin : une créature d'élite, que les jeunes de Durotar apprennent à respecter à leurs dépens.
 + La géomaîtresse Mottle, une chamane hurane qui a une vague de soins et un bouclier de foudre, tient les mêmes huttes.

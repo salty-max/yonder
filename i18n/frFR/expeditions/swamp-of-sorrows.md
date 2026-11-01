@@ -7,7 +7,7 @@ Dans la forteresse de pierre au-dessus du bourbier, cherchez le nom d'un enfant 
 Un geôlier le choisit pour l'orphelin qu'il éleva.
 L'histoire ne finit pas comme il l'avait prévu.
 ? Pierrêche. Lisez le récit du nouveau départ de la Horde. Le nom se trouve dans l'histoire.
-= La nouvelle Horde, à Pierrêche : Aedelas Blackmoore et l'orphelin qu'il appela Thrall.
+= La nouvelle Horde, à Pierrêche : Aedelas Blackmoore et l'orphelin qu'il appela Thrall.
 + Doomhammer tomba en libérant l'un des camps d'internement. Thrall ramassa son marteau de guerre, endossa son armure noire, et devint chef de la Horde.
 ! Calme
 
@@ -16,7 +16,7 @@ L'histoire ne finit pas comme il l'avait prévu.
 et une dragonne qui rêve, apprenant quel dieu ils voulaient ramener, le brisa sous le marais.
 Un lac l'a recouvert depuis,
 et il cache son secret à tous, sauf à l'œil le plus attentif.
-? Le bassin des larmes, à l'est du marais : scrutez le lac.
+? Le bassin des larmes, à l'est du marais : scrutez le lac.
 = Le bassin des larmes, au-dessus du temple englouti d'Atal'Hakkar. Les trolls atal'ai bâtirent le temple pour le retour de Hakkar l'Écorcheur d'âmes, et Ysera, apprenant leurs desseins, l'écrasa sous le marais. Ses dragons verts veillent sur les ruines.
 + L'engloutissement ne mit pas fin aux rituels. Sous l'eau, les Atal'ai les poursuivirent sans être dérangés.
 ! Gardé (draconiens et poissons voraces, jusqu'au niveau 45)

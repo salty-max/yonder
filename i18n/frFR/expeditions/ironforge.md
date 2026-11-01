@@ -23,10 +23,10 @@ le plus ancien de ses compagnons. Apprenez à qui c'était.
 ! Calme
 
 ## ironforge-great-forge
-Au coeur de la cité des nains, près de la grande forge qui lui donne son nom,
-le gardien de la forge attend les forgerons assez bons pour entendre ce qu'il a à dire :
+Au cœur de la cité des nains, près de la grande forge qui lui donne son nom,
+le gardien de la forge attend les forgerons assez bons pour entendre ce qu'il a à dire :
 qu'un forgeron doit choisir une voie, et jamais l'autre. Demandez-lui.
-? La Grande forge, au coeur de Forgefer. Parlez au gardien de la forge. Ses leçons peuvent attendre.
-= Myolor Sunderfury, gardien de la Grande forge : "Vous pouvez choisir entre deux voies : Fabricant d'armes ou fabricant d'armures."
+? La Grande forge, au cœur de Forgefer. Parlez au gardien de la forge. Ses leçons peuvent attendre.
+= Myolor Sunderfury, gardien de la Grande forge : "Vous pouvez choisir entre deux voies : Fabricant d'armes ou fabricant d'armures."
 + "Faites attention, une fois que vous aurez choisi une voie, vous ne pourrez plus changer d'avis. La discipline requise par chaque voie ne laisse pas de place aux mélanges."
 ! Calme

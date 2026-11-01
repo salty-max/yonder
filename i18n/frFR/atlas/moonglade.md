@@ -6,4 +6,4 @@ Le lac Elune'ara s'étend au centre de Reflet-de-Lune, avec Havrenuit sur sa riv
 
 Le Cercle cénarien accueille ici les deux factions, et la fête lunaire amène des visiteurs de bien plus loin. Le calme est réel, même si la lutte autour du Rêve d'émeraude a atteint jusqu'à cette vallée.
 
-Pour moi, le lac est la constante bienvenue : un repère large et dégagé après le passage de montagne encaissé.
+Pour moi, le lac est la constante bienvenue : un repère large et dégagé après le passage de montagne encaissé.

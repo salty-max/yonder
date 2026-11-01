@@ -8,8 +8,8 @@ et parmi elles se tient la statue d'un homme, qu'ils n'ont pas abattue.
 Les chroniques disent qu'un héros de l'Alliance tomba au centre de ces steppes,
 en combat singulier contre le chef de guerre de la Horde. Rendez-lui hommage.
 ? Le Pilier de cendres, au milieu des Steppes ardentes. Inclinez-vous devant la statue de l'homme tombé.
-= Le Pilier de cendres : parmi les tours Rochenoire, la statue d'un héros humain, au centre des steppes, là où Doomhammer affronta Lothar et où Lothar tomba.
-+ Doomhammer remporta le duel, dit Au lendemain de la Deuxième Guerre, mais cette mort ne brisa pas l'Alliance comme il l'avait espéré : Turalyon la rallia, et la Horde fut battue.
+= Le Pilier de cendres : parmi les tours Rochenoire, la statue d'un héros humain, au centre des steppes, là où Doomhammer affronta Lothar et où Lothar tomba.
++ Doomhammer remporta le duel, dit Au lendemain de la Deuxième Guerre, mais cette mort ne brisa pas l'Alliance comme il l'avait espéré : Turalyon la rallia, et la Horde fut battue.
 ! Périlleux (soldats, sorciers et pourfendeurs Rochenoire, niveaux 54 à 56)
 @ Le Pilier de cendres
 
@@ -25,16 +25,16 @@ Des démonistes s'y rassemblent toujours. Trouvez l'autel.
 
 ## burning-steppes-flame-crest
 Dans le camp de la Horde sur la plaine brûlante, un gobelin garde des animaux exotiques,
-et l'un d'eux garde les secrets de tout le monde : il répète tout ce qu'il a entendu,
+et l'un d'eux garde les secrets de tout le monde : il répète tout ce qu'il a entendu,
 en toussant sans arrêt. Soyez $ggentil:gentille; avec lui, et écoutez-le jusqu'au bout.
 ? La Corniche des flammes, près de Kibler. L'animal qui tousse en a long à raconter. Écoutez-le.
-= Opus, le perroquet de Kibler, à la Corniche des flammes : "GROA !! *tousse* *tousse* Faut que j'arrête de fumer."
-+ Il en sait plus qu'il ne devrait : "Le G.E.T.A. mène une enquête sur Kibler." Et : "Ils vont tous au Pic, mais ils ne reviennent jamais... Tout comme Bijou."
+= Opus, le perroquet de Kibler, à la Corniche des flammes : "GROA !! *tousse* *tousse* Faut que j'arrête de fumer."
++ Il en sait plus qu'il ne devrait : "Le G.E.T.A. mène une enquête sur Kibler." Et : "Ils vont tous au Pic, mais ils ne reviennent jamais... Tout comme Bijou."
 ! Calme
 
 ## quarry
 Quelque chose arpente l'est de la plaine brûlante, autour du rocher des ogres,
-passe la cité en ruine et descend vers la veille des nains, puis revient :
+passe la cité en ruine et descend vers la veille des nains, puis revient :
 un géant de pierre en fusion, qui porte les plans d'un forgeron pour un marteau du même feu.
-= Volchan, un géant de magma d'élite qui arpente l'est des Steppes ardentes : le seul à porter les Plans : Marteau volcanique.
+= Volchan, un géant de magma d'élite qui arpente l'est des Steppes ardentes : le seul à porter les Plans : Marteau volcanique.
 + Les autres géants de magma se tiennent au fond du mont Rochenoire, dans le Cœur du Magma, parmi les serviteurs de Ragnaros. Volchan, lui, marche à ciel ouvert.

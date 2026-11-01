@@ -29,7 +29,7 @@ Dans le camp de la Horde sur les hautes-terres, cherchez les elfes qui ont pris 
 Leur royaume est perdu, mais le nom a voyagé avec eux.
 L'histoire est gardée sur une page.
 ? Trépas-d'Orgrim. Ouvrez le livre qui raconte le nouveau nom des elfes.
-= La montée des elfes de sang, à Trépas-d'Orgrim : les hauts-elfes de Kael'thas, devenus elfes de sang, chassés par l'Alliance et partis en Outreterre avec Illidan.
+= La montée des elfes de sang, à Trépas-d'Orgrim : les hauts-elfes de Kael'thas, devenus elfes de sang, chassés par l'Alliance et partis en Outreterre avec Illidan.
 + Coupés du Puits de soleil, ils eurent faim de magie. C'est en cherchant un remède que Kael'thas en vint à Illidan et à ses nagas.
 ! Calme
 
@@ -37,9 +37,9 @@ L'histoire est gardée sur une page.
 Au sud du bastion de la Horde dans les hautes-terres, l'herbe cède la place aux premières collines rocheuses.
 Dans l'une d'elles, quelqu'un a taillé trois lettres, assez grandes pour se lire depuis l'herbe en contrebas,
 et depuis, la colline tient le même discours à chaque passant.
-Trouvez l'angle qui les révèle. La colline s'amuse : prenez la plaisanterie comme elle est faite.
+Trouvez l'angle qui les révèle. La colline s'amuse : prenez la plaisanterie comme elle est faite.
 ? Au sud-est de Trépas-d'Orgrim, au pied des premières collines rocheuses. Depuis l'herbe, tournez-vous vers la pente à l'est jusqu'à ce que les trois lettres apparaissent, et riez avec elle.
-= La colline qui rit, au sud-est de Trépas-d'Orgrim : LOL, taillé dans la pente pour qui se tient au bon angle.
+= La colline qui rit, au sud-est de Trépas-d'Orgrim : LOL, taillé dans la pente pour qui se tient au bon angle.
 + Sous tout autre angle, les lettres se fondent dans l'herbe et la roche, et la colline n'a plus rien à dire.
 ! Gardé (kobolds Sèche-moustache, niveaux 35 à 36, et un camp de trolls Witherbark à l'ouest)
 @ La colline qui rit
@@ -50,4 +50,4 @@ se tient une femme qui porte l'un de leurs masques. Elle n'est pas des leurs.
 Approchez-vous et elle pourrait vous prendre l'esprit un moment.
 Son nom est tout ce qu'on sait d'elle.
 = Singer, au manoir de Nordclos, masquée comme le Syndicat qui l'entoure, et pourtant pas des leurs.
-+ Son emprise sur un esprit atteint tout humanoïde jusqu'au niveau vingt-cinq : venez plus $gaguerri:aguerrie;, et elle n'a plus aucun pouvoir sur vous.
++ Son emprise sur un esprit atteint tout humanoïde jusqu'au niveau vingt-cinq : venez plus $gaguerri:aguerrie;, et elle n'a plus aucun pouvoir sur vous.

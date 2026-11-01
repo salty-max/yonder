@@ -7,26 +7,26 @@ Dans la ville gobeline du désert, trouvez une fille qui choisit la paix que son
 Leur querelle traversa un océan avant de prendre fin.
 La ville en garde le récit parmi ses livres.
 ? Gadgetzan. Lisez le récit de la fille et de la guerre menée par son père.
-= Anciennes haines - La colonisation de Kalimdor, à Gadgetzan : Durotar, nommé d'après le père de Thrall, et Jaina Proudmoore contre son père, le grand amiral.
+= Anciennes haines - La colonisation de Kalimdor, à Gadgetzan : Durotar, nommé d'après le père de Thrall, et Jaina Proudmoore contre son père, le grand amiral.
 + Il mourut avant qu'elle ne puisse se réconcilier avec lui. En remerciement de sa loyauté, les orcs laissèrent Jaina et ses troupes rentrer en paix à Theramore.
 ! Gardé pour la Horde (Bera Stonehammer, maîtresse des gryphons de l'Alliance, niveau 55, se tient tout près), calme pour l'Alliance
 
 ## tanaris-buzzek
-Dans la ville des gobelins au milieu du désert, un ingénieur a une grande idée :
+Dans la ville des gobelins au milieu du désert, un ingénieur a une grande idée :
 faire passer du pétrole sous terre d'une grande ville à l'autre.
 Tous ceux à qui il en parle lui font la même réponse sur l'argent qu'il faudrait.
 Demandez-lui ce qu'on lui répond.
 ? Gadgetzan, devant la hutte du milieu, près de la boîte aux lettres. Parlez à l'ingénieur maître.
-= Buzzek Bracketswing, Ingénieur - Maître à Gadgetzan : "Je travaille sur un moyen de transporter du pétrole sous terre entre deux grandes villes, mais tout le monde me dit que pour financer ça, il faudrait voler au duc."
+= Buzzek Bracketswing, Ingénieur - Maître à Gadgetzan : "Je travaille sur un moyen de transporter du pétrole sous terre entre deux grandes villes, mais tout le monde me dit que pour financer ça, il faudrait voler au duc."
 + Gadgetzan appartient au Cartel Gentepression, comme Baie-du-Butin, Cabestan et Long-Guet.
 ! Calme
 
 ## tanaris-zalashji
 À l'est de la ville des gobelins, un naga tient une tanière dans les rochers,
-et ne veut rien de vous : ni guerre, ni trésor, ni sang.
+et ne veut rien de vous : ni guerre, ni trésor, ni sang.
 Soyez $gamical:amicale;, pour une fois.
 ? La tanière de Zalashji, à l'est de Gadgetzan. Inclinez-vous devant le naga. Il est disposé à vous laisser en paix.
-= Zalashji, un naga chez lui dans sa tanière : amical avec tous, et qui ne veut rien de personne.
+= Zalashji, un naga chez lui dans sa tanière : amical avec tous, et qui ne veut rien de personne.
 + Horde et Alliance peuvent s'approcher de lui sans dommage, comme de bien peu de nagas où que ce soit.
 ! Gardé (bandits Bat-le-désert et mordeuses mâchoire d'acier tout près)
 
@@ -37,15 +37,15 @@ comme si elle avait entendu chaque prophétie et n'en croyait aucune.
 Quoi qu'elle semble vous demander, répondez-lui avec la même incrédulité.
 ? Port Gentepression, au nord-est de Tanaris. Ciblez la chouette blanche qui tourne autour de la hutte du voyant, et prenez un air dubitatif.
 = O'Reily, une chouette blanche, qui tourne autour de la hutte de Narain Soothfancy à Port Gentepression.
-+ Ses homonymes tiennent les hôtels des ventes : le Commissaire-priseur O'reely à Baie-du-Butin, le Commissaire-priseur Yarly à Fossoyeuse.
++ Ses homonymes tiennent les hôtels des ventes : le Commissaire-priseur O'reely à Baie-du-Butin, le Commissaire-priseur Yarly à Fossoyeuse.
 ! Calme
 
 ## tanaris-winkey
 Au large de la plage tranquille au sud de la crique des pirates, un îlot porte une gnome, seule,
 qui se dore au soleil comme si toute la mer était son jardin.
 Elle a une seule requête pour qui nage jusqu'à elle. Laissez votre visage lui répondre.
-? Un îlot au large du rivage de Brisesud, au sud de la crique des Gréements. Répondez à la gnome qui prend le soleil par un clin d'oeil.
-= Winkey, une gnome seule sur son îlot au large du rivage de Brisesud : "Salut, $gmon mignon:ma mignonne; ! Ça t'embêterait de me passer de la crème sur les parties exposées ?"
+? Un îlot au large du rivage de Brisesud, au sud de la crique des Gréements. Répondez à la gnome qui prend le soleil par un clin d'œil.
+= Winkey, une gnome seule sur son îlot au large du rivage de Brisesud : "Salut, $gmon mignon:ma mignonne; ! Ça t'embêterait de me passer de la crème sur les parties exposées ?"
 + Loin d'ici, dans les Steppes ardentes, un nain de la Veille de Morgan attrape le vide et crie après une certaine Winky qui n'est pas là. S'il parle d'elle, personne ne saurait le dire.
 ! Gardé (glisseurs et marcheurs des côtes, niveau 48, dans les hauts-fonds)
 
@@ -54,9 +54,9 @@ Dans la ville des gobelins au milieu du désert, un ingénieur gnome à la visi�
 a construit une machine qui envoie un voyageur à l'autre bout du monde en un instant,
 presque toujours en un seul morceau, et presque toujours le même voyageur.
 Scrutez de près son inventeur, pour vous assurer qu'il est toujours lui-même.
-? Gadgetzan, à Tanaris : l'ingénieur gnome à la visière, près de la plateforme du transporteur. Regardez-le d'un air soupçonneux.
+? Gadgetzan, à Tanaris : l'ingénieur gnome à la visière, près de la plateforme du transporteur. Regardez-le d'un air soupçonneux.
 = Jhordy Lapforge, l'ingénieur de Gadgetzan, et son Transporteur de matière.
-+ Aux ingénieurs capables d'en construire la balise, il avoue le reste : "On nous a signalé quelques problèmes de voyageurs remplacés par leur double maléfique venu d'un univers parallèle, mais je suis sûr que nous aurons bientôt corrigé ça..."
++ Aux ingénieurs capables d'en construire la balise, il avoue le reste : "On nous a signalé quelques problèmes de voyageurs remplacés par leur double maléfique venu d'un univers parallèle, mais je suis sûr que nous aurons bientôt corrigé ça..."
 ! Calme
 
 ## tanaris-rocket-car
@@ -65,7 +65,7 @@ Ses traces de dérapage repartent dans la roche derrière elle, comme si la cha�
 et de l'autre côté, près des salines, les mêmes traces s'enfoncent dans la roche.
 Trouvez l'endroit où elle est ressortie, et n'en croyez pas vos yeux.
 ? Juste à l'ouest de Gadgetzan, au pied des montagnes. Allez jusqu'à la voiture-fusée accidentée, et montrez votre surprise.
-= La voiture à travers la montagne : une voiture-fusée gnome accidentée à l'ouest de Gadgetzan, dont les traces de dérapage commencent de l'autre côté de la chaîne, près des Salines.
+= La voiture à travers la montagne : une voiture-fusée gnome accidentée à l'ouest de Gadgetzan, dont les traces de dérapage commencent de l'autre côté de la chaîne, près des Salines.
 + Dans le récit d'un autre monde, un savant traversait une montagne au volant d'une voiture-fusée, sur des salines très semblables aux Salines.
 ! Gardé (Brûlepattes affamées et Scorpides flagellants tout près, niveaux 41 à 44)
 @ La voiture à travers la montagne

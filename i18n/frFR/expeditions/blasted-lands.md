@@ -9,7 +9,7 @@ la détruisirent depuis l'autre côté pour que ce monde vive,
 et nul ne sait s'ils sont rentrés. Honorez-les comme des soldats honorent les leurs.
 ? La Porte des ténèbres, au sud des Terres foudroyées. Adressez un salut militaire à ceux qui l'ont franchie sans revenir.
 = La Porte des ténèbres, immobile et sombre.
-+ Khadgar, Turalyon, Alleria, Kurdran et Danath choisirent de rester sur le monde à l'agonie : "nul ne sait s'ils échappèrent à la destruction de Draenor."
++ Khadgar, Turalyon, Alleria, Kurdran et Danath choisirent de rester sur le monde à l'agonie : "nul ne sait s'ils échappèrent à la destruction de Draenor."
 ! Gardé (démons et ogres)
 @ La Porte des ténèbres
 
@@ -18,7 +18,7 @@ Au sud-ouest de l'étendue, un grand démon resté en arrière
 tient une balafre dans la terre avec son armée,
 et chaque vie perdue près de lui lui rend la sienne.
 Posez le pied sur son terrain, balayez-le du regard, et ne vous attardez pas.
-? La Balafre impure, au sud-ouest des Terres foudroyées : franchissez-en à peine le bord et contemplez-la.
+? La Balafre impure, au sud-ouest des Terres foudroyées : franchissez-en à peine le bord et contemplez-la.
 = La Balafre impure, le terrain du seigneur Kazzak.
 + Chaque mort près de lui le soigne de soixante-dix mille points. Et s'il tient encore debout trois minutes après le premier coup, sa fureur ne laisse personne debout.
 ! Périlleux (le seigneur Kazzak et ses gangregardes)
@@ -38,5 +38,5 @@ Les ogres Cognepeur tiennent un poste au milieu de ces terres foudroyées,
 sur la route entre leur repaire du nord et la porte du sud.
 L'un d'eux s'appelle l'Inflexible, et se tient à ce poste,
 quand il y est.
-= Magronos l'Inflexible, un ogre Cognepeur. Rarement rencontré : le poste est à lui certains jours, et il en est absent la plupart du temps.
+= Magronos l'Inflexible, un ogre Cognepeur. Rarement rencontré : le poste est à lui certains jours, et il en est absent la plupart du temps.
 + Akubar le Prophète, un autre Cognepeur aussi rarement vu, a été rencontré au même poste.

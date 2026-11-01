@@ -40,7 +40,7 @@ La maroquinière dit avoir peu à offrir, mais vous accueille chez elle.
 Rendez-lui sa gentillesse.
 ? À l'ouest du Creux de Ban'ethil, près de la maison. Remerciez Nadyia pour son accueil.
 = Nadyia Maneweaver, qui enseigne le travail du cuir auprès de Radnaal, le maître des dépeceurs. Elle offre l'hospitalité de leur foyer, si peu qu'ils aient à proposer, dit-elle.
-+ Son conseil aux élèves est pratique : des points plus petits retiennent mieux le contenu des carquois et des gibernes. Ils font aussi des tuniques moins bosselées.
++ Son conseil aux élèves est pratique : des points plus petits retiennent mieux le contenu des carquois et des gibernes. Ils font aussi des tuniques moins bosselées.
 ! Calme (des chouettes dans les arbres)
 
 ## quarry

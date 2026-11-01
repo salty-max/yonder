@@ -18,7 +18,7 @@ Il répond au plus simple des noms, et son titre fait de lui un père,
 mais on ne voit au poste aucun de ses petits.
 Un bon chien mérite une main bienveillante.
 ? Le poste de Librevent, près de l'étal de Montarr, le gardien du savoir. Caressez le chien.
-= Chien, au titre de Reproducteur : aucune autre créature de Kalimdor ou des Royaumes de l'est ne porte ce titre. Il reste près de l'étal de Montarr, au poste de Librevent.
+= Chien, au titre de Reproducteur : aucune autre créature de Kalimdor ou des Royaumes de l'est ne porte ce titre. Il reste près de l'étal de Montarr, au poste de Librevent.
 + Les taurens ont bâti leurs villes au sommet des plus hautes mesas, hors de portée des bandes de guerre centaures, et les ont reliées par des ascenseurs de bois et des ponts de corde.
 ! Calme
 
@@ -28,7 +28,7 @@ Au bout de ces traces, un bolide a pris le virage bien trop vite,
 et pend depuis à mi-hauteur de la falaise.
 Trouvez le bolide qui n'a jamais fini la course, et désignez aux autres l'endroit où il pend.
 ? Les Salines, à l'est de la piste des Mirages, sous les falaises de l'est. Allez au pied de la falaise, et montrez du doigt le bolide accroché à la roche.
-= Le bolide de la falaise : un bolide gobelin écrasé à mi-hauteur de la paroi est des Salines, resté là où il s'est arrêté.
+= Le bolide de la falaise : un bolide gobelin écrasé à mi-hauteur de la paroi est des Salines, resté là où il s'est arrêté.
 + Les bolides de la piste ont la forme des modules de course de la grande course du désert d'un autre monde, et celui-ci celle de son tricheur le plus célèbre.
 ! Calme
 @ Le bolide de la falaise

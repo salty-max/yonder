@@ -6,4 +6,4 @@ Hautebrande s'étend entre les pentes d'Alterac et la mer. Austrivage donne à l
 
 La route de l'est rejoint Arathi par le mur de Thoradin. D'autres chemins mènent à l'ouest vers les Pins argentés, au nord vers Alterac et vers les hauteurs des Hinterlands. Les murs en ruine de Fort-de-Durn se remarquent près des routes de l'est, même si le Syndicat tient désormais l'ancien donjon d'internement.
 
-Ce devrait être un pays simple à traverser : collines basses, champs cultivés et routes en abondance. La difficulté, ai-je constaté, vient rarement du terrain.
+Ce devrait être un pays simple à traverser : collines basses, champs cultivés et routes en abondance. La difficulté, ai-je constaté, vient rarement du terrain.

@@ -6,9 +6,9 @@ zone: 1458
 Dans la cité sous les ruines, cherchez un prêcheur dont le maître parlait depuis le nord gelé.
 Il promit aux pauvres l'égalité et une vie qui ne finirait jamais.
 L'histoire de ses fidèles se trouve parmi les livres des herboristes.
-? À Fossoyeuse, chez les herboristes : la boutique des Alliestar. Lisez le livre sur le prêcheur et son culte.
+? À Fossoyeuse, chez les herboristes : la boutique des Alliestar. Lisez le livre sur le prêcheur et son culte.
 = Kel'Thuzad et l'avènement du Fléau. L'ancien archimage fonda le Culte des damnés pour servir Ner'zhul, et nomma Fléau les morts-vivants qui se levaient de la peste.
-+ "Etrangement, le but de Kel'Thuzad fut atteint facilement : la foi des citoyens en la Lumière se transforma rapidement en culte des pouvoirs obscurs de Ner'zhul."
++ "Etrangement, le but de Kel'Thuzad fut atteint facilement : la foi des citoyens en la Lumière se transforma rapidement en culte des pouvoirs obscurs de Ner'zhul."
 ! Calme
 
 ## undercity-theresa
@@ -16,7 +16,7 @@ Dans le quartier des soldats de la cité, trois Réprouvés se tiennent autour d
 et l'un d'eux est très fier d'elle. Il l'envoie de l'autre côté du pont faire des courses,
 et elle revient toujours. Montrez-lui que quelqu'un éprouve encore de la compassion pour elle.
 ? Le quartier de la Guerre, à Fossoyeuse. Témoignez un peu de pitié à la femme vivante.
-= Theresa, l'esclave mentale de Gerard Abernathy : "Theresa, portez ceci au Père Lankester." "Oui Monseigneur."
+= Theresa, l'esclave mentale de Gerard Abernathy : "Theresa, portez ceci au Père Lankester." "Oui Monseigneur."
 + "J'ai découvert que retirer ou stimuler certaines parties du cerveau rendait un sujet beaucoup plus docile." Même ses compagnons lui demandent comment il s'y est pris.
 ! Calme
 

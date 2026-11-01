@@ -17,8 +17,8 @@ et le maître de la forge d'Orgrimmar, qui n'aime aucun gobelin, lui envoie pour
 Certains de ceux qui entrent ne croient pas qu'il soit le forgeron.
 Demandez-lui.
 ? Baie-du-Butin, dans la forge. Parlez au maître forgeron gobelin.
-= Brikk Keencraft, Maître des forgerons de Baie-du-Butin : "Ouais ? Bien sûr que je suis forgeron. Vous pensez que seuls les nains savent se servir d'une enclume ? Comme vous voulez ! Allez chercher un nain pour vous aider !"
-+ Saru Steelfury, qui lui envoie ses élèves depuis Orgrimmar : "Je n'aime pas les gobelins mais sa connaissance de l'acier n'a pas son pareil."
+= Brikk Keencraft, Maître des forgerons de Baie-du-Butin : "Ouais ? Bien sûr que je suis forgeron. Vous pensez que seuls les nains savent se servir d'une enclume ? Comme vous voulez ! Allez chercher un nain pour vous aider !"
++ Saru Steelfury, qui lui envoie ses élèves depuis Orgrimmar : "Je n'aime pas les gobelins mais sa connaissance de l'acier n'a pas son pareil."
 ! Calme
 
 ## stranglethorn-vale-emperors-tomb
@@ -45,7 +45,7 @@ Au sommet de la tour de la Horde dans la jungle, un gobelin voit partir les diri
 et on l'a laissé au mauvais bout de la ligne.
 Il donnerait cher pour un repas correct de chez lui. Demandez-lui.
 ? Le campement Grom'gol, au sommet de la tour des zeppelins. Parlez au gobelin. Il vous répondra même le ventre vide.
-= Nez'raz, maître des zeppelins à Grom'gol : son frère l'a convaincu de prendre cette route commerciale, et lui en a laissé le bout dans la jungle.
+= Nez'raz, maître des zeppelins à Grom'gol : son frère l'a convaincu de prendre cette route commerciale, et lui en a laissé le bout dans la jungle.
 + Le campement Grom'gol est l'avant-poste de la Horde sur la côte ouest de la jungle, et ses zeppelins sont la route la plus rapide pour rentrer.
 ! Calme
 
@@ -54,8 +54,8 @@ Dans le port des gobelins, un capitaine du port attend à quai un navire qui n'e
 Demandez-lui la traversée, et il vous parlera d'abord de la soupe.
 Découvrez laquelle.
 ? Baie-du-Butin, à quai, près du navire pour Cabestan. Parlez au capitaine du port.
-= Grizzlowe, capitaine du port de Baie-du-Butin : "Je dois dire que Baie-du-Butin a la meilleure Soupe de palourdes qu'on ait jamais vue dans les Mers du sud."
-+ Puis, pour ceux que la cuisine n'intéresse pas : le quai du Caprice de la vierge, "le meilleur transport de passagers entre les Royaumes de l'est et Kalimdor".
+= Grizzlowe, capitaine du port de Baie-du-Butin : "Je dois dire que Baie-du-Butin a la meilleure Soupe de palourdes qu'on ait jamais vue dans les Mers du sud."
++ Puis, pour ceux que la cuisine n'intéresse pas : le quai du Caprice de la vierge, "le meilleur transport de passagers entre les Royaumes de l'est et Kalimdor".
 ! Calme
 
 ## stranglethorn-vale-blunderflame
@@ -65,12 +65,12 @@ Catalyseur, tubes et poudre d'explosion, à un prix honnête,
 pour qui trouve l'unique chemin qui monte.
 ? Strangleronce, sur une colline cachée juste au sud du Tertre des ogres Mosh'Ogg. Trouvez le chemin qui monte vers le nord-est depuis le bas des camps des ogres, et parlez à Gnaz.
 = Gnaz Blunderflame et son frère Knaz, fournisseurs gnomes en ingénierie, sur leur colline au-dessus du Tertre des ogres Mosh'Ogg.
-+ Chaque frère garde un schéma que l'autre n'a pas : Gnaz vend le Schéma : Petit dragon mécanique, Knaz le Schéma : Lunette mortelle.
++ Chaque frère garde un schéma que l'autre n'a pas : Gnaz vend le Schéma : Petit dragon mécanique, Knaz le Schéma : Lunette mortelle.
 ! Gardé (les ogres Mosh'Ogg au pied de la colline)
 
 ## quarry
 Dans les eaux chaudes et peu profondes autour de la pointe sud de la jungle,
 les furies sont nombreuses et petites.
 Cherchez celle qui est assez grosse pour avoir un nom.
-= Rippa, une furie du rivage autour de Baie-du-Butin : un poisson qui a un nom, rien que ça.
-+ Il mange en nageant : on trouve souvent un Poisson-chat moustachu cru dans son ventre.
+= Rippa, une furie du rivage autour de Baie-du-Butin : un poisson qui a un nom, rien que ça.
++ Il mange en nageant : on trouve souvent un Poisson-chat moustachu cru dans son ventre.
