@@ -1,11 +1,11 @@
 ---
-source: 3690f61b0f60
+source: d59a9af0792f
 zone: 1454
 ---
 ## orgrimmar-mannoroth-armor
 Dans la cité qui porte le nom d'un chef de guerre tombé, les plaques d'un démon sont exposées,
-portées par la créature qui maudit la première les orcs de la soif de sang,
-vaincue par le geste d'un seul orc brave. Trouvez-les.
+portées par la créature qui, la première, maudit les orcs de la soif de sang,
+vaincue par le geste d'un seul orc brave. Trouvez-les, et lisez ce que la cité a écrit à côté.
 ? Dans la vallée de la Force, au milieu d'Orgrimmar. Lisez l'inscription près de l'armure exposée.
 = L'armure de Mannoroth.
 + "Que ces plaques nous rappellent toujours jusqu'où nous nous sommes égarés et combien il nous fallut combattre pour recouvrer notre honneur." - Thrall. Le monument de Grom se dresse en Orneval, là où il est mort.

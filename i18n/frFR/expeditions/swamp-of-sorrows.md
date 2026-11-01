@@ -23,7 +23,7 @@ et il cache son secret à tous, sauf à l'œil le plus attentif.
 
 ## quarry
 À l'est du temple englouti, des draconides tiennent le Noirchagrin,
-capitaines et anciens parmi eux, et au-dessus des capitaines marche un qui porte un titre de seigneur.
+capitaines et anciens parmi eux, et au-dessus des capitaines marche l'un d'eux, qui porte un titre de seigneur.
 Il fait une longue ronde, du bassin des larmes jusqu'au bord est du marais, et retour.
-= Le seigneur-capitaine Wyrmak, un draconide élite, qui arpente le Noirchagrin et les rives du bassin des larmes.
+= Le seigneur-capitaine Wyrmak, un draconide d'élite, qui arpente le Noirchagrin et les rives du bassin des larmes.
 + Son souffle est acide, et il s'accumule sur vous, jusqu'à dix fois si vous y restez.

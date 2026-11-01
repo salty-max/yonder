@@ -1,5 +1,5 @@
 ---
-source: 3ed1bff24d2f
+source: 87f51272dbd4
 zone: 1413
 ---
 ## the-barrens-ratchet-book
@@ -16,9 +16,9 @@ Sur la route entre le port des gobelins et la croisée des orcs,
 un colporteur gobelin fait l'aller-retour avec des armes et des potions à vendre,
 et un ogre marche derrière lui, bien trop fort pour ces plaines.
 Attrapez le colporteur sur la route.
-? La route de Cabestan à la Croisée. Il la parcourt d'un bout à l'autre. Demandez au colporteur de vous montrer ses marchandises. Nul besoin d'acheter.
+? La route de Cabestan à la Croisée. Il la parcourt dans les deux sens. Demandez au colporteur de vous montrer ses marchandises, et gardez votre argent si vous voulez.
 = Lizzarik, un marchand d'armes gobelin de Cabestan, qui fait l'aller-retour jusqu'à la Croisée avec Jorb, son garde du corps ogre.
-+ Jorb est de niveau trente-sept, sur une route que la plupart des voyageurs parcourent au niveau quinze.
++ Jorb, l'ogre qui lui couvre le dos, est plus fort que tout ce qui rôde dans les plaines entre les deux villes.
 ! Calme sur la route
 
 ## the-barrens-tidus-stair
@@ -42,7 +42,7 @@ et son petit garçon joue devant sa porte. Soyez $gamical:amicale;.
 ! Calme pour la Horde, les gardes du rempart pour l'Alliance
 
 ## the-barrens-northwatch
-Sur la côte sud des plaines, les soldats de Theramore tiennent un fort face à la Horde,
+Au sud du port des gobelins, sur la côte des plaines, les soldats de Theramore tiennent un fort face à la Horde,
 et dans ses murs l'Alliance garde son propre récit des camps où elle retenait jadis les orcs,
 et du mal qu'aucun geôlier ne sut expliquer.
 Trouvez la page qui dit quel remède il faudrait.
@@ -96,5 +96,5 @@ Trouvez-le, et écoutez ce qu'il veut.
 Au nord-ouest du port des gobelins, au-delà des collines, des lions sont couchés en cercle autour d'un arbre,
 et celui du milieu a une robe différente de la leur.
 Il rugit quand il est blessé, et le cercle accourt.
-= Humar le Fier, un lion élite, sous son arbre au nord-ouest de Cabestan, sa troupe autour de lui.
+= Humar le Fier, un lion d'élite, sous son arbre au nord-ouest de Cabestan, sa troupe autour de lui.
 + Il ne quitte jamais cet arbre, si bien que les chasseurs qui veulent sa robe noire pour compagnon ont appris à attendre dessous.

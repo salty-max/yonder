@@ -20,7 +20,7 @@ et pourquoi l'autre ne le remercia pas de ce cadeau.
 ? Dans l'auberge d'Auberdine, ouvrez le livre sur le Mont Hyjal et le cadeau d'Illidan.
 = Le Mont Hyjal et le Cadeau d'Illidan : Illidan versa dans un lac du Mont Hyjal de l'eau sauvée du premier Puits d'éternité, créant un second Puits. Son frère y vit un danger là où Illidan croyait avoir fait un cadeau.
 + Le livre raconte que les elfes de la nuit craignaient de provoquer une nouvelle catastrophe en détruisant le nouveau Puits. Ils laissèrent les eaux en place et emprisonnèrent le frère qui les y avait versées.
-! Tranquille
+! Calme
 
 ## quarry
 Parmi les grells des tours en ruine, cherchez-en un qui a son propre nom.

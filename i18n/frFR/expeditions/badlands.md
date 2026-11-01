@@ -1,5 +1,5 @@
 ---
-source: 8ab0acda41d0
+source: 675f9323e823
 zone: 1418
 ---
 ## badlands-hidden-crypt
@@ -17,7 +17,7 @@ Trouvez la chambre, et rendez à celui qui a survécu à sa propre chair ce que 
 Au sud de la palissade de la Horde, sur les falaises de l'ouest,
 est mort quelque chose de plus grand qu'un donjon, et il gît là où il est tombé :
 une cage de côtes que les vautours ont depuis longtemps nettoyée.
-Il a un nom sur les cartes, et rien de plus. Contemplez ce qu'il en reste parmi ses os.
+Il a un nom sur les cartes, et rien de plus. Marchez parmi ses os, et émerveillez-vous de leur taille.
 ? Au sud de Kargath, du côté ouest des Terres ingrates. Au milieu des os, regardez comme ils sont grands.
 = Le repos d'Apocryphan : le squelette d'un dragon, au sud de Kargath. À qui étaient ces os, personne dans les Terres ingrates ne le dit.
 + Le vol draconique noir garde toujours un ravin à lui, à l'extrême est de l'étendue.

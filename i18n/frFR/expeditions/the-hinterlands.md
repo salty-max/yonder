@@ -1,12 +1,12 @@
 ---
-source: 830bbbd50cc4
+source: cfcdd56763e0
 zone: 1425
 ---
 ## the-hinterlands-plaguemist
 À l'ouest du gîte des elfes, un ravin monte hors des collines vertes,
 et il y flotte une brume qui ne leur appartient pas :
 l'air du pays mort y descend depuis le nord.
-Montez dedans, et vous la reconnaîtrez au goût.
+Montez dedans, et son goût vous prendra à la gorge.
 ? Le ravin de Pestebrume, au nord-ouest du gîte de Quel'Danil. L'air de ce ravin a de quoi faire tousser.
 = Le ravin de Pestebrume : une sortie des Hinterlands, vers le nord, Caer Darrow et les Maleterres de l'ouest, avec la brume de la peste dedans.
 + Rien n'y vit et rien n'y attend. Ce n'est qu'une route, et la brume.
@@ -15,9 +15,9 @@ Montez dedans, et vous la reconnaîtrez au goût.
 
 ## the-hinterlands-seradane
 Au nord-est des Hinterlands, des dragons verts gardent une porte
-qui s'ouvre sur ce qu'aucun être éveillé n'a jamais vu.
+qui s'ouvre sur un monde qu'aucun être éveillé n'a jamais vu.
 Il y a quatre portes de ce genre en ce monde.
-Aucune n'est faite pour les yeux éveillés.
+Aucune n'est faite pour des yeux éveillés : fermez les vôtres.
 ? Seradane, au nord-est des Hinterlands. Dormez devant la porte. Attendre les yeux ouverts ne vous mènera nulle part.
 = Seradane : l'une des quatre portes du Rêve d'émeraude, gardée par les drakes verts Cherche-rêve et Rothos. Ses soeurs se dressent dans le bois de la Pénombre, en Orneval et en Feralas.
 + Sur la colline au nord gît le crâne d'un dragon que personne n'a nommé, à l'intérieur d'un cercle de pierres semblable aux cercles des Hautes-terres Arathies.
@@ -46,6 +46,6 @@ Dérangez-le.
 ## quarry
 Parmi les ruines trolles à l'est des collines,
 un géant des collines marche seul, sans se presser.
-Cherchez-le sur le terrain en contrebas de la grande cité des trolls.
-= Grimungous, un géant des collines élite, qui arpente les ruines de Shaol'watha.
+Cherchez-le au pied de la grande cité des trolls.
+= Grimungous, un géant des collines d'élite, qui arpente les ruines de Shaol'watha.
 + Quand on se presse autour de lui, il frappe du pied, et les plus proches sont étourdis.

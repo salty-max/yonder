@@ -1,5 +1,5 @@
 ---
-source: 2337d6334587
+source: cfdfc77311a7
 zone: 1423
 ---
 ## eastern-plaguelands-mirador
@@ -13,9 +13,9 @@ Faites-vous un ami du cheval.
 
 ## eastern-plaguelands-pestilent-scar
 Dans l'est pestiféré, la terre s'effondre en une gorge profonde,
-peut-être un lac qui s'est asséché quand la peste est venue.
+plus ancienne que la peste, son fond asséché depuis longtemps.
 Seules des vases vivent au fond désormais.
-Trouvez son bord, prenez garde où vous mettez les pieds, et voyez jusqu'où elle descend.
+Trouvez son bord, prenez garde où vous mettez les pieds, et laissez votre regard suivre la chute jusqu'au fond.
 ? La Balafre pestilentielle, au sud-est des Maleterres de l'est. Depuis son bord, scrutez ses profondeurs.
 = La Balafre pestilentielle : un gouffre profond dans la terre flétrie. Contrairement à la Balafre infecte, elle semble l'oeuvre de la terre elle-même : une gorge naturelle, peut-être un lac que la peste a asséché.
 + Ses vases sont de la même engeance que la peste : pourriture vivante et vase pourrissante, au fond du gouffre.

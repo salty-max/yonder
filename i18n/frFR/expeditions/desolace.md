@@ -1,5 +1,5 @@
 ---
-source: 3a71fc994c09
+source: ec3f1433bfa5
 zone: 1443
 ---
 ## desolace-narv
@@ -16,7 +16,7 @@ Demandez-lui.
 Au nord de la forteresse de la Lame ardente, les pierres d'une ville elfe gisent éparpillées dans la poussière.
 Aucun elfe n'y a vécu depuis que le monde s'est brisé.
 Les bêtes de l'étendue l'ont désormais. Accordez un moment à ceux qui ont bâti ces murs.
-? Tethris Aran, au nord de Désolace. Au milieu des ruines, exprimez votre deuil pour la ville disparue.
+? Tethris Aran, au nord de Désolace. Au milieu des ruines, recueillez-vous pour la ville disparue.
 = Tethris Aran : les ruines d'une ville elfe de la nuit au nord de Désolace. Seules des bêtes y vivent aujourd'hui.
 + Plus à l'est, les satyres tiennent une autre ruine de ce genre, qu'ils ont nommée Sargeron, d'après leur maître.
 ! Gardé (basilics, scorpides et pattes-d'os affamées, niveaux 30 à 32)

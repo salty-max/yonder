@@ -17,7 +17,7 @@ tout comme le grand barrage du lac au-delà. Entrez.
 Au sud-ouest de la gorge, une caverne est scellée sous les montagnes,
 et il n'y a rien à son entrée que de la roche noire.
 Allez-y et étudiez votre carte, pas la roche :
-quelque chose dans les montagnes vous regarde aussi.
+quelque chose dans les montagnes vous dévisage.
 ? La caverne de Noircharbon, à la lisière sud-ouest de la gorge des Vents brûlants. Devant la caverne, regardez le visage sur votre minicarte.
 = La caverne de Noircharbon, scellée. Et dans les montagnes au-dessus, sur la minicarte, se dessine ce qui ne peut être qu'un visage.
 + La caverne garde son sceau toute l'année. C'est seulement à la fête lunaire qu'un ancien de Forgefer vient se tenir à son entrée.

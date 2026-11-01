@@ -25,7 +25,7 @@ Trouvez-le.
 Au bord d'un lac du nord, une cité elfique se dressait avant que le monde ne soit brisé.
 La Fracture la laissa en ruines, et l'hiver vint ensuite.
 Son peuple ne l'a jamais quittée. Il y erre encore, et il n'est pas en paix.
-On lui doit un moment de recueillement.
+On lui doit un moment de deuil.
 ? Les ruines de Kel'Theril, au bord du lac : pleurez les morts de la cité.
 = Les ruines de Kel'Theril, une cité des Bien-nés elfes de la nuit, détruite lors de la Grande Fracture. Ses esprits tourmentés, les Bien-nés souffrants et les Bien-nées angoissées, la hantent encore.
 + Les Bien-nés étaient les nobles de la reine Azshara. Leur magie imprudente attira la Légion ardente dans le monde et mena à la Fracture qui brisa leur propre cité.

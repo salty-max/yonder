@@ -1,5 +1,5 @@
 ---
-source: 78daa7dcd9c6
+source: c6fcb8de1043
 zone: 1417
 ---
 ## arathi-highlands-coastal-farm
@@ -17,7 +17,7 @@ Suivez le rivage jusqu'à ce que les béliers aient une étable.
 Au bord nord-ouest des hautes-terres, un mur du premier royaume des hommes
 longe la frontière, par-dessus les collines, aussi loin que porte la vue.
 On l'éleva contre les trolls, il y a longtemps. Aujourd'hui il bée, percé de part en part.
-Allez à son pied, et contemplez ce qu'il en reste.
+Allez à son pied, et demandez-vous ce qu'il tenait autrefois à l'écart.
 ? Le bord nord-ouest d'Arathi, là où les hautes-terres rejoignent les contreforts. Devant le mur brisé, songez à ce qu'il tenait autrefois à distance.
 = Le mur de Thoradin, élevé par le roi Thoradin d'Arathor, le premier royaume des hommes, contre les trolls amani, brisé désormais et grand ouvert.
 + "Jadis symbole de la force et de la puissance défensive de l'humanité", dit de lui un vieux relevé de ces terres, "aujourd'hui livré à la ruine et à la guerre."
@@ -37,7 +37,7 @@ L'histoire est gardée sur une page.
 Au sud du bastion de la Horde dans les hautes-terres, l'herbe cède la place aux premières collines rocheuses.
 Dans l'une d'elles, quelqu'un a taillé trois lettres, assez grandes pour se lire depuis l'herbe en contrebas,
 et depuis, la colline tient le même discours à chaque passant.
-Trouvez l'angle qui les révèle, et donnez à la colline la réponse qu'elle attend.
+Trouvez l'angle qui les révèle. La colline s'amuse : prenez la plaisanterie comme elle est faite.
 ? Au sud-est de Trépas-d'Orgrim, au pied des premières collines rocheuses. Depuis l'herbe, tournez-vous vers la pente à l'est jusqu'à ce que les trois lettres apparaissent, et riez avec elle.
 = La colline qui rit, au sud-est de Trépas-d'Orgrim : LOL, taillé dans la pente pour qui se tient au bon angle.
 + Sous tout autre angle, les lettres se fondent dans l'herbe et la roche, et la colline n'a plus rien à dire.

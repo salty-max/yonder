@@ -1,5 +1,5 @@
 ---
-source: 479e772ce774
+source: c30b46fdc458
 zone: 1437
 ---
 ## wetlands-dun-modr
@@ -43,7 +43,7 @@ Trouvez la page qui raconte comment elle fut libérée.
 
 ## quarry
 À l'est des Paluns, une crête des raptors a sa caverne.
-Cherchez la matriarche parmi la couvée des hautes-terres et des anciens.
+Cherchez la matriarche parmi la couvée, tranchegueules des hautes-terres et anciens.
 Leur mère ne garde pas une maison vide.
-= La matriarche tranchegueules, niveau 31, dans la caverne de la crête des Raptors, avec ses tranchegueules des hautes-terres et ses anciens tranchegueules.
+= La matriarche tranchegueules, de niveau trente et un, dans la caverne de la crête des Raptors, avec ses tranchegueules des hautes-terres et ses anciens tranchegueules.
 + Elle ne s'éloigne jamais de sa couvée : la caverne, et la pente devant.

@@ -1,5 +1,5 @@
 ---
-source: 8a7631bce8e8
+source: dea53b681f1a
 zone: 1420
 ---
 ## tirisfal-glades-zapetta
@@ -29,7 +29,7 @@ Seuls les morts et les affamés y viennent aujourd'hui. Souvenez-vous de ce qu'i
 ? À l'ouest de Brill, à l'écart de la route du Glas : un étang gris, presque oublié. Laissez échapper un soupir pour ce que l'étang a perdu.
 = L'Etang immobile, jadis le coin de pique-nique des clairières. Des sombredogues chassent sur ses rives aujourd'hui.
 + Le lac Etincelant, à l'est de Brill, était pour les plus grands : bien plus vaste, et bien plus profond.
-! Calme (des sombredogues, et Bayne, un rare, qui rôde tout près)
+! Calme (des sombredogues, et Bayne, une créature rare, qui rôde tout près)
 @ Etang immobile
 
 ## tirisfal-glades-whispering-gardens
@@ -48,7 +48,7 @@ Au nord du monastère des croisés rouges, la peste n'est jamais venue :
 les haies y sont vertes, entretenues par la Croisade,
 et une fontaine y coule d'une eau fraîche, comme rien d'autre dans ces clairières.
 Goûtez ce que les vivants gardent pour eux.
-? Derrière le Monastère écarlate, sur ses terres du nord : un jardin qu'entretient la Croisade. Faites mine de boire près de la fontaine. Nul besoin d'une bouteille.
+? Derrière le Monastère écarlate, sur ses terres du nord : un jardin qu'entretient la Croisade. Buvez près de la fontaine. Nul besoin de bouteille.
 = La Terrasse de la quiétude : l'un des très rares lieux du nord de Lordaeron que la peste n'a jamais atteints.
 + Partout ailleurs à Tirisfal, l'eau croupit.
 ! Périlleux (les élites de la Croisade écarlate, niveaux 29 à 31)
@@ -61,7 +61,7 @@ qui donna à la Lumière ses premiers chevaliers.
 Faites-y ce qu'il apprit à un royaume à faire, si la Croisade vous laisse.
 ? Au sud-ouest du Monastère écarlate, là où ses morts reviennent. Priez devant la sépulture de l'archevêque.
 = Le repos de Faol, sous les yeux des fanatiques qui revendiquent sa Lumière.
-+ Hurlevent se souvient de lui aussi : une plaque dans sa cathédrale l'appelle "bienveillant protecteur de l'Eglise de la Lumière", qui commença son oeuvre à Stratholme et leva les fonds pour rebâtir Hurlevent après la Deuxième Guerre.
++ Le premier de ses chevaliers fut Uther, que le monde appellerait un jour le Porteur de Lumière.
 ! Périlleux (la Croisade écarlate)
 @ Repos de Faol
 

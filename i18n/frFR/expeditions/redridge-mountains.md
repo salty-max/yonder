@@ -1,5 +1,5 @@
 ---
-source: 38c794daa34f
+source: 53edf8697852
 zone: 1433
 ---
 ## redridge-mountains-docks
@@ -18,7 +18,7 @@ Tout au sud-est, les orcs Rochenoire tiennent un camp dans une vallée,
 et près de leur feu est assis un gnome, un boulet aux pieds.
 Il a servi jadis la tour d'un mage, et il a encore des marchandises,
 pour qui peut l'atteindre : du fil, de la teinture, et des capes dignes d'une tour.
-Soyez $ggentil:gentille; avec lui.
+Soulagez son moral, à défaut de ses chaînes.
 ? La vallée des Etripeurs, au sud-est des Carmines, dans le camp Rochenoire. Réconfortez le gnome captif près du feu.
 = Le Serviteur d'Azora capturé, un gnome de la tour d'Elwynn, enchaîné dans le camp Rochenoire, et qui vend toujours des fournitures de couture.
 + Il ne garde qu'un exemplaire de chaque cape : la Cape d'Inferno, la Cape spirituelle et la Cape sylvestre. La Cape d'Inferno protège du feu, ce qui est bien utile dans une vallée tenue par les Rochenoire.
@@ -30,7 +30,7 @@ Sa cité tomba, et sa mort vint d'une lame déjà dans ses murs.
 Le récit attend sur une page.
 ? Comté-du-Lac, près de l'auberge. Lisez le récit de la chute de la capitale humaine.
 = La Porte des ténèbres et la chute de Stormwind. Llane tint sa capitale, certain que les orcs ne pourraient jamais la prendre. Garona le tua quand elle tomba.
-+ Dans le même livre, un nourrisson orc, le fils de Durotan, trouvé par un officier humain nommé Blackmoore et réduit en esclavage : "Ce petit orc allait un jour devenir le plus grand chef que son peuple ait jamais connu."
++ Dans le même livre, un nourrisson orc, le fils de Durotan, est trouvé par un officier humain nommé Blackmoore et réduit en esclavage. "Ce petit orc allait un jour devenir le plus grand chef que son peuple ait jamais connu."
 ! Calme
 
 ## redridge-mountains-hooper
@@ -40,7 +40,7 @@ et dit à un shérif que ce n'était pas un accident de bateau.
 Rattrapez-le pendant sa ronde.
 ? Comté-du-Lac, dans les Carmines : le maître de pêche fait les cent pas sur la rive près des quais. Rattrapez-le et ciblez-le.
 = Matthew Hooper, maître de pêche de Comté-du-Lac : "Je peux vous apprendre à pêcher."
-+ Le lac de Comté-du-Lac n'a pas de requin, mais ses pêcheurs ne laissent pas Hooper chômer.
++ Le lac n'a pas de requin, mais ses pêcheurs ne laissent pas Hooper chômer.
 ! Calme
 
 ## quarry

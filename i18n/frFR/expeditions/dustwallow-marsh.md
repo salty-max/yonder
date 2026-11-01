@@ -12,7 +12,7 @@ pour laquelle une elfe garde une archimage des humains. Rendez-lui les honneurs 
 ! Calme
 
 ## dustwallow-marsh-brackenwall
-Les ogres du sud du marais ont perdu leur village sous le feu des dragons noirs,
+Les ogres du sud du marais ont perdu leur village face aux dragons noirs,
 et les survivants sont venus au nord en bâtir un autre aux côtés de la Horde.
 L'un d'eux découpe à présent la viande que le village vend aux voyageurs.
 Demandez-lui ce qu'il a sur son billot.
@@ -25,5 +25,5 @@ Demandez-lui ce qu'il a sur son billot.
 Au sud du marais, là où le vol draconique noir élève ses petits,
 cherchez un drake parmi les dragonnets.
 Trouvez-le sans vous mettre toute la couvée à dos.
-= Soufresang, un drake noir élite du sud d'Âprefange.
+= Soufresang, un drake noir d'élite du sud d'Âprefange.
 + Les dragonnets et les drakes de cette tourbière sont la couvée d'Onyxia : son repaire s'ouvre dans les falaises de la même tourbière du Ver.

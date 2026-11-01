@@ -1,5 +1,5 @@
 ---
-source: 1d6af050644a
+source: 397ea119778a
 zone: 1441
 ---
 ## thousand-needles-raceway
@@ -23,10 +23,10 @@ Un bon chien mérite une main bienveillante.
 ! Calme
 
 ## thousand-needles-cliff-racer
-À l'est de la piste des gobelins, deux traces de dérapage quittent la piste et ne reviennent jamais.
+À l'est de la piste des gobelins, deux traces de dérapage quittent le circuit et n'y reviennent jamais.
 Au bout de ces traces, un bolide a pris le virage bien trop vite,
 et pend depuis à mi-hauteur de la falaise.
-Trouvez le bolide qui n'a jamais fini la course, suspendu bien au-dessus de votre tête.
+Trouvez le bolide qui n'a jamais fini la course, et désignez aux autres l'endroit où il pend.
 ? Les Salines, à l'est de la piste des Mirages, sous les falaises de l'est. Allez au pied de la falaise, et montrez du doigt le bolide accroché à la roche.
 = Le bolide de la falaise : un bolide gobelin écrasé à mi-hauteur de la paroi est des Salines, resté là où il s'est arrêté.
 + Les bolides de la piste ont la forme des modules de course de la grande course du désert d'un autre monde, et celui-ci celle de son tricheur le plus célèbre.

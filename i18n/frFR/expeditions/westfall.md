@@ -1,5 +1,5 @@
 ---
-source: 2cd8ad1dd935
+source: ac1be1937405
 zone: 1436
 ---
 ## westfall-aegwynn
@@ -8,7 +8,7 @@ cherchez la victoire d'une jeune femme sur un dieu déchu.
 Elle crut avoir mis fin au danger. La page se souvient de ce qui la suivit chez elle.
 ? La ferme des Saldean, au nord de la colline des Sentinelles. Ouvrez le livre posé sur l'étagère de la ferme.
 = Aegwynn et la chasse au dragon, sur l'étagère des Saldean. Une ferme est un drôle d'endroit pour garder le récit de la Gardienne qui abattit le corps de Sargeras.
-+ "Aegwynn ne sut jamais qu'elle avait exactement suivi le plan de Sargeras" : son esprit passa en elle et resta caché dans son âme pendant des années.
++ Aegwynn ne sut jamais qu'elle avait suivi le plan de Sargeras : son esprit passa en elle et resta caché dans son âme pendant des années.
 ! Calme
 
 ## westfall-dead-acre
@@ -26,5 +26,5 @@ sont les plus forts qui restent à l'ouest. Pleurez la ferme, et ne vous arrête
 Un charognard bien trop grand pour ces champs fond sur l'un d'eux à la fois,
 n'importe où entre le champ de potirons du nord et les plaines de poussière du sud.
 Son piqué vous laisse $gétourdi:étourdie;.
-= Vultros, un charognard de niveau 26, bien plus fort que les charognards ordinaires de la Marche de l'Ouest.
+= Vultros, un charognard de niveau vingt-six, bien plus fort que les charognards ordinaires de la Marche de l'Ouest.
 + On l'a vu aussi près de l'étang de Stendel, de la colline des Sentinelles et de l'acre mort, ainsi que dans les fermes du nord et la poussière du sud.

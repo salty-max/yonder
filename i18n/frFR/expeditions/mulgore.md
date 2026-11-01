@@ -1,12 +1,12 @@
 ---
-source: f62fab0fbc33
+source: 040d53c77c38
 zone: 1412
 ---
 ## mulgore-rolling-plains
 Au sud-est des plaines, là où l'herbe ondule et descend vers le pays sec,
 loups et kodos, trotteurs et couguars partagent le terrain découvert,
 et de temps à autre des cavaliers venus d'au-delà de la frontière :
-le seul endroit où ils soient jamais entrés sur la terre des taurens. Ouvrez l'oeil.
+le seul coin de la terre des taurens qu'ils aient jamais atteint. Scrutez l'horizon pour les repérer.
 ? Au sud-est de Sabot-de-Sang, vers les Tarides : l'herbe qui ondule jusqu'à la frontière. Scrutez la plaine. Nul besoin d'attendre les cavaliers.
 = Les plaines vallonnées : la seule partie de Mulgore où les estafettes des centaures ont pénétré.
 + Au nord, au-delà de Sabot-de-Sang, les plaines dorées autour de la falaise sont les terrains de chasse les plus chers aux taurens.
@@ -24,7 +24,7 @@ et finit par deux rois au bord d'une route de montagne.
 
 ## quarry
 Dans l'herbe dorée à l'est de la falaise, un lion chasse seul,
-plus rapide des griffes que les autres félins des plaines.
-Les chasseurs de la falaise préféreraient l'apprivoiser plutôt que l'écorcher.
+plus vif de la griffe que les autres félins des plaines.
+Les chasseurs de la falaise aimeraient mieux l'apprivoiser que l'écorcher.
 = Le Rake, un lion des plaines dorées. Il frappe plus vite que presque toutes les bêtes qu'un chasseur peut dresser, ce qui en a fait l'un des compagnons les plus courants du pays.
 + On ne l'a jamais rencontré hors des plaines dorées, les terrains de chasse les plus chers aux taurens.

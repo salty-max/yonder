@@ -30,7 +30,7 @@ les actes de son fils. Rendez-lui le respect que son fils ne lui a pas rendu.
 ! Calme
 
 ## undercity-edward-tyler
-Dans le quartier de la Guerre de la cité des morts, deux hommes se battent depuis bien avant votre arrivée,
+Dans le quartier de la Guerre, au cœur de la cité des morts, deux hommes se battent depuis bien avant votre arrivée,
 et se battront encore longtemps après votre départ. Personne ne les arrête. Personne ne demande pourquoi.
 Il existe une règle pour ce genre de combat, et c'est la première.
 Respectez-la.

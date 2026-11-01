@@ -7,7 +7,7 @@ Les nains parlent encore d'un bélier de Khaz Modan,
 trop grand pour qu'aucun érudit l'explique et infatigable au-delà de toute raison.
 Dans leur cité, sa réplique se dresse, os compris, à l'échelle.
 Passez dessous, et soyez aussi $gimpressionné:impressionnée; que les conteurs.
-? Le hall des Explorateurs. Sous le squelette, un souffle de surprise serait bien naturel.
+? Le hall des Explorateurs. Sous le squelette, une exclamation de surprise serait bien naturelle.
 = Le squelette de Grincedents, une réplique à l'échelle.
 + "Le bélier légendaire était une des merveilles de Khaz Modan et peuple de sa présence le folklore des nains."
 ! Calme

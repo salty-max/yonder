@@ -1,5 +1,5 @@
 ---
-source: 962d2e8d3ed8
+source: f9df5867edf9
 zone: 1424
 ---
 ## hillsbrad-foothills-zixil
@@ -10,7 +10,7 @@ ceintures, orbes, un patron ou deux, un seul de chaque à la fois.
 Attrapez-le sur la route.
 ? La route d'Austrivage à Moulin-de-Tarren. Il la parcourt d'un bout à l'autre. Laissez le gobelin vous montrer ses marchandises. Votre bourse peut rester fermée.
 = Zixil, marchand suprême, un gobelin qui commerce à la fois à Austrivage et à Moulin-de-Tarren, avec Vigilant modèle 1, son robot, sur les talons.
-+ Son schéma apprend à un ingénieur à fabriquer le Défibrillateur gobelin, qui peut ramener à la vie un compagnon tombé par une décharge. Le mot "peut" mérite qu'on s'en souvienne.
++ Son schéma apprend à un ingénieur à fabriquer le Défibrillateur gobelin, dont la décharge peut ramener un compagnon tombé à la vie.
 ! Disputé (la route entre les deux villes)
 
 ## hillsbrad-foothills-gryphons
@@ -26,11 +26,11 @@ Rendez-leur les honneurs d'un soldat.
 ## hillsbrad-foothills-loving-memory
 Au sud du donjon des nains, une grande pierre
 garde un nom et deux années, et rien de plus.
-Quelqu'un a veillé à ce qu'elle soit là, pour quelqu'un qu'il a perdu.
+Quelqu'un a veillé à ce qu'elle soit là, pour quelqu'un qu'on avait perdu.
 Accordez un instant de respect à la personne dont cette pierre garde la mémoire.
 ? Sous Dun Garok, vers la mer. Agenouillez-vous près de la pierre commémorative.
 = "Anthony Ray Stark. 1961 - 2005."
-+ Un mémorial que les créateurs du monde ont laissé pour l'un de leurs amis. Rousch, le nain qui se tient devant, était son propre personnage dans le jeu. Il l'avait mené jusque vers le niveau quarante et quelques.
++ Un mémorial que les créateurs du monde ont laissé pour l'un de leurs amis. Rousch, le nain qui se tient devant, était le propre personnage de cet ami dans le jeu, monté jusqu'au niveau quarante et quelques.
 ! Calme
 
 ## hillsbrad-foothills-southshore
@@ -66,5 +66,5 @@ Des nagas ont débarqué sur le rivage oriental de Hautebrande,
 rôdeurs du rivage et hurleuses des Daguéchine,
 et l'une d'elles porte un nom de dame.
 Elle se tient sur le sable où ils ont abordé, et n'y est pas toujours.
-= Dame Zephris, une naga Daguéchine. Rarement rencontrée : certains jours elle est sur le rivage, la plupart du temps non.
+= Dame Zephris, une naga Daguéchine. Rarement rencontrée : certains jours elle est sur le rivage, la plupart des jours elle n'y est pas.
 + En remontant le rivage ouest, Scargil, des murlocs Aileron déchiré, n'est pas plus facile à trouver.

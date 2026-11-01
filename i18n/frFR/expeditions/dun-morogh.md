@@ -1,14 +1,14 @@
 ---
-source: d438b4d3d089
+source: 10c589e9b208
 zone: 1426
 ---
 ## dun-morogh-empty-camp
 Au sud-ouest de la bruyante compagnie de l'armurier,
 un autre camp n'a personne pour répondre.
 Un jeune ours noir rôde près de leur ancien abri.
-Trouvez ce que les campeurs ont laissé derrière eux, et demandez-vous pourquoi.
-? Juste au sud-ouest du stand de tir de Rumbleshot, cherchez le camp abandonné près d'un jeune ours noir. Dans le camp, réfléchissez à la raison de leur départ. L'ours n'a pas besoin d'être là.
-= Un camp abandonné à quelques pas du stand de tir de Rumbleshot. Un jeune ours noir rôde à proximité, mais on ignore pourquoi les campeurs sont partis.
+Trouvez l'endroit que les campeurs ont laissé derrière eux, et demandez-vous pourquoi ils sont partis.
+? Juste au sud-ouest du champ de tir de Rumbleshot, cherchez le camp abandonné près d'un jeune ours noir. Dans le camp, réfléchissez à la raison de leur départ. L'ours n'a pas besoin d'être là.
+= Un camp abandonné à quelques pas du champ de tir de Rumbleshot. Un jeune ours noir rôde à proximité, mais on ignore pourquoi les campeurs sont partis.
 + Peut-être que l'ours a trouvé le camp vide. Peut-être que les campeurs ont trouvé l'ours en premier. La Ligue n'a aucun témoin à interroger, et l'ours ne tranchera sans doute pas la question.
 ! Gardé (un jeune ours noir)
 @ Le camp abandonné
@@ -20,14 +20,14 @@ poliment, et très fermement.
 Trouvez ce qu'il a gravé à côté.
 ? Au pied de la route qui monte à Forgefer, une enclume a un propriétaire, et le fait savoir. Ouvrez et lisez le texte près de l'enclume.
 = "Cette enclume est la propriété de Jordan Stilwell. NE PAS utiliser !" Forgefer compte un grand nombre d'enclumes. Celle-ci est prise.
-+ Jordan Stilwell n'est pas un nain : c'est un forgeron humain qui a une maison à Longrivage, dans la Marche de l'Ouest, qui voulait devenir paladin avant que la forge ne l'emporte, et qui est venu travailler auprès des nains pendant que sa femme, Daphné, l'attendait au bord de la mer. Les paladins qui réussissent ses épreuves portent un marteau qu'il forge et nomme d'après un paladin nain qu'il appelait son ami.
++ Jordan Stilwell n'est pas un nain : c'est un forgeron humain qui a une maison à Longrivage, dans la Marche de l'Ouest. Il voulait devenir paladin avant que la forge ne l'emporte, et il est venu travailler auprès des nains pendant que sa femme, Daphné, l'attendait au bord de la mer. Les paladins qui réussissent ses épreuves portent un marteau qu'il forge et nomme d'après un paladin nain qu'il appelait son ami.
 ! Calme
 
 ## dun-morogh-tog
 Dans la ville des brasseurs, au coeur des neiges,
 un gnome qui ne les supporte pas se tient là et ronchonne :
 la neige trempe sa robe et gâche tout ce qu'il possède.
-Trouvez-le, et laissez-le vous raconter ça.
+Trouvez-le, et laissez-le vous en faire part.
 ? Kharanos : parmi ses habitants, un gnome à la robe mouillée. Parlez au gnome qui se plaint.
 = Tog Rustsprocket, de Kharanos : "Si seulement la neige pouvait fondre complètement. Elle mouille constamment ma robe et salit tout !"
 + Il garde un message pour les démonistes qui passent par là, et les envoie à Lago Blackwrench.
@@ -40,7 +40,7 @@ Deux fusiliers se chamaillent, mais le mortier a le dernier mot.
 Dix doigts font de piètres bouchons d'oreilles, mais vous n'avez que ça.
 ? Le camp de Hegnar Rumbleshot, sur la route de la passe des Frigères à Kharanos. Bouchez-vous les oreilles au champ de tir.
 = Le champ de tir de Rumbleshot. De temps à autre, les cinq nains du camp s'y rendent. D'abord les fusiliers Middlecamp et Wheeler, qui tirent sur une cible orc et une rangée de bouteilles. Puis l'équipe de mortier, Angus et Shorty, fait feu tour à tour sur trois mannequins, pendant que l'éclaireur Klemmy court dans tous les sens.
-+ Middlecamp manque deux fois la cible orc et deux fois les bouteilles, tandis que Wheeler touche la cible sans même essayer, et la cible du milieu en plein centre. Puis Wheeler ne touche que le flanc de la caisse des bouteilles, et c'est Middlecamp qui abat le mannequin orc, se tourne vers la cible en papier et tire de la hanche sur les bouteilles.
++ Middlecamp rate tout jusqu'à la toute fin, puis touche le tout en tirant de la hanche.
 ! Calme
 @ Champ de tir de Rumbleshot
 

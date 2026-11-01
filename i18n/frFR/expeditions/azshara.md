@@ -1,5 +1,5 @@
 ---
-source: ce4d7154e4e7
+source: 5419b3488b44
 zone: 1447
 ---
 ## azshara-ravencrest
@@ -16,7 +16,7 @@ et à ses démons, quand le monde fut brisé. Trouvez ce qu'il reste de lui, et 
 ## azshara-lake-mennar
 Au sud de l'ancien pays des elfes, des draconiens du vol bleu tiennent les rives d'un lac,
 loin du nord glacé auquel appartient leur espèce.
-À l'intérieur de leur cercle, le lac lui-même est calme. Passez-les, et rafraîchissez-vous à l'eau.
+À l'intérieur de leur cercle, le lac lui-même est calme. Trouvez un passage à travers eux, et rafraîchissez-vous à l'eau.
 ? Le lac Mennar, au sud d'Azshara. Asseyez-vous un moment au bord de l'eau.
 = Le lac Mennar : des draconiens bleus en tiennent les rives, plaiedécailles, tisse-magie et seigneurs-mages, loin du foyer de leur vol, dans le nord.
 + Les grottes de Mazthoril, au Berceau-de-l'Hiver, sont un autre refuge du vol bleu hors de Norfendre.
@@ -27,9 +27,9 @@ loin du nord glacé auquel appartient leur espèce.
 Passé la Baie des tempêtes, à l'extrême pointe des terres,
 les elfes de l'ancien empire ont laissé une tour, et l'ont fermée derrière eux.
 Personne ne l'a ouverte depuis.
-Trouvez sa porte. Nul ne sait ce qu'elle renferme.
+Trouvez sa porte, et demandez-vous ce qu'elle renferme.
 ? La Tour d'Eldara, à la pointe nord-est d'Azshara, au-delà de la Baie des tempêtes. Devant la tour close, songez à ce qu'elle renferme.
-= La Tour d'Eldara : un vestige de la civilisation des elfes de la nuit qui couvrait autrefois presque tout Azshara, fermée et abandonnée à la pointe des terres.
+= La Tour d'Eldara : un vestige de la civilisation des elfes de la nuit qui couvrait autrefois presque tout Azshara, close et abandonnée à la pointe des terres.
 + Toute la contrée porte encore le nom de la reine qui régnait sur cette civilisation, et qui attira la Légion ardente dans le monde.
 ! Périlleux (fouilleurs makrinni, vandales des flots et guerriers de la baie des tempêtes, niveaux 51 à 53)
 
