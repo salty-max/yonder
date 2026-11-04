@@ -4,7 +4,7 @@
 ## Notes-frFR: Résolvez des énigmes d'exploration, traquez des créatures rares et tenez un journal des créatures, lieux, poissons, plantes et matériaux que vous découvrez.
 ## Category: Achievements
 ## Author: salty-max
-## Version: 0.15.0
+## Version: 0.15.1
 ## SavedVariablesPerCharacter: YonderChar
 ## SavedVariables: YonderSettings, YonderCollect
 ## IconTexture: Interface\AddOns\Yonder\Media\Logo
