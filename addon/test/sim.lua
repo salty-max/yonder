@@ -688,6 +688,30 @@ check(
     and ns.placeText(seen(1131).places[2]) == "Dun Morogh: Coldridge Pass",
   "a creature remembers the places it was met, by their area ids, named by the game"
 )
+if FOREVER then
+  -- a map position the game keeps secret: the creature is noted, with its place and no coordinates
+  local back = { state.x, state.y }
+  state.x, state.y = 0.4375, 0.8125
+  secrets[0.4375] = true
+  check(pcall(target, 99003), "Forever: a secret map position when a creature is met: no error")
+  check(
+    seen(99003) and seen(99003).first.x == nil and seen(99003).first.y == nil and seen(99003).first.map ~= nil,
+    "… the place kept, no coordinates"
+  )
+  secrets[0.4375] = nil
+  state.x, state.y = back[1], back[2]
+  -- the target's own name secret while the event's name is plain (the sim can't make a comparison raise as the client does: this pins that the read goes through)
+  local hidden = {}
+  secrets[hidden] = true
+  local named = NAMES[1131]
+  NAMES[1131], state.target = hidden, 1131
+  check(
+    pcall(fire, "UNIT_SPELLCAST_SENT", "player", "Winter Wolf", "cast-1", 8613),
+    "Forever: a unit name kept secret at the start of a skinning: no error"
+  )
+  NAMES[1131] = named
+  state.target = nil
+end
 
 -- Slaying: my killing blow or my pet's, however dealt.
 local spawn = 0

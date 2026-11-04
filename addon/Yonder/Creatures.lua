@@ -168,6 +168,11 @@ end
 local function here()
   local map = C_Map.GetBestMapForUnit("player")
   local pos = map and C_Map.GetPlayerMapPosition(map, "player")
+  -- (a position or a coordinate the game keeps secret: the place, no coordinates)
+  local px, py
+  if pos and not secret(pos) and not secret(pos.x) and not secret(pos.y) then
+    px, py = pos.x, pos.y
+  end
   return {
     at = time(),
     level = UnitLevel("player"),
@@ -176,8 +181,8 @@ local function here()
     zone = ns.areaKey(GetRealZoneText()) or GetRealZoneText(),
     sub = ns.areaKey(GetSubZoneText()) or GetSubZoneText(),
     map = map,
-    x = pos and math.floor(pos.x * 1000 + 0.5) / 10,
-    y = pos and math.floor(pos.y * 1000 + 0.5) / 10,
+    x = px and math.floor(px * 1000 + 0.5) / 10,
+    y = py and math.floor(py * 1000 + 0.5) / 10,
   }
 end
 

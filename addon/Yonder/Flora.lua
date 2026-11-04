@@ -251,7 +251,8 @@ local function skinSource(targetName)
   for _, unit in ipairs({ "target", "mouseover" }) do
     local guid = UnitGUID(unit)
     local kind = entity(guid)
-    if kind == "Creature" and (not targetName or UnitName(unit) == targetName) then
+    local name = targetName and UnitName(unit)
+    if kind == "Creature" and (not targetName or (not secret(name) and name == targetName)) then
       if source and source ~= guid then return nil end -- ambiguous corpses
       source = guid
     end
