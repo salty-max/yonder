@@ -2965,4 +2965,15 @@ do
   check(YonderChar.seen[1131].name == nil, "an older journal's creature name let go at the login: kept by its id")
 end
 
+-- the key binding (Bindings.xml calls this global): it opens and closes the window as ns.toggle does
+do
+  check(type(YonderBinding) == "function", "the key binding's function is there")
+  local was = YonderFrame and YonderFrame:IsShown() or false
+  YonderBinding()
+  check(YonderFrame and YonderFrame:IsShown() == not was, "the key binding opens the window")
+  YonderBinding()
+  check(YonderFrame:IsShown() == was, "… and a second press closes it")
+  check(BINDING_HEADER_YONDER ~= nil, "… under the addon's own heading")
+end
+
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

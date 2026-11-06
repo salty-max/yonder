@@ -285,3 +285,7 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   `CURSEFORGE_TOKEN`) and Wago Addons (`X-Wago-ID`, secret
   `WAGO_API_TOKEN`). `--hold`: GitHub alone (variable `HOLD_STORES`); the
   stores later: `gh workflow run release.yml -f tag=vX.Y.Z`.
+
+## The key binding
+
+For a controller player (no keyboard for the slash command, a cursor to steer to the minimap button). `addon/Yonder/Bindings.xml` and `ns.kit.binding(...)` at the end of `Minimap.lua`: one key or pad button, chosen in the game's Key Bindings under the addon's own heading ("Open <the addon>"), opens and closes the journal through `ns.toggle`, as the minimap button's click does. The binding does nothing until the player puts a key on it. The kit's `K.binding`, the file, what the game does in each game and what is not verified: `addon-kit/docs/controller.md`, "Opening by a pad button". `bun run bindings` (part of `check`) checks the file, the function and the package.

@@ -1,0 +1,5 @@
+<Bindings>
+	<Binding name="YONDER_OPEN" category="BINDING_HEADER_YONDER">
+		YonderBinding();
+	</Binding>
+</Bindings>
