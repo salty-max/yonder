@@ -264,6 +264,9 @@ folder ~/code/wow-addons/yonder (both field-journal until 13 October 2026).
   All five collection note sets are translated.
 - `addon/test/sim.lua`: fake WoW API, a dwarf's first hunts, every recording
   asserted. `FOREVER=1` runs it as Forever (no combat log, secret values).
+  `PAPER=1` runs it with the paper look on at the Largest book size: every
+  colour painted is recorded and none may be the dark look's (tooltip lines
+  excepted: the game's tooltips stay dark, `ns.TIP`).
 
 ## The daily game data
 

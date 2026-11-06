@@ -5,6 +5,11 @@
 local DIR = "addon/Yonder/"
 held = dofile("addon/test/held.lua")
 local FOREVER = os.getenv("FOREVER") == "1"
+-- PAPER=1: the same replay with the paper look on and the book at its largest;
+-- every colour the addon paints is recorded and checked at the end.
+-- (a global: the file is at the game's limit of locals)
+LOOK = { paper = os.getenv("PAPER") == "1", painted = {}, coded = {}, dark = {}, tips = {} }
+-- painted: { how, r, g, b, a } for each colour set on a piece; coded: the |cffRRGGBB codes of every text set
 function GetBuildInfo() return "1.15.8", "60000", "Oct 1 2026", FOREVER and 16001 or 11509 end
 -- Values the game hides from addons on Forever.
 local secrets = {}
@@ -218,7 +223,20 @@ local function ui()
         return function(self) return self.mouseOver == true end
       end
       if k == "SetText" then
-        return function(self, v) self.text = v end
+        return function(self, v)
+          self.text = v
+          if LOOK.paper and type(v) == "string" then
+            for hex in v:gmatch("|cff(%x%x%x%x%x%x)") do
+              LOOK.coded[hex] = true
+            end
+          end
+        end
+      end
+      if k == "SetTextColor" or k == "SetColorTexture" or k == "SetBackdropColor" or k == "SetBackdropBorderColor" then
+        return function(self, r, g, b, a)
+          rawset(self, "paint" .. k, { r, g, b, a })
+          if LOOK.paper then table.insert(LOOK.painted, { k, r, g, b, a }) end
+        end
       end
       if k == "SetTexture" then
         -- (a texture drawn: what it shows, no creature's portrait any more)
@@ -231,7 +249,16 @@ local function ui()
       end
       -- (a texture's tint and greying: a ring's colour)
       if k == "SetVertexColor" then
-        return function(self, r, g, b) self.vertex = { r, g, b } end
+        return function(self, r, g, b, a)
+          self.vertex = { r, g, b }
+          if LOOK.paper then table.insert(LOOK.painted, { k, r, g, b, a }) end
+        end
+      end
+      if k == "SetScale" then
+        return function(self, v) rawset(self, "scale", v) end
+      end
+      if k == "GetScale" then
+        return function(self) return rawget(self, "scale") or 1 end
       end
       if k == "SetDesaturated" then
         return function(self, v) self.desaturated = v end
@@ -286,6 +313,7 @@ local function ui()
   })
 end
 UIParent, UISpecialFrames, SlashCmdList = ui(), {}, {}
+UIParent.GetWidth, UIParent.GetHeight = function() return 1920 end, function() return 1080 end
 Minimap, GameTooltip = ui(), ui()
 -- The minimap: its zoom (0, the widest, by default), a mask for what is drawn
 -- on it; whether the reader is indoors, where they face, the setting that
@@ -301,7 +329,12 @@ if FOREVER then C_Minimap = { GetViewRadius = function() return 200 end } end
 local tipHooks, tipLines, tipUnit = {}, {}, nil
 GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
 GameTooltip.GetUnit = function() return "Someone", tipUnit end
-GameTooltip.AddLine = function(self, text) table.insert(tipLines, text) end
+GameTooltip.AddLine = function(self, text, r, g, b)
+  table.insert(tipLines, text)
+  -- (Yonder's own lines only: the kit's page tooltips paint paper ink on the dark tooltip, which is the kit's to fix)
+  local from = debug.getinfo(2, "S").source
+  if LOOK.paper and r and not from:find("Kit.lua", 1, true) then table.insert(LOOK.tips, { r, g, b }) end
+end
 function UnitPlayerControlled() return false end
 function UnitIsPlayer(u) return u == "player" end
 function GetCursorPosition() return 0, 0 end
@@ -567,6 +600,10 @@ for line in io.lines(DIR .. (FOREVER and "Yonder_Camelot.toc" or "Yonder_Vanilla
   if f and not f:match("^Data_") then assert(loadfile(DIR .. f))("Yonder", ns) end
 end
 local D = ns.data
+-- The dark look's colours as the files left them (before the options are read).
+for k, c in pairs(ns.kit.T) do
+  LOOK.dark[k] = type(c) == "table" and { c[1], c[2], c[3], c[4] } or c
+end
 -- The banners shown (what each said, its kind and id), and the kit's banners
 -- themselves, to clear them between scenes.
 local toasted, banners = {}, nil
@@ -604,6 +641,8 @@ end
 
 -- ── a session ────────────────────────────────────────────────────────────────
 YonderChar = { guid = "Player-6113-0DEAD000", creatures = { [1131] = { name = "Winter Wolf" } }, families = {} }
+-- (a character who chose the paper at the largest size: the profile is read at the login, before any window)
+if LOOK.paper then YonderSettings = { profiles = { ["Thorin - Nightslayer"] = { paper = true, bookSize = 4 } } } end
 fire("PLAYER_LOGIN")
 check(YonderChar.guid == PLAYER and not rec(1131), "a new character named like a deleted one starts a fresh journal")
 check(
@@ -2974,6 +3013,112 @@ do
   YonderBinding()
   check(YonderFrame:IsShown() == was, "… and a second press closes it")
   check(BINDING_HEADER_YONDER ~= nil, "… under the addon's own heading")
+end
+
+-- the options page offers both choices, and the settings default to the dark look at the normal size
+do
+  local PAPER = LOOK.paper
+  check(
+    ns.option("paper") == PAPER and ns.option("bookSize") == (PAPER and 4 or 1),
+    "the look settings: " .. (PAPER and "paper at size 4, as the run chose" or "dark at size 1 by default")
+  )
+  check(ns.kit.paper == PAPER, "the book was built in the " .. (PAPER and "paper" or "dark") .. " look")
+  check(
+    YonderFrame:GetScale() == (PAPER and 1.5 or 1),
+    "the window is at its book size (" .. (PAPER and "Largest, 1.5" or "Normal, 1") .. ")"
+  )
+  for step, scale in ipairs({ 1, 1.15, 1.3, 1.5 }) do
+    ns.kit.resize(step)
+    check(YonderFrame:GetScale() == scale, "book size " .. step .. " scales the window to " .. scale)
+  end
+  ns.kit.resize(PAPER and 4 or 1)
+end
+
+-- the dark look is as it was: the pieces' colours are the old literals
+if not LOOK.paper then
+  check(
+    ns.ui.mark() == "|cffff9a40" and ns.ui.rare() == "|cffc7ccd6",
+    "dark: a trophy's orange and a rare's silver are the old ones"
+  )
+  check(
+    ns.ui.soft() == ns.kit.hex(ns.kit.T.soft) and ns.ui.link() == ns.kit.hex(ns.kit.T.accent),
+    "dark: soft and link are the theme's"
+  )
+  check(
+    ns.sealInk(ns.SEALS.gold)[2] == 0.82
+      and ns.sealInk(ns.SEALS.silver)[1] == 0.78
+      and ns.sealInk(ns.SEALS.plain)[3] == 0.35
+      and ns.sealInk(ns.HUNT_SEALS.before) == ns.kit.T.soft,
+    "dark: the seals' colours are the old ones"
+  )
+end
+
+-- the paper look: nothing built keeps a colour of the dark look
+if LOOK.paper then
+  local painted, coded, darkT = LOOK.painted, LOOK.coded, LOOK.dark
+  local function same(c, d)
+    return d and math.abs(c[1] - d[1]) < 0.002 and math.abs(c[2] - d[2]) < 0.002 and math.abs(c[3] - d[3]) < 0.002
+  end
+  local dark = {}
+  for _, k in ipairs({ "text", "soft", "accent", "aside", "ring", "bar", "dim", "gold" }) do
+    dark[k] = darkT[k]
+  end
+  -- (the seals' own colours, before they are darkened for the paper)
+  dark.goldSeal, dark.silverSeal, dark.copperSeal = { 1, 0.82, 0 }, { 0.78, 0.8, 0.84 }, { 0.8, 0.55, 0.35 }
+  -- (what is laid over the game's own pictures, never over the paper: the map's circles and its picked place's
+  -- border, a texture's tint)
+  local overArt = { { 0.95, 0.8, 0.35 } }
+  local stale = {}
+  for _, p in ipairs(painted) do
+    local how, c = p[1], { p[2], p[3], p[4] }
+    if type(c[1]) == "number" and type(c[2]) == "number" and type(c[3]) == "number" then
+      local art = how == "SetBackdropBorderColor" or how == "SetVertexColor"
+      for name, d in pairs(dark) do
+        -- (the picked place's gold border lies on the map's art)
+        local onMap = how == "SetBackdropBorderColor" and same(c, { 1, 0.82, 0 })
+        if same(c, d) and not (art and same(c, overArt[1])) and not onMap then stale[name .. " by " .. how] = true end
+      end
+    end
+  end
+  local names = {}
+  for k in pairs(stale) do
+    table.insert(names, k)
+  end
+  table.sort(names)
+  check(#painted > 100, "the paper run painted pieces (" .. #painted .. " colours recorded)")
+  check(
+    #names == 0,
+    "no piece keeps a colour of the dark look" .. (#names > 0 and (": " .. table.concat(names, ", ")) or "")
+  )
+  -- the game's tooltips stay dark: their lines keep the dark look's colours
+  for _, t in ipairs(LOOK.tips) do
+    local ok = same(t, { 1, 1, 1 })
+    for _, k in ipairs({ "accent", "text", "soft" }) do
+      ok = ok or same(t, darkT[k])
+    end
+    assert(ok, ("a tooltip line in a colour that is not the dark look's: %.2f %.2f %.2f"):format(t[1], t[2], t[3]))
+  end
+  check(
+    same(ns.TIP.accent, darkT.accent) and same(ns.TIP.text, darkT.text) and same(ns.TIP.soft, darkT.soft),
+    "tooltip lines keep the dark look's colours (" .. #LOOK.tips .. " recorded)"
+  )
+  local hexes = {}
+  for hex in pairs(coded) do
+    table.insert(hexes, hex)
+  end
+  table.sort(hexes)
+  for _, hex in ipairs(hexes) do
+    local c =
+      { tonumber(hex:sub(1, 2), 16) / 255, tonumber(hex:sub(3, 4), 16) / 255, tonumber(hex:sub(5, 6), 16) / 255 }
+    for name, d in pairs(dark) do
+      assert(not same(c, d), "a text's colour code |cff" .. hex .. " is the dark look's " .. name)
+    end
+    assert(
+      hex ~= "ff9a40" and hex ~= "c7ccd6" and hex ~= "ffd100",
+      "a text's colour code |cff" .. hex .. " is a dark-look constant"
+    )
+  end
+  check(true, "no text's colour code is the dark look's (" .. #hexes .. " codes: " .. table.concat(hexes, " ") .. ")")
 end
 
 io.write(FOREVER and "all good (Forever)\n" or "all good\n")

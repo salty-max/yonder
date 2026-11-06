@@ -13,9 +13,19 @@ local L = ns.kit.L
 -- The kit's (Kit.lua), in the Yonder's theme (set first thing in Core.lua).
 local K = ns.kit
 local T = K.T
-T.mark, T.rare, T.link = "|cffff9a40", "|cffc7ccd6", K.hex(T.accent)
 local BODY_FONT, TITLE_FONT = K.BODY_FONT, K.TITLE_FONT
-local SOFT = K.hex(T.soft)
+-- Colours are read when a piece is built, never at load: the paper look is known
+-- only once the options are read (K.applyLook), after every file has loaded.
+-- A trophy's orange and a rare's silver are darkened on paper until they read on the
+-- panels (where these words stand: the list and the page, never the window's body).
+local function inked(c, dark)
+  if not K.paper then return dark end
+  return K.hex(K.ink(c, { T.ground }))
+end
+local function softHex() return K.hex(T.soft) end
+local function linkHex() return K.hex(T.accent) end
+local function markHex() return inked({ 1, 0.604, 0.251 }, "|cffff9a40") end
+local function rareHex() return inked({ 0.78, 0.8, 0.84 }, "|cffc7ccd6") end
 local label, rule, panel, scrollArea = K.label, K.rule, K.panel, K.scrollArea
 -- A round portrait in the theme's ring, a dark disc behind it (p.tex: what it shows).
 local function roundPortrait(parent, size) return K.roundIcon(parent, size, true) end
@@ -111,7 +121,10 @@ ns.ui = {
   BODY_FONT = BODY_FONT,
   WIDTH = WIDTH,
   HEADER_H = HEADER_H,
-  SOFT = SOFT,
+  soft = softHex,
+  link = linkHex,
+  mark = markHex,
+  rare = rareHex,
   QUESTION = K.QUESTION,
   label = label,
   rule = rule,

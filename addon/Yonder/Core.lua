@@ -51,6 +51,13 @@ K.theme({
   highlight = { 0.80, 1.00, 0.75 },
 })
 
+-- The game's tooltips stay dark whatever the book's look: their lines keep the
+-- dark look's colours, copied now, before the options can choose the paper.
+do
+  local function copy(c) return { c[1], c[2], c[3] } end
+  ns.TIP = { accent = copy(K.T.accent), text = copy(K.T.text), soft = copy(K.T.soft) }
+end
+
 local PREFIX = K.prefix("Yonder")
 ns.PREFIX = PREFIX
 

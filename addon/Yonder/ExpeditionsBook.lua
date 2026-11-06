@@ -91,8 +91,17 @@ local HUNT_SEALS = {
     SEALS.plain[6],
     SEALS.plain[7],
   },
-  before = { nil, L["None"], L["brought down before the journal kept the hunts"], T.soft },
+  before = { nil, L["None"], L["brought down before the journal kept the hunts"], nil },
 }
+-- A seal's colour for a name: gold, silver or copper, darkened on paper until it
+-- reads (silver on tan is 1 to 1); the soft grey for no seal. Read when a piece
+-- is built, never kept (the paper look is known only after the files have loaded).
+function ns.sealInk(seal)
+  local c = seal[4]
+  if not c then return T.soft end
+  if ns.kit.paper then return ns.kit.ink(c, { T.ground }) end
+  return c
+end
 local TIERS = { near = L["Near the road"], off = L["Off the road"], hidden = L["Hidden"], town = L["In town"] }
 local RANKS = { elite = L["An elite"], rare = L["A rare"], rareelite = L["A rare elite"] }
 
@@ -212,7 +221,7 @@ end
 local function item(text, id, seal)
   local row = list:add("riddle", text)
   row.id = id
-  if seal then row.text:SetTextColor(unpack(seal[4])) end
+  if seal then row.text:SetTextColor(unpack(ns.sealInk(seal))) end
   row:SetScript("OnClick", function()
     current = id
     ns.refresh()
@@ -405,7 +414,7 @@ local function sealBlock(seal, how, rec)
     s.coin:Hide()
   end
   s.name:SetText(seal[1] and seal[7] or L["No seal"])
-  s.name:SetTextColor(unpack(seal[4]))
+  s.name:SetTextColor(unpack(ns.sealInk(seal)))
   s.detail:SetText(rec.retro and how or (L["%s, on %s, at level %d."]):format(how, ui.day(rec), rec.level or 0))
   page:place(s, 66)
 end

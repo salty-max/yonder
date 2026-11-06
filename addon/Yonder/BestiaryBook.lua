@@ -8,7 +8,7 @@ local _, ns = ...
 local L = ns.kit.L
 local D = ns.data
 local ui = ns.ui
-local T, SOFT, QUESTION = ui.T, ui.SOFT, ui.QUESTION
+local T, QUESTION = ui.T, ui.QUESTION
 
 local TROPHIES = "trophies"
 local book, list, page
@@ -78,9 +78,9 @@ end
 local function rankTag(id, rec)
   local rank = rankOf(id, rec)
   if rec.trophy then
-    return ("  %s%s|r"):format(T.mark, RANK[rank] and L["%s, trophy"]:format(RANK[rank]) or L["trophy"])
+    return ("  %s%s|r"):format(ui.mark(), RANK[rank] and L["%s, trophy"]:format(RANK[rank]) or L["trophy"])
   end
-  if rank then return ("  %s%s|r"):format(T.rare, RANK[rank]) end
+  if rank then return ("  %s%s|r"):format(ui.rare(), RANK[rank]) end
   return ""
 end
 
@@ -180,10 +180,10 @@ local function dropLines(rec, itemId)
     local drop = ns.dropRate(rec, itemId)
     if not drop then return end
     tip:AddLine(" ")
-    tip:AddLine(L["Drop rate: %s"]:format(drop.rate), T.accent[1], T.accent[2], T.accent[3])
-    tip:AddLine(drop.detail, T.soft[1], T.soft[2], T.soft[3], true)
+    tip:AddLine(L["Drop rate: %s"]:format(drop.rate), ns.TIP.accent[1], ns.TIP.accent[2], ns.TIP.accent[3])
+    tip:AddLine(drop.detail, ns.TIP.soft[1], ns.TIP.soft[2], ns.TIP.soft[3], true)
     if drop.before then
-      tip:AddLine(L["It dropped for you before the count began."], T.soft[1], T.soft[2], T.soft[3], true)
+      tip:AddLine(L["It dropped for you before the count began."], ns.TIP.soft[1], ns.TIP.soft[2], ns.TIP.soft[3], true)
     end
   end
 end
@@ -216,7 +216,7 @@ local function showFamily(key)
       end
     end)
     intro = family and #family.note > 0 and table.concat(family.note, "\n\n")
-      or (SOFT .. L["The naturalist has not yet written of these. What follows is your own record."] .. "|r")
+      or (ui.soft() .. L["The naturalist has not yet written of these. What follows is your own record."] .. "|r")
   end
   page:text({ intro })
   local slainAll, trophies, bosses = 0, 0, 0
@@ -263,7 +263,7 @@ local function showCreature(id)
   local rank = rankOf(id, rec)
   start(
     ns.creatureName(id, rec),
-    joined({ T.link .. ns.familyTitle(current) .. "|r", levels(id, rec), RANK[rank] }),
+    joined({ ui.link() .. ns.familyTitle(current) .. "|r", levels(id, rec), RANK[rank] }),
     function(p) setPortrait(p, id, rec) end,
     ringOf(id, rec)
   )
@@ -309,7 +309,7 @@ local function showCreature(id)
       page:row(L["Last kill"], day(rec.lastSlain))
     end
   else
-    page:row(L["Slain"], SOFT .. L["none yet"] .. "|r")
+    page:row(L["Slain"], ui.soft() .. L["none yet"] .. "|r")
   end
   if rec.trophy then page:row(L["Trophy"], L["%s, at level %d"]:format(day(rec.trophy), rec.trophy.level or 0)) end
   page.y = page.y + 10
@@ -433,7 +433,7 @@ local function refreshList()
     if not open then return end
     for _, id in ipairs(shownIds) do
       local rec = creatures[id]
-      local mark = rankOf(id, rec) and (" " .. SOFT .. "*|r") or ""
+      local mark = rankOf(id, rec) and (" " .. ui.soft() .. "*|r") or ""
       local c = list:add("creature", ns.creatureName(id, rec) .. mark)
       c.id = id
       c:SetScript("OnClick", function()

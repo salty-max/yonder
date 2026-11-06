@@ -7,7 +7,7 @@
 --
 --   YonderSettings.profiles["Name - Realm"] = { banner, bannerSeconds, sound,
 --     achievementSound, minimapHidden, minimapAngle, tooltipHints, milestoneToast, worldMapPins,
---     welcomed }
+--     bookSize, paper, welcomed }
 --   (banner: a riddle's and a quarry's; milestoneToast: a milestone's, the
 --   game's achievement alert. The chat lines have no setting any more,
 --   always shown: a profile's old chat value is left unread)
@@ -30,6 +30,8 @@ local DEFAULTS = {
   achievementSound = K.ACHIEVEMENT_SOUND,
   worldMapPins = true,
   welcomed = false,
+  bookSize = 1,
+  paper = false,
 }
 local SHARED = {
   "banner",
@@ -165,6 +167,7 @@ function ns.createSettingsPanel()
     L["The book by the minimap: click to open the journal, drag to move it."],
     true
   )
+  O:look()
   O:collect(ns.collect)
   O:copy()
   O:done()

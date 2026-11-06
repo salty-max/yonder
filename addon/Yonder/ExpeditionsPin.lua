@@ -90,12 +90,12 @@ local function build()
   end)
   card:SetScript("OnEnter", function(self)
     GameTooltip:SetOwner(self, "ANCHOR_BOTTOM")
-    GameTooltip:AddLine("Yonder", T.accent[1], T.accent[2], T.accent[3])
+    GameTooltip:AddLine("Yonder", ns.TIP.accent[1], ns.TIP.accent[2], ns.TIP.accent[3])
     GameTooltip:AddLine(
       L["Click to open it in the journal, or drag to move it."],
-      T.text[1],
-      T.text[2],
-      T.text[3],
+      ns.TIP.text[1],
+      ns.TIP.text[2],
+      ns.TIP.text[3],
       true
     )
     GameTooltip:Show()
@@ -105,10 +105,10 @@ local function build()
   place()
 end
 
-local function seal(name, color)
-  return ("|cff%02x%02x%02x%s|r"):format(color[1] * 255, color[2] * 255, color[3] * 255, name)
+local function seal(entry)
+  local color = ns.sealInk(entry)
+  return ("|cff%02x%02x%02x%s|r"):format(color[1] * 255, color[2] * 255, color[3] * 255, entry[6])
 end
-local SEAL_COLORS = { gold = { 1, 0.82, 0 }, silver = { 0.78, 0.8, 0.84 }, plain = { 0.8, 0.55, 0.35 } }
 
 -- (its seal its ring, as on the riddle's page: ExpeditionsBook's ns.sealRing)
 local function ring(spec) ns.kit.ringColour(card.picture, spec and spec[1], spec and spec[2]) end
@@ -125,7 +125,7 @@ local function fill(r, q)
     if rec.at then
       local s = ns.riddleSeal(rec)
       card.title:SetText(ns.riddleName(r))
-      table.insert(extra, L["Read, with %s."]:format(seal(ns.SEALS[s][6], SEAL_COLORS[s])))
+      table.insert(extra, L["Read, with %s."]:format(seal(ns.SEALS[s])))
     else
       card.title:SetText(TIERS[r.tier])
       if (rec.hints or 0) >= 1 then table.insert(extra, L["The clue: %s"]:format(r.hint)) end
@@ -145,7 +145,7 @@ local function fill(r, q)
       table.insert(
         extra,
         s == "before" and L["Brought down before the journal kept the hunts."]
-          or L["Brought down, with %s."]:format(seal(ns.HUNT_SEALS[s][6], SEAL_COLORS[s]))
+          or L["Brought down, with %s."]:format(seal(ns.HUNT_SEALS[s]))
       )
     else
       local target = ns.huntTarget()

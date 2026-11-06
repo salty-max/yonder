@@ -13,8 +13,8 @@ local Map = {}
 
 local function tooltip(self)
   GameTooltip:SetOwner(self, "ANCHOR_RIGHT")
-  GameTooltip:AddLine(self.title, unpack(ui.T.accent))
-  if self.text then GameTooltip:AddLine(self.text, ui.T.text[1], ui.T.text[2], ui.T.text[3], true) end
+  GameTooltip:AddLine(self.title, unpack(ns.TIP.accent))
+  if self.text then GameTooltip:AddLine(self.text, ns.TIP.text[1], ns.TIP.text[2], ns.TIP.text[3], true) end
   GameTooltip:Show()
 end
 local function untooltip() GameTooltip:Hide() end
