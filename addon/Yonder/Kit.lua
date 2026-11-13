@@ -1,4 +1,4 @@
--- addon-kit 466b311: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
+-- addon-kit ecf7908: a copy (kit:sync); edit the addon-kit repository's Kit.lua instead
 -- The kit every addon of the family carries but Keyring (Hearthtale,
 -- Lorekeeper's Codex, Yonder, Second Wind, Palaver, Mealbook, Goodwill, Yours
 -- Truly, Primer): which game this is and the addon's events, its words, the books'
@@ -3981,10 +3981,30 @@ function K.book(o)
     if K.paper then
       -- (the same box as the dark look's, its border and shape the template's:
       -- only the fill under its art is the paper's light, and the words are the ink)
+      -- (the art's left cap stands 5 outside the box, InputBoxVisualTemplate: the fill and the
+      -- edge start where it does)
+      local cap = rawget(f.search, "Left")
+      local from = type(cap) == "table" and cap or f.search
       local fill = f.search:CreateTexture(nil, "BACKGROUND", nil, -8)
-      fill:SetPoint("TOPLEFT", 2, -2)
-      fill:SetPoint("BOTTOMRIGHT", -2, 2)
+      fill:SetPoint("TOPLEFT", from, "TOPLEFT", 2, -2)
+      fill:SetPoint("BOTTOMRIGHT", f.search, "BOTTOMRIGHT", -2, 2)
       fill:SetColorTexture(T.field[1], T.field[2], T.field[3], 1)
+      -- (the template's edge is drawn for a dark ground and vanishes on the tan: the
+      -- same edge again in the ring's colour, inked to be seen on the paper)
+      for _, side in ipairs({ "TOP", "BOTTOM", "LEFT", "RIGHT" }) do
+        local line = f.search:CreateTexture(nil, "BORDER")
+        line:SetColorTexture(T.ring[1], T.ring[2], T.ring[3], 1)
+        if side == "TOP" or side == "BOTTOM" then
+          line:SetHeight(1)
+          line:SetPoint(side .. "LEFT", from, side .. "LEFT")
+          line:SetPoint(side .. "RIGHT", f.search, side .. "RIGHT")
+        else
+          line:SetWidth(1)
+          local anchor = side == "LEFT" and from or f.search
+          line:SetPoint("TOP" .. side, anchor, "TOP" .. side)
+          line:SetPoint("BOTTOM" .. side, anchor, "BOTTOM" .. side)
+        end
+      end
       -- (the template's fonts are small, outlined and shadowed, drawn for light
       -- on dark: thin and smudged in ink. The kit's body font, plain, like the labels)
       f.search:SetFont(K.BODY_FONT, 12, "")
