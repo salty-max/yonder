@@ -331,9 +331,7 @@ GameTooltip.HookScript = function(self, name, fn) tipHooks[name] = fn end
 GameTooltip.GetUnit = function() return "Someone", tipUnit end
 GameTooltip.AddLine = function(self, text, r, g, b)
   table.insert(tipLines, text)
-  -- (Yonder's own lines only: the kit's page tooltips paint paper ink on the dark tooltip, which is the kit's to fix)
-  local from = debug.getinfo(2, "S").source
-  if LOOK.paper and r and not from:find("Kit.lua", 1, true) then table.insert(LOOK.tips, { r, g, b }) end
+  if LOOK.paper and r then table.insert(LOOK.tips, { r, g, b }) end
 end
 function UnitPlayerControlled() return false end
 function UnitIsPlayer(u) return u == "player" end
@@ -3112,7 +3110,11 @@ if LOOK.paper then
   )
   -- the game's tooltips stay dark: their lines keep the dark look's colours
   for _, t in ipairs(LOOK.tips) do
+    -- (white, the dark look's own, and the kit's fixed tooltip colours: the game's tooltip is dark whatever the look)
     local ok = same(t, { 1, 1, 1 })
+      or same(t, ns.kit.TIP_NEW)
+      or same(t, ns.kit.TIP_KNOWN)
+      or same(t, { 0.7, 0.7, 0.7 })
     for _, k in ipairs({ "accent", "text", "soft" }) do
       ok = ok or same(t, darkT[k])
     end
