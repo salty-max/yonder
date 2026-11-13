@@ -235,7 +235,7 @@ local function ui()
       if k == "SetTextColor" or k == "SetColorTexture" or k == "SetBackdropColor" or k == "SetBackdropBorderColor" then
         return function(self, r, g, b, a)
           rawset(self, "paint" .. k, { r, g, b, a })
-          if LOOK.paper then table.insert(LOOK.painted, { k, r, g, b, a }) end
+          if LOOK.paper and not LOOK.inSelect then table.insert(LOOK.painted, { k, r, g, b, a }) end
         end
       end
       if k == "SetTexture" then
@@ -251,7 +251,7 @@ local function ui()
       if k == "SetVertexColor" then
         return function(self, r, g, b, a)
           self.vertex = { r, g, b }
-          if LOOK.paper then table.insert(LOOK.painted, { k, r, g, b, a }) end
+          if LOOK.paper and not LOOK.inSelect then table.insert(LOOK.painted, { k, r, g, b, a }) end
         end
       end
       if k == "SetScale" then
@@ -603,6 +603,26 @@ local D = ns.data
 -- The dark look's colours as the files left them (before the options are read).
 for k, c in pairs(ns.kit.T) do
   LOOK.dark[k] = type(c) == "table" and { c[1], c[2], c[3], c[4] } or c
+end
+-- The kit's own select keeps the dark look's colours on paper, by design: what it paints
+-- while it is built, filled or set is left out of the paper run's record.
+do
+  local make = ns.kit.select
+  ns.kit.select = function(...)
+    LOOK.inSelect = true
+    local s = make(...)
+    LOOK.inSelect = false
+    for _, name in ipairs({ "SetOptions", "SetValue" }) do
+      local method = s[name]
+      s[name] = function(...)
+        LOOK.inSelect = true
+        local a, b = method(...)
+        LOOK.inSelect = false
+        return a, b
+      end
+    end
+    return s
+  end
 end
 -- The banners shown (what each said, its kind and id), and the kit's banners
 -- themselves, to clear them between scenes.
