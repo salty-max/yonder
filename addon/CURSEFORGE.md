@@ -82,6 +82,10 @@ Type `/yonder` or click the minimap button to open the journal. Each login says 
 
 Settings are under **Options > AddOns > Yonder**, through `/yonder settings` or by right-clicking the minimap button. Choose the banners for riddles, quarries and collection unlocks, the alerts for achievements (each its own switch), trophy sounds, map markers, tooltip hints and whether to show the minimap button. Chat lines always show.
 
+Two choices change how the journal looks. **Book size** makes the whole window larger, in four steps from Normal to Largest. **Paper colours** replace the dark look with dark ink on tan paper, which some players find easier on the eyes. Paper colours take effect after a reload, and the settings page ends with a **Reload** button for it.
+
+**Options > Key Bindings** lists **Open Yonder** under a heading of its own. Put a key on it, or on Forever a controller button, and one press opens or closes the journal. Nothing is bound until you choose.
+
 Settings are saved per character. Copy them from another character of the same game on the welcome or settings page, or transfer them with `/yonder export` and `/yonder import CODE`. Codes made by Explorer's Field Journal still work.
 
 - `/yonder where` shows your current map and position.

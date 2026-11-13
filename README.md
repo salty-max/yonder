@@ -64,6 +64,10 @@ Type `/yonder` or click the minimap button. The journal opens on Expeditions.
 Each login says in chat what the journal holds.
 Settings are under **Options > AddOns > Yonder**, or `/yonder settings`.
 
+The settings also offer the book's size (four steps) and paper colours (dark ink on tan paper, applied by a
+reload: the page ends with a Reload button). **Options > Key Bindings** lists **Open Yonder**: one key,
+or on Forever a controller button, opens and closes the journal. Nothing is bound until you choose.
+
 - `/yonder welcome` reopens the welcome page.
 - `/yonder where` shows your current map and position.
 - `/yonder minimap` shows or hides the minimap button.
